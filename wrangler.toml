@@ -1,0 +1,35 @@
+# The Cloudflare Worker for the study page: one Worker serving the built page
+# (dist/, via the assets binding) and the single /api route that has to stay on
+# a server.
+#
+# ⚠️ PERSONAL account only (the personal account). Authenticate with the
+# CLOUDFLARE_API_TOKEN env var from .env - NEVER `wrangler login` on this
+# machine, because that OAuth session belongs to the work projects and this project
+# has nothing to do with the work projects.
+#
+#   set -a && . ./.env && set +a && npm run cf:deploy
+name = "pte-vocab"
+main = "worker/index.js"
+compatibility_date = "2026-07-01"
+
+account_id = "REDACTED"
+
+# The page and every static file it reads: the deck, the usage sentences, the
+# essays and model answers, the stripped grammar syllabus, and the pre-rendered
+# audio. Built by `node tools/build-cloud.js`.
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+# /word_list, /batches/words-3/training, /grammar/<id>, /essays and /practice
+# are client-side routes: the server has to answer them with the page and let
+# the router decide, exactly as src/server.js does for every non-/api/ GET.
+not_found_handling = "single-page-application"
+# 🔴 REQUIRED. Without it Cloudflare's asset router answers NAVIGATION requests
+# with index.html BEFORE the Worker runs, which silently shadows /api/*: fetch
+# still works, so the app looks fine, but any browser navigation to an API URL
+# gets the page shell instead. Learned the expensive way on another project.
+run_worker_first = ["/api/*"]
+
+# No D1, no R2, no KV, and no secrets - on purpose. A visitor's progress lives
+# in their own localStorage, so there is nothing here to store, back up, or
+# leak. See web/cloud-store.js for why that is the right trade for this tool.

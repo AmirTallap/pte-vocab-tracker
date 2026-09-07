@@ -1044,13 +1044,17 @@
   <label class="chk" title="Speak the word as soon as the answer is revealed">
     <input type="checkbox" id="voiceAuto"> Speak on reveal
   </label>
-  <span class="lbl">Speed</span>
-  <select id="voiceSpeed" aria-label="Speaking speed">
-    <option value="0.7">0.7&times;</option>
-    <option value="0.85">0.85&times;</option>
-    <option value="1" selected>1&times;</option>
-    <option value="1.15">1.15&times;</option>
-  </select>
+  <!-- Grouped so the cloud build can hide it whole: speed is baked into a
+       rendering, and the pre-rendered clips are all 1x. -->
+  <span id="voiceSpeedCtl">
+    <span class="lbl">Speed</span>
+    <select id="voiceSpeed" aria-label="Speaking speed">
+      <option value="0.7">0.7&times;</option>
+      <option value="0.85">0.85&times;</option>
+      <option value="1" selected>1&times;</option>
+      <option value="1.15">1.15&times;</option>
+    </select>
+  </span>
   <button class="btn small" id="voiceTest">Hear it</button>
   <span class="voicenote" id="voiceNote"></span>
 </div>
@@ -1606,6 +1610,13 @@
     if (stale && body) {
       return Promise.reject(new Error("the server is running older code - restart npm run web"));
     }
+    /* The cloud build has no server to write to: the same routes are answered
+       from localStorage by web/cloud-store.js, which runs the very same rules
+       out of src/batches.js. This is the one seam - every call in this file
+       goes through api(), so nothing below here knows which host answered. */
+    if (window.PTE_CLOUD) return Promise.resolve().then(function () {
+      return window.PTE_CLOUD.api(path, body);
+    });
     return fetch(path, body ? {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -3002,6 +3013,9 @@
   }
 
   function sayUrl(text, voice, speed) {
+    // Pre-rendered and shipped in the cloud build - there is no 326MB model on
+    // a Worker. Returns null when a word has no clip, and every caller checks.
+    if (window.PTE_CLOUD) return window.PTE_CLOUD.sayUrl(text, voice);
     return "/api/tts?text=" + encodeURIComponent(text) +
            "&voice=" + encodeURIComponent(voice) +
            "&speed=" + encodeURIComponent(speed);
@@ -3014,7 +3028,9 @@
      report anything actually wrong. */
   function prefetchSpeech(text) {
     if (!text || !settings.voice.auto) return;
-    fetch(sayUrl(text, settings.voice.id, settings.voice.speed))["catch"](function () {});
+    var url = sayUrl(text, settings.voice.id, settings.voice.speed);
+    if (!url) return;
+    fetch(url)["catch"](function () {});
   }
 
   /**
@@ -3024,6 +3040,7 @@
   function speak(text, btn) {
     if (!text) return Promise.resolve();
     var url = sayUrl(text, settings.voice.id, settings.voice.speed);
+    if (!url) { voiceNote("No recording for this one.", "warn"); return Promise.resolve(); }
     if (btn) btn.classList.add("is-busy");
     voiceNote("");
 
@@ -3086,7 +3103,12 @@
   }
 
   function loadVoices() {
-    return fetch("/api/tts/voices").then(function (r) { return r.json(); })
+    // In the cloud build this lists only the voices actually rendered by
+    // tools/render-audio.js - offering one with no clips would be a dropdown
+    // full of silence.
+    var src = window.PTE_CLOUD ? "/static/voices.json" : "/api/tts/voices";
+    if (window.PTE_CLOUD) document.getElementById("voiceSpeedCtl").hidden = true;
+    return fetch(src).then(function (r) { return r.json(); })
       .then(function (d) {
         voices = d.voices || [];
         accents = d.accents || [];
@@ -4539,17 +4561,27 @@
 
   /* ----------------------------------------------------------------- go */
 
-  Promise.all([loadDeck(), loadUsage()]).then(function () {
-    applyRoute();
-    // After the deck, not with it: the voice bar is a nicety and must not hold
-    // up the first card, and a server without TTS simply hides the bar.
-    loadVoices();
-  })["catch"](function (err) {
-    el.stimulus.innerHTML =
-      '<div class="empty"><p class="big">Could not reach the server.</p>' +
-      '<p class="hint">' + esc(err.message) +
-      " - is <b>npm run web</b> still running in your terminal?</p></div>";
-  });
+  function boot() {
+    return Promise.all([loadDeck(), loadUsage()]).then(function () {
+      applyRoute();
+      // After the deck, not with it: the voice bar is a nicety and must not hold
+      // up the first card, and a server without TTS simply hides the bar.
+      loadVoices();
+    })["catch"](function (err) {
+      el.stimulus.innerHTML =
+        '<div class="empty"><p class="big">' +
+        (window.PTE_CLOUD ? "Could not load the deck." : "Could not reach the server.") +
+        '</p><p class="hint">' + esc(err.message) +
+        (window.PTE_CLOUD ? "" : " - is <b>npm run web</b> still running in your terminal?") +
+        "</p></div>";
+    });
+  }
+
+  /* The cloud build loads its store as a module, and the browser defers a
+     module past this classic script - so window.PTE_CLOUD does not exist yet
+     when this line runs. It hands boot() over instead, and cloud-store.js
+     calls it once the deck and the saved progress are both in hand. */
+  if (window.PTE_CLOUD_PENDING) window.PTE_BOOT = boot; else boot();
 })();
 
 </script>

@@ -12,3 +12,5 @@ data/*.backup-*.json
 
 # The generated cloud build. Everything in it comes from web/, src/ and data/.
 dist/
+worker/grammar-key.json
+

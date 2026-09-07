@@ -15,7 +15,11 @@
     "review-mode": "node index.js review",
     "recall": "node index.js recall",
     "triage": "node index.js triage",
-    "export-batch": "node index.js export-batch"
+    "export-batch": "node index.js export-batch",
+    "cf:build": "node tools/build-cloud.js",
+    "cf:dev": "npm run cf:build && wrangler dev --ip 127.0.0.1",
+    "cf:deploy": "npm run cf:build && wrangler deploy",
+    "audio": "node tools/render-audio.js"
   },
   "dependencies": {
     "chalk": "^6.0.0",
@@ -25,5 +29,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
   }
 }
