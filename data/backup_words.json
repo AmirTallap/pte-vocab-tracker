@@ -1,0 +1,10 @@
+{
+  "_note": "Unused reserve. Entries here are NOT in the workbook yet; `npm run update` promotes them into it when an unknown pool drops below its daily target (50 words / 20 phrases). It ships EMPTY on purpose - the only vocabulary supplied was the 267 words and 205 phrases already in the master file, and inventing replacements would put unvetted material into your study deck. Add your own using the shape below.",
+  "_shape": {
+    "word": "Ubiquitous",
+    "arabic": "منتشر في كل مكان",
+    "meaning": "Present everywhere"
+  },
+  "words": [],
+  "phrases": []
+}

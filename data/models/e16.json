@@ -1,0 +1,68 @@
+{
+  "id": "e16",
+  "models": [
+    {
+      "stance": "Advantages outweigh, with conditions",
+      "approach": "Weigh the money against the damage, and make the verdict depend on how the money is spent.",
+      "plan": [
+        "Introduction: what tourism brings and takes, and where you land.",
+        "Body 1: the advantages, employment and preservation.",
+        "Body 2: the disadvantages, cost of living and cultural wear.",
+        "Conclusion: a verdict conditional on regulation."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Mass tourism arrives as a solution to unemployment and stays as a problem of housing. Both descriptions are accurate, and [[on balance]] I believe the advantages for receiving countries are the greater, provided the industry is governed rather than merely welcomed." },
+        { "role": "Body 1 · advantages", "text": "The clearest benefit is work that cannot be exported. Hotels, guides and restaurants employ people where they live, and in regions with no other industry that income is [[invaluable]]. Tourism also pays for preservation: temples and old quarters are restored because visitors come to see them, and the revenue frequently funds the archaeology as well. [[It is worth noting]] that foreign currency of this kind reaches small businesses directly, which few other export industries manage." },
+        { "role": "Disadvantages", "text": "[[By contrast]], the costs land on residents rather than on the industry. Short-term rentals remove housing from the local market, and rents in Barcelona and Lisbon rose far faster than wages once the platforms arrived, which [[exacerbates|Exacerbate]] an existing shortage. Water, waste and transport are sized for a population that doubles in August. [[Unfortunately]], culture itself wears thin: a festival performed six times a day for visitors becomes a performance rather than a practice." },
+        { "role": "Conclusion", "text": "[[Taken together]], the income is real and the damage is largely a failure to regulate. Caps on rental licences, a tourist levy spent locally and limits on cruise arrivals would preserve the advantages while returning the costs to the people collecting the profit, and without such [[stipulations]] the balance tips the other way." }
+      ],
+      "notes": [
+        "Naming two cities and one mechanism, short-term rentals, turns the disadvantage paragraph from a complaint into evidence.",
+        "The verdict is conditional and the condition is specific, which is a genuine position rather than a compromise.",
+        "Notice that both paragraphs are about the receiving country, which is what the question asked. Drifting into the tourist's experience would be off task."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh",
+      "approach": "Argue that the economic gain is smaller and more fragile than it appears.",
+      "plan": [
+        "Introduction: grant the income, question its quality.",
+        "Body 1: the advantages, stated fairly and briefly.",
+        "Body 2: the disadvantages, with the leakage and fragility arguments.",
+        "Conclusion: a different kind of tourism rather than none."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Tourism is usually defended by the size of its revenue and rarely by the quality of it. [[In my opinion]], once you ask who keeps that money and what it displaces, the disadvantages of mass tourism outweigh the benefits for most receiving countries." },
+        { "role": "Body 1 · advantages", "text": "[[It is true that]] the industry employs enormous numbers of people, often in places with no alternative, and that it can fund the upkeep of monuments no government would otherwise repair. [[For the most part]], it also requires little capital to enter: a family can open a guesthouse where they could never open a factory." },
+        { "role": "Body 2 · disadvantages", "text": "[[Nevertheless]], much of the money leaves immediately. International chains, airlines and booking platforms capture a large share before it touches the local economy, and what remains is concentrated in seasonal jobs with low pay and no security. The dependence is also dangerous: a country that has built its economy on visitors discovers in a pandemic or a currency crisis how [[ephemeral]] that income is. [[Regrettably]], housing and water are consumed by an industry whose profits are counted elsewhere." },
+        { "role": "Conclusion", "text": "[[All things considered]], mass tourism as currently organised takes more from receiving countries than it leaves. A smaller, dearer and better regulated industry would produce comparable revenue with a fraction of the damage, and diversifying away from it entirely would be the [[pragmatic]] course for anywhere now dependent on it." }
+      ],
+      "notes": [
+        "Leakage is the argument most essays on this topic miss. Naming where the revenue goes is what distinguishes analysis from opinion.",
+        "The pandemic example is used as evidence of fragility rather than as a story, which keeps the paragraph on task.",
+        "The conclusion proposes fewer and dearer visitors, a real alternative to both mass tourism and no tourism."
+      ]
+    },
+    {
+      "stance": "Depends on the destination",
+      "approach": "Contrast a large diversified economy with a small dependent one, and show the same industry behaving differently.",
+      "plan": [
+        "Introduction: the answer changes with the size of the host economy.",
+        "Body 1: where tourism is one industry among many, advantages dominate.",
+        "Body 2: where it is the only industry, disadvantages dominate.",
+        "Conclusion: what each kind of country should do."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Asking whether mass tourism helps or harms receiving countries assumes those countries are alike, which they are not. [[To a certain extent]] the same industry is an advantage to a large diversified economy and a serious risk to a small island, and the [[nuance]] matters more than the general verdict." },
+        { "role": "Body 1 · large economies", "text": "Where tourism is one sector among many, the benefits dominate. France earns heavily from visitors without depending on them, so a bad season is absorbed rather than survived, and the revenue funds heritage that domestic taxes alone would not. Crowding remains a genuine irritant, but a large state has the administrative [[agency]] to price it, cap it and move it, as Venice has begun to do." },
+        { "role": "Body 2 · small economies", "text": "[[By contrast]], where tourism is most of the economy the same activity becomes a dependency. A Caribbean island whose income arrives on cruise ships has little bargaining power, since the operator can simply choose another port, and the wages stay low for that reason. Imported food displaces local agriculture, water is diverted to hotels, and young people train for an industry that leaves them [[docile]] before a single foreign buyer. [[Not surprisingly]], such economies suffer most in any downturn." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, the advantages accrue to those who can afford to say no. Small dependent economies should use tourist revenue to build something else with it, and large ones should regulate crowding early, since [[in the long run]] neither the money nor the visitors are guaranteed." }
+      ],
+      "notes": [
+        "Comparing France with a Caribbean island is a structure the examiner can follow instantly, and each paragraph supplies its own mechanism.",
+        "Bargaining power is the concept that unifies both paragraphs. One idea running through two contrasting cases reads as thinking.",
+        "Those who can afford to say no is a compressed conclusion, and it earns its place because both paragraphs demonstrated it."
+      ]
+    }
+  ]
+}

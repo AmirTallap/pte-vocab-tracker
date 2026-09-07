@@ -1,0 +1,68 @@
+{
+  "id": "e30",
+  "models": [
+    {
+      "stance": "Homework helps, in the right form",
+      "approach": "Show that the evidence differs sharply by age, and land on a position that respects both camps.",
+      "plan": [
+        "Introduction: the disagreement, and the variable that resolves it.",
+        "Body 1: the case against homework, put fairly.",
+        "Body 2: the case for it, with the age evidence.",
+        "Conclusion: your opinion, expressed as a rule by age."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that homework is either essential practice or an intrusion on a child's evening. Having examined both, [[I would maintain]] that the disagreement largely dissolves once the age of the child is taken into account." },
+        { "role": "Body 1 · the case against", "text": "[[On the one hand]], the objections to primary homework are strong. Studies consistently find little or no effect on attainment before secondary school, so the cost is paid for a benefit that is close to [[infinitesimal]]. The cost itself is real: evening conflict, lost play and, [[importantly]], an advantage handed to households with a parent free to help. [[It must be acknowledged]] that homework at that age measures the home rather than the child." },
+        { "role": "Body 2 · the case for", "text": "[[On the other hand]], the picture reverses in the teenage years. Retrieval practice and spaced repetition produce measurable gains, and both require work done away from the lesson, so an older student without homework is denied the method that makes learning stick. [[There is evidence that]] the benefit rises with age and falls again beyond about two hours a night, which suggests the argument is about quantity rather than principle. [[A case in point]] is that the highest-performing systems set moderate, [[explicit]] tasks rather than none." },
+        { "role": "Conclusion", "text": "[[All things considered]], my view is that homework should be minimal before eleven, moderate and purposeful thereafter, and never used as a way of finishing the syllabus at home. That position takes the stress objection seriously without [[jettisoning|Jettison]] the practice that older students demonstrably need." }
+      ],
+      "notes": [
+        "Finding the variable that resolves the disagreement, here age, is the most efficient way to write a discuss both views essay with a real opinion.",
+        "Homework at that age measures the home rather than the child is the sentence that gives the first paragraph its force.",
+        "The conclusion is a rule with a threshold, which is a genuine position rather than a middle point."
+      ]
+    },
+    {
+      "stance": "Homework as currently set does harm",
+      "approach": "Side with the critics on the evidence and answer the reinforcement argument on its own ground.",
+      "plan": [
+        "Introduction: state the position and the standard of evidence.",
+        "Body 1: the case for homework, given its strongest form.",
+        "Body 2: why the practice fails that case, with equity and stress.",
+        "Conclusion: what should replace it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Homework survives largely because it is expected rather than because it works, and the two are easily confused. [[In my opinion]] the critics have the better argument, though not for the reasons usually given." },
+        { "role": "Body 1 · the case for", "text": "[[On the one hand]], the reinforcement argument is sound in principle. Knowledge is retained through repeated retrieval, and a lesson never revisited is largely lost within weeks. [[It is true that]] independent study is also a skill that university and work demand, and a school that never asks for it leaves students unprepared. [[For the most part]], teachers set homework believing precisely this." },
+        { "role": "Body 2 · the case against", "text": "[[On the other hand]], what is actually set rarely does that job. Worksheets completed at speed provide no retrieval practice, unfinished class exercises are simply the syllabus displaced, and a task a parent completes teaches the parent. [[Consequently]], the effect measured across primary schools is close to zero while the [[disparate]] impact is large: the child with a quiet room and an educated parent gains, and the child sharing a room with three siblings does not. [[Regrettably]], the reported stress on families is substantial and falls hardest on those same households." },
+        { "role": "Conclusion", "text": "[[On balance]], I find the critics more convincing about the practice as it exists. Supervised study time within the school day, staffed and available to everybody, would deliver the retrieval that the defenders want without the [[inequitable|Equitable]] distribution that homework quietly [[engenders|Engender]]." }
+      ],
+      "notes": [
+        "Accepting the principle and attacking the practice is a precise position, and it keeps the essay from arguing against studying.",
+        "Naming three specific failures, worksheets, displaced syllabus, parental completion, is much stronger than saying homework is ineffective.",
+        "Supervised study within the school day is a real alternative that answers both sides at once."
+      ]
+    },
+    {
+      "stance": "Homework is essential, quantity is the problem",
+      "approach": "Side with the defenders while conceding that the burden objection is about volume rather than existence.",
+      "plan": [
+        "Introduction: the stress objection is about how much, not whether.",
+        "Body 1: the stress case, fairly and fully stated.",
+        "Body 2: why some independent work is irreplaceable.",
+        "Conclusion: your opinion, with a limit attached."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Almost every complaint about homework is a complaint about its quantity, and almost every defence is a defence of its existence, which is why the argument never meets. [[From my perspective]] the defenders are right about the principle and the critics are right about the amount." },
+        { "role": "Body 1 · the stress case", "text": "[[On the one hand]], the burden described by families is genuine. Several hours a night leave no time for sport, music or rest, and adolescent sleep is already [[deficient]] without a deadline at midnight. [[It must be acknowledged]] that much of what is set is busywork, and that a family evening consumed by it damages the relationship between a child and the subject as much as the child and the parent." },
+        { "role": "Body 2 · why some is necessary", "text": "[[On the other hand]], certain things cannot be learned in a classroom. Reading a novel, drafting an argument and practising a language to fluency all require sustained solitary time, and no lesson of forty minutes provides it. [[It is worth noting]] that the ability to work without supervision is itself the skill, and it is [[intrinsic]] to every stage of education that follows school. Removing homework entirely would leave students [[inert]] the first time nobody tells them what to do." },
+        { "role": "Conclusion", "text": "[[Taken together]], my own view is that homework should be preserved and capped: perhaps an hour a night at fourteen, rising modestly, with tasks that could not be done in class. [[In essence]] the argument is not about whether children should work at home but about how much, and stating that plainly would end most of the quarrel." }
+      ],
+      "notes": [
+        "Diagnosing why the two camps talk past each other is a legitimate opinion, provided both are still argued properly first.",
+        "Reading a novel and drafting an argument are tasks that obviously cannot fit in a lesson, which makes the necessity argument concrete.",
+        "Putting a number on the cap turns agreement into a policy the reader can accept or dispute."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e33",
+  "models": [
+    {
+      "stance": "Availability is the cause",
+      "approach": "Trace burnout to the disappearance of the boundary between work and everything else, then propose rules with teeth.",
+      "plan": [
+        "Introduction: state the problem and promise causes then steps.",
+        "Body 1: two causes, always-on tools and understaffing.",
+        "Body 2: measures for employers and for governments, in that order.",
+        "Conclusion: the problem is soluble and what it requires."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Surveys across several countries now find that a majority of office employees check work messages outside their contracted hours, and rates of reported exhaustion have risen with them. [[It is clear that]] this is a structural change in how work reaches people rather than a decline in personal resilience." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that work acquired a delivery mechanism that follows people home. A message arriving at nine in the evening does not require an answer, but it makes rest [[intermittent]], because the mind stays on duty waiting for the next one. [[This leads to]] the second cause: many organisations have quietly absorbed this extra availability into their staffing, so a team that would once have needed six people now runs on four who are reachable at all hours. [[Consequently]], the overwork is not accidental but budgeted." },
+        { "role": "Body 2 · measures", "text": "Employers could act first and cheaply. Delayed delivery of out-of-hours messages, meeting-free days and, [[above all]], measuring the workload rather than the responsiveness would remove most of the pressure without costing anything. Governments could then make the floor legally [[explicit]]: France and Portugal have given employees an enforceable right to disconnect, with penalties on the employer rather than a duty on the worker to refuse. To be effective, enforcement must sit with the regulator, since an individual complaining about their own manager rarely does so twice." },
+        { "role": "Conclusion", "text": "[[In summary]], burnout is being produced by permanent availability and the staffing decisions built on it. Rules that place the obligation on the employer would [[ameliorate]] it, and the [[impediment]] is not knowledge but the reluctance to admit that the current output depends on hours nobody is paid for." }
+      ],
+      "notes": [
+        "The second cause grows out of the first, understaffing made possible by availability, which is how a causes paragraph earns its coherence mark.",
+        "Every measure names who acts, and the last sentence explains why enforcement must not rest on the individual.",
+        "The conclusion identifies the real obstacle, which is more useful than a call for awareness."
+      ]
+    },
+    {
+      "stance": "Measurement is the cause",
+      "approach": "Argue that burnout follows from managing by visible activity rather than by output.",
+      "plan": [
+        "Introduction: the puzzle is that hours rose while output did not.",
+        "Body 1: causes rooted in how performance is judged.",
+        "Body 2: measures that change what is measured.",
+        "Conclusion: what would have to change in management, not in workers."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Working hours in many professional jobs have risen while measured productivity has barely moved, which suggests the extra time is not producing anything. [[It is evident that]] the cause lies in how work is assessed rather than in how much there is to do." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that most knowledge work has no visible output, so managers fall back on proxies: hours logged, messages answered, the green dot beside a name. Employees respond rationally by performing availability, and the resulting theatre is exhausting precisely because it is [[frivolous]]. [[As a result]], the busiest-seeming person is promoted, the behaviour spreads, and a culture forms in which leaving on time looks like [[indolent|Indolent]] behaviour rather than efficient work." },
+        { "role": "Body 2 · measures", "text": "The remedy is to change the measure. Employers could define output for each role, however roughly, and judge people on it, which makes presence [[irrelevant]] and removes the incentive to perform it. Senior staff must model it, since an executive sending messages at midnight [[invalidates|Invalidate]] every policy the company writes. Governments have a narrower part: mandatory reporting of average hours by employer would make the outliers visible, and [[there is evidence that]] disclosure alone shifts corporate behaviour where regulation is resisted." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], people are burning out performing work rather than doing it. Measuring output and requiring transparency about hours would attack the cause, whereas wellbeing programmes and resilience training treat the symptom and quietly imply that the [[deficient]] party is the employee." }
+      ],
+      "notes": [
+        "Opening with a paradox, more hours and no more output, sets up a cause that is not the obvious one.",
+        "The green dot beside a name is a small concrete image that makes an abstract argument about measurement land.",
+        "The final clause names what the usual remedies imply, which is a sharper criticism than saying they do not work."
+      ]
+    },
+    {
+      "stance": "Insecurity is the cause",
+      "approach": "Argue that people cannot disconnect because they are afraid, and that rules fail while the fear remains.",
+      "plan": [
+        "Introduction: rules already exist and are ignored; ask why.",
+        "Body 1: causes rooted in job insecurity and comparison.",
+        "Body 2: measures aimed at security, employer and government.",
+        "Conclusion: why this cause has to be addressed first."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Many organisations already tell staff not to answer messages in the evening, and many staff answer anyway. [[I would argue]] that the cause of burnout is therefore not the technology but the insecurity that makes people use it against their own interest." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that employment has become less certain while expectations have risen. Rounds of redundancy have taught a generation that visible commitment is protective, so an employee reads a policy about disconnecting and calculates, [[understandably]], that the colleague who ignores it will survive the next cut. [[At the same time]], remote work removed the natural evidence of effort, so people supply it in messages instead. [[Consequently]], a permission to rest that carries any career risk is not a permission at all." },
+        { "role": "Body 2 · measures", "text": "Steps must therefore reduce the fear rather than restate the rule. Employers could make workload and criteria for advancement [[explicit]], so that promotion visibly rewards results rather than availability, and could protect staff who take leave from any consequence. Governments could strengthen protection against dismissal and fund proper sick pay, since an employee who can be removed at short notice will always [[jeopardize]] their own health first. [[Above all]], the burden should fall on organisations rather than on individuals to prove compliance." },
+        { "role": "Conclusion", "text": "[[Overall]], burnout persists because rest feels risky. Until that risk is removed, every disconnection policy will remain a piece of paper, and the [[insidious]] part of the problem is that it looks voluntary from the outside." }
+      ],
+      "notes": [
+        "Starting from the failure of the obvious remedy forces the essay to find a deeper cause, which is what this question type rewards.",
+        "The calculation the employee makes is presented as rational, which is more persuasive than describing them as anxious.",
+        "It looks voluntary from the outside is the sentence that ties the whole diagnosis together."
+      ]
+    }
+  ]
+}

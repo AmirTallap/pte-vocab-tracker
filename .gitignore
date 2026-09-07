@@ -1,0 +1,14 @@
+node_modules/
+exports/
+
+# Timestamped backups written once per server session. The workbook backups were
+# always ignored; the progress ones were not, and 33 of them had accumulated.
+data/*.backup-*.xlsx
+data/*.backup-*.json
+
+# Cloudflare deploy credentials - amir's PERSONAL account. Never commit.
+.env
+.wrangler/
+
+# The generated cloud build. Everything in it comes from web/, src/ and data/.
+dist/

@@ -1,0 +1,285 @@
+{
+  "id": "passive-voice",
+  "title": "The Passive Voice",
+  "group": "Voice and Reporting",
+  "summary": "How the passive is formed in every tense, when to prefer it, and why intransitive verbs have no passive at all.",
+  "sections": [
+    {
+      "heading": "Form: be + past participle in every tense",
+      "body": "The passive is built from the verb `be` in whatever tense is required, plus the past participle. Only `be` moves: `is done`, `is being done`, `was done`, `was being done`, `has been done`, `had been done`, `will be done`, `is going to be done`.\n\nThe participle never carries the tense, so the quickest repair is to check the auxiliary on its own. `The results are published last year` fails because `are` is in the wrong tense, not because of anything wrong with `published`.",
+      "examples": [
+        {
+          "right": "The findings are published in a peer-reviewed journal each spring.",
+          "wrong": null,
+          "note": "Present simple passive, for a regular and repeated event."
+        },
+        {
+          "right": "The samples were being analysed when the power failed.",
+          "wrong": "The samples were analysing when the power failed.",
+          "note": "The continuous passive needs `being` in front of the participle."
+        },
+        {
+          "right": "The bridge has been closed to traffic since Monday.",
+          "wrong": "The bridge is closed since Monday.",
+          "note": "`since` with an unfinished period calls for the present perfect passive."
+        },
+        {
+          "right": "A new wing is going to be added to the hospital next year.",
+          "wrong": null,
+          "note": "`going to` is followed by the passive infinitive `be added`."
+        }
+      ]
+    },
+    {
+      "heading": "Passive infinitives, gerunds and modals",
+      "body": "After another verb the passive appears in a non-finite form: the passive infinitive `to be done` and the passive gerund `being done`. The choice between them is decided by the word in front, exactly as it would be in the active. Compare `expect to be told` with `object to being told`, where that `to` is a preposition and therefore takes a gerund.\n\nModals take the bare passive infinitive: `must be submitted`, `can be arranged`, `should have been checked`. The modal itself never changes voice.",
+      "examples": [
+        {
+          "right": "All coursework must be submitted through the online portal.",
+          "wrong": "All coursework must submitted through the online portal.",
+          "note": "A modal is followed by `be` plus the participle, never by the participle alone."
+        },
+        {
+          "right": "Several residents objected to being told about the plans so late.",
+          "wrong": "Several residents objected to be told about the plans so late.",
+          "note": "`object to` ends in a preposition, so the passive gerund is required."
+        },
+        {
+          "right": "The equipment should have been calibrated before the first run.",
+          "wrong": null,
+          "note": "Perfect modal passive, typically used to criticise something left undone."
+        }
+      ]
+    },
+    {
+      "heading": "When the passive is the right choice",
+      "body": "Three conditions favour the passive. The agent may be **unknown**, as in `The lock had been forced during the night`; it may be **irrelevant or obvious**, as in `The suspect was arrested on Tuesday`; or the writer may want the receiver of the action in **subject position**, which is where English puts the topic of the sentence.\n\nAcademic prose adds a fourth reason: the impersonal register. `The mixture was heated to 80°C` keeps the method in view and the experimenter out of it. This is a convention of style, not a rule of grammar, and an essay written wholly in the passive reads as heavy and evasive.\n\nWhen an agent is worth mentioning it is introduced by `by`, and the instrument used is introduced by `with`. The two are not interchangeable: `The inscription was carved with a fine chisel by a local mason`.",
+      "examples": [
+        {
+          "right": "Two hundred questionnaires were distributed to first-year students.",
+          "wrong": null,
+          "note": "Who handed them out is irrelevant; the questionnaires are the topic."
+        },
+        {
+          "right": "Darwin published On the Origin of Species in 1859.",
+          "wrong": null,
+          "note": "Here the agent is the point of the sentence, so the active is better."
+        },
+        {
+          "right": "The report was written by an independent panel.",
+          "wrong": "The report was written from an independent panel.",
+          "note": "The agent is marked by `by`, never by `from`."
+        },
+        {
+          "right": "The surface can be cleaned with a damp cloth.",
+          "wrong": "The surface can be cleaned by a damp cloth.",
+          "note": "A tool is an instrument, so it takes `with`."
+        }
+      ]
+    },
+    {
+      "heading": "The get-passive",
+      "body": "In speech and informal writing `get` often replaces `be`: `got broken`, `got stolen`, `got promoted`. It suggests something sudden, unplanned, and usually to the subject's cost or benefit.\n\nIt remains a spoken form. In the writing tasks and in any academic register the expected version is `be`: write `The equipment was damaged in transit`, not `got damaged`. The distinction to learn is one of register rather than of correctness. The fixed expressions `get married`, `get dressed` and `get lost` behave the same way.",
+      "examples": [
+        {
+          "right": "Three laptops got stolen from the office during the refurbishment.",
+          "wrong": null,
+          "note": "Natural in speech: the event was sudden and unwelcome."
+        },
+        {
+          "right": "Three laptops were stolen from the office during the refurbishment.",
+          "wrong": null,
+          "note": "The same fact in the register expected of a written answer."
+        },
+        {
+          "right": "The proposal got rejected at the first meeting.",
+          "wrong": "The proposal got rejecting at the first meeting.",
+          "note": "`get` still requires the past participle."
+        }
+      ]
+    },
+    {
+      "heading": "Verbs with two objects",
+      "body": "Verbs such as `give`, `send`, `offer`, `award`, `tell` and `pay` take two objects, so each has two possible passives. English strongly prefers the person as subject: `She was given a grant`. The alternative `A grant was given to her` is also correct but foregrounds the thing, and the preposition `to` then has to appear.\n\nThe frequent error is to promote the person and keep the preposition anyway, producing `She was given to a grant`.",
+      "examples": [
+        {
+          "right": "She was awarded a grant of £40,000 in her second year.",
+          "wrong": "She was awarded to a grant of £40,000 in her second year.",
+          "note": "With the person as subject, no preposition follows the verb."
+        },
+        {
+          "right": "A grant of £40,000 was awarded to her in her second year.",
+          "wrong": null,
+          "note": "With the thing as subject, the person now needs `to`."
+        },
+        {
+          "right": "The successful applicants were sent their contracts by email.",
+          "wrong": null,
+          "note": "The indirect object becomes the subject, which is the more natural version."
+        }
+      ]
+    },
+    {
+      "heading": "Intransitive verbs have no passive",
+      "body": "A verb can be made passive only if it has an object to promote. `happen`, `occur`, `arrive`, `appear`, `disappear`, `rise`, `fall`, `die` and `belong` take no object, so they have no passive at all. `The accident was happened` is not merely unusual: it is ungrammatical, and it is one of the errors an examiner notices fastest.\n\nThe confusion is understandable, because the meaning feels passive — nobody chose for the accident to occur. English encodes that idea in the verb itself rather than in the voice.",
+      "examples": [
+        {
+          "right": "A serious accident happened on the coastal road.",
+          "wrong": "A serious accident was happened on the coastal road.",
+          "note": "`happen` is intransitive and cannot be passivised."
+        },
+        {
+          "right": "The symptoms appeared three days after exposure.",
+          "wrong": "The symptoms were appeared three days after exposure.",
+          "note": "The same trap with `appear`, `occur` and `arrive`."
+        },
+        {
+          "right": "The manuscript disappeared from the archive some time in the 1940s.",
+          "wrong": "The manuscript was disappeared from the archive.",
+          "note": "Compare the transitive `was removed`, which does have a passive."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`was happened`, `was occurred`, `was arrived`: intransitive verbs have no passive. Write `happened`, `occurred`, `arrived`.",
+    "Dropping `being` from the continuous passive. `The road is repaired` describes a finished state; `is being repaired` means work is under way.",
+    "`carved by a fine chisel` for an instrument. Tools take `with`; only the doer takes `by`.",
+    "Keeping the preposition after a two-object passive: `She was given to a scholarship`. Drop `to` when the person is the subject.",
+    "A modal followed by a bare participle: `must submitted`. Modals need `be`: `must be submitted`.",
+    "`got damaged` in an academic answer. The get-passive is spoken register; in writing use `was damaged`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The bridge ___ twice since it opened, most recently after the floods of 2019.",
+      "options": [
+        "had been rebuilt",
+        "is rebuilt",
+        "was rebuilt",
+        "has been rebuilt"
+      ],
+      "answer": 3,
+      "explain": "`since it opened` measures a period running up to the present, which requires the present perfect passive. `was rebuilt` would need a finished time reference such as `in 2019`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Please excuse the noise: the roof ___ while the museum remains open to visitors.",
+      "hint": "repair (present continuous, passive)",
+      "accept": [
+        "is being repaired"
+      ],
+      "explain": "Work in progress at the moment of speaking takes `is being` plus the past participle; `is repaired` would describe a finished state instead."
+    },
+    {
+      "type": "mcq",
+      "prompt": "All applications ___ through the online portal by 5 p.m. on Friday.",
+      "options": [
+        "must be submitting",
+        "must to be submitted",
+        "must be submitted",
+        "must submit"
+      ],
+      "answer": 2,
+      "explain": "A modal is followed by the bare passive infinitive `be submitted`. `must submit` is active and would make the applications the ones doing the submitting."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Several residents objected to ___ about the plans so late in the process.",
+      "options": [
+        "to be told",
+        "be told",
+        "having told",
+        "being told"
+      ],
+      "answer": 3,
+      "explain": "The `to` of `object to` is a preposition, so it takes the passive gerund. `to be told` would follow a verb such as `expect`, where `to` belongs to the infinitive."
+    },
+    {
+      "type": "blank",
+      "prompt": "The revised guidelines ___ next month, according to the ministry's website.",
+      "hint": "publish (will, passive)",
+      "accept": [
+        "will be published",
+        "'ll be published"
+      ],
+      "explain": "`will` takes the bare passive infinitive `be published`; a participle on its own cannot carry future reference."
+    },
+    {
+      "type": "mcq",
+      "prompt": "A serious accident ___ on the coastal road early yesterday morning.",
+      "options": [
+        "was taken place",
+        "was happened",
+        "happened",
+        "was occurred"
+      ],
+      "answer": 2,
+      "explain": "`happen` takes no object, so it has no passive form; the same holds for `occur`, and `take place` is likewise used only in the active."
+    },
+    {
+      "type": "blank",
+      "prompt": "Two of the laptops ___ from the staff room while the building was being refurbished.",
+      "hint": "steal (get-passive, past simple)",
+      "accept": [
+        "got stolen"
+      ],
+      "explain": "The get-passive suits a sudden and unwelcome event in speech; in a written answer the expected register would be `were stolen`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The successful applicants ___ their contracts by email last Friday.",
+      "options": [
+        "were sent to",
+        "were sent",
+        "have sent",
+        "was sent"
+      ],
+      "answer": 1,
+      "explain": "`send` takes two objects, and English prefers the person as passive subject with no preposition after the verb. `were sent to` would leave `their contracts` stranded, and `was sent` does not agree with the plural subject."
+    },
+    {
+      "type": "blank",
+      "prompt": "The note had been written ___ a fountain pen, in careful capital letters.",
+      "hint": null,
+      "accept": [
+        "with",
+        "using"
+      ],
+      "explain": "A pen is an instrument rather than an agent, so it takes `with` or `using`; `by` is reserved for the person who performed the action."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The council has confirmed that the old market ___ into flats; work starts in June.",
+      "options": [
+        "goes to be converted",
+        "is going to convert",
+        "is going to be converted",
+        "is converting"
+      ],
+      "answer": 2,
+      "explain": "`going to` is followed by the passive infinitive `be converted`. `is going to convert` would make the market itself the agent of the conversion."
+    },
+    {
+      "type": "blank",
+      "prompt": "Nobody knows exactly when the manuscript ___ from the cathedral archive.",
+      "hint": "disappear (past simple)",
+      "accept": [
+        "disappeared"
+      ],
+      "explain": "`disappear` is intransitive, so `was disappeared` is impossible; the active past simple already conveys that nobody deliberately caused it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The theory was first proposed ___ a young German physicist in 1905.",
+      "options": [
+        "from",
+        "by",
+        "of",
+        "with"
+      ],
+      "answer": 1,
+      "explain": "The agent of a passive is introduced by `by`. `from` marks a source and `with` an instrument, and neither fits a person who performed the action."
+    }
+  ]
+}

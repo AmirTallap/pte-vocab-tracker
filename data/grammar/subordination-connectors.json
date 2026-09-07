@@ -1,0 +1,322 @@
+{
+  "id": "subordination-connectors",
+  "title": "Linking Clauses: Reason, Purpose, Result, Contrast",
+  "group": "Clause Structure",
+  "summary": "Linking clauses for reason, purpose, result and contrast, with the clause-versus-noun-phrase splits and the punctuation each linker needs.",
+  "sections": [
+    {
+      "heading": "Reason: because, since, as, due to, owing to",
+      "body": "The reason linkers divide into two grammatical classes, and mixing them is the commonest error in this area.\n\n`because`, `since` and `as` are **conjunctions**: each is followed by a full clause with a subject and a finite verb. `because of`, `due to` and `owing to` are **prepositional phrases**: each is followed by a noun phrase or an `-ing` form, never by a clause.\n\nAmong the conjunctions there is a difference of emphasis. `because` gives new information and answers a genuine question of why; `since` and `as` present the reason as already known or obvious, and usually come first in the sentence.",
+      "examples": [
+        {
+          "right": "The flight was delayed because the weather deteriorated.",
+          "wrong": "The flight was delayed because of the weather deteriorated.",
+          "note": "`because` takes a clause; `because of` cannot."
+        },
+        {
+          "right": "The flight was delayed because of the weather.",
+          "wrong": "The flight was delayed because the weather.",
+          "note": "A bare noun phrase needs `because of`, not `because`."
+        },
+        {
+          "right": "Owing to a shortage of funding, the project was postponed.",
+          "wrong": "Owing to funding was short, the project was postponed.",
+          "note": "`owing to` and `due to` govern a noun phrase or an -ing form, never a clause."
+        },
+        {
+          "right": "As the deadline had already passed, the submission was not accepted.",
+          "wrong": null,
+          "note": "`as` and `since` frame the reason as background rather than as news."
+        }
+      ]
+    },
+    {
+      "heading": "Purpose: to, in order to, so that",
+      "body": "The default expression of purpose is the plain **to-infinitive**. `in order to` and `so as to` are the same thing in a more formal register, and they are the forms normally used in the negative: `in order not to`, `so as not to`.\n\nWhen the purpose clause has a **different subject** from the main clause, no infinitive is possible and `so that` is used with a modal, usually `can`, `could`, `will` or `would`.\n\n`for + -ing` does not express the purpose of an action. It states the function of a thing: a device is used for measuring, but a person goes somewhere to measure. Where a negative purpose is meant, `to avoid + -ing` is often the neatest option.",
+      "examples": [
+        {
+          "right": "She stayed late to finish the quarterly report.",
+          "wrong": "She stayed late for finishing the quarterly report.",
+          "note": "The purpose of an action takes a to-infinitive."
+        },
+        {
+          "right": "This instrument is used for measuring soil acidity.",
+          "wrong": null,
+          "note": "`for + -ing` is correct here because it names the function of a thing, not the aim of an actor."
+        },
+        {
+          "right": "The council installed barriers so that pedestrians could cross safely.",
+          "wrong": "The council installed barriers to pedestrians could cross safely.",
+          "note": "A second subject rules out the infinitive, so `so that` plus a modal is required."
+        },
+        {
+          "right": "He rewrote the introduction so as not to repeat himself.",
+          "wrong": "He rewrote the introduction for not repeating himself.",
+          "note": "Negative purpose is `so as not to`, `in order not to`, or `to avoid repeating himself`."
+        }
+      ]
+    },
+    {
+      "heading": "Result: so, therefore, so ... that",
+      "body": "`so` is a **conjunction** of result: it joins two clauses and takes a comma in front of it. `therefore`, `consequently`, `thus`, `hence` and `as a result` are **adverbs**: they cannot join two clauses on their own, and need a semicolon or a full stop before them.\n\nThe intensifying pattern has two shapes. `so` goes before an adjective or adverb, and `such` goes before a noun phrase, with `a` or `an` after it in the singular: `so expensive that`, but `such an expensive machine that`.",
+      "examples": [
+        {
+          "right": "The samples were contaminated, so the test was repeated.",
+          "wrong": "The samples were contaminated, therefore the test was repeated.",
+          "note": "`so` is a conjunction and takes a comma; `therefore` is an adverb and cannot join clauses."
+        },
+        {
+          "right": "The samples were contaminated; therefore, the test was repeated.",
+          "wrong": null,
+          "note": "Semicolon before the linking adverb, comma after it."
+        },
+        {
+          "right": "The evidence was so compelling that the policy changed within a month.",
+          "wrong": "The evidence was such compelling that the policy changed within a month.",
+          "note": "`so` before a bare adjective; `such` would need a noun after it."
+        },
+        {
+          "right": "It was such a compelling argument that nobody objected.",
+          "wrong": "It was so a compelling argument that nobody objected.",
+          "note": "With a singular noun phrase the pattern is `such + a/an + adjective + noun`."
+        }
+      ]
+    },
+    {
+      "heading": "Contrast: although, though, whereas, while",
+      "body": "`although`, `though` and `even though` introduce a **concession**: what follows is true, and the main clause is surprising in the light of it. `even though` is the strongest of the three, and is not the same as `even if`, which is hypothetical.\n\n`whereas` and `while` introduce a **direct contrast** between two parallel facts, with no element of surprise. `while` also has a time meaning, so placing it at the front of the sentence keeps the contrast reading clear.\n\nEnglish uses one linker for one relationship. A subordinating conjunction at the front of the first clause is not followed by `but` in the second; Arabic tolerates that pairing, English does not.",
+      "examples": [
+        {
+          "right": "Although the results were promising, the sample was small.",
+          "wrong": "Although the results were promising, but the sample was small.",
+          "note": "One linker per relationship; `although ... but` doubles the connection."
+        },
+        {
+          "right": "Urban rents rose sharply, whereas rural rents remained flat.",
+          "wrong": null,
+          "note": "`whereas` sets two facts side by side; nothing is surprising, merely different."
+        },
+        {
+          "right": "Even though he had trained for months, he finished last.",
+          "wrong": null,
+          "note": "`even though` states a fact; `even if` would make the training hypothetical."
+        },
+        {
+          "right": "While the technology is promising, it remains prohibitively expensive.",
+          "wrong": null,
+          "note": "Front position keeps `while` unambiguously contrastive rather than temporal."
+        }
+      ]
+    },
+    {
+      "heading": "Despite and In Spite Of versus Although",
+      "body": "`despite` and `in spite of` are **prepositions**. They are followed by a noun phrase or an `-ing` form. `although` is a **conjunction** and is followed by a subject and a verb. The meaning is identical; only the grammar differs.\n\nWhen a full clause has to follow one of the prepositions, `the fact that` provides the bridge: `despite the fact that the clinic was underfunded`. The phrase `despite of` does not exist in English; it is a blend of the two correct forms.",
+      "examples": [
+        {
+          "right": "Despite the heavy rain, the match went ahead.",
+          "wrong": "Despite it rained heavily, the match went ahead.",
+          "note": "`despite` governs a noun phrase, never a clause."
+        },
+        {
+          "right": "In spite of being underfunded, the clinic stayed open all year.",
+          "wrong": "In spite of it was underfunded, the clinic stayed open all year.",
+          "note": "An -ing form is how a verb idea survives after these prepositions."
+        },
+        {
+          "right": "Despite the fact that the clinic was underfunded, it stayed open.",
+          "wrong": "Despite of the fact that the clinic was underfunded, it stayed open.",
+          "note": "`the fact that` licenses a clause; `despite of` is not an English form."
+        },
+        {
+          "right": "Although it rained heavily, the match went ahead.",
+          "wrong": "Although the heavy rain, the match went ahead.",
+          "note": "`although` requires a subject and a finite verb."
+        }
+      ]
+    },
+    {
+      "heading": "Punctuating Linking Adverbs",
+      "body": "`however`, `nevertheless`, `nonetheless`, `therefore`, `consequently`, `moreover` and `furthermore` are adverbs, not conjunctions. They comment on the relationship between two sentences; they do not grammatically join them.\n\nThe consequence is a punctuation rule with no exceptions: a linking adverb between two main clauses needs a **semicolon or a full stop** before it, and normally a comma after it. A comma alone produces a comma splice, which is marked as an error in written English.\n\nA linking adverb can also move inside its clause, between commas, which often reads better than parking it at the front of every sentence.",
+      "examples": [
+        {
+          "right": "The data were incomplete; however, the conclusion still holds.",
+          "wrong": "The data were incomplete, however the conclusion still holds.",
+          "note": "A comma cannot join two main clauses, because `however` is not a conjunction."
+        },
+        {
+          "right": "The data were incomplete. However, the conclusion still holds.",
+          "wrong": null,
+          "note": "A full stop is always available and is often the cleaner choice."
+        },
+        {
+          "right": "The conclusion, however, still holds.",
+          "wrong": null,
+          "note": "The adverb can sit inside the clause between a pair of commas."
+        },
+        {
+          "right": "The data were incomplete, but the conclusion still holds.",
+          "wrong": "The data were incomplete, but however the conclusion still holds.",
+          "note": "`but` is the conjunction that does the joining; stacking `however` on it is redundant."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`because of` in front of a clause: `because of the price rose` must be `because the price rose` or `because of the price rise`.",
+    "`Although ... but`: use a single linker - `Although it was late, the meeting continued`, with no `but`.",
+    "`however` after a comma: two main clauses need a semicolon or a full stop before `however`, never a comma.",
+    "`despite of`: the forms are `despite` and `in spite of`; the blend is not English.",
+    "`for + -ing` for purpose: `He called for asking about the fee` should be `He called to ask about the fee`.",
+    "`so` and `such`: `so expensive that`, but `such an expensive machine that` - `so` before an adjective, `such` before a noun phrase."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "___ the rising cost of materials, the contractor completed the build on budget.",
+      "options": [
+        "Although",
+        "Even though",
+        "Despite",
+        "Whereas"
+      ],
+      "answer": 2,
+      "explain": "A noun phrase follows, so only the preposition `despite` fits. `Although` carries the same meaning but requires a subject and a finite verb after it."
+    },
+    {
+      "type": "blank",
+      "prompt": "The trial was halted early ___ the side effects proved more severe than expected.",
+      "hint": "one word: a conjunction introducing a reason clause",
+      "accept": [
+        "because",
+        "since",
+        "as"
+      ],
+      "explain": "A full clause follows, so a reason conjunction is needed; the prepositional forms such as `because of` and `due to` cannot govern a clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The city widened the cycle lanes ___ commuters would feel safer.",
+      "options": [
+        "so as to",
+        "in order to",
+        "so that",
+        "for"
+      ],
+      "answer": 2,
+      "explain": "The purpose clause has its own subject, `commuters`, which rules out every infinitive form and requires `so that` with a modal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rainfall was well above average in the north. ___, the southern reservoirs remained critically low.",
+      "options": [
+        "Despite",
+        "Whereas",
+        "However",
+        "Although"
+      ],
+      "answer": 2,
+      "explain": "After a full stop and before a comma, only a linking adverb works. `Although` and `whereas` are conjunctions and would need a clause attached to the sentence they contrast with."
+    },
+    {
+      "type": "blank",
+      "prompt": "All flights over the region were cancelled ___ the volcanic ash cloud.",
+      "hint": "two or three words: a prepositional linker before a noun phrase",
+      "accept": [
+        "because of",
+        "due to",
+        "owing to",
+        "on account of"
+      ],
+      "explain": "A noun phrase follows, so the linker must be prepositional; `because` alone would leave the phrase without a verb."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The lecture was ___ dense that half the audience gave up taking notes.",
+      "options": [
+        "too",
+        "such",
+        "such a",
+        "so"
+      ],
+      "answer": 3,
+      "explain": "`so` intensifies a bare adjective. `such` and `such a` require a noun after them, as in `such a dense lecture that`."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ the fact that its funding had been cut, the department expanded its outreach programme.",
+      "hint": "one to three words: a preposition of concession before 'the fact that'",
+      "accept": [
+        "despite",
+        "in spite of",
+        "notwithstanding",
+        "regardless of",
+        "irrespective of"
+      ],
+      "explain": "`the fact that` packages the clause as a noun phrase, which is what allows a preposition rather than a conjunction to govern it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She took the earlier train ___ arriving late for the interview.",
+      "options": [
+        "for avoid",
+        "for avoiding",
+        "so as avoid",
+        "to avoid"
+      ],
+      "answer": 3,
+      "explain": "Purpose is expressed by an infinitive, and `avoid` then takes an -ing form. `for + -ing` states what something is used for, not why someone acted."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ the survey covered only three districts, its conclusions were widely quoted.",
+      "options": [
+        "In spite of",
+        "Despite",
+        "Although",
+        "However"
+      ],
+      "answer": 2,
+      "explain": "A full clause follows, so a subordinating conjunction is required. `Despite` and `in spite of` govern noun phrases, and `however` joins nothing at all."
+    },
+    {
+      "type": "blank",
+      "prompt": "The equipment arrived without any instructions; ___, installation took three days rather than one.",
+      "hint": "one word: a linking adverb of result, followed by a comma",
+      "accept": [
+        "consequently",
+        "therefore",
+        "thus",
+        "hence",
+        "accordingly"
+      ],
+      "explain": "The semicolon signals that an adverb, not a conjunction, follows; `so` would have taken a comma in front of it instead."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Coastal erosion accelerated sharply in the 1990s, ___ several villages had to be relocated.",
+      "options": [
+        "so",
+        "consequently",
+        "therefore",
+        "thus"
+      ],
+      "answer": 0,
+      "explain": "Only `so` is a conjunction and can follow a comma between two main clauses; the three adverbs would each need a semicolon before them."
+    },
+    {
+      "type": "blank",
+      "prompt": "Northern regions recorded their wettest year on record, ___ southern regions faced a third summer of drought.",
+      "hint": "one word: a conjunction of direct contrast, after a comma",
+      "accept": [
+        "whereas",
+        "while",
+        "whilst",
+        "but",
+        "yet",
+        "although",
+        "though"
+      ],
+      "explain": "A conjunction is needed because a comma alone cannot join two main clauses. `whereas` and `while` (British `whilst`) mark the contrast as a straight comparison; `but`, `yet`, `although` and `though` are also correct here, but they frame the second fact as a concession rather than a parallel."
+    }
+  ]
+}

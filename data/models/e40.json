@@ -1,0 +1,68 @@
+{
+  "id": "e40",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue that the high street was infrastructure, and that its loss removed things nothing has replaced.",
+      "plan": [
+        "Introduction: agree, and name what was lost besides shops.",
+        "Body 1: the economic mechanism, and what leaves a town.",
+        "Body 2: concede the genuine gains, then answer them.",
+        "Conclusion: restate, with what could be done."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Online shopping is cheaper, faster and available at midnight, and those advantages are not in dispute. [[By and large]] I agree that it has nonetheless harmed local communities, because the high street was doing several jobs and only one of them was selling things." },
+        { "role": "Body 1 · what leaves a town", "text": "[[The main point is]] where the money now goes. A pound spent locally circulates through wages, rent and suppliers in the same town, whereas the same pound spent online leaves it immediately, and the loss [[pervades]] a whole town centre within a decade. Employment changes shape too: shop work was local, permanent and visible, while warehouse and delivery work is [[intermittent]] and concentrated far away. [[Consequently]], the closures reach the businesses that were never online competitors at all, the cafe and the barber who depended on the footfall." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the gains are real and fall most on those with least. Prices are lower, which matters most to poor households, and for a disabled or rural customer delivery has ended a genuine exclusion. [[That said]], the same households are the ones whose town centre has closed, and cheapness is a poor trade for the loss of the only place a person living alone speaks to anybody. [[It is worth noting]] that convenience is measured per transaction, while what was lost was measured per town." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that the harm has outweighed the good for communities, though not for individual shoppers. Taxing warehouses and physical shops on the same basis, and spending business rates locally, would [[ameliorate]] it, but the [[insidious]] part is that each individual purchase seems harmless and only the total is visible." }
+      ],
+      "notes": [
+        "Naming the mechanism, money circulating locally against money leaving, keeps the essay from nostalgia.",
+        "The concession is that the benefits fall on the poorest, which is the strongest version of the other side.",
+        "Convenience measured per transaction against loss measured per town is the sentence the essay is built to reach."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Argue that the high street was declining for other reasons and that online shopping is being blamed for them.",
+      "plan": [
+        "Introduction: disagree, and name the real causes.",
+        "Body 1: what actually emptied town centres.",
+        "Body 2: concede the losses, then set out the gains.",
+        "Conclusion: what would revive a centre."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Town centres began emptying long before anybody bought anything on a website, and the timing matters. [[In my opinion]] online shopping has been a convenient explanation for a decline caused mainly by rents, planning and out-of-town retail." },
+        { "role": "Body 1 · the real causes", "text": "[[First and foremost]], the out-of-town shopping centre did the original damage, drawing trade to free parking on a bypass through the 1980s and 1990s. Business rates then made a high street unit dearer than a warehouse of ten times the size, which is [[incongruous]] as a tax on the same activity. Absent landlords holding empty units for tax purposes finished it. [[It is evident that]] a centre losing tenants for these reasons would have emptied whether or not the internet had been invented." },
+        { "role": "Body 2 · concession and gains", "text": "[[It must be acknowledged]] that online competition accelerated the process for booksellers and electrical retailers in particular. [[Nevertheless]], the gains to communities are consistently understated: rural households, disabled customers and anybody without a car obtained access to the same prices as a city shopper, which is [[equitable]] in a way the old model never was. Small local makers can now reach a national market from a village, and [[there is evidence that]] many high streets have recovered by shifting to services and food that a delivery van cannot supply." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that online shopping has done more harm than good. Reforming business rates, taxing empty units and permitting conversion to housing would revive town centres, whereas blaming the internet has produced a decade of [[fervent]] complaint and no policy at all." }
+      ],
+      "notes": [
+        "Challenging the timing is the strongest way to reject a causal claim, and it takes one sentence.",
+        "The access argument, that online prices reached people the high street never served, is the moral case for this position.",
+        "The conclusion is a list of three policies, which turns disagreement into something usable."
+      ]
+    },
+    {
+      "stance": "Depends on what the shop was for",
+      "approach": "Separate retail as supply from retail as public space, and show that only one has been replaced.",
+      "plan": [
+        "Introduction: shops did two things; online replaced one.",
+        "Body 1: as supply, the change is an improvement.",
+        "Body 2: as public space, nothing has replaced it.",
+        "Conclusion: what to do about the half that was lost."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A shop supplies goods and it also supplies a place to be, and the two are easily confused because they used to arrive together. [[To a certain extent]] I agree with the statement, but only about the second of these." },
+        { "role": "Body 1 · shops as supply", "text": "As a way of obtaining goods, online retail is straightforwardly better. Prices are lower, choice is wider, and the customer who could not previously reach a specialist shop now can, which is [[invaluable]] in a village or for anybody who cannot easily travel. [[Broadly speaking]], the complaint about supply is a complaint on behalf of shopkeepers rather than shoppers, and it is worth being honest about that distinction." },
+        { "role": "Body 2 · shops as public space", "text": "[[By contrast]], nothing has replaced what a high street did incidentally. It was where people who did not know each other were in the same place, where a teenager took a first job and where an elderly person had a reason to leave the house. That function was [[implicit]] and unpriced, so it appeared in no accounts and was lost without anybody deciding to lose it. [[Consequently]], the [[isolation]] now reported in small towns is a consequence of an economic change that nobody framed as a social one." },
+        { "role": "Conclusion", "text": "[[On balance]], then, online shopping improved supply and removed a public realm that was being provided by accident. The answer is not to restore the shops but to provide deliberately what they provided incidentally, libraries, markets, cafes and places that require no purchase, since that half of the loss is real and is not coming back on its own." }
+      ],
+      "notes": [
+        "Splitting the subject into supply and public space is what lets this essay agree and disagree without hedging.",
+        "Provided by accident and now needing to be provided deliberately is the argument in one clause.",
+        "Admitting whose interest the usual complaint serves is a small honesty that makes the rest more credible."
+      ]
+    }
+  ]
+}

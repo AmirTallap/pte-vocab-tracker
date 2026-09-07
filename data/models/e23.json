@@ -1,0 +1,68 @@
+{
+  "id": "e23",
+  "models": [
+    {
+      "stance": "Traditional journalism remains essential",
+      "approach": "Distinguish reporting from commentary: online abundance supplies the second and almost none of the first.",
+      "plan": [
+        "Introduction: the disagreement, and the distinction that resolves it.",
+        "Body 1: the case that newspapers are obsolete, fairly put.",
+        "Body 2: why reporting is different from distribution, with evidence.",
+        "Conclusion: which position is more convincing, and why."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that newspapers have been overtaken by faster and freer sources. Having weighed both cases, I find the argument for traditional journalism more convincing, because the two sides are usually talking about different activities: distributing news and producing it." },
+        { "role": "Body 1 · the case for obsolescence", "text": "[[On the one hand]], the critics have the better of the practical argument. A printed paper reaches a reader hours after the event, costs money and carries whatever its editor chose, whereas an eyewitness posts within seconds and a reader can compare twenty accounts. [[It is true that]] several major stories, from uprisings to disasters, were reported online long before any newsroom arrived, and the old gatekeeping was never as [[impartial]] as it claimed." },
+        { "role": "Body 2 · the case for journalism", "text": "[[On the other hand]], almost none of that material is original reporting. Someone must sit through a council meeting, file a records request and be sued for the result, and those are salaried activities that no platform funds. [[There is evidence that]] where local papers close, municipal borrowing costs rise and fewer people stand for office, which is a measurable consequence of nobody watching. [[Consequently]], the abundance online is largely commentary on work that a shrinking number of paid reporters still do." },
+        { "role": "Conclusion", "text": "[[All things considered]], I find the first position more convincing, though not in its nostalgic form. What democracy requires is not newsprint but funded [[scrutiny]], and until online sources pay somebody to attend the meeting, they remain [[deficient]] in exactly the function that mattered." }
+      ],
+      "notes": [
+        "The distinction between producing and distributing news is stated in the introduction and carries both body paragraphs. One clear distinction is worth more than several observations.",
+        "The borrowing costs finding is the best evidence available on this topic because it is a number rather than a sentiment.",
+        "Rejecting the nostalgic version of your own side in the conclusion shows judgement and pre-empts the obvious objection."
+      ]
+    },
+    {
+      "stance": "Online sources have superseded them",
+      "approach": "Argue that the function survived the institution, and that the institution was never as good as it is now remembered.",
+      "plan": [
+        "Introduction: separate the function from the institution.",
+        "Body 1: the defence of traditional journalism, fairly put.",
+        "Body 2: what online reporting now does better, with cases.",
+        "Conclusion: which is more convincing, with the caveat."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Defences of traditional journalism tend to describe an ideal newsroom rather than the ones that existed. [[From my perspective]] the essential function has survived while the institution has not, and the second position is closer to the truth." },
+        { "role": "Body 1 · the defence", "text": "[[On the one hand]], the argument for newspapers is easy to state. Editors check, lawyers vet, and a masthead can be sued, which gives a reader somebody to hold responsible. [[It must be acknowledged]] that investigations lasting months require salaries, and that a single reporter cannot [[corroborate]] a leak without an institution behind them." },
+        { "role": "Body 2 · what has replaced it", "text": "[[On the other hand]], those functions are increasingly performed elsewhere. Reader-funded outlets, specialist newsletters and non-profit investigative bureaus now break stories that no national paper pursued, and several of the largest recent leaks were handled by loose international consortia rather than by any one title. [[It is worth noting]] that the old model was itself compromised: proprietors with interests, advertisers with preferences, and a [[hegemony]] of three or four owners deciding what counted as news. [[By contrast]], the newer outlets are answerable to subscribers rather than to advertisers." },
+        { "role": "Conclusion", "text": "[[On balance]], I find the second position more convincing, with one reservation. What matters is that somebody is paid to investigate and can be held to account, and that no longer requires printing presses or a broadcast licence, though it does require readers willing to pay for what is no longer [[implicit]] in the price of a newspaper." }
+      ],
+      "notes": [
+        "Attacking the romanticised version of the other side, proprietors and advertisers, is what stops this reading as technological enthusiasm.",
+        "Naming the newer forms, reader-funded outlets and investigative bureaus, keeps the argument concrete where it could easily become vague.",
+        "The reservation in the conclusion is what makes the position credible: it says what would have to be true for the argument to hold."
+      ]
+    },
+    {
+      "stance": "The medium is the wrong question",
+      "approach": "Argue that both views mistake format for funding, which is what actually decides whether reporting happens.",
+      "plan": [
+        "Introduction: reframe from medium to money.",
+        "Body 1: what the defenders are right about, and what they misattribute.",
+        "Body 2: what the critics are right about, and where they stop too soon.",
+        "Conclusion: your opinion, stated as a funding question."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] newspapers still matter, but both camps are arguing about the container. [[In my opinion]] the question that decides the outcome is who pays for a reporter's time, and neither position addresses it directly." },
+        { "role": "Body 1 · the defenders", "text": "[[On the one hand]], the defenders are right that professional reporting is [[integral]] to holding power to account, and they are right that it is disappearing. Where they err is in attributing the loss to the internet rather than to the collapse of classified advertising, which was what quietly paid for the court reporter for a century. [[It follows that]] restoring the format would restore nothing." },
+        { "role": "Body 2 · the critics", "text": "[[On the other hand]], the critics are right that distribution has been democratised and that the old gatekeepers were not [[invaluable]] in the way they claimed. Their argument stops too soon, however: an abundance of opinion is not a substitute for somebody attending an inquest. [[A striking example]] is that court and council reporting in most towns has simply ceased, and no online source has replaced it because nobody has found a way to fund it." },
+        { "role": "Conclusion", "text": "[[Taken together]], I find neither position wholly convincing, since both describe symptoms. [[In essence]] the debate should be about funding models, public subsidy, foundations, subscription, and until it is, arguing about print against online is arguing about the shape of a hole." }
+      ],
+      "notes": [
+        "Reframing is legitimate here because both body paragraphs still assess the two named views before moving past them.",
+        "The classified advertising point is the piece of causal history most essays on this topic miss, and it is what makes the reframing convincing.",
+        "The shape of a hole is a single image at the very end. Save the one figurative phrase for a place where it summarises rather than decorates."
+      ]
+    }
+  ]
+}

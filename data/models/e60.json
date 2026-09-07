@@ -1,0 +1,68 @@
+{
+  "id": "e60",
+  "models": [
+    {
+      "stance": "Shared, with the state carrying the skilled part",
+      "approach": "Argue that the debate assumes families can do what modern care actually requires.",
+      "plan": [
+        "Introduction: the disagreement, and where you land.",
+        "Body 1: the case for family care, put fully.",
+        "Body 2: the case for professional care, with what has changed.",
+        "Conclusion: your opinion, with the division of labour."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that elderly parents belong at home with their children, and equally that care is skilled work the state should provide. Having weighed both, [[I would maintain]] that families should supply company and the state should supply care, because the two have become very different tasks." },
+        { "role": "Body 1 · the case for families", "text": "[[On the one hand]], the argument for family care is strong. Older people overwhelmingly prefer to remain at home, outcomes are better where somebody familiar is present, and the [[intimacy]] of being known matters as much as competence when a person is frightened or confused. [[It is true that]] institutional care is expensive and, in too many countries, poor, so the preference is not merely sentimental." },
+        { "role": "Body 2 · the case for the state", "text": "[[On the other hand]], what caring now involves has changed. People survive far longer with conditions requiring lifting, medication and management of dementia, and a daughter with no training providing that alone is a recipe for injury to both. [[There is evidence that]] unpaid carers show markedly worse health and that the burden falls overwhelmingly on women who leave paid work, which makes the arrangement anything but [[equitable]]. [[Consequently]], the family model depends on somebody's unpaid labour that the economy has already claimed." },
+        { "role": "Conclusion", "text": "[[All things considered]], my view is that the state should fund skilled care at home while families provide what only they can. Paid carer's leave, respite and properly trained visiting staff would make that possible, and the choice as usually posed is a false one that leaves families [[inundated|Inundate]] and the state absolved." }
+      ],
+      "notes": [
+        "Distinguishing company from care is the essay's organising idea and it resolves a debate that is otherwise a clash of values.",
+        "Naming who actually does the unpaid work, and what it costs them, is the strongest point available.",
+        "The conclusion assigns each party a task, which is a genuine position rather than a compromise."
+      ]
+    },
+    {
+      "stance": "Primarily a family responsibility",
+      "approach": "Defend family care while insisting it must be supported rather than assumed.",
+      "plan": [
+        "Introduction: side with family care, and name the condition.",
+        "Body 1: the case for professional care, fairly stated.",
+        "Body 2: why home and family remain better, with the support required.",
+        "Conclusion: your opinion, with what the state owes the carer."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] the care of the very old belongs to families or to the state, and my own answer is that it belongs primarily to families, on the condition that they are paid and trained for it rather than merely expected to cope." },
+        { "role": "Body 1 · the case for the state", "text": "[[On the one hand]], the professional argument is serious. Modern care requires clinical skill, and an untrained relative can do genuine harm with medication or lifting. The burden also falls unequally: it lands on daughters, who leave work and lose pensions, and the resulting [[isolation]] of the carer is well documented. [[It must be acknowledged]] that assuming families will provide is how governments have avoided funding care for decades." },
+        { "role": "Body 2 · the case for families", "text": "[[On the other hand]], outcomes at home are consistently better where support exists. Older people in familiar surroundings retain function longer, and the [[intangible]] benefit of being known by the person caring for you has no institutional substitute. Cost points the same way: supporting a family carer is a fraction of the cost of residential provision. [[Consequently]], the sensible policy is not to replace the family but to fund it, through carer's allowance at a real wage, training, respite and pension credit for the years given up." },
+        { "role": "Conclusion", "text": "[[On balance]], I favour family care that is paid, trained and relieved rather than assumed. What the state owes is not a bed in an institution but a wage and a rest, and treating unpaid care as free is the [[insidious]] assumption underneath the whole arrangement." }
+      ],
+      "notes": [
+        "Supporting family care while attacking the assumption behind it is what stops this position becoming a defence of unpaid labour.",
+        "Pension credit for the years given up is the specific detail that shows the proposal has been costed in thought if not in figures.",
+        "A wage and a rest is a compressed and memorable statement of the position."
+      ]
+    },
+    {
+      "stance": "Primarily a state responsibility",
+      "approach": "Argue that care is skilled work and that treating it as family duty produces predictable failures.",
+      "plan": [
+        "Introduction: side with professional provision, and say why.",
+        "Body 1: the case for family care, given its strongest form.",
+        "Body 2: why the state must carry it, with the equity argument.",
+        "Conclusion: your opinion, with what families should still do."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Care of the very old is skilled, physically demanding and unpredictable work, and every other kind of skilled work is paid and trained for. [[In my opinion]] the responsibility belongs with the state and professional carers, though families remain [[integral]] to what makes a life worth living." },
+        { "role": "Body 1 · the case for families", "text": "[[On the one hand]], the preference for home and family is strong and evidenced. Familiar surroundings preserve function, a relative notices a change that a rota of strangers cannot, and residential care in many countries is genuinely poor. [[It is true that]] a great deal of what older people need is company, which no service can provide on a fifteen-minute visit." },
+        { "role": "Body 2 · the case for the state", "text": "[[On the other hand]], relying on families produces outcomes that depend entirely on who your children are. A person with three daughters living nearby is cared for; one with none, or with children who work abroad, is not, and that is a poor basis for a public good. [[There is evidence that]] the health of unpaid carers deteriorates markedly, so the arrangement produces two patients where there was one. [[Consequently]], the state must carry the skilled work, as it does with schooling, which was also once considered a family matter." },
+        { "role": "Conclusion", "text": "[[All things considered]], I would fund professional care at home and in residential settings properly, and leave families to do what they alone can. [[In essence]] the question is whether care is a duty or a service; treating it as a duty has left it unpaid, unregulated and [[deficient]], which is precisely why it should be treated as a service." }
+      ],
+      "notes": [
+        "The comparison with schooling, once a family matter and now a public service, does a great deal of work in one clause.",
+        "Depends entirely on who your children are is the fairness argument stated concretely rather than abstractly.",
+        "Duty against service is a clean final distinction, and both body paragraphs have earned it."
+      ]
+    }
+  ]
+}

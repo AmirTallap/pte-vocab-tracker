@@ -1,0 +1,68 @@
+{
+  "id": "e49",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from cumulative emissions and capacity, and answer the current-emitters objection directly.",
+      "plan": [
+        "Introduction: agree, and name the two grounds.",
+        "Body 1: historical responsibility and present capacity.",
+        "Body 2: concede that current emissions are elsewhere, then answer.",
+        "Conclusion: restate, with what the obligation consists of."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The atmosphere responds to the total carbon it has received rather than to this year's output, and that fact decides most of this question. [[By and large]] I agree that wealthy nations carry the greater obligation, on grounds of both history and capacity." },
+        { "role": "Body 1 · why the obligation is greater", "text": "[[The main point is]] cumulative responsibility. Europe and North America account for roughly half of all carbon emitted since industrialisation, and their wealth was built with it, so the warming already committed is largely theirs. Capacity points the same way: a country with a large economy can decarbonise without leaving anybody without electricity, whereas asking a state with widespread energy poverty to forgo cheap power is [[incongruous]]. [[There is evidence that]] the countries suffering the worst effects contributed the least, which makes the [[inequitable|Equitable]] distribution of harm the strongest part of the case." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the objection is serious: most present emissions growth is outside the wealthy world, and any arithmetic that ignores China or India is not a plan. [[Nevertheless]], the response is not to equalise the obligation but to fund the alternative. Wealthy states can pay for the transition elsewhere, which is cheaper per tonne than domestic reduction, and the technology that made solar power the cheapest electricity on earth was [[substantiated|Substantiate]] by rich-country subsidy. [[Consequently]], the greater obligation is largely an obligation to finance." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that the obligation is unequal, and it consists of three things: reducing faster at home, funding the transition abroad, and paying for the damage already caused. Anything less asks the countries with the least [[agency]] over the problem to absorb the largest share of its consequences." }
+      ],
+      "notes": [
+        "Cumulative rather than annual emissions is the one fact that settles this question, and putting it in the first sentence organises everything after it.",
+        "The concession about China and India is answered with a mechanism, financing at lower cost per tonne, rather than dismissed.",
+        "Naming three components of the obligation turns agreement into a specification."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Accept the historical argument and argue that an obligation which ignores present emissions cannot work.",
+      "plan": [
+        "Introduction: agree about responsibility, disagree about what follows.",
+        "Body 1: why the historical case is sound.",
+        "Body 2: why the practical arithmetic requires everybody.",
+        "Conclusion: differentiated obligations rather than unequal ones."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Responsibility and effectiveness are different questions, and this debate usually answers the first while pretending it has answered the second. [[To a certain extent]] I agree that wealthy nations owe more, though an obligation framed only that way will not hold the temperature down." },
+        { "role": "Body 1 · the historical case", "text": "The moral argument is sound and should be conceded quickly. Wealthy countries emitted most of the carbon now in the atmosphere, and they did so while the consequences were unknown to nobody but themselves after about 1980. Their capacity to act is also far greater, since a wealthy state can rebuild its grid without [[jeopardizing|Jeopardize]] anybody's access to electricity. [[It must be acknowledged]] that they have also outsourced much of their manufacturing, so part of what is counted as Chinese emissions is [[implicit]] in European consumption." },
+        { "role": "Body 2 · the arithmetic", "text": "[[Nevertheless]], the atmosphere does not read history. Around two thirds of current emissions now originate outside the traditional wealthy bloc, and a scenario in which those countries follow the same coal-fired path makes every reduction elsewhere [[insignificant]]. [[It is evident that]] an obligation resting on blame alone gives the fastest-growing emitters an argument for delay, which is the [[inexorable]] logic of the last three decades of negotiation." },
+        { "role": "Conclusion", "text": "[[On balance]], obligations should be differentiated rather than simply unequal: wealthy states cut fastest and pay for the transition elsewhere, while developing states commit to a lower peak in exchange. [[In essence]] responsibility decides who pays, and physics decides who acts, and a workable agreement needs both answers rather than one." }
+      ],
+      "notes": [
+        "Separating who is responsible from who must act is the distinction that makes this a genuine partial agreement.",
+        "Conceding outsourced emissions strengthens the essay by showing you know how the figures are constructed.",
+        "Responsibility decides who pays and physics decides who acts is the argument in one sentence."
+      ]
+    },
+    {
+      "stance": "Agree, with the obligation defined as finance and technology",
+      "approach": "Argue that the debate about obligation is a debate about money, and specify what is owed.",
+      "plan": [
+        "Introduction: agree, and reframe the obligation as a bill rather than a virtue.",
+        "Body 1: why domestic reduction alone is not the obligation.",
+        "Body 2: what is actually owed, with the concession about enforcement.",
+        "Conclusion: the specification restated."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Arguments about which countries owe more are usually conducted as moral accountancy and rarely reach a figure. [[I would argue]] that wealthy nations do carry a greater obligation, and that it is most useful to state it as a bill rather than as a duty." },
+        { "role": "Body 1 · why domestic cuts are not enough", "text": "[[First and foremost]], a wealthy country that decarbonises only its own territory has done the cheap part. Its emissions per person remain among the highest, its consumption is supplied by factories counted in another country's total, and the reduction achieved is [[infinitesimal]] beside the growth in emissions it has effectively exported. [[It is clear that]] an obligation discharged entirely at home is one defined for the convenience of the party discharging it." },
+        { "role": "Body 2 · what is owed", "text": "The obligation is therefore financial and technological: funding grids and storage in developing economies, transferring patents rather than selling them, and compensating for damage already occurring. [[Granted]], the record here is poor, since the hundred billion a year promised in 2009 was never delivered in the form intended, and enforcement remains [[intractable]]. [[That said]], failure to honour an obligation is not an argument that it does not exist, and the sums involved are small beside the [[investment]] these countries make in their own energy systems annually." },
+        { "role": "Conclusion", "text": "[[All things considered]], I agree that the obligation is greater and would define it precisely: faster domestic reduction, funded transition abroad, technology shared rather than licensed, and payment for damage. Stated that way it becomes something that can be audited, which is why it is usually stated as a sentiment instead." }
+      ],
+      "notes": [
+        "Reframing an obligation as a bill is what allows the essay to be specific where most are vague.",
+        "The point that exported emissions flatter domestic figures is factual and precise.",
+        "The final clause explains why the argument is usually kept vague, which is a sharper ending than a restatement."
+      ]
+    }
+  ]
+}

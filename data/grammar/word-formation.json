@@ -1,0 +1,278 @@
+{
+  "id": "word-formation",
+  "title": "Word Formation and Choosing the Right Form",
+  "group": "Precision and Style",
+  "summary": "Reading a gap for the part of speech it needs, and building the right noun, adjective, verb or adverb from a word family.",
+  "sections": [
+    {
+      "heading": "Reading the Slot Before Choosing the Word",
+      "body": "In a fill-in-the-blank item the surrounding grammar decides the part of speech before meaning enters the question at all. Identify the slot first, then build the form.\n\nBetween an article or determiner and a noun, the slot is an **adjective**: `a detailed ___ analysis`. In subject or object position, and after a determiner with nothing following, the slot is a **noun**: `the ___ of the data was thorough`. Directly after a preposition the slot is a noun or an `-ing` form, never an infinitive: `capable of ___`, `objected to extending the deadline`. Modifying a verb, an adjective or a whole clause, the slot is an **adverb**.\n\nArabic builds its vocabulary from consonantal roots, so the idea that one root yields a family of related words is already familiar. What differs is that English marks the family members with suffixes that also carry grammatical information, and the suffix has to match the slot.",
+      "examples": [
+        {
+          "right": "The paper offers a detailed analysis of housing policy.",
+          "wrong": "The paper offers a detailed analyse of housing policy.",
+          "note": "After an adjective and article the slot needs a noun."
+        },
+        {
+          "right": "The committee objected to extending the deadline again.",
+          "wrong": "The committee objected to extend the deadline again.",
+          "note": "After a preposition, the -ing form is required."
+        },
+        {
+          "right": "The results were entirely consistent with earlier work.",
+          "wrong": "The results were entire consistent with earlier work.",
+          "note": "A word modifying an adjective must be an adverb."
+        }
+      ]
+    },
+    {
+      "heading": "Noun Suffixes and the People Who Do Things",
+      "body": "Abstract nouns are built with a small set of endings. Verbs commonly take `-tion` or `-sion` (`produce, production`), `-ment` (`develop, development`) or `-ance` and `-ence` (`resist, resistance`; `differ, difference`). Adjectives commonly take `-ity` (`stable, stability`), `-ness` (`aware, awareness`) or `-cy` (`efficient, efficiency`). Nouns of role or belief take `-ship` (`leadership`) and `-ism` (`capitalism`).\n\nPeople are marked by a different set: `-er` (`researcher`, `employer`), `-or` (`investigator`, `supervisor`), `-ist` (`economist`, `analyst`) and `-ant` or `-ent` (`participant`, `student`).\n\nThe distinction between an abstract noun and a person noun is worth checking twice, because both are nouns and the slot alone will not tell them apart: `an analysis` and `an analyst` fit the same grammatical position but not the same sentence.",
+      "examples": [
+        {
+          "right": "Unemployment in the region has fallen for three quarters.",
+          "wrong": "Unemploy in the region has fallen for three quarters.",
+          "note": "A subject slot needs the noun form, here with -ment."
+        },
+        {
+          "right": "The lecture was given by a leading analyst of climate policy.",
+          "wrong": "The lecture was given by a leading analysis of climate policy.",
+          "note": "The slot needs a person, not an abstract noun."
+        },
+        {
+          "right": "The study measured the stability of the compound.",
+          "wrong": "The study measured the stable of the compound.",
+          "note": "-ity turns the adjective into an abstract noun."
+        }
+      ]
+    },
+    {
+      "heading": "Adjective and Verb Suffixes",
+      "body": "Adjectives are formed with `-al` (`industrial`), `-ive` (`productive`), `-ous` (`hazardous`), `-ic` (`economic`), `-ful` and `-less` (`useful`, `useless`), `-ent` and `-ant` (`dependent`, `significant`), and `-able` or `-ible` (`reliable`, `visible`). The pair `-ful` and `-less` are opposites built on the same noun, which makes them a useful check: if `harmful` exists, `harmless` will too.\n\nVerbs are formed with `-ise` or `-ize` (`modernise`), `-ify` (`clarify`), `-en` (`strengthen`, `widen`) and `-ate` (`activate`). British writing prefers `-ise` and American writing `-ize`; both are accepted, but not in the same document.\n\nThe `-en` verbs are built on short adjectives and nouns and mean `make more of this`: `strength` gives `strengthen`, `wide` gives `widen`, `sharp` gives `sharpen`.",
+      "examples": [
+        {
+          "right": "The government intends to strengthen emissions regulations.",
+          "wrong": "The government intends to strength emissions regulations.",
+          "note": "The verb slot after `to` needs the -en form."
+        },
+        {
+          "right": "The proposal is economically hazardous but politically attractive.",
+          "wrong": null,
+          "note": "-ous forms the adjective; -ally forms the adverb from an -ic adjective."
+        },
+        {
+          "right": "The instructions were clarified before the second round.",
+          "wrong": "The instructions were clear before the second round, so we clear them.",
+          "note": "-ify builds a verb meaning `make clear`."
+        }
+      ]
+    },
+    {
+      "heading": "Adverbs in -ly, and the Adjectives That Look Like Them",
+      "body": "Most adverbs are the adjective plus `-ly`: `careful, carefully`. Adjectives ending in `-ic` insert `-al` first, giving `-ically`: `economic, economically`; `basic, basically`. Adjectives ending in `-le` drop the `e`: `simple, simply`. Adjectives ending in `-y` change to `-ily`: `easy, easily`.\n\nSome words ending in `-ly` are adjectives, not adverbs: `friendly`, `likely`, `costly`, `lively`, `lonely`, `elderly`, `daily`. They have no adverb form at all, and the meaning has to be carried by a phrase instead: `she greeted us in a friendly way`, not `friendlily`.\n\nA further group has no `-ly` in the adverb: `fast`, `hard`, `late`, `early`, `straight` and `daily` keep the same shape as adverbs.",
+      "examples": [
+        {
+          "right": "The staff greeted the new students in a friendly manner.",
+          "wrong": "The staff greeted the new students friendly.",
+          "note": "`Friendly` is an adjective with no adverb form."
+        },
+        {
+          "right": "The project was economically viable from the outset.",
+          "wrong": "The project was economicly viable from the outset.",
+          "note": "-ic adjectives take -ally in the adverb."
+        },
+        {
+          "right": "Applications are reviewed daily.",
+          "wrong": null,
+          "note": "`Daily` serves as both adjective and adverb."
+        }
+      ]
+    },
+    {
+      "heading": "Negative Prefixes",
+      "body": "The general-purpose negative prefix is `un-` (`unlikely`, `unnecessary`). Before `p`, `b` and `m` the prefix `in-` becomes **im-** (`impossible`, `imbalance`, `immature`); before `l` it becomes **il-** (`illegal`, `illogical`); before `r` it becomes **ir-** (`irrelevant`, `irregular`). This is assimilation to the following sound, so the spelling can be predicted rather than memorised.\n\n**Dis-** attaches mainly to verbs and to some adjectives (`disagree`, `dishonest`), **mis-** means wrongly rather than not (`misinterpret`, `misuse`), and **non-** is neutral and often hyphenated (`non-renewable`, `non-existent`).\n\nThere is no rule that predicts which of `un-` and `in-` a given word takes, so word families have to be learned as units. Note also that `mis-` and `dis-` do not simply negate: `misinformed` means informed wrongly, not uninformed.",
+      "examples": [
+        {
+          "right": "The evidence was ruled irrelevant to the case.",
+          "wrong": "The evidence was ruled unrelevant to the case.",
+          "note": "Before r, the prefix in- becomes ir-."
+        },
+        {
+          "right": "The instructions were almost incomprehensible.",
+          "wrong": "The instructions were almost uncomprehensible.",
+          "note": "This family takes in-, not un-."
+        },
+        {
+          "right": "The witness had been misinformed about the date.",
+          "wrong": "The witness had been uninformed about the date.",
+          "note": "`Mis-` means wrongly informed; `un-` would mean not informed at all."
+        }
+      ]
+    },
+    {
+      "heading": "Word Families and Confusable Pairs",
+      "body": "Within a family the stress and sometimes the spelling shift: `analyse, analysis, analytical, analytically`; `economy, economic, economical, economist`; `politics, political, politician, politically`; `succeed, success, successful, successfully`. Learning the family as a set, with its stress pattern, is far more efficient than learning the members separately.\n\nSeveral pairs differ in meaning rather than in grammar. **Economic** relates to the economy; **economical** means cheap to run. **Historic** means significant in history; **historical** means relating to the past. **Affect** is the verb and **effect** the noun, except in the formal verb `to effect a change`, meaning to bring it about. **Principal** means main, or the head of a college; **principle** is a rule or belief. **Practice** is the noun and **practise** the verb in British spelling; American spelling uses `practice` for both.\n\nA reliable check for `affect` and `effect`: if the word follows `the`, `an` or an adjective, the noun `effect` is almost always right.",
+      "examples": [
+        {
+          "right": "Recycling glass is more economical than making it from raw materials.",
+          "wrong": "Recycling glass is more economic than making it from raw materials.",
+          "note": "`Economical` means cheap to run; `economic` relates to the economy."
+        },
+        {
+          "right": "The archive holds historical records from the twelfth century.",
+          "wrong": "The archive holds historic records from the twelfth century.",
+          "note": "`Historical` means from the past; `historic` means momentous."
+        },
+        {
+          "right": "Fuel prices affect the cost of almost every consumer good.",
+          "wrong": "Fuel prices effect the cost of almost every consumer good.",
+          "note": "`Affect` is the ordinary verb; `effect` is the noun."
+        },
+        {
+          "right": "The principal reason for the delay was a shortage of labour.",
+          "wrong": "The principle reason for the delay was a shortage of labour.",
+          "note": "`Principal` means main; `principle` is a rule."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Choosing a word by meaning before checking the slot; decide the part of speech from the surrounding grammar first.",
+    "Putting an infinitive after a preposition; `to` as a preposition takes an -ing form, as in `committed to improving`.",
+    "Writing `unrelevant` or `unpossible`; the prefix `in-` assimilates to ir-, im- and il- before r, p or b and m, and l.",
+    "Filling a person slot with an abstract noun, as in `a leading analysis` where `analyst` is meant.",
+    "Inventing an adverb from an -ly adjective; `friendly`, `likely` and `costly` need a phrase such as `in a friendly way`.",
+    "Confusing `economic`, which relates to the economy, with `economical`, which means cheap to run; and `affect` with `effect`, where the word after `the`, `an` or an adjective is the noun `effect`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The paper offers a detailed ___ of the government's housing policy.",
+      "options": [
+        "analyse",
+        "analytical",
+        "analysis",
+        "analytically"
+      ],
+      "answer": 2,
+      "explain": "The slot sits between an adjective and a preposition, so it must be a noun. `Analytical` is the adjective and cannot follow `detailed` in this position."
+    },
+    {
+      "type": "blank",
+      "prompt": "Recycling glass is far more ___ than producing it from raw materials.",
+      "hint": "economy (adjective meaning 'cheap to run')",
+      "accept": [
+        "economical"
+      ],
+      "explain": "`Economical` means thrifty or cheap to operate, while `economic` would mean relating to the economy as a whole, which does not fit a comparison of two production methods."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The committee objected to ___ the deadline for a second time.",
+      "options": [
+        "to extend",
+        "extending",
+        "extension",
+        "extend"
+      ],
+      "answer": 1,
+      "explain": "`Object to` ends in a preposition, and a preposition is followed by an -ing form rather than an infinitive. `Extension` would need an article and `of`."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ in the northern region has fallen for three consecutive quarters.",
+      "hint": "employ (abstract noun)",
+      "accept": [
+        "employment"
+      ],
+      "explain": "The slot is the subject of the sentence, so it needs a noun; the abstract noun formed from `employ` takes -ment rather than -tion."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The keynote address was delivered by a leading ___ of climate policy.",
+      "options": [
+        "analyst",
+        "analytically",
+        "analytic",
+        "analysis"
+      ],
+      "answer": 0,
+      "explain": "The sentence needs a person, and `-ist` marks the specialist. `Analysis` is grammatically a noun too, but an analysis cannot deliver an address."
+    },
+    {
+      "type": "blank",
+      "prompt": "The instructions were so poorly written that they were almost ___.",
+      "hint": "comprehensible (negative form)",
+      "accept": [
+        "incomprehensible"
+      ],
+      "explain": "This family takes `in-` rather than `un-`, giving `incomprehensible`; the prefix stays as in- because the stem begins with c."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The evidence was ruled ___ to the case and was not admitted.",
+      "options": [
+        "unrelevant",
+        "inrelevant",
+        "disrelevant",
+        "irrelevant"
+      ],
+      "answer": 3,
+      "explain": "The prefix `in-` assimilates to `ir-` before a stem beginning with r. `Un-` is not used with this word at all."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The department staff greeted the new arrivals ___.",
+      "options": [
+        "friendlily",
+        "friendly",
+        "friendlyly",
+        "in a friendly way"
+      ],
+      "answer": 3,
+      "explain": "`Friendly` is an adjective despite its ending, and it has no adverb form, so manner must be expressed by a phrase. Placing `friendly` after the object would describe the arrivals rather than the greeting."
+    },
+    {
+      "type": "blank",
+      "prompt": "Rising fuel prices ___ the cost of almost every consumer good.",
+      "hint": "affect or effect (verb, present simple)",
+      "accept": [
+        "affect"
+      ],
+      "explain": "`Affect` is the ordinary verb and `effect` the noun; `effect` is a verb only in the formal sense of bringing something about, as in `to effect a change`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The ___ reason for the delay was a shortage of skilled labour.",
+      "options": [
+        "principally",
+        "principle",
+        "principled",
+        "principal"
+      ],
+      "answer": 3,
+      "explain": "The slot before a noun needs an adjective meaning main, which is `principal`. `Principle` is a noun meaning a rule or belief and cannot modify `reason`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The government intends to ___ the regulations covering industrial emissions.",
+      "hint": "strength (verb form)",
+      "accept": [
+        "strengthen"
+      ],
+      "explain": "After the infinitive marker `to` the slot needs the base form of a verb, and the suffix -en turns short nouns and adjectives into verbs meaning `make more of this`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The archive contains ___ records dating back to the twelfth century.",
+      "options": [
+        "historically",
+        "history",
+        "historic",
+        "historical"
+      ],
+      "answer": 3,
+      "explain": "`Historical` means belonging to the past, which is what records from the twelfth century are. `Historic` would claim that the records are momentous, a different assertion."
+    }
+  ]
+}

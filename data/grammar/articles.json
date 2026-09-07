@@ -1,0 +1,273 @@
+{
+  "id": "articles",
+  "title": "Articles: a, an, the and zero",
+  "group": "The Noun Phrase",
+  "summary": "When English uses a/an, the, or no article at all, and how identifiability rather than translation decides.",
+  "sections": [
+    {
+      "heading": "First mention, second mention",
+      "body": "The basic pattern behind `a/an` and `the` is not meaning but **identifiability**. A singular countable noun that the reader cannot yet pin down takes `a/an`; once it has been introduced, or once the context makes it obvious which one is meant, it takes `the`.\n\nThis is why a paragraph so often moves from `a` to `the` and never back again. The choice belongs to the reader's knowledge, not to the writer's.",
+      "examples": [
+        {
+          "right": "Researchers have developed a filtration system. The system removes microplastics from drinking water.",
+          "wrong": "Researchers have developed the filtration system. A system removes microplastics from drinking water.",
+          "note": "First mention introduces with `a`; the second mention points back with `the`."
+        },
+        {
+          "right": "A student asked about the deadline for the essay.",
+          "wrong": null,
+          "note": "The student is new information; the deadline and the essay are already known to both parties."
+        },
+        {
+          "right": "She bought a laptop and a printer, but the printer was faulty.",
+          "wrong": "She bought a laptop and a printer, but a printer was faulty.",
+          "note": "Once introduced, the item must be tracked with `the`."
+        }
+      ]
+    },
+    {
+      "heading": "The for a uniquely identifiable referent",
+      "body": "`The` is also used on first mention whenever something in the sentence itself makes the noun unique. The commonest devices are a following **of-phrase** and a **restrictive relative clause**: `the cost of the project`, `the evidence that the team collected`. Nothing has been mentioned before, yet only one thing can be meant.\n\nThe same logic covers superlatives and ordinals (`the highest rate`, `the first attempt`), unique objects (`the sun`, `the environment`, `the government`), and nouns made unique by shared context (`the economy`, `the internet`).",
+      "examples": [
+        {
+          "right": "The cost of the project rose sharply after the delay.",
+          "wrong": "Cost of the project rose sharply after the delay.",
+          "note": "The of-phrase makes `cost` unique, so `the` is required even on first mention."
+        },
+        {
+          "right": "It was the first time the experiment had produced consistent results.",
+          "wrong": "It was a first time the experiment had produced consistent results.",
+          "note": "Ordinals and superlatives select one member of a set, so they take `the`."
+        },
+        {
+          "right": "The evidence that the committee reviewed in 2019 has since been challenged.",
+          "wrong": null,
+          "note": "A restrictive relative clause narrows the noun to one identifiable body of evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Zero article in general statements",
+      "body": "To speak about a category as a whole, English uses **no article** with plural countable nouns and with uncountable nouns: `Water is scarce`, `Students often struggle`, `Renewable energy is now cheaper than coal`. This is the single most useful pattern for academic writing, and the one Arabic speakers most often overwrite, because Arabic marks generic reference with the definite article and has no indefinite article at all.\n\nAdding `the` does not make the sentence more formal; it changes the meaning to a specific known group. `Students often struggle with time management` is a claim about students in general. `The students often struggle` is a claim about one particular set of students the reader can already identify.\n\nThe same contrast runs through academic phrasing. `Research shows that sleep affects memory` reports the field as a whole; `The research shows` points at a specific study or body of work already under discussion.",
+      "examples": [
+        {
+          "right": "Water is becoming scarce in many parts of the world.",
+          "wrong": "The water is becoming scarce in many parts of the world.",
+          "note": "An uncountable noun used generically takes no article."
+        },
+        {
+          "right": "Research shows that regular feedback improves retention.",
+          "wrong": null,
+          "note": "A general claim about the field. `The research shows` would point to one identified study."
+        },
+        {
+          "right": "Governments have been slow to regulate the industry.",
+          "wrong": "The governments have been slow to regulate the industry.",
+          "note": "A plural generic takes zero article unless a particular set of governments is meant."
+        }
+      ]
+    },
+    {
+      "heading": "a or an is chosen by sound, not spelling",
+      "body": "`An` is used before a **vowel sound**, `a` before a **consonant sound**. Spelling is irrelevant, which is why `a university`, `a European partner` and `a one-way street` take `a` (they begin with the consonant sounds /j/ and /w/), while `an hour`, `an honest answer` and `an heir` take `an` because the h is silent.\n\nInitials follow the sound of the letter name: `an MBA`, `an MP`, `an FAQ`, `an SME` all begin with a vowel sound, whereas `a UN report` and `a US citizen` do not.",
+      "examples": [
+        {
+          "right": "She completed an MBA before joining the research team.",
+          "wrong": "She completed a MBA before joining the research team.",
+          "note": "`M` is pronounced /em/, a vowel sound, whatever the spelling suggests."
+        },
+        {
+          "right": "Applicants need a university degree and two years of experience.",
+          "wrong": "Applicants need an university degree.",
+          "note": "`University` begins with the consonant sound /j/."
+        },
+        {
+          "right": "The interview lasted an hour and a half.",
+          "wrong": "The interview lasted a hour and a half.",
+          "note": "The h in `hour` is silent, so the word begins with a vowel sound."
+        }
+      ]
+    },
+    {
+      "heading": "Names: which take the and which do not",
+      "body": "Most proper names take no article, but `the` appears with names that are built on a **common noun** or are grammatically plural: `the United States`, `the Netherlands`, `the Czech Republic`, `the United Kingdom` — against plain `France`, `Egypt`, `Australia`, `Germany`.\n\n`The` also goes with rivers, seas, oceans, deserts, mountain ranges and island groups (`the Nile`, `the Mediterranean`, `the Alps`), and with institutions named with an of-phrase (`the University of Melbourne`, `the Ministry of Health`) — but not with the of-less form (`Melbourne University`, `Harvard University`). Single mountains and lakes take none: `Everest`, `Lake Nasser`.",
+      "examples": [
+        {
+          "right": "The Netherlands has invested heavily in flood defences.",
+          "wrong": "Netherlands has invested heavily in flood defences.",
+          "note": "A plural-form country name keeps `the`."
+        },
+        {
+          "right": "Cairo stands on the Nile, some 200 kilometres from the Mediterranean.",
+          "wrong": null,
+          "note": "Rivers and seas take `the`; cities do not."
+        },
+        {
+          "right": "She studied at the University of Sydney; her brother went to Sydney University.",
+          "wrong": null,
+          "note": "The of-phrase form takes `the`; the compound form takes none."
+        }
+      ]
+    },
+    {
+      "heading": "Fixed zero-article contexts",
+      "body": "Several everyday categories take no article at all: **meals** (`before lunch`, `after dinner`), **languages** (`speaks Arabic`, `taught in English`), **academic subjects** (`studying economics`, `a degree in history`), and **by + transport** (`by bus`, `by train`, `by car`, `by air`).\n\nThese are fixed patterns rather than rules with reasons, and each of them reappears the moment a modifier is added: `a light lunch`, `the English of the seventeenth century`, `the economics of climate policy`, `on the 7.40 train`.",
+      "examples": [
+        {
+          "right": "The delegates continued the discussion over lunch.",
+          "wrong": "The delegates continued the discussion over the lunch.",
+          "note": "Meals take no article unless a specific or modified meal is meant."
+        },
+        {
+          "right": "He travels to campus by bus because parking is limited.",
+          "wrong": "He travels to campus by the bus because parking is limited.",
+          "note": "`By` + means of transport is a fixed zero-article phrase."
+        },
+        {
+          "right": "She is studying economics and hopes to work in public policy.",
+          "wrong": "She is studying the economics and hopes to work in public policy.",
+          "note": "Academic subjects take no article; `the economics of X` is a different, modified phrase."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Writing `The students often struggle` for a general claim. Drop `the` unless a specific, already identified group is meant.",
+    "Adding `the` to uncountable generics such as `the water`, `the information`, `the pollution`. Arabic marks generics with the definite article; English marks them with nothing.",
+    "Choosing `a` or `an` by the letter rather than the sound: `a MBA`, `an university`, `a hour`. Say the word aloud first.",
+    "Dropping the article before a noun made unique by an of-phrase: `Cost of the project rose` should be `The cost of the project rose`.",
+    "Putting `the` in front of every country: `the France`, `the Egypt`. Only names containing a common noun or a plural form take it.",
+    "Using `the` with a singular countable noun on first mention, when the reader has no way to identify it yet."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "Engineers have installed a new filtration unit at the plant. ___ unit removes microplastics from the water supply.",
+      "options": [
+        "An",
+        "A",
+        "The",
+        "(no article)"
+      ],
+      "answer": 2,
+      "explain": "The unit has just been introduced, so the second mention is identifiable and takes `the`. `A` would wrongly introduce a second, different unit."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ cost of the new campus rose sharply after the two-year delay.",
+      "hint": "article",
+      "accept": [
+        "The"
+      ],
+      "explain": "The of-phrase `of the new campus` makes `cost` uniquely identifiable, so `the` is required even though the cost has not been mentioned before."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She completed ___ MBA in Manchester before joining the research group.",
+      "options": [
+        "(no article)",
+        "an",
+        "a",
+        "the"
+      ],
+      "answer": 1,
+      "explain": "The letter M is pronounced /em/, a vowel sound, so `an` is correct. `A` follows the spelling rather than the pronunciation."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Recent analyses suggest that ___ renewable energy is now cheaper than coal in most markets.",
+      "options": [
+        "(no article)",
+        "the",
+        "an",
+        "a"
+      ],
+      "answer": 0,
+      "explain": "This is a general claim about an uncountable noun, so no article is used. `The renewable energy` would point to a specific supply already under discussion."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ Netherlands has invested more in flood defences than any other country in Europe.",
+      "hint": "article",
+      "accept": [
+        "The"
+      ],
+      "explain": "Country names that are plural in form or built on a common noun keep `the`: the Netherlands, the United States, the Czech Republic — but plain France and Egypt."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Most of the students travel to campus ___ because parking on site is limited.",
+      "options": [
+        "by a bus",
+        "by buses",
+        "by the bus",
+        "by bus"
+      ],
+      "answer": 3,
+      "explain": "`By` plus a means of transport is a fixed zero-article phrase. `By the bus` would refer to one identified vehicle rather than the mode of travel."
+    },
+    {
+      "type": "blank",
+      "prompt": "The candidate holds ___ honorary doctorate from a Dutch university.",
+      "hint": "a or an",
+      "accept": [
+        "an"
+      ],
+      "explain": "The h in `honorary` is silent, so the word begins with a vowel sound and takes `an`, exactly as `an hour` does."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It was ___ first time the experiment had produced consistent results.",
+      "options": [
+        "(no article)",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": 3,
+      "explain": "Ordinals single out one member of a set and therefore take `the`. `A first time` would suggest there could be several."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ evidence that the team collected in 2019 has since been challenged by two independent studies.",
+      "options": [
+        "The",
+        "(no article)",
+        "A",
+        "An"
+      ],
+      "answer": 0,
+      "explain": "The relative clause narrows the noun to one identifiable body of evidence. Zero article would be right only for a general statement such as `Evidence suggests...`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Applicants need ___ university degree and at least two years of relevant experience.",
+      "hint": "a or an",
+      "accept": [
+        "a"
+      ],
+      "explain": "`University` starts with the consonant sound /j/, so it takes `a` despite the initial vowel letter."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The delegates carried on the discussion over ___ before returning to the conference hall.",
+      "options": [
+        "lunches",
+        "lunch",
+        "a lunch",
+        "the lunch"
+      ],
+      "answer": 1,
+      "explain": "Meals take no article in ordinary references to the occasion. An article reappears only with a modifier, as in `a light lunch`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Research generally supports the theory, but ___ research described in Chapter 4 contradicts it.",
+      "hint": "article",
+      "accept": [
+        "the"
+      ],
+      "explain": "Unmodified `research` names the field in general, while the following relative-style modifier identifies one specific body of work, which requires `the`."
+    }
+  ]
+}

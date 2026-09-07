@@ -1,0 +1,68 @@
+{
+  "id": "e41",
+  "models": [
+    {
+      "stance": "Surveillance is justified only where it is proven and bounded",
+      "approach": "Test the safety claim against the evidence, then decide on the basis of what cameras actually do.",
+      "plan": [
+        "Introduction: the disagreement, and the test you will apply.",
+        "Body 1: the safety case, with its evidence.",
+        "Body 2: the privacy case, and where the two meet.",
+        "Conclusion: your opinion, drawn as a boundary."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that cameras make a city safer and, with equal conviction, that they make it a place where nobody is unobserved. The evidence supports each side more narrowly than its advocates claim, and my own position follows from where that evidence actually points." },
+        { "role": "Body 1 · the safety case", "text": "[[On the one hand]], surveillance has demonstrable uses. Cameras are consistently effective in enclosed spaces such as car parks, where they reduce vehicle crime substantially, and they are [[invaluable]] afterwards: a large share of serious prosecutions now rests on recorded footage. [[It is true that]] many people, particularly women travelling at night, report feeling safer where the streets are covered, and dismissing that as illusion is [[injudicious]]." },
+        { "role": "Body 2 · the privacy case", "text": "[[On the other hand]], the effect on street violence is close to negligible, since assaults are rarely deliberated, and displacement to unwatched streets is well documented. Meanwhile the cost is not merely to privacy but to the [[autonomy]] of ordinary behaviour: a person who knows they are recorded attends fewer protests and takes different routes, and the change is [[insidious]] because nobody can point to the moment it happened. [[Consequently]], facial recognition transforms the question, because a camera that identifies is a different instrument from one that records." },
+        { "role": "Conclusion", "text": "[[All things considered]], I support cameras where they demonstrably work and oppose the general coverage of public space. Enclosed and high-risk locations, footage held briefly, no automated identification without a warrant: those limits keep the benefit that is [[substantiated|Substantiate]] and refuse the surveillance that is merely assumed to help." }
+      ],
+      "notes": [
+        "Choosing the test in the introduction, what the evidence supports, tells the reader how the essay will be decided.",
+        "Separating recording from identification is the distinction that matters most in this debate and is often missed.",
+        "The conclusion draws a boundary with three specific limits rather than balancing two abstractions."
+      ]
+    },
+    {
+      "stance": "Safety is the stronger claim",
+      "approach": "Argue that the privacy objection describes an ideal public space that never existed.",
+      "plan": [
+        "Introduction: the disagreement, and which side you find stronger.",
+        "Body 1: the privacy case, stated at its strongest.",
+        "Body 2: the safety case, with who benefits from it.",
+        "Conclusion: your opinion, with safeguards."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Objections to public surveillance usually invoke a lost condition of urban anonymity that was, in practice, always partial. [[From my perspective]] the safety argument is the stronger of the two, provided the use of the footage is tightly governed." },
+        { "role": "Body 1 · the privacy case", "text": "[[On the one hand]], the critics are right that the accumulation matters. A single camera is [[innocuous]]; a network that can reconstruct a person's week is something else, and it is built one [[innocuous]] camera at a time. [[It must be acknowledged]] that such systems are used disproportionately in poor districts and against minorities, and that the record of misuse by police forces in several countries is not reassuring." },
+        { "role": "Body 2 · the safety case", "text": "[[On the other hand]], the people asked to accept the risk of an unwatched street are rarely the people making the argument. Women, night workers and shopkeepers report the benefit most strongly, and their changed behaviour in unlit, unwatched areas is itself a restriction on freedom that the privacy argument does not count. [[There is evidence that]] recorded footage resolves a substantial proportion of serious assaults and, [[significantly]], exonerates the wrongly accused as often as it convicts. [[Consequently]], the instrument cuts both ways." },
+        { "role": "Conclusion", "text": "[[On balance]], I find the safety case more convincing, with conditions that the privacy argument has usefully identified. Independent oversight, short retention, no facial recognition without judicial approval and equal coverage across districts would make the trade [[equitable]] rather than one imposed on the watched by the unwatched." }
+      ],
+      "notes": [
+        "Pointing out who bears the risk of no cameras answers the liberty argument with a competing liberty, which is much stronger than dismissing it.",
+        "That footage exonerates as well as convicts is a fact that few essays on this topic use.",
+        "The conclusion adopts the other side's safeguards, which is how you win an argument without pretending it was one-sided."
+      ]
+    },
+    {
+      "stance": "Privacy is the stronger claim",
+      "approach": "Concede the investigative value and argue that the deterrent claim, which justifies the scale, is unsupported.",
+      "plan": [
+        "Introduction: the two views, and which you find stronger.",
+        "Body 1: the safety case, given its real evidence.",
+        "Body 2: why the scale is unjustified, and what it costs.",
+        "Conclusion: your opinion, and what should replace the cameras."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] cameras prevent crime or merely record it, and the distinction decides the whole question, since prevention is what justifies covering a city. [[In my opinion]] the privacy objection is the stronger position." },
+        { "role": "Body 1 · the safety case", "text": "[[On the one hand]], the investigative value is genuine. Footage identifies suspects, corroborates accounts and has overturned convictions as well as securing them, and no serious critic proposes removing cameras from banks or car parks. [[It is true that]] many residents feel safer, and a policy that ignores how people experience their own streets will not survive." },
+        { "role": "Body 2 · why the scale is unjustified", "text": "[[On the other hand]], the deterrent effect on street crime is small, which matters because deterrence is the argument used to justify covering everywhere rather than somewhere. What blanket coverage reliably produces is a record of ordinary people, and the [[intrusion]] compounds as systems are joined together and matched to faces. [[It is evident that]] such capability, once built, is never confined to its original purpose, and the shift is [[irreversible]] because no government dismantles it voluntarily." },
+        { "role": "Conclusion", "text": "[[All things considered]], I find the privacy argument more convincing on the question actually at issue, which is scale rather than existence. Cameras in specific high-risk places, strict retention limits and a legal ban on automated identification would keep the [[integral]] investigative benefit, while lighting, staffed stations and street design deliver the prevention that cameras have never [[validated|Validate]]." }
+      ],
+      "notes": [
+        "Distinguishing prevention from investigation is the argument, and stating it in the introduction makes everything after it follow.",
+        "Naming what the scale is justified by, and then showing that claim is unsupported, is a precise attack.",
+        "Offering lighting and street design as the alternative prevention answers the safety concern rather than dismissing it."
+      ]
+    }
+  ]
+}

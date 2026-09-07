@@ -1,0 +1,68 @@
+{
+  "id": "e38",
+  "models": [
+    {
+      "stance": "Broken promises as the cause",
+      "approach": "Trace the decline to a series of institutional failures with no consequences, then follow the effects into governability.",
+      "plan": [
+        "Introduction: name the decline and promise causes then consequences.",
+        "Body 1: causes, ranked, with unaccountable failure first.",
+        "Body 2: consequences for policy and for democratic life.",
+        "Conclusion: what would rebuild it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Surveys across most democracies show trust in government at or near its lowest recorded level, and the fall is steepest among the young. [[It is evident that]] this has identifiable causes in what institutions actually did, and its consequences are already visible in how those countries are governed." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] a sequence of failures without consequences. The financial crisis, the wars justified on evidence later shown to be [[invalid]], and the expenses scandals each produced enormous costs for the public and almost none for the people responsible. [[This leads to]] the second cause: a widening gap between promise and delivery, as governments pledged to control housing, immigration or waiting lists and did not. [[Consequently]], distrust is not irrational; it is an accurate reading of a record." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], governing becomes harder in ways that compound the problem. Public health advice is doubted, so campaigns fail and further failures follow. Turnout falls among the least trusting, which skews policy towards the groups still voting and [[exacerbates|Exacerbate]] their alienation. [[It follows that]] the space is filled by figures who promise to destroy institutions rather than repair them, and their eventual failure deepens the same distrust." },
+        { "role": "Conclusion", "text": "[[In conclusion]], trust has fallen because institutions failed visibly and answered for it rarely. Rebuilding it requires accountability that bites, promises small enough to keep, and transparency that is [[explicit]] rather than announced, since trust responds to demonstrated behaviour rather than to communication strategies." }
+      ],
+      "notes": [
+        "Arguing that distrust is rational rather than a failure of the public is the move that gives this essay a real thesis.",
+        "The consequences paragraph shows a loop, distrust producing conditions that deepen it, which is stronger than a list of harms.",
+        "The conclusion rejects the usual remedy, better communication, and names what would actually work."
+      ]
+    },
+    {
+      "stance": "Information environment as the cause",
+      "approach": "Argue that the change is in how citizens see institutions, not only in what those institutions did.",
+      "plan": [
+        "Introduction: failures alone do not explain the timing or the breadth.",
+        "Body 1: causes rooted in visibility, incentives and fragmentation.",
+        "Body 2: consequences for shared facts and for politics.",
+        "Conclusion: what could be done, and what cannot."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Governments have always failed, and yet trust was high in decades with far worse scandals. [[I would argue]] that the decisive change is in how institutional behaviour reaches citizens rather than in the behaviour itself." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that everything is now visible and nothing is contextualised. Every mistake, in every department, in every country, arrives on the same feed within minutes, and the accumulation gives an impression of universal failure that no individual report would. [[At the same time]], attention rewards outrage, so the material that spreads is [[invariably|Invariable]] the most damning version available. [[Consequently]], institutions that are performing adequately are judged against a stream composed entirely of their worst days." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], the shared factual ground on which argument depends has thinned. Citizens increasingly select the sources that confirm what they already think, and a public debate in which the parties cannot [[corroborate]] a single common fact cannot resolve anything. [[Not surprisingly]], this makes coalitions harder to build and reversals of policy more frequent, which produces exactly the instability that further [[impedes|Impede]] confidence." },
+        { "role": "Conclusion", "text": "[[Overall]], the decline reflects a transformed information environment as much as institutional failure. Publishing outcomes routinely rather than defensively, and funding independent local reporting, would help, though [[to some degree]] the change is [[irreversible]] and institutions will have to earn trust under permanent [[scrutiny]] rather than wait for the old deference to return." }
+      ],
+      "notes": [
+        "Opening with a counterexample, worse scandals in higher-trust decades, forces a more interesting explanation than blaming politicians.",
+        "Judged against a stream composed entirely of their worst days is the essay's argument in one image.",
+        "Admitting that part of the change cannot be undone is more convincing than proposing to restore the past."
+      ]
+    },
+    {
+      "stance": "Material stagnation as the cause",
+      "approach": "Argue that trust follows living standards, and that the decline tracks a generation that did not get better off.",
+      "plan": [
+        "Introduction: the decline correlates with something measurable.",
+        "Body 1: causes, stagnant wages, housing and the broken bargain.",
+        "Body 2: consequences, political and social.",
+        "Conclusion: trust returns when the bargain does."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Trust in institutions has fallen furthest in the countries where wages stagnated longest, which is unlikely to be coincidence. [[From my perspective]] the principal cause is material: an implicit bargain was broken, and no amount of reassurance restores it." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that a generation did as it was told and was worse off for it. Degrees were taken on the promise of secure work, and the work is short-term; housing costs multiples of what the previous generation paid; and pensions were reduced while the retired were protected. [[Owing to]] this, the institutions that issued the advice appear either dishonest or [[inept]], and no third explanation is offered to the people affected. [[Significantly]], the fall in trust is steepest exactly among those cohorts." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], political behaviour changes in predictable ways. Support moves to whoever promises rupture, since continuity has demonstrably not worked, and turnout falls among those who conclude that no party will act. [[Consequently]], parties compete on identity rather than on delivery, because delivery is what they have been unable to promise credibly, and the resulting debate is [[intense]] without being about anything material." },
+        { "role": "Conclusion", "text": "[[To sum up]], the decline is a rational response to a bargain that stopped paying. [[It stands to reason]] that trust will return when institutions can point to something delivered: houses built, wages risen, waiting times fallen. Until then, campaigns to restore confidence are addressing the symptom, and citizens are not [[docile]] enough to be persuaded by them." }
+      ],
+      "notes": [
+        "Anchoring the argument to something measurable, wage stagnation by cohort, is what distinguishes it from a general complaint about politics.",
+        "Identity rather than delivery explains a familiar political shift as a consequence of the cause named, which keeps the essay unified.",
+        "The last clause is a compliment to citizens rather than a lament, which is a more distinctive ending than the usual warning."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "punctuation",
+  "title": "Punctuation That Changes Meaning",
+  "group": "Precision and Style",
+  "summary": "Commas, semicolons, colons, apostrophes and hyphens used so that the punctuation carries the intended meaning.",
+  "sections": [
+    {
+      "heading": "The Comma Splice and Its Three Fixes",
+      "body": "A **comma splice** is two independent clauses joined by nothing more than a comma: `The trial was inconclusive, the team repeated it`. Each half could stand alone as a sentence, and a comma is too weak to hold them together.\n\nThere are three fixes. Use a full stop and start a new sentence. Use a semicolon, which keeps the two ideas in one sentence and signals that they are closely related. Or keep the comma and add a coordinating conjunction: `and`, `but`, `or`, `so`, `for`, `nor`, `yet`.\n\nThe trap is that words like `however`, `therefore`, `moreover` and `nevertheless` are not conjunctions. They are adverbs, so a comma before them still leaves a splice: `The data was clear, however the panel disagreed` needs a semicolon or a full stop before `however`. Arabic joins clauses freely with a linking particle, which makes this one of the most frequent transfer errors in written English.",
+      "examples": [
+        {
+          "right": "The survey was flawed, so the results were discarded.",
+          "wrong": "The survey was flawed, the results were discarded.",
+          "note": "A comma alone cannot join two independent clauses."
+        },
+        {
+          "right": "Attendance fell sharply; the organisers cancelled the event.",
+          "wrong": "Attendance fell sharply, the organisers cancelled the event.",
+          "note": "A semicolon holds two closely related clauses together."
+        },
+        {
+          "right": "The findings were widely reported; however, they were never replicated.",
+          "wrong": "The findings were widely reported, however they were never replicated.",
+          "note": "`However` is an adverb, not a coordinating conjunction."
+        }
+      ]
+    },
+    {
+      "heading": "Semicolons and Colons",
+      "body": "A **semicolon** links two independent clauses whose relationship the writer wants to leave implicit, usually contrast, consequence or restatement. Whatever stands on each side must be able to stand alone; if one side is a fragment, the semicolon is wrong.\n\nThe semicolon has a second job: separating items in a list when the items themselves contain commas. `The delegates came from Lima, Peru; Quito, Ecuador; and Bogota, Colombia` would be unreadable with commas alone.\n\nA **colon** introduces what follows: an explanation, a list, or a quotation. What comes before the colon must be a complete clause, which is why `The obstacles are: cost and staffing` is wrong and `The report identified two obstacles: cost and staffing` is right.",
+      "examples": [
+        {
+          "right": "The first phase succeeded; the second was abandoned after six weeks.",
+          "wrong": "The first phase succeeded; abandoning the second after six weeks.",
+          "note": "Both sides of a semicolon must be independent clauses."
+        },
+        {
+          "right": "The course covers three areas: statistics, ethics and field methods.",
+          "wrong": "The course covers: statistics, ethics and field methods.",
+          "note": "A complete clause must precede the colon."
+        },
+        {
+          "right": "The rule is simple: nothing is published before peer review.",
+          "wrong": null,
+          "note": "The colon introduces the explanation of the clause before it."
+        }
+      ]
+    },
+    {
+      "heading": "Commas That Frame",
+      "body": "A comma follows an introductory element, whether a single adverb, a phrase or a subordinate clause: `After a lengthy debate, the committee postponed the vote`. Short introductory adverbs sometimes drop the comma, but the comma is never wrong.\n\nA **non-defining** relative clause adds information that could be removed without changing which thing is meant, and it is enclosed in a pair of commas: `My supervisor, who has published widely on urban planning, is chairing the panel`. A **defining** clause identifies which one, and takes no commas: `The researcher who wrote the report has left the university`. The pair is a pair: leaving the closing comma out is one of the most common errors in typed exam answers, because the writer moves on before finishing the frame.\n\nThe **serial comma**, before `and` in a list of three or more, is optional in British usage and standard in American usage. Either convention is acceptable as long as it is applied consistently, and it should be used whenever its absence would be ambiguous.",
+      "examples": [
+        {
+          "right": "Once the funding was approved, construction began within a month.",
+          "wrong": "Once the funding was approved construction began within a month.",
+          "note": "An introductory clause is separated by a comma."
+        },
+        {
+          "right": "The museum, which was built in 1890, reopens in March.",
+          "wrong": "The museum, which was built in 1890 reopens in March.",
+          "note": "A non-defining clause needs both commas, not just the first."
+        },
+        {
+          "right": "The grant covers travel, equipment and accommodation.",
+          "wrong": null,
+          "note": "British usage commonly omits the comma before `and`; American usage keeps it."
+        }
+      ]
+    },
+    {
+      "heading": "Apostrophes",
+      "body": "An apostrophe marks possession or a contraction. Never a plural. `The 1990s`, `two PhDs` and `several universities` take no apostrophe at all.\n\nFor possession, a singular noun takes `'s` (`the student's essay`, one student), and a regular plural already ending in `-s` takes the apostrophe alone (`the students' union`, many students). Irregular plurals that do not end in `-s` take `'s`: `the children's ward`, `the women's team`.\n\nThe pair that catches everyone is `its` and `it's`. **Its** is the possessive, like `his` and `her`, and has no apostrophe. **It's** is only ever the contraction of `it is` or `it has`. Since possessive pronouns never take an apostrophe, the presence of one proves a contraction is meant. Arabic has no apostrophe at all, so this mark repays deliberate checking rather than instinct.",
+      "examples": [
+        {
+          "right": "The university published its annual report late.",
+          "wrong": "The university published it's annual report late.",
+          "note": "`Its` is possessive; `it's` means it is."
+        },
+        {
+          "right": "Both authors' names appeared on the cover.",
+          "wrong": "Both author's names appeared on the cover.",
+          "note": "A plural ending in -s takes the apostrophe after the s."
+        },
+        {
+          "right": "The company opened three offices in the 1990s.",
+          "wrong": "The company opened three offices in the 1990's.",
+          "note": "Plurals, including decades, never take an apostrophe."
+        }
+      ]
+    },
+    {
+      "heading": "Hyphens in Compound Modifiers",
+      "body": "When two or more words act together as a single adjective **before** a noun, they are hyphenated: `a well-known study`, `a five-year plan`, `a state-of-the-art laboratory`. The hyphen shows the reader that the words form one unit.\n\nAfter the noun the hyphen disappears, because the ambiguity it prevented no longer exists: `the study is well known`, `the plan runs for five years`. Note also that the number stays singular inside the modifier: `a five-year plan`, not `a five-years plan`.\n\nAn adverb ending in `-ly` is never hyphenated to the adjective it modifies, since `-ly` already shows the relationship: `a widely cited paper`, not `a widely-cited paper`.",
+      "examples": [
+        {
+          "right": "The council approved a five-year plan for the tram network.",
+          "wrong": "The council approved a five years plan for the tram network.",
+          "note": "A compound modifier is hyphenated and keeps the noun singular."
+        },
+        {
+          "right": "The approach is well established in clinical practice.",
+          "wrong": "The approach is well-established in clinical practice.",
+          "note": "After the noun, no hyphen is needed."
+        },
+        {
+          "right": "This is a frequently cited example.",
+          "wrong": "This is a frequently-cited example.",
+          "note": "An -ly adverb is not hyphenated to the following adjective."
+        }
+      ]
+    },
+    {
+      "heading": "Quotation Marks and Capitals",
+      "body": "Quoted words are enclosed in quotation marks, and a quoted sentence introduced by a reporting verb takes a comma before it: `The minister said, \"The policy will be reviewed.\"` In British usage, punctuation belonging to the quoted material stays inside the marks and punctuation belonging to the surrounding sentence stays outside; American usage places commas and full stops inside regardless. Choose one convention and hold it.\n\nCapital letters mark the first word of a sentence, the pronoun `I`, and proper nouns: names of people, places, organisations, months and days. Nationalities and the languages and adjectives derived from them are capitalised too: `French literature`, `an Egyptian archaeologist`. Seasons and general fields of study are not: `spring`, `economics`.\n\nIn titles, capitalise the first and last word and everything in between except short articles, conjunctions and prepositions. Arabic script has no upper and lower case, so capitalisation is a purely written convention that has to be applied consciously.",
+      "examples": [
+        {
+          "right": "She is studying French literature at a university in Cairo.",
+          "wrong": "She is studying french literature at a university in cairo.",
+          "note": "Nationality adjectives and place names are capitalised."
+        },
+        {
+          "right": "The report concluded, \"Further study is required.\"",
+          "wrong": "The report concluded \"further study is required\".",
+          "note": "A comma introduces the quotation and the quoted sentence begins with a capital."
+        },
+        {
+          "right": "The new term begins in September, after the summer break.",
+          "wrong": "The new term begins in september, after the Summer break.",
+          "note": "Months are capitalised; seasons are not."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Joining two complete sentences with a comma; use a full stop, a semicolon, or a comma plus and, but, or, so.",
+    "Treating `however`, `therefore` and `moreover` as conjunctions; they need a semicolon or full stop before them.",
+    "Opening a non-defining clause with a comma and forgetting the closing one; the commas are a pair.",
+    "Writing `it's` for the possessive; possessive pronouns never take an apostrophe, so the possessive is `its`.",
+    "Adding an apostrophe to a plural, as in `three report's`; plurals take no apostrophe at all.",
+    "Hyphenating a compound modifier after the noun, or hyphenating an -ly adverb to the adjective it modifies."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The first survey was badly designed, ___ the team commissioned a second one.",
+      "options": [
+        "however",
+        "so",
+        "consequently",
+        "therefore"
+      ],
+      "answer": 1,
+      "explain": "Only `so` is a coordinating conjunction, and a comma plus a coordinating conjunction can join two independent clauses. The other three are adverbs, so a comma before them leaves a comma splice."
+    },
+    {
+      "type": "blank",
+      "prompt": "The first phase of the trial succeeded ___ the second was abandoned after six weeks.",
+      "hint": "one punctuation mark that links two independent clauses without a conjunction",
+      "accept": [
+        ";"
+      ],
+      "explain": "A semicolon joins two closely related independent clauses and leaves the contrast between them implicit. A comma here would produce a comma splice."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The report identified three obstacles ___ cost, staffing and public opposition.",
+      "options": [
+        ",",
+        ".",
+        ":",
+        ";"
+      ],
+      "answer": 2,
+      "explain": "A colon introduces a list after a complete clause. A semicolon would require another independent clause to follow, and a comma is too weak to signal that the list explains `obstacles`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The university published ___ annual report three weeks behind schedule.",
+      "hint": "the possessive form of 'it'",
+      "accept": [
+        "its"
+      ],
+      "explain": "`Its` is a possessive pronoun and, like `his` and `hers`, takes no apostrophe. `It's` can only mean `it is` or `it has`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The ___ union voted to reject the offer, since all four thousand members opposed it.",
+      "options": [
+        "student's",
+        "students's",
+        "students",
+        "students'"
+      ],
+      "answer": 3,
+      "explain": "The union belongs to many students, and a regular plural already ending in -s takes the apostrophe after the s. `Student's` would mean a union belonging to one student."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The council approved a ___ plan to extend the tram network.",
+      "options": [
+        "five year",
+        "five years",
+        "five-year",
+        "five-years"
+      ],
+      "answer": 2,
+      "explain": "Two words acting as one adjective before a noun are hyphenated, and the noun inside the modifier stays singular. The plural `years` appears only after the noun, as in `a plan lasting five years`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The findings were reported in every national newspaper, ___ they were never successfully replicated.",
+      "hint": "a coordinating conjunction signalling contrast",
+      "accept": [
+        "but",
+        "yet"
+      ],
+      "explain": "A comma can join two independent clauses only when a coordinating conjunction follows it. `However` would need a semicolon before it, since it is an adverb rather than a conjunction."
+    },
+    {
+      "type": "mcq",
+      "prompt": "My supervisor ___ has published widely on urban planning, is chairing the panel.",
+      "options": [
+        "who",
+        ", that",
+        " that",
+        ", who"
+      ],
+      "answer": 3,
+      "explain": "The closing comma before `is chairing` shows that a non-defining clause is being framed, so the opening comma is required to complete the pair. `That` cannot introduce a non-defining clause."
+    },
+    {
+      "type": "blank",
+      "prompt": "Both ___ signatures appeared at the foot of the agreement.",
+      "hint": "the possessive plural of 'author'",
+      "accept": [
+        "authors'"
+      ],
+      "explain": "`Both` establishes that there are two authors, and a plural ending in -s takes the apostrophe after the s. `Author's` would refer to a single author."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ the committee decided to postpone the vote until September.",
+      "options": [
+        "After a lengthy debate,",
+        "After, a lengthy debate",
+        "After a lengthy, debate",
+        "After a lengthy debate"
+      ],
+      "answer": 0,
+      "explain": "An introductory subordinate element is separated from the main clause by a comma. The other options either omit that comma or place one inside the phrase, cutting a preposition or an adjective off from what it belongs to."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The delegates came from Lima, Peru___ Quito, Ecuador; and Bogota, Colombia.",
+      "options": [
+        ",",
+        ":",
+        ".",
+        ";"
+      ],
+      "answer": 3,
+      "explain": "When list items already contain commas, semicolons separate the items so the divisions stay visible. A further comma here would make `Peru` and `Quito` look like separate items."
+    },
+    {
+      "type": "blank",
+      "prompt": "The team adopted a ___ approach that combined interviews with statistical modelling.",
+      "hint": "well + established, as a compound modifier before the noun",
+      "accept": [
+        "well-established"
+      ],
+      "explain": "Before a noun the two words act as a single adjective and are hyphenated; after the noun, as in `the approach is well established`, the hyphen is dropped."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e21",
+  "models": [
+    {
+      "stance": "Benefits outweigh",
+      "approach": "Argue that the difficulties are front-loaded and temporary while the benefits are permanent.",
+      "plan": [
+        "Introduction: what studying abroad offers and costs, and where you land.",
+        "Body 1: the benefits, academic and personal.",
+        "Body 2: the difficulties, financial and social.",
+        "Conclusion: the verdict, with the reason the timing matters."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Studying in another country has become an ordinary ambition rather than an exotic one, and the accounts of it divide sharply between the transformative and the miserable. [[On balance]] I think the benefits are the larger, largely because the difficulties are concentrated in the first year." },
+        { "role": "Benefits", "text": "The clearest benefit is academic access: a student can reach a department, a library or a supervisor that simply does not exist at home, and in specialised fields that access is [[indispensable]]. The second is less often stated. Living where you do not know the rules forces a daily [[introspection]] about assumptions you had never noticed holding, and employers value the resulting [[autonomy]] more than any module title. [[It is worth noting]] that graduates who studied abroad report far higher confidence in unfamiliar situations, which is a durable advantage." },
+        { "role": "Difficulties", "text": "[[By contrast]], the difficulties are real and arrive at once. Fees for international students are frequently double the domestic rate, and visa rules restrict the work that might have paid them. Loneliness is the commoner problem: friendship groups form in the first month, and a student still deciphering the language can find themselves [[isolated]] before the term is properly underway. Academic conventions differ too, and [[plagiarism]] rules in particular catch students taught to quote respectfully rather than to cite." },
+        { "role": "Conclusion", "text": "[[Taken together]], the difficulties are severe but temporary, while the access and the independence last. Universities that fund proper induction, language support and an explicit account of their academic rules remove most of the first-year damage, and with that support the balance is not close." }
+      ],
+      "notes": [
+        "The plagiarism sentence is the detail that makes this essay specific to studying abroad rather than to moving anywhere.",
+        "Temporary against permanent is the contrast the introduction promises and the conclusion delivers, which is what holds the essay together.",
+        "Naming what universities should do turns the verdict into something actionable."
+      ]
+    },
+    {
+      "stance": "Difficulties outweigh for most",
+      "approach": "Argue that the benefits are real but unevenly distributed, and that the cost falls on those least able to bear it.",
+      "plan": [
+        "Introduction: the reported benefits describe a minority.",
+        "Body 1: the benefits, granted fully.",
+        "Body 2: the difficulties, financial, legal and psychological.",
+        "Conclusion: for whom it works, and what would widen that group."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The case for studying abroad is usually made by people for whom it worked, which is a [[disparate]] sample. [[In my opinion]], once the whole cohort is counted, the difficulties outweigh the benefits for most students who attempt it." },
+        { "role": "Benefits", "text": "[[It is true that]] the advantages can be considerable. A degree from a stronger department opens doors, a second language acquired by immersion is worth more than any course, and the independence gained is genuine. [[For the most part]], those who complete such a degree with family support behind them do come home changed for the better." },
+        { "role": "Difficulties", "text": "[[Nevertheless]], the conditions attached are heavy. International fees plus living costs frequently exceed the family's annual income, so the student arrives already anxious and takes whatever work the visa permits, which is [[invariably|Invariable]] the worst-paid available. Study suffers accordingly. Immigration rules add a second burden: a change of course or an illness can [[jeopardize]] the visa itself, and no domestic student faces that. [[Regrettably]], the mental health data on international students is consistently worse than for their [[town dwelling counterpart|Town dwelling counterpart]]." },
+        { "role": "Conclusion", "text": "[[All things considered]], studying abroad rewards those who can afford it comfortably and punishes those who cannot. Scholarships that cover living costs rather than fees alone, and visas that permit real work, would change that arithmetic, but as things stand the [[dichotomy]] between the two experiences is too wide to give a single verdict." }
+      ],
+      "notes": [
+        "Challenging the sample, that the case is made by those it worked for, is a sharp opening and it sets up the whole essay.",
+        "The visa point is the difficulty most essays forget, and it is the one that domestic students genuinely do not share.",
+        "The conclusion distinguishes two populations rather than splitting the difference, which is a real position."
+      ]
+    },
+    {
+      "stance": "Depends on the preparation",
+      "approach": "Argue that the same year is a benefit or a difficulty depending on what was arranged before departure.",
+      "plan": [
+        "Introduction: the outcome is decided before arrival.",
+        "Body 1: benefits, which arrive when the groundwork exists.",
+        "Body 2: difficulties, which are what happens when it does not.",
+        "Conclusion: what preparation means in practice."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Accounts of studying abroad vary so wildly that they cannot all be describing the same experience. [[From my perspective]], the difference is rarely the country and almost always the preparation, and that is where the benefits and difficulties are decided." },
+        { "role": "Benefits", "text": "Where the groundwork is in place, the benefits compound. A student with adequate language, secured funding and a supervisor who answers email arrives able to work from the first week, and the academic gain is then [[integral]] rather than incidental. Such students also make friends early, because they have the fluency to join a conversation, and that early belonging is what makes the rest of the year [[coherent]]. [[A case in point]] is the exchange programmes with compulsory pre-departure language terms, whose completion rates are markedly higher." },
+        { "role": "Difficulties", "text": "[[By contrast]], the same country punishes the unprepared. A student arriving with weak language and uncertain money spends the year managing crises, and the academic work becomes the thing that is sacrificed. Housing scams, unfamiliar assessment conventions and a health system nobody has explained are each individually [[innocuous]] and collectively overwhelming. [[Consequently]], the withdrawal rate in the first semester is where most of the misery in this debate actually lives." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, studying abroad is neither inherently rewarding nor inherently difficult. Language to a working standard, money for the whole degree rather than the first year, and a named contact on arrival would convert most of the difficulties into the benefits, and universities that omit them are selling something they have not built." }
+      ],
+      "notes": [
+        "Making preparation the variable lets both paragraphs describe the same experience with different inputs, which is a tighter structure than listing pros and cons.",
+        "The three concrete requirements in the conclusion answer the difficulties named in body two, one for one.",
+        "Selling something they have not built is a sharp final phrase, and the essay has earned it by then."
+      ]
+    }
+  ]
+}

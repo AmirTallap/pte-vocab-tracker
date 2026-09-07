@@ -1,0 +1,68 @@
+{
+  "id": "e55",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from what secrecy is for, and answer the flexibility objection with the evidence from jurisdictions that did it.",
+      "plan": [
+        "Introduction: agree, and say what pay secrecy actually protects.",
+        "Body 1: the negotiation asymmetry and who it costs.",
+        "Body 2: concede the employer objections, then answer with evidence.",
+        "Conclusion: restate, with the form of the requirement."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "An advertisement that omits the salary asks a candidate to spend hours applying for something whose central term is hidden. [[On the whole]] I agree that publication should be required, because the secrecy protects the employer's negotiating position and very little else." },
+        { "role": "Body 1 · who secrecy costs", "text": "[[The main point is]] asymmetry. The employer knows what the role pays and what everybody else in the team earns, while the candidate knows neither, so the first number named is almost [[invariably|Invariable]] the employer's. [[There is evidence that]] this falls hardest on women and on candidates from poorer backgrounds, who ask for less because they have less information and less margin for a failed negotiation. [[Consequently]], the gap that results is measurable and persists for years, since each subsequent salary is anchored on the last." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], employers raise real objections. A published band restricts the freedom to pay an exceptional candidate more, and it exposes existing staff to comparison with new hires, which is uncomfortable and occasionally expensive. [[Nevertheless]], the jurisdictions that legislated, including several American states and the incoming European rules, report no collapse in hiring, and the discomfort about existing staff is an argument that they are underpaid rather than that the range should stay hidden. [[It must be acknowledged]] that the second objection is really an admission." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that pay should be published for every advertised role, as a genuine range rather than a [[frivolous]] one spanning thirty thousand pounds. Requiring the range and the criteria for placing somebody within it would make the process [[equitable]] without removing any legitimate flexibility." }
+      ],
+      "notes": [
+        "That the second objection is an admission is the sharpest sentence in the essay, and it disposes of the employer case without dismissing it.",
+        "Naming the jurisdictions that have already done this converts a prediction into evidence.",
+        "The conclusion anticipates the obvious evasion, a meaninglessly wide band, which shows the proposal has been thought through."
+      ]
+    },
+    {
+      "stance": "Agree with a band, not with every salary",
+      "approach": "Support publication of ranges and argue that full pay transparency inside firms has different effects.",
+      "plan": [
+        "Introduction: agree with the advertised range, distinguish it from internal disclosure.",
+        "Body 1: why the advertised range should be compulsory.",
+        "Body 2: why the wider version has costs, with the concession.",
+        "Conclusion: the precise requirement you would impose."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Publishing the pay of an advertised role and publishing what every employee earns are different proposals with different consequences. [[To a certain extent]] I agree with the requirement, and it should stop at the advertisement." },
+        { "role": "Body 1 · the advertised range", "text": "For advertised roles the case is strong. Candidates waste enormous time on processes that end at a number they would have declined on day one, and employers waste it alongside them. The information asymmetry also produces a durable gap for those who negotiate less confidently, which is why the effect on the gender pay gap is [[substantiated|Substantiate]] in every jurisdiction that has tried it. [[Consequently]], the requirement costs employers almost nothing except a negotiating advantage they should not have." },
+        { "role": "Body 2 · the wider version", "text": "[[By contrast]], full internal transparency has more [[ambiguous]] effects. Comparison between colleagues doing similar work at different pay damages morale, and firms respond by compressing pay into rigid bands, which removes the ability to reward genuinely exceptional work. [[It must be acknowledged]] that some organisations publish everything and function well, but they are typically small and self-selecting. [[Nevertheless]], the objection does not touch the advertisement, where no comparison between named individuals arises." },
+        { "role": "Conclusion", "text": "[[On balance]], I would require every advertisement to state a range of no more than a fixed proportion, publish the criteria for placement within it, and forbid asking a candidate's current salary. Those three together capture nearly all of the benefit, and the [[stipulations]] are simple enough to enforce." }
+      ],
+      "notes": [
+        "Distinguishing the advertised range from internal transparency prevents the essay defending a stronger claim than it needs to.",
+        "The ban on asking current salary is the measure that closes the loophole, and few essays think of it.",
+        "Three enforceable requirements in the conclusion are better than a general endorsement."
+      ]
+    },
+    {
+      "stance": "Disagree with the legal requirement",
+      "approach": "Support transparency and argue that a legal mandate produces evasion rather than information.",
+      "plan": [
+        "Introduction: agree with the aim, question the instrument.",
+        "Body 1: how mandates are complied with in form only.",
+        "Body 2: concede the asymmetry, then propose what would work.",
+        "Conclusion: what should be required instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Pay secrecy is indefensible, and a legal duty to publish is not the only way to end it. [[In my opinion]] the mandate as usually written produces compliance without information, and there are measures that would achieve more." },
+        { "role": "Body 1 · compliance in form", "text": "[[First and foremost]], employers respond to such rules by publishing ranges wide enough to be meaningless. Advertisements in jurisdictions with these laws now routinely quote bands spanning double the lower figure, which discloses nothing and satisfies the statute, and the practice spread within months. [[Consequently]], the candidate is no better informed, while the regulator reports full compliance, which is the [[insidious]] way a transparency rule fails." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the underlying problem is real: the asymmetry is severe and it falls on the least confident candidates. [[That said]], the effective remedies are different. Forbidding employers to ask a candidate's current pay breaks the anchoring that carries a low salary through a career, and requiring publication of median pay by grade and sex gives a candidate something [[intelligible]] to judge an offer against. [[There is evidence that]] the salary history ban alone narrowed pay gaps in the states that adopted it." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with the requirement as drafted while supporting its purpose. Banning salary history questions, publishing pay distributions by grade and enforcing narrow bands where ranges are quoted would deliver what the mandate promises, whereas the current version has produced a great deal of [[explicit]] compliance and very little information." }
+      ],
+      "notes": [
+        "Attacking the instrument rather than the aim is the only credible way to disagree here, and the essay says so immediately.",
+        "The meaningless wide band is a real and documented evasion, which makes the objection concrete rather than speculative.",
+        "The salary history ban is a specific alternative with evidence behind it, which turns the disagreement into a proposal."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e45",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from how young children acquire language, and answer the timetable and resource objections.",
+      "plan": [
+        "Introduction: agree, and name the reason.",
+        "Body 1: the acquisition argument, with what young children do differently.",
+        "Body 2: concede the teacher shortage, then answer it.",
+        "Conclusion: restate, with what would make it work."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most countries begin a second language at eleven or twelve, at exactly the age when the advantages of being young have started to disappear. [[By and large]] I agree that it should begin in primary school, and the case rests on how children of that age learn rather than on any general enthusiasm for languages." },
+        { "role": "Body 1 · why early", "text": "[[The main point is]] that young children acquire sound before they acquire self-consciousness. A seven-year-old imitates unfamiliar sounds without embarrassment and absorbs grammar implicitly, whereas a fourteen-year-old learns [[prepositions]] as rules and speaks with the accent of a person who has translated. [[There is evidence that]] pronunciation in particular is close to [[irreversible]] once learnt late. [[Significantly]], the early years also carry no examination pressure, so the subject can be taught through games and stories rather than tested to death." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the obstacles are practical and serious. Primary teachers are rarely linguists, the timetable is already crowded, and a badly taught hour a week achieves nothing beyond a few colours and numbers. [[That said]], these are questions of provision rather than of principle: specialist teachers shared between schools, and daily short sessions rather than one long one, are what the successful systems use. [[Not surprisingly]], countries that fund the teaching properly report results that make the [[dearth]] of provision elsewhere look like a choice." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that a second language should be compulsory in primary school, provided it is taught daily by somebody who speaks it. Otherwise the reform becomes an [[insignificant]] addition to an overloaded week, which is the version most easily abandoned when budgets tighten." }
+      ],
+      "notes": [
+        "Sound before self-consciousness is the mechanism, and stating it makes the age argument concrete rather than received.",
+        "The concession names three real obstacles, and the answer to each is a provision decision, which keeps the position intact.",
+        "The condition in the conclusion is what stops the essay endorsing a token version of its own proposal."
+      ]
+    },
+    {
+      "stance": "Disagree with compulsion, not with early exposure",
+      "approach": "Argue that the resources do not exist and that a badly taught early start does harm.",
+      "plan": [
+        "Introduction: agree with the aim, dispute the compulsion.",
+        "Body 1: why the early advantage is smaller than assumed without immersion.",
+        "Body 2: concede the acquisition evidence, then weigh the opportunity cost.",
+        "Conclusion: what should be done instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The argument for early languages rests on how children acquire them in immersion, and almost nowhere is a primary language lesson anything like immersion. [[In my opinion]] compulsory early teaching, as it would actually be delivered, would not repay what it costs." },
+        { "role": "Body 1 · the advantage is conditional", "text": "[[First and foremost]], the youthful advantage depends on quantity of exposure. Two hours a week from a non-specialist produces vocabulary lists and little else, and studies comparing early starters with later ones frequently find the difference [[ephemeral]] and gone by sixteen. [[It is worth noting]] that the countries usually cited, in Scandinavia and the Netherlands, have children hearing English constantly outside school, which is the actual variable and not the timetable." },
+        { "role": "Body 2 · opportunity cost", "text": "[[It must be acknowledged]] that pronunciation genuinely favours the young, and that early exposure has real value where it is properly resourced. [[Nevertheless]], the primary timetable is finite, and the hours would come from reading, writing or mathematics at the age when [[deficient]] literacy becomes permanent. [[Consequently]], a compulsory language taught by a teacher who does not speak it is an [[injudicious]] trade for a child already behind in their first language." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with compulsion while supporting the aim. Voluntary early exposure through songs, clubs and media, followed by serious compulsory teaching from eleven with specialists, would deliver more than a universal scheme that no country has yet [[implemented|Implement]] with enough teachers to make it work." }
+      ],
+      "notes": [
+        "Attacking the evidence base, that the cited countries differ in exposure rather than in curriculum, is the essay's strongest move.",
+        "Naming what the hours would be taken from turns an abstract objection into an opportunity cost.",
+        "Supporting the aim while rejecting the mechanism keeps the disagreement precise."
+      ]
+    },
+    {
+      "stance": "Depends on which language and how",
+      "approach": "Argue that the question of when is less important than what is taught and by whom.",
+      "plan": [
+        "Introduction: the age debate is a proxy for a design question.",
+        "Body 1: why early works when the design is right.",
+        "Body 2: why it fails when it is not, and what decides.",
+        "Conclusion: the conditions under which you would agree."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Arguments about the right age for a second language assume the teaching is a constant, which is the one thing it never is. [[To a certain extent]] I agree with an early start, but the design of the provision decides the outcome far more than the year it begins." },
+        { "role": "Body 1 · when early works", "text": "Where a specialist teaches daily and the language is used for something rather than merely studied, the young advantage is real. Children taught mathematics or art partly in the second language acquire it as a medium rather than a subject, and the result is fluency that a weekly lesson never approaches. [[A case in point]] is the Canadian immersion programmes, whose graduates are functionally bilingual, and whose success is [[invariably|Invariable]] attributed to intensity rather than to starting age alone." },
+        { "role": "Body 2 · when it fails", "text": "[[By contrast]], a weekly period taught from a textbook by a teacher who learned the language at school produces very little, and it can do harm: a child who spends four years on a language and cannot hold a conversation concludes that they are bad at languages, which is a belief that proves remarkably [[intractable]]. [[Consequently]], the failure is attributed to the child rather than to the design, and the [[propensity]] to avoid languages later is set." },
+        { "role": "Conclusion", "text": "[[On balance]], I would make an early second language compulsory only where daily contact with a competent speaker can be guaranteed, and would otherwise concentrate the resource at secondary level. [[In essence]] the question is not when to start but whether the provision is [[coherent]], and answering the first without the second is how these reforms have failed before." }
+      ],
+      "notes": [
+        "Making provision rather than age the variable is a genuine third position, and both paragraphs describe the same policy succeeding and failing.",
+        "The belief that one is bad at languages is a consequence most essays overlook, and it makes the failure case concrete.",
+        "The conclusion offers a conditional agreement with a testable condition, which is stronger than a compromise."
+      ]
+    }
+  ]
+}

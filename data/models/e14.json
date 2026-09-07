@@ -1,0 +1,68 @@
+{
+  "id": "e14",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from the evidence of trials and from what an eight-hour day actually contains.",
+      "plan": [
+        "Introduction: rephrase the claim and agree, with a limit on where it applies.",
+        "Body 1: the working day is not eight hours of work.",
+        "Body 2: concede that it cannot suit every job, then answer with the trial evidence.",
+        "Conclusion: restate and say what would make it work."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The five-day week was set by factory owners a century ago and has survived every change in what work actually involves. [[By and large]] I agree that four days at full pay would raise output rather than reduce it, at least in the kinds of work most people now do." },
+        { "role": "Body 1 · the day is not full", "text": "[[The main point is]] that an eight-hour office day contains perhaps four hours of genuine concentration. The rest is absorbed by meetings called out of habit, interruptions and the slow hours after lunch, and any honest audit shows the same pattern. Remove a day and the [[frivolous]] parts go first, because they are the only slack available. [[There is evidence that]] this is what happens: firms in the Icelandic and British trials cut meetings sharply and reported output [[intact]]." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the argument does not travel everywhere. A hospital ward or a bus route needs a person present for a fixed number of hours, and shortening the week there means hiring more staff rather than compressing waste. [[Nevertheless]], even in those settings the trials found fewer resignations and less sick leave, and replacing a trained nurse costs far more than the extra shift. [[Consequently]], the arithmetic often holds even where the productivity argument does not." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that four days would leave most employers no worse off and most employees considerably better. The condition is that the fifth day is genuinely removed rather than redistributed, since a four-day week containing five days of work is simply an [[intensity]] nobody consented to." }
+      ],
+      "notes": [
+        "The introduction agrees and limits the claim in the same sentence, which protects the essay from the obvious counterexample.",
+        "The concession takes the hardest case, a hospital ward, and answers it with a different argument rather than pretending it fits the first one.",
+        "The final sentence names the way the policy is usually spoiled, which shows the writer has thought past agreeing."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Question what the trials measured and who the policy leaves out.",
+      "plan": [
+        "Introduction: the enthusiasm outruns the evidence.",
+        "Body 1: what the trials actually show, and their weaknesses.",
+        "Body 2: who cannot compress a week, and what happens to them.",
+        "Conclusion: a better reform than a shorter week."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The four-day week is an attractive idea supported by evidence thinner than its advocates suggest. [[In my opinion]] the claim that productivity rises is not yet [[substantiated|Substantiate]], and the policy would fall unevenly on the people least able to absorb it." },
+        { "role": "Body 1 · the evidence", "text": "[[First and foremost]], almost every trial has been run by volunteer employers, mostly in professional services, and measured over months rather than years. Firms that opt in are precisely those confident of succeeding, so the results are [[deficient]] as evidence about anybody else. [[It is worth noting]] that self-reported output is the usual measure, and a company that has staked its reputation on the experiment is not an [[impartial]] judge of it." },
+        { "role": "Body 2 · who is left out", "text": "[[By contrast]], consider the work that cannot be compressed. A care home, a warehouse and a classroom all require a body present for a set number of hours, and the only way to shorten the week is to employ more people, which the sectors with the tightest margins cannot afford. [[Consequently]], a four-day week risks becoming another benefit enjoyed by graduates in offices and unavailable to everybody else, widening a [[dichotomy]] that is already wide." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that a shorter week is the reform to pursue now. Guaranteed hours, predictable rotas and a right to ignore messages after hours would reach the workers a four-day week would miss, and those are the changes I would want [[validated|Validate]] first." }
+      ],
+      "notes": [
+        "Attacking the quality of the evidence is a strong move, but only if you say precisely what is wrong with it. Volunteer employers and self-reported output are specific.",
+        "The second paragraph changes the subject from productivity to fairness, which stops the essay repeating itself.",
+        "Proposing three alternatives keeps the disagreement constructive."
+      ]
+    },
+    {
+      "stance": "Depends on the work",
+      "approach": "Divide work into output-measured and presence-measured, and answer differently for each.",
+      "plan": [
+        "Introduction: the claim is true of one kind of work and false of another.",
+        "Body 1: work measured by output, where the claim holds.",
+        "Body 2: work measured by presence, where it does not.",
+        "Conclusion: what a differentiated policy would look like."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Whether a four-day week raises productivity depends on something the question leaves out: how the work is measured. [[To a certain extent]] I agree, but only where output rather than attendance is what an employer is buying." },
+        { "role": "Body 1 · output-measured work", "text": "Where a job is judged by what is produced, the case is strong. Designers, analysts and writers work in bursts, and the hours between bursts are largely [[inert]]. Compressing the week removes the filler rather than the work, and the deadline does the rest. [[A striking example]] is Microsoft's Japanese office, which reported a sharp rise in sales per employee during a four-day trial, an outcome that would be [[irrational]] if hours and output were the same thing." },
+        { "role": "Body 2 · presence-measured work", "text": "[[By contrast]], a driver, a nurse and a checkout assistant are paid to be somewhere, and no amount of focus shortens a shift. Cutting the week there means employing more people at the same total cost, so the claim about productivity is simply [[irrelevant]]. [[It must be acknowledged]] that these are the majority of jobs, which is why the policy's supporters should stop describing it as universal." },
+        { "role": "Conclusion", "text": "[[On balance]], the four-day week is a productivity measure in one half of the economy and a straightforward cost in the other. A serious policy would say so: a right to compress the week where output is measurable, and higher pay rather than shorter hours where it is not." }
+      ],
+      "notes": [
+        "Dividing by how the work is measured is a sharper line than dividing by industry, and it makes both body paragraphs analytical rather than descriptive.",
+        "The Microsoft example is named, dated by implication and tied to a number, which is what an example is for.",
+        "The conclusion gives each half a different policy, which is a genuine position rather than a hedge."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e47",
+  "models": [
+    {
+      "stance": "Tax-funded, with private as a supplement",
+      "approach": "Compare the two systems on outcomes and cost, then position private care precisely.",
+      "plan": [
+        "Introduction: the disagreement, and the measure you will use.",
+        "Body 1: the case for private provision, put fairly.",
+        "Body 2: the case for tax funding, with the comparative evidence.",
+        "Conclusion: your position, with the role each should have."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that private healthcare buys quality and that public healthcare buys fairness, as though the two were a straightforward trade. Judged on outcomes per pound spent, my own position is that tax funding should carry the system, with private provision permitted alongside it rather than in place of it." },
+        { "role": "Body 1 · the case for private", "text": "[[On the one hand]], the argument is not without force. Competition creates an incentive to shorten waits that a monopoly lacks, and patients who can pay do receive faster access, which relieves pressure elsewhere. [[It must be acknowledged]] that several mixed systems in Europe achieve excellent results, so the [[dichotomy]] between public virtue and private efficiency is too simple to be useful." },
+        { "role": "Body 2 · the case for tax funding", "text": "[[On the other hand]], the comparative evidence is difficult to argue with. The United States spends roughly double what comparable countries spend per head and reports worse life expectancy and higher infant mortality, largely because a private system spends heavily on administration, billing and marketing rather than on treatment. [[There is evidence that]] a single payer suppresses those costs, and that people who delay treatment for fear of a bill arrive later and cost more. [[Consequently]], universal funding is not merely [[equitable]] but cheaper." },
+        { "role": "Conclusion", "text": "[[All things considered]], I would fund the core system through taxation and permit private care for anything beyond it. Allowing a parallel system to recruit the same limited doctors is where mixed models fail, so the [[stipulations]] matter as much as the principle: private provision should add capacity, never drain it." }
+      ],
+      "notes": [
+        "Naming the measure, outcomes per pound, tells the reader how the essay will be judged and keeps both paragraphs on the same axis.",
+        "The American comparison is the strongest available evidence and is used with two specific figures rather than as a slogan.",
+        "The final condition, that private care must add capacity rather than drain it, is the detail that turns a position into a policy."
+      ]
+    },
+    {
+      "stance": "Mixed funding, with a guaranteed floor",
+      "approach": "Argue that the real variable is universality rather than ownership, and that many mixed systems achieve it.",
+      "plan": [
+        "Introduction: the debate confuses funding with ownership.",
+        "Body 1: the tax-funded case, fairly put.",
+        "Body 2: the private case, and what the best mixed systems show.",
+        "Conclusion: your position, defined by coverage rather than by provider."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] healthcare should be public or private, but the countries with the best outcomes are not grouped at either end. [[In my opinion]] what matters is whether coverage is universal and compulsory, not who owns the hospital." },
+        { "role": "Body 1 · the tax-funded case", "text": "[[On the one hand]], funding from general taxation has clear strengths. Nobody is deterred from seeing a doctor by cost, which catches disease earlier, and administrative costs are a fraction of those in insurance-based systems. [[It is true that]] the fairness argument is strong: illness is largely unchosen, and a system that prices it falls hardest on those who are already unwell." },
+        { "role": "Body 2 · the private case and the mixed answer", "text": "[[On the other hand]], defenders of private provision are right that public monopolies can be slow and [[indolent]] about waiting times. The instructive cases are the mixed systems: Germany, the Netherlands and France use private and non-profit providers with compulsory universal insurance, and they combine short waits with outcomes comparable to any tax-funded service. [[It is evident that]] the decisive feature is compulsion and regulated pricing rather than ownership, since the American system, which lacks both, is the outlier that performs worst." },
+        { "role": "Conclusion", "text": "[[On balance]], my position is that coverage must be universal, compulsory and priced by the state, while provision may be mixed. That combination keeps the [[integral]] protection of a public system and the responsiveness its critics want, and it makes the argument about ownership largely [[irrelevant]]." }
+      ],
+      "notes": [
+        "Rejecting the framing, public against private, and replacing it with universal against not, is what lets this essay use the European evidence properly.",
+        "Three named mixed systems with a stated common feature is a strong evidential paragraph.",
+        "Identifying the American system as the outlier explains the exception rather than ignoring it."
+      ]
+    },
+    {
+      "stance": "Tax-funded, and private practice restricted",
+      "approach": "Argue the stronger version of the public case: that a parallel private system harms the public one.",
+      "plan": [
+        "Introduction: state the position, including the unusual part.",
+        "Body 1: the private case, given its strongest form.",
+        "Body 2: why a parallel system damages the public one.",
+        "Conclusion: your position and the honest cost of it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most defenders of public healthcare stop at funding and permit a private tier beside it. [[I would maintain]] that healthcare should be tax funded and that the parallel private tier should be restricted, because the two compete for the same finite people." },
+        { "role": "Body 1 · the private case", "text": "[[On the one hand]], the argument for choice is genuine. Somebody waiting a year in pain will pay to avoid it, and forbidding that looks like an [[intrusion]] into a private decision. [[It must be acknowledged]] that private capacity also treats patients the public system cannot reach in time, and that removing it overnight would lengthen the very waits it is criticised for." },
+        { "role": "Body 2 · why the parallel tier harms", "text": "[[On the other hand]], the constraint in every health system is trained staff rather than money alone. A consultant operating privately on Thursday is not operating publicly on Thursday, and the incentive runs the wrong way: the longer the public list, the more valuable the private practice. [[There is evidence that]] waiting times and private activity rise together for this reason. [[Consequently]], the tier that appears to relieve pressure quietly [[engenders|Engender]] it, and the people who cannot pay wait longer." },
+        { "role": "Conclusion", "text": "[[All things considered]], I would fund healthcare from taxation and require consultants to choose one system rather than working in both, as several countries already do. [[It must be acknowledged]] that this is politically difficult and would cost some capacity in the short term, but a public system that trains the doctors and then loses their best hours is [[intractable]] by design." }
+      ],
+      "notes": [
+        "Taking the harder version of the position, restricting private practice, makes the essay distinctive and forces a real argument.",
+        "The perverse incentive, that longer public lists raise private earnings, is the strongest point available and is stated plainly.",
+        "Admitting the short-term cost of your own proposal is what makes the conclusion credible."
+      ]
+    }
+  ]
+}

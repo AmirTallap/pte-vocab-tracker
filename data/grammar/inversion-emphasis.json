@@ -1,0 +1,300 @@
+{
+  "id": "inversion-emphasis",
+  "title": "Inversion, Cleft Sentences and Emphasis",
+  "group": "Clause Structure",
+  "summary": "Subject-auxiliary inversion after fronted negatives, inverted conditionals, it- and wh-clefts, and the register all of them belong to.",
+  "sections": [
+    {
+      "heading": "Fronted Negatives and Subject-Auxiliary Inversion",
+      "body": "When a **negative or restrictive adverbial** is moved to the front of a clause for emphasis, the subject and the first auxiliary change places. The word order becomes identical to that of a question.\n\nThe adverbials that trigger this include `never`, `rarely`, `seldom`, `hardly`, `scarcely`, `no sooner`, `not only`, `not until`, `at no time`, `under no circumstances`, `on no account`, `little` in the sense of `not at all`, and `only` with a following adverbial such as `only after`, `only when`, `only then` or `only if`.\n\nNothing about the meaning changes. The inversion is the price of the fronting, and it is obligatory once the fronting has happened.",
+      "examples": [
+        {
+          "right": "Never had she seen results so consistent.",
+          "wrong": "Never she had seen results so consistent.",
+          "note": "The fronted negative pulls the auxiliary in front of the subject."
+        },
+        {
+          "right": "Under no circumstances should the samples be left unrefrigerated.",
+          "wrong": "Under no circumstances the samples should be left unrefrigerated.",
+          "note": "A negative prepositional phrase triggers the same inversion."
+        },
+        {
+          "right": "Little did he know that the data had already been withdrawn.",
+          "wrong": null,
+          "note": "`Little` here means `not at all` and counts as a negative adverbial."
+        },
+        {
+          "right": "She had never seen results so consistent.",
+          "wrong": null,
+          "note": "In ordinary word order there is no inversion at all; only the fronting causes it."
+        }
+      ]
+    },
+    {
+      "heading": "Simple Tenses: Where do, does and did Come From",
+      "body": "Inversion moves an auxiliary. If the clause is in the present simple or past simple, there is no auxiliary to move, so English supplies one: `do`, `does` or `did`.\n\nThis is exactly the mechanism of ordinary questions, and it has the same consequence. Once `do` carries the tense, the main verb returns to its **bare infinitive** form: `did the government publish`, not `did the government published`.\n\nEnglish never inverts a lexical verb. `Rarely occurs this species` is not an option in modern English, however natural verb-subject order may feel from another language.",
+      "examples": [
+        {
+          "right": "Rarely does this species occur below 2,000 metres.",
+          "wrong": "Rarely occurs this species below 2,000 metres.",
+          "note": "The main verb cannot invert; `does` is inserted and `occur` returns to the bare form."
+        },
+        {
+          "right": "Not until 1998 did the government publish the full figures.",
+          "wrong": "Not until 1998 the government published the full figures.",
+          "note": "The fronted negative requires do-support even though the sentence is otherwise complete."
+        },
+        {
+          "right": "Seldom do students revise the entire syllabus.",
+          "wrong": "Seldom students revise the entire syllabus.",
+          "note": "Present simple with a plural subject takes `do`."
+        }
+      ]
+    },
+    {
+      "heading": "Not only, No sooner, Hardly and Only",
+      "body": "Several of these patterns come in two halves, and the halves are fixed. `Not only` pairs with `but ... also`; `no sooner` pairs with `than`; `hardly` and `scarcely` pair with `when` or `before`.\n\nIn every two-part pattern the inversion falls on the **first** clause only. The second clause has ordinary word order.\n\nWith `only when`, `only after` and `only if`, there is one further trap. The fronted element is the whole subordinate clause, so the inversion appears in the **main** clause that follows it, not inside the subordinate clause itself.",
+      "examples": [
+        {
+          "right": "Not only did the costs rise, but the timetable also slipped.",
+          "wrong": "Not only the costs rose, but also the timetable slipped.",
+          "note": "Inversion applies to the first clause; the second keeps normal order."
+        },
+        {
+          "right": "No sooner had the results appeared than the criticism began.",
+          "wrong": "No sooner had the results appeared when the criticism began.",
+          "note": "`no sooner` is completed by `than`, never by `when`."
+        },
+        {
+          "right": "Hardly had the session begun when the power failed.",
+          "wrong": "Hardly had the session begun than the power failed.",
+          "note": "`hardly` and `scarcely` take `when` or `before`; only `no sooner` takes `than`."
+        },
+        {
+          "right": "Only after the audit was completed did the board approve the budget.",
+          "wrong": "Only after the audit was completed the board approved the budget.",
+          "note": "The inversion belongs to the main clause, not to the `only after` clause."
+        }
+      ]
+    },
+    {
+      "heading": "Inversion in Conditionals",
+      "body": "Formal English can drop `if` and invert instead. Three patterns exist: `Had we known` for the past unreal, `Were it not for` or `Were she to accept` for the present unreal, and `Should you require` for a real but tentative future condition.\n\nOnly `had`, `were` and `should` can be fronted this way. `Were` is used for all persons in this construction, since it is the subjunctive form.\n\nThe negative cannot be contracted. `Had we not known` is correct; `Hadn't we known` reads as a question and is not available here.",
+      "examples": [
+        {
+          "right": "Had we known the risks, we would have postponed the trial.",
+          "wrong": null,
+          "note": "Equivalent to `If we had known`; `if` disappears and `had` moves to the front."
+        },
+        {
+          "right": "Should you require further information, please contact the registrar.",
+          "wrong": null,
+          "note": "This replaces `If you should require` and is standard in formal correspondence."
+        },
+        {
+          "right": "Were it not for the grant, the department would have closed.",
+          "wrong": "Was it not for the grant, the department would have closed.",
+          "note": "The construction uses the subjunctive `were` regardless of the subject."
+        },
+        {
+          "right": "Had the committee not intervened, the funding would have lapsed.",
+          "wrong": "Hadn't the committee intervened, the funding would have lapsed.",
+          "note": "The contracted negative is impossible in an inverted conditional."
+        }
+      ]
+    },
+    {
+      "heading": "It-Clefts and Wh-Clefts",
+      "body": "A **cleft** sentence splits one clause into two in order to place a spotlight on a single element.\n\nThe **it-cleft** has the shape `It + be + focus + that`. The focus can be a noun phrase, a person, or an adverbial of time or place, and `that` is used throughout, although `who` is available when the focus is a person. It is particularly useful for correcting a wrong assumption.\n\nThe **wh-cleft** has the shape `What ... + be + focus`, and it works the other way round, holding the new information back to the end of the sentence, where English prefers to put it.",
+      "examples": [
+        {
+          "right": "It was the funding that failed, not the research design.",
+          "wrong": null,
+          "note": "The it-cleft isolates `the funding` as the single element in focus."
+        },
+        {
+          "right": "It was in 2011 that the policy was first tested.",
+          "wrong": null,
+          "note": "An adverbial can be the focus, and `that` is used even for time and place."
+        },
+        {
+          "right": "What surprised us was the cost.",
+          "wrong": null,
+          "note": "The wh-cleft delays the new information to the end of the sentence."
+        },
+        {
+          "right": "It was Dr Nasr who first identified the pattern.",
+          "wrong": "It was Dr Nasr which first identified the pattern.",
+          "note": "With a person the link is `who` or `that`; `which` is never possible."
+        }
+      ]
+    },
+    {
+      "heading": "Fronting, Register and Ordinary Questions",
+      "body": "Not all fronting causes inversion. An object or a complement can be moved to the front for emphasis while the subject and verb stay in their usual order: `This point I will return to later`. Inversion follows only the negative and restrictive adverbials, and the pattern `So + adjective + be`.\n\nRegister matters as much as accuracy here. Fronted inversion belongs to formal writing, public speaking and exam-style discursive prose. In casual conversation it sounds theatrical, and one instance in an essay is persuasive where four in a row are merely mannered.\n\nIt is worth noticing that the mechanism is not exotic at all. The word order of `Did the committee approve the budget?` is the same word order as `Not until later did the committee approve the budget`, which is why the do-support and the bare infinitive appear in both.",
+      "examples": [
+        {
+          "right": "So dense was the fog that all flights were suspended.",
+          "wrong": null,
+          "note": "A fronted `so + adjective` triggers inversion; the effect is emphatic and formal."
+        },
+        {
+          "right": "This point I will return to in the final section.",
+          "wrong": null,
+          "note": "Fronting without inversion: the object moves for emphasis, subject and verb do not."
+        },
+        {
+          "right": "Did the committee approve the budget?",
+          "wrong": null,
+          "note": "The same inversion as in the fronted patterns, which is why `did` appears with the bare `approve`."
+        },
+        {
+          "right": "Never in the field of public health has a programme been scaled so quickly.",
+          "wrong": null,
+          "note": "Appropriate in formal writing or a speech, and out of place in everyday conversation."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Fronting without inverting: `Never I have seen` must be `Never have I seen`.",
+    "Inverting the main verb: `Rarely occurs it` is not English; insert do-support instead - `Rarely does it occur`.",
+    "Leaving the tense on the main verb: after `did` the verb is bare, so `did the government publish`, not `did the government published`.",
+    "`No sooner ... when`: the fixed pair is `no sooner ... than`, while `hardly` and `scarcely` take `when`.",
+    "Contracting an inverted conditional: write `Had we not known`, never `Hadn't we known`.",
+    "Inverting the wrong clause: `Only when the funding arrived did the work begin` - the main clause inverts, not the `only when` clause."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "Never in the history of the department ___ a proposal been rejected so quickly.",
+      "options": [
+        "had",
+        "was",
+        "were",
+        "did"
+      ],
+      "answer": 0,
+      "explain": "The verb phrase is `had been rejected`, so fronting `never` moves only the first auxiliary in front of the subject. Do-support is used only when no auxiliary is already present."
+    },
+    {
+      "type": "blank",
+      "prompt": "Rarely ___ a single study change government policy so quickly.",
+      "hint": "one word: the auxiliary the fronted adverbial forces, present simple",
+      "accept": [
+        "does"
+      ],
+      "explain": "The present simple has no auxiliary to invert, so `does` is supplied and the main verb stays in its bare form, `change`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Only when the funding was confirmed ___ the team begin the fieldwork.",
+      "options": [
+        "was",
+        "did",
+        "had",
+        "does"
+      ],
+      "answer": 1,
+      "explain": "With `only when`, the inversion falls on the main clause, and the past simple requires `did` plus the bare infinitive `begin`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ had the announcement been made than share prices began to fall.",
+      "options": [
+        "Scarcely",
+        "Not only",
+        "No sooner",
+        "Hardly"
+      ],
+      "answer": 2,
+      "explain": "`than` completes only the `no sooner` pattern. `Hardly` and `scarcely` take `when` or `before`, and `not only` takes `but also`."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ not for the emergency grant, the laboratory would have closed last year.",
+      "hint": "two words: the inverted form of 'If it were not for'",
+      "accept": [
+        "were it"
+      ],
+      "explain": "The inverted conditional drops `if` and fronts the subjunctive `were`, which is used for every subject in this pattern."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ we known about the funding cut, we would have applied a month earlier.",
+      "options": [
+        "Had",
+        "Have",
+        "If",
+        "Would"
+      ],
+      "answer": 0,
+      "explain": "The inverted third conditional fronts `had` and omits `if` altogether; `If` would require the ordinary order `If we had known`."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ surprised the researchers most was the speed of the recovery.",
+      "hint": "one word: the opening of a wh-cleft",
+      "accept": [
+        "what"
+      ],
+      "explain": "The wh-cleft opens with `what`, meaning `the thing that`, and holds the new information back to the end of the sentence."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ the cost that deterred the applicants, not the complexity of the design.",
+      "options": [
+        "There was",
+        "It was",
+        "That it was",
+        "It had"
+      ],
+      "answer": 1,
+      "explain": "An it-cleft places the focus between `It was` and `that`. `There was` would assert existence rather than single out one element for correction."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Under no circumstances ___ removed from the secure laboratory.",
+      "options": [
+        "may be the specimens",
+        "the specimens may be",
+        "the specimens be",
+        "may the specimens be"
+      ],
+      "answer": 3,
+      "explain": "The fronted negative phrase inverts the subject and the first auxiliary only; the rest of the verb phrase stays in its normal position."
+    },
+    {
+      "type": "blank",
+      "prompt": "Should you ___ further assistance with the application, please contact the admissions office.",
+      "hint": "require (bare form after the inverted 'should')",
+      "accept": [
+        "require",
+        "need"
+      ],
+      "explain": "This inverted conditional replaces `If you should require`, and the verb after `should` is always a bare infinitive."
+    },
+    {
+      "type": "mcq",
+      "prompt": "So ___ was the response to the consultation that the organisers extended the deadline.",
+      "options": [
+        "overwhelmingly",
+        "overwhelming",
+        "an overwhelming",
+        "much overwhelming"
+      ],
+      "answer": 1,
+      "explain": "The fronted pattern is `So + adjective + be`, and `be` needs an adjective as its complement; an adverb cannot fill that slot."
+    },
+    {
+      "type": "blank",
+      "prompt": "Hardly had the meeting begun ___ the fire alarm sounded.",
+      "hint": "one word: the conjunction that completes the 'hardly' pattern",
+      "accept": [
+        "when",
+        "before"
+      ],
+      "explain": "`hardly` and `scarcely` are completed by `when` or `before`; `than` belongs only to the `no sooner` pattern."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e57",
+  "models": [
+    {
+      "stance": "Advantages for audiences, disadvantages for the industry",
+      "approach": "Split the verdict between the two groups the question names.",
+      "plan": [
+        "Introduction: the shift helps one party more than the other.",
+        "Body 1: advantages, mostly to audiences.",
+        "Body 2: disadvantages, mostly to the industry and its workers.",
+        "Conclusion: the verdict, and what would balance it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Streaming has been an unambiguous gain for viewers and a far more complicated development for the people who make films. [[On balance]] the advantages outweigh the disadvantages for audiences and, [[to a lesser extent]], the reverse holds for the industry." },
+        { "role": "Advantages", "text": "For audiences the benefits are large and immediate. A viewer in a small town now has access to a catalogue that no cinema ever offered, including subtitled work from countries whose films were previously unobtainable, and the cost is a fraction of two cinema tickets. Access improves for disabled and rural viewers in particular, for whom the cinema was frequently an [[insuperable]] journey. [[It is worth noting]] that the industry gained a market too: series from Korea and Spain have reached global audiences that the old distribution system would have made [[hypothetical]]." },
+        { "role": "Disadvantages", "text": "[[By contrast]], the economics for those who make the work have deteriorated. Residual payments, which sustained writers and actors between projects, largely disappeared when broadcast was replaced by subscription, and platforms withhold the viewing data that would allow anyone to argue about the value of a title. [[Consequently]], commissioning follows the algorithm rather than the audience, and the middle-budget film has almost vanished. [[Regrettably]], the shared experience of a room full of strangers is also lost, and it is [[irreplaceable]] for certain kinds of film." },
+        { "role": "Conclusion", "text": "[[Taken together]], audiences have gained a great deal and the industry has traded reach for security. Transparent viewing figures, residuals tied to them, and public support for cinemas would keep the access without [[jeopardizing|Jeopardize]] the people who supply the material, since a catalogue is only as good as what is still being made for it." }
+      ],
+      "notes": [
+        "The question names two groups, and this essay answers separately for each, which is what the task requires.",
+        "The disappearance of residuals is the specific economic mechanism, and it is what distinguishes analysis from nostalgia.",
+        "A catalogue is only as good as what is still being made for it ties the two halves together in one line."
+      ]
+    },
+    {
+      "stance": "Advantages outweigh",
+      "approach": "Argue that the industry's difficulties predate streaming and that access is the larger good.",
+      "plan": [
+        "Introduction: the shift is mostly a gain, and the industry's problems have other causes.",
+        "Body 1: advantages, access, variety and international reach.",
+        "Body 2: disadvantages, granted and then placed in context.",
+        "Conclusion: the verdict with a condition."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Cinema attendance was falling for decades before any platform existed, and blaming streaming for the industry's condition confuses a symptom with a cause. [[In my opinion]] the advantages of the shift clearly outweigh its disadvantages." },
+        { "role": "Advantages", "text": "The gain in access is the largest in the history of the medium. Films that once played in three cities are now available everywhere, subtitles have made national cinemas genuinely international, and the [[heterogeneous]] catalogue available to an ordinary subscriber would have astonished a serious viewer thirty years ago. Production has grown too: more scripted work is commissioned now than at any previous point, and much of it comes from countries the old system ignored. [[There is evidence that]] audiences for subtitled work have risen sharply, which no distributor predicted." },
+        { "role": "Disadvantages", "text": "[[By contrast]], the costs to those working in the industry are real. Residual income has shrunk, the data that would justify a fee is withheld, and cancellation after one season has become routine, which makes a career in the industry [[ephemeral]]. [[It must be acknowledged]] that cinemas have closed and that some films are made for a phone screen rather than a room. [[That said]], these are questions of contract and regulation rather than of the technology, and the strikes that followed have already begun to alter them." },
+        { "role": "Conclusion", "text": "[[All things considered]], the shift has been a benefit, on the condition that the bargaining is rebalanced. Mandatory disclosure of viewing figures and residuals linked to them would leave audiences with everything they have gained and restore what the makers lost, which is a far better outcome than [[fervent]] nostalgia for the multiplex." }
+      ],
+      "notes": [
+        "Rejecting the causal claim in the first sentence gives the essay a defensible line and disposes of the strongest objection early.",
+        "The rise in subtitled viewing is a specific and surprising fact, which is what an advantages paragraph needs.",
+        "Placing the disadvantages as questions of contract rather than technology keeps the verdict coherent."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh in the long run",
+      "approach": "Argue that the current abundance is being funded by an investment phase that is now ending.",
+      "plan": [
+        "Introduction: the abundance was a phase, not a settlement.",
+        "Body 1: advantages, granted fully and dated.",
+        "Body 2: disadvantages, the economics after the land grab.",
+        "Conclusion: what the steady state looks like."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The years of extraordinary choice were funded by companies buying market share at a loss, and that period has ended. [[From my perspective]] the disadvantages of the shift are becoming clearer as the industry settles into what it will actually be." },
+        { "role": "Advantages", "text": "[[It is true that]] the gains were genuine while they lasted, and some are permanent. Global distribution reached audiences no cinema chain ever could, and work from smaller countries found viewers everywhere. [[For the most part]], viewers also gained control: watching what you want, when you want, without an advertisement, was a real improvement on scheduled broadcast." },
+        { "role": "Disadvantages", "text": "[[Nevertheless]], the settlement now emerging is worse for everybody. Catalogues have shrunk as titles are removed for tax reasons, subscriptions have risen while advertising has returned, and a viewer needs four services to watch what one used to carry. For makers, the position is worse still: residuals have gone, budgets are concentrated in a few enormous titles, and the middle-budget film that trained a generation of directors has become [[ephemeral]]. [[Consequently]], the variety that was the shift's main advantage is being withdrawn now that the market has been won." },
+        { "role": "Conclusion", "text": "[[On the whole]], the advantages belonged to a phase of competition and the disadvantages are structural. Regulation requiring transparency and preservation of catalogues would help, and public funding for the films no platform will commission is what would keep the [[integral]] variety that the last decade briefly made ordinary." }
+      ],
+      "notes": [
+        "Dating the advantages to a competitive phase is the argument, and it explains why the verdict differs from the popular one.",
+        "Titles removed for tax reasons is a specific and verifiable detail that makes the shrinkage concrete.",
+        "The conclusion proposes preservation and public funding, which answers the loss it has described."
+      ]
+    }
+  ]
+}

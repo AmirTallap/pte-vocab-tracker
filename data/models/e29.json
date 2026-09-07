@@ -1,0 +1,68 @@
+{
+  "id": "e29",
+  "models": [
+    {
+      "stance": "Land use as the principal cause",
+      "approach": "Rank habitat conversion above the more publicised causes, then follow the effects into food systems.",
+      "plan": [
+        "Introduction: name the scale and promise causes then effects.",
+        "Body 1: causes ranked, with habitat first and climate second.",
+        "Body 2: effects, agricultural, medical and economic.",
+        "Conclusion: whether the loss is reversible."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Populations of wild vertebrates have fallen by roughly two thirds in fifty years, a rate no natural process explains. [[It is evident that]] the causes are largely a matter of how land is used, and the effects will reach the food systems that the land was converted to serve." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] habitat conversion. Agriculture now occupies about half the habitable surface, and a field replaces an ecosystem rather than sharing it, so most extinction is a matter of arithmetic rather than of any single villain. Climate change is the second cause and works differently: it moves the conditions a species needs faster than the species can follow, which [[exacerbates|Exacerbate]] the fragmentation the first cause created. [[Owing to]] both, populations that could once retreat to another valley now find the valley farmed." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], the systems agriculture depends on begin to fail. Three quarters of food crops need animal pollination, and pollinator decline is already measurable in yields. Medicine is affected too, since a large share of drugs originates in wild organisms, and a species lost is a chemistry that becomes [[irrecoverable]]. [[It follows that]] the economic damage falls first on the poorest countries, whose populations depend most directly on fisheries and forests." },
+        { "role": "Conclusion", "text": "[[In conclusion]], biodiversity is being lost mainly because land is being converted, and the effects will arrive through food, medicine and water. The loss of a species is [[irreversible]], but the trend is not: protecting the remaining intact habitat and farming the rest more intensively would slow it considerably." }
+      ],
+      "notes": [
+        "Ranking habitat loss above climate change is a defensible and less obvious ordering, and the essay explains why rather than asserting it.",
+        "Pollination and medicine give the effects paragraph two concrete channels instead of a general warning.",
+        "Distinguishing the irreversible loss from the reversible trend is a precise final thought."
+      ]
+    },
+    {
+      "stance": "Economic invisibility as the cause",
+      "approach": "Argue that the deeper cause is that ecosystems are unpriced, and follow the effects through economics.",
+      "plan": [
+        "Introduction: the proximate causes are known; ask why they persist.",
+        "Body 1: causes, with the pricing failure underneath them.",
+        "Body 2: effects, on economies, on health and on inequality.",
+        "Conclusion: what would have to change."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Everybody can name the immediate causes of biodiversity loss, which raises a better question: why they continue despite fifty years of agreement that they should not. [[I would argue]] that the deeper cause is that living systems appear in no accounts until they are gone." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that a forest is worth nothing on a balance sheet until it is timber. Clearing land, trawling a seabed and draining a wetland all convert an unpriced asset into a priced one, so the [[propensity]] to destroy is built into the measurement rather than into anybody's malice. Subsidies make it worse: governments spend several hundred billion dollars a year supporting the fishing, farming and fuel extraction that does the damage, which means the destruction is not merely unpriced but [[intentional|Intentional]] policy." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], the costs arrive as failures elsewhere. Fisheries collapse and coastal communities lose their livelihoods; soil thins and yields fall; and cleared forest changes rainfall hundreds of miles away, so the loss reaches farmers who cut nothing down. [[Not surprisingly]], the burden lands on the people with the least [[agency]] over the decisions, since the profits accrue in one country and the drought occurs in another." },
+        { "role": "Conclusion", "text": "[[Overall]], the loss continues because destruction is profitable and conservation is not. Removing harmful subsidies, pricing ecosystem services and requiring companies to account for what they consume would [[ameliorate]] a problem that no amount of public sympathy has slowed, since sympathy has never appeared on a balance sheet either." }
+      ],
+      "notes": [
+        "Asking why known causes persist is a sharper opening than listing them, and it gives the essay an argument to make.",
+        "The subsidy figure turns an abstract claim about incentives into a fact with a number.",
+        "The last clause echoes the introduction's image, which closes the essay without repeating its wording."
+      ]
+    },
+    {
+      "stance": "Several causes, compounding",
+      "approach": "Show that the causes multiply rather than add, and that this explains the pace of the effects.",
+      "plan": [
+        "Introduction: the rate is the puzzle, and interaction explains it.",
+        "Body 1: four causes and how each amplifies the others.",
+        "Body 2: effects, ecological then human.",
+        "Conclusion: what follows for policy."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Extinction has always occurred; what requires explanation is the rate, now estimated at a hundred to a thousand times the background level. [[From my perspective]] no single cause accounts for that, and the answer lies in how several causes multiply one another." },
+        { "role": "Body 1 · causes", "text": "[[First and foremost]], habitat is cleared, which leaves small isolated populations. Those populations are then far more vulnerable to the second cause, climate shift, because they cannot migrate across farmland. Invasive species, carried by trade, arrive in exactly these weakened remnants, and pollution finishes what the others began. [[It is evident that]] each pressure alone would be survivable, whereas together they are [[insuperable]]: a fragmented population meeting a novel disease has nowhere to retreat and no [[intact]] neighbouring group to recolonise from." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], ecosystems do not decline smoothly but collapse suddenly, which is what makes the loss so difficult to manage. Coral reefs supporting a quarter of marine species have crossed that threshold in several regions within a decade. [[Consequently]], the human effects are abrupt too: fisheries fail in a season, pollination declines faster than crops can be adapted, and the [[imminent]] costs land on communities with no reserves." },
+        { "role": "Conclusion", "text": "[[To sum up]], biodiversity is collapsing because four separate pressures compound, and the effects appear as sudden thresholds rather than gradual decline. [[It stands to reason]] that partial remedies achieve little: protecting habitat while ignoring climate, or the reverse, leaves the multiplication [[intact]] and merely slows the arithmetic." }
+      ],
+      "notes": [
+        "Explaining a rate rather than a fact gives the essay a genuine analytical task, and the compounding structure answers it.",
+        "The threshold idea links the causes paragraph to the effects paragraph mechanically, which is where the coherence mark is earned.",
+        "The conclusion follows from the argument: if causes multiply, partial remedies must fail."
+      ]
+    }
+  ]
+}

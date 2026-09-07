@@ -1,0 +1,68 @@
+{
+  "id": "e59",
+  "models": [
+    {
+      "stance": "Asymmetry and impunity",
+      "approach": "Explain why the economics favour the attacker, then propose measures that change that balance.",
+      "plan": [
+        "Introduction: state the scale and promise reasons then remedies.",
+        "Body 1: two reasons, cheap attack and negligible risk of prosecution.",
+        "Body 2: measures answering both, with actors named.",
+        "Conclusion: what would actually shift the balance."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Losses to cybercrime now exceed the revenue of most national industries, and they have grown every year for a decade. [[It is clear that]] this reflects an economic asymmetry rather than a shortage of technical knowledge about how to defend systems." },
+        { "role": "Body 1 · reasons", "text": "[[The key issue is]] that attacking is cheap and defending is expensive. An attacker needs one unpatched machine among ten thousand, while a defender must protect all of them, and the tools are now rented by the week to people with no technical skill at all. [[This leads to]] the second reason: impunity. Offenders operate from jurisdictions that will not extradite, payment arrives in currencies that are difficult to trace, and the probability of prosecution is close to [[infinitesimal]]. [[Consequently]], the expected return is high and the expected cost is near zero, which is a market that grows." },
+        { "role": "Body 2 · measures", "text": "Measures must therefore attack both halves. Governments could regulate software liability so that vendors bear some cost for shipping insecure products, which is the one change that would improve defence at scale rather than one company at a time. Mandatory reporting of incidents would replace the current silence, since firms conceal breaches and the [[dearth]] of data prevents anybody from measuring the problem. [[Above all]], regulating cryptocurrency exchanges and pursuing the payment route is what makes the crime less profitable, and it has already [[impeded|Impede]] several ransomware groups." },
+        { "role": "Conclusion", "text": "[[In summary]], cybercrime grows because it is cheap, profitable and rarely punished. Shifting liability onto software vendors and following the money would [[ameliorate]] it, whereas asking individuals to choose better passwords addresses the smallest part of the problem." }
+      ],
+      "notes": [
+        "The asymmetry, one machine against ten thousand, is the mechanism, and it makes everything in the measures paragraph follow.",
+        "Software liability is the unusual and serious proposal here, and it is explained rather than merely named.",
+        "Dismissing password advice in the last sentence shows the essay knows which remedies are proportionate."
+      ]
+    },
+    {
+      "stance": "Attack surface and human factors",
+      "approach": "Argue that the growth follows from how much of life moved online and how little training accompanied it.",
+      "plan": [
+        "Introduction: the growth follows the surface, not the criminals.",
+        "Body 1: reasons, connected devices, legacy systems and people.",
+        "Body 2: measures, technical and organisational.",
+        "Conclusion: what proportionate defence looks like."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Cybercrime has grown at roughly the rate at which ordinary life moved online, which suggests the number of criminals matters less than the number of opportunities. [[It is evident that]] the reasons lie in an expanding attack surface defended by people who were never trained for it." },
+        { "role": "Body 1 · reasons", "text": "[[The main point is]] that everything is now connected. Banking, medical records, industrial controls and household appliances are reachable from anywhere, and many were designed when they were not, so hospitals run software that is two decades old because replacing it would halt the ward. [[At the same time]], most successful attacks begin with a person rather than a system: a convincing email, a telephone call from somebody claiming to be technical support. [[Consequently]], the weakest point is [[invariably|Invariable]] a tired employee under time pressure, which no firewall addresses." },
+        { "role": "Body 2 · measures", "text": "Remedies should follow the same two lines. Organisations could fund the replacement of legacy systems as infrastructure rather than as an optional upgrade, and require two-factor authentication universally, which alone [[impedes|Impede]] the majority of account compromises. Training must be realistic rather than annual: simulated attacks teach far more than a video, and a culture in which reporting a mistake is safe is [[integral]], since the damage comes from the hour somebody spends hoping nobody notices. [[It is worth noting]] that insurers are now driving these changes faster than regulators." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], the growth reflects how much we connected and how little we prepared. Replacing old systems, enforcing basic authentication and treating mistakes as [[inadvertent]] rather than punishable would prevent most of what currently succeeds, since the sophisticated attack is rare and the ordinary one is not." }
+      ],
+      "notes": [
+        "Tying growth to the expansion of the attack surface explains the trend without resorting to a story about clever criminals.",
+        "The hospital running twenty-year-old software is the example that makes legacy systems concrete.",
+        "The point about safe reporting is the human measure most essays miss, and it follows from the cause named."
+      ]
+    },
+    {
+      "stance": "It is an industry now",
+      "approach": "Argue that cybercrime professionalised into a service economy, and that the remedies must target its infrastructure.",
+      "plan": [
+        "Introduction: the change is organisational, not technical.",
+        "Body 1: reasons, specialisation, ransomware as a service, cryptocurrency.",
+        "Body 2: measures aimed at the supply chain of the crime.",
+        "Conclusion: treating it as organised crime rather than as a computer problem."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Cybercrime stopped being the work of individuals some years ago and became an industry with suppliers, customers and support desks. [[I would argue]] that its growth is best explained organisationally, and that the remedies follow from treating it that way." },
+        { "role": "Body 1 · reasons", "text": "[[The key issue is]] specialisation. One group finds vulnerabilities, another rents access to compromised networks, a third supplies the software and takes a share of the proceeds, and none of them needs the others' skills. This division of labour lowered the entry requirement to almost nothing, which is why the volume rose so fast. [[At the same time]], cryptocurrency supplied a payment system that is fast, international and difficult to reverse, without which ransomware would be [[intractable]] to monetise. [[Consequently]], the growth is the ordinary growth of a profitable market." },
+        { "role": "Body 2 · measures", "text": "Measures should therefore target the infrastructure rather than the individual attack. Regulating exchanges so that large transfers are traceable removes the payment layer, and sanctioning the hosting providers that shelter these operations removes another. International agreements on extradition matter more than any technical control, since the current safe havens are what make the business [[invincible]]. [[It is worth noting]] that the operations disrupted so far were taken down by financial and diplomatic pressure rather than by better firewalls." },
+        { "role": "Conclusion", "text": "[[In summary]], cybercrime grew because it professionalised, and it should be policed as organised crime rather than managed as a technology problem. Following the money, sanctioning the infrastructure and closing the jurisdictional gaps is what would make the trade unprofitable, which is the only thing that has ever [[dissuaded|Dissuade]] an industry." }
+      ],
+      "notes": [
+        "The division of labour is the reason the volume rose, and explaining it makes the essay analytical rather than descriptive.",
+        "Noting that takedowns came from financial and diplomatic pressure supports the measures with evidence.",
+        "Reframing the problem from technology to organised crime is what gives the conclusion its force."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e35",
+  "models": [
+    {
+      "stance": "Both are right about different people",
+      "approach": "Accept that aggregate gains and local losses are both real, and locate the disagreement in distribution.",
+      "plan": [
+        "Introduction: the two views measure different things.",
+        "Body 1: the case for free trade, with its evidence.",
+        "Body 2: the case against, with the distribution argument.",
+        "Conclusion: your opinion, about compensation rather than trade."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that free trade lifts every country involved, and equally often that it enriches companies at the expense of workers. Both claims are supported by evidence, because they are measuring different things: one the national total, the other its distribution." },
+        { "role": "Body 1 · the case for", "text": "[[On the one hand]], the aggregate gains are difficult to dispute. Countries that opened to trade have generally grown faster, and the fall in global extreme poverty since 1990 is closely associated with export-led growth in Asia. Consumers benefit too, since the goods that fell most in price are the ones that matter most to poor households. [[It is true that]] this is one of the better-corroborated findings in economics." },
+        { "role": "Body 2 · the case against", "text": "[[On the other hand]], a national total conceals who lost. When a factory town's industry moves abroad, the workers do not become software engineers; they take lower-paid service work if they are fortunate, and the damage is [[pervasive]] across a whole region for a generation. [[There is evidence that]] communities exposed to import competition show lasting falls in wages, employment and health. [[Consequently]], the gains are diffuse and the losses are concentrated, which is why the average looks so much better than the experience." },
+        { "role": "Conclusion", "text": "[[Taken together]], my own view is that free trade is broadly beneficial and has been implemented irresponsibly. The gains are real and large enough to compensate the losers several times over, so the failure is political rather than economic: no serious [[investment]] in retraining or regional renewal accompanied the agreements, and the resentment that followed was [[inevitable]]." }
+      ],
+      "notes": [
+        "Explaining why both sides have evidence, because they measure different things, is a more sophisticated opening than choosing a side immediately.",
+        "Diffuse gains against concentrated losses is the single idea that organises the whole essay.",
+        "The opinion is about compensation rather than about trade, which is a genuine third position and follows from both paragraphs."
+      ]
+    },
+    {
+      "stance": "Free trade raises living standards",
+      "approach": "Defend trade and argue that the alternative harms exactly the people the critics defend.",
+      "plan": [
+        "Introduction: state the position and the comparison you will make.",
+        "Body 1: the critics' case, put fairly.",
+        "Body 2: your case, with what protection actually costs.",
+        "Conclusion: your opinion and what must accompany it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Trade agreements are blamed for job losses that automation caused and credited with growth that had several sources, so the argument is unusually [[ambiguous]]. [[I would maintain]] that free trade raises living standards overall, and that the alternatives usually proposed would hurt the households they are meant to protect." },
+        { "role": "Body 1 · the critics' case", "text": "[[On the one hand]], the critics identify something real. Agreements are negotiated by governments advised by large firms, and the chapters on investor protection have frequently been more detailed than those on labour standards. [[It must be acknowledged]] that regions losing an industry have received little support, and that telling a redundant worker about aggregate welfare is [[inept]]." },
+        { "role": "Body 2 · the case for trade", "text": "[[On the other hand]], protection is a tax on the poor. Tariffs raise the price of clothing, food and appliances, which consume a far larger share of a low income than of a high one, and the jobs preserved cost consumers several times the wages paid. [[More precisely]], the trade restrictions of the last decade have been [[substantiated|Substantiate]] as costing far more per job saved than the job itself pays. [[Above all]], the developing countries whose exports the critics would restrict are the ones where poverty fell fastest." },
+        { "role": "Conclusion", "text": "[[On balance]], I support free trade, with the condition its advocates have neglected for thirty years. The gains must fund the transition: serious retraining, regional investment and wage insurance, without which the political consent for trade will prove [[ephemeral]], as it already has." }
+      ],
+      "notes": [
+        "Tariffs as a tax on the poor turns the fairness argument back on the other side, which is the strongest move available here.",
+        "The cost per job saved is a specific and checkable claim, which is what an economics essay needs.",
+        "The conclusion concedes the political failure while holding the economic position, which is honest rather than triumphant."
+      ]
+    },
+    {
+      "stance": "Agreements as written favour capital",
+      "approach": "Distinguish trade itself from the agreements that govern it, and argue the criticism applies to the second.",
+      "plan": [
+        "Introduction: separate trade from trade agreements.",
+        "Body 1: the case that trade benefits everybody.",
+        "Body 2: what the agreements actually contain.",
+        "Conclusion: your opinion, on what a better agreement would say."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] free trade helps or harms workers, but the two camps are describing different objects: one describes exchange between countries, the other describes the documents that govern it. [[From my perspective]] the first is broadly beneficial and the second has been written badly." },
+        { "role": "Body 1 · trade itself", "text": "[[On the one hand]], exchange between economies with different strengths makes both richer, and this is among the least disputed propositions in the field. Cheaper inputs make domestic industry competitive, consumers gain, and export markets support wages that a domestic market alone could not. [[For instance]], the collapse in the price of manufactured goods over thirty years has raised real incomes for the poorest households more than any welfare reform." },
+        { "role": "Body 2 · the agreements", "text": "[[On the other hand]], modern agreements are only partly about tariffs. Most of their length concerns patents, investor arbitration and regulatory alignment, and those chapters are drafted with corporate counsel present while labour and environmental provisions arrive as annexes with no enforcement. [[It is evident that]] a treaty allowing a company to sue a government over a health regulation is not a trade measure at all, and the [[hegemony]] of that model explains the suspicion better than any argument about tariffs. [[Consequently]], the critics are right about the documents and wrong about the exchange." },
+        { "role": "Conclusion", "text": "[[All things considered]], I support trade and would rewrite the agreements. Enforceable labour standards, no private arbitration, and shorter patent terms would keep the [[integral]] benefits while removing the provisions that made the whole idea politically [[intractable]]." }
+      ],
+      "notes": [
+        "Separating trade from trade agreements is a distinction most essays on this topic never make, and it lets you agree with both camps precisely.",
+        "Naming what the chapters actually cover, patents and arbitration, is evidence rather than assertion.",
+        "The conclusion lists three specific redrafting demands, which turns a position into a proposal."
+      ]
+    }
+  ]
+}

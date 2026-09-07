@@ -1,0 +1,68 @@
+{
+  "id": "e17",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from reoffending rates: the purpose of a sentence is what happens after it.",
+      "plan": [
+        "Introduction: state the position and the measure you will judge by.",
+        "Body 1: what punishment alone produces.",
+        "Body 2: concede the demand for retribution, then answer it.",
+        "Conclusion: restate, with the practical consequence."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A prison sentence can be judged by how it feels to the public or by what the released prisoner does next, and only one of those is measurable. [[By and large]] I agree that rehabilitation should be the organising purpose of imprisonment, because punishment on its own has a poor record by the second test." },
+        { "role": "Body 1 · what punishment produces", "text": "[[The main point is]] that nearly everybody imprisoned is released, most within four years. A system built purely to punish returns them without qualifications, housing or work, and roughly half are convicted again within two years. Norway, which organises its prisons around education and gradual release, reports a reoffending rate less than half the British figure, and the difference is too large to be [[fortuitous]]. [[It follows that]] rehabilitation is not leniency but the cheaper policy." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that victims are owed something, and a sentence that ignored them would lose public consent immediately. Punishment expresses a society's judgement, and pretending otherwise is [[injudicious]]. [[That said]], the two aims are not opposed: the loss of liberty is itself the punishment, and what happens inside those years can be designed for the return without diminishing the sentence." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that rehabilitation should come first, since it is the only approach that reduces the number of future victims. Prison should remain the penalty; what it is [[incumbent]] on the state to change is what the years inside are used for." }
+      ],
+      "notes": [
+        "Choosing your measure in the introduction, what the released prisoner does next, tells the reader how to judge everything that follows.",
+        "Norway with a comparative figure does more than any argument about human dignity would.",
+        "The concession accepts that victims are owed something and then shows the two aims are compatible, which is stronger than choosing between them."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Defend punishment as the thing that makes law credible, while accepting rehabilitation as a method inside it.",
+      "plan": [
+        "Introduction: disagree with the ordering, not with rehabilitation itself.",
+        "Body 1: what a sentence is for, deterrence and public consent.",
+        "Body 2: concede the reoffending evidence, then limit what it proves.",
+        "Conclusion: proportionate punishment, with rehabilitation inside it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Rehabilitation is a good method and a poor purpose. [[In my opinion]] the first job of a sentence is to state what a society will not tolerate, and a system that treats punishment as an embarrassment loses the consent it depends on." },
+        { "role": "Body 1 · what a sentence is for", "text": "[[First and foremost]], law without consequence is advice. The certainty of punishment is what makes an offence [[intelligible]] to the person considering it, and the proportionality of it is what persuades a victim to use the courts instead of settling matters privately. [[It is worth noting]] that public confidence is not a sentimental consideration: where sentences are seen as too soft, juries convict less readily and witnesses stop coming forward." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the reoffending figures are damning, and a prison that teaches nothing produces exactly the results its critics describe. [[Nevertheless]], the Scandinavian comparison proves less than it seems: those countries imprison far fewer people to begin with, so their prisons hold a different population, and the effect of the regime is difficult to [[isolate]] from the effect of who is inside it." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that rehabilitation should replace punishment as the purpose of a sentence, while agreeing it should fill the years the sentence contains. Proportionate punishment first, education and release planning throughout, is a position the public will support, and one that requires no [[refutation]] of what victims are owed." }
+      ],
+      "notes": [
+        "Distinguishing a method from a purpose is the move that makes this disagreement precise rather than reactionary.",
+        "Challenging the Norwegian comparison on its selection effect is a serious objection, and it shows you can handle evidence rather than only cite it.",
+        "The conclusion concedes almost everything practical while holding the principle, which is an honest and defensible finish."
+      ]
+    },
+    {
+      "stance": "Depends on the offence",
+      "approach": "Argue that one purpose cannot cover both a first-time burglary and a violent career, and set out where each applies.",
+      "plan": [
+        "Introduction: the question asks for one answer where two are needed.",
+        "Body 1: offences where rehabilitation plainly works.",
+        "Body 2: offences where incapacitation must come first.",
+        "Conclusion: a sentencing rule that follows the distinction."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Criminal justice covers a shoplifter and a serial arsonist under one word, which is why arguments about its purpose never settle. [[To a certain extent]] I agree that rehabilitation should lead, but the [[dichotomy]] between offences matters more than the general principle." },
+        { "role": "Body 1 · where rehabilitation works", "text": "For the great majority of offences, driven by addiction, debt or chaotic circumstance, punishment alone is close to useless. A six-month sentence removes a job and a tenancy and returns somebody to the same street with fewer options than before, which [[engenders|Engender]] precisely the next offence. Treatment, training and supervised release address the cause, and [[there is evidence that]] community sentences outperform short prison terms on reoffending by a wide margin." },
+        { "role": "Body 2 · where it does not", "text": "[[By contrast]], a small number of offenders commit a large share of serious violence, and with them the first duty is protection. Programmes have repeatedly failed with this group, and treating a long record of predatory violence as a problem of skills is [[inept]]. [[It must be acknowledged]] that incapacitation is the honest word for what is required, and that it is not rehabilitation by another name." },
+        { "role": "Conclusion", "text": "[[On balance]], sentencing should be rehabilitative by default and protective by exception, with the exception kept narrow and evidenced. [[In essence]] the mistake of both camps is to answer for every offender at once, when the [[disparate]] cases plainly require different answers." }
+      ],
+      "notes": [
+        "Splitting by offence keeps the two body paragraphs genuinely different, which is the main risk in this question type.",
+        "Using the honest word, incapacitation, rather than a euphemism, is a small thing that makes the whole essay sound serious.",
+        "The conclusion states a default and an exception, which is how sentencing policy is actually written."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e39",
+  "models": [
+    {
+      "stance": "Advantages outweigh",
+      "approach": "Argue from what the space is used for now, and take the access objection seriously.",
+      "plan": [
+        "Introduction: what removing cars changes, and where you land.",
+        "Body 1: advantages, air, space and local trade.",
+        "Body 2: disadvantages, access, deliveries and displaced traffic.",
+        "Conclusion: the verdict and the conditions."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A city centre closed to private cars is usually described as a restriction, though it is more accurately a reallocation of land that was given to one use by default. [[On balance]] I believe the advantages outweigh the disadvantages, provided the alternatives are built before the ban arrives." },
+        { "role": "Advantages", "text": "The first benefit is measurable within months. Air quality improves sharply where traffic is removed, and the reduction in noise is [[intangible]] but immediately noticed by residents. Space is the larger prize: a lane of parked cars becomes a market, a terrace or a cycle route, and the land involved is enormous. [[There is evidence that]] retail turnover typically rises, because pedestrians linger and drivers do not, which [[invalidates|Invalidate]] the objection shopkeepers most often raise." },
+        { "role": "Disadvantages", "text": "[[By contrast]], the costs fall on people whose journeys were not optional. Disabled residents, tradespeople carrying equipment and families with small children cannot always use a bus, and a scheme without exemptions for them is [[inequitable|Equitable]] in exactly the way its critics claim. Deliveries need rethinking rather than banning. [[Not surprisingly]], traffic can also displace onto the ring of streets outside the zone, where poorer households frequently live." },
+        { "role": "Conclusion", "text": "[[Taken together]], the benefits are large and the problems are design faults rather than reasons to abandon the idea. Blue badge exemptions, timed delivery windows, consolidated freight and serious investment in the surrounding streets would answer nearly every objection, and cities that skipped those steps produced the [[fervent]] opposition that now shadows the policy everywhere." }
+      ],
+      "notes": [
+        "Reframing a ban as a reallocation of land in the first sentence sets the terms of the whole essay.",
+        "The retail turnover evidence answers the objection the reader is already thinking of, which is where evidence is most valuable.",
+        "The conclusion converts the disadvantages into four design requirements, which is a verdict with a method."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh as usually implemented",
+      "approach": "Support the aim and argue that the schemes are drawn in the wrong place and for the wrong people.",
+      "plan": [
+        "Introduction: the aim is right, the implementation is the problem.",
+        "Body 1: the advantages, granted fully.",
+        "Body 2: the disadvantages, distributional and practical.",
+        "Conclusion: what a fair scheme would look like."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Removing cars from a city centre produces a pleasanter centre, which nobody disputes. [[In my opinion]] the disadvantages outweigh the benefits in most schemes as they are actually drawn, because of who is inside the zone and who is just outside it." },
+        { "role": "Advantages", "text": "[[It is true that]] the gains within the zone are genuine. Air is cleaner, streets are quieter, and children can cross a road unaccompanied, which is not a small thing. [[For the most part]], residents inside such zones report high satisfaction after the first year, and few want a reversal." },
+        { "role": "Disadvantages", "text": "[[Nevertheless]], the zone is typically the wealthiest district, and the traffic does not disappear but relocates to the boundary roads where cheaper housing sits. [[Consequently]], the pollution is redistributed from richer residents to poorer ones, which is a [[disparate]] outcome dressed as an environmental measure. Workers commuting from areas with poor public transport are also penalised, since a bus network that runs [[intermittently|Intermittent]] is not an alternative to a car for a shift starting at five. [[Regrettably]], small tradespeople bear the compliance costs while large logistics firms absorb them easily." },
+        { "role": "Conclusion", "text": "[[All things considered]], I would judge most current schemes as taking more than they give. A fairer version would come after the transport is built rather than before, would cover a whole city rather than its most expensive quarter, and would spend the revenue on the boundary streets, without which the policy remains an [[insular]] improvement paid for by everybody else." }
+      ],
+      "notes": [
+        "Attacking the implementation rather than the aim keeps the essay from reading as a defence of driving.",
+        "The displacement of pollution to boundary roads is the strongest and least obvious objection available.",
+        "Three specific corrections in the conclusion show what would change the verdict."
+      ]
+    },
+    {
+      "stance": "Depends on the transport that exists first",
+      "approach": "Argue that the same policy is a benefit or a burden depending on what is already there.",
+      "plan": [
+        "Introduction: the variable is the network, not the ban.",
+        "Body 1: cities with dense transport, where advantages dominate.",
+        "Body 2: cities without it, where disadvantages dominate.",
+        "Conclusion: the sequence that decides which outcome you get."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The same restriction produces delight in one city and revolt in another, which suggests the policy is not what is being judged. [[To a certain extent]] both sides are right, and the variable is the transport network that existed before the barriers went up." },
+        { "role": "Advantages · where the network exists", "text": "Where a metro runs every three minutes and buses cover the suburbs, removing cars costs almost nobody anything. Journeys shift within weeks, air quality improves, and the reclaimed space becomes the part of the city people actually visit. [[A case in point]] is Vienna, where the centre functions perfectly without private traffic because the alternative is faster than driving ever was. [[Consequently]], the objections there are [[ephemeral]] and largely disappear within a year." },
+        { "role": "Disadvantages · where it does not", "text": "[[By contrast]], in a city built around the car, the same measure is a wall. A cleaner who starts at six, a carer visiting four houses and a family with no station within two miles are simply excluded, and the promise that the network will improve later is [[hypothetical]] to somebody who must get to work on Monday. [[It is evident that]] the resulting anger is not about pollution at all, and treating it as such is how these schemes are lost." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, car-free centres are excellent where the alternative already works and damaging where it does not. The sequence is the entire policy: build the network, demonstrate it, then restrict the cars, since a restriction imposed first makes the [[imminent]] improvement politically impossible to fund." }
+      ],
+      "notes": [
+        "Locating the variable outside the policy explains why the same measure produces opposite results, which is a genuinely analytical structure.",
+        "Vienna and the shift worker are one concrete case on each side, which is all two paragraphs need.",
+        "The sequence is the entire policy is a memorable and defensible conclusion."
+      ]
+    }
+  ]
+}

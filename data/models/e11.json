@@ -1,0 +1,68 @@
+{
+  "id": "e11",
+  "models": [
+    {
+      "stance": "Disagree",
+      "approach": "Argue that a ban is aimed at the device rather than at the design that harms, and that it excludes children from ordinary life.",
+      "plan": [
+        "Introduction: name what the proposal is really trying to solve, then disagree.",
+        "Body 1: the device is not the problem, the engagement design is.",
+        "Body 2: concede the evidence of harm, then show what a ban costs.",
+        "Conclusion: regulate the product, not the age of the owner."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The case for keeping phones away from children rests on real evidence of harm, and the anxiety behind it is not [[frivolous]]. [[Nevertheless]], [[I would argue]] that a blanket ban on ownership under sixteen aims at the wrong object and would cost more than it saves." },
+        { "role": "Body 1 · the wrong target", "text": "[[The key issue is]] that the damage comes from a handful of designs rather than from the hardware. Infinite scrolling, streaks and notifications are built to be [[irresistible]], and it is those mechanisms, not the glass rectangle, that keep a thirteen-year-old awake at two in the morning. A phone without them is a telephone, a map and a camera, none of which has ever been accused of anything." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the correlations are troubling: self-harm and sleeplessness among teenage girls rose alongside the smartphone, and the timing is too close to be [[fortuitous]]. [[That said]], prohibition would isolate the children who most need connection. Group chats are where friendships now live, and a teenager excluded from them is not protected but [[insular]], while a ban would also fall hardest on families who cannot supply an alternative." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I disagree with the ban while accepting the diagnosis behind it. Regulating the design, forbidding engagement-maximising features for minors, would [[ameliorate]] the harm without excluding a whole age group from the ordinary means of talking to their friends." }
+      ],
+      "notes": [
+        "Distinguishing the device from its software is the whole essay. A single clear distinction, held to for four paragraphs, beats four loose objections.",
+        "The concession quotes the strongest evidence for the other side rather than the weakest. That is what makes the refusal credible.",
+        "The conclusion swaps a ban for a regulation, so the essay ends with a proposal rather than a refusal."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Compare the phone with other age restrictions society accepts without difficulty.",
+      "plan": [
+        "Introduction: agree, and place the proposal among ordinary age limits.",
+        "Body 1: the evidence of harm, and why childhood is the vulnerable window.",
+        "Body 2: concede the exclusion argument, then answer it collectively.",
+        "Conclusion: restate, and name what would make the ban workable."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Societies restrict alcohol, driving and gambling until an age at which judgement is thought sufficient, and nobody calls those bans authoritarian. [[On the whole]] I agree that smartphones belong on that list, because the harm they do is concentrated in exactly the years the proposal covers." },
+        { "role": "Body 1 · the harm", "text": "[[First and foremost]], adolescence is when the brain's response to social approval is at its most [[intense]], which is precisely what these products are engineered to exploit. [[There is evidence that]] the sharpest rises in anxiety and sleep loss occurred among the first cohort to own phones before secondary school, and the pattern repeated across several countries with different cultures, which makes coincidence hard to credit. A child cannot consent to a design built by hundreds of engineers to defeat self-control." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], a banned child is cut off from friendships conducted online, and that isolation is a genuine cost. [[That said]], the objection assumes one family acting alone. When a whole school or a whole country moves together, as several regions have with classroom bans, nobody is excluded because the conversation itself moves offline. [[Not surprisingly]], the schools that acted collectively report the least resistance." },
+        { "role": "Conclusion", "text": "[[All things considered]], I agree with the restriction, provided it is collective rather than left to individual parents. A basic handset for calls, phones out of schools, and full ownership at sixteen would preserve contact while removing the years in which the design does most damage." }
+      ],
+      "notes": [
+        "Putting the proposal beside alcohol and driving in the first sentence makes a radical measure sound ordinary, which is exactly what the introduction is for.",
+        "The strongest objection, isolation, is answered with the observation that it only holds for a family acting alone. Answering a concession with a condition is more convincing than denying it.",
+        "The conclusion describes a workable version of the policy, which shows you have thought past the slogan."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Accept the ban for social media and reject it for the phone itself, distinguishing the two clearly.",
+      "plan": [
+        "Introduction: the proposal bundles two things; separate them.",
+        "Body 1: why the phone should stay.",
+        "Body 2: why the platforms should go, and how an age limit could work there.",
+        "Conclusion: the line, and why it is more enforceable than the proposal."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The proposal treats the phone and what runs on it as one object, which is why the argument about it never ends. [[To a certain extent]] I agree with restricting children's access, but the restriction belongs on the platforms rather than on the device." },
+        { "role": "Body 1 · keep the phone", "text": "A phone is how a child tells a parent that the bus has not come. Removing it makes families less safe and the poorest families least safe of all, since a home computer and a landline are no longer things every household has. [[It is worth noting]] that the map, the ticket and the timetable are now on it too, so a ban would make an under-sixteen reliant on adults for things they can currently manage alone, which is the opposite of what adolescence is for." },
+        { "role": "Body 2 · restrict the platforms", "text": "[[By contrast]], the case against algorithmic feeds for children is strong and getting stronger. Their harm is [[insidious]] rather than dramatic: nothing terrible happens on any given evening, but attention and sleep erode steadily, and the erosion is [[pervasive]] and cumulative. Verified age limits on those services would be [[intricate]] to build but no harder than the checks already required for gambling." },
+        { "role": "Conclusion", "text": "[[On balance]], then, sixteen is a reasonable age for social media and an unreasonable one for a telephone. Drawing the line there is also more enforceable, since a platform can be regulated and audited whereas a ban on ownership would rest entirely on what parents chose to do." }
+      ],
+      "notes": [
+        "Splitting the proposal into two claims and answering them differently is the clearest route to a partial agreement here.",
+        "The bus that has not come is one small concrete scene, and it does more for the argument than any statistic about safety.",
+        "The conclusion adds enforceability, a practical criterion neither body paragraph used, which gives the ending something new to say."
+      ]
+    }
+  ]
+}

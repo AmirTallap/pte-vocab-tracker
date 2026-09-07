@@ -1,0 +1,87 @@
+{
+  "general": {
+    "title": "How to write the essay",
+    "lede": "PTE marks a Write Essay answer on seven things: content, form (the 200 to 300 words), development and coherence, grammar, vocabulary, spelling, and general linguistic range. Six of the seven are decided by the shape you choose before you type a word, which is why the plan below is worth the two minutes it costs.",
+    "clock": [
+      { "at": "0:00 to 2:00", "do": "Read the prompt twice and underline the task verb. Decide your position in one sentence. Write nothing yet." },
+      { "at": "2:00 to 3:00", "do": "Jot four labels: position, reason one, reason two, concession. That is the whole plan, and it is enough." },
+      { "at": "3:00 to 16:00", "do": "Write straight through in four paragraphs. Do not stop to edit. Aim for about 260 words, which leaves room either way." },
+      { "at": "16:00 to 19:00", "do": "Read it once for grammar and once for spelling. Check the word count is inside the band." },
+      { "at": "19:00 to 20:00", "do": "Leave it alone. A late rewrite is where the sentence fragments come from." }
+    ],
+    "steps": [
+      { "h": "Answer the question that was asked", "p": "The task verb decides the shape. To what extent do you agree wants a position and a degree. Discuss both views wants two sides and then your own. What are the causes and what can be done wants causes in one paragraph and measures in the next. Content marks go to the essay that does the thing asked, not the essay that says the most." },
+      { "h": "Four paragraphs, and no more", "p": "Introduction, two body paragraphs, conclusion. Four is what 250 words holds properly. Five leaves each paragraph too thin to develop, and three usually means two ideas have been crushed together." },
+      { "h": "One idea per body paragraph", "p": "Open with a topic sentence that states the idea in your own words. Explain it in the next sentence. Then give one concrete example, a real one where you can. Close by tying the example back to the position. Four sentences, and the paragraph is complete." },
+      { "h": "Concede once, early in the second body paragraph", "p": "An essay that admits nothing reads as a slogan. One honest concession, answered immediately, is worth more than a third reason. Admittedly, it is true that and one must concede all do this in three words." },
+      { "h": "Show range without showing off", "p": "Vary the length of your sentences: a short one after two long ones is the easiest way to sound controlled. Use a subordinate clause, a passive where the agent genuinely does not matter, and one conditional. Reach for an academic word only where it is the precise word. A misused long word costs more than a plain one earns." },
+      { "h": "Never copy the prompt", "p": "Rephrase it. Copied wording is discounted from your word count and gains nothing. Two lines of rewriting in the introduction is the cheapest mark on the paper." },
+      { "h": "Count as you go", "p": "Roughly 60 words for the introduction, 80 for each body paragraph and 45 for the conclusion lands you near 265. Learn what your own paragraph of 80 words looks like and you will never have to count under pressure." },
+      { "h": "Spelling and one variety of English", "p": "Pick British or American and stay in it for the whole essay. Organise and organize are both correct, but not in the same paragraph. There is no spellchecker in the exam, which is why there is none in this box." }
+    ],
+    "checklist": [
+      "Does the first sentence answer the actual question?",
+      "Does each body paragraph have a topic sentence and one example?",
+      "Is there exactly one concession, and is it answered?",
+      "Are you between 200 and 300 words?",
+      "Have you repeated the prompt word for word anywhere? Rewrite it.",
+      "Does the conclusion add a consequence rather than repeat the introduction?"
+    ]
+  },
+  "types": {
+    "agree": {
+      "shape": "Position, two reasons, one concession, restatement.",
+      "paras": [
+        { "role": "Introduction", "does": "Rephrase the issue in one sentence, then state your position and how far it goes. Do not sit on the fence, but do give it a degree.", "openers": ["To a certain extent", "In my opinion", "I would argue"] },
+        { "role": "Body 1", "does": "Your strongest reason. Topic sentence, explanation, one example, and a sentence linking it back to your position.", "openers": ["First and foremost", "The main point is", "For instance"] },
+        { "role": "Body 2", "does": "Concede the best objection in one sentence, then answer it, then give your second reason.", "openers": ["Admittedly", "That said", "Nevertheless"] },
+        { "role": "Conclusion", "does": "Restate the position in new words and end on what follows from it. No new evidence.", "openers": ["In conclusion", "On balance", "All things considered"] }
+      ]
+    },
+    "both": {
+      "shape": "Both views fairly, then your own, which must be clearly your own.",
+      "paras": [
+        { "role": "Introduction", "does": "Set out the disagreement in one sentence and say which side you will finish on. Announcing it here is not a spoiler, it is coherence.", "openers": ["It is often argued", "On the one hand", "I would maintain"] },
+        { "role": "Body 1", "does": "The view you do not hold, put at its strongest and with its own example. A weak version of the other side loses content marks.", "openers": ["On the one hand", "Those who hold this view", "A case in point"] },
+        { "role": "Body 2", "does": "The view you do hold, with its example, and one sentence saying exactly where the first view goes wrong.", "openers": ["On the other hand", "By contrast", "It could be argued"] },
+        { "role": "Conclusion", "does": "Give your own opinion in plain words and say what it rests on.", "openers": ["All things considered", "On balance", "In conclusion"] }
+      ]
+    },
+    "advdis": {
+      "shape": "Two advantages, two disadvantages, then a verdict on which weighs more.",
+      "paras": [
+        { "role": "Introduction", "does": "Say what the development is and that it cuts both ways. End with which side you think is heavier.", "openers": ["In recent years", "It is true that", "On balance"] },
+        { "role": "Body 1", "does": "The advantages, the strongest first, with one example. Two developed advantages beat four listed ones.", "openers": ["The clearest benefit", "To illustrate", "Above all"] },
+        { "role": "Body 2", "does": "The disadvantages, treated just as seriously, with an example. Name who bears the cost.", "openers": ["By contrast", "The obvious drawback", "For example"] },
+        { "role": "Conclusion", "does": "Weigh them. A verdict of it depends is only acceptable if you say what it depends on.", "openers": ["On the whole", "Taken together", "In conclusion"] }
+      ]
+    },
+    "problem": {
+      "shape": "Causes in one paragraph, solutions in the next, matched one to one.",
+      "paras": [
+        { "role": "Introduction", "does": "State the problem and how serious it is, then promise causes and remedies. One sentence each.", "openers": ["It is clear that", "There is evidence that", "This essay will"] },
+        { "role": "Body 1", "does": "Two causes, the second growing out of the first. Say who or what drives them rather than leaving them agentless.", "openers": ["The root of the problem", "This leads to", "Consequently"] },
+        { "role": "Body 2", "does": "Solutions that answer those exact causes, in the same order, and say who must act. A solution with no actor is a wish.", "openers": ["The most effective remedy", "Governments could", "To be effective"] },
+        { "role": "Conclusion", "does": "Say that the problem is soluble and what it will take. Avoid we must all work together.", "openers": ["In summary", "Ultimately", "In the long run"] }
+      ]
+    },
+    "cause": {
+      "shape": "Causes, then effects, with the link between them made explicit.",
+      "paras": [
+        { "role": "Introduction", "does": "Name the trend and say plainly that it has identifiable causes and measurable effects.", "openers": ["Over the past decade", "It is evident that", "This essay will"] },
+        { "role": "Body 1", "does": "The causes. Rank them: say which matters most and why, rather than listing three of equal weight.", "openers": ["The principal cause", "Owing to", "This suggests that"] },
+        { "role": "Body 2", "does": "The effects, and the sentence that joins them to the causes above. That joining sentence is where the coherence mark lives.", "openers": ["As a result", "It follows that", "The consequence"] },
+        { "role": "Conclusion", "does": "Say whether the effects are reversible, and what would have to change.", "openers": ["In conclusion", "In the long run", "Overall"] }
+      ]
+    },
+    "direct": {
+      "shape": "Answer the question in the first paragraph, then justify it twice.",
+      "paras": [
+        { "role": "Introduction", "does": "Answer the question outright. A direct question punished by a delayed answer is the commonest way to lose content marks.", "openers": ["In my view", "The short answer is", "I would argue"] },
+        { "role": "Body 1", "does": "Your first justification, developed with an example rather than a second opinion.", "openers": ["The first reason", "For instance", "More specifically"] },
+        { "role": "Body 2", "does": "Your second justification, and one sentence acknowledging what it does not cover.", "openers": ["A further reason", "Granted", "Even so"] },
+        { "role": "Conclusion", "does": "Repeat the answer in different words and give the reader the consequence of accepting it.", "openers": ["To sum up", "In conclusion", "All in all"] }
+      ]
+    }
+  }
+}

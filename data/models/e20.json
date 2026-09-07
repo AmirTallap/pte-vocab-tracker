@@ -1,0 +1,68 @@
+{
+  "id": "e20",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from the failures of means-testing and from the labour market that is arriving.",
+      "plan": [
+        "Introduction: state the position and the problem it answers.",
+        "Body 1: what conditional welfare costs and does.",
+        "Body 2: concede the cost and the work objection, then answer both.",
+        "Conclusion: restate, with the version you would fund."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Welfare systems now spend a remarkable share of their budgets deciding who deserves help rather than delivering it. [[On the whole]] I agree that a guaranteed basic income would be an improvement, chiefly because the machinery it replaces has become the problem." },
+        { "role": "Body 1 · what conditionality costs", "text": "[[First and foremost]], means-testing is expensive and cruel in roughly equal measure. Assessments, appeals and sanctions consume money that could have been paid to claimants, and the process leaves people without income for weeks while a form is [[scrutinised|Scrutiny]]. It also punishes exactly the behaviour it claims to encourage: taking short work risks losing a payment that takes months to restore, so the system [[impedes|Impede]] the transition it exists to support. An unconditional payment removes that trap entirely." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the objections are serious. The cost is enormous, and it is [[hypothetical]] to assume nobody would reduce their hours. [[That said]], the trials in Finland and Kenya found employment broadly unchanged and mental health notably improved, and the cost falls sharply once the existing benefits, allowances and administration it replaces are subtracted. [[It is worth noting]] that a basic income is not additional to the welfare state; it is a simpler version of it." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree with a modest guaranteed income set at subsistence rather than comfort, funded by consolidating what already exists. It would not abolish poverty, but it would remove the [[impediment]] that the present system places between people and work." }
+      ],
+      "notes": [
+        "Attacking the alternative rather than praising the proposal is the stronger route here, because the objection to basic income is always cost.",
+        "Naming two trials with their findings answers the will people stop working objection with evidence instead of assertion.",
+        "The conclusion specifies a level, subsistence rather than comfort, which turns agreement into a policy."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Argue that the same money spent on services buys more, and that universality is the weak point.",
+      "plan": [
+        "Introduction: the diagnosis is right, the prescription is not.",
+        "Body 1: the arithmetic of universality.",
+        "Body 2: concede the cruelty of means-testing, then propose services instead.",
+        "Conclusion: what to fix first."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The case for a basic income begins with a real failure, and then proposes the most expensive possible remedy for it. [[In my opinion]] the money would do considerably more good spent on services than distributed to everybody regardless of need." },
+        { "role": "Body 1 · the arithmetic", "text": "[[The main point is]] that universality is the costly part. Paying a subsistence income to every adult, including those earning well, requires either a payment too small to live on or taxation at a level no electorate has ever accepted. [[More precisely]], the sums that would fund a meaningful basic income would also fund free childcare, free social care and a serious housing programme, each of which raises living standards for the poorest by far more per pound. [[It is clear that]] the choice is not between basic income and the present mess." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that means-testing is degrading and that sanctions do measurable harm. Those are strong reasons to reform assessment, shorten waits and abolish the sanction regime, and none of them requires paying a millionaire a monthly cheque. [[Nevertheless]], the deepest problem for a poor household is usually the price of rent, childcare or care for a parent, and a cash payment in a market with too few homes proves [[ephemeral]], absorbed into higher rents." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with a guaranteed income while accepting almost everything its supporters say about the current system. Fixing the cruelty of assessment and expanding services would be cheaper, faster and more [[equitable]] than a universal payment that landlords would absorb." }
+      ],
+      "notes": [
+        "Accepting the diagnosis and rejecting the prescription is the most persuasive form of disagreement, and it appears in the first sentence here.",
+        "The rent absorption argument is the strongest objection available and is often missed. One well-chosen mechanism beats three general worries.",
+        "The conclusion lists what should be done instead, so the essay does not merely refuse."
+      ]
+    },
+    {
+      "stance": "Agree in principle, not yet",
+      "approach": "Separate whether it would work from whether it can be introduced now, and argue for a sequence.",
+      "plan": [
+        "Introduction: the idea is sound and the timing is wrong.",
+        "Body 1: why the principle is right.",
+        "Body 2: why introducing it now would fail, and what must come first.",
+        "Conclusion: the sequence, with a first step."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Two questions are usually merged in this debate: whether an unconditional income is a good idea, and whether it could be introduced tomorrow. [[To a certain extent]] I agree with the first and disagree with the second, and keeping them apart makes the argument tractable." },
+        { "role": "Body 1 · the principle", "text": "The principle is sound. Work is becoming less predictable, and a system that assumes a stable job with a stable wage is increasingly [[incongruous]] with how people actually earn. An unconditional floor also restores a measure of [[autonomy]]: somebody who can refuse the worst job in town has bargaining power that no minimum wage supplies. [[There is evidence that]] recipients in trials used the security to retrain and to leave abusive situations rather than to stop working." },
+        { "role": "Body 2 · the timing", "text": "[[Nevertheless]], introducing it into the present economy would fail for a reason its advocates rarely address: in housing markets with a shortage, extra income becomes extra rent within a year or two. Without rent control or a serious building programme, a basic income would be a subsidy to landlords, which is an [[incongruous]] outcome for a policy meant to reduce inequality." },
+        { "role": "Conclusion", "text": "[[On balance]], I support a guaranteed income as a destination and oppose it as a first step. Build housing, fund childcare and abolish sanctions first; then a basic income has somewhere to land, and [[in due course]] it becomes the simplification the welfare state needs rather than a transfer to property owners." }
+      ],
+      "notes": [
+        "Splitting principle from timing is a genuine third position and avoids the fence-sitting that usually spoils a partial agreement.",
+        "The bargaining power argument is the strongest case for basic income and is rarely made. Reaching for the less obvious argument lifts the content mark.",
+        "Ending with an ordered sequence gives the reader something to act on."
+      ]
+    }
+  ]
+}

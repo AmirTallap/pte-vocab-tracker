@@ -1,0 +1,68 @@
+{
+  "id": "e01",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Take the position outright, defend it with access, and answer the cost objection head on.",
+      "plan": [
+        "Introduction: rephrase the argument, state the position and its degree.",
+        "Body 1: fees decide who applies, with a real example.",
+        "Body 2: concede the cost, then answer it with deferred repayment.",
+        "Conclusion: restate the position and end on the consequence."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Whether the state or the student should pay for a degree is one of the most persistent arguments in education policy. [[It is often argued]] that those who earn more because of their studies ought to fund them personally. [[In my opinion]], however, tuition that is free when it is taken up is the more [[equitable]] arrangement, and I agree with it almost entirely." },
+        { "role": "Body 1 · access", "text": "[[First and foremost]], charging at the door decides who applies before talent has any say. A student from a poor household weighs a debt of tens of thousands against an uncertain salary, and the [[propensity]] to withdraw is highest exactly where the [[benefits]] of study would be greatest. [[A case in point]] is Scotland, where abolishing fees for domestic students was followed by record applications from the poorest postcodes. Ability, rather than household income, should [[facilitate]] entry." },
+        { "role": "Body 2 · concession", "text": "[[Admittedly]], free tuition is expensive, and the money comes from taxpayers who never attended a university themselves. [[That said]], graduates return it through higher income tax across a working life, so the cost is recovered rather than forgiven. What free entry removes is not the payment but the [[impediment]] of paying in advance, and that is precisely the barrier which deters the students the system claims to want." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that higher education should be free at the point of use and paid for afterwards through the tax system. [[In the long run]], a country that prices its ablest students out of study saves nothing; it forfeits the very [[innovation]] that would have funded the policy." }
+      ],
+      "notes": [
+        "The position appears in the third sentence and never wavers. Content marks come from answering the task verb, and to what extent needs a degree as well as a side.",
+        "One named example, Scotland, does more for content than three general claims.",
+        "The concession sits at the top of body two and is answered in the next sentence. An unanswered concession reads as agreement with the other side."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Attack the transfer of wealth, then offer income-contingent loans as the better answer.",
+      "plan": [
+        "Introduction: reframe the question as who carries the bill, and disagree.",
+        "Body 1: graduates are the high earners, so the subsidy runs the wrong way.",
+        "Body 2: concede the deterrent effect, then answer it with deferred loans.",
+        "Conclusion: access is the goal, but abolition is not the means."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Free university tuition sounds generous, but the real question is who ultimately carries the bill. [[On the whole]] I disagree that higher education should be free at the point of use, because a degree is largely a private [[investment]] with a private return, and treating it as a public good [[exacerbates|Exacerbate]] inequality rather than curing it." },
+        { "role": "Body 1 · who pays whom", "text": "[[The main point is]] that graduates are, on average, among the highest earners in any country. Funding their studies from general taxation asks a plumber who left school at sixteen to subsidise a future corporate lawyer, which is a [[disparate]] transfer of wealth in the wrong direction. [[There is evidence that]] free systems are captured by the comfortable: in several European countries charging no fees at all, students from professional families still outnumber the rest by roughly three to one." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], an upfront charge can [[dissuade]] able applicants, and that danger is not imaginary. [[Nevertheless]], the remedy is a loan repaid only above a salary threshold, not abolition. Such a scheme removes the cash barrier while leaving the cost with the person who [[benefits]], and it shields universities from the budget cuts that [[inevitably|Inevitable]] follow once a whole sector depends on one minister's spending review." },
+        { "role": "Conclusion", "text": "[[All things considered]], [[I would maintain]] that tuition should be charged and lent rather than waived. The goal is access, and repayment linked to income achieves it without asking the least advantaged taxpayers to fund the most advantaged students." }
+      ],
+      "notes": [
+        "Reframing the question in the first sentence is what stops a disagreement essay sounding mean. The issue becomes fairness of funding, not hostility to students.",
+        "The concession names the strongest point on the other side and then replaces abolition with a specific alternative. A named alternative is worth more than a complaint.",
+        "Note the plumber and the lawyer. One concrete pair beats a paragraph about inequality in the abstract."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Split the question by subject: free where the public gain is large, deferred payment elsewhere.",
+      "plan": [
+        "Introduction: agree to a degree, and say what the blanket policy misses.",
+        "Body 1: subjects where the country needs the skills, with a costed example.",
+        "Body 2: subjects whose reward is mostly private.",
+        "Conclusion: the real question is who gains, and the answer is a split policy."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[To a certain extent]] I agree that higher education should be free, although the case is far stronger for some subjects than for all of them. A blanket policy ignores an obvious [[nuance]]: society and the individual do not gain equally from every degree, and a funding rule that pretends otherwise will be defended by nobody for long." },
+        { "role": "Body 1 · where the public gains", "text": "Where the public benefit is [[explicit]], free tuition is easy to justify. Nursing, teaching and engineering fill shortages that a country cannot import its way out of, and a [[dearth]] of trained staff costs the state far more than the fees it once collected. [[For instance]], a hospital paying agency rates for want of nurses can spend in a month what a nursing student's whole year would have cost. Waiving fees there is [[pragmatic]] rather than charitable." },
+        { "role": "Body 2 · where the gain is private", "text": "[[By contrast]], degrees whose reward is captured largely by the graduate have a weaker claim on the public purse. [[It must be acknowledged]] that those entering corporate law or finance keep most of the value themselves, and asking a general taxpayer to fund that is difficult to [[substantiate]]. A contribution repaid out of later earnings looks fair enough, provided that nobody is required to pay before they can afford to." },
+        { "role": "Conclusion", "text": "[[On balance]], then, I would support free study where the country needs the skills and deferred payment everywhere else. [[In essence]] the question is not whether education is a right but who [[benefits]] from it, and answering that honestly yields a fairer system than either extreme." }
+      ],
+      "notes": [
+        "A partial answer still needs a clear line. This one draws it between public and private benefit, and every paragraph stays on one side of that line.",
+        "The costed nursing example turns a general claim into evidence. Numbers you can defend are better than numbers you invent.",
+        "The conclusion adds a criterion, who benefits, rather than repeating the introduction in new words."
+      ]
+    }
+  ]
+}

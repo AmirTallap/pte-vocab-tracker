@@ -1,0 +1,273 @@
+{
+  "id": "subject-verb-agreement",
+  "title": "Subject-Verb Agreement",
+  "group": "The Noun Phrase",
+  "summary": "How to locate the real subject of a verb and choose singular or plural when the noun beside the verb is misleading.",
+  "sections": [
+    {
+      "heading": "Find the head of the subject",
+      "body": "The verb agrees with the **head noun** of the subject, not with the nearest noun. Material that comes between them — a prepositional phrase, a relative clause, an appositive, a phrase in commas — never changes the agreement.\n\nThe reliable test is to delete everything between the head and the verb and read what is left. `The list of approved items is updated` reduces to `the list is`, so the plural `items` sitting next to the verb is irrelevant. The trap is strongest with `of` phrases, because the second noun is often the one carrying the meaning.",
+      "examples": [
+        {
+          "right": "The list of approved suppliers is updated every quarter.",
+          "wrong": "The list of approved suppliers are updated every quarter.",
+          "note": "The head is `list`, singular; `suppliers` belongs to the of-phrase."
+        },
+        {
+          "right": "The impact of rising sea levels on coastal cities has been underestimated.",
+          "wrong": "The impact of rising sea levels on coastal cities have been underestimated.",
+          "note": "Two intervening plurals do not make the singular head plural."
+        },
+        {
+          "right": "The professor, together with her two assistants, is attending the conference.",
+          "wrong": "The professor, together with her two assistants, are attending the conference.",
+          "note": "A phrase in commas adds information but not a second subject."
+        }
+      ]
+    },
+    {
+      "heading": "Quantifier + of + noun: the second noun decides",
+      "body": "With the quantifiers **most, some, all, half, none, any, a lot of, the rest of** and with **percentages and fractions**, the pattern reverses: agreement follows the noun after `of`, because these words take their number from what they measure.\n\n`Most of the water is polluted` but `Most of the students are satisfied`; `Half of the budget has been spent` but `Half of the grants have been withdrawn`; `Forty per cent of the sample was female` but `Forty per cent of the respondents were female`. `None of` is treated as singular in formal writing, though a plural verb is widely accepted.",
+      "examples": [
+        {
+          "right": "Most of the water in the reservoir has evaporated during the heatwave.",
+          "wrong": "Most of the water in the reservoir have evaporated.",
+          "note": "`Water` is uncountable, so the verb is singular."
+        },
+        {
+          "right": "Most of the students who sat the exam were satisfied with the result.",
+          "wrong": "Most of the students who sat the exam was satisfied.",
+          "note": "The same quantifier, now measuring a plural noun."
+        },
+        {
+          "right": "Two thirds of the funding comes from private donors.",
+          "wrong": "Two thirds of the funding come from private donors.",
+          "note": "Fractions and percentages agree with the noun they quantify."
+        }
+      ]
+    },
+    {
+      "heading": "Each, every, either, neither, one of",
+      "body": "These are singular however plural the phrase around them looks. `Each of the proposals has merit`, `Every one of the samples was contaminated`, `Neither of the candidates meets the criteria`, `One of the machines has broken down`.\n\n`One of the` is the commonest failure point, because the plural noun stands directly before the verb: the subject is `one`, not `machines`. Note the different structure in `one of the students who have applied`, where the relative clause describes `students` and correctly takes a plural verb.\n\nWhen `each` follows a plural subject rather than heading it, the verb stays plural: `The proposals each have merit`.",
+      "examples": [
+        {
+          "right": "One of the machines has broken down again.",
+          "wrong": "One of the machines have broken down again.",
+          "note": "The head is `one`; `of the machines` only says which one."
+        },
+        {
+          "right": "Neither of the two solutions addresses the underlying cause.",
+          "wrong": "Neither of the two solutions address the underlying cause.",
+          "note": "`Neither` is singular in careful writing."
+        },
+        {
+          "right": "Every student and every member of staff was issued with a card.",
+          "wrong": "Every student and every member of staff were issued with a card.",
+          "note": "`Every` keeps the verb singular even across `and`."
+        }
+      ]
+    },
+    {
+      "heading": "A number of, the number of, and there is / there are",
+      "body": "The pair **a number of** and **the number of** points in opposite directions. `A number of` means *several* and takes a plural verb: `A number of students have complained`. `The number of` names a figure, which is one thing, and takes a singular verb: `The number of complaints has risen`.\n\nIn **there** sentences the verb agrees with what follows it, not with `there`: `There is one exception` / `There are several exceptions`. With a compound subject, the verb conventionally agrees with the **nearer** noun, so word order decides: `There are two printers and a laptop in the office`, but `There is a laptop and two printers in the office`.",
+      "examples": [
+        {
+          "right": "A number of students have complained about the new timetable.",
+          "wrong": "A number of students has complained about the new timetable.",
+          "note": "`A number of` is a plural quantifier meaning several."
+        },
+        {
+          "right": "The number of applications has risen sharply since the fee was scrapped.",
+          "wrong": "The number of applications have risen sharply.",
+          "note": "The subject is the figure itself, which is singular."
+        },
+        {
+          "right": "There are two laboratories and a workshop on the ground floor.",
+          "wrong": "There is two laboratories and a workshop on the ground floor.",
+          "note": "The verb matches the nearer noun, here the plural `laboratories`."
+        }
+      ]
+    },
+    {
+      "heading": "And, or, nor, as well as, along with",
+      "body": "Subjects joined by **and** are plural: `The report and the appendix were circulated`. The exception is a pair that names a single thing or is preceded by `each`/`every`: `Research and development is expensive`.\n\nSubjects joined by **or** or **nor** take a verb agreeing with the **nearer** subject: `Neither the tutors nor the director was informed`; `Neither the director nor the tutors were informed`. Reversing the order changes the verb.\n\nPhrases such as **as well as, along with, together with, in addition to, including** are not conjunctions. They add information to the subject without enlarging it, so the verb keeps the number of the original subject.",
+      "examples": [
+        {
+          "right": "The final report and the technical appendix were circulated on Monday.",
+          "wrong": null,
+          "note": "Two subjects joined by `and` are plural."
+        },
+        {
+          "right": "Neither the supervisors nor the head of school was informed of the change.",
+          "wrong": "Neither the supervisors nor the head of school were informed.",
+          "note": "With `nor`, the verb follows the nearer subject, here singular `head`."
+        },
+        {
+          "right": "The director, as well as several senior staff, is expected to attend.",
+          "wrong": "The director, as well as several senior staff, are expected to attend.",
+          "note": "`As well as` is not `and`; the subject is still `the director`."
+        }
+      ]
+    },
+    {
+      "heading": "Collectives, plural-looking nouns, clauses and gerunds",
+      "body": "**Collective nouns** such as team, government, committee, staff, family and company take a singular verb in American English. British English allows both, choosing the plural when the members act individually (`the committee are divided`) and the singular when the body acts as a unit (`the committee has issued its report`). What matters is consistency: do not follow a plural verb with `its`, or a singular verb with `their`.\n\nSome nouns look plural but are singular: `news`, `economics`, `mathematics`, `politics`, `physics`, `statistics` as a discipline, and diseases such as `measles`. `Statistics show a decline` is a different word, the plural of the countable `statistic`.\n\nA **clause or gerund phrase** used as a subject is a single idea and takes a singular verb: `Reading academic papers in a second language is demanding`, `What the results show is worrying`, `Whether the trend continues remains unclear`.",
+      "examples": [
+        {
+          "right": "The committee publishes its report on Friday.",
+          "wrong": "The committee publish its report on Friday.",
+          "note": "A singular verb must be matched by singular `its`."
+        },
+        {
+          "right": "Economics is often described as a social science.",
+          "wrong": "Economics are often described as a social science.",
+          "note": "The -s of the discipline name is not a plural."
+        },
+        {
+          "right": "Reading academic papers in a second language requires considerable stamina.",
+          "wrong": "Reading academic papers in a second language require considerable stamina.",
+          "note": "A gerund subject counts as one thing, however long the phrase."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Agreeing with the noun nearest the verb: `The list of items are`. Delete the of-phrase and the head noun becomes visible.",
+    "Making `one of the` plural: `One of the machines have broken down` should be `has`.",
+    "Confusing `a number of` (plural) with `the number of` (singular).",
+    "Treating `as well as`, `along with` and `together with` as if they were `and`. They leave the subject's number unchanged.",
+    "Putting a plural verb after `economics`, `politics`, `mathematics` or `news`, which are all singular.",
+    "Mixing a singular verb with `their`, or a plural verb with `its`, after a collective noun such as `team` or `government`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The list of approved suppliers ___ updated at the end of every quarter.",
+      "options": [
+        "were",
+        "have been",
+        "is",
+        "are"
+      ],
+      "answer": 2,
+      "explain": "The head of the subject is `list`, not `suppliers`; the of-phrase between the two never changes the agreement."
+    },
+    {
+      "type": "blank",
+      "prompt": "Most of the water in the reservoir ___ evaporated during the heatwave.",
+      "hint": "have (present perfect)",
+      "accept": [
+        "has"
+      ],
+      "explain": "After `most of`, the noun following `of` decides. `Water` is uncountable and therefore singular, unlike `most of the students, who have...`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "A number of students ___ complained about the way the timetable was changed.",
+      "options": [
+        "was",
+        "have",
+        "is",
+        "has"
+      ],
+      "answer": 1,
+      "explain": "`A number of` simply means several and takes a plural verb. `The number of students has risen` is the opposite pattern, where the figure is the subject."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The committee ___ its final report on Friday morning.",
+      "options": [
+        "publishes",
+        "are publishing",
+        "have published",
+        "publish"
+      ],
+      "answer": 0,
+      "explain": "The possessive `its` treats the committee as a single body, so the verb must be singular too; a plural verb would require `their`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Economics ___ often described as the most quantitative of the social sciences.",
+      "hint": "be (present)",
+      "accept": [
+        "is"
+      ],
+      "explain": "Discipline names ending in -s — economics, mathematics, politics, physics — are singular despite their form."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Neither of the two proposed solutions ___ the underlying cause of the shortage.",
+      "options": [
+        "address",
+        "addresses",
+        "have addressed",
+        "are addressing"
+      ],
+      "answer": 1,
+      "explain": "`Neither` is the singular head of the subject; `of the two proposed solutions` only identifies the set it is chosen from."
+    },
+    {
+      "type": "blank",
+      "prompt": "There ___ two printers and a laptop in the shared office.",
+      "hint": "be (present)",
+      "accept": [
+        "are"
+      ],
+      "explain": "In `there` sentences the verb agrees with what follows, and with a compound subject it takes the number of the nearer noun, here plural `printers`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Reading academic papers in a second language ___ considerable stamina and concentration.",
+      "options": [
+        "have required",
+        "are requiring",
+        "require",
+        "requires"
+      ],
+      "answer": 3,
+      "explain": "A gerund phrase is a single subject however many plural nouns it contains, so the verb is singular."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The number of applications for the scholarship ___ risen sharply since the fee was scrapped.",
+      "options": [
+        "were",
+        "are",
+        "have",
+        "has"
+      ],
+      "answer": 3,
+      "explain": "`The number of` names one figure and is singular; only `a number of`, meaning several, takes a plural verb."
+    },
+    {
+      "type": "blank",
+      "prompt": "Forty per cent of the respondents ___ under the age of thirty.",
+      "hint": "be (present)",
+      "accept": [
+        "are"
+      ],
+      "explain": "A percentage takes its number from the noun after `of`; `respondents` is plural, whereas `forty per cent of the sample is` would be singular."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The project leader, as well as her two research assistants, ___ attending the conference in Vienna.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": 2,
+      "explain": "`As well as` adds information without creating a compound subject, so the verb still agrees with the singular `project leader`."
+    },
+    {
+      "type": "blank",
+      "prompt": "One of the machines in the testing lab ___ broken down again.",
+      "hint": "have (present perfect)",
+      "accept": [
+        "has"
+      ],
+      "explain": "The subject is `one`; the plural `machines` sits inside the of-phrase and never governs the verb."
+    }
+  ]
+}

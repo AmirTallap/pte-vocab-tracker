@@ -1,0 +1,68 @@
+{
+  "id": "e05",
+  "models": [
+    {
+      "stance": "Price the road",
+      "approach": "Diagnose congestion as a pricing failure, then propose charging with the revenue hypothecated to transit.",
+      "plan": [
+        "Introduction: state the problem's size and promise causes then measures.",
+        "Body 1: two causes, the free road and the sprawl it produced.",
+        "Body 2: measures answering those causes in the same order.",
+        "Conclusion: the problem is soluble and what it will cost politically."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Drivers in large cities now lose whole working weeks each year to stationary traffic, and the fumes they sit in shorten lives measurably. [[It is clear that]] the causes are structural rather than accidental, and the remedies, though unpopular, are well understood." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that road space is the only valuable urban commodity given away without charge. A driver entering a city centre at eight in the morning imposes delay on everybody behind, yet pays nothing for it, so demand naturally exceeds supply. [[This leads to]] the second cause: decades of building outwards on the assumption of free driving, which has left millions of people with no [[intelligible]] alternative to a car." },
+        { "role": "Body 2 · measures", "text": "The most effective remedy answers the first cause directly. Charging for entry at peak hours cut central London traffic by around fifteen per cent within a year, and Stockholm repeated the result. To be defensible, though, the revenue must [[facilitate]] the alternative rather than vanish into a general budget: buses every four minutes, protected cycle lanes and cheaper suburban rail. Cities that charged without first building the alternative [[inevitably|Inevitable]] faced revolt." },
+        { "role": "Conclusion", "text": "[[In summary]], congestion persists because driving is underpriced and cities were built around that mistake. Pricing the road and spending the proceeds on the alternatives would [[ameliorate]] it within a few years, and the only genuine [[impediment]] is the political courage to go first." }
+      ],
+      "notes": [
+        "Causes and measures appear in the same order, and the second paragraph says so. That mapping is where the coherence marks in this question type live.",
+        "London and Stockholm are named with a figure. Two real cases outweigh a paragraph of general assertion.",
+        "Every remedy has an actor. A solution with nobody to carry it out reads as a wish."
+      ]
+    },
+    {
+      "stance": "Fix the land use",
+      "approach": "Argue that congestion is a symptom of how cities are zoned, so the remedy is planning rather than traffic engineering.",
+      "plan": [
+        "Introduction: traffic is a symptom, and treating symptoms is why nothing has worked.",
+        "Body 1: causes rooted in zoning and road building itself.",
+        "Body 2: planning measures, and who must act.",
+        "Conclusion: slow remedies, but the only durable ones."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Congestion is usually treated as a traffic problem, which is why fifty years of traffic solutions have failed to shift it. [[It is evident that]] the queues are a symptom of how cities are arranged, and until that arrangement changes, every new lane will fill within a year." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] separation. Zoning rules that keep homes, shops and offices in different districts guarantee that everybody must travel at the same hour in the same direction. Building more roads then makes it worse, since extra capacity [[engenders|Engender]] extra journeys, an effect so reliable that planners have named it induced demand. [[Consequently]], each expansion buys perhaps three years of relief and a permanently wider jam." },
+        { "role": "Body 2 · measures", "text": "The measures follow from the causes. Governments could permit shops and workplaces within residential districts, so that the daily errand stops requiring a car at all. They could also tie planning permission for new housing to an existing transit line, which would [[impede]] the outward sprawl that generates tomorrow's traffic. Barcelona's superblocks show what happens when through traffic is simply removed from residential grids: journeys did not relocate, they disappeared." },
+        { "role": "Conclusion", "text": "[[Overall]], a city that mixes its functions produces fewer journeys rather than faster ones, and fewer journeys is the only durable cure. The approach is slow and it demands [[meticulous]] planning, but [[in the long run]] it is the only measure that does not simply postpone the problem." }
+      ],
+      "notes": [
+        "Naming a mechanism, induced demand, is worth more than describing it twice. Precision of that kind is what the vocabulary criterion rewards.",
+        "The essay stays on one diagnosis throughout rather than listing four causes and four cures. Depth beats breadth at 250 words.",
+        "The conclusion admits the weakness of the proposal, its slowness, and answers it. Anticipating the obvious objection is a mark of control."
+      ]
+    },
+    {
+      "stance": "Manage the demand",
+      "approach": "Attack the peak rather than the volume: the problem is that everybody travels at once.",
+      "plan": [
+        "Introduction: the roads are not too small, the hours are too narrow.",
+        "Body 1: causes concentrated in the synchronised working day.",
+        "Body 2: measures that spread demand, and their limits.",
+        "Conclusion: cheapest remedy available, and why it is resisted."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most city roads are close to empty at eleven in the morning and immovable at nine. [[To put it simply]], the problem is not that there is too much traffic but that there is too much of it at once, and this reframing changes which measures make sense." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] synchronisation. A nine to five convention inherited from factory shifts obliges several million people to occupy the same roads in the same twenty minutes, and no plausible amount of tarmac can absorb that. School timetables, delivery windows and office culture all reinforce it. [[As a result]], cities build for a peak that exists for four hours a day and stands idle for the rest." },
+        { "role": "Body 2 · measures", "text": "Governments could therefore stagger the day instead of widening the road. Public sector start times spread across three hours, school hours moved off the commuting peak, and freight deliveries restricted to the night would each flatten the curve at almost no capital cost. Employers who permit two home days a week remove twenty per cent of journeys outright, which is a larger reduction than any bypass has ever [[validated|Validate]]." },
+        { "role": "Conclusion", "text": "[[In summary]], congestion is a scheduling failure treated for decades as a construction problem. Spreading demand is quick, cheap and reversible, and the resistance to it is cultural rather than technical: the working day is [[ingrained]] enough that changing it feels harder than digging a tunnel, though it is [[undeniably]] cheaper." }
+      ],
+      "notes": [
+        "A reframing introduction commits you to something. Every paragraph afterwards is about time rather than space, and the essay is coherent because of it.",
+        "Four measures are named in two sentences and then one is developed. That is the right ratio: the list shows range, the development shows thought.",
+        "Cultural rather than technical is a genuine explanation of why an obvious remedy has not been adopted, which is exactly what the second half of this question asks for."
+      ]
+    }
+  ]
+}

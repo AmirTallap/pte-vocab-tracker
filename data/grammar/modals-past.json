@@ -1,0 +1,281 @@
+{
+  "id": "modals-past",
+  "title": "Modals in the Past and Their Perfect Forms",
+  "group": "Modality",
+  "summary": "Perfect modal forms for regret, wasted effort, unrealised possibility and arrangements in the past that were never kept.",
+  "sections": [
+    {
+      "heading": "Should Have Done: Criticism and Regret",
+      "body": "**Should have** + past participle says that the right course of action was not taken. Turned on oneself it is regret; turned on someone else it is criticism. **Shouldn't have** + past participle is its mirror image: the action was taken, and it was a mistake. `Ought to have` carries the same meaning in a more formal register.\n\nThe same form also expresses an expectation that has not been met, with no blame attached at all — `The parcel should have arrived by Tuesday` simply reports that it has not. Only the context separates the two readings.",
+      "examples": [
+        {
+          "right": "I should have cited the 2019 replication study.",
+          "wrong": "I should cite the 2019 replication study.",
+          "note": "Once the essay has been submitted, regret about the omission requires the perfect form."
+        },
+        {
+          "right": "They shouldn't have released the figures before the audit closed.",
+          "wrong": null,
+          "note": "The release happened and is being criticised."
+        },
+        {
+          "right": "The equipment should have arrived by Tuesday, but the depot has no record of it.",
+          "wrong": null,
+          "note": "An unmet expectation rather than a reproach."
+        }
+      ]
+    },
+    {
+      "heading": "Needn't Have Done Versus Didn't Need To Do",
+      "body": "This is the sharpest distinction in the whole area, and it is tested precisely because the two forms look interchangeable and are not.\n\n**Needn't have** + past participle states that the action was carried out and that it turned out to be unnecessary: the effort was wasted. **Didn't need to** + infinitive states only that there was no necessity; in most contexts it implies that the action was therefore never performed, and it never asserts that it was. `Didn't have to` behaves like `didn't need to`.",
+      "examples": [
+        {
+          "right": "We needn't have booked a taxi — the college was running a shuttle.",
+          "wrong": "We needn't book a taxi — the college was running a shuttle.",
+          "note": "An action that was performed and proved pointless needs `needn't have` plus the past participle."
+        },
+        {
+          "right": "I didn't need to renew my visa, so I saved the fee.",
+          "wrong": "I needn't have renewed my visa, so I saved the fee.",
+          "note": "`Needn't have renewed` asserts that the renewal took place, which contradicts saving the fee."
+        },
+        {
+          "right": "She needn't have apologised; nobody had even noticed the error.",
+          "wrong": null,
+          "note": "The apology was made, and the second clause explains why it was wasted."
+        }
+      ]
+    },
+    {
+      "heading": "Could Have Done: Unrealised Possibility and Reproach",
+      "body": "**Could have** + past participle most often describes something that was possible but did not happen, and in that use it can never report an achievement: an outcome actually brought off is `was able to` or `managed to`. (The same string has a second, quite separate use — the guess about a finished event, as in `She could have missed the train` — and only the context tells the two apart.)\n\nA second use follows naturally from the first. `You could have told me` reproaches someone for not doing what was open to them; `might have` does the same work with a slightly more indignant edge.",
+      "examples": [
+        {
+          "right": "The fire could have spread to the neighbouring block.",
+          "wrong": null,
+          "note": "It was possible, and it did not happen."
+        },
+        {
+          "right": "You could have warned me that the session had been moved.",
+          "wrong": null,
+          "note": "A reproach: the warning was open to the hearer and was not given."
+        },
+        {
+          "right": "With better funding they could have completed the survey.",
+          "wrong": "With better funding they were able to complete the survey.",
+          "note": "`Were able to` reports a survey that was actually finished, which is the opposite of what is meant."
+        }
+      ]
+    },
+    {
+      "heading": "Would Have Done: Third Conditionals and Hypothetical Comment",
+      "body": "**Would have** + past participle supplies the result clause of a third conditional, where the condition clause takes the past perfect. Keeping `would have` out of the `if` clause is one of the most valuable habits in this area, because the error is conspicuous and frequent.\n\nThe same form also softens an opinion into a hypothetical comment: `I would have thought`, `I'd have expected`. Here nothing is being reported about the past at all; the perfect form simply makes the remark more tentative.",
+      "examples": [
+        {
+          "right": "If the sensors had been recalibrated, the error would not have appeared.",
+          "wrong": "If the sensors would have been recalibrated, the error would not have appeared.",
+          "note": "The `if` clause takes the past perfect; `would have` belongs only in the result."
+        },
+        {
+          "right": "I would have thought the deadline was in June.",
+          "wrong": null,
+          "note": "A softened opinion about the present, not a report of a past thought."
+        },
+        {
+          "right": "She would have finished by now if the software had not crashed.",
+          "wrong": null,
+          "note": "A mixed conditional: a past condition with a present result."
+        }
+      ]
+    },
+    {
+      "heading": "Was Supposed To and Was To Have Done",
+      "body": "**Was** or **were supposed to** + infinitive reports an arrangement, an instruction or a general expectation, and usually carries the implication that it was not honoured. `Was meant to` is a close informal equivalent. The `to` is part of the fixed phrase and is never dropped.\n\n**Was** or **were to have** + past participle is the more formal counterpart, and it states outright that a planned event did not take place. `Was to` + infinitive without the perfect simply narrates a future arrangement from a past vantage point, and leaves the outcome open.",
+      "examples": [
+        {
+          "right": "The committee was supposed to report in March, but nothing has appeared.",
+          "wrong": null,
+          "note": "An expectation that has clearly not been met."
+        },
+        {
+          "right": "The minister was to have opened the centre, but her flight was cancelled.",
+          "wrong": null,
+          "note": "`Was to have` + past participle makes the non-occurrence explicit."
+        },
+        {
+          "right": "We were supposed to submit two hard copies, not one.",
+          "wrong": "We were supposed submit two hard copies, not one.",
+          "note": "`Supposed to` keeps its `to` before the infinitive."
+        }
+      ]
+    },
+    {
+      "heading": "Should've in Speech, Should Have in Writing",
+      "body": "In connected speech the auxiliary `have` reduces to an unstressed /əv/, so `should have`, `could have`, `would have` and `must have` sound identical to `should of` and its companions. The contractions `should've` and `could've` are the accurate written record of that sound.\n\nThe spellings `should of`, `could of`, `would of` and `must of` are not. `Of` is a preposition and cannot take a participle, so the error is immediately visible on the page and is treated as a serious one. In academic writing the safest policy is to write the auxiliary out in full and leave even the legitimate contractions to speech.",
+      "examples": [
+        {
+          "right": "They should have checked the reference list before submission.",
+          "wrong": "They should of checked the reference list before submission.",
+          "note": "`Of` cannot govern a participle; the auxiliary is `have`."
+        },
+        {
+          "right": "It must have been an administrative oversight.",
+          "wrong": "It must of been an administrative oversight.",
+          "note": "The same mishearing, with the same consequence in writing."
+        },
+        {
+          "right": "We could've finished a day sooner.",
+          "wrong": null,
+          "note": "`Could've` is fine in speech and informal writing, but an essay spells it out."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Writing `should of`, `could of`, `would of` or `must of`. The auxiliary is always `have`, however it sounds.",
+    "Writing `If I would have known`. The `if` clause of a third conditional takes `had known`; `would have` appears only in the result clause.",
+    "Using `should do` where the action is already finished. Regret and criticism about the past take `should have done`.",
+    "Using `didn't need to` for an action that was actually carried out and proved pointless. That is `needn't have done`.",
+    "Dropping the `to` in `was supposed to`. The phrase is fixed: `was supposed to submit`, never `was supposed submit`.",
+    "Using `could have done` for something that really happened. A realised achievement is `was able to` or `managed to`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "As it turned out, she ___ have brought her passport; a driving licence was accepted as proof of identity.",
+      "options": [
+        "mustn't",
+        "needn't",
+        "couldn't",
+        "shouldn't"
+      ],
+      "answer": 1,
+      "explain": "The passport was brought and bringing it proved unnecessary, which is exactly what `needn't have` reports. `Shouldn't have` would turn a wasted precaution into a mistake."
+    },
+    {
+      "type": "blank",
+      "prompt": "The lecture was cancelled the day before, so in the end I ___ prepare a handout at all.",
+      "hint": "need (there was no necessity, and the work was never done)",
+      "accept": [
+        "didn't need to",
+        "did not need to",
+        "didn't have to",
+        "did not have to"
+      ],
+      "explain": "The bare infinitive `prepare` after the gap rules out `needn't have`, and the meaning is the absence of necessity rather than effort already wasted."
+    },
+    {
+      "type": "mcq",
+      "prompt": "If the committee ___ the risks earlier, the project would not have been suspended.",
+      "options": [
+        "would have identified",
+        "would identify",
+        "had identified",
+        "identified"
+      ],
+      "answer": 2,
+      "explain": "In a third conditional the `if` clause takes the past perfect and `would have` is reserved for the result clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Looking back, we ___ the pilot study before committing to a national rollout.",
+      "options": [
+        "must run",
+        "should have run",
+        "should run",
+        "should be running"
+      ],
+      "answer": 1,
+      "explain": "`Looking back` places the decision in the past, and regret about a finished decision requires `should have` plus the past participle."
+    },
+    {
+      "type": "blank",
+      "prompt": "You ___ told me the seminar had moved; I stood outside the wrong building for twenty minutes.",
+      "hint": "could (reproach - it was open to the hearer and was not done)",
+      "accept": [
+        "could have",
+        "could've",
+        "might have",
+        "might've"
+      ],
+      "explain": "`Could have` and `might have` plus a past participle reproach someone for not doing what was perfectly possible at the time."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The results ___ published in June, but the journal postponed the whole issue.",
+      "options": [
+        "should be",
+        "supposed to be",
+        "were supposed to be",
+        "were supposed be"
+      ],
+      "answer": 2,
+      "explain": "An arrangement that was not honoured is reported with `was/were supposed to`, and the phrase keeps its `to` before the passive infinitive."
+    },
+    {
+      "type": "blank",
+      "prompt": "The authors ___ acknowledged the earlier trial in their literature review.",
+      "hint": "should (criticism) - write the auxiliary out in full",
+      "accept": [
+        "should have",
+        "ought to have"
+      ],
+      "explain": "Criticism of something not done in the past takes `should have` plus the past participle, and in writing the auxiliary is spelled `have`, never `of`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I ___ thought a sample of forty was too small to support a claim that strong.",
+      "options": [
+        "would have",
+        "must have",
+        "should have",
+        "will have"
+      ],
+      "answer": 0,
+      "explain": "`I would have thought` softens an opinion held now. `Must have thought` and `should have thought` refer to an actual past thought or criticise its absence."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Although the alarm system failed, the staff ___ evacuate the building in under four minutes.",
+      "options": [
+        "would have",
+        "could have",
+        "could",
+        "were able to"
+      ],
+      "answer": 3,
+      "explain": "The evacuation actually happened, so it takes `were able to`; `could` would report a general capability rather than a single success, and `could have` and `would have` cannot be followed by a bare infinitive at all."
+    },
+    {
+      "type": "blank",
+      "prompt": "If the data had been backed up properly, the team ___ lost three months of work.",
+      "hint": "would (negative, result clause of a third conditional)",
+      "accept": [
+        "would not have",
+        "wouldn't have"
+      ],
+      "explain": "The result clause of a third conditional is `would (not) have` plus the past participle, while the condition clause carries the past perfect."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She ___ the raw data before the paper had been accepted; the reviewers later asked to see it.",
+      "options": [
+        "mustn't have deleted",
+        "shouldn't have deleted",
+        "needn't have deleted",
+        "shouldn't delete"
+      ],
+      "answer": 1,
+      "explain": "The deletion happened and is being criticised as a mistake, which is `shouldn't have`. `Needn't have deleted` would call it merely unnecessary."
+    },
+    {
+      "type": "blank",
+      "prompt": "We ___ to submit two hard copies, but the office accepted a single file in the end.",
+      "hint": "suppose (past arrangement or instruction)",
+      "accept": [
+        "were supposed"
+      ],
+      "explain": "`Were supposed to` reports an instruction given beforehand, typically one that events then overtook."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e50",
+  "models": [
+    {
+      "stance": "Advantages if assessment changes",
+      "approach": "Argue that the tools are useful and that the damage comes from an assessment system that has not adapted.",
+      "plan": [
+        "Introduction: what the tools change, and where you land.",
+        "Body 1: the advantages, for learning and for access.",
+        "Body 2: the disadvantages, and what they reveal about assessment.",
+        "Conclusion: the verdict, with the change it requires."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Students now have access to a machine that will draft, summarise and explain on demand, and education has not yet decided what that means. [[On balance]] I believe the advantages outweigh the disadvantages, but only if assessment changes, and it has not." },
+        { "role": "Advantages", "text": "The clearest benefit is a tutor that never tires. A student who does not understand a proof can ask four times without embarrassment, which is [[invaluable]] in a class of thirty where asking once is difficult. Access improves markedly: feedback on writing was previously available to those who could pay for it, and it is now available to everybody, which is more [[equitable]] than the arrangement it replaces. [[It is worth noting]] that non-native speakers gain most, since the barrier for them was frequently expression rather than understanding." },
+        { "role": "Disadvantages", "text": "[[By contrast]], the danger is that the work is done instead of learned. Writing is how an argument is discovered, not merely how it is recorded, so a student who outsources the drafting has skipped the thinking, and [[plagiarism]] detection cannot reliably identify it. [[Consequently]], grades stop measuring anything, and the students who use the tools honestly are penalised relative to those who do not. [[Not surprisingly]], the [[propensity]] to take the shortcut rises with the pressure of the deadline." },
+        { "role": "Conclusion", "text": "[[Taken together]], the tools are genuinely useful and the current assessment system cannot survive them. Supervised writing, oral defence of submitted work and marking the process rather than the product would restore the measurement, and clinging to the unsupervised essay [[jeopardizes|Jeopardize]] the credibility of every qualification awarded." }
+      ],
+      "notes": [
+        "Writing is how an argument is discovered is the sentence that explains why the shortcut costs something, rather than merely asserting that it is cheating.",
+        "The access argument, that paid feedback is now free, is the strongest case for the technology and is often missed.",
+        "The conclusion places the burden on institutions rather than on students, which follows from the argument."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh",
+      "approach": "Argue that the cost falls on the acquisition of skill, which is invisible until it is missing.",
+      "plan": [
+        "Introduction: the benefits are immediate and the costs are deferred.",
+        "Body 1: the advantages, granted in full.",
+        "Body 2: the disadvantages, developed: skill, judgement and equity.",
+        "Conclusion: what should be permitted and what not."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The benefits of these tools appear in this week's assignment, and the costs appear in a graduate who cannot construct an argument. [[In my opinion]] the disadvantages for education outweigh the advantages, because what is lost is precisely what education was for." },
+        { "role": "Advantages", "text": "[[It is true that]] the gains are real. Explanation on demand helps a struggling student, translation lowers a barrier for those studying in a second language, and routine tasks such as formatting references consume hours that teach nothing. [[For the most part]], used as a tutor rather than as an author, the technology is straightforwardly useful." },
+        { "role": "Disadvantages", "text": "[[Nevertheless]], the boundary between tutor and author is invisible and unenforced. Difficulty is not an obstacle to learning but the mechanism of it: the struggle to order an argument is what builds the capacity to order one, and removing the struggle removes the [[benefits]]. [[There is evidence that]] students using such tools heavily report high confidence and perform worse on unaided tasks, which is the most [[insidious]] possible outcome, since they do not know what they have lost. [[Regrettably]], the students most tempted are those already behind." },
+        { "role": "Conclusion", "text": "[[All things considered]], the technology should be permitted for explanation and prohibited for production, with assessment moved back into supervised conditions. That is a costly change, but a qualification that no longer [[validates|Validate]] anything is worth less than the expense of protecting it." }
+      ],
+      "notes": [
+        "Difficulty as the mechanism of learning is the essay's central claim, stated once and used twice.",
+        "High confidence with worse performance is the most alarming finding available and is used precisely.",
+        "Permitted for explanation, prohibited for production is a rule the reader can apply."
+      ]
+    },
+    {
+      "stance": "Depends on the stage of learning",
+      "approach": "Argue that the same tool helps an expert and harms a novice, and that education should distinguish the two.",
+      "plan": [
+        "Introduction: the tool is not one thing; the user's stage decides.",
+        "Body 1: advantages for the competent, who can judge the output.",
+        "Body 2: disadvantages for the novice, who cannot.",
+        "Conclusion: what follows for how it should be allowed."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The same tool that accelerates a competent writer disables a beginner, and most arguments about it are really arguments about which of the two is being imagined. [[To a certain extent]] both camps are right, and the variable is how much the student already knows." },
+        { "role": "Advantages · for the competent", "text": "A student who can already write benefits considerably. They can generate a counterargument to test their own, ask for the weakest point in a draft and receive the kind of response a supervisor gives once a term. Because they can evaluate the output, an error is caught rather than absorbed, and the tool becomes an [[interdisciplinary]] research assistant. [[Consequently]], the gain is largest exactly where the need is smallest." },
+        { "role": "Disadvantages · for the novice", "text": "[[By contrast]], a student who cannot yet write has no way to judge what the machine produces. A confident, fluent and subtly wrong paragraph is [[irresistible]] to somebody with no basis for doubting it, and the fluency of the output disguises the [[deficient]] reasoning inside it. [[It is evident that]] the beginner also loses the practice that would eventually let them tell the difference, so the harm compounds: each use makes the next use harder to evaluate." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, the answer should follow the stage rather than the technology. Restricted use and supervised writing in the early years, open use with oral defence later, would capture the advantages while protecting the period in which the underlying skill is actually built." }
+      ],
+      "notes": [
+        "The gain is largest where the need is smallest is a genuine observation and it structures the whole essay.",
+        "Explaining why the harm compounds gives the second paragraph a mechanism rather than a warning.",
+        "Different rules at different stages is a policy that follows directly from the analysis."
+      ]
+    }
+  ]
+}

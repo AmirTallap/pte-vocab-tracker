@@ -1,0 +1,68 @@
+{
+  "id": "e04",
+  "models": [
+    {
+      "stance": "Disagree",
+      "approach": "Reject the framing: individual action is how political majorities and markets are built, so it is not opposed to industrial change but a route to it.",
+      "plan": [
+        "Introduction: name the comparison being made and reject it.",
+        "Body 1: individual choices aggregate into markets that industry follows.",
+        "Body 2: concede the arithmetic, then answer it with the political argument.",
+        "Conclusion: restate, and say what the statement actually achieves."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The claim that personal recycling is worthless beside industrial emissions has become a [[pervasive]] piece of common sense. [[I would argue]] that it is largely mistaken, not because household action is arithmetically large, but because the comparison itself is the wrong one to make." },
+        { "role": "Body 1 · demand is aggregated choice", "text": "[[First and foremost]], industry emits on behalf of somebody. A steelworks exists because cars are bought and a power station burns coal because houses draw current, so household demand is not separate from industrial output but its cause. When enough consumers shift, the market shifts with them: the collapse in demand for plastic straws changed manufacturing within two years, which [[exemplifies|Exemplify]] how quickly supply follows." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the numbers are unflattering. A household that recycles diligently offsets a fraction of one industrial plant's annual output, and treating that as sufficient would be self-deception. [[That said]], the value of individual action is political rather than arithmetical. People who have changed their own behaviour vote for regulation that touches industry, and [[there is evidence that]] the countries with the strongest recycling habits also passed the strictest emissions laws." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I disagree that personal effort is meaningless. Its function is to build the constituency that makes industrial regulation possible, and the belief that it is pointless serves mainly to [[dissuade]] the very people whose votes would compel the larger change." }
+      ],
+      "notes": [
+        "Rejecting the framing is stronger than disputing the numbers, because the numbers are not on your side and pretending otherwise costs credibility.",
+        "The concession admits the arithmetic outright and then changes the ground to politics. That is how a concession strengthens rather than weakens a case.",
+        "The last sentence names who benefits from the belief being argued against, which gives the essay a genuine ending."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Accept the statement on the numbers, and argue that the emphasis on personal virtue was deliberately manufactured.",
+      "plan": [
+        "Introduction: agree, with a degree, and say why the emphasis exists.",
+        "Body 1: the scale argument, with figures.",
+        "Body 2: the distraction argument, and the concession that habits still matter.",
+        "Conclusion: where effort should go instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Sorting a household's plastics feels virtuous, and that feeling is precisely the problem. [[By and large]] I agree that individual action is insignificant against industrial emissions, and I would add that the emphasis on personal responsibility was not accidental." },
+        { "role": "Body 1 · the arithmetic", "text": "[[The main point is]] one of scale. A hundred companies account for the majority of emissions since 1988, while the average household's entire annual footprint is smaller than a single container ship's week at sea. Asking citizens to economise on shopping bags against that background is not merely [[insignificant]]; it is [[incongruous]], like bailing a flooded room with a teaspoon while the tap runs." },
+        { "role": "Body 2 · the distraction, and a concession", "text": "[[It is worth noting]] that the personal carbon footprint was popularised by an oil company's advertising campaign. Shifting the [[scrutiny]] from producers to consumers was [[ingenious]] and it worked, since a public busy auditing its own bins is not lobbying for regulation. [[Admittedly]], habits are not worthless: they shape demand and they keep the issue visible. [[Nevertheless]], they cannot substitute for law." },
+        { "role": "Conclusion", "text": "[[On balance]], then, I agree with the statement while resisting the despair it invites. The correct response to the futility of recycling alone is not to stop, but to spend the same energy on the regulation, the voting and the pressure that would actually [[intervene]] where the emissions are." }
+      ],
+      "notes": [
+        "Agreeing does not mean accepting the implied conclusion. This essay agrees on the facts and rejects the fatalism, which is a more interesting position than either.",
+        "The teaspoon and the running tap is one image, used once. One vivid comparison lifts the vocabulary score; three make the essay sound like a speech.",
+        "The concession in body two prevents the argument from overreaching, then Nevertheless puts it back on course in one word."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Separate two kinds of individual action, the trivial and the structural, and agree only about the first.",
+      "plan": [
+        "Introduction: agree about some individual actions and not others.",
+        "Body 1: the small habits, where the statement holds.",
+        "Body 2: the large personal decisions, where it does not.",
+        "Conclusion: the distinction is what makes the debate useful."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Individual action covers everything from rinsing a yoghurt pot to giving up a car, and lumping the two together is what makes this argument circular. [[To a certain extent]] I agree with the statement, but only about the smaller half of what it describes." },
+        { "role": "Body 1 · where the statement holds", "text": "For minor habits the criticism is fair. Recycling, shorter showers and switching off standby power together account for an [[infinitesimal]] share of national emissions, and the attention they receive is out of all proportion to their effect. [[Notably]], they offer a sense of completion: a household that has sorted its rubbish feels the matter dealt with, and moral satisfaction of that kind can [[inhibit]] any further effort." },
+        { "role": "Body 2 · where it does not", "text": "[[By contrast]], a handful of personal decisions are genuinely large. Not flying, not owning a car, insulating a house and eating less meat are each worth more than every recycling habit combined, and they are still individual choices. [[It is evident that]] these are the actions the statement quietly ignores, perhaps because they are inconvenient rather than [[frivolous]]." },
+        { "role": "Conclusion", "text": "[[All things considered]], the statement is right about gestures and wrong about decisions. The useful question is not whether individuals matter but which of their choices do, and answering it honestly [[expedites|Expedite]] far more than another argument about whether to bother at all." }
+      ],
+      "notes": [
+        "Splitting an ambiguous term in the introduction, here individual action, is one of the most reliable ways to build a partial agreement that still has a spine.",
+        "The four large actions are listed once and not explained, which is correct: a list earns its place only when the paragraph around it does the arguing.",
+        "The conclusion redefines the question. That is legitimate provided the body paragraphs have already earned the redefinition."
+      ]
+    }
+  ]
+}

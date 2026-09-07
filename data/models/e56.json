@@ -1,0 +1,68 @@
+{
+  "id": "e56",
+  "models": [
+    {
+      "stance": "Work and opportunity as the reason",
+      "approach": "Trace the migration to the concentration of work, then follow the effects into the demography of the villages.",
+      "plan": [
+        "Introduction: name the trend and promise reasons then effects.",
+        "Body 1: reasons, ranked, with work first.",
+        "Body 2: effects on the places left behind, and the loop they create.",
+        "Conclusion: whether it can be reversed."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Villages across Europe and Asia now contain almost nobody between twenty and forty, while the cities they moved to cannot house them. [[It is evident that]] the reasons are largely economic, and the effects on the places they left are self-reinforcing." },
+        { "role": "Body 1 · reasons", "text": "[[The main point is]] that work has concentrated. Agriculture employs a fraction of the people it once did, and the industries that replaced it, finance, technology, media, cluster where other firms already are, so a graduate from a rural district has no local employer to apply to. [[At the same time]], services follow the same logic: a village losing its school and its clinic becomes harder to raise a family in, which makes leaving [[inevitable]] rather than chosen. [[Owing to]] both, the decision is usually made once, at eighteen, and rarely reversed." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], the places left behind age rapidly, and the population that remains is the one least able to sustain services. Schools close for want of children, which removes the last reason for a young family to stay, and the loop tightens. [[Consequently]], property empties, the tax base shrinks, and the political consequences follow: rural areas with a sense of abandonment vote accordingly, and the resulting [[dichotomy]] between city and country now shapes national politics across several continents." },
+        { "role": "Conclusion", "text": "[[In conclusion]], young people leave because work and services concentrated, and their departure removes what would have kept the next cohort. Remote work and serious rural broadband have begun to [[ameliorate]] this in a few regions, which suggests the trend is not [[irreversible]], though it will not reverse on its own." }
+      ],
+      "notes": [
+        "The self-reinforcing loop is what makes the effects paragraph an analysis rather than a list of consequences.",
+        "The political consequence is one sentence and is not overplayed, which keeps the essay on the question asked.",
+        "Naming remote work as a partial counterforce answers the reversibility question with evidence."
+      ]
+    },
+    {
+      "stance": "Expectation and status as the reason",
+      "approach": "Argue that the pull is cultural as much as economic, and follow the effects into what rural life becomes.",
+      "plan": [
+        "Introduction: economics explains part of it; expectation explains the rest.",
+        "Body 1: reasons, education, anonymity and the story told about success.",
+        "Body 2: effects on the villages, and on those who stay.",
+        "Conclusion: what would change the decision."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Wage differences explain why young people can leave rural areas, but not why so many go even where local work exists. [[I would argue]] that the decisive pull is what a city offers besides a salary." },
+        { "role": "Body 1 · reasons", "text": "[[The key issue is]] that education is delivered elsewhere. A young person leaves at eighteen for a university in a city, builds every friendship there, and returning would mean starting again alone, so the migration is effectively decided by the location of institutions. [[At the same time]], cities offer anonymity, which matters enormously to anybody whose life does not fit a small community's expectations, and the [[gregarious]] density of the place supplies partners, friends and work in a way a village cannot. [[Consequently]], staying comes to be read as a failure to leave, and that [[ingrained]] assumption does much of the work." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], rural areas lose the very people who would have changed them. Those who remain are older and, [[not surprisingly]], more cautious about change, so the place becomes less attractive to the next generation still. Housing empties and is bought as second homes, which raises prices beyond local wages and adds [[insult]] to the departure. [[It follows that]] the community becomes seasonal: busy in August and [[isolated]] in February." },
+        { "role": "Conclusion", "text": "[[Overall]], young people leave for status and possibility as much as for wages, which is why subsidies alone have never reversed it. Placing colleges, hospitals and public offices outside the largest cities would change where the eighteen-year-old goes in the first place, and that is the decision everything else follows from." }
+      ],
+      "notes": [
+        "Beginning with what the economic explanation fails to cover forces a more interesting answer.",
+        "Busy in August and isolated in February compresses the second-home effect into one image.",
+        "The conclusion identifies the single decision point, the location of institutions, which is a precise and actionable answer."
+      ]
+    },
+    {
+      "stance": "Both, and the effects differ by place",
+      "approach": "Argue that the reasons are common but the effects depend on what the rural area has left.",
+      "plan": [
+        "Introduction: the reasons are shared; the consequences are not.",
+        "Body 1: reasons, economic and social together.",
+        "Body 2: effects, contrasting places with an asset and places without.",
+        "Conclusion: what determines which outcome a region gets."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The reasons young people leave rural areas are much the same everywhere, while the consequences for the places they leave differ enormously. [[From my perspective]] the second half of this question is the more interesting one." },
+        { "role": "Body 1 · reasons", "text": "[[The main point is]] a combination of thin labour markets and concentrated institutions. A rural district may have jobs, but rarely more than one employer per field, so a career change means moving; universities and hospitals are in cities, and so are the friendships formed at eighteen. [[At the same time]], transport in most rural regions is [[intermittent]], which makes life without a car close to impossible for anybody under seventeen. [[Consequently]], leaving is the default and staying requires a positive reason." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], regions with an asset survive the loss and regions without it do not. Areas with landscape, coastline or heritage attract tourism and second homes, which brings money and drives housing beyond local reach, so the population is replaced rather than reduced. [[By contrast]], a district with no such asset simply empties: schools close, buses stop, and the remaining population is old and [[isolated]]. [[It is evident that]] these are opposite problems, and treating them with the same policy is why rural funding so often misses." },
+        { "role": "Conclusion", "text": "[[To sum up]], the reasons are structural and shared, while the effects divide sharply between places that are bought and places that are abandoned. [[It stands to reason]] that the remedies must differ too: housing controls where demand is arriving, and services, transport and connectivity where it is not." }
+      ],
+      "notes": [
+        "Making the effects paragraph do the analytical work is a legitimate choice when the reasons are genuinely common.",
+        "The contrast between places that are bought and places that are abandoned is the essay's central and unusual observation.",
+        "Two different remedies follow directly from the two outcomes, which gives the conclusion something to say."
+      ]
+    }
+  ]
+}

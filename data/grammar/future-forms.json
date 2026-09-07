@@ -1,0 +1,274 @@
+{
+  "id": "future-forms",
+  "title": "Future Forms",
+  "group": "Future and Conditionals",
+  "summary": "Choosing between will, be going to, the present tenses, and the future continuous and perfect for future time.",
+  "sections": [
+    {
+      "heading": "Will and be going to",
+      "body": "Both forms look forward, but they start from different places. `will` is the form of a decision taken at the moment of speaking, and of an offer, a promise or a prediction based on nothing more than the speaker's opinion or experience.\n\n`be going to` is the form of something already decided before the moment of speaking, and of a prediction drawn from evidence that is visible now. The clue is usually in the surrounding context: a plan that has already produced bookings, tickets or packed bags takes `going to`; a reaction to what has just been said takes `will`.",
+      "examples": [
+        {
+          "right": "The lift is out of order again. I'll take the stairs.",
+          "wrong": "The lift is out of order again. I'm going to take the stairs.",
+          "note": "A decision made on the spot, in response to new information, takes will."
+        },
+        {
+          "right": "We've booked the hall and hired a caterer, so we're going to hold the conference in June.",
+          "wrong": "We've booked the hall and hired a caterer, so we will hold the conference in June.",
+          "note": "The arrangements show the decision was taken earlier, which is what going to signals."
+        },
+        {
+          "right": "The riverbank has been undercut; it is going to give way in the next storm.",
+          "wrong": null,
+          "note": "A prediction supported by evidence that is present now."
+        },
+        {
+          "right": "I think driverless buses will be common within twenty years.",
+          "wrong": null,
+          "note": "An opinion about the distant future, with no present evidence behind it, takes will."
+        }
+      ]
+    },
+    {
+      "heading": "Present continuous and present simple for the future",
+      "body": "The present continuous expresses a **fixed arrangement**: a time and usually a place have been agreed with somebody else. It is the natural form for diary entries and is often preferred to `be going to` when the arrangement is firm.\n\nThe present simple expresses a **timetable** — a schedule fixed by an institution rather than by the speaker: departures, opening hours, terms, kick-off times. It is not used for personal plans, which is why `I go to Cairo tomorrow` is wrong where `I'm going to Cairo tomorrow` is right.",
+      "examples": [
+        {
+          "right": "I'm meeting my supervisor at four on Thursday.",
+          "wrong": "I meet my supervisor at four on Thursday.",
+          "note": "A personal arrangement takes the present continuous, not the present simple."
+        },
+        {
+          "right": "The last train leaves at 23.40.",
+          "wrong": "The last train is leaving at 23.40.",
+          "note": "A published timetable takes the present simple."
+        },
+        {
+          "right": "Term starts on 28 September, so we're moving into the flat that weekend.",
+          "wrong": null,
+          "note": "Timetable and arrangement side by side, each with its own form."
+        }
+      ]
+    },
+    {
+      "heading": "The future continuous",
+      "body": "`will be doing` describes an action already in progress at a stated point in the future. It answers the question what will be going on at that moment, rather than what will happen.\n\nIt has a second, quite separate use: a **neutral enquiry** about somebody's plans. `Will you be using the projector this afternoon?` simply asks about the circumstances, while `Will you use the projector?` sounds like a request or an instruction. This is why the continuous form feels more polite.",
+      "examples": [
+        {
+          "right": "At ten tomorrow the panel will be interviewing candidates, so the room is unavailable.",
+          "wrong": "At ten tomorrow the panel will interview candidates, so the room is unavailable.",
+          "note": "A point of future time cutting across an action in progress calls for the continuous."
+        },
+        {
+          "right": "Will you be attending the departmental meeting? I need to know how many chairs to put out.",
+          "wrong": null,
+          "note": "An enquiry about arrangements, with no request implied."
+        },
+        {
+          "right": "Don't call at eight; we'll be having dinner.",
+          "wrong": null,
+          "note": "The action will already have started and will not yet have finished."
+        }
+      ]
+    },
+    {
+      "heading": "The future perfect and future perfect continuous",
+      "body": "`will have done` looks back from a future point at something already completed by then. It needs a deadline — a point, not a stretch — which is normally introduced by `by`, `before` or `by the time`.\n\n`will have been doing` measures the duration of an activity up to that future point. The difference is the familiar one between the perfect and the perfect continuous: completion and result against length of time.",
+      "examples": [
+        {
+          "right": "By the end of the decade the city will have replaced its entire bus fleet.",
+          "wrong": "By the end of the decade the city will replace its entire bus fleet.",
+          "note": "A by-deadline requires the future perfect; the simple future has no deadline reading."
+        },
+        {
+          "right": "When she retires in June, she will have been teaching here for thirty years.",
+          "wrong": "When she retires in June, she will have taught here since thirty years.",
+          "note": "Duration up to a future point takes the perfect continuous, and for with a length of time."
+        },
+        {
+          "right": "By 2030 the plant must be carbon neutral.",
+          "wrong": null,
+          "note": "By 2030 means at any point up to and including that year."
+        },
+        {
+          "right": "The line opens in 2030.",
+          "wrong": null,
+          "note": "In 2030 means during that year, not before it. The two are not interchangeable."
+        }
+      ]
+    },
+    {
+      "heading": "No future form in time clauses",
+      "body": "After `when`, `as soon as`, `until`, `before`, `after`, `once` and `by the time`, English uses a present tense for future meaning. The futurity is already carried by the main clause, and repeating it in the time clause is an error.\n\nThe present perfect is available in the same slot when completion matters: `once I have checked the figures` stresses that the checking must finish first. Note that `when` introducing an indirect question is a different word and does take `will`: `I don't know when the results will be published`.",
+      "examples": [
+        {
+          "right": "I'll call you when I arrive.",
+          "wrong": "I'll call you when I will arrive.",
+          "note": "A time clause takes the present simple, however clearly future the meaning is."
+        },
+        {
+          "right": "Please wait here until your name is called.",
+          "wrong": "Please wait here until your name will be called.",
+          "note": "The rule holds for passives too."
+        },
+        {
+          "right": "We'll begin the analysis as soon as we have received the last samples.",
+          "wrong": null,
+          "note": "The present perfect marks the arrival of the samples as complete before the main event."
+        },
+        {
+          "right": "Nobody can say when the funding will be confirmed.",
+          "wrong": null,
+          "note": "Here when opens an indirect question, not a time clause, so will is correct."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Never put will after when, as soon as, until, before or once: I'll email you when I get home, not when I will get home.",
+    "by 2030 means at any time up to that year; in 2030 means during it. A target met by 2030 may be met in 2027.",
+    "The future perfect needs a deadline, not a duration: By Friday I will have finished, never For three days I will have finished.",
+    "The present simple is a future form only for timetables. A personal plan needs the present continuous: I'm flying to Doha on Sunday, not I fly to Doha on Sunday.",
+    "Will you send the file? is a request; Will you be sending the file? is a question about your plans. Choose the continuous when no favour is being asked.",
+    "Use for, not since, with a length of time in the future perfect continuous: for thirty years, not since thirty years."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The projector has stopped working again. Don't worry, I ___ the technician now.",
+      "options": [
+        "'m going to call",
+        "'ll call",
+        "'m calling",
+        "call"
+      ],
+      "answer": 1,
+      "explain": "The decision is taken at the moment of speaking, which is the core use of will. 'm going to call would claim the call had been planned before the projector failed."
+    },
+    {
+      "type": "blank",
+      "prompt": "The cracks have widened over the winter, and that retaining wall ___ collapse unless it is repaired.",
+      "hint": "the form for a prediction based on present evidence",
+      "accept": [
+        "is going to",
+        "'s going to"
+      ],
+      "explain": "Visible evidence in the present points to be going to; will would present the collapse as mere opinion."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The conference ___ at 9.15 on Monday and finishes at five.",
+      "options": [
+        "will have begun",
+        "is beginning",
+        "will begin",
+        "begins"
+      ],
+      "answer": 3,
+      "explain": "A published schedule takes the present simple, and the coordinated finishes fixes the tense of the whole sentence."
+    },
+    {
+      "type": "mcq",
+      "prompt": "At this time tomorrow the delegates ___ over the Atlantic, so send an email rather than phoning.",
+      "options": [
+        "will fly",
+        "fly",
+        "will be flying",
+        "will have flown"
+      ],
+      "answer": 2,
+      "explain": "A precise future moment cutting across an ongoing action calls for the future continuous. will have flown would place the flight before that moment, not during it."
+    },
+    {
+      "type": "blank",
+      "prompt": "I can't attend Thursday's seminar; I ___ my supervisor in Manchester that afternoon.",
+      "hint": "meet (a fixed arrangement)",
+      "accept": [
+        "am meeting",
+        "'m meeting"
+      ],
+      "explain": "An arrangement already agreed with another person is expressed by the present continuous."
+    },
+    {
+      "type": "mcq",
+      "prompt": "By the end of the decade the city ___ its entire bus fleet to electric power.",
+      "options": [
+        "will convert",
+        "converts",
+        "will have converted",
+        "will be converting"
+      ],
+      "answer": 2,
+      "explain": "A by-deadline looks back from a future point at completed action, so the future perfect is required. will convert states an event but sets no deadline."
+    },
+    {
+      "type": "blank",
+      "prompt": "When she retires in June, Professor Adeyemi ___ teaching at the university for thirty years.",
+      "hint": "the future perfect continuous, without the participle",
+      "accept": [
+        "will have been",
+        "'ll have been"
+      ],
+      "explain": "Duration running up to a point in the future takes will have been doing; the simple future perfect would suggest the teaching was a single completed task."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Why have you brought your laptop? I ___ the presentation on the train.",
+      "options": [
+        "finish",
+        "'ll finish",
+        "'m going to finish",
+        "'ll be finished"
+      ],
+      "answer": 2,
+      "explain": "The laptop shows the intention existed before the conversation, which is what be going to expresses. 'll finish would announce a decision made only now, contradicting the packed laptop."
+    },
+    {
+      "type": "mcq",
+      "prompt": "All new homes must reach net zero ___ 2030, that is, at any point before that deadline.",
+      "options": [
+        "by",
+        "on",
+        "until",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "by names a deadline that may be met at any earlier moment; in 2030 would restrict the achievement to that single year."
+    },
+    {
+      "type": "blank",
+      "prompt": "I'll send you the revised figures as soon as I ___ the data from the laboratory.",
+      "hint": "receive (correct tense after as soon as)",
+      "accept": [
+        "receive",
+        "have received",
+        "'ve received"
+      ],
+      "explain": "Time clauses take a present tense for future meaning; the present perfect is equally correct here because it stresses completion."
+    },
+    {
+      "type": "mcq",
+      "prompt": "We will begin the analysis when the last set of samples ___.",
+      "options": [
+        "would arrive",
+        "arrives",
+        "will arrive",
+        "is arriving"
+      ],
+      "answer": 1,
+      "explain": "when introduces a time clause, so the future is carried by the main verb alone. will arrive is the standard error and belongs only in indirect questions."
+    },
+    {
+      "type": "blank",
+      "prompt": "Please remain in the waiting area until your name ___.",
+      "hint": "call (passive, correct tense after until)",
+      "accept": [
+        "is called",
+        "has been called",
+        "'s been called"
+      ],
+      "explain": "The no-will rule for time clauses applies to passives as well: will be called is wrong after until."
+    }
+  ]
+}

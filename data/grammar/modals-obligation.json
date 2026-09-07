@@ -1,0 +1,285 @@
+{
+  "id": "modals-obligation",
+  "title": "Modals of Obligation, Permission and Ability",
+  "group": "Modality",
+  "summary": "How must, have to, should, had better, can, may and be able to divide up obligation, advice, permission and ability.",
+  "sections": [
+    {
+      "heading": "Must and Have To: Where the Obligation Comes From",
+      "body": "**Must** presents an obligation as coming from the speaker or writer: a personal resolution, or the authority of the text itself. **Have to** presents it as coming from outside — a rule, a timetable, a set of circumstances that nobody in the conversation controls.\n\nThe difference is real but rarely dramatic, and in questions and negatives `have to` is far more common in speech. What matters for accuracy is the form: `must` is a modal, so it is followed by the bare infinitive and never by `to`.",
+      "examples": [
+        {
+          "right": "I must finish this chapter before the seminar.",
+          "wrong": null,
+          "note": "The obligation is one the speaker imposes on herself."
+        },
+        {
+          "right": "Postgraduates have to register in person during the first week.",
+          "wrong": "Postgraduates must to register in person during the first week.",
+          "note": "`must` takes the bare infinitive; the departmental rule is also more naturally reported with `have to`."
+        },
+        {
+          "right": "All passengers must remain seated while the sign is lit.",
+          "wrong": null,
+          "note": "Notices and regulations use `must` for the impersonal authority of the text."
+        }
+      ]
+    },
+    {
+      "heading": "Why Must Has No Past or Infinitive",
+      "body": "`Must` is a defective verb: there is no past form, no infinitive and no participle. Wherever one of those is needed, `have to` supplies it — `had to` for the past, `will have to` for the future, `to have to` and `having to` for non-finite positions.\n\nOne trap follows from this. `must have` + past participle does exist, but it expresses deduction about the past, not obligation in the past. Past obligation is always `had to`.",
+      "examples": [
+        {
+          "right": "We had to rewrite the introduction after the reviewers' comments.",
+          "wrong": "We must have rewritten the introduction after the reviewers' comments.",
+          "note": "The second sentence is a guess about what happened, not a report of an obligation."
+        },
+        {
+          "right": "Applicants will have to submit two academic references.",
+          "wrong": "Applicants will must submit two academic references.",
+          "note": "Two modals cannot stand together, so the future borrows `have to`."
+        },
+        {
+          "right": "She resents having to commute for two hours each way.",
+          "wrong": "She resents must commuting for two hours each way.",
+          "note": "Only `have to` has an -ing form."
+        }
+      ]
+    },
+    {
+      "heading": "Mustn't Versus Don't Have To",
+      "body": "These two look like a pair and are not. **Mustn't** is prohibition: it is essential that the action does not happen. **Don't have to** is the absence of obligation: the action is optional, and doing it would be perfectly acceptable. `Need not` and `needn't` behave like `don't have to`, in a more formal register.\n\nThis is one of the most heavily tested contrasts in the whole modal system, and it is a predictable difficulty for Arabic-speaking learners, because a single negated construction in Arabic can cover both readings and the context is left to sort them out. English forces the choice into the verb form itself.",
+      "examples": [
+        {
+          "right": "Visitors mustn't take photographs in the manuscript room.",
+          "wrong": "Visitors don't have to take photographs in the manuscript room.",
+          "note": "The first forbids photography; the second merely says nobody is obliged to take any."
+        },
+        {
+          "right": "You don't have to attend the Friday session; it is optional.",
+          "wrong": "You mustn't attend the Friday session; it is optional.",
+          "note": "`mustn't` forbids attendance, which contradicts the second clause."
+        },
+        {
+          "right": "Candidates need not answer every question in Section B.",
+          "wrong": null,
+          "note": "`need not` is a formal equivalent of `don't have to`, never of `mustn't`."
+        }
+      ]
+    },
+    {
+      "heading": "Advice: Should, Ought To and Had Better",
+      "body": "**Should** gives general advice or states a norm. **Ought to** does the same work in a slightly more formal register and is the one modal that keeps `to`.\n\n**Had better** is narrower and stronger. It advises on one specific situation, now or in the immediate future, and carries the implication that something bad follows if the advice is ignored. It cannot be used for timeless general advice, and its form is fixed: `had better` plus the bare infinitive, negative `had better not`, contracted `'d better`.",
+      "examples": [
+        {
+          "right": "Researchers should state the limitations of their method clearly.",
+          "wrong": null,
+          "note": "A general professional norm — `had better` would be far too threatening here."
+        },
+        {
+          "right": "You'd better back up the file before you run the update.",
+          "wrong": "You'd better to back up the file before you run the update.",
+          "note": "`had better` is followed by the bare infinitive."
+        },
+        {
+          "right": "We had better not miss the funding deadline.",
+          "wrong": "We hadn't better miss the funding deadline.",
+          "note": "The negative particle goes after `better`."
+        },
+        {
+          "right": "Universities ought to publish their sources of funding.",
+          "wrong": "Universities ought publish their sources of funding.",
+          "note": "`ought` is the exception that retains `to`."
+        }
+      ]
+    },
+    {
+      "heading": "Permission: Can, Could, May and Be Allowed To",
+      "body": "For asking permission the three forms differ in register rather than meaning: `Can I` is neutral to informal, `Could I` is polite and tentative, `May I` is formal and is the usual choice in an examination, an interview or a written rule.\n\nFor reporting permission, `could` describes a standing permission that held over a period of time. A single occasion on which permission was granted needs **was/were allowed to**, which also supplies the forms `can` and `may` lack: the infinitive, the participle and the future.",
+      "examples": [
+        {
+          "right": "May I refer to my notes during the presentation?",
+          "wrong": null,
+          "note": "The formal request form, appropriate in academic settings."
+        },
+        {
+          "right": "As undergraduates we could borrow up to ten books at a time.",
+          "wrong": null,
+          "note": "A standing permission over a period — `could` is at home here."
+        },
+        {
+          "right": "After a long negotiation, she was allowed to consult the sealed file.",
+          "wrong": "After a long negotiation, she could consult the sealed file.",
+          "note": "One occasion on which permission was actually granted takes `was allowed to`."
+        }
+      ]
+    },
+    {
+      "heading": "Ability: Can, Could and Be Able To",
+      "body": "`Can` covers present ability and `could` covers general ability over a stretch of past time. `Be able to` fills every remaining slot: after another modal, in the perfect, and in the infinitive.\n\nThe point that costs marks is narrower. For a single completed achievement in the past — one occasion, one success actually brought off — `could` is wrong, and English requires **was/were able to** or **managed to**. The restriction applies only to the affirmative: `couldn't` is perfectly normal for a one-off failure, and `could` is also normal with verbs of perception such as `see`, `hear` and `understand`.",
+      "examples": [
+        {
+          "right": "After three attempts, the team was able to reproduce the result.",
+          "wrong": "After three attempts, the team could reproduce the result.",
+          "note": "A single achievement that was realised needs `was able to` or `managed to`."
+        },
+        {
+          "right": "She couldn't reach her supervisor before the deadline.",
+          "wrong": null,
+          "note": "The negative is unrestricted: a one-off failure takes `couldn't` quite naturally."
+        },
+        {
+          "right": "He could play the violin before he was ten.",
+          "wrong": null,
+          "note": "General ability held over a period of past time."
+        },
+        {
+          "right": "No one has been able to explain the anomaly.",
+          "wrong": "No one has could explain the anomaly.",
+          "note": "`can` has no participle, so the perfect uses `be able to`."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Writing `must to`. Like every modal, `must` takes the bare infinitive: `must register`, never `must to register`.",
+    "Using `mustn't` where the meaning is that something is unnecessary. Prohibition is `mustn't`; optionality is `don't have to` or `need not`.",
+    "Writing `will must` or `to must`. `Must` has no future and no infinitive, so switch to `will have to` and `to have to`.",
+    "Using `must have done` for a past obligation. That form is a deduction; past obligation is `had to do`.",
+    "Writing `had better to` or `hadn't better`. The forms are `had better do` and `had better not do`.",
+    "Using `could` for one successful past act. Say `I was able to finish the essay in time`, not `I could finish the essay in time`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The laboratory is a sterile area, so visitors ___ wear outdoor shoes beyond this point.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "don't need to",
+        "needn't"
+      ],
+      "answer": 1,
+      "explain": "A sterile area forbids the shoes outright, which is `mustn't`. The other three only remove the obligation, leaving the shoes permitted."
+    },
+    {
+      "type": "blank",
+      "prompt": "Because the software licence expired, the whole department ___ move to a new platform last summer.",
+      "hint": "must (past obligation)",
+      "accept": [
+        "had to"
+      ],
+      "explain": "`Must` has no past form, so past obligation is carried by `had to`; `must have moved` would be a guess about what happened rather than a report of an obligation."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Attendance is now recorded automatically, so students ___ sign the register unless they want to.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "may not",
+        "can't"
+      ],
+      "answer": 0,
+      "explain": "The sentence lifts an obligation and leaves signing optional. `Mustn't`, `can't` and `may not` would all forbid signing, which cannot be squared with leaving the choice to the students."
+    },
+    {
+      "type": "mcq",
+      "prompt": "After several failed attempts, the engineers ___ restart the reactor safely.",
+      "options": [
+        "could",
+        "might",
+        "can",
+        "were able to"
+      ],
+      "answer": 3,
+      "explain": "One completed achievement in the past takes `were able to`. `Could` would report a general capability rather than a success actually brought off on that occasion."
+    },
+    {
+      "type": "blank",
+      "prompt": "The forecast is for black ice tonight, so we ___ set off half an hour earlier than usual.",
+      "hint": "had better (strong advice with an implied consequence)",
+      "accept": [
+        "had better",
+        "'d better"
+      ],
+      "explain": "`Had better` advises on one immediate situation and implies trouble if the advice is ignored; it is followed by the bare infinitive, with no `to`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Under the regulations that take effect in January, applicants ___ submit their portfolio online.",
+      "options": [
+        "must to",
+        "will must",
+        "will have to",
+        "are must"
+      ],
+      "answer": 2,
+      "explain": "`Must` has no future form and cannot follow another modal, so future obligation is expressed by `will have to`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Flash photography damages the pigments, so you ___ use a flash anywhere in the gallery.",
+      "hint": "must (negative)",
+      "accept": [
+        "mustn't",
+        "must not"
+      ],
+      "explain": "The reason given makes this a prohibition, and prohibition is `mustn't`; `don't have to` would wrongly leave the flash permitted."
+    },
+    {
+      "type": "mcq",
+      "prompt": "As children we ___ stay out until dark, though we always had to be home for dinner.",
+      "options": [
+        "could",
+        "might",
+        "managed to",
+        "have been able to"
+      ],
+      "answer": 0,
+      "explain": "This is a standing permission that held throughout childhood, which is what `could` expresses. `Managed to` points to a single occasion, and `have been able to` cannot describe a period of time that is over."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Although the archive is normally closed to undergraduates, we ___ consult the manuscripts for one afternoon.",
+      "options": [
+        "may",
+        "could",
+        "can",
+        "were allowed to"
+      ],
+      "answer": 3,
+      "explain": "Permission granted on one specific occasion takes `were allowed to`; `could` would describe permission that held generally over a period."
+    },
+    {
+      "type": "blank",
+      "prompt": "She resents ___ to explain the same safety procedure twice a week.",
+      "hint": "have (the -ing form)",
+      "accept": [
+        "having"
+      ],
+      "explain": "`Must` has no -ing form, so an obligation that follows a verb such as `resent` or `hate` has to be carried by `having to`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ought the committee ___ its interim findings before the audit is complete?",
+      "options": [
+        "to publish",
+        "published",
+        "publishing",
+        "publish"
+      ],
+      "answer": 0,
+      "explain": "`Ought` is the single modal that keeps `to` in front of the infinitive, which is exactly what distinguishes it in form from `should`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Despite months of analysis, no one has ___ explain why the readings fluctuated.",
+      "hint": "be able to (the participle needed after has)",
+      "accept": [
+        "been able to"
+      ],
+      "explain": "`Can` has no past participle, so the present perfect of ability is built on `be able to`."
+    }
+  ]
+}

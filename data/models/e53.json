@@ -1,0 +1,68 @@
+{
+  "id": "e53",
+  "models": [
+    {
+      "stance": "Profit shifting, and a minimum rate",
+      "approach": "Explain the mechanism precisely, then propose the reforms that follow from it.",
+      "plan": [
+        "Introduction: answer why in one line and what to do in another.",
+        "Body 1: how profit is moved, with the mechanism named.",
+        "Body 2: what should be done, and why the obvious fix fails.",
+        "Conclusion: the answer restated as a rule."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Multinationals pay little tax where they sell because profit is legally attributed to wherever the company chooses to hold its intellectual property, and the remedy is to tax the group rather than its subsidiaries. [[In my opinion]] both halves of that answer are now well understood and only the political will is missing." },
+        { "role": "Body 1 · how it happens", "text": "[[The main point is]] transfer pricing. A group registers its trademarks in a low-tax jurisdiction and then charges its own operating companies a royalty for using them, so the revenue earned in a high-tax country becomes a cost there and a profit somewhere else. Interest payments between subsidiaries do the same work. [[It is evident that]] nothing here is illegal, which is why enforcement alone achieves so little: the arrangement is [[explicit]], disclosed and blessed by treaties written before the value of a company sat in [[intangible]] assets." },
+        { "role": "Body 2 · what should be done", "text": "[[Consequently]], the fix must change what is taxed. Taxing a group on its global profit and apportioning it by where its sales, staff and assets actually are would make the royalty route pointless, since moving a trademark would not move the tax. A global minimum rate removes the incentive to compete downward, and public country-by-country reporting makes the arrangements visible. [[Granted]], any of these requires agreement among states that currently draw [[benefits]] from the arrangement, which is the real [[impediment]]." },
+        { "role": "Conclusion", "text": "[[To sum up]], the cause is a tax system that follows legal ownership while value follows customers, and the answer is to tax where the customers are. The 2021 minimum rate agreement shows this is not [[hypothetical]]; the question is whether it is enforced or [[dissuaded|Dissuade]] into a formality." }
+      ],
+      "notes": [
+        "Both halves of the direct question are answered in the first sentence, which this type requires.",
+        "Explaining transfer pricing concretely, with the royalty example, is the difference between describing a problem and understanding it.",
+        "Noting that nothing is illegal is essential: it directs the remedy at the rules rather than at enforcement."
+      ]
+    },
+    {
+      "stance": "Tax competition between states",
+      "approach": "Argue that the cause is state behaviour rather than corporate cunning, and that the remedy must therefore be an agreement between states.",
+      "plan": [
+        "Introduction: answer by naming who created the opportunity.",
+        "Body 1: why states compete and what it produces.",
+        "Body 2: what should be done, with the enforcement problem addressed.",
+        "Conclusion: the answer restated."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Companies avoid tax because governments built the routes and advertised them, and the remedy is therefore an agreement among governments rather than a campaign against companies. [[I would argue]] that treating this as corporate misbehaviour has produced twenty years of indignation and very little revenue." },
+        { "role": "Body 1 · why states compete", "text": "[[The key issue is]] that a small country can gain enormously by charging a low rate on profits earned elsewhere. Ireland, Luxembourg and several island jurisdictions collect more from a very low rate on an enormous base than they ever could from their own economies, so the behaviour is rational rather than [[frivolous]]. Larger states then compete downward, and headline corporate rates have fallen by roughly half in forty years. [[Consequently]], the loopholes were not discovered by accountants but offered by legislatures." },
+        { "role": "Body 2 · what should be done", "text": "[[It follows that]] the answer must remove the incentive to compete. A global minimum rate does this directly, since profit shifted to a low-tax country becomes taxable at home up to the minimum, which makes the shift pointless. Public reporting of profits and taxes by country would add [[scrutiny]] that no company enjoys. [[It must be acknowledged]] that enforcement is the weak point: exemptions negotiated during implementation can [[invalidate]] the whole arrangement, and several already threaten to." },
+        { "role": "Conclusion", "text": "[[To sum up]], multinationals pay little because states made it profitable for them to, and only states acting together can undo it. Blaming the companies is emotionally satisfying and [[irrelevant]] to the outcome, since any firm that declined the arrangement would simply be outcompeted by one that did not." }
+      ],
+      "notes": [
+        "Reassigning responsibility from companies to legislatures is the essay's argument and it is stated in the first sentence.",
+        "Naming three jurisdictions and the fall in headline rates supplies the evidence the claim needs.",
+        "Pointing out that a firm declining the arrangement would be outcompeted removes the moral framing cleanly."
+      ]
+    },
+    {
+      "stance": "Digital value and outdated rules",
+      "approach": "Argue that the rules were written for factories and that the remedy is to tax where users are.",
+      "plan": [
+        "Introduction: answer with the mismatch between rules and business models.",
+        "Body 1: why physical-presence rules fail for digital firms.",
+        "Body 2: what should be done, with the objection about unilateral action.",
+        "Conclusion: the rule that would follow."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "International tax rules were designed for companies with factories, and they ask where a business is physically present. [[From my perspective]] that question no longer identifies where value is created, which is why the largest firms pay so little where they earn most." },
+        { "role": "Body 1 · why the old rules fail", "text": "[[The main point is]] that a modern company can serve millions of customers in a country with no office there at all. The rules grant taxing rights to the state where a permanent establishment sits, so a firm with servers in one jurisdiction and users in fifty owes almost nothing to the fifty. Value from user data and network effects is [[intangible]] and is therefore attributed to wherever the intellectual property is registered. [[Consequently]], the mismatch is structural rather than a matter of avoidance: the rules are answering a question that has stopped being [[germane]]." },
+        { "role": "Body 2 · what should be done", "text": "[[It follows that]] taxing rights should follow users and sales rather than premises. Allocating a share of global profit to each market by revenue would do this, and it is what the current international negotiations attempt. [[Granted]], unilateral digital services taxes are a poor substitute: they invite retaliation and are passed to customers, which makes them [[inept]] as a solution even where they are politically satisfying. [[Above all]], the reform must be multilateral, because a single country acting alone can be [[intimidated|Intimidate]] out of it by trade threats." },
+        { "role": "Conclusion", "text": "[[To sum up]], the cause is a rulebook written for a physical economy, and the answer is to allocate profit to the market where the revenue is earned. Until that is agreed, enforcement campaigns will keep recovering small sums from arrangements that were never against the rules to begin with." }
+      ],
+      "notes": [
+        "Framing the problem as a rulebook mismatch rather than as cheating is what makes the proposed remedy follow logically.",
+        "Rejecting unilateral digital taxes shows you can distinguish a popular measure from an effective one.",
+        "The final sentence explains why the usual response fails, which closes the argument rather than restating it."
+      ]
+    }
+  ]
+}

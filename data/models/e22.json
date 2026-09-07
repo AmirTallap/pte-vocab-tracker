@@ -1,0 +1,68 @@
+{
+  "id": "e22",
+  "models": [
+    {
+      "stance": "Disagree",
+      "approach": "Attack the word only: renewables plus storage now do most of the work, and nuclear's problem is time and cost.",
+      "plan": [
+        "Introduction: identify the weak word in the claim and disagree with it.",
+        "Body 1: what renewables now cost and deliver.",
+        "Body 2: concede nuclear's genuine advantage, then answer with build times.",
+        "Conclusion: the role nuclear should have."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The claim turns entirely on the word only, and that is where it fails. [[I would argue]] that nuclear power has a real part to play, but describing it as the sole realistic route reflects an energy system that stopped being accurate around a decade ago." },
+        { "role": "Body 1 · what changed", "text": "[[The main point is]] cost. Solar and wind generation have fallen by roughly ninety and seventy per cent respectively since 2010, and in most countries they are now the cheapest electricity available to build. Storage, long the [[compelling]] objection, has followed the same curve, and several grids already run for days at a time on renewables alone. [[There is evidence that]] the pace is accelerating rather than levelling off, which makes any claim of necessity for one technology difficult to [[substantiate]]." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], nuclear supplies something renewables do not: constant output irrespective of weather, on a small footprint. That is not a trivial advantage for a heavy industrial economy. [[Nevertheless]], recent Western reactors have taken between twelve and seventeen years to build and have overrun their budgets several times over, and a solution that arrives in the late 2040s is [[inapt]] for a problem measured in the 2030s." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I disagree that nuclear is the only realistic option, while accepting it is a useful one. Existing reactors should run as long as they are safe and new ones should be built where the grid needs firm supply, but [[by and large]] the work will be done faster and more cheaply by wind, solar and storage." }
+      ],
+      "notes": [
+        "Attacking one word in the prompt, only, is a legitimate and precise way to disagree. It commits you to accepting the rest, which this essay does.",
+        "The cost figures and the build times are the argument. On a technical question, dates and percentages are what content marks are made of.",
+        "The conclusion assigns nuclear a role rather than dismissing it, which is harder to argue against."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Argue from what a grid actually needs at three in the morning in February.",
+      "plan": [
+        "Introduction: agree, with the qualification that only means for firm supply.",
+        "Body 1: the physical problem renewables have not solved.",
+        "Body 2: concede cost and waste, then answer both.",
+        "Conclusion: restate, with what would make it happen."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Arguments about energy usually compare the average and ignore the worst hour, which is the only hour that matters for keeping a country running. [[By and large]] I agree with the claim, provided it is read as being about firm, always-available power rather than about total generation." },
+        { "role": "Body 1 · the hard problem", "text": "[[The key issue is]] the still, dark week in winter. Wind and solar produce nothing on demand, and a grid that must nevertheless deliver requires either enormous storage, which does not yet exist at that scale, or something that burns. [[It is clear that]] the countries with the cleanest electricity, France, Sweden and Ontario, arrived there through nuclear plus hydro rather than through wind alone, and that record is [[irrefutable]] whatever one thinks of the technology." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that Western construction has been slow and ruinously expensive, and that waste storage remains politically [[intractable]]. [[That said]], both are problems of practice rather than physics: South Korea built reactors on schedule for decades by repeating one design, and the waste from a lifetime of one person's electricity is [[infinitesimal]] beside the emissions it displaced. Repetition rather than novelty is what the industry has lacked." },
+        { "role": "Conclusion", "text": "[[All things considered]], I agree that nuclear is the realistic route to a grid that works in February. Building one standard design repeatedly, and financing it publicly because no private investor will wait fifteen years, is what would make it [[imminent]] rather than perpetual." }
+      ],
+      "notes": [
+        "Redefining only as being about firm supply is what makes agreement defensible. State the redefinition in the introduction, not halfway down.",
+        "France, Sweden and Ontario are three cases in one clause. Grouped examples are efficient when each would make the same point.",
+        "Answering the cost objection with a mechanism, one repeated design, is far better than denying that the cost is real."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Argue that the answer differs by country, and that the claim is true for some grids and false for others.",
+      "plan": [
+        "Introduction: there is no single answer because grids differ.",
+        "Body 1: where the claim holds.",
+        "Body 2: where it plainly does not.",
+        "Conclusion: the criterion that decides, and what follows."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Energy arguments are conducted as though every country had the same weather, geography and grid, which is the reason they never conclude. [[To a certain extent]] I agree with the claim, but only for a particular kind of country." },
+        { "role": "Body 1 · where it holds", "text": "For a dense, cloudy, industrial economy with little hydro, the case is strong. Japan, Korea and much of northern Europe cannot site enough wind and solar within their own borders to cover winter demand, and their [[propensity]] to import gas at every cold snap is precisely the dependence they are trying to end. [[For instance]], Germany's retirement of its reactors was followed by a decade of increased coal burning, which is the outcome the policy was meant to avoid." },
+        { "role": "Body 2 · where it does not", "text": "[[By contrast]], the claim is simply false for countries with sun, wind or water in abundance. Morocco, Chile and much of Australia can generate several times their own demand from renewables at a cost no reactor approaches, and building nuclear there would be an expensive [[impediment]] to a cheaper route. [[It is evident that]] geography, not ideology, is doing the deciding." },
+        { "role": "Conclusion", "text": "[[On balance]], then, nuclear is necessary for some grids and [[irrelevant]] to others, and the useful question is which country is being discussed. [[In essence]] the test is whether a grid can be firmed by geography; where it can, nuclear is a costly detour, and where it cannot, there is currently nothing else." }
+      ],
+      "notes": [
+        "Answering by country is a genuine third position on a technical question, and each paragraph names three real places.",
+        "The German example is the strongest evidence available for the pro-nuclear half, and putting it in the paragraph that agrees keeps the essay balanced.",
+        "The final sentence gives a single test, which is what a reader can carry away."
+      ]
+    }
+  ]
+}

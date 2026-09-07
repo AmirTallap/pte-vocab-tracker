@@ -1,0 +1,68 @@
+{
+  "id": "e18",
+  "models": [
+    {
+      "stance": "Fund exploration",
+      "approach": "Answer the urgent needs argument with the size of the sums and with what the research returns.",
+      "plan": [
+        "Introduction: the disagreement, and where you end.",
+        "Body 1: the case for spending it on Earth, put fairly.",
+        "Body 2: your case, scale of the budget and the returned technology.",
+        "Conclusion: your opinion and what it is conditional on."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Space budgets attract criticism whenever a hospital closes, and the comparison is emotionally powerful. [[It is often argued]] that the money is needed here, but having examined the sums involved, [[I would maintain]] that public funding of exploration is worth keeping." },
+        { "role": "Body 1 · the case against", "text": "[[On the one hand]], the objection is not [[frivolous]]. Children go hungry in every country running a space programme, and it is difficult to defend a launch to somebody on a waiting list. [[It must be acknowledged]] that prestige rather than science drives a good deal of the spending, and that a rocket is a more photogenic use of a budget than a sewer." },
+        { "role": "Body 2 · the case for", "text": "[[On the other hand]], the amounts are far smaller than the argument implies. NASA's budget is roughly half of one per cent of American federal spending, so cancelling it would fund the health system for a few days and end the research permanently. The return is also concrete: weather satellites, GPS and the entire measurement of climate change come from this work, and it is [[irrefutable]] that the observation of our own planet is now [[indispensable]] to protecting it. [[A case in point]] is that famine early-warning systems run on satellite data." },
+        { "role": "Conclusion", "text": "[[All things considered]], I support continued public funding, with the emphasis on science and Earth observation rather than prestige. Cutting it would [[jeopardize]] the instruments we use to see our own problems, and would free a sum too small to solve any of them." }
+      ],
+      "notes": [
+        "The percentage of federal spending is the sentence that wins this essay. When the other side's argument is about scale, answer it with scale.",
+        "Conceding that prestige drives some spending lets the conclusion narrow what should be funded, which is more precise than defending everything.",
+        "Famine warning from satellites connects the two halves of the debate in one example, which is exactly what a discuss both views conclusion needs."
+      ]
+    },
+    {
+      "stance": "Spend it on Earth",
+      "approach": "Accept the technological returns and argue that they could be pursued more directly.",
+      "plan": [
+        "Introduction: agree with the science, dispute the priority.",
+        "Body 1: the case for exploration, given its strongest form.",
+        "Body 2: your case, opportunity cost and the spin-off fallacy.",
+        "Conclusion: which parts to keep and which to cut."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Exploration produces genuine knowledge, and the argument against it is not an argument against curiosity. [[From my perspective]], the question is one of sequence, and there are needs on Earth with a stronger claim on the same money." },
+        { "role": "Body 1 · the case for", "text": "[[On the one hand]], the achievements are real. Satellite observation underpins climate science, and the engineering demanded by spaceflight has produced materials and instruments used daily in medicine. [[It is true that]] some knowledge can be obtained no other way, and a civilisation that stops asking where it is would be poorer in a way that is hard to price." },
+        { "role": "Body 2 · the case against", "text": "[[On the other hand]], the spin-off argument is weaker than it sounds. If the aim is better materials or better sensors, funding materials science directly [[expedites|Expedite]] the same result, and the detour through a launch vehicle is an expensive way to buy it. [[More significantly|Significantly]], crewed missions to Mars consume sums that would supply clean water to tens of millions, and a government choosing the first over the second is making a judgement it rarely defends out loud." },
+        { "role": "Conclusion", "text": "[[On balance]], I would keep satellites and robotic science, which pay for themselves in weather, communications and climate data, and postpone crewed exploration until the [[imminent]] problems here are under control. That is not hostility to space; it is an ordering of a finite budget." }
+      ],
+      "notes": [
+        "Attacking the spin-off argument on its own logic, buy the thing you want directly, is far stronger than dismissing the benefits.",
+        "Separating robotic from crewed missions turns a blunt refusal into a precise one, and precise positions score better.",
+        "The final clause protects the essay from the accusation of philistinism, which is the obvious reply to this position."
+      ]
+    },
+    {
+      "stance": "The question is a false choice",
+      "approach": "Argue that both camps assume a fixed budget that does not exist, and that the real competition is elsewhere.",
+      "plan": [
+        "Introduction: both sides accept a premise worth questioning.",
+        "Body 1: the case for exploration and what it really costs.",
+        "Body 2: the case for spending here and where the money actually goes.",
+        "Conclusion: your opinion about what the argument distracts from."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] space budgets are defensible, but both camps accept that hospitals and rockets compete for the same pot. [[In my opinion]] that premise is the weakest part of the debate, and examining it changes the answer." },
+        { "role": "Body 1 · the case for exploration", "text": "[[On the one hand]], supporters are right that the science is cheap and cumulative. Space agencies across the world spend less annually than several countries spend on tobacco advertising, and the results, from climate records to satellite navigation, are [[pervasive]] enough that most people use them hourly without noticing. [[Needless to say]], abolishing the programmes would not produce a corresponding improvement anywhere else." },
+        { "role": "Body 2 · the case for spending here", "text": "[[On the other hand]], critics are right that public money is scarce and that need is [[imminent]]. Where they misdirect their attention is the target: military budgets, subsidies to fossil fuel producers and uncollected corporate tax each dwarf every civilian space programme combined. [[Consequently]], attacking the smallest discretionary line while the largest go unexamined is a poor way to fund a hospital." },
+        { "role": "Conclusion", "text": "[[Taken together]], I support continued funding of exploration and share the impatience of those who want the money spent here. [[In essence]] the argument as usually conducted is a distraction, since the sums that would genuinely transform health or housing sit in budgets that this debate never [[scrutinises|Scrutiny]]." }
+      ],
+      "notes": [
+        "Questioning a premise both sides share is the most ambitious structure available, and it only works if you still treat each view seriously first.",
+        "The comparison with military budgets and fossil fuel subsidies is what makes the third position substantive rather than clever.",
+        "The conclusion agrees with both camps and redirects them, which is a real opinion rather than a refusal to choose."
+      ]
+    }
+  ]
+}

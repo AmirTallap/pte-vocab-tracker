@@ -1,0 +1,284 @@
+{
+  "id": "comparison-modification",
+  "title": "Comparison and Modification",
+  "group": "Precision and Style",
+  "summary": "Comparatives, superlatives, adjective-versus-adverb choices, and where modifiers belong in the sentence.",
+  "sections": [
+    {
+      "heading": "Forming Comparatives and Superlatives",
+      "body": "One-syllable adjectives take `-er` and `-est`: `fast`, `faster`, `the fastest`. Adjectives of three syllables or more take `more` and `most`: `more significant`, `the most significant`. Adjectives ending in `-y` change to `-ier` and `-iest`: `easy`, `easier`, `the easiest`.\n\nTwo-syllable adjectives are the grey area. Those ending in `-y`, `-er`, `-ow` and `-le` normally take the ending (`narrower`, `simpler`, `gentler`), while the rest usually take `more` (`more useful`, `more common`, `more careful`). Several accept either form, so `clever`, `common` and `quiet` are equally correct with `-er` or with `more`. Outside the `-y` group, where `more easy` and `more happy` are not used, `more` is rarely a real error, which makes it a reasonably safe default under exam pressure.\n\nThe irregulars have to be memorised: `good` becomes `better` and `best`, `bad` becomes `worse` and `worst`, and `far` becomes `further` or `farther` and `furthest` or `farthest`.",
+      "examples": [
+        {
+          "right": "The revised syllabus is simpler than the one it replaced.",
+          "wrong": "The revised syllabus is more simple than the one it replaced.",
+          "note": "Two-syllable adjectives ending in -le normally take -er."
+        },
+        {
+          "right": "Air quality was worse in the industrial districts.",
+          "wrong": "Air quality was badder in the industrial districts.",
+          "note": "`bad` is irregular: worse, worst."
+        },
+        {
+          "right": "This is the most persuasive argument in the paper.",
+          "wrong": "This is the persuasivest argument in the paper.",
+          "note": "Three or more syllables always take most."
+        }
+      ]
+    },
+    {
+      "heading": "Than, As ... As, and the Double Comparative",
+      "body": "A comparative is followed by **than**, not `then`. `Than` compares; `then` refers to time or consequence. The two are pronounced almost identically in connected speech, which is why the error survives into writing.\n\nA comparison is marked once and once only. `More easier` and `most cheapest` are double comparatives: either the ending or the word `more` carries the meaning, never both.\n\nEquality is expressed with **as ... as**, negated as `not as ... as` or `not so ... as`, and multiplied with `twice as ... as`, `three times as ... as`. Parallel change uses **the ... the**: `the more` one clause, `the more` the other, with a comma between the halves.",
+      "examples": [
+        {
+          "right": "The second method proved more accurate than the first.",
+          "wrong": "The second method proved more accurate then the first.",
+          "note": "Comparison takes `than`; `then` is temporal."
+        },
+        {
+          "right": "Rural clinics are far more difficult to staff.",
+          "wrong": "Rural clinics are far more difficulter to staff.",
+          "note": "Never mark the comparative twice."
+        },
+        {
+          "right": "The pilot study was not as conclusive as the researchers had hoped.",
+          "wrong": "The pilot study was not as conclusive than the researchers had hoped.",
+          "note": "Equality uses as ... as, even when negated."
+        },
+        {
+          "right": "The larger the sample, the more reliable the estimate.",
+          "wrong": "Larger the sample, more reliable the estimate.",
+          "note": "Both halves of the parallel structure need `the`."
+        }
+      ]
+    },
+    {
+      "heading": "Modifying a Comparison",
+      "body": "A comparative can be strengthened or softened, but not by `very`. Use **much**, **far**, **a lot**, **considerably** or **significantly** to strengthen, and **slightly**, **marginally**, **somewhat** or **a little** to soften. `Very` modifies the plain adjective only: `very expensive`, but `far more expensive`.\n\nA superlative normally takes `the`, and the range it applies to is introduced by `in` for places and groups, and `of` for a stated set: `the busiest airport in Europe`, `the cheapest of the three options`.\n\nThe pattern **one of the + superlative + plural noun** is fixed. The noun after it is plural because the item is being placed inside a group, even though the verb that follows agrees with `one`.",
+      "examples": [
+        {
+          "right": "The new turbine is considerably more efficient than the old one.",
+          "wrong": "The new turbine is very more efficient than the old one.",
+          "note": "`Very` cannot modify a comparative."
+        },
+        {
+          "right": "Sales rose slightly faster in the second quarter.",
+          "wrong": null,
+          "note": "`Slightly` softens the comparative without changing its form."
+        },
+        {
+          "right": "Lagos is one of the fastest growing cities in the world.",
+          "wrong": "Lagos is one of the fastest growing city in the world.",
+          "note": "`One of the` is always followed by a plural noun."
+        },
+        {
+          "right": "It was the least expensive of the three proposals.",
+          "wrong": "It was the least expensive in the three proposals.",
+          "note": "A stated set takes `of`, not `in`."
+        }
+      ]
+    },
+    {
+      "heading": "Adjective or Adverb",
+      "body": "An adjective describes a noun; an adverb describes a verb, an adjective or another adverb. A handful of words have two forms with unrelated meanings: `hard` means with effort while **hardly** means barely, and `late` means not on time while **lately** means recently. `He works hard` and `he hardly works` are opposites.\n\nAfter a linking verb the complement describes the subject, so it stays an adjective. The common linking verbs are `be`, `seem`, `appear`, `become`, `remain`, `stay`, and the perception verbs `feel`, `look`, `sound`, `taste` and `smell`. `The proposal seems reasonable` is correct; `seems reasonably` is not.\n\nSeveral of these verbs can also be ordinary action verbs, and then an adverb is right: compare `the mixture smelled strange` with `she smelled the mixture cautiously`.",
+      "examples": [
+        {
+          "right": "The committee hardly ever meets during the summer.",
+          "wrong": "The committee hard ever meets during the summer.",
+          "note": "`Hardly` means almost never; `hard` means with effort."
+        },
+        {
+          "right": "Interest in the programme has grown steadily lately.",
+          "wrong": "Interest in the programme has grown steadily late.",
+          "note": "`Lately` means recently; `late` means after the expected time."
+        },
+        {
+          "right": "The water tasted fresh once the filter had been replaced.",
+          "wrong": "The water tasted freshly once the filter had been replaced.",
+          "note": "After a perception verb the complement describes the subject."
+        }
+      ]
+    },
+    {
+      "heading": "Adjectives Ending in -ed and -ing",
+      "body": "The `-ing` participial adjective names the source of a feeling; the `-ed` form names the person who has it. A lecture is **boring**; the audience is **bored**. Saying `I am boring` states that other people find you dull.\n\nThe pairs that cause the most trouble are `interested/interesting`, `confused/confusing`, `frustrated/frustrating`, `surprised/surprising`, `tired/tiring` and `worried/worrying`. Arabic does not distinguish these with two separate participles, and this is one of the most persistent B2 slips: the rule is understood but the wrong form still appears under time pressure.\n\nA quick test: if the word can be replaced by `causing that feeling`, use `-ing`; if it can be replaced by `feeling that way`, use `-ed`.",
+      "examples": [
+        {
+          "right": "The results were surprising, and the reviewers were surprised by them.",
+          "wrong": null,
+          "note": "The same event is -ing; the people who react are -ed."
+        },
+        {
+          "right": "Many participants found the instructions confusing.",
+          "wrong": "Many participants found the instructions confused.",
+          "note": "The instructions cause the confusion; they do not feel it."
+        },
+        {
+          "right": "She was frustrated by the delay.",
+          "wrong": "She was frustrating by the delay.",
+          "note": "The subject experiences the feeling, so -ed."
+        }
+      ]
+    },
+    {
+      "heading": "Where Modifiers Go",
+      "body": "Adverbs of frequency (`always`, `often`, `rarely`, `never`) go before a main verb but after `be` and after the first auxiliary: `she rarely comments`, `she is rarely present`, `she has rarely commented`. Adverbs of manner (`carefully`, `quickly`) usually follow the verb or its object, never between the verb and its object: `read the report carefully`, not `read carefully the report`. Adverbs of degree (`completely`, `almost`, `entirely`) go immediately before the word they intensify.\n\nWhen several adjectives precede a noun, English follows a fixed order: opinion, size, age, shape, colour, origin, material, purpose. `A small old wooden desk` is natural; any other order sounds wrong even though nothing else has changed.\n\nTwo or more adjectives of the same type are separated by commas; adjectives of different types are not.",
+      "examples": [
+        {
+          "right": "The department has never seriously questioned the methodology.",
+          "wrong": "The department has seriously never questioned the methodology.",
+          "note": "The frequency adverb follows the first auxiliary."
+        },
+        {
+          "right": "The panel reviewed the application carefully.",
+          "wrong": "The panel reviewed carefully the application.",
+          "note": "A manner adverb does not separate the verb from its object."
+        },
+        {
+          "right": "They restored a large nineteenth-century brick warehouse.",
+          "wrong": "They restored a brick nineteenth-century large warehouse.",
+          "note": "Size precedes age, which precedes material."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Writing `then` where a comparison needs `than`; if the sentence compares two things, the word is `than`.",
+    "Marking the comparative twice, as in `more easier`; choose the ending or `more`, never both.",
+    "Using `very` before a comparative; strengthen it with `much`, `far` or `considerably` instead.",
+    "Following `one of the` with a singular noun; the noun is always plural, as in `one of the largest cities`.",
+    "Confusing `-ed` and `-ing` adjectives, so that `the topic is interested` appears in place of `interesting`.",
+    "Putting a manner adverb between the verb and its object, as in `explained clearly the results`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The revised timetable is ___ the original one.",
+      "options": [
+        "more simple then",
+        "more simpler than",
+        "simpler than",
+        "simpler then"
+      ],
+      "answer": 2,
+      "explain": "`Simple` ends in -le, so it takes -er, and a comparison is completed by `than`. `More simpler` marks the comparative twice, and `then` is temporal, not comparative."
+    },
+    {
+      "type": "blank",
+      "prompt": "Air quality this winter was ___ than it was last year, despite the new restrictions.",
+      "hint": "bad (comparative form)",
+      "accept": [
+        "worse"
+      ],
+      "explain": "`Bad` is irregular: worse, worst. There is no form `badder`, and `more bad` is not used of quality."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The second trial was not ___ the first, so the team ran it again.",
+      "options": [
+        "as conclusive than",
+        "as conclusive as",
+        "so conclusive than",
+        "as conclusive so"
+      ],
+      "answer": 1,
+      "explain": "Equality, including negated equality, is expressed with `as ... as`. A comparative structure with `than` requires a comparative form such as `less conclusive than`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The advisory board ___ ever meets more than twice a year.",
+      "options": [
+        "hard",
+        "hardest",
+        "hardly",
+        "harder"
+      ],
+      "answer": 2,
+      "explain": "`Hardly ever` means almost never. `Hard` is the adverb of effort, which would give the opposite sense entirely."
+    },
+    {
+      "type": "blank",
+      "prompt": "The revised model runs ___ fast as the original, although it uses more memory.",
+      "hint": "express 'two times' in a comparison of equality",
+      "accept": [
+        "twice as",
+        "two times as"
+      ],
+      "explain": "Multiples are placed in front of the `as ... as` frame: twice as fast as, three times as large as."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ the sample, the more reliable the estimate becomes.",
+      "options": [
+        "The more large",
+        "Larger",
+        "The largest",
+        "The larger"
+      ],
+      "answer": 3,
+      "explain": "Parallel change uses `the` plus a comparative in both halves. A superlative cannot open the structure, and `large` takes -er rather than `more`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Several participants found the written instructions ___, so the researchers rewrote them.",
+      "hint": "confuse (the adjective describing the instructions)",
+      "accept": [
+        "confusing"
+      ],
+      "explain": "The instructions cause the confusion rather than experiencing it, so the -ing form is required; `confused` would describe the participants."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Even after the tank had been sealed, the water still smelled ___.",
+      "options": [
+        "strange",
+        "strangely",
+        "strangeness",
+        "strangest"
+      ],
+      "answer": 0,
+      "explain": "`Smell` here is a linking verb, so the complement is an adjective describing the water. `Strangely` would describe the manner of an action, which a linking verb does not express."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The department has ___ questioned the accuracy of the figures.",
+      "options": [
+        "serious never",
+        "never serious",
+        "never seriously",
+        "seriously never"
+      ],
+      "answer": 2,
+      "explain": "The frequency adverb follows the first auxiliary and precedes the manner adverb. `Serious` is an adjective and cannot modify the verb at all."
+    },
+    {
+      "type": "blank",
+      "prompt": "In the corner of the study stood a ___ wooden desk that had belonged to her grandmother.",
+      "hint": "small + old, in the natural English order",
+      "accept": [
+        "small old"
+      ],
+      "explain": "English orders premodifiers as opinion, size, age, shape, colour, origin, material, so size precedes age, which precedes the material adjective `wooden`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The second version of the software is ___ better than the first.",
+      "options": [
+        "very",
+        "too much",
+        "by far more",
+        "far"
+      ],
+      "answer": 3,
+      "explain": "Comparatives are strengthened by `far`, `much` or `considerably`. `Very` modifies only the plain adjective, as in `very good`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Of the three routes into the city, the coastal one is ___ scenic.",
+      "hint": "scenic (superlative, including the article)",
+      "accept": [
+        "the most"
+      ],
+      "explain": "A superlative takes `the`, and `scenic` is a two-syllable adjective that forms its superlative with `most`. `Of` signals a stated set, which is a reliable cue that a superlative is required."
+    }
+  ]
+}

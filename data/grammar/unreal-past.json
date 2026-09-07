@@ -1,0 +1,288 @@
+{
+  "id": "unreal-past",
+  "title": "Wishes and the Unreal Past",
+  "group": "Future and Conditionals",
+  "summary": "Past forms with non-past meaning: wish, if only, it's time, would rather, as if, and the subjunctive after suggest and insist.",
+  "sections": [
+    {
+      "heading": "Wish and if only about the present",
+      "body": "`wish` and `if only` followed by the past simple describe a present situation the speaker is dissatisfied with. The past tense is again a marker of unreality, not of past time: `I wish I lived closer to the campus` is a statement about today.\n\n`If only` is the more emphatic of the two and often stands alone as an exclamation. With `be`, `were` is used for all persons in careful writing, though `was` is common and accepted in speech. Note also that these verbs take a negative in the clause to regret something that is true: `I wish I didn't have to commute`.",
+      "examples": [
+        {
+          "right": "I wish I lived closer to the campus.",
+          "wrong": "I wish I live closer to the campus.",
+          "note": "The present situation is regretted with a past simple, not a present."
+        },
+        {
+          "right": "If only the report were shorter; nobody has time for ninety pages.",
+          "wrong": null,
+          "note": "Were is the careful form after wish and if only, and was is acceptable informally."
+        },
+        {
+          "right": "She wishes she didn't have to teach on Fridays.",
+          "wrong": null,
+          "note": "The clause is negated to regret something that is in fact the case."
+        }
+      ]
+    },
+    {
+      "heading": "Wish and if only about the past",
+      "body": "The past perfect after `wish` or `if only` expresses regret about something that did or did not happen earlier. It is one step further back than the past simple, and the difference in meaning is real: `I wish I studied medicine` regrets a present course of life, while `I wish I had studied medicine` regrets a decision taken years ago.\n\n`could have` appears in the same slot when the regret concerns an unrealised ability or opportunity: `I wish I could have stayed longer`.",
+      "examples": [
+        {
+          "right": "I wish I had paid more attention in the statistics lectures.",
+          "wrong": "I wish I paid more attention in the statistics lectures last year.",
+          "note": "A past occasion, marked by last year, requires the past perfect."
+        },
+        {
+          "right": "If only we had booked the tickets in September.",
+          "wrong": null,
+          "note": "Regret about a past omission, with the result still felt now."
+        },
+        {
+          "right": "I wish I could have attended the closing session.",
+          "wrong": null,
+          "note": "Could have covers a past opportunity that was not available."
+        }
+      ]
+    },
+    {
+      "heading": "Wish plus would",
+      "body": "`wish` + `would` is not simply another way of regretting the present. It complains about a repeated, irritating habit, or asks for a change in behaviour that lies outside the speaker's control: `I wish the neighbours would turn their music down`. Because it is a wish about somebody else's willingness, its subject is normally a different person, or an impersonal `it`.\n\nThis is why `I wish I would` fails. A speaker cannot ask for their own willingness to change, so English requires `I wish I could` for ability and `I wish I were` or the past simple for a state. Nor is `would` used for states that nobody can decide to alter: `I wish it would be sunny` is wrong where `I wish it were sunny` is right, though `I wish it would stop raining` is fine because the rain is an ongoing action.",
+      "examples": [
+        {
+          "right": "I wish the department would announce the timetable earlier.",
+          "wrong": null,
+          "note": "A complaint about somebody else's repeated behaviour."
+        },
+        {
+          "right": "I wish I could concentrate for longer.",
+          "wrong": "I wish I would concentrate for longer.",
+          "note": "With the same subject, would is impossible; could expresses the missing ability."
+        },
+        {
+          "right": "I wish it were warmer in this building.",
+          "wrong": "I wish it would be warmer in this building.",
+          "note": "Would needs a changeable action, not a state."
+        }
+      ]
+    },
+    {
+      "heading": "It's time and would rather",
+      "body": "`It's time`, `It's high time` and `It's about time` are followed by a past simple when a subject is named: `It's time we left`. The meaning is present and mildly critical, implying that the action is overdue. The alternative with an infinitive, `It's time to leave`, names no subject and carries no criticism.\n\n`would rather` works in two ways. With the same subject it takes a bare infinitive: `I'd rather work from home`. With a different subject it takes a past simple, on the same unreal-past principle: `I'd rather you worked from home`. For past preferences the pattern is `would rather have done`, and the comparison is completed with `than`, not `that`.",
+      "examples": [
+        {
+          "right": "It's high time the university reviewed its assessment policy.",
+          "wrong": "It's high time the university reviews its assessment policy.",
+          "note": "With a named subject, it's time takes the past simple."
+        },
+        {
+          "right": "I'd rather you contacted the client yourself.",
+          "wrong": "I'd rather you contact the client yourself.",
+          "note": "A change of subject after would rather forces the past simple."
+        },
+        {
+          "right": "She'd rather work from home than commute two hours a day.",
+          "wrong": "She'd rather to work from home than commute.",
+          "note": "Same subject, bare infinitive, and than to complete the comparison."
+        },
+        {
+          "right": "I'd rather have taken the earlier flight.",
+          "wrong": null,
+          "note": "Would rather have done expresses a preference about the past."
+        }
+      ]
+    },
+    {
+      "heading": "As if and as though",
+      "body": "`as if` and `as though` are interchangeable. When the comparison is clearly contrary to fact, they take an unreal past: a past simple for a present impossibility, a past perfect for a past one. `He speaks as though he owned the building` implies that he does not.\n\nA present tense after `as if` is not an error; it signals that the speaker regards the comparison as possibly true. `It looks as if the talks have collapsed` reports a likely reading of the evidence. The choice of tense therefore carries meaning, and the past form should be reserved for what is known to be false.",
+      "examples": [
+        {
+          "right": "He talks about the merger as if it were already agreed, though nothing has been signed.",
+          "wrong": null,
+          "note": "The past form marks the comparison as false."
+        },
+        {
+          "right": "She described the ruins as though she had excavated them herself.",
+          "wrong": null,
+          "note": "A past perfect for a past situation known not to have occurred."
+        },
+        {
+          "right": "It looks as if the talks have collapsed.",
+          "wrong": null,
+          "note": "A present perfect because the speaker thinks this may well be true."
+        }
+      ]
+    },
+    {
+      "heading": "The subjunctive after suggest, insist and recommend",
+      "body": "Verbs and nouns of proposing and requiring — `suggest`, `recommend`, `insist`, `demand`, `propose`, `request`, `urge`, and `it is essential/vital that` — are followed by a that-clause containing the bare infinitive, whatever the subject: `I suggest that he be informed`, `The board demanded that she resign`. There is no third-person `-s`, and the negative is formed with a bare `not`: `that he not be informed`.\n\nTwo alternatives are more common in everyday British usage. `should` may be inserted (`I suggest that he should be informed`), or the whole structure avoided with a noun or an `-ing` form (`I suggest informing him`). Note that `suggest` never takes an object plus infinitive: `I suggest you to check` is wrong.",
+      "examples": [
+        {
+          "right": "The committee recommended that the deadline be extended by two weeks.",
+          "wrong": "The committee recommended that the deadline is extended by two weeks.",
+          "note": "A mandative that-clause takes the bare infinitive, with no agreement and no tense."
+        },
+        {
+          "right": "The auditor insisted that every transaction should be recorded in the ledger.",
+          "wrong": null,
+          "note": "Should plus infinitive is the ordinary British alternative to the subjunctive."
+        },
+        {
+          "right": "I suggest checking the figures before you submit them.",
+          "wrong": "I suggest you to check the figures before you submit them.",
+          "note": "Suggest takes an -ing form or a that-clause, never an object plus to-infinitive."
+        },
+        {
+          "right": "It is essential that the samples not be exposed to light.",
+          "wrong": null,
+          "note": "The subjunctive is negated with a bare not, without do."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "I wish I would is not English: use I wish I could for ability and I wish I were or a past simple for a state.",
+    "wish plus past simple regrets the present; wish plus past perfect regrets the past. I wish I knew is about now, I wish I had known is about then.",
+    "It's time takes a past simple once a subject appears: It's time we started, not It's time we start.",
+    "would rather changes form with the subject: I'd rather leave now but I'd rather you left now.",
+    "Complete a would rather comparison with than, not that or from: I'd rather walk than wait.",
+    "suggest and recommend never take an object plus to-infinitive: I recommend that you apply or I recommend applying, never I recommend you to apply."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "I wish I ___ more attention in the statistics lectures last year.",
+      "options": [
+        "would pay",
+        "had paid",
+        "have paid",
+        "paid"
+      ],
+      "answer": 1,
+      "explain": "Last year fixes the regret in the past, and past regret after wish takes the past perfect. paid would regret a present habit instead."
+    },
+    {
+      "type": "blank",
+      "prompt": "If only the report ___ shorter; nobody has the time to read ninety pages.",
+      "hint": "be (past form, regret about now)",
+      "accept": [
+        "were",
+        "was"
+      ],
+      "explain": "If only plus a past simple expresses dissatisfaction with the present; were is preferred in formal writing but was is accepted."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I wish the neighbours ___ their music down after midnight; they keep it on until three every night.",
+      "options": [
+        "will turn",
+        "turned",
+        "would turn",
+        "had turned"
+      ],
+      "answer": 2,
+      "explain": "Wish plus would complains about somebody else's repeated behaviour and asks for a change. turned would describe a hypothetical state rather than the recurring nuisance the second clause names."
+    },
+    {
+      "type": "blank",
+      "prompt": "It's high time the university ___ its assessment policy; the current one dates from 2009.",
+      "hint": "review (past simple)",
+      "accept": [
+        "reviewed"
+      ],
+      "explain": "It's time with a named subject takes the past simple, implying that the action is already overdue."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I wish I ___ better at public speaking, because I have a viva next week.",
+      "options": [
+        "had been",
+        "were",
+        "would be",
+        "will be"
+      ],
+      "answer": 1,
+      "explain": "A wish about one's own present state takes the past form of be. would cannot be used with the same subject, since it asks for a willingness to change that lies with somebody else."
+    },
+    {
+      "type": "blank",
+      "prompt": "I wish I ___ the earlier train; the meeting had already started when I arrived.",
+      "hint": "take (past perfect)",
+      "accept": [
+        "had taken",
+        "'d taken",
+        "had caught",
+        "'d caught"
+      ],
+      "explain": "The regret concerns a completed past action, so the past perfect is required after wish."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I'd rather you ___ the client yourself; my German isn't good enough for a negotiation.",
+      "options": [
+        "contact",
+        "to contact",
+        "contacted",
+        "would contact"
+      ],
+      "answer": 2,
+      "explain": "Would rather takes a past simple when the subject of the preference changes. The bare infinitive is correct only when both subjects are the same, as in I'd rather contact him."
+    },
+    {
+      "type": "blank",
+      "prompt": "She'd rather ___ from home than commute two hours a day.",
+      "hint": "work (form after would rather, same subject)",
+      "accept": [
+        "work"
+      ],
+      "explain": "With one subject throughout, would rather is followed by a bare infinitive, and the comparison is completed with than plus a second bare infinitive."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She described the ruins as though she ___ them herself, though she has never left the country.",
+      "options": [
+        "has excavated",
+        "had excavated",
+        "would excavate",
+        "excavated"
+      ],
+      "answer": 1,
+      "explain": "The final clause shows the comparison is impossible, and an unreal past situation after as though takes the past perfect. has excavated would present it as probably true."
+    },
+    {
+      "type": "blank",
+      "prompt": "The auditor insisted that every transaction ___ recorded in the ledger on the day it took place.",
+      "hint": "be (subjunctive; the should form is also accepted)",
+      "accept": [
+        "be",
+        "should be"
+      ],
+      "explain": "After insist, demand and recommend the that-clause takes a bare infinitive, with should plus infinitive as the common British alternative."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The committee recommended that the deadline ___ extended by two weeks.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "would be"
+      ],
+      "answer": 0,
+      "explain": "Mandative verbs take a subjunctive that-clause with no agreement and no tense marking. is extended turns the proposal into a report of fact."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It's high time something ___ about the state of the cycle lanes.",
+      "options": [
+        "was done",
+        "would be done",
+        "be done",
+        "is done"
+      ],
+      "answer": 0,
+      "explain": "It's high time is followed by a past form even though the meaning is present and urgent; the passive simply becomes was done."
+    }
+  ]
+}

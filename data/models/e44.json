@@ -1,0 +1,68 @@
+{
+  "id": "e44",
+  "models": [
+    {
+      "stance": "Employers and the state, together",
+      "approach": "Answer both halves in the introduction, then justify the preparation and the funding separately.",
+      "plan": [
+        "Introduction: answer how and who in two sentences.",
+        "Body 1: what preparation should consist of.",
+        "Body 2: who should pay, and why the usual answer fails.",
+        "Conclusion: the arrangement restated."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Governments should prepare their workforce by funding retraining before the redundancy rather than after it, and the cost should fall on the firms that capture the gains from automation rather than on the workers displaced by it. [[In my opinion]] both halves of that answer are usually got wrong in practice." },
+        { "role": "Body 1 · what preparation means", "text": "[[The main point is]] timing. Retraining offered to somebody already unemployed arrives when they have no income and no confidence, which is why completion rates are so poor; offered two years earlier, while they are still paid, it works far better. Preparation should therefore be continuous: an entitlement to funded study throughout a working life, portable between employers, with income support during it. [[There is evidence that]] Denmark's model, which combines easy dismissal with substantial retraining and benefit, produces both flexibility and low long-term unemployment, and it [[exemplifies|Exemplify]] what early retraining achieves." },
+        { "role": "Body 2 · who pays", "text": "[[By contrast]], the usual answer, that individuals should invest in their own skills, fails on its own terms. A worker cannot know which skills will survive, cannot borrow against an uncertain future, and did not choose the automation. [[It follows that]] the cost belongs with those who take the [[benefits]]: firms and, through them, the general taxpayer. A levy on payroll or on automation-driven profit, hypothecated to a national training fund, is [[coherent]] with who gains and who loses." },
+        { "role": "Conclusion", "text": "[[To sum up]], preparation should be early, continuous and portable, and it should be paid for by the firms whose productivity rises. Leaving it to individuals guarantees that the people least able to absorb the change will carry it, which is the [[inequitable|Equitable]] arrangement automation has so far produced everywhere it has arrived." }
+      ],
+      "notes": [
+        "Both halves of a two-part direct question are answered in the first two sentences, which is exactly what this type requires.",
+        "The timing argument is what distinguishes a real answer from a call for more training.",
+        "The funding paragraph attacks the popular answer on its own terms rather than dismissing it."
+      ]
+    },
+    {
+      "stance": "The state, through education reform",
+      "approach": "Argue that retraining schemes are downstream and that the real preparation happens in schooling.",
+      "plan": [
+        "Introduction: answer with education first, funded publicly.",
+        "Body 1: why mid-career retraining underperforms.",
+        "Body 2: what schooling should change, and who pays.",
+        "Conclusion: the sequence, and the honest limits."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Governments should prepare for automation mainly by changing what schools teach and by funding education throughout life from general taxation. [[I would argue]] that retraining schemes, on which most attention falls, are the least effective part of the answer." },
+        { "role": "Body 1 · why retraining underperforms", "text": "[[First and foremost]], the record of mid-career retraining is poor almost everywhere. Programmes are short, frequently teach whatever is fashionable, and place workers into jobs that are themselves automated within a few years, so the effort is [[ephemeral]]. [[It is worth noting]] that the deeper obstacle is educational: an adult whose schooling ended at sixteen with weak literacy cannot absorb a twelve-week course in anything, and no amount of funding changes that in twelve weeks." },
+        { "role": "Body 2 · what to change, and who pays", "text": "[[Consequently]], preparation must begin much earlier. Schools should prioritise the capacities that transfer, reading closely, writing clearly, reasoning with numbers and working with people, rather than the specific tools, whose usefulness is [[ephemeral]]. Adult education should be restored as an entitlement rather than a market. [[It is clear that]] the state must fund this, since no employer will pay for skills their competitors can hire, and a general taxpayer [[benefits]] from a workforce that can be redeployed at all." },
+        { "role": "Conclusion", "text": "[[To sum up]], the honest answer is that preparation is slow and mostly educational, and that the public purse should carry it. [[It must be acknowledged]] that this does nothing for the forty-five-year-old driver displaced next year, whose case requires income support rather than a course, and pretending otherwise is the [[inept]] promise every government has made so far." }
+      ],
+      "notes": [
+        "Attacking the popular remedy first gives the essay a reason to propose something else, and the literacy point is the mechanism.",
+        "Capacities that transfer against tools that will be obsolete is the distinction the answer rests on.",
+        "Admitting what the proposal does not solve, and naming who it fails, is the strongest thing in the essay."
+      ]
+    },
+    {
+      "stance": "Share the cost by who gains",
+      "approach": "Answer the funding half by tracing who actually captures the productivity gain.",
+      "plan": [
+        "Introduction: answer both halves, with the principle stated.",
+        "Body 1: how governments should prepare, in three specifics.",
+        "Body 2: who should pay, argued from where the gain lands.",
+        "Conclusion: the principle restated as a mechanism."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The question of how to prepare is easier than the question of who pays, and the second is where every plan so far has failed. [[From my perspective]] the cost should follow the gain, and the gain from automation is captured almost entirely by capital." },
+        { "role": "Body 1 · how to prepare", "text": "Preparation should be practical and early. Governments could give every adult a training entitlement usable at any point, fund it with maintenance rather than fees alone, and require firms above a certain size to give notice of automation plans, so that retraining begins before the redundancy. [[Significantly]], the training should lead to a credential employers recognise, since a course with no currency leaves the worker exactly where they were. [[There is evidence that]] programmes combining income support with recognised qualifications succeed where short courses do not." },
+        { "role": "Body 2 · who pays", "text": "[[By contrast]], asking displaced workers to fund their own transition is [[irrational]] as well as unjust. The productivity gain from replacing a person with a machine accrues to the owner of the machine, while the cost of the transition falls on somebody who was not consulted. [[It follows that]] the fair mechanism is to tax the gain: corporation tax on the higher profits, or a levy on firms making large-scale redundancies, paid into a fund that is [[integral]] to the retraining system rather than a discretionary grant." },
+        { "role": "Conclusion", "text": "[[To sum up]], governments should prepare early, credential properly and support incomes during the change, and the firms whose profits rise should pay for it. Anything else asks the person losing the job to subsidise the machine that took it, which is a settlement no workforce will [[validate]] for long." }
+      ],
+      "notes": [
+        "Naming the harder half of the question in the first sentence signals that you have read it properly.",
+        "The principle, cost should follow gain, is stated once and then applied, which is more effective than repeating it.",
+        "The final sentence compresses the injustice into one image, which is the right place for the essay's only rhetorical move."
+      ]
+    }
+  ]
+}

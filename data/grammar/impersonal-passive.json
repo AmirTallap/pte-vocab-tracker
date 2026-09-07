@@ -1,0 +1,274 @@
+{
+  "id": "impersonal-passive",
+  "title": "Impersonal Passive and Reporting Structures",
+  "group": "Voice and Reporting",
+  "summary": "It is said that, He is said to be, and have something done: the impersonal reporting structures of research and news.",
+  "sections": [
+    {
+      "heading": "It is said that: the impersonal frame",
+      "body": "When a claim is widely held but nobody in particular is to be credited with it, English uses an impersonal `it` with a passive reporting verb: `It is said that`, `It is believed that`, `It is thought that`, `It is reported that`, `It is estimated that`, `It is claimed that`, `It is widely accepted that`.\n\nThe `it` is a placeholder standing in for the that-clause and cannot be dropped, and the reporting verb must be passive. `Is believed that the site is Roman` has no subject at all, while `It says that the site is Roman` means that some document says so.",
+      "examples": [
+        {
+          "right": "It is believed that the settlement was abandoned after a fire.",
+          "wrong": "Is believed that the settlement was abandoned after a fire.",
+          "note": "English requires the placeholder subject `it`."
+        },
+        {
+          "right": "It is estimated that the population of the city will double by 2040.",
+          "wrong": null,
+          "note": "The standard frame for a figure whose source is left unstated."
+        },
+        {
+          "right": "It was once thought that the canals of Mars were artificial.",
+          "wrong": null,
+          "note": "The frame in the past, for a belief no longer held."
+        }
+      ]
+    },
+    {
+      "heading": "Raising the subject: He is said to be living abroad",
+      "body": "The same content can be reorganised so that the subject of the that-clause becomes the subject of the reporting verb, with the rest reduced to an infinitive. `It is said that he lives abroad` becomes `He is said to live abroad`. Nothing is gained or lost in meaning; the second version is tighter, and it is the preferred shape in news writing and in abstracts.\n\nThe infinitive preserves the aspect of the original: a continuous becomes `to be living`, a passive becomes `to be built`. The usual error is to raise the subject but leave a finite verb behind, producing `He is said that lives abroad`.",
+      "examples": [
+        {
+          "right": "He is said to be living somewhere in Lisbon.",
+          "wrong": "He is said that is living somewhere in Lisbon.",
+          "note": "Once the subject has been raised, an infinitive must follow."
+        },
+        {
+          "right": "The drug is known to cause drowsiness in some patients.",
+          "wrong": null,
+          "note": "`known`, `understood`, `expected`, `alleged` and `reported` all take this pattern."
+        },
+        {
+          "right": "Three climbers were reported to be missing on the north face.",
+          "wrong": null,
+          "note": "Past reporting verb with a present infinitive: missing at the time of the report."
+        }
+      ]
+    },
+    {
+      "heading": "Earlier time: the perfect infinitive",
+      "body": "If the reported event happened before the reporting, the infinitive becomes perfect: `to have caused`, `to have been destroyed`. `It is thought that a faulty heater caused the fire` therefore becomes `The fire is thought to have been caused by a faulty heater`.\n\nThe choice between `to have caused` and `to have been caused` is nothing more than the choice between active and passive, decided exactly as it would be in a finite clause. Ask whether the subject acted or was acted upon.",
+      "examples": [
+        {
+          "right": "The fire is thought to have been caused by a faulty heater.",
+          "wrong": "The fire is thought to have caused by a faulty heater.",
+          "note": "The fire caused nothing, so the infinitive has to be passive as well as perfect."
+        },
+        {
+          "right": "The team is believed to have reached the summit shortly before dawn.",
+          "wrong": null,
+          "note": "Active perfect infinitive: the subject performed the action."
+        },
+        {
+          "right": "Several paintings are believed to have been destroyed in the fire of 1834.",
+          "wrong": null,
+          "note": "Earlier time and passive together: `to have been` plus the participle."
+        }
+      ]
+    },
+    {
+      "heading": "The register of research summaries and news",
+      "body": "These structures are the ordinary voice of abstracts, literature reviews and news reports, where a claim is relayed without being endorsed and without a source being named inside the sentence. `Smoking is now widely accepted to be the leading preventable cause of death` reports a consensus; `Smoking is the leading preventable cause of death` asserts it.\n\nThey are as much a hedging device as a passive. Used everywhere they sound evasive, and a claim the writer is willing to defend is better made directly. They are also the wrong choice when the source is known: if the study can be cited, cite it.",
+      "examples": [
+        {
+          "right": "Rising sea levels are widely expected to displace millions of people this century.",
+          "wrong": null,
+          "note": "Reports a consensus without claiming personal authority for it."
+        },
+        {
+          "right": "The suspect is alleged to have falsified the accounts.",
+          "wrong": null,
+          "note": "`alleged` marks the claim as unproven, which is why reporting on legal cases relies on it."
+        },
+        {
+          "right": "Chen (2019) found that the effect disappears in larger samples.",
+          "wrong": null,
+          "note": "With a known source, name it; `It is said that` would weaken the point."
+        }
+      ]
+    },
+    {
+      "heading": "Causative: have or get something done",
+      "body": "`have something done` and `get something done` report that the subject arranged for someone else to do the work. `She had her thesis proofread` means a professional did the proofreading, not that she did it herself.\n\nThe word order is fixed — object, then past participle — and reversing it changes the meaning entirely: `She had proofread her thesis` is a past perfect and says she did the work. `get` is the more informal of the two and often implies effort or persuasion. Both also have an unlucky use in which nothing was arranged at all, as in `He had his wallet stolen`.",
+      "examples": [
+        {
+          "right": "She had her thesis proofread by a professional editor.",
+          "wrong": "She had proofread her thesis by a professional editor.",
+          "note": "Object before participle; the reversed order is a past perfect and means she did it."
+        },
+        {
+          "right": "We are going to get the heating repaired before winter.",
+          "wrong": "We are going to get repair the heating before winter.",
+          "note": "`get` takes an object plus a past participle."
+        },
+        {
+          "right": "He had his laptop stolen on the train.",
+          "wrong": null,
+          "note": "The unlucky causative: he arranged nothing but was affected by it."
+        }
+      ]
+    },
+    {
+      "heading": "It is considered that, not It considered",
+      "body": "The reporting verb in this frame is always passive, so `be` is not optional. `It considered that the scheme is affordable` is missing `is`, and as written it claims that some unnamed `it` did the considering.\n\nThe slip is easiest to make when an adverb comes between the parts, as in `It is now widely considered that`. Whenever a sentence opens with `It` and a reporting participle, check that a form of `be` stands in front of the participle.",
+      "examples": [
+        {
+          "right": "It is considered that early intervention reduces long-term costs.",
+          "wrong": "It considered that early intervention reduces long-term costs.",
+          "note": "The frame requires `is` before the participle."
+        },
+        {
+          "right": "It is now generally accepted that the two species are related.",
+          "wrong": "It now generally accepted that the two species are related.",
+          "note": "Adverbs sit between `is` and the participle; they do not replace `is`."
+        },
+        {
+          "right": "The committee considered the proposal for two hours.",
+          "wrong": null,
+          "note": "With a real subject and a real object the active is correct; the frame is not always wanted."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`Is believed that the site is Roman`. The frame needs its placeholder subject: `It is believed that`.",
+    "`He is said that he lives abroad`. Once the subject has been raised, an infinitive follows: `He is said to live abroad`.",
+    "`The fire is thought to have caused by a heater`. Earlier time plus passive needs `to have been caused`.",
+    "`It considered that` with no form of `be`. The reporting verb here is always passive: `It is considered that`.",
+    "`She had proofread her thesis by an editor` for `had her thesis proofread`. In the causative the object comes before the participle.",
+    "Hedging with `It is said that` when the source is known. If the study can be cited, cite it."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "___ that the population of the city will double within twenty years.",
+      "options": [
+        "It is estimated",
+        "It estimates",
+        "Is estimated",
+        "It is estimating"
+      ],
+      "answer": 0,
+      "explain": "The impersonal frame needs both the placeholder `it` and a passive verb. `It estimates` would mean that some named thing is doing the estimating."
+    },
+    {
+      "type": "blank",
+      "prompt": "People believe the disease originated in bats. The disease ___ to have originated in bats.",
+      "hint": "believe (present simple, passive)",
+      "accept": [
+        "is believed"
+      ],
+      "explain": "Raising the subject out of the that-clause leaves a passive reporting verb followed by an infinitive."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The fire is thought ___ by a faulty heater in the basement.",
+      "options": [
+        "to have been caused",
+        "to be caused",
+        "to cause",
+        "to have caused"
+      ],
+      "answer": 0,
+      "explain": "The event is earlier than the reporting, so the infinitive is perfect, and the fire was acted upon, so it is also passive. `to have caused` would say the fire caused something else."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rather than editing the manuscript herself, she ___ by a professional.",
+      "options": [
+        "had it proofreading",
+        "had proofread it",
+        "had it proofread",
+        "was proofread it"
+      ],
+      "answer": 2,
+      "explain": "The causative puts the object before the past participle. `had proofread it` is a past perfect and would mean she did the work herself."
+    },
+    {
+      "type": "blank",
+      "prompt": "The heating has failed again, so we are going to get it ___ before the weekend.",
+      "hint": "repair (past participle)",
+      "accept": [
+        "repaired"
+      ],
+      "explain": "`get something done` takes a past participle, because the subject arranges the work rather than performing it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It is ___ that early intervention reduces long-term costs.",
+      "options": [
+        "to consider",
+        "consider",
+        "considered",
+        "considering"
+      ],
+      "answer": 2,
+      "explain": "After `It is` the reporting verb appears as a past participle. `It is considering` would need a real subject capable of considering something."
+    },
+    {
+      "type": "blank",
+      "prompt": "He is said ___ in Lisbon now that the trial has ended.",
+      "hint": "live (continuous infinitive)",
+      "accept": [
+        "to be living"
+      ],
+      "explain": "The raised infinitive keeps the aspect of the original clause, so a continuous `is living` becomes `to be living`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It has been reported ___ several villages are still cut off by the floods.",
+      "options": [
+        "to",
+        "as",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "explain": "The impersonal frame with `it` is completed by a that-clause. An infinitive with `to` belongs to the raised version, which would begin `Several villages are reported to be`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Three climbers ___ to be missing on the north face, but all were later found safe.",
+      "hint": "report (past simple, passive)",
+      "accept": [
+        "were reported"
+      ],
+      "explain": "The raised structure works with a past reporting verb too; the present infinitive shows the situation as it stood at the time of the report."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Professor Lang ___ one of the leading authorities on medieval trade routes.",
+      "options": [
+        "says to be",
+        "is said to be",
+        "is said that is",
+        "is saying to be"
+      ],
+      "answer": 1,
+      "explain": "Once the subject has been raised to the front, the reporting verb is followed by an infinitive rather than by a finite clause."
+    },
+    {
+      "type": "blank",
+      "prompt": "If you need the certificate translated, you should ___ it done by a sworn translator.",
+      "hint": "the causative verb",
+      "accept": [
+        "have",
+        "get"
+      ],
+      "explain": "Both `have something done` and `get something done` report that the work is arranged rather than carried out by the subject."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The expedition is believed ___ the summit shortly before dawn.",
+      "options": [
+        "to reach",
+        "to have reached",
+        "to have been reached",
+        "reaching"
+      ],
+      "answer": 1,
+      "explain": "The expedition performed the action, so the perfect infinitive stays active. `to have been reached` would make the expedition the thing that was reached."
+    }
+  ]
+}

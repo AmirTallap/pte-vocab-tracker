@@ -1,0 +1,68 @@
+{
+  "id": "e26",
+  "models": [
+    {
+      "stance": "The person controls it",
+      "approach": "Answer both halves of the direct question in the first paragraph, then justify each.",
+      "plan": [
+        "Introduction: answer who controls it and how far regulation should go.",
+        "Body 1: why ownership must sit with the person, and why consent is not enough.",
+        "Body 2: what regulation should do, and one thing it should not.",
+        "Conclusion: the answer restated with its consequence."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Data about a person should be controlled by that person, and governments should go considerably further than they have. [[I would argue]] that the current arrangement, in which consent is obtained once through a banner nobody reads, is a legal fiction that protects the collector rather than the subject." },
+        { "role": "Body 1 · why control must sit with the person", "text": "[[The main point is]] that consent given at the moment of collection cannot cover uses invented years afterwards. A shopping history collected to suggest products is later used to price insurance, and no user agreed to that because it did not exist when they clicked. [[It is evident that]] a permission this [[ambiguous]] is not consent at all. Control means the ability to see what is held, withdraw it and prevent its resale, and those rights must survive the original transaction." },
+        { "role": "Body 2 · how far regulation should go", "text": "Regulation should therefore go beyond disclosure to prohibition. Certain uses, inferring health or political belief from browsing, selling location histories, should be forbidden outright rather than permitted on notice, since nobody can meaningfully consent to a [[hypothetical]] inference. [[That said]], a rule that made every dataset unusable would [[impede]] genuinely valuable work: medical research on anonymised records saves lives, and the law should distinguish that from advertising rather than treating all processing alike." },
+        { "role": "Conclusion", "text": "[[To sum up]], control belongs to the individual, and governments should ban the most harmful uses instead of asking people to police them one banner at a time. Anything less leaves the burden with the person least able to carry it, which is the [[incongruous]] position the law currently takes." }
+      ],
+      "notes": [
+        "A direct question with two parts needs both answered in the introduction. Answering only the first is the commonest content failure here.",
+        "The insurance example shows why consent fails, which is more persuasive than asserting that consent is meaningless.",
+        "The reservation about medical research keeps the essay from overreaching and shows you can hold a limit."
+      ]
+    },
+    {
+      "stance": "Shared control, strict rules",
+      "approach": "Argue that pure individual ownership is unworkable and propose a fiduciary duty on collectors instead.",
+      "plan": [
+        "Introduction: answer the question, and reject the ownership framing.",
+        "Body 1: why individual control does not work in practice.",
+        "Body 2: what regulation should require instead, with an analogy.",
+        "Conclusion: the answer restated as a duty rather than a property right."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The popular answer is that people should own their data, and the popular answer is largely unworkable. [[From my perspective]] the collectors should hold it under a strict legal duty, and governments should go a long way indeed in defining that duty." },
+        { "role": "Body 1 · why ownership fails", "text": "[[First and foremost]], nobody has time to manage it. An ordinary person interacts with hundreds of services, and asking them to negotiate terms with each is a burden no one discharges, which is precisely why consent banners are clicked away. Ownership also implies sale, and a right you can sell under pressure is a right the poorest will sell first. [[Consequently]], a market in personal data would make privacy a luxury rather than a protection." },
+        { "role": "Body 2 · what to require instead", "text": "[[By contrast]], the professions solved this problem long ago. A doctor or a solicitor holds sensitive information under a duty to act in the client's interest, and breach is punished irrespective of what was signed. Applying the same [[stipulations]] to data holders would make the obligation theirs rather than ours: no use that harms the subject, no resale, no inference the subject would refuse. [[It is worth noting]] that such duties are enforceable by regulators rather than by individuals, which is the only [[pragmatic]] route." },
+        { "role": "Conclusion", "text": "[[In conclusion]], control should mean a duty on the holder rather than a title in the subject, and governments should go as far as licensing data processors the way they license banks. That would relieve the individual of a job they cannot do and place it with the party that [[benefits]] from doing it badly." }
+      ],
+      "notes": [
+        "Rejecting the popular framing in the first sentence gives the essay a genuine argument rather than a summary of received opinion.",
+        "The professional duty analogy carries the second half of the essay and is developed rather than merely mentioned.",
+        "Licensing data processors like banks is a concrete proposal, which is what a how far should governments go question is asking for."
+      ]
+    },
+    {
+      "stance": "Control depends on the kind of data",
+      "approach": "Distinguish volunteered, observed and inferred data, and assign different rules to each.",
+      "plan": [
+        "Introduction: answer by splitting the category.",
+        "Body 1: volunteered and observed data, and the rules for each.",
+        "Body 2: inferred data, where the strictest rules belong.",
+        "Conclusion: the three-part answer restated."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Personal data is not one thing, and a single rule for all of it will be either useless or unworkable. [[In my opinion]] control should follow a [[delineated|Delineate]] distinction between what a person volunteers, what a service observes and what a company infers." },
+        { "role": "Body 1 · volunteered and observed", "text": "Data a person supplies deliberately, a name, an address, a preference, is theirs plainly: they should see it, correct it, export it and delete it, and most modern law already says so. Observed data, the record of where you clicked and how long you paused, is harder, since the service genuinely generated it, but it describes nobody else. [[Broadly speaking]], it should be usable to operate the service and forbidden for anything else without a separate and [[explicit]] permission." },
+        { "role": "Body 2 · inferred", "text": "[[By contrast]], inferred data is where the real harm lives and where regulation is weakest. A company that concludes from a shopping pattern that somebody is pregnant, depressed or likely to default has created a fact the person never disclosed and may not know. [[It is clear that]] consent is meaningless here, because the inference did not exist when permission was given, and the consequences, in credit, insurance and employment, are [[irreversible]] once acted on." },
+        { "role": "Conclusion", "text": "[[To sum up]], people should own what they volunteer, restrict what is observed, and governments should regulate what is inferred most strictly of all, including outright prohibition in health, finance and politics. The three-part answer is more [[intricate]] than a slogan about ownership, but it is the only version that matches how the data is actually produced." }
+      ],
+      "notes": [
+        "Splitting the subject into three named categories is the most useful thing this essay does, and each body paragraph then has a clear job.",
+        "The pregnancy inference is a real and widely known case, which does more work than a general warning about algorithms.",
+        "Admitting that your answer is more complicated than a slogan is a confident way to close."
+      ]
+    }
+  ]
+}

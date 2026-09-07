@@ -1,0 +1,300 @@
+{
+  "id": "relative-clauses",
+  "title": "Relative Clauses",
+  "group": "Clause Structure",
+  "summary": "How defining and non-defining relative clauses differ, which pronoun to use, when to omit it, and how to reduce the clause.",
+  "sections": [
+    {
+      "heading": "Defining and Non-Defining: What the Commas Change",
+      "body": "A **defining** (restrictive) relative clause tells the reader which one is meant. It is essential to the identification of the noun, and it takes no commas.\n\nA **non-defining** (non-restrictive) relative clause adds extra information about a noun that is already identified. It sits between commas, and it could be deleted without changing which thing is being talked about.\n\nThe commas are not decoration. They change the meaning of the sentence, which is why examiners treat them as a grammar point rather than a style point.",
+      "examples": [
+        {
+          "right": "The report that the committee commissioned was published in March.",
+          "wrong": null,
+          "note": "Defining: the clause says which report, so no commas are used."
+        },
+        {
+          "right": "The report, which the committee commissioned, was published in March.",
+          "wrong": null,
+          "note": "Non-defining: the report is already known and the clause merely adds background."
+        },
+        {
+          "right": "My sister who lives in Cairo is a pharmacist.",
+          "wrong": null,
+          "note": "Without commas the sentence implies several sisters and singles out one; with commas it would imply only one sister."
+        },
+        {
+          "right": "Mount Everest, which was first climbed in 1953, attracts hundreds of climbers a year.",
+          "wrong": "Mount Everest which was first climbed in 1953 attracts hundreds of climbers a year.",
+          "note": "A uniquely identified noun cannot be narrowed further, so the clause must be non-defining and must take commas."
+        }
+      ]
+    },
+    {
+      "heading": "Choosing the Relative Pronoun",
+      "body": "`who` and `whom` refer to people, `which` to things, and `that` to either, but only in a defining clause. `whose` is the possessive form and works for things as well as for people.\n\n`where`, `when` and `why` are relative adverbs. They stand for a preposition plus `which`: `where` = `in which` or `at which`, `when` = `in which` or `on which`, and `why` = `for which`, which follows only the noun `reason`.",
+      "examples": [
+        {
+          "right": "The researcher whose data was questioned withdrew the paper.",
+          "wrong": "The researcher which data was questioned withdrew the paper.",
+          "note": "`whose` is the only possessive relative, and it is not restricted to people."
+        },
+        {
+          "right": "This is the laboratory where the samples are stored.",
+          "wrong": "This is the laboratory which the samples are stored.",
+          "note": "`where` replaces `in which`; bare `which` leaves the preposition missing."
+        },
+        {
+          "right": "1969 was the year when humans first landed on the Moon.",
+          "wrong": "1969 was the year which humans first landed on the Moon.",
+          "note": "After a time noun, `when` stands for `in which`."
+        },
+        {
+          "right": "Nobody explained the reason why the trial was stopped.",
+          "wrong": null,
+          "note": "`why` follows the noun `reason` only; after other nouns the pattern is `for which`."
+        }
+      ]
+    },
+    {
+      "heading": "That, Zero, and Non-Defining Clauses",
+      "body": "`that` belongs to defining clauses alone. After a comma it is impossible, and `which` or `who` must be used instead.\n\nThe **zero relative**, where the pronoun is simply left out, is subject to two conditions: the clause must be defining, and the pronoun must be the object of its own clause. A relative pronoun acting as the subject can never be dropped.\n\nA second point follows from this. Once the relative pronoun has been used, the position it came from stays empty. English does not repeat the noun with a pronoun inside the clause.",
+      "examples": [
+        {
+          "right": "The article that changed the debate appeared in 2018.",
+          "wrong": "The article, that changed the debate, appeared in 2018.",
+          "note": "`that` cannot introduce a non-defining clause; the comma version needs `which`."
+        },
+        {
+          "right": "The book I ordered has arrived.",
+          "wrong": null,
+          "note": "The pronoun would be the object of `ordered`, so it can be omitted."
+        },
+        {
+          "right": "The parcel that arrived yesterday was damaged.",
+          "wrong": "The parcel arrived yesterday was damaged.",
+          "note": "Here the pronoun is the subject of `arrived` and cannot be dropped."
+        },
+        {
+          "right": "The proposal that the board rejected has been revised.",
+          "wrong": "The proposal that the board rejected it has been revised.",
+          "note": "The object position stays empty; adding `it` duplicates the object."
+        }
+      ]
+    },
+    {
+      "heading": "Prepositions: Fronting or the End Position",
+      "body": "When the relative pronoun is governed by a preposition, there are two orders. The preposition can be **fronted**, in which case only `whom` or `which` may follow it, or it can stay at the **end** of the clause, in which case `that` or the zero relative becomes available.\n\nFronting is formal and belongs to written academic prose. The end position is neutral and far more common in speech. Both are correct; what is not correct is mixing them, since `that` and `who` cannot follow a preposition.",
+      "examples": [
+        {
+          "right": "The report to which I referred is available online.",
+          "wrong": null,
+          "note": "Formal fronting: the preposition moves with the pronoun, and `which` is obligatory."
+        },
+        {
+          "right": "The report I referred to is available online.",
+          "wrong": null,
+          "note": "The natural order: the preposition stays at the end, which also allows the pronoun to be dropped."
+        },
+        {
+          "right": "The colleague with whom she collaborated has retired.",
+          "wrong": "The colleague with who she collaborated has retired.",
+          "note": "After a fronted preposition the object form `whom` is required."
+        },
+        {
+          "right": "The team that she works with won the award.",
+          "wrong": "The team with that she works won the award.",
+          "note": "`that` can never follow a preposition."
+        }
+      ]
+    },
+    {
+      "heading": "Which for a Whole Clause; Quantifier + of whom",
+      "body": "In a non-defining clause, `which` can refer back not to a single noun but to the whole idea of the preceding clause. This is the one relative that has a clause, rather than a noun, as its antecedent. `what` cannot do this job.\n\nA quantifier can also be attached to a relative pronoun: `many of which`, `most of whom`, `neither of which`, `some of whom`. This construction is a favourite in academic writing because it joins a statistic to its commentary in one sentence. Note that after `of` the form must be `whom`, never `who`, and that using `them` instead produces two main clauses joined only by a comma.",
+      "examples": [
+        {
+          "right": "He missed the deadline, which surprised everyone.",
+          "wrong": "He missed the deadline, what surprised everyone.",
+          "note": "`which` may refer to the whole preceding clause; `what` is not a relative pronoun here."
+        },
+        {
+          "right": "The survey covered 400 households, most of which were in rural areas.",
+          "wrong": "The survey covered 400 households, most of them were in rural areas.",
+          "note": "`of which` makes the second part a relative clause; `of them` leaves two main clauses spliced by a comma."
+        },
+        {
+          "right": "She interviewed twelve candidates, three of whom were shortlisted.",
+          "wrong": "She interviewed twelve candidates, three of who were shortlisted.",
+          "note": "After the preposition `of`, only `whom` is possible."
+        }
+      ]
+    },
+    {
+      "heading": "Reduced Relative Clauses",
+      "body": "A relative clause whose pronoun is the **subject** can often be shortened to a participle phrase. An active clause reduces to an `-ing` form, and a passive clause reduces to a past participle.\n\n`the students who are taking the exam` becomes `the students taking the exam`; `the results that were published last year` becomes `the results published last year`. The reduction is not available when the relative pronoun is the object of its clause.\n\nWhat remains must be a participle. A bare finite verb left after the noun produces one of the most visible errors in written English.",
+      "examples": [
+        {
+          "right": "The students taking the exam must arrive by eight.",
+          "wrong": null,
+          "note": "Reduced from `who are taking`; the -ing form carries the active meaning."
+        },
+        {
+          "right": "The results published last year have since been revised.",
+          "wrong": null,
+          "note": "Reduced from `which were published`; the past participle carries the passive meaning."
+        },
+        {
+          "right": "The family living next door owns the bakery.",
+          "wrong": "The family live next door owns the bakery.",
+          "note": "A reduced relative uses a participle, never a bare finite verb."
+        },
+        {
+          "right": "Anyone wishing to attend should register in advance.",
+          "wrong": null,
+          "note": "Reduction works here because the pronoun would be the subject of `wishing`."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`that` after a comma: a non-defining clause takes `which` or `who`, so `The proposal, that was rejected` must be `The proposal, which was rejected`.",
+    "Dropping a subject relative: `The email arrived this morning was urgent` needs `that arrived`; only an object pronoun can be omitted.",
+    "Keeping a pronoun inside the clause: `The book that I read it was long` - Arabic relative clauses retain that pronoun, English deletes it.",
+    "`who` after a preposition: write `with whom` or `the person she works with`, never `with who` or `with that`.",
+    "`what` for `which`: `He was late, what annoyed the team` should be `which annoyed the team`.",
+    "Commas that rewrite the meaning: `My colleagues, who speak Arabic, will translate` says all of them speak Arabic; without commas it means only the Arabic-speaking ones."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The equipment ___ we ordered in March has finally arrived.",
+      "options": [
+        "that",
+        "who",
+        "whose",
+        "what"
+      ],
+      "answer": 0,
+      "explain": "An object relative in a defining clause takes `that` or `which`. `what` is never a relative pronoun after a noun, because it already contains its own antecedent."
+    },
+    {
+      "type": "blank",
+      "prompt": "Professor Hale, ___ research on coastal erosion is widely cited, will chair the panel.",
+      "hint": "one word: the possessive relative pronoun",
+      "accept": [
+        "whose"
+      ],
+      "explain": "`whose` is the possessive relative and is the only form that can be followed directly by a noun such as `research`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The conference was cancelled at short notice, ___ left several delegates stranded.",
+      "options": [
+        "who",
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": 1,
+      "explain": "`which` is the only relative that can take a whole clause as its antecedent. `that` is excluded anyway, since it cannot introduce a non-defining clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The archive contains 2,000 photographs, most of ___ have never been exhibited.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "them"
+      ],
+      "answer": 0,
+      "explain": "`most of which` turns the second part into a relative clause. `most of them` would leave two main clauses joined by nothing but a comma."
+    },
+    {
+      "type": "blank",
+      "prompt": "The panel interviewed thirty applicants, eight ___ were offered places.",
+      "hint": "two words: preposition + relative pronoun for people",
+      "accept": [
+        "of whom"
+      ],
+      "explain": "A quantifier links to the relative pronoun through `of`, and after a preposition the object form `whom` is required."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The students ___ the exam this afternoon should collect their ID cards now.",
+      "options": [
+        "took",
+        "are taking",
+        "take",
+        "taking"
+      ],
+      "answer": 3,
+      "explain": "This is a reduced relative from `who are taking`. Any finite verb, including `are taking`, would need a relative pronoun in front of it."
+    },
+    {
+      "type": "blank",
+      "prompt": "The findings ___ in Nature last year have since been challenged by two research groups.",
+      "hint": "publish (reduced relative clause, passive)",
+      "accept": [
+        "published"
+      ],
+      "explain": "A past participle reduces `which were published`; the passive meaning survives the reduction without any auxiliary."
+    },
+    {
+      "type": "mcq",
+      "prompt": "This is the journal ___ the article first appeared.",
+      "options": [
+        "that",
+        "where in",
+        "in which",
+        "which"
+      ],
+      "answer": 2,
+      "explain": "`appear` needs the preposition `in`, so bare `which` or `that` leaves the clause incomplete. Once the preposition is fronted, only `which` can follow it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Dr Ayad, ___ we consulted about the survey design, has agreed to review the draft.",
+      "options": [
+        "which",
+        "whom",
+        "what",
+        "that"
+      ],
+      "answer": 1,
+      "explain": "The pronoun is the object of `consulted` and refers to a person, so `whom` is the form. `that` is impossible in any case after a comma."
+    },
+    {
+      "type": "blank",
+      "prompt": "The village ___ the excavation took place is now a protected heritage site.",
+      "hint": "a relative adverb of place, or its preposition + which equivalent",
+      "accept": [
+        "where",
+        "in which",
+        "at which"
+      ],
+      "explain": "`where` stands for `in which` after a place noun; either form is correct, but bare `which` would leave the preposition missing."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The delays ___ over the winter cost the project six months.",
+      "options": [
+        "which occurred them",
+        "occurred",
+        "that they occurred",
+        "that occurred"
+      ],
+      "answer": 3,
+      "explain": "The relative pronoun is the subject of its clause, so it cannot be dropped. `that they occurred` repeats the subject, a position English leaves empty."
+    },
+    {
+      "type": "blank",
+      "prompt": "The proposal ___ she referred at yesterday's meeting has not yet been circulated.",
+      "hint": "two words: fronted preposition + relative pronoun",
+      "accept": [
+        "to which"
+      ],
+      "explain": "The verb is `refer to`, and when the preposition is fronted it must be followed by `which` for a thing, never by `that`."
+    }
+  ]
+}

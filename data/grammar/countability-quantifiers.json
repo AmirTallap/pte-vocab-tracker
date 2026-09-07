@@ -1,0 +1,281 @@
+{
+  "id": "countability-quantifiers",
+  "title": "Countability and Quantifiers",
+  "group": "The Noun Phrase",
+  "summary": "Which nouns can be counted in English, how to quantify the ones that cannot, and which quantifier fits which noun.",
+  "sections": [
+    {
+      "heading": "Nouns that are uncountable in English",
+      "body": "A set of very common academic nouns is **uncountable** in English although the equivalent word is countable in Arabic and in many European languages: `information`, `advice`, `research`, `evidence`, `equipment`, `furniture`, `knowledge`, `progress`, `staff`, `news`, `luggage`, `work`, `feedback`, `traffic`, `homework`.\n\nAn uncountable noun takes **no plural -s** and **no `a/an`**, and it takes a singular verb. `Informations`, `an advice`, `many researches` and `two equipments` are not options in careful English, however natural they feel.",
+      "examples": [
+        {
+          "right": "The supervisor gave me some useful advice about structuring the review.",
+          "wrong": "The supervisor gave me some useful advices about structuring the review.",
+          "note": "`Advice` has no plural form."
+        },
+        {
+          "right": "Recent research suggests that sleep consolidates memory.",
+          "wrong": "Recent researches suggest that sleep consolidates memory.",
+          "note": "`Research` is uncountable and takes a singular verb."
+        },
+        {
+          "right": "The news from the ministry was worse than expected.",
+          "wrong": "The news from the ministry were worse than expected.",
+          "note": "`News` looks plural but is uncountable and singular."
+        }
+      ]
+    },
+    {
+      "heading": "Partitives: how to count the uncountable",
+      "body": "When a single unit really is needed, English inserts a **partitive** — a countable measure word — before `of`: `a piece of advice`, `an item of equipment`, `a body of research`, `a bit of information`, `a word of warning`, `a great deal of progress`.\n\nThe partitive is what carries the plural: `three pieces of equipment`, `several items of furniture`. Some partitives are collocationally fixed: research comes in `a body of`, evidence in `a body of` or `a piece of`, and luggage in `an item of`.",
+      "examples": [
+        {
+          "right": "The laboratory ordered three new items of equipment.",
+          "wrong": "The laboratory ordered three new equipments.",
+          "note": "The partitive noun takes the plural, not the uncountable noun."
+        },
+        {
+          "right": "A growing body of research links air quality to cognitive performance.",
+          "wrong": "A growing number of researches link air quality to cognitive performance.",
+          "note": "`A body of research` is the standard academic partitive."
+        },
+        {
+          "right": "Let me give you one piece of advice before the interview.",
+          "wrong": null,
+          "note": "`A piece of` supplies the countability that `advice` lacks."
+        }
+      ]
+    },
+    {
+      "heading": "Nouns that switch, and what changes",
+      "body": "A number of nouns are uncountable in one sense and countable in another, and the change is a change of **meaning**, not merely of form.\n\n`Experience` uncountable is accumulated skill (`ten years of experience`); `experiences` countable are individual events (`her experiences abroad`). `Time` uncountable is duration (`we have no time`); `times` countable are occasions (`three times`). `Paper` uncountable is the material; `papers` are articles or documents. `Work` uncountable is labour; `works` are creative or engineering constructions. `Business` uncountable is commerce; `a business` is a company.",
+      "examples": [
+        {
+          "right": "The internship gave her practical experience of laboratory work.",
+          "wrong": "The internship gave her practical experiences of laboratory work.",
+          "note": "Accumulated skill is uncountable."
+        },
+        {
+          "right": "She presented two papers at the conference and printed them on recycled paper.",
+          "wrong": null,
+          "note": "The same word, countable as an article and uncountable as a material."
+        },
+        {
+          "right": "There is not enough time, and I have asked them three times already.",
+          "wrong": null,
+          "note": "Duration versus occasions."
+        }
+      ]
+    },
+    {
+      "heading": "Much, many, little, few, less, fewer",
+      "body": "`Much` and `little` go with uncountable nouns; `many` and `few` with plurals. In affirmative statements `much` sounds formal and is usually replaced by **a great deal of**, **a large amount of** or **plenty of**, while `many` survives more easily; in questions and negatives both are natural (`How much progress?`, `not many students`).\n\nThe indefinite article reverses the tone. `A few` and `a little` are positive and mean *some, enough*; `few` and `little` are negative and mean *hardly any*. `She has a few friends here` is reassuring; `She has few friends here` is not.\n\n**Fewer** is used with countables and **less** with uncountables (`fewer bags`, `less plastic`), and the same split governs **number of** for countables and **amount of** for uncountables.",
+      "examples": [
+        {
+          "right": "Supermarkets now issue fewer plastic bags than they did a decade ago.",
+          "wrong": "Supermarkets now issue less plastic bags than they did a decade ago.",
+          "note": "`Bags` is countable, so `fewer`."
+        },
+        {
+          "right": "The number of applications has risen, although the amount of funding has not.",
+          "wrong": "The amount of applications has risen, although the number of funding has not.",
+          "note": "`Number of` for countables, `amount of` for uncountables."
+        },
+        {
+          "right": "She has a few contacts in the department, so she rarely feels isolated.",
+          "wrong": "She has few contacts in the department, so she rarely feels isolated.",
+          "note": "Without `a`, `few` means hardly any, which contradicts the second clause."
+        },
+        {
+          "right": "The team made a great deal of progress in the first month.",
+          "wrong": "The team made many progress in the first month.",
+          "note": "`Progress` is uncountable; `a great deal of` is the natural affirmative quantifier."
+        }
+      ]
+    },
+    {
+      "heading": "Some and any",
+      "body": "The default division is that **some** belongs to affirmative statements and **any** to negatives and questions: `There is some information on the site` / `There isn't any information on the site` / `Is there any information on the site?`\n\nThe exception matters in speech: `some` is used in questions that are **offers or requests**, because the speaker expects a yes. `Would you like some coffee?` and `Could you give me some help?` are offers, not genuine enquiries.\n\n`Any` also appears in affirmative sentences with the meaning *it does not matter which*: `Any student may apply`.",
+      "examples": [
+        {
+          "right": "Would you like some coffee before the session starts?",
+          "wrong": "Would you like any coffee before the session starts?",
+          "note": "An offer takes `some`, since a yes is anticipated."
+        },
+        {
+          "right": "There isn't any information on the website about the entry requirements.",
+          "wrong": "There isn't some information on the website about the entry requirements.",
+          "note": "A negative statement takes `any`."
+        },
+        {
+          "right": "Any applicant with a relevant degree is eligible.",
+          "wrong": null,
+          "note": "Affirmative `any` meaning it makes no difference which."
+        }
+      ]
+    },
+    {
+      "heading": "Each, every, all, both, either, neither",
+      "body": "These differ in the **noun form** and the **verb form** they require. `Each` and `every` take a singular noun and a singular verb (`each student was interviewed`, `every proposal has merit`); `each` can also stand after `of` with a plural (`each of the students was interviewed`). `Either` and `neither` likewise take a singular noun and, in careful writing, a singular verb.\n\n`Both` and `all` take plurals — `both proposals`, `all students` — except that `all` also combines with uncountables (`all evidence`). `None of` is followed by a plural or uncountable noun and, in formal writing, a singular verb.\n\nNote that `every` refers to the group as a whole and `each` to the members one at a time, and that `neither` is used only of two items; for more than two, use `none`.",
+      "examples": [
+        {
+          "right": "Each candidate was interviewed separately, and all of them received written feedback.",
+          "wrong": "Each candidates were interviewed separately.",
+          "note": "`Each` takes a singular noun and a singular verb."
+        },
+        {
+          "right": "Neither of the two proposals addresses the underlying problem.",
+          "wrong": "Neither of the two proposals address the underlying problem.",
+          "note": "`Neither` is grammatically singular in careful writing."
+        },
+        {
+          "right": "Both methods produced the same result, but neither was cheap.",
+          "wrong": "Both method produced the same result.",
+          "note": "`Both` requires a plural noun."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Pluralising an English uncountable: `informations`, `advices`, `researches`, `equipments`, `furnitures`. These words have no plural, whatever their equivalents do in Arabic.",
+    "Writing `an advice` or `a research`. Use a partitive instead: `a piece of advice`, `a body of research`.",
+    "Using `less` with a countable noun (`less students`, `less bags`). Countables take `fewer`.",
+    "Saying `the amount of students`. Countables take `the number of`; only uncountables take `the amount of`.",
+    "Dropping the `a` in `a few` or `a little` and reversing the meaning: `few results` says hardly any, not some.",
+    "Treating `staff`, `news` or `progress` as plural: `the staff is` or `the staff are` is a real choice, but `staffs` and `newses` are not."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The supervisor gave me ___ on how to structure the literature review.",
+      "options": [
+        "some useful advices",
+        "useful advices",
+        "some useful advice",
+        "a useful advice"
+      ],
+      "answer": 2,
+      "explain": "`Advice` is uncountable, so it takes neither a plural -s nor `a`. The countable-looking forms would need a partitive: `a useful piece of advice`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Let me give you one useful ___ of advice before the interview.",
+      "hint": "partitive noun",
+      "accept": [
+        "piece",
+        "bit",
+        "word"
+      ],
+      "explain": "An uncountable noun is counted through a partitive: a piece, a bit or a word of advice. The partitive carries the number, not `advice` itself."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Supermarkets now issue ___ plastic bags than they did a decade ago.",
+      "options": [
+        "fewer",
+        "little",
+        "less",
+        "fewest"
+      ],
+      "answer": 0,
+      "explain": "`Bags` is countable, so the comparative is `fewer`. `Less` is common on signage but belongs with uncountables such as `less plastic`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The ___ of students enrolling in online courses has risen sharply since 2020.",
+      "options": [
+        "amount",
+        "number",
+        "quantity",
+        "many"
+      ],
+      "answer": 1,
+      "explain": "Countable nouns take `the number of`; `the amount of` is reserved for uncountables such as funding or time."
+    },
+    {
+      "type": "blank",
+      "prompt": "She has ___ contacts in the department, so she rarely feels isolated at work.",
+      "hint": "few (positive meaning)",
+      "accept": [
+        "a few",
+        "quite a few"
+      ],
+      "explain": "`A few` means some, enough; bare `few` means hardly any and would contradict the second clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "He speaks with authority because he has ___ experience of teaching abroad.",
+      "options": [
+        "a large number of",
+        "a great deal of",
+        "a great number of",
+        "many"
+      ],
+      "answer": 1,
+      "explain": "`Experience` in the sense of accumulated skill is uncountable, so it takes `a great deal of`. The `number` phrases require a plural countable noun."
+    },
+    {
+      "type": "blank",
+      "prompt": "Would you like ___ coffee before the afternoon session begins?",
+      "hint": "some or any",
+      "accept": [
+        "some"
+      ],
+      "explain": "Questions normally take `any`, but an offer or request takes `some` because the speaker anticipates a yes."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ of the two proposals addresses the underlying funding problem; both assume the grant will be renewed.",
+      "options": [
+        "None",
+        "Any",
+        "Either",
+        "Neither"
+      ],
+      "answer": 3,
+      "explain": "`Neither` negates two alternatives and takes a singular verb. `None` is used of three or more, and `Either` would assert that one of them does address the problem."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The placement year gave her practical ___ of laboratory work.",
+      "options": [
+        "an experience",
+        "the experiences",
+        "experiences",
+        "experience"
+      ],
+      "answer": 3,
+      "explain": "Uncountable `experience` is accumulated skill. Countable `experiences` would mean separate memorable events, which does not fit `practical ... of laboratory work`."
+    },
+    {
+      "type": "blank",
+      "prompt": "How ___ progress have you made on the first draft?",
+      "hint": "quantifier",
+      "accept": [
+        "much"
+      ],
+      "explain": "`Progress` is uncountable, so the question word is `much`. `Many` would require a plural countable noun."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sadly, ___ evidence was found to support the hypothesis, and the project was abandoned.",
+      "options": [
+        "a little",
+        "a few",
+        "few",
+        "little"
+      ],
+      "answer": 3,
+      "explain": "`Evidence` is uncountable, which rules out `few` and `a few`, and the negative outcome calls for `little` rather than the positive `a little`."
+    },
+    {
+      "type": "blank",
+      "prompt": "There isn't ___ information on the website about the entry requirements.",
+      "hint": "some or any",
+      "accept": [
+        "any"
+      ],
+      "explain": "Negative statements take `any`; `some` belongs in affirmatives and in offers."
+    }
+  ]
+}

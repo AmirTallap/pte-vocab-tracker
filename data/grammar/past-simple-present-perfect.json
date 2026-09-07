@@ -1,0 +1,265 @@
+{
+  "id": "past-simple-present-perfect",
+  "title": "Past Simple vs Present Perfect",
+  "group": "Tenses",
+  "summary": "Choosing between finished past time and time that still reaches the present, with the markers that settle the choice.",
+  "sections": [
+    {
+      "heading": "Finished time and time that reaches now",
+      "body": "The past simple places an event inside a closed period: `yesterday`, `in 2019`, `last term`, `during the war`. The period is over, and no claim is made about the present.\n\nThe present perfect places an event inside a period that still includes the moment of speaking, or presents it as relevant now. `The company opened a branch in Perth` is history; `The company has opened a branch in Perth` is news.",
+      "examples": [
+        {
+          "right": "The university introduced the scheme in 2014.",
+          "wrong": "The university has introduced the scheme in 2014.",
+          "note": "`In 2014` closes the period, so the past simple is required."
+        },
+        {
+          "right": "The council has approved the plan, so work can begin.",
+          "wrong": null,
+          "note": "The event is reported for its present consequence."
+        },
+        {
+          "right": "I lost my keys this morning.",
+          "wrong": null,
+          "note": "Correct if the morning is over; while it is still morning, `I have lost my keys this morning` is equally correct."
+        }
+      ]
+    },
+    {
+      "heading": "Time markers that decide the tense",
+      "body": "Some expressions belong firmly to one tense. `Ago`, `last night`, `in 1998`, `then`, `at that time` and `when I was a student` take the past simple. `Since`, `for` measuring up to now, `so far`, `up to now`, `already`, `yet`, `just`, `ever`, `never`, `recently` and a still-running `this week` take the present perfect.\n\nAmerican usage is looser: `Did you eat yet?` is ordinary there. The pairing rewarded in an academic test is `Have you eaten yet?`, and it is safer to keep the markers with their standard tense throughout.",
+      "examples": [
+        {
+          "right": "They have lived in Adelaide since 2018.",
+          "wrong": "They live in Adelaide since 2018.",
+          "note": "`Since` measures from a past point up to now, which only a perfect form expresses."
+        },
+        {
+          "right": "The department has recruited two lecturers so far this year.",
+          "wrong": "The department recruited two lecturers so far this year.",
+          "note": "`So far this year` includes the present moment."
+        },
+        {
+          "right": "She submitted the application three weeks ago.",
+          "wrong": "She has submitted the application three weeks ago.",
+          "note": "`Ago` counts back to a finished point, which blocks the present perfect."
+        }
+      ]
+    },
+    {
+      "heading": "Present perfect simple and continuous",
+      "body": "The simple form looks at a result or a quantity: what has been completed, how many, how much. The continuous form looks at the activity itself: how long it has run, whether it is still running, and what traces it has left.\n\nWith `how long`, `all morning` and `for three weeks`, the continuous is usually the better fit. With a number of finished items, the simple form is required.",
+      "examples": [
+        {
+          "right": "She has written four chapters.",
+          "wrong": "She has been writing four chapters.",
+          "note": "A countable result takes the simple form."
+        },
+        {
+          "right": "She has been writing since eight this morning.",
+          "wrong": null,
+          "note": "Duration of an activity still going on takes the continuous."
+        },
+        {
+          "right": "They have been repairing the bridge for months, and it is still closed.",
+          "wrong": null,
+          "note": "The emphasis falls on the unfinished activity."
+        },
+        {
+          "right": "They have repaired the bridge, so traffic is flowing again.",
+          "wrong": null,
+          "note": "Completed, with a result that matters now."
+        }
+      ]
+    },
+    {
+      "heading": "have been to and have gone to",
+      "body": "`Has been to` means the person visited a place and has since returned. `Has gone to` means the person travelled there and is still away.\n\nThe distinction is worth care because the two forms carry opposite information about where the person is at this moment.",
+      "examples": [
+        {
+          "right": "Priya has been to Berlin twice; she found the archives excellent.",
+          "wrong": null,
+          "note": "She went and came back."
+        },
+        {
+          "right": "Priya is not in the office — she has gone to Berlin for the conference.",
+          "wrong": "Priya is not in the office — she has been to Berlin for the conference.",
+          "note": "`Gone` keeps her away; `been` would mean the trip is over and she is back."
+        },
+        {
+          "right": "I have been to the archive three times this week.",
+          "wrong": null,
+          "note": "Completed visits inside a period that still includes today."
+        }
+      ]
+    },
+    {
+      "heading": "Why 'I have seen him yesterday' fails",
+      "body": "The present perfect never combines with an expression of finished time. `Yesterday`, `last week` and `two days ago` each name a point inside a closed period, while the present perfect insists that the period is still open. The sentence makes two claims that cannot both hold.\n\nThe repair is to give up one of them: keep the marker and use the past simple, or keep the present perfect and drop the marker.\n\nA related pattern governs news reports. The present perfect announces the event, and the past simple then supplies the details, because those details are pinned to specific finished moments.",
+      "examples": [
+        {
+          "right": "I saw him yesterday.",
+          "wrong": "I have seen him yesterday.",
+          "note": "`Yesterday` is finished time, so the past simple."
+        },
+        {
+          "right": "I have seen him recently.",
+          "wrong": null,
+          "note": "`Recently` reaches up to now, so the present perfect fits."
+        },
+        {
+          "right": "The minister has resigned. She announced her decision on Friday morning.",
+          "wrong": null,
+          "note": "News in the present perfect, then details in the past simple."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`I have finished it yesterday`: a finished-time marker forces the past simple, so either drop the marker or change the tense.",
+    "`I am here since Monday` or `I live here since 2018`: `since` and `for` up to now need `have been` and `have lived`.",
+    "`How long are you working here?` about a job that began in the past: ask `How long have you been working here?`.",
+    "`He has gone to Cairo` said of someone standing in the room: a completed visit is `has been to`.",
+    "`She has been writing three reports`: a fixed number of finished items takes the present perfect simple.",
+    "Adding the detail in the present perfect (`He has resigned on Friday`): announce in the present perfect, then switch to the past simple."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The university ___ its first medical degree in 1887.",
+      "options": [
+        "has been awarding",
+        "was awarding",
+        "has awarded",
+        "awarded"
+      ],
+      "answer": 3,
+      "explain": "`In 1887` names a closed period, which blocks the present perfect no matter how historically important the event is."
+    },
+    {
+      "type": "blank",
+      "prompt": "Prices ___ sharply during the last quarter, but they have recovered since.",
+      "hint": "fall (past simple)",
+      "accept": [
+        "fell"
+      ],
+      "explain": "`During the last quarter` is a finished period; the second clause then moves to the present perfect for the stretch running up to now."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kwame is not in the office — he ___ to the Canberra branch for the week.",
+      "options": [
+        "has been",
+        "goes",
+        "has gone",
+        "had gone"
+      ],
+      "answer": 2,
+      "explain": "`Has gone to` means he is still away, which his absence confirms. `Has been to` would mean the visit is over and he is back."
+    },
+    {
+      "type": "blank",
+      "prompt": "She ___ for the results for three weeks and is becoming anxious.",
+      "hint": "wait (present perfect continuous)",
+      "accept": [
+        "has been waiting",
+        "'s been waiting"
+      ],
+      "explain": "The waiting began in the past, is still going on, and is measured in duration, which is exactly what the continuous form expresses."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I ___ him at a conference in Lisbon last March.",
+      "options": [
+        "saw",
+        "was seeing",
+        "have seen",
+        "have been seeing"
+      ],
+      "answer": 0,
+      "explain": "`Last March` closes the period. `I have seen him last March` is the classic mismatch: an open-period tense pinned to a finished moment."
+    },
+    {
+      "type": "blank",
+      "prompt": "The team ___ the report yet, so the meeting has been postponed.",
+      "hint": "not finish (present perfect)",
+      "accept": [
+        "have not finished",
+        "haven't finished",
+        "'ve not finished",
+        "has not finished",
+        "hasn't finished",
+        "'s not finished"
+      ],
+      "explain": "`Yet` looks from a past point through to the present, which is present-perfect territory."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The research group ___ three papers so far this year.",
+      "options": [
+        "had published",
+        "has published",
+        "was publishing",
+        "published"
+      ],
+      "answer": 1,
+      "explain": "`So far this year` describes a period that is still running, so the present perfect. The past simple would treat the year as over."
+    },
+    {
+      "type": "blank",
+      "prompt": "My supervisor ___ to Antarctica twice, and she still talks about it.",
+      "hint": "be (present perfect)",
+      "accept": [
+        "has been",
+        "'s been"
+      ],
+      "explain": "Visits that were completed and followed by a return home take `has been to`, not `has gone to`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "They ___ in Adelaide since the floods of 2018.",
+      "options": [
+        "are living",
+        "have lived",
+        "lived",
+        "live"
+      ],
+      "answer": 1,
+      "explain": "`Since` sets a starting point and runs to the present; only a perfect form covers that whole stretch. The present simple leaves the starting point unexplained."
+    },
+    {
+      "type": "blank",
+      "prompt": "I ___ Japan, although I have often planned to.",
+      "hint": "never visit (present perfect)",
+      "accept": [
+        "have never visited",
+        "'ve never visited"
+      ],
+      "explain": "`Never` covers all time up to the present moment, so the experience is reported in the present perfect."
+    },
+    {
+      "type": "mcq",
+      "prompt": "He ___ four emails so far this morning and still has two to write.",
+      "options": [
+        "has been writing",
+        "has written",
+        "wrote",
+        "writes"
+      ],
+      "answer": 1,
+      "explain": "A finished quantity takes the present perfect simple. The continuous would stress the activity and sits badly with a completed count."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The meeting ___ just finished, so people are still leaving the room.",
+      "options": [
+        "has",
+        "had",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "`Just` with a result visible now calls for the present perfect. `Was just finished` would report a passive state inside closed time."
+    }
+  ]
+}

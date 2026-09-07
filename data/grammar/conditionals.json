@@ -1,0 +1,286 @@
+{
+  "id": "conditionals",
+  "title": "Conditionals",
+  "group": "Future and Conditionals",
+  "summary": "The four conditional patterns, mixed conditionals, alternatives to if, and inverted forms such as Had I known.",
+  "sections": [
+    {
+      "heading": "Zero and first conditionals: real situations",
+      "body": "The **zero conditional** (`if` + present simple, present simple) states something that is always true: a law of nature, a rule, a machine's behaviour. `If` can usually be replaced by `when` without changing the meaning, which is a reliable test.\n\nThe **first conditional** (`if` + present simple, `will` + infinitive) treats a future event as a real possibility. The condition clause takes a present tense even though it refers to the future, exactly as after `when` and `as soon as`. `Will` in the if-clause is one of the commonest errors at this level.",
+      "examples": [
+        {
+          "right": "If the sensor records a temperature above forty degrees, the system shuts down.",
+          "wrong": null,
+          "note": "A rule that holds every time: zero conditional, present in both clauses."
+        },
+        {
+          "right": "If the funding falls through, the department will have to cut two courses.",
+          "wrong": "If the funding will fall through, the department will have to cut two courses.",
+          "note": "The if-clause of a first conditional takes the present simple, never will."
+        },
+        {
+          "right": "If you submit the form late, it may not be considered.",
+          "wrong": null,
+          "note": "The result clause can take may, might, can, should or an imperative instead of will."
+        }
+      ]
+    },
+    {
+      "heading": "The second conditional: unlikely or unreal now",
+      "body": "`If` + past simple, `would` + infinitive presents a present or future situation as hypothetical, improbable or contrary to fact. The past tense here carries no past meaning at all; it is a marker of distance from reality.\n\nThe contrast with the first conditional is a matter of the speaker's commitment. `If it rains, we'll move indoors` treats rain as a live possibility; `If it rained in July, the reservoirs would recover` treats it as unlikely. With the verb `be`, `were` is standard for every person in careful writing, and `If I were you` is fixed.",
+      "examples": [
+        {
+          "right": "If the government subsidised rail travel, far fewer people would drive to work.",
+          "wrong": null,
+          "note": "A hypothetical policy and its imagined consequence."
+        },
+        {
+          "right": "If I were you, I would apply before the deadline.",
+          "wrong": "If I would be you, I would apply before the deadline.",
+          "note": "Would never appears in the if-clause of a second conditional."
+        },
+        {
+          "right": "If she took the post in Geneva, she would have to learn French.",
+          "wrong": null,
+          "note": "The past simple marks the offer as one she is not expected to accept."
+        }
+      ]
+    },
+    {
+      "heading": "The third conditional: an unreal past",
+      "body": "`If` + past perfect, `would have` + past participle imagines a past that did not happen, and is the natural language of regret, blame and hindsight. Both clauses refer to past time, and both are counterfactual: the sentence asserts that neither event occurred.\n\nThe result clause can take `could have` or `might have` where the outcome is possible rather than certain. What it cannot take is the shape `if I would have`, which spreads from spoken American English but is not accepted in academic writing; the if-clause needs the past perfect and nothing else.",
+      "examples": [
+        {
+          "right": "If the committee had heeded the March warning, the outbreak could have been contained.",
+          "wrong": "If the committee would have heeded the March warning, the outbreak could have been contained.",
+          "note": "The if-clause of a third conditional takes the past perfect; would belongs only in the result."
+        },
+        {
+          "right": "If I had known about the delay, I would not have booked the connecting flight.",
+          "wrong": null,
+          "note": "Both halves are contrary to fact: the delay was unknown and the flight was booked."
+        },
+        {
+          "right": "The paper might have been accepted if the data had been checked more carefully.",
+          "wrong": null,
+          "note": "might have softens the claim; the tense pattern is unchanged when the clauses are reversed."
+        }
+      ]
+    },
+    {
+      "heading": "Mixed conditionals",
+      "body": "The two halves of a conditional need not refer to the same time. A **past condition with a present result** combines `if` + past perfect with `would` + infinitive: something that did not happen in the past explains a state of affairs now.\n\nThe reverse, a **present condition with a past result**, combines `if` + past simple with `would have` + past participle: a permanent characteristic or present fact explains something that did or did not happen earlier. Choose each half for its own time reference rather than copying the pattern of the other.",
+      "examples": [
+        {
+          "right": "If she had won that scholarship, she would be studying in Berlin now.",
+          "wrong": "If she had won that scholarship, she would have been studying in Berlin now.",
+          "note": "Past cause, present result: the result clause takes would plus a bare infinitive."
+        },
+        {
+          "right": "If he weren't so cautious, he would have accepted that offer years ago.",
+          "wrong": null,
+          "note": "A lasting present trait explaining a past decision."
+        },
+        {
+          "right": "If the line had been built in the 1970s, the city would look very different today.",
+          "wrong": null,
+          "note": "The adverbials today and now are the usual signal of a mixed pattern."
+        }
+      ]
+    },
+    {
+      "heading": "Alternatives to if",
+      "body": "**`unless`** means roughly `if not` and introduces the one circumstance that would prevent the result: `The council will refuse permission unless the developer funds the road`. It does not work for every negative condition, and it is never followed by a second negative.\n\n**`provided that`** and **`as long as`** state a condition that must be satisfied, with more emphasis than `if`. **`in case`** is different in kind: it introduces a precaution taken in advance, not a condition, so `Take a map in case you lose signal` means take it now, before anything happens. **`even if`** concedes that the condition will not change the outcome, and **`otherwise`** replaces a whole negative clause: `Submit it by Friday; otherwise it will not be read`.",
+      "examples": [
+        {
+          "right": "The trial will continue unless the safety board intervenes.",
+          "wrong": "The trial will continue unless the safety board doesn't intervene.",
+          "note": "Unless already contains the negative; a second one reverses the meaning."
+        },
+        {
+          "right": "Take the printed map in case your phone loses signal in the valley.",
+          "wrong": "Take the printed map if your phone loses signal in the valley.",
+          "note": "In case is a precaution taken beforehand; if would mean taking the map only after the signal is lost."
+        },
+        {
+          "right": "The grant is renewable as long as the team publishes annually.",
+          "wrong": null,
+          "note": "As long as and provided that both state a requirement, and both take a present tense."
+        },
+        {
+          "right": "Even if the appeal succeeds, the site will not reopen this year.",
+          "wrong": null,
+          "note": "Even if concedes the condition and denies it any effect."
+        }
+      ]
+    },
+    {
+      "heading": "Inversion and punctuation",
+      "body": "In formal writing `if` may be dropped and the auxiliary moved in front of the subject: `Had I known`, `Were it not for the volunteers`, `Should you need further details`. Only `had`, `were` and `should` invert in this way, the negative is never contracted (`Had it not been for`, not `Hadn't it been for`), and the register is noticeably formal.\n\nPunctuation follows position, not meaning. A conditional clause placed first is followed by a comma; when it comes second, no comma is used. This holds for every conditional type and for the inverted forms as well.",
+      "examples": [
+        {
+          "right": "Had I known about the funding cut, I would have submitted the proposal earlier.",
+          "wrong": "Had I known about the funding cut I would have submitted the proposal earlier.",
+          "note": "A fronted conditional clause takes a comma; the inverted form is the third conditional without if."
+        },
+        {
+          "right": "Were it not for the volunteers, the project would have collapsed.",
+          "wrong": "Was it not for the volunteers, the project would have collapsed.",
+          "note": "The inverted form uses were for all subjects."
+        },
+        {
+          "right": "Should you need further details, please contact the registry.",
+          "wrong": null,
+          "note": "Should here means if by any chance, and is common in formal correspondence."
+        },
+        {
+          "right": "The project would have collapsed were it not for the volunteers.",
+          "wrong": null,
+          "note": "No comma when the conditional clause follows the main clause."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "No will in the if-clause of a first conditional: If it rains, we'll postpone, never If it will rain.",
+    "No would in the if-clause of a second or third conditional: If I had known, not If I would have known.",
+    "unless already means if not, so unless she doesn't apply says the opposite of what is intended.",
+    "in case is a precaution, not a condition: Insure the equipment in case it is stolen means insure it now, whereas if it is stolen refers to what happens afterwards.",
+    "In a mixed past-to-present conditional the result clause is would plus infinitive, not would have: she would be studying in Berlin now, not she would have been studying now.",
+    "Comma placement follows position: If the data are wrong, the model fails, but The model fails if the data are wrong."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "If the sensor ___ a temperature above forty degrees, the system shuts down automatically.",
+      "options": [
+        "records",
+        "will record",
+        "would record",
+        "recorded"
+      ],
+      "answer": 0,
+      "explain": "The present simple in the result clause marks this as a zero conditional describing an invariable rule, so the if-clause must also be present simple."
+    },
+    {
+      "type": "blank",
+      "prompt": "If the committee ___ the warning issued in March, the outbreak could have been contained.",
+      "hint": "heed (past perfect)",
+      "accept": [
+        "had heeded",
+        "'d heeded"
+      ],
+      "explain": "A third conditional pairs the past perfect in the if-clause with could have or would have in the result; would have heeded is the classic error."
+    },
+    {
+      "type": "mcq",
+      "prompt": "If I ___ you, I would apply for the grant well before the deadline.",
+      "options": [
+        "would be",
+        "were",
+        "am",
+        "had been"
+      ],
+      "answer": 1,
+      "explain": "Second conditionals distance the situation with a past form, and were is fixed in this advice-giving formula. would be can never stand in an if-clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ I known about the funding cut, I would have submitted the proposal a month earlier.",
+      "options": [
+        "Should",
+        "Had",
+        "Would",
+        "If"
+      ],
+      "answer": 1,
+      "explain": "This is a third conditional with if omitted and the auxiliary inverted. If I known is not English; the uninverted version would need If I had known."
+    },
+    {
+      "type": "blank",
+      "prompt": "If she ___ that scholarship, she would be studying in Berlin now.",
+      "hint": "win (past perfect)",
+      "accept": [
+        "had won",
+        "'d won"
+      ],
+      "explain": "A mixed conditional: the past perfect states the unreal past cause, while would be studying keeps the result in the present."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The council will refuse permission ___ the developer agrees to fund the new access road; if the money is offered, the scheme will go ahead.",
+      "options": [
+        "unless",
+        "as long as",
+        "even if",
+        "provided that"
+      ],
+      "answer": 0,
+      "explain": "The second half shows that agreement would reverse the refusal, which is exactly the if not meaning of unless. even if would deny the funding any effect, contradicting the sentence."
+    },
+    {
+      "type": "blank",
+      "prompt": "Submit the application by Friday; ___ it will not be considered.",
+      "hint": "one word replacing 'if you do not'",
+      "accept": [
+        "otherwise"
+      ],
+      "explain": "Otherwise stands in for a whole negative conditional clause and needs no if of its own."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Take the printed map with you ___ your phone loses signal in the valley.",
+      "options": [
+        "if",
+        "in case",
+        "unless",
+        "so that"
+      ],
+      "answer": 1,
+      "explain": "In case introduces a precaution taken in advance. If would instruct the walker to take the map only once the signal had already gone, which is impossible."
+    },
+    {
+      "type": "blank",
+      "prompt": "___ not for the generosity of the volunteers, the project would have collapsed last year.",
+      "hint": "the inverted form of 'if it were not for' (two words)",
+      "accept": [
+        "were it"
+      ],
+      "explain": "Inversion replaces if with the fronted auxiliary, and were is used for all subjects in this formal pattern."
+    },
+    {
+      "type": "mcq",
+      "prompt": "If he weren't so cautious by nature, he ___ that offer years ago.",
+      "options": [
+        "would accept",
+        "will have accepted",
+        "had accepted",
+        "would have accepted"
+      ],
+      "answer": 3,
+      "explain": "A permanent present trait explains a past non-event, so the result clause is would have plus a past participle. would accept would move the result into the present, clashing with years ago."
+    },
+    {
+      "type": "blank",
+      "prompt": "If the government subsidised rail travel more heavily, far fewer people ___ to work.",
+      "hint": "drive (second conditional result)",
+      "accept": [
+        "would drive",
+        "'d drive"
+      ],
+      "explain": "The past simple in the if-clause signals a hypothesis, and the matching result form is would plus the bare infinitive."
+    },
+    {
+      "type": "mcq",
+      "prompt": "If the funding ___, the department will have to withdraw two courses next year.",
+      "options": [
+        "would fall through",
+        "falls through",
+        "fell through",
+        "will fall through"
+      ],
+      "answer": 1,
+      "explain": "A first conditional keeps the future meaning in the main clause only; the if-clause takes the present simple. fell through would turn a real risk into a remote hypothesis and would then require would in the result."
+    }
+  ]
+}

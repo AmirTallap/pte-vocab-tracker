@@ -1,0 +1,68 @@
+{
+  "id": "e42",
+  "models": [
+    {
+      "stance": "Agriculture and pricing",
+      "approach": "Identify farming as the dominant use and the absence of a price as the reason for waste.",
+      "plan": [
+        "Introduction: state the scale and promise reasons then measures.",
+        "Body 1: two reasons, agricultural use and the absence of a price.",
+        "Body 2: measures answering both, in the same order.",
+        "Conclusion: the problem is soluble and what it requires."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Roughly two billion people already live in areas of high water stress, and aquifers that took millennia to fill are being emptied within a lifetime. [[It is clear that]] the shortage is a problem of how water is used rather than of how much falls." },
+        { "role": "Body 1 · reasons", "text": "[[The key issue is]] that agriculture takes about seventy per cent of the fresh water withdrawn, much of it through flood irrigation that loses half to evaporation. [[This leads to]] the second reason: in most countries water is either free or priced far below its scarcity, so nobody has an incentive to stop. Growing rice or alfalfa in a desert is only [[intelligible]] as a decision because the water costs nothing. [[Consequently]], demand rises to meet whatever supply exists, and the aquifer absorbs the difference." },
+        { "role": "Body 2 · measures", "text": "Measures should therefore start with farming. Governments could fund drip irrigation, which cuts use by roughly half, and could stop subsidising thirsty crops in dry regions, which several states have begun to do. Pricing must follow: a guaranteed free allocation for household needs, with charges rising steeply above it, would [[dissuade]] waste without penalising the poor. [[Above all]], licensing groundwater extraction and metering it is what makes any of the rest enforceable." },
+        { "role": "Conclusion", "text": "[[In summary]], water is scarce because most of it is used inefficiently by an industry with no reason to economise. Efficient irrigation, honest pricing and metered extraction would [[ameliorate]] the shortage within a decade, and the [[impediment]] is political rather than technical, since every one of these measures has a constituency against it." }
+      ],
+      "notes": [
+        "Leading with the seventy per cent figure decides where the essay will look, which is what a reasons paragraph should do.",
+        "The free household allocation is what keeps a pricing proposal defensible, and omitting it is how these essays usually fail.",
+        "Naming the political obstacle is more honest than concluding that everyone must cooperate."
+      ]
+    },
+    {
+      "stance": "Infrastructure and losses",
+      "approach": "Argue that much of the shortage is water already treated and then lost, and that repair is the cheapest new supply.",
+      "plan": [
+        "Introduction: the cheapest water is the water not lost.",
+        "Body 1: reasons, leakage, pollution and unmanaged demand.",
+        "Body 2: measures, repair, reuse and protection of sources.",
+        "Conclusion: what should be done first."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Discussion of water shortage usually turns to new dams and desalination, while a large share of the water already collected is lost before anybody drinks it. [[It is evident that]] the cheapest new supply available to most cities is the water they are currently wasting." },
+        { "role": "Body 1 · reasons", "text": "[[The main point is]] leakage. Distribution networks in many cities lose between a quarter and a half of treated water through pipes that nobody has funded for decades, and the loss is invisible, which is why it persists. Pollution compounds it: rivers contaminated by industrial and agricultural runoff become unusable, so a region with rainfall still has no water it can drink. [[As a result]], supply falls while demand grows, and the shortfall is blamed on the climate rather than on maintenance." },
+        { "role": "Body 2 · measures", "text": "The remedies are unglamorous and effective. Systematic leak detection and pipe replacement typically recover more water per pound than any new reservoir, and Tokyo's network, with losses under three per cent, shows what is achievable. Treated wastewater can be returned to the supply, as Singapore does at scale, and protecting watersheds is far cheaper than treating what runs off them. To be effective, utilities must be required to publish losses, since what is not measured is never [[implemented|Implement]]." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], water is short partly because the systems carrying it were allowed to decay. Repairing them, reusing what has been treated and protecting the sources would deliver more water sooner than any new construction, and the reason this is rarely done is that a repaired pipe is [[intangible]] where a new dam is a photograph." }
+      ],
+      "notes": [
+        "Reframing the problem as loss rather than scarcity gives the essay a distinctive line and a set of cheap remedies.",
+        "Tokyo and Singapore are two named cases with figures, which is what a measures paragraph needs.",
+        "The final image explains why the obvious solution is neglected, which is a better ending than a summary."
+      ]
+    },
+    {
+      "stance": "Governance is the reason",
+      "approach": "Argue that shortage is usually a failure of allocation rather than of supply, and that the remedies are institutional.",
+      "plan": [
+        "Introduction: neighbouring regions with the same rainfall fare differently.",
+        "Body 1: reasons rooted in rights, subsidies and shared basins.",
+        "Body 2: measures, institutional and cross-border.",
+        "Conclusion: what governance can and cannot fix."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Two regions with identical rainfall can face very different shortages, which suggests the problem is not primarily meteorological. [[I would argue]] that most water scarcity is created by the rules governing who may take it and how much." },
+        { "role": "Body 1 · reasons", "text": "[[The key issue is]] that water rights in many places are historical rather than rational. Allocations granted a century ago to farms and industries persist irrespective of what the basin now holds, and a right to take a fixed volume becomes [[incongruous]] once the river has shrunk. Shared rivers make it worse: upstream states divert first, and downstream ones have no remedy, so the [[dichotomy]] between legal entitlement and physical availability widens every dry year. [[Consequently]], shortage appears while extraction remains legal." },
+        { "role": "Body 2 · measures", "text": "Measures must therefore be institutional. Rights should be converted from fixed volumes to shares of actual flow, so that everybody's allocation falls together in a drought. Basin authorities with real powers, covering the whole catchment rather than each administrative boundary, are what allow that to be enforced, and treaties on shared rivers need arbitration rather than goodwill. [[It is worth noting]] that Australia's Murray-Darling reforms, whatever their difficulties, [[exemplify]] that such a transition is possible." },
+        { "role": "Conclusion", "text": "[[Overall]], scarcity is largely manufactured by rules written for a wetter past. Reforming rights and building basin institutions would manage the resource far better, though it must be conceded that governance cannot create rain: where the aquifer is already gone, the remedy is [[irrelevant]] and only reduced demand remains." }
+      ],
+      "notes": [
+        "The opening comparison, identical rainfall and different outcomes, is what licenses an institutional explanation.",
+        "Shares of flow rather than fixed volumes is a specific reform that a reader can evaluate.",
+        "Conceding what the proposal cannot do keeps the essay honest and gives the conclusion a final thought."
+      ]
+    }
+  ]
+}

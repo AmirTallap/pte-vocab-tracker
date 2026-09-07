@@ -1,0 +1,68 @@
+{
+  "id": "e07",
+  "models": [
+    {
+      "stance": "Support the tax",
+      "approach": "Take the regressiveness objection seriously and answer it with where the illness actually falls.",
+      "plan": [
+        "Introduction: set out the disagreement and say which side you finish on.",
+        "Body 1: the objection, that the tax is regressive and paternalistic.",
+        "Body 2: your side, price works and the disease is regressive too.",
+        "Conclusion: your position and the condition attached to it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Taxes on sugar and salt divide people who agree about almost everything else in health policy. [[It is often argued]] that they punish the poor for being poor, and the objection deserves an answer rather than a slogan. Having considered both, I support such taxes, provided the money comes back to the households that paid it." },
+        { "role": "Body 1 · the case against", "text": "[[On the one hand]], the criticism is largely accurate. A levy on fizzy drinks takes a larger share of a low income than a high one, which is the definition of a regressive charge, and the tone of these campaigns often carries an [[implicit]] assumption that poor families simply need instructing. [[It must be acknowledged]] that lecturing people about diet while closing the shops that sell fresh food is not a serious policy." },
+        { "role": "Body 2 · the case for", "text": "[[On the other hand]], price is the one lever that reliably works. Mexico's sugar tax cut consumption by around twelve per cent in two years, with the largest fall in the poorest households, and Britain's levy quietly reformulated most soft drinks before anybody paid it. [[It is worth noting]] that diabetes and dental decay are themselves brutally regressive, so leaving the market alone does not protect the poor; it simply lets the harm arrive as illness instead of as tax." },
+        { "role": "Conclusion", "text": "[[On balance]], [[I would maintain]] that these taxes are justified when the revenue is returned as free school meals or cheaper vegetables. Without that return they are merely another charge on people with no margin; with it, they are one of the few [[equitable]] instruments public health possesses." }
+      ],
+      "notes": [
+        "Conceding most of body one costs nothing here, because body two changes the ground from who pays the tax to who suffers the disease.",
+        "Mexico and Britain, with a figure each, are what stop this being an exchange of opinions.",
+        "The position carries a condition, revenue returned, which is a real stance rather than a compromise between the two paragraphs."
+      ]
+    },
+    {
+      "stance": "Oppose the tax",
+      "approach": "Argue that the tax treats a symptom of poverty as a failure of willpower.",
+      "plan": [
+        "Introduction: state the disagreement and take the side of personal circumstance.",
+        "Body 1: the health case for the tax, put fairly.",
+        "Body 2: why it misdiagnoses the problem, with the alternative.",
+        "Conclusion: what would work instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Governments reach for taxation because it is the instrument nearest to hand, not because it is the one that fits. [[From my perspective]], taxing unhealthy food misreads why people eat it, and the policy will disappoint everybody who expects much from it." },
+        { "role": "Body 1 · the case for", "text": "[[On the one hand]], the reasoning is straightforward and not wrong. Consumption responds to price, sugar is [[integral]] to obesity, and the treasury gains a revenue that can be spent on treatment. [[There is evidence that]] reformulation follows quickly: manufacturers alter recipes to stay under a threshold long before consumers change their habits, and that alone has removed thousands of tonnes of sugar from national diets." },
+        { "role": "Body 2 · why it misses", "text": "[[On the other hand]], the diet of a poor household is a consequence of time and geography rather than preference. A parent working two shifts buys what is quick, and in many districts the only shop within walking distance sells almost nothing fresh. Taxing the one affordable option in a food desert does not [[engender]] a better diet; it produces the same diet and less money. [[Unfortunately]], the households least able to respond are the ones the charge falls on hardest." },
+        { "role": "Conclusion", "text": "[[All things considered]], I oppose these taxes in their usual form. Subsidising fruit and vegetables, requiring supermarkets in underserved districts and restoring proper school meals would attack the [[impediment]] that actually exists, whereas a levy attacks the household budget and calls it public health." }
+      ],
+      "notes": [
+        "The strongest version of the other side, including its best evidence, appears in body one. An examiner reads that as balance, not as weakness.",
+        "Food desert and two shifts move the essay from theory to circumstance, which is where this argument is won.",
+        "The conclusion is a list of three alternatives, each aimed at the cause named in body two."
+      ]
+    },
+    {
+      "stance": "Tax, but only as part of something larger",
+      "approach": "Argue that both sides are right about the tax alone, and that the disagreement dissolves once it is part of a package.",
+      "plan": [
+        "Introduction: both objections stand against the tax on its own.",
+        "Body 1: what the tax genuinely achieves.",
+        "Body 2: what it cannot achieve, and what must accompany it.",
+        "Conclusion: your position, stated as a package rather than a levy."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] a tax on unhealthy food is a public health measure or a charge on the poor, and the honest answer is that a tax by itself is both. [[In my opinion]] the argument only resolves once the levy stops being the entire policy." },
+        { "role": "Body 1 · what it does well", "text": "[[On the one hand]], the mechanism has one genuine strength that its critics understate: it works on producers rather than shoppers. Faced with a threshold, manufacturers reformulate, and the customer's habits need not change at all for the sugar to fall. [[A striking example]] is the British soft drinks levy, which removed roughly a third of the sugar from the category through recipes rather than through anybody's willpower." },
+        { "role": "Body 2 · what it cannot do", "text": "[[On the other hand]], no levy creates a greengrocer where there is none, or an hour to cook where there is none. Price signals are [[inert]] against those constraints, and a policy that stops at the till leaves them [[intact]]. [[It must be acknowledged]] that the criticism about penalising the poor is entirely correct whenever the tax stands alone, because then the household pays and nothing around it changes." },
+        { "role": "Conclusion", "text": "[[Taken together]], I support taxation as one instrument inside a package that also subsidises fresh food, funds school meals and regulates advertising to children. [[In essence]] the tax should be the part that makes companies act, and the spending should be the part that makes the choice available, since neither half achieves much [[in isolation|Isolation]]." }
+      ],
+      "notes": [
+        "Both views are treated as true under different conditions, which is a real position rather than a refusal to pick.",
+        "Producers rather than shoppers is a distinction neither camp usually draws, and drawing it is what makes this essay look like thinking rather than recitation.",
+        "The conclusion assigns a job to each half of the policy, so the reader leaves with a mechanism rather than a mood."
+      ]
+    }
+  ]
+}

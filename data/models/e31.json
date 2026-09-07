@@ -1,0 +1,68 @@
+{
+  "id": "e31",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from who currently abstains, and answer the freedom objection with the compulsory attendance distinction.",
+      "plan": [
+        "Introduction: agree, and name what compulsion actually requires.",
+        "Body 1: turnout is not random, and that distorts policy.",
+        "Body 2: concede the liberty objection, then answer it.",
+        "Conclusion: restate, with the practical conditions."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Compulsory voting requires attendance at a polling station, not a choice of candidate, and the distinction settles much of the argument before it starts. [[On the whole]] I agree with the proposal, because voluntary turnout is not a random sample of the population." },
+        { "role": "Body 1 · who abstains", "text": "[[The main point is]] that abstention is concentrated among the young, the poor and the recently arrived, so an election measures the preferences of older and wealthier citizens with disproportionate weight. Parties respond rationally by writing manifestos for the people who turn out, and the resulting neglect [[exacerbates|Exacerbate]] the disengagement that caused it. [[There is evidence that]] Australian turnout, above ninety per cent for decades, produces policy attention to groups that are simply invisible in low-turnout systems." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], compelling political participation sounds contrary to the [[autonomy]] a democracy is supposed to protect. [[That said]], the obligation is minimal and familiar: jury service, taxation and school attendance are all compulsory, and none is thought tyrannical. A blank ballot remains available, so nobody is forced to endorse anything, and the fine in Australia is roughly the price of a meal. [[It is worth noting]] that the duty is to attend, which is why the objection about forced speech does not hold." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that voting should be compulsory, provided the ballot includes a formal option to reject every candidate and voting is made genuinely easy. Without those two [[stipulations]] the policy becomes a punishment for the poorly served rather than a remedy for them." }
+      ],
+      "notes": [
+        "The attendance rather than choice distinction is stated in the first sentence and answers the strongest objection before it is made.",
+        "Australia with a figure and a duration is the evidence this question needs.",
+        "The conditions in the conclusion prevent the obvious failure mode, which shows the position has been thought through."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Argue that compulsion treats a symptom and that the abstention itself carries information.",
+      "plan": [
+        "Introduction: agree that low turnout is a problem, disagree with the remedy.",
+        "Body 1: what compulsion does not fix.",
+        "Body 2: concede the representation argument, then answer with alternatives.",
+        "Conclusion: what would raise turnout legitimately."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Low turnout is a symptom of a political system that many citizens find unresponsive, and compelling attendance treats the symptom while leaving the cause [[intact]]. [[In my opinion]] the policy is the wrong answer to a real problem." },
+        { "role": "Body 1 · what it does not fix", "text": "[[First and foremost]], a reluctant voter is not an informed one. Compulsion produces a large number of ballots cast with no knowledge of the candidates, and there is a measurable donkey vote in every compulsory system, which rewards whoever appears first on the paper. [[Significantly]], abstention carries information: a collapse in turnout is a signal that the choices on offer are [[insignificant]] to a section of the electorate, and forcing attendance deletes the signal without addressing what caused it." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that unequal turnout distorts policy, and that this is the strongest argument for the proposal. [[Nevertheless]], the same distortion responds to remedies that do not compel anybody: automatic registration, weekend voting, several days of polling and postal ballots have each raised participation substantially where they were [[implemented|Implement]]. [[Consequently]], the choice is not between compulsion and neglect." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with compulsory voting while sharing its aim. Removing every practical [[impediment]] to voting would capture most of the benefit, and a turnout that rises because voting became easy is better evidence of consent than one that rises because abstention became illegal." }
+      ],
+      "notes": [
+        "Treating abstention as information rather than apathy is the argument that lifts this above a defence of individual liberty.",
+        "Listing four alternatives with a claim about their effect answers the representation concession properly.",
+        "The final contrast, easy against illegal, compresses the whole essay into one sentence."
+      ]
+    },
+    {
+      "stance": "Compulsory registration, voluntary voting",
+      "approach": "Split the proposal into two obligations and support only the first.",
+      "plan": [
+        "Introduction: the proposal bundles registration and voting; separate them.",
+        "Body 1: why compulsory registration solves most of the problem.",
+        "Body 2: why compulsory voting adds little and costs more.",
+        "Conclusion: the middle policy and what it achieves."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The debate treats voting as one act, when it is really two: getting onto the register and turning up. [[To a certain extent]] I agree with compulsion, but the obligation belongs at the first stage rather than the second." },
+        { "role": "Body 1 · compulsory registration", "text": "Most of the inequality in turnout is created before polling day. Registration systems that require initiative exclude precisely the mobile, the young and the poorly housed, so a large share of non-voting is administrative rather than [[intentional]]. Automatic registration from tax and health records removes that at a stroke, and [[there is evidence that]] countries doing so see participation rise sharply without any penalty attached. [[Above all]], nobody's [[autonomy]] is touched by being placed on a list." },
+        { "role": "Body 2 · compulsory voting", "text": "[[By contrast]], compelling the vote itself adds a smaller gain at a higher political cost. It generates uninformed and random ballots, it hands opponents a genuine grievance about liberty, and enforcement falls hardest on the people with the least [[leisure]] to attend. [[It must be acknowledged]] that turnout would rise further, but the marginal voter added by a fine is not the engaged citizen the policy imagines." },
+        { "role": "Conclusion", "text": "[[On balance]], then, I would compel registration and leave voting free, alongside weekend polling and postal ballots. That combination captures most of the [[equitable]] representation the proposal seeks while avoiding the argument about coercion entirely." }
+      ],
+      "notes": [
+        "Splitting one proposal into two obligations is the clearest route to a partial agreement, and each paragraph then has a distinct job.",
+        "Naming registration as an administrative rather than motivational barrier is a factual claim that reframes the whole debate.",
+        "The conclusion combines three measures, which is a policy rather than a preference."
+      ]
+    }
+  ]
+}

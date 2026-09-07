@@ -1,0 +1,288 @@
+{
+  "id": "dependent-prepositions",
+  "title": "Dependent Prepositions",
+  "group": "Verb Patterns and Prepositions",
+  "summary": "The fixed prepositions that particular adjectives, verbs and nouns require, and the verbs that must take none at all.",
+  "sections": [
+    {
+      "heading": "What a Dependent Preposition Is",
+      "body": "A **dependent preposition** is the preposition that a particular word demands. It carries almost no meaning of its own: the `in` of `interested in` is not spatial, it is simply the shape the adjective takes when a topic follows.\n\nBecause the choice is lexical rather than logical, the pair has to be learned as one item. Translation is no guide, since languages divide the field differently: `depend on` becomes `depend from` or `depend of` under the influence of another language, and neither is possible in English.\n\nThe practical habit is to record new vocabulary with its preposition attached and a short example, so that `impact` is stored as `an impact on something` rather than as a bare noun.",
+      "examples": [
+        {
+          "right": "The result depends on how the sample was selected.",
+          "wrong": "The result depends of how the sample was selected.",
+          "note": "`depend on` is fixed; no other preposition follows it."
+        },
+        {
+          "right": "She is responsible for three departments.",
+          "wrong": "She is responsible about three departments.",
+          "note": "`responsible for` holds whatever the translation suggests."
+        },
+        {
+          "right": "Access to the archive is restricted to registered readers.",
+          "wrong": null,
+          "note": "Some nouns carry their preposition wherever they appear."
+        }
+      ]
+    },
+    {
+      "heading": "Adjective Plus Preposition",
+      "body": "The commonest pairs fall into loose families. With `in`: `interested in`, `involved in`, `successful in`. With `of`: `aware of`, `capable of`, `typical of`, `critical of`, `guilty of`, `full of`. With `for`: `responsible for`, `suitable for`, `famous for`, `eligible for`, `grateful for`. With `to`: `similar to`, `related to`, `opposed to`, `subject to`, `accustomed to`. With `from`: `different from`, `absent from`, `derived from`. `dependent on` and `based on` take `on`.\n\n`concerned` takes two, with different meanings: `concerned about` is worried, `concerned with` is dealing with a subject.\n\nEvery one of these prepositions is followed by an `-ing` form rather than an infinitive: `capable of measuring`, `interested in studying`, `responsible for monitoring`.",
+      "examples": [
+        {
+          "right": "The new figures are very similar to those published last year.",
+          "wrong": "The new figures are very similar with those published last year.",
+          "note": "`similar to`, never `similar with`."
+        },
+        {
+          "right": "Continued funding is dependent on the outcome of the review.",
+          "wrong": "Continued funding is dependent of the outcome of the review.",
+          "note": "`dependent on`, matching the verb `depend on`."
+        },
+        {
+          "right": "The department was aware of the shortfall well before March.",
+          "wrong": "The department was aware about the shortfall well before March.",
+          "note": "`aware of` is fixed."
+        }
+      ]
+    },
+    {
+      "heading": "Verb Plus Preposition",
+      "body": "Verbs with fixed prepositions form the largest group and the one that costs the most marks in writing: `depend on`, `rely on`, `insist on`, `focus on`, `consist of`, `result in`, `result from`, `contribute to`, `refer to`, `lead to`, `object to`, `account for`, `apply for`, `apply to`, `comply with`, `deal with`, `cope with`, `succeed in`, `believe in`, `suffer from` and `benefit from`.\n\nSeveral take an object before the preposition: `blame someone for something`, `provide someone with something`, `remind someone of something`, `accuse someone of something`, `congratulate someone on something`, `thank someone for something`. `provide` also allows `provide something to someone`, a different arrangement of the same idea rather than an error.\n\n`apply` shifts with its object: one applies `for` a post or a grant, and `to` an institution.",
+      "examples": [
+        {
+          "right": "These three factors account for roughly half of the variation.",
+          "wrong": null,
+          "note": "`account for` here means explain."
+        },
+        {
+          "right": "All laboratories must comply with the revised safety code.",
+          "wrong": "All laboratories must comply to the revised safety code.",
+          "note": "`comply with`, like `deal with` and `cope with`."
+        },
+        {
+          "right": "The scheme provides low-income families with free travel passes.",
+          "wrong": "The scheme provides low-income families free travel passes.",
+          "note": "`provide someone with something`, or `provide something to someone`."
+        },
+        {
+          "right": "She applied to three universities and for two scholarships.",
+          "wrong": null,
+          "note": "`apply to` an institution; `apply for` a post or an award."
+        }
+      ]
+    },
+    {
+      "heading": "Noun Plus Preposition",
+      "body": "Nouns keep prepositions of their own, and they are not always those of the related verb. `discuss` takes a direct object, yet `a discussion of` or `about` a topic needs one; the verb `research` takes its object directly, while the noun takes `research into`.\n\nThe frequent pairs are `an increase in`, `a decrease in`, `a reason for`, `a need for`, `a demand for`, `an effect on`, `an impact on`, `an influence on`, `the cause of`, `the advantage of`, `a lack of`, `a solution to`, `an answer to`, `an approach to`, `an attitude towards` and `research into`.\n\nNote the split between `in` and `on`. A quantity rises or falls `in` something, as in `an increase in rainfall`, whereas an influence is exerted `on` something, as in `an effect on rainfall`. `an increase of` is reserved for the size of the change: `an increase of twelve per cent`.",
+      "examples": [
+        {
+          "right": "There has been a steady increase in demand for student housing.",
+          "wrong": "There has been a steady increase of demand for student housing.",
+          "note": "`an increase in` a thing; `an increase of` introduces a figure."
+        },
+        {
+          "right": "Social media has had a profound effect on political debate.",
+          "wrong": "Social media has had a profound effect in political debate.",
+          "note": "`an effect on`, `an impact on`, `an influence on`."
+        },
+        {
+          "right": "The team is researching groundwater contamination.",
+          "wrong": "The team is researching about groundwater contamination.",
+          "note": "The verb takes a direct object; only the noun takes a preposition, as in `research into contamination`."
+        }
+      ]
+    },
+    {
+      "heading": "When the Preposition Changes the Meaning",
+      "body": "Some words take more than one preposition, and the choice redirects or reverses the sense.\n\n`result in` introduces the consequence and `result from` the cause: `The strike resulted in long delays`, but `The long delays resulted from the strike`. `agree with` applies to a person or an opinion, `agree to` to a proposal or a request, and `agree on` to a decision reached jointly. `concerned about` means worried, while `concerned with` means dealing with. `apply for` a post, `apply to` a body.\n\nWhere two prepositions are both possible, work out which relationship the sentence needs before reaching for the more familiar word.",
+      "examples": [
+        {
+          "right": "The reform resulted in a sharp fall in waiting times.",
+          "wrong": null,
+          "note": "`result in` introduces the effect."
+        },
+        {
+          "right": "The fall in waiting times resulted from the reform.",
+          "wrong": null,
+          "note": "`result from` introduces the cause."
+        },
+        {
+          "right": "Residents are concerned about the noise from the site.",
+          "wrong": null,
+          "note": "`concerned about` means worried."
+        },
+        {
+          "right": "The second section is concerned with methodology.",
+          "wrong": null,
+          "note": "`concerned with` means deals with."
+        }
+      ]
+    },
+    {
+      "heading": "Verbs That Need No Preposition",
+      "body": "A group of high-frequency verbs takes its object directly, and adding a preposition is an error. The main ones are `discuss`, `enter`, `approach`, `emphasise`, `mention`, `answer`, `affect`, `lack`, `comprise`, `reach`, `join`, `resemble` and `contact`.\n\n`discuss about` is by far the most frequent of these mistakes and one of the most visible in written English. It survives because the noun `discussion` does take `about`, and because many languages express the idea with a preposition. `The report discusses the causes` is correct; `discusses about the causes` is not.\n\nTwo further contrasts are worth fixing: `affect` takes no preposition while the noun phrase `have an effect on` requires one, and `comprise` takes no preposition while `consist of` does.",
+      "examples": [
+        {
+          "right": "The chapter discusses the causes of urban sprawl.",
+          "wrong": "The chapter discusses about the causes of urban sprawl.",
+          "note": "`discuss` takes a direct object."
+        },
+        {
+          "right": "Rising costs have affected enrolment across the sector.",
+          "wrong": "Rising costs have affected on enrolment across the sector.",
+          "note": "Use `affect something` or `have an effect on something`."
+        },
+        {
+          "right": "The dataset comprises four thousand records.",
+          "wrong": "The dataset comprises of four thousand records.",
+          "note": "`comprise` takes no preposition; `consist of` does."
+        },
+        {
+          "right": "She entered the building through the side door.",
+          "wrong": "She entered into the building through the side door.",
+          "note": "`enter` a place directly; `enter into` is used only of agreements and negotiations."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`discuss about` is wrong: `discuss the results`. The preposition belongs to the noun, as in `a discussion about the results`.",
+    "`depend on` and `dependent on`, never `depend of` or `depend from`.",
+    "`comply with`, `deal with` and `cope with` all take `with`, never `to`.",
+    "`an increase in` a thing, but `an increase of` a figure: `an increase in fees of eight per cent`.",
+    "`result in` gives the consequence, `result from` the cause. Check the direction before choosing.",
+    "`affect` is a verb and needs no preposition; `effect` is a noun and needs `on`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The rise in sea temperature has had a measurable effect ___ coral growth.",
+      "options": [
+        "on",
+        "in",
+        "for",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "Nouns of influence take `on`: `an effect on`, `an impact on`, `an influence on`. `in` belongs to nouns of quantity, as in `an increase in temperature`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The opening chapter examines the causes ___ urban air pollution.",
+      "hint": null,
+      "accept": [
+        "of"
+      ],
+      "explain": "`the cause of something` is fixed, even though the verb it relates to, `cause`, takes a direct object with no preposition at all."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The flooding resulted ___ two weeks of unusually heavy rainfall.",
+      "options": [
+        "in",
+        "of",
+        "from",
+        "by"
+      ],
+      "answer": 2,
+      "explain": "`result from` introduces the cause, and the rainfall is what produced the flooding. `result in` would reverse the relationship, making the flooding the cause of the rain."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Exporters that fail to comply ___ the new labelling rules face heavy fines.",
+      "options": [
+        "on",
+        "for",
+        "to",
+        "with"
+      ],
+      "answer": 3,
+      "explain": "`comply with` is fixed, in the same family as `deal with` and `cope with`. `comply to` is a common transfer from the noun phrase `conformity to`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The final report consists ___ three volumes and a statistical appendix.",
+      "hint": null,
+      "accept": [
+        "of"
+      ],
+      "explain": "`consist of` always carries its preposition, while the near-synonym `comprise` never does."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Many first-year students remain unaware ___ the support services available to them.",
+      "options": [
+        "with",
+        "about",
+        "for",
+        "of"
+      ],
+      "answer": 3,
+      "explain": "`aware of` and `unaware of` are fixed. `about` attaches to verbs and nouns of worry or discussion, not to this adjective."
+    },
+    {
+      "type": "blank",
+      "prompt": "Higher education contributes ___ regional economic growth in several measurable ways.",
+      "hint": null,
+      "accept": [
+        "to"
+      ],
+      "explain": "`contribute to` is fixed, like `lead to` and `refer to`; the `to` is a preposition, so an -ing form would follow it if a verb came next."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The panel will discuss ___ impact of automation on regional employment.",
+      "options": [
+        "the",
+        "over the",
+        "on the",
+        "about the"
+      ],
+      "answer": 0,
+      "explain": "`discuss` is transitive and takes its object directly. `about` is possible only with the noun, as in `a discussion about the impact`."
+    },
+    {
+      "type": "blank",
+      "prompt": "The university reported a sharp increase ___ the number of postgraduate applicants.",
+      "hint": null,
+      "accept": [
+        "in"
+      ],
+      "explain": "`an increase in` names the thing that grows; `an increase of` would have to be followed by the size of the rise, such as a percentage."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The closing chapter is concerned ___ the ethics of collecting data from minors.",
+      "options": [
+        "in",
+        "about",
+        "with",
+        "for"
+      ],
+      "answer": 2,
+      "explain": "`concerned with` means deals with, which is what a chapter can do. `concerned about` means worried, a state available only to people."
+    },
+    {
+      "type": "blank",
+      "prompt": "The site manager was blamed ___ the delay, although the fault lay with the supplier.",
+      "hint": null,
+      "accept": [
+        "for"
+      ],
+      "explain": "The pattern is `blame someone for something`, with the preposition before the cause; the passive keeps `for` in place."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Most economists now agree ___ the authors that the tax is regressive.",
+      "options": [
+        "to",
+        "on",
+        "about",
+        "with"
+      ],
+      "answer": 3,
+      "explain": "`agree with` is used before a person or an opinion. `agree to` would need a proposal as its object, and `agree on` a jointly reached decision."
+    }
+  ]
+}

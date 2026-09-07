@@ -1,0 +1,273 @@
+{
+  "id": "present-simple-continuous",
+  "title": "Present Simple vs Present Continuous",
+  "group": "Tenses",
+  "summary": "How to choose between habit and fact on one side and temporary, in-progress or changing situations on the other.",
+  "sections": [
+    {
+      "heading": "Permanent situations and temporary ones",
+      "body": "The present simple describes what is generally or permanently true: habits, routines, scientific facts and long-term states. The present continuous describes what is in progress around the moment of speaking, or what holds only for a limited period.\n\nThe contrast is less about the clock than about how the speaker frames the situation. `He teaches at a technical college` presents the job as settled; `He is teaching at a technical college` suggests a temporary arrangement, perhaps a single term.",
+      "examples": [
+        {
+          "right": "Water freezes at zero degrees Celsius.",
+          "wrong": "Water is freezing at zero degrees Celsius.",
+          "note": "A permanent physical fact takes the present simple."
+        },
+        {
+          "right": "I am staying with my cousin until the semester begins.",
+          "wrong": "I stay with my cousin until the semester begins.",
+          "note": "A temporary arrangement with a clear end point takes the continuous."
+        },
+        {
+          "right": "The department publishes a review every quarter.",
+          "wrong": null,
+          "note": "A fixed routine, so the simple form."
+        }
+      ]
+    },
+    {
+      "heading": "Stative verbs stay simple",
+      "body": "Some verbs name states rather than activities: **stative verbs** such as `know`, `believe`, `understand`, `own`, `belong`, `contain`, `seem`, `need`, `prefer` and `cost`. They normally appear in the simple form even when the state is true at this exact moment.\n\nArabic does not divide the present in this way, so there is a pull towards marking anything happening now with `am/is/are + -ing`. With a stative verb that reads as an error rather than as emphasis.",
+      "examples": [
+        {
+          "right": "I know the answer.",
+          "wrong": "I am knowing the answer.",
+          "note": "`Know` is a state, not an activity in progress."
+        },
+        {
+          "right": "The report contains three appendices.",
+          "wrong": "The report is containing three appendices.",
+          "note": "`Contain` describes a fixed property of the document."
+        },
+        {
+          "right": "She seems confident about the interview.",
+          "wrong": "She is seeming confident about the interview.",
+          "note": "`Seem` reports an impression, not something being done."
+        }
+      ]
+    },
+    {
+      "heading": "Verbs that shift meaning in the continuous",
+      "body": "Several verbs are stative in one sense and dynamic in another. `Think` means 'hold an opinion' in the simple form and 'consider' in the continuous. `Have` means 'possess' in the simple form, but the activity expressions built on it (`have lunch`, `have a shower`, `have trouble`, `have a meeting`) take the continuous freely.\n\nThe same split governs `see` (perceive, or meet and visit), `taste` and `smell` (have a quality, or sample deliberately), and `look` (appear, or direct the eyes).",
+      "examples": [
+        {
+          "right": "I think the policy is misguided.",
+          "wrong": "I am thinking the policy is misguided.",
+          "note": "An opinion, so the simple form."
+        },
+        {
+          "right": "She is thinking about applying for the scholarship.",
+          "wrong": null,
+          "note": "Here `think` means 'consider', which is an activity."
+        },
+        {
+          "right": "He has a flat in the old quarter.",
+          "wrong": "He is having a flat in the old quarter.",
+          "note": "`Have` meaning 'own' is stative."
+        },
+        {
+          "right": "They are having a meeting on the third floor.",
+          "wrong": null,
+          "note": "`Have a meeting` is an activity, so the continuous is normal."
+        }
+      ]
+    },
+    {
+      "heading": "Trends, change and repeated irritation",
+      "body": "The present continuous is the natural form for a situation that is developing: getting worse, rising, falling, becoming more common. Verbs of change take it constantly in essays and in graph descriptions.\n\nWith `always`, `constantly` or `forever`, the continuous adds exasperation or surprise at how often something happens. `He always arrives late` is a neutral statement of habit; `He is always arriving late` is a complaint.",
+      "examples": [
+        {
+          "right": "The cost of housing is rising faster than wages.",
+          "wrong": null,
+          "note": "A trend in progress rather than a timeless fact."
+        },
+        {
+          "right": "Fewer students are choosing to study abroad.",
+          "wrong": null,
+          "note": "The continuous marks a change in behaviour over recent years."
+        },
+        {
+          "right": "My neighbour is always parking across my driveway.",
+          "wrong": null,
+          "note": "`Always` with the continuous expresses irritation at the repetition."
+        },
+        {
+          "right": "The train always leaves from platform four.",
+          "wrong": "The train is always leaving from platform four.",
+          "note": "A neutral timetable fact needs the simple form."
+        }
+      ]
+    },
+    {
+      "heading": "The present simple in academic English",
+      "body": "Academic writing uses the present simple far more than the continuous. Research is reported in it (`Smith argues`, `the data suggest`, `the study finds`), general processes are described in it, and the standing truths of a field are stated in it.\n\nThe present simple also expresses scheduled future events fixed by a timetable or programme: departures, lectures, examinations, deadlines. Personal arrangements take the present continuous instead.",
+      "examples": [
+        {
+          "right": "Nguyen (2018) argues that the effect is overstated.",
+          "wrong": "Nguyen (2018) is arguing that the effect is overstated.",
+          "note": "Reporting verbs for published work take the present simple."
+        },
+        {
+          "right": "The sample is heated to 80 degrees and then cooled slowly.",
+          "wrong": null,
+          "note": "Process descriptions stay in the simple form."
+        },
+        {
+          "right": "The examination begins at nine on Tuesday.",
+          "wrong": null,
+          "note": "A timetabled event, so the present simple."
+        },
+        {
+          "right": "I am meeting my tutor on Tuesday.",
+          "wrong": null,
+          "note": "A personal arrangement, so the present continuous."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`I am knowing`, `I am understanding`, `I am believing`: state verbs keep the simple form even when the state holds right now.",
+    "`I am agree` and `I am think` blend the two present forms; the verbs are already finite, so write `I agree` and `I think`.",
+    "Reporting a source in the continuous (`The author is claiming that...`): use the present simple for what a text says.",
+    "`She is having a car`: `have` meaning possession is never continuous, although `have lunch` and `have a break` are.",
+    "Dropping the third-person `-s` (`The graph show a decline`): the continuous hides agreement inside `is/are`, so the `-s` is easy to forget when switching back.",
+    "Using `is always doing` for a neutral routine; keep that pattern for complaints and use the simple form for habits and timetables."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "At sea level, water ___ at 100 degrees Celsius.",
+      "options": [
+        "boils",
+        "is boiling",
+        "boil",
+        "has boiled"
+      ],
+      "answer": 0,
+      "explain": "A physical constant is a permanent fact and takes the present simple. `Is boiling` would describe one pan on one stove at this moment."
+    },
+    {
+      "type": "blank",
+      "prompt": "At the moment the committee ___ the proposal, so no decision has been announced.",
+      "hint": "review (present continuous)",
+      "accept": [
+        "is reviewing",
+        "'s reviewing",
+        "are reviewing",
+        "'re reviewing"
+      ],
+      "explain": "`At the moment` frames the review as unfinished and in progress, which is what the continuous marks."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The 2019 study ___ that noise affects concentration in open-plan offices.",
+      "options": [
+        "shows",
+        "is showing",
+        "show",
+        "is shown"
+      ],
+      "answer": 0,
+      "explain": "The findings of published research are reported in the present simple. `Is showing` would suggest something unfolding on a screen as we watch."
+    },
+    {
+      "type": "blank",
+      "prompt": "She ___ about changing supervisors, but she has not made up her mind.",
+      "hint": "think (present continuous)",
+      "accept": [
+        "is thinking",
+        "'s thinking"
+      ],
+      "explain": "`Think` meaning 'consider' is an activity and takes the continuous, unlike `think` meaning 'believe', which stays simple."
+    },
+    {
+      "type": "mcq",
+      "prompt": "At present, Arctic sea ice ___ faster than the models of the 1990s predicted.",
+      "options": [
+        "melts",
+        "melted",
+        "has melted",
+        "is melting"
+      ],
+      "answer": 3,
+      "explain": "`At present` plus a developing trend calls for the continuous. The simple form would state the melting as a timeless property of ice."
+    },
+    {
+      "type": "blank",
+      "prompt": "Once the sample ___ room temperature, it is weighed a second time.",
+      "hint": "reach (present simple)",
+      "accept": [
+        "reaches"
+      ],
+      "explain": "Steps in a described procedure are given in the present simple, whatever the actual timing of the experiment."
+    },
+    {
+      "type": "mcq",
+      "prompt": "My flatmate ___ leaving unwashed pans in the sink, and it drives me mad.",
+      "options": [
+        "always",
+        "is always",
+        "was always",
+        "has always"
+      ],
+      "answer": 1,
+      "explain": "`Is always + -ing` conveys irritation at a habit that keeps repeating. A bare `always` leaves `leaving` without a finite verb to hang on."
+    },
+    {
+      "type": "blank",
+      "prompt": "I cannot talk now — I ___ lunch with a client.",
+      "hint": "have (present continuous)",
+      "accept": [
+        "am having",
+        "'m having"
+      ],
+      "explain": "`Have lunch` is an activity rather than possession, so it takes the continuous in a way that `have a car` never would."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The archive ___ to the city council, although a charity runs it day to day.",
+      "options": [
+        "is belonged",
+        "belong",
+        "belongs",
+        "is belonging"
+      ],
+      "answer": 2,
+      "explain": "`Belong` states a standing relationship and has no continuous use at all, however temporary the arrangement around it may be."
+    },
+    {
+      "type": "blank",
+      "prompt": "The chef ___ the sauce to check the seasoning.",
+      "hint": "taste (present continuous)",
+      "accept": [
+        "is tasting",
+        "'s tasting"
+      ],
+      "explain": "Here `taste` is something deliberately done; `the sauce tastes salty` describes a quality and would stay simple."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The lecture ___ at nine and the seminar follows at eleven.",
+      "options": [
+        "is started",
+        "start",
+        "starts",
+        "is starting"
+      ],
+      "answer": 2,
+      "explain": "A timetabled future event takes the present simple. The continuous is reserved for personal arrangements such as `I am meeting my tutor`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Normally she ___ on the second floor, but this week she is working in the annexe.",
+      "options": [
+        "has worked",
+        "work",
+        "works",
+        "is working"
+      ],
+      "answer": 2,
+      "explain": "`Normally` marks the settled arrangement, so the simple form; the second clause shows the continuous carrying the temporary exception."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "gerund-infinitive",
+  "title": "Gerunds and Infinitives",
+  "group": "Verb Patterns and Prepositions",
+  "summary": "Choosing between the -ing form and the to-infinitive after verbs, objects, prepositions and adjectives.",
+  "sections": [
+    {
+      "heading": "Verbs That Take the -ing Form",
+      "body": "A large group of verbs is followed directly by the **gerund**, the `-ing` form working as a noun. The core members are `enjoy`, `avoid`, `consider`, `suggest`, `deny`, `risk`, `mind`, `practise` and `involve`, along with `admit`, `postpone`, `imagine` and `finish`.\n\nThe pattern is fixed: nothing comes between the verb and the `-ing` form, and no `to` appears. `suggest` is the one most often mishandled, because its alternative is not an infinitive but a clause: `suggest doing` or `suggest that we do`, never `suggest to do`.\n\nArabic expresses both the verbal noun and the subordinate clause in ways that translate most naturally into English as `to` plus a verb, which is why `enjoy to read` and `avoid to speak` are such persistent slips. The remedy is to store these verbs as a closed list rather than to reason from meaning.",
+      "examples": [
+        {
+          "right": "The board is considering relocating the research centre.",
+          "wrong": "The board is considering to relocate the research centre.",
+          "note": "`consider` is followed by the -ing form only."
+        },
+        {
+          "right": "She suggested postponing the vote until March.",
+          "wrong": "She suggested to postpone the vote until March.",
+          "note": "Use `suggest doing` or `suggest that we postpone`."
+        },
+        {
+          "right": "The role involves working with three separate teams.",
+          "wrong": "The role involves to work with three separate teams.",
+          "note": "`involve` names an activity, so the -ing form follows."
+        }
+      ]
+    },
+    {
+      "heading": "Verbs That Take the To-Infinitive",
+      "body": "A second group takes `to` plus the base verb: `decide`, `hope`, `manage`, `refuse`, `afford`, `offer`, `agree`, `fail`, together with `promise`, `arrange`, `intend`, `pretend` and `tend`.\n\nMost of these describe an intention, a decision or an outcome that lies ahead of the first verb in time, which is a useful memory aid: one decides now in order to act later. The negative is formed with `not to`, placed before `to`, as in `decided not to appeal`.",
+      "examples": [
+        {
+          "right": "The council decided to fund the cycle lanes for a further year.",
+          "wrong": "The council decided funding the cycle lanes for a further year.",
+          "note": "`decide` belongs to the to-infinitive group."
+        },
+        {
+          "right": "Few households can afford to heat every room in winter.",
+          "wrong": "Few households can afford heating every room in winter.",
+          "note": "`afford` takes the to-infinitive."
+        },
+        {
+          "right": "The authors failed to acknowledge two earlier studies.",
+          "wrong": "The authors failed acknowledging two earlier studies.",
+          "note": "`fail to do` is the only pattern available."
+        }
+      ]
+    },
+    {
+      "heading": "Both Forms, Different Meanings",
+      "body": "A small set accepts either pattern, and the choice changes the meaning rather than the style. With `stop`, `remember`, `forget` and `regret`, the `-ing` form points backwards to something already done, while the to-infinitive points forwards to a duty or a purpose.\n\n`try doing` means testing a method to see whether it helps; `try to do` means attempting something difficult. `go on doing` continues the same activity, whereas `go on to do` moves to the next one. `mean doing` states a consequence that follows; `mean to do` states an intention.\n\n`need` is the odd member: `need doing` carries a passive sense and is equivalent to `need to be done`.",
+      "examples": [
+        {
+          "right": "He stopped checking his phone and finished the chapter.",
+          "wrong": null,
+          "note": "`stop doing`: the activity comes to an end."
+        },
+        {
+          "right": "On the way north we stopped to refuel.",
+          "wrong": null,
+          "note": "`stop to do`: a pause for a purpose."
+        },
+        {
+          "right": "I regret telling her before the results were confirmed.",
+          "wrong": null,
+          "note": "`regret doing` looks back at a past action."
+        },
+        {
+          "right": "The roof needs repairing before the winter.",
+          "wrong": null,
+          "note": "`need doing` is passive in sense: it needs to be repaired."
+        }
+      ]
+    },
+    {
+      "heading": "Verb Plus Object Plus Infinitive",
+      "body": "Many verbs take an object and then a to-infinitive, the object naming the person who performs the second action: `want`, `expect`, `advise`, `persuade`, `encourage`, `allow`, `enable`, `remind`, `warn` and `force`.\n\nThree verbs break the pattern and take a **bare infinitive** after the object: `make`, `let`, and `have` in the sense of arranging for something to be done. `help` permits both, with or without `to`, and neither version is more correct than the other.\n\nOne detail is easy to miss: in the passive, `make` recovers its `to`, so `The staff made him wait` becomes `He was made to wait`.",
+      "examples": [
+        {
+          "right": "The tutor encouraged her to submit the paper early.",
+          "wrong": "The tutor encouraged her submitting the paper early.",
+          "note": "verb + object + to-infinitive."
+        },
+        {
+          "right": "The new policy lets residents park free at weekends.",
+          "wrong": "The new policy lets residents to park free at weekends.",
+          "note": "`let` takes a bare infinitive."
+        },
+        {
+          "right": "The delay made passengers miss their connections.",
+          "wrong": "The delay made passengers to miss their connections.",
+          "note": "`make` plus object plus bare infinitive in the active voice."
+        },
+        {
+          "right": "Passengers were made to wait on the platform for an hour.",
+          "wrong": null,
+          "note": "In the passive, `make` is followed by `to`."
+        }
+      ]
+    },
+    {
+      "heading": "After a Preposition, Always -ing",
+      "body": "Every preposition is followed by the `-ing` form and never by an infinitive: `without asking`, `before leaving`, `by reducing`, `instead of complaining`, `capable of measuring`.\n\nThe difficulty is that `to` is sometimes a preposition rather than the marker of an infinitive. In `look forward to`, `be used to`, `get used to`, `object to`, `be committed to`, `in addition to` and `when it comes to`, `to` is a preposition and the `-ing` form must follow it.\n\nCompare that with `used to` plus a base verb, an entirely different structure describing a discontinued past habit. `He used to cycle` means he no longer does; `He is used to cycling` means it now feels normal to him. The test is whether a form of `be` or `get` stands in front of `used`.",
+      "examples": [
+        {
+          "right": "We look forward to receiving your confirmation.",
+          "wrong": "We look forward to receive your confirmation.",
+          "note": "`to` here is a preposition, so the -ing form follows."
+        },
+        {
+          "right": "She is used to working under tight deadlines.",
+          "wrong": "She is used to work under tight deadlines.",
+          "note": "`be used to` describes a familiar situation."
+        },
+        {
+          "right": "The library used to open on Sundays.",
+          "wrong": null,
+          "note": "`used to` plus base verb: a past habit that has stopped."
+        },
+        {
+          "right": "Emissions fell by replacing coal with gas.",
+          "wrong": "Emissions fell by replace coal with gas.",
+          "note": "After `by`, as after any preposition, the -ing form."
+        }
+      ]
+    },
+    {
+      "heading": "The -ing Subject and Adjective Patterns",
+      "body": "Because the `-ing` form behaves as a noun, it can head the subject of a sentence and takes a singular verb: `Commuting by train has become more expensive`. A base verb can never do this.\n\nAfter an adjective the two patterns both occur but are not interchangeable. A to-infinitive follows the adjective directly in `difficult to measure`, `easy to explain`, `likely to rise`, `ready to publish` and `willing to pay`. When a preposition intervenes, the `-ing` form is required: `capable of measuring`, `interested in studying`, `responsible for monitoring`, `good at explaining`, `afraid of failing`.",
+      "examples": [
+        {
+          "right": "Commuting by train has become more expensive than driving.",
+          "wrong": "Commute by train has become more expensive than drive.",
+          "note": "The -ing form, not the base verb, can head a subject."
+        },
+        {
+          "right": "The sensors are capable of detecting a change of one degree.",
+          "wrong": "The sensors are capable of detect a change of one degree.",
+          "note": "`of` is a preposition, so the -ing form follows."
+        },
+        {
+          "right": "The results were difficult to interpret.",
+          "wrong": "The results were difficult of interpreting.",
+          "note": "`difficult` takes a to-infinitive with no preposition."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`suggest to do` is not English. Write `suggest doing` or `suggest that we do`.",
+    "`look forward to` ends in a preposition, so it takes the -ing form: `look forward to meeting you`, never `to meet`.",
+    "`He used to cycle` is a past habit; `He is used to cycling` is present familiarity. Check whether a form of `be` or `get` precedes `used`.",
+    "`make` and `let` take a bare infinitive in the active (`made him wait`), but passive `make` restores the `to`: `was made to wait`.",
+    "`stop to do` is a pause for a purpose; `stop doing` ends the activity. Decide which the sentence means before choosing.",
+    "After any preposition use the -ing form: `interested in studying`, not `interested in to study`."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The planning committee suggested ___ the consultation by a further month.",
+      "options": [
+        "to extend",
+        "extending",
+        "that extending",
+        "extend"
+      ],
+      "answer": 1,
+      "explain": "`suggest` belongs to the -ing group. `to extend` is the commonest error, because the only clause alternative is `suggested that the consultation be extended`, not an infinitive."
+    },
+    {
+      "type": "blank",
+      "prompt": "The department looks forward to ___ from applicants before the end of the month.",
+      "hint": "hear",
+      "accept": [
+        "hearing"
+      ],
+      "explain": "In `look forward to`, `to` is a preposition rather than an infinitive marker, so the -ing form is required."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She first outlined the sampling method and then went on ___ the results in detail.",
+      "options": [
+        "discuss",
+        "discussing",
+        "to discuss",
+        "for discussing"
+      ],
+      "answer": 2,
+      "explain": "`go on to do` marks a move to the next stage, which `first ... and then` signals. `go on doing` would mean she continued outlining the method."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The new regulations will make manufacturers ___ their emissions every quarter.",
+      "options": [
+        "to report",
+        "report",
+        "reported",
+        "reporting"
+      ],
+      "answer": 1,
+      "explain": "Active `make` takes an object and a bare infinitive. `to report` would only be correct in the passive, as in `manufacturers will be made to report`."
+    },
+    {
+      "type": "blank",
+      "prompt": "We regret ___ you that the funding application has not been successful.",
+      "hint": "inform",
+      "accept": [
+        "to inform"
+      ],
+      "explain": "`regret to do` introduces bad news at the moment of delivering it; `regret informing` would look back on the act of telling as a past mistake."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Having spent a decade in Oslo, he is used to ___ in near-darkness through December.",
+      "options": [
+        "work",
+        "to work",
+        "worked",
+        "working"
+      ],
+      "answer": 3,
+      "explain": "`be used to` means accustomed to, and its `to` is a preposition, so an -ing form follows. `used to work` would instead describe a habit he has abandoned."
+    },
+    {
+      "type": "blank",
+      "prompt": "The university could not afford ___ the whole laboratory in a single year.",
+      "hint": "replace",
+      "accept": [
+        "to replace"
+      ],
+      "explain": "`afford` takes the to-infinitive; there is no `afford doing` pattern in standard English."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The contractor denied ___ any of the safety notices sent to the site office.",
+      "options": [
+        "to receiving",
+        "receive",
+        "receiving",
+        "to receive"
+      ],
+      "answer": 2,
+      "explain": "`deny` is followed by the -ing form or by a that-clause. Unlike `refuse`, which takes an infinitive, `deny` reports a past act, and the gerund carries that backward reference."
+    },
+    {
+      "type": "blank",
+      "prompt": "The instrument is capable of ___ concentrations far below the legal limit.",
+      "hint": "analyse",
+      "accept": [
+        "analysing",
+        "analyzing"
+      ],
+      "explain": "`capable of` ends in a preposition, so the -ing form is required; the infinitive appears only after adjectives used without a preposition, such as `able to analyse`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ the findings without checking the raw data would be premature.",
+      "options": [
+        "Published",
+        "To publishing",
+        "Publishing",
+        "Publish"
+      ],
+      "answer": 2,
+      "explain": "A subject must be nominal, and the -ing form supplies that. A base verb cannot head a subject, and `To publishing` combines an infinitive marker with an -ing form."
+    },
+    {
+      "type": "blank",
+      "prompt": "Before the tram line opened, most residents ___ into the centre every morning.",
+      "hint": "drive (a past habit that has stopped)",
+      "accept": [
+        "used to drive",
+        "would drive"
+      ],
+      "explain": "`used to` plus a base verb states a discontinued habit, and `would drive` is equally correct for a repeated past action of this kind. The similar-looking `were used to driving` would say only that driving felt normal to them."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Please remember ___ the data appendix when you send the final version.",
+      "options": [
+        "having included",
+        "including",
+        "include",
+        "to include"
+      ],
+      "answer": 3,
+      "explain": "`remember to do` concerns a task not yet carried out. `remember including` would mean recalling that the appendix had already been added."
+    }
+  ]
+}

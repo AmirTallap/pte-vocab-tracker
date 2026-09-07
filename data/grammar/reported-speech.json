@@ -1,0 +1,280 @@
+{
+  "id": "reported-speech",
+  "title": "Reported Speech",
+  "group": "Voice and Reporting",
+  "summary": "Backshift, pronoun and time shifts, reported questions and commands, and reporting verbs that carry the speaker's intention.",
+  "sections": [
+    {
+      "heading": "Backshift: one step further back",
+      "body": "When the reporting verb is in the past, the verb reported normally moves one step further back in time: present simple to past simple, present continuous to past continuous, present perfect and past simple alike to past perfect, `will` to `would`, `can` to `could`, `may` to `might`.\n\n`must` for obligation may either stay as it is or become `had to`. `should`, `could`, `might`, `would` and `ought to` have nowhere further back to go, and so do not change at all.",
+      "examples": [
+        {
+          "right": "\"I am revising the figures,\" she said. She said she was revising the figures.",
+          "wrong": null,
+          "note": "Present continuous shifts to past continuous."
+        },
+        {
+          "right": "\"We have finished the report,\" they said. They said they had finished the report.",
+          "wrong": "They said they have finished the report.",
+          "note": "The present perfect backshifts to the past perfect after a past reporting verb."
+        },
+        {
+          "right": "\"The results will be published in June.\" He said the results would be published in June.",
+          "wrong": null,
+          "note": "`will` becomes `would`."
+        }
+      ]
+    },
+    {
+      "heading": "When backshift is optional or wrong",
+      "body": "Backshift reflects a point of view rather than an automatic rule. If the statement is still true when it is reported, the present may be kept: `She said her brother lives in Dublin` is natural if he is still there. `She said her brother lived in Dublin` is also correct, but it hints at distance or at a situation that has since lapsed.\n\nUnchanging facts and universal statements are normally left alone: `The lecturer reminded us that water boils at 100°C`. A verb already in the past perfect cannot move either, since that is as far back as the tense system goes: `He said he had already left` reports both `I have already left` and `I had already left`.\n\nWhen the reporting verb is present — `she says`, `the report argues`, `critics claim` — nothing shifts at all.",
+      "examples": [
+        {
+          "right": "She said her brother lives in Dublin, and he is still there now.",
+          "wrong": null,
+          "note": "The situation still holds, so keeping the present is natural."
+        },
+        {
+          "right": "He said he had already left when the alarm sounded.",
+          "wrong": "He said he had had already left when the alarm sounded.",
+          "note": "The past perfect is the end of the line and cannot backshift again."
+        },
+        {
+          "right": "The report argues that the policy has failed.",
+          "wrong": null,
+          "note": "A present reporting verb triggers no shift."
+        }
+      ]
+    },
+    {
+      "heading": "Pronouns, time and place",
+      "body": "Reporting moves the words that point at the original speaker's here and now. Pronouns and possessives change to suit the new speaker, and so do the deictic words: `now` becomes `then`, `today` becomes `that day`, `tomorrow` becomes `the next day` or `the following day`, `yesterday` becomes `the day before` or `the previous day`, `ago` becomes `before`, `here` becomes `there`, and `this` and `these` become `that` and `those`.\n\nThe shifts are not mechanical. If the report is made on the same day and in the same room, `today` and `here` stay exactly as they were.",
+      "examples": [
+        {
+          "right": "\"We signed the contract yesterday.\" He said they had signed the contract the day before.",
+          "wrong": null,
+          "note": "`yesterday` becomes `the day before` when the report comes later."
+        },
+        {
+          "right": "\"I bought this here.\" He said he had bought that there.",
+          "wrong": null,
+          "note": "Deictic words move away from the original speaker's position."
+        },
+        {
+          "right": "\"I'll call you tomorrow,\" she told me an hour ago. She said she would call me tomorrow.",
+          "wrong": null,
+          "note": "Reported on the same day, so `tomorrow` still points at the right day."
+        }
+      ]
+    },
+    {
+      "heading": "Reported questions: no inversion, no do",
+      "body": "A reported question is a subordinate clause, so it takes statement word order. The subject comes before the verb, the auxiliary `do` disappears with its tense transferred to the main verb, and there is no question mark. `He asked where I was living` is right; `He asked where was I living` is not.\n\nA yes-no question has no question word of its own, so `if` or `whether` supplies one. `whether` is the more formal choice and is obligatory directly before `or not` and after a preposition.",
+      "examples": [
+        {
+          "right": "He asked where I was living at the time.",
+          "wrong": "He asked where was I living at the time.",
+          "note": "No inversion inside a reported question."
+        },
+        {
+          "right": "They asked what the results meant.",
+          "wrong": "They asked what did the results mean.",
+          "note": "The auxiliary `do` belongs to direct questions only."
+        },
+        {
+          "right": "The interviewer asked whether I had worked abroad before.",
+          "wrong": null,
+          "note": "`if` would be equally correct here; `whether` is the more formal of the two."
+        }
+      ]
+    },
+    {
+      "heading": "Commands and requests",
+      "body": "Orders, instructions and requests are reported with `tell`, `ask`, `advise`, `warn`, `order`, `remind` or `urge`, followed by an object and a to-infinitive. A negative puts `not` in front of `to`: `told us not to touch anything`.\n\n`tell` requires the person; `say` cannot take one directly. `He told me to wait` is correct, `He said me to wait` is not — a point at which speakers of Arabic and of several other languages regularly slip, since the equivalent verb there takes the person without difficulty.",
+      "examples": [
+        {
+          "right": "The officer told the crowd to move back from the barrier.",
+          "wrong": "The officer said the crowd to move back from the barrier.",
+          "note": "`say` takes no personal object; `tell` does."
+        },
+        {
+          "right": "She asked me to send her the file.",
+          "wrong": "She asked me that I send her the file.",
+          "note": "Requests take an object plus a to-infinitive."
+        },
+        {
+          "right": "We were advised not to travel after dark.",
+          "wrong": null,
+          "note": "The negative goes before `to`, not after it."
+        }
+      ]
+    },
+    {
+      "heading": "Choosing the reporting verb",
+      "body": "A reporting verb can carry the speaker's intention, which quotation marks would otherwise have to convey. `He said he would not sign` is neutral; `He refused to sign` names the speech act. Choosing well is among the quickest ways to lift the register of a summary.\n\nEach verb brings its own pattern, and the pattern has to be learnt with the verb: `suggest doing` or `suggest that we do`, `admit doing`, `deny doing`, `refuse to do`, `promise to do`, `offer to do`, `warn someone against doing`, `accuse someone of doing`, `apologise for doing`, `insist on doing`. `suggest` in particular never takes an object plus an infinitive.",
+      "examples": [
+        {
+          "right": "He suggested postponing the vote until the new figures were available.",
+          "wrong": "He suggested me to postpone the vote.",
+          "note": "`suggest` takes a gerund or a that-clause, never an object plus infinitive."
+        },
+        {
+          "right": "She warned us against relying on a single source.",
+          "wrong": "She warned us against to rely on a single source.",
+          "note": "`warn someone against` is followed by a gerund."
+        },
+        {
+          "right": "The company denied misleading investors.",
+          "wrong": "The company denied to mislead investors.",
+          "note": "`deny` takes a gerund."
+        },
+        {
+          "right": "He refused to comment on the allegations.",
+          "wrong": "He refused commenting on the allegations.",
+          "note": "`refuse`, by contrast, takes a to-infinitive."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`He asked where was I living`. A reported question keeps statement order: `where I was living`.",
+    "`They asked what did the results mean`. Drop the auxiliary `do` and put the tense on the main verb: `what the results meant`.",
+    "`He said me to wait`. `say` takes no personal object; use `He told me to wait`.",
+    "`He suggested me to postpone the vote`. `suggest` takes a gerund or a that-clause: `suggested postponing`.",
+    "Backshifting a past perfect a second time (`had had already left`). It is already as far back as English goes.",
+    "Backshifting a still-true fact out of habit. `She said her brother lives in Dublin` is right if he still lives there."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "He asked me where ___ at the time of the accident.",
+      "options": [
+        "was I live",
+        "I was living",
+        "was I living",
+        "did I live"
+      ],
+      "answer": 1,
+      "explain": "A reported question is a subordinate clause and keeps statement word order. `was I living` is the direct-question form and cannot follow `asked me where`."
+    },
+    {
+      "type": "blank",
+      "prompt": "\"I have finished the report,\" she said. She said she ___ the report.",
+      "hint": "finish (past perfect)",
+      "accept": [
+        "had finished",
+        "'d finished"
+      ],
+      "explain": "After a past reporting verb the present perfect backshifts one step, to the past perfect."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The interviewer asked ___ I had ever worked abroad.",
+      "options": [
+        "what",
+        "whether",
+        "that",
+        "did"
+      ],
+      "answer": 1,
+      "explain": "A reported yes-no question needs `whether` (or `if`) to introduce it. `that` introduces a reported statement, not a question."
+    },
+    {
+      "type": "mcq",
+      "prompt": "He admitted ___ the data before the paper was submitted.",
+      "options": [
+        "altering",
+        "alter",
+        "to alter",
+        "that altering"
+      ],
+      "answer": 0,
+      "explain": "`admit` is followed by a gerund, or by a that-clause such as `admitted that he had altered`. A to-infinitive follows verbs like `refuse` and `promise` instead."
+    },
+    {
+      "type": "blank",
+      "prompt": "\"We signed the contract yesterday,\" he told us last month. He told us they had signed the contract ___.",
+      "hint": "yesterday, shifted for a later report",
+      "accept": [
+        "the day before",
+        "the previous day"
+      ],
+      "explain": "`yesterday` points at the original speaker's day, so a report made later must recalculate it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The officer told the crowd ___ back from the barrier.",
+      "options": [
+        "to move",
+        "moving",
+        "that move",
+        "move"
+      ],
+      "answer": 0,
+      "explain": "Commands are reported with `tell` plus an object plus a to-infinitive. The bare `move` belongs to the direct order itself."
+    },
+    {
+      "type": "blank",
+      "prompt": "\"Could you send me the file?\" she asked. She asked me ___ her the file.",
+      "hint": "send (to-infinitive)",
+      "accept": [
+        "to send"
+      ],
+      "explain": "A request is reported with `ask` plus an object plus a to-infinitive, not with a that-clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"I had already left when the alarm sounded,\" he said. He said he ___ already left when the alarm sounded.",
+      "options": [
+        "would have",
+        "had",
+        "has",
+        "had had"
+      ],
+      "answer": 1,
+      "explain": "The past perfect is as far back as the tense system reaches, so it stays unchanged. `had had` would be an attempt to backshift a form that is already at the limit."
+    },
+    {
+      "type": "blank",
+      "prompt": "\"I bought this here,\" he said. Reporting it a week later in another city: he said he had bought that ___.",
+      "hint": null,
+      "accept": [
+        "there"
+      ],
+      "explain": "`here` points at the original speaker's location, so it becomes `there` once the words are reported somewhere else."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She ___ us against relying on a single source for the figures.",
+      "options": [
+        "refused",
+        "denied",
+        "suggested",
+        "warned"
+      ],
+      "answer": 3,
+      "explain": "Only `warn` takes the pattern `warn someone against doing`, and only `warn` carries the sense of a caution; `suggest` cannot take a personal object at all."
+    },
+    {
+      "type": "blank",
+      "prompt": "He suggested ___ the vote until the new figures were available.",
+      "hint": "postpone (gerund)",
+      "accept": [
+        "postponing"
+      ],
+      "explain": "`suggest` is followed by a gerund or a that-clause, and never by an object plus a to-infinitive."
+    },
+    {
+      "type": "mcq",
+      "prompt": "They asked what the results ___ for future policy.",
+      "options": [
+        "did they mean",
+        "meant",
+        "do mean",
+        "did mean"
+      ],
+      "answer": 1,
+      "explain": "The auxiliary `do` appears only in direct questions; in a reported question the tense is carried by the main verb itself."
+    }
+  ]
+}

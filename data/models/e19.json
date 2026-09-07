@@ -1,0 +1,68 @@
+{
+  "id": "e19",
+  "models": [
+    {
+      "stance": "Insecurity as the cause",
+      "approach": "Trace the rise to the disappearance of predictable adulthood, then follow the consequences into work and health systems.",
+      "plan": [
+        "Introduction: name the trend and promise causes then consequences.",
+        "Body 1: causes, ranked, with economic insecurity first.",
+        "Body 2: consequences, joined explicitly to those causes.",
+        "Conclusion: whether it is reversible."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Anxiety and depression among people in their twenties have risen faster than in any other age group, and the increase is too steep to be explained by better diagnosis alone. [[It is evident that]] something in the conditions of young adulthood has changed, and the consequences are already visible in workplaces and clinics." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] the loss of a predictable path. Previous generations could expect secure work and eventually a home; a graduate today may hold six short contracts before thirty, and [[in the long run]] that uncertainty is more corrosive than hardship itself, because it removes any ability to plan. Social media [[exacerbates|Exacerbate]] it by supplying constant comparison at exactly the age when comparison bites hardest. [[At the same time]], the informal networks that once absorbed distress, extended family, church, union, have thinned, leaving the individual to carry it alone." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], the effects reach well beyond the individual. Health systems designed for physical illness are [[inundated|Inundate]] by demand they cannot meet, and waiting lists of a year are now ordinary. Employers report absence and turnover concentrated among their youngest staff, which is expensive and largely invisible in the accounts. [[It follows that]] a generation entering work with untreated illness will carry the cost of it for decades." },
+        { "role": "Conclusion", "text": "[[In conclusion]], the rise is driven mainly by insecurity rather than by fragility, which is encouraging in one respect: causes of that kind are policy, not fate. Stable contracts, affordable housing and treatment available within weeks rather than years would [[ameliorate]] a problem that is otherwise certain to grow." }
+      ],
+      "notes": [
+        "Ranking the causes and saying which is primary is what the question is testing. Three equal causes read as a list rather than an analysis.",
+        "Untreated illness carried for decades is a consequence with a timescale, which is more useful than saying it is bad for society.",
+        "Policy, not fate is the essay's argument in three words, and it earns its place because the causes named were all structural."
+      ]
+    },
+    {
+      "stance": "Attention and comparison as the cause",
+      "approach": "Argue that the sharpest change is in the daily texture of attention rather than in economics.",
+      "plan": [
+        "Introduction: the timing points at something more specific than the economy.",
+        "Body 1: causes, the phone, sleep and constant comparison.",
+        "Body 2: consequences for education, relationships and health services.",
+        "Conclusion: what could be changed, and what probably cannot."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Economic explanations for rising anxiety are plausible but they fit the timing badly, since the sharpest increase began around 2012 rather than in the crash of 2008. [[I would argue]] that the more [[compelling]] cause is a change in how young adults spend their attention." },
+        { "role": "Body 1 · causes", "text": "[[First and foremost]], sleep has been displaced. A phone beside the bed removes an hour or more a night, and disrupted sleep is one of the few [[empirical]] predictors of depression that nobody disputes. [[This leads to]] the second cause: continuous comparison. Where earlier generations compared themselves with thirty classmates, a nineteen-year-old now compares an ordinary Tuesday with the edited highlights of thousands of strangers, and the resulting sense of falling short is [[insidious]] rather than dramatic. [[Not surprisingly]], the effect is strongest among young women." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], the damage shows first where concentration is required. Universities report sharp rises in withdrawal and in requests for extensions, and employers find that new graduates need far more support than a decade ago. Friendships suffer too, since a conversation conducted in text is thinner than one conducted in a room, and thin friendships are poor protection. [[Consequently]], demand for treatment has grown faster than any health service can [[implement]] capacity." },
+        { "role": "Conclusion", "text": "[[Overall]], the causes lie in the ordinary daily habits of a generation, which is both hopeful and difficult. Phones out of bedrooms and out of schools would help, and [[to some degree]] the culture is already turning, but a technology this [[ingrained]] will not be legislated away." }
+      ],
+      "notes": [
+        "Using the timing to reject the alternative explanation is a strong opening move, and it costs one sentence.",
+        "Sleep is the mechanism that makes this essay concrete. A cause with a physiological pathway is more convincing than a cause described as a mood.",
+        "The conclusion admits the limits of its own remedy, which reads as honesty rather than weakness."
+      ]
+    },
+    {
+      "stance": "Several causes, one common thread",
+      "approach": "Accept that the causes are multiple and argue that what unites them is the loss of predictable belonging.",
+      "plan": [
+        "Introduction: single-cause explanations all fail; name the thread.",
+        "Body 1: three causes and the thread that joins them.",
+        "Body 2: consequences at the level of the person and of society.",
+        "Conclusion: what follows for policy."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Every single-cause explanation for this rise fails a simple test: the trend appears in countries with very different economies and very different phone habits. [[From my perspective]] the causes are multiple, and what they share is the removal of predictable belonging." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that three separate supports weakened at once. Work became [[intermittent]], so identity could no longer rest on a job; local institutions emptied, so it could not rest on a place; and friendship migrated onto platforms that measure it, so it could not rest on people either. Each alone would be manageable. Together they leave a young adult with no [[intact]] structure to fall back on, and the resulting [[introspection]] turns inward on the self as the only remaining subject." },
+        { "role": "Body 2 · consequences", "text": "[[As a result]], distress that would once have been absorbed privately now arrives as clinical demand. Services built for a smaller caseload are overwhelmed, and the wait itself worsens the illness. [[Broadly speaking]], a cohort that postpones work, partnership and children is not merely unhappy; it changes the shape of the population, and the economic consequences of that will outlast the psychological ones." },
+        { "role": "Conclusion", "text": "[[To sum up]], the increase reflects the simultaneous loss of several ordinary certainties rather than any single villain. [[It stands to reason]] that the response must be equally broad: secure work, funded local institutions and early treatment, since restoring any one of the three alone would leave the other two doing the damage." }
+      ],
+      "notes": [
+        "Rejecting single-cause explanations and then naming what unites several is the most sophisticated shape this question allows.",
+        "Three supports, named in one sentence each, keeps a multi-cause paragraph from turning into a list.",
+        "The conclusion insists that partial remedies fail, which follows directly from the argument rather than being added at the end."
+      ]
+    }
+  ]
+}

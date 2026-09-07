@@ -1,0 +1,29 @@
+{
+  "name": "pte-vocab-tracker",
+  "version": "1.0.0",
+  "description": "16-week PTE vocabulary cycling system: daily batches, mastery tracking, recall drills and triage.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "pte": "./index.js"
+  },
+  "scripts": {
+    "web": "node index.js web",
+    "daily": "node index.js daily",
+    "stats": "node index.js stats",
+    "update": "node index.js update",
+    "review-mode": "node index.js review",
+    "recall": "node index.js recall",
+    "triage": "node index.js triage",
+    "export-batch": "node index.js export-batch"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0",
+    "kokoro-js": "^1.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

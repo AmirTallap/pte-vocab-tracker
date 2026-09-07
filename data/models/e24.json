@@ -1,0 +1,68 @@
+{
+  "id": "e24",
+  "models": [
+    {
+      "stance": "Supply is the constraint",
+      "approach": "Diagnose the shortage as a planning failure and propose building, with the actors named.",
+      "plan": [
+        "Introduction: state the scale and promise causes then remedies.",
+        "Body 1: two causes, restricted supply and the demand that met it.",
+        "Body 2: measures answering both, with who must act.",
+        "Conclusion: the problem is soluble and the obstacle is political."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "In the largest cities a median home now costs ten to fourteen times a median salary, against three or four a generation ago. [[It is clear that]] this is a shortage with identifiable causes rather than an unfortunate market mood, and the remedies are well known and politically expensive." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that supply has been restricted for forty years. Planning systems written to protect neighbourhoods from change have made building near jobs almost [[insuperable]], so cities added workers far faster than dwellings. [[This leads to]] the second cause: with supply fixed, cheap credit and investment demand pushed prices up rather than production, and housing became an asset rather than a place to live. [[Consequently]], every subsidy for buyers has been absorbed into the price within a year or two." },
+        { "role": "Body 2 · measures", "text": "The measures follow directly. Governments could permit far denser building along existing transit lines, which is where the demand is and where the infrastructure already exists. They could also build directly: public housebuilding at scale is the one policy with a proven record, and its absence since the 1980s tracks the price rise closely. Taxing land rather than transactions would [[dissuade]] the holding of empty plots, and rent regulation could [[ameliorate]] the immediate pain while the building happens." },
+        { "role": "Conclusion", "text": "[[In summary]], housing is unaffordable because too little has been built where people want to live. Building is the answer, and the real [[impediment]] is that existing owners vote and future residents do not, which is a political problem rather than an economic one." }
+      ],
+      "notes": [
+        "The two causes are linked: restricted supply is what turned credit into price. Showing the mechanism between causes is what this question type rewards.",
+        "Every measure names an actor and most name a precedent. A remedy with no one to carry it out is a wish.",
+        "Naming the political obstacle in the last sentence explains why an obvious solution has not been adopted, which is the honest way to finish."
+      ]
+    },
+    {
+      "stance": "Demand and finance are the constraint",
+      "approach": "Argue that treating homes as investments is the cause, and target the money rather than the planning system.",
+      "plan": [
+        "Introduction: building alone has not worked where it was tried.",
+        "Body 1: causes rooted in credit, investment and short lets.",
+        "Body 2: measures aimed at the money, with actors named.",
+        "Conclusion: what building can and cannot fix."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Cities that built enormously, from Dublin to parts of China, still have young people who cannot afford to live in them. [[It is evident that]] supply alone does not explain the crisis, and the causes lie substantially in how housing is financed and held." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that a house has become a store of value competing with bonds. Two decades of low interest rates sent capital into property, and an [[invariable]] consequence is that prices are set by what investors will pay rather than by what workers earn. Short-term letting compounds it: in several city centres a large share of the stock now serves visitors, and every unit removed from the residential market [[exacerbates|Exacerbate]] the shortage locally. [[As a result]], new building is frequently bought by the same investors who caused the pressure." },
+        { "role": "Body 2 · measures", "text": "Measures should therefore attack the incentive. Governments could tax second and empty homes heavily, license short lets strictly, and restrict mortgage lending for purchase-to-rent, all of which have measurably cooled prices where they were tried. Public bodies could also buy land before it is [[inundated|Inundate]] by speculative bidding, and build on it for permanent below-market rent. To be effective, these must apply together, since capital simply moves to whichever route is left open." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], housing is unaffordable because it is profitable to keep it so. Building more is necessary and on its own [[deficient]]: unless the investment demand is dampened at the same time, new supply is absorbed by the same buyers, and the young are outbid at every price level." }
+      ],
+      "notes": [
+        "Opening with a counterexample to the standard answer, cities that built and remain expensive, earns the right to propose a different diagnosis.",
+        "The measures are specific enough to be argued with, which is the test of a solutions paragraph.",
+        "Necessary and insufficient is precise. Saying exactly how much of the other side's answer you accept is stronger than rejecting it."
+      ]
+    },
+    {
+      "stance": "Both, and they interact",
+      "approach": "Argue that supply and finance are one mechanism, and that measures aimed at either alone are absorbed by the other.",
+      "plan": [
+        "Introduction: the two usual explanations are halves of one process.",
+        "Body 1: causes, and how the two halves reinforce each other.",
+        "Body 2: measures, paired so that neither is absorbed.",
+        "Conclusion: what realistically can be done, and over what period."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The argument about housing is usually a quarrel between those who blame planning and those who blame investors. [[From my perspective]] these are two halves of one mechanism, and any remedy applied to one alone is absorbed by the other." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] the interaction. Restricted supply makes housing a reliable investment, because a fixed stock in a growing city can only rise, and that reliability then attracts the capital that outbids residents. [[It follows that]] more capital raises prices without producing homes, and the higher prices make existing owners still more resistant to building. [[Consequently]], the system is self-reinforcing: each cause strengthens the other, which is why forty years of separate remedies have failed." },
+        { "role": "Body 2 · measures", "text": "Effective measures must therefore come in pairs. Permitting dense building near transit should be matched with taxes on empty and second homes, so the new supply is not simply absorbed. Public building at scale should be paired with land value taxation, which stops the land price rising to swallow the subsidy. [[Above all]], the rules must be [[explicit]] and durable, since developers and investors alike respond to what they expect a decade ahead." },
+        { "role": "Conclusion", "text": "[[Taken together]], the crisis is the product of scarce supply and abundant capital acting on each other, and only paired measures break the loop. Governments can realistically do this, but not quickly: the honest promise is a decade of steady building and steady tax, not an [[imminent]] fall in prices." }
+      ],
+      "notes": [
+        "Showing how two causes reinforce each other is the most analytical thing available in this question type, and it justifies the paired remedies that follow.",
+        "Pairing each measure with another explains why previous attempts failed, which answers the unspoken question of why the problem persists.",
+        "Refusing to promise a quick fall in prices is a small honesty that makes the whole essay more credible."
+      ]
+    }
+  ]
+}

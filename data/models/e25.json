@@ -1,0 +1,68 @@
+{
+  "id": "e25",
+  "models": [
+    {
+      "stance": "Disagree",
+      "approach": "Argue that a feed is not evidence of job performance, and that using it imports every bias it contains.",
+      "plan": [
+        "Introduction: state the position and the standard you will judge by.",
+        "Body 1: what a social media profile actually reveals.",
+        "Body 2: concede the legitimate cases, then bound them.",
+        "Conclusion: the rule you would prefer."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Employers can now read a decade of somebody's opinions before meeting them, and the question is whether that is information or merely material. [[In my opinion]] it is mostly the latter, and permitting it as a hiring criterion would make recruitment less accurate rather than more." },
+        { "role": "Body 1 · what it reveals", "text": "[[The main point is]] that a feed reveals age, religion, politics, pregnancy and health, which are the exact categories employers are forbidden to consider. Looking at it does not make a manager biased, but it supplies everything bias needs, and the resulting decision is [[irreproachable]] on paper because no one has to say why. [[There is evidence that]] identical applications with different profiles attached receive markedly different callback rates." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], some checks are reasonable. A public post inciting violence, or one leaking a former employer's confidential material, is [[germane]] to whether somebody should be hired, and no employer should ignore it. [[That said]], those are narrow and specific, whereas the practice at issue is a general trawl through a person's private life. [[It is worth noting]] that the material is also poor evidence: a joke from age nineteen predicts almost nothing about a thirty-year-old's work." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I disagree with a general permission while accepting narrow exceptions. Employers should be allowed to consider public professional conduct and nothing else, since anything wider imports the [[insidious]] kind of discrimination that the law can no longer see." }
+      ],
+      "notes": [
+        "Naming the protected categories in body one is what turns a privacy objection into a legal and practical one.",
+        "The concession is genuine and specific, and the conclusion then writes it into the rule. That is how a concession earns its place.",
+        "A joke from age nineteen is the concrete detail that makes the accuracy argument land."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Argue that public speech is public, and that employers already bear the consequences of it.",
+      "plan": [
+        "Introduction: agree, with the distinction between public and private.",
+        "Body 1: why public conduct is legitimately relevant.",
+        "Body 2: concede the discrimination risk, then answer with process.",
+        "Conclusion: restate, with the safeguards that make it acceptable."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A public post is a statement made to the world, not a diary entry read over somebody's shoulder. [[On the whole]] I agree that employers may consider it, provided the material is genuinely public and genuinely relevant." },
+        { "role": "Body 1 · why it is relevant", "text": "[[First and foremost]], employers carry the consequences of their staff's public conduct. A hospital whose new nurse has been publicly mocking patients, or a school whose teacher posts abuse, will answer for it, and pretending the material does not exist is [[injudicious]] rather than principled. [[It is clear that]] the same applies to a candidate whose feed shows they have repeatedly published a previous employer's confidential information: that is a demonstrated [[propensity]], not a guess." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the practice invites discrimination. A profile discloses religion, politics and family circumstances, and the risk that these influence a decision is real. [[Nevertheless]], the remedy is procedure rather than prohibition: a documented search conducted by somebody outside the hiring panel, limited to public posts and recorded in writing, keeps the relevant material and makes the [[impartial]] handling of it auditable." },
+        { "role": "Conclusion", "text": "[[All things considered]], I agree that employers should be permitted this, on conditions. Public accounts only, a written record, no fishing through friends and family, and a right for the candidate to respond would preserve the legitimate use while making the [[insidious]] one much harder to hide." }
+      ],
+      "notes": [
+        "The strongest version of this position is procedural: it accepts the danger and designs against it rather than denying it.",
+        "The hospital and the school are examples where nobody would defend ignoring the material, which is what makes the general permission plausible.",
+        "The conclusion lists four safeguards. A conditional agreement needs its conditions written out, not gestured at."
+      ]
+    },
+    {
+      "stance": "Only what is professionally published",
+      "approach": "Draw the line at what the candidate published in a professional capacity, and defend that line on both accuracy and fairness.",
+      "plan": [
+        "Introduction: the question is too broad; propose the line.",
+        "Body 1: why professional output is fair to consider.",
+        "Body 2: why the rest is neither fair nor useful.",
+        "Conclusion: the rule, and why it is enforceable."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Social media activity covers a published article and a photograph from a wedding, and treating them as one category is what makes this argument unresolvable. [[To a certain extent]] I agree with employer access, but only to what a candidate published as a professional." },
+        { "role": "Body 1 · professional output", "text": "Where somebody has written publicly about their field, the material is both relevant and volunteered. A developer's public code, a designer's portfolio and a consultant's published essays are offered precisely so that others may judge them, and reading them is no different from reading a reference. [[It is evident that]] such work is often better evidence than an interview, since it shows the candidate's judgement at length rather than their composure for an hour." },
+        { "role": "Body 2 · everything else", "text": "[[By contrast]], a personal account is neither offered as evidence nor useful as it. It reveals protected characteristics, it is frequently misread out of context, and a decade-old post is a poor guide to a present adult. [[Not surprisingly]], the practice also has a chilling effect: people learn to say nothing anywhere, which is an [[intrusion]] into ordinary life that no hiring gain justifies." },
+        { "role": "Conclusion", "text": "[[On balance]], then, employers should read what a candidate published professionally and leave the rest alone. The line is [[explicit]] enough to be written into a policy and to be audited afterwards, which is more than can be said for any rule that asks recruiters to look but not to be influenced." }
+      ],
+      "notes": [
+        "The distinction between volunteered professional output and a personal account resolves a question that is otherwise a clash of principles.",
+        "The chilling effect argument extends the harm beyond the individual candidate, which broadens the essay without loosening it.",
+        "Arguing that the line is enforceable is the practical test, and it is what makes the position more than a preference."
+      ]
+    }
+  ]
+}

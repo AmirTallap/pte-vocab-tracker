@@ -1,0 +1,68 @@
+{
+  "id": "e12",
+  "models": [
+    {
+      "stance": "Fund the arts",
+      "approach": "Answer the essential services objection on its own ground, with the economics and the access argument.",
+      "plan": [
+        "Introduction: state the disagreement and which side you end on.",
+        "Body 1: the case against subsidy, put at its strongest.",
+        "Body 2: your case, access and the market failure it corrects.",
+        "Conclusion: your opinion and the condition that justifies it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Arguments about arts funding are usually arguments about triage: whether a theatre can be justified while a hospital waits. [[It is often argued]] that it cannot, and the question deserves better than the usual appeal to civilisation. [[I would maintain]] that public funding is justified, though on economic and democratic grounds rather than sentimental ones." },
+        { "role": "Body 1 · the case against", "text": "[[On the one hand]], the objection is serious. Health and housing meet needs that nobody survives without, whereas an orchestra does not, and it is [[incongruous]] to subsidise concerts in a district with no dentist. [[It must be acknowledged]] that subsidy also tends to flow towards the tastes of people who already attend, so the poorest taxpayers frequently fund entertainment they will never see." },
+        { "role": "Body 2 · the case for", "text": "[[On the other hand]], withdrawing the money does not create a free market in culture; it creates a market with one buyer. Without subsidy, work is made for whoever can pay, which means the [[homogeneous]] output that advertising and streaming already produce. Public money is what pays for the unprofitable, the regional and the new. [[A case in point]] is that a large share of the commercial hits touring today began in subsidised studios, so the funding is closer to [[investment]] than to charity." },
+        { "role": "Conclusion", "text": "[[All things considered]], I support arts funding on condition that it reaches beyond the capital and the season ticket. Money spent on regional theatres, school music and free entry does more for access than any speech about heritage, and without those [[stipulations]] the criticism in the first argument stands." }
+      ],
+      "notes": [
+        "Conceding that subsidy often serves the well-off is the strongest thing this essay does, because the conclusion then attaches a condition that answers it.",
+        "Reframing the alternative as a market with one buyer, rather than as no market, is what turns the second paragraph into an argument.",
+        "Notice that no sentence claims art is good for the soul. Avoiding the obvious defence makes the essay sound like the writer's own."
+      ]
+    },
+    {
+      "stance": "Spend it elsewhere",
+      "approach": "Argue from opportunity cost and from what subsidy does to the art itself.",
+      "plan": [
+        "Introduction: accept the value of art and dispute the funding route.",
+        "Body 1: the case for subsidy, fairly stated.",
+        "Body 2: opportunity cost, and the dependency subsidy creates.",
+        "Conclusion: what should be funded instead, and why that is not philistinism."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Nobody arguing about this thinks art is worthless; the disagreement is about who should pay for it. [[In my opinion]] public money should go to essential services first, and the case for subsidy is weaker than its defenders assume." },
+        { "role": "Body 1 · the case for subsidy", "text": "[[On the one hand]], the argument for public funding is respectable. Culture that depends entirely on ticket sales becomes cautious, and museums free at the door are among the few [[equitable]] institutions left in an expensive city. [[It is true that]] much admired work was produced with subsidy and would not otherwise exist, which is not a small thing to set aside." },
+        { "role": "Body 2 · the case against", "text": "[[On the other hand]], every budget is finite, and the comparison is not between a theatre and nothing but between a theatre and a district nurse. [[More precisely]], the sums that sustain a national opera would fund several clinics, and defending the opera requires arguing that it matters more, which almost nobody will say aloud. Subsidy also makes companies answer to committees rather than audiences, and an art form that is [[inured]] to public money loses the habit of finding its own." },
+        { "role": "Conclusion", "text": "[[On balance]], I would spend the money on services and support culture by other means: tax relief for donors, cheap public space and serious arts teaching in schools. That is not being [[indifferent]] to art; it is a judgement that the state's scarce cash belongs where nobody else will spend it." }
+      ],
+      "notes": [
+        "Naming the real comparison, an opera house against several clinics, is what gives an opportunity-cost argument its force. Keep it concrete.",
+        "The last sentence pre-empts the accusation the other side will make. Answering the objection you expect is a mark of control.",
+        "Three alternatives replace the subsidy, so the essay refuses a policy without refusing the value behind it."
+      ]
+    },
+    {
+      "stance": "Fund the conditions, not the institutions",
+      "approach": "Argue that both sides are right about what they defend and wrong about the mechanism.",
+      "plan": [
+        "Introduction: the two camps disagree about buildings, not about art.",
+        "Body 1: what the pro-funding side gets right.",
+        "Body 2: what the anti-funding side gets right.",
+        "Conclusion: fund participation and space rather than institutions."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] the state should pay for museums and orchestras, but both camps are defending something narrower than they realise: one defends particular institutions, the other defends particular budgets. [[From my perspective]], the answer lies in changing what is funded rather than how much." },
+        { "role": "Body 1 · what the defenders see", "text": "[[On the one hand]], the supporters are right that culture left entirely to the market shrinks to whatever sells fastest. Streaming has made distribution [[pervasive]] and production timid, and the work that begins unprofitably has fewer places to begin. [[It is worth noting]] that the countries with the strongest creative exports are, without exception, the ones that funded the unprofitable stage." },
+        { "role": "Body 2 · what the critics see", "text": "[[On the other hand]], the critics are right about where the money lands. Most arts budgets are consumed by large buildings in capital cities, whose audiences are wealthier than the average taxpayer, and defending that as a public good requires ignoring who actually walks through the door. [[Consequently]], the subsidy [[engenders|Engender]] a hierarchy of taste rather than widening participation." },
+        { "role": "Conclusion", "text": "[[Taken together]], I would keep public money in culture and move it. Rehearsal space, instruments in schools, small grants to individual makers and free entry cost a fraction of a national institution and reach a hundred times as many people, which answers the critics without conceding the field to the market." }
+      ],
+      "notes": [
+        "Agreeing with both sides is only interesting if you then propose something neither of them said. The third paragraph earns the first two.",
+        "Where the money lands is a more concrete objection than whether art deserves it, and it is harder to answer.",
+        "The conclusion lists what the money would buy instead, with a claim about cost. That is a proposal rather than a compromise."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "past-perfect-narrative",
+  "title": "Past Perfect and Narrative Sequence",
+  "group": "Tenses",
+  "summary": "Marking the earlier of two past events, knowing when not to, and holding one tense across a story or a described process.",
+  "sections": [
+    {
+      "heading": "The earlier of two past events",
+      "body": "When two past events are mentioned and the order of telling is not the order of happening, the **past perfect** (`had` + past participle) marks the earlier one. The past simple carries the main line of the narrative; `had done` steps back from that line.\n\nOnly one step back is available, and it does not need repeating. Once the earlier event is established, the account can return to the past simple for everything that follows it.",
+      "examples": [
+        {
+          "right": "When we arrived, the film had started.",
+          "wrong": null,
+          "note": "The film began first; `the film started` would time it with our arrival."
+        },
+        {
+          "right": "She realised that she had left her passport at home.",
+          "wrong": null,
+          "note": "Leaving the passport precedes the realisation, and that gap is the point of the sentence."
+        },
+        {
+          "right": "The building had stood empty for a decade before the trust bought it.",
+          "wrong": null,
+          "note": "The earlier, longer state takes the past perfect."
+        }
+      ]
+    },
+    {
+      "heading": "When the past perfect is unnecessary",
+      "body": "If `before`, `after`, `then` or plain chronological order already fixes the sequence, the past perfect adds nothing and often sounds heavy. Careful writers use the past simple throughout.\n\nOverusing `had` does as much damage as omitting it. A paragraph in which every verb steps backwards has no main narrative line left for the reader to stand on.",
+      "examples": [
+        {
+          "right": "She finished her thesis and then applied for three jobs.",
+          "wrong": "She finished her thesis and then had applied for three jobs.",
+          "note": "`Then` already gives the order, and the past perfect would fight it."
+        },
+        {
+          "right": "After the committee approved the budget, work began.",
+          "wrong": null,
+          "note": "`After` fixes the sequence, so the past simple is enough; `had approved` is possible but adds nothing."
+        },
+        {
+          "right": "Before the internet, researchers had to travel to a library to consult a journal.",
+          "wrong": "Before the internet, researchers had had to travel to a library to consult a journal.",
+          "note": "`Before` sets the frame, so no further step back is needed."
+        }
+      ]
+    },
+    {
+      "heading": "Past perfect continuous",
+      "body": "`Had been + -ing` describes an activity that ran up to a point in the past, and it very often explains the situation at that point. It answers 'for how long', not 'how many'.\n\nAs with the present perfect, a quantity or a completed result takes the simple form instead: `had processed four thousand samples`, never `had been processing four thousand samples`.",
+      "examples": [
+        {
+          "right": "The engine overheated because it had been running for eleven hours.",
+          "wrong": null,
+          "note": "The duration up to the failure is what explains it."
+        },
+        {
+          "right": "Her eyes were red; she had been crying.",
+          "wrong": null,
+          "note": "The activity had stopped but left a visible trace at that past moment."
+        },
+        {
+          "right": "By the end of the trial, the team had processed four thousand samples.",
+          "wrong": "By the end of the trial, the team had been processing four thousand samples.",
+          "note": "A finished quantity takes the simple form."
+        }
+      ]
+    },
+    {
+      "heading": "used to, would and was going to",
+      "body": "`Used to` covers past habits and past states that no longer hold: `used to smoke`, `used to live by the river`. `Would` covers repeated past actions in a remembered setting, but not states: `every summer she would drive us to the coast` is fine, while `she would own a bicycle` is not.\n\n`Was going to` and `were going to` report a past intention that was not carried out, as do `had planned to` and `had intended to`. After the auxiliary `did`, the base form returns: `did not use to`, not `did not used to`.",
+      "examples": [
+        {
+          "right": "There used to be a tram line along this street.",
+          "wrong": "There used to being a tram line along this street.",
+          "note": "`Used to` is followed by the bare infinitive."
+        },
+        {
+          "right": "Every winter my grandfather would repair the fences himself.",
+          "wrong": null,
+          "note": "A repeated past action within a remembered period."
+        },
+        {
+          "right": "As a child he used to live near the docks.",
+          "wrong": "As a child he would live near the docks.",
+          "note": "`Would` cannot express a past state, only a repeated action."
+        },
+        {
+          "right": "We were going to hold the conference in Lisbon, but the venue was double-booked.",
+          "wrong": null,
+          "note": "An intention that came to nothing."
+        }
+      ]
+    },
+    {
+      "heading": "Holding one tense across a narrative",
+      "body": "A story or a described procedure should settle into one main tense and stay there, leaving it only for a reason a reader can see. Reports of method keep the past simple for what was done: the samples were collected, weighed and stored.\n\nWhen a shift is justified, the justification is usually one of three: an event earlier than the main line (past perfect), a fact still true at the time of writing (present simple), or a plan never carried out (`was going to`).",
+      "examples": [
+        {
+          "right": "The samples were collected in March and were stored in a cold room until analysis.",
+          "wrong": "The samples were collected in March and are stored in a cold room until analysis.",
+          "note": "One procedure, one tense; the present detaches the storage from the account."
+        },
+        {
+          "right": "He described the fire, explained how it had started and thanked the crew.",
+          "wrong": null,
+          "note": "The past simple carries the sequence; only the earlier event steps back."
+        },
+        {
+          "right": "The survey found that most respondents commuted by car, and that pattern still holds today.",
+          "wrong": null,
+          "note": "A deliberate switch to the present, justified by present relevance."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Piling `had` onto every verb in a paragraph: only the event out of sequence needs the past perfect.",
+    "Dropping the past perfect after `realised`, `remembered` and `found out`, where the earlier event is the whole point of the sentence.",
+    "`didn't used to`: after `did` the base form returns, so write `didn't use to`.",
+    "`would` for a past state (`I would have a bicycle`): use `used to` for states and keep `would` for repeated actions.",
+    "`had been processing four thousand samples`: a finished quantity takes `had processed`.",
+    "Letting a report drift between past and present (`the samples were collected and are stored`): choose one tense for the procedure and keep it."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "When we finally reached the cinema, the film ___, so we missed the opening scene.",
+      "options": [
+        "has started",
+        "had started",
+        "started",
+        "was starting"
+      ],
+      "answer": 1,
+      "explain": "The film began before the arrival, and only the past perfect places it earlier; `started` would time it with our arrival, which contradicts the missed opening."
+    },
+    {
+      "type": "blank",
+      "prompt": "The road was still wet because it ___ during the night.",
+      "hint": "rain (past perfect)",
+      "accept": [
+        "had rained",
+        "'d rained",
+        "had been raining",
+        "'d been raining"
+      ],
+      "explain": "The rain came before the state being described, so the narrative steps back one level to explain it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "She submitted the final draft and then ___ for two days.",
+      "options": [
+        "slept",
+        "has slept",
+        "was sleeping",
+        "had slept"
+      ],
+      "answer": 0,
+      "explain": "`Then` already fixes the order, so the past simple carries it; the past perfect would push the sleeping before the submission."
+    },
+    {
+      "type": "blank",
+      "prompt": "Before the internet, researchers ___ travel to a library to consult a journal.",
+      "hint": "have to (past simple)",
+      "accept": [
+        "had to"
+      ],
+      "explain": "`Before` sets the time frame on its own, so no additional step back into the past perfect is needed."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The engine overheated because it ___ for eleven hours without a break.",
+      "options": [
+        "had been running",
+        "is running",
+        "has been running",
+        "would have run"
+      ],
+      "answer": 0,
+      "explain": "The activity continued up to the moment of failure and explains it, which is the work of the past perfect continuous. `Would have run` makes the running hypothetical, and the two present forms cannot report a past breakdown."
+    },
+    {
+      "type": "blank",
+      "prompt": "There ___ be a tram line along this street, but it was removed in the 1960s.",
+      "hint": "use to",
+      "accept": [
+        "used to"
+      ],
+      "explain": "`Used to` marks a past state that no longer holds, and it takes the bare infinitive `be`."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Every summer my grandfather ___ us to the coast for a fortnight.",
+      "options": [
+        "would have taken",
+        "had taken",
+        "would take",
+        "was taking"
+      ],
+      "answer": 2,
+      "explain": "`Would` suits a repeated action inside a remembered period; the past continuous would describe one occasion in progress rather than an annual pattern."
+    },
+    {
+      "type": "blank",
+      "prompt": "We ___ hold the conference in Lisbon, but the venue was double-booked.",
+      "hint": "be going to",
+      "accept": [
+        "were going to"
+      ],
+      "explain": "`Were going to` reports a past intention that was never realised, which the plain past simple could not signal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "By the end of the trial, the research team ___ over four thousand samples.",
+      "options": [
+        "processed",
+        "was processing",
+        "had been processing",
+        "had processed"
+      ],
+      "answer": 3,
+      "explain": "`By the end of` looks back from a past point, which needs a perfect form, and a finished quantity takes the simple rather than the continuous."
+    },
+    {
+      "type": "blank",
+      "prompt": "Her eyes were red and her voice was unsteady; clearly she ___.",
+      "hint": "cry (past perfect continuous)",
+      "accept": [
+        "had been crying",
+        "'d been crying"
+      ],
+      "explain": "The activity had stopped by that past moment but its traces were still visible, which is the typical use of the past perfect continuous."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The samples were collected in March and ___ in a cold room until analysis.",
+      "options": [
+        "were stored",
+        "have been stored",
+        "are stored",
+        "had stored"
+      ],
+      "answer": 0,
+      "explain": "A single reported procedure keeps one tense throughout; moving to the present would cut the storage loose from the account of the method."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ten years ago the college ___ offer online courses at all.",
+      "options": [
+        "did not use to",
+        "used not",
+        "did not used to",
+        "was not used to"
+      ],
+      "answer": 0,
+      "explain": "After the auxiliary `did`, the base form `use` returns. `Was not used to` means 'was not accustomed to', which is a different idea altogether."
+    }
+  ]
+}

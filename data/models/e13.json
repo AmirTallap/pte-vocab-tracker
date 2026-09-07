@@ -1,0 +1,68 @@
+{
+  "id": "e13",
+  "models": [
+    {
+      "stance": "Blame the design, not the consumer",
+      "approach": "Explain the slow progress as a misplaced responsibility, then propose production-side remedies.",
+      "plan": [
+        "Introduction: state the problem and promise an explanation of the delay.",
+        "Body 1: why awareness campaigns failed, two linked causes.",
+        "Body 2: solutions aimed at the producers, with actors named.",
+        "Conclusion: the problem is soluble and what it needs."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Thirty years of public campaigns have coincided with a steady rise in the plastic reaching the sea. [[It is clear that]] the failure is structural rather than a shortage of goodwill, and understanding why is the only route to a remedy that works." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that responsibility was placed on the person holding the bottle rather than on the company that made it. Recycling rates flatter the figures, since much of what households sort is exported and only [[intermittent|Intermittent]] inspection follows it, so waste counted as recycled in Europe arrives in a river in Asia. [[This leads to]] the second cause: production has tripled over the same period, and no collection system can outrun a supply that grows faster than it does." },
+        { "role": "Body 2 · solutions", "text": "The remedies must therefore attach to production. Governments could make manufacturers legally responsible for the disposal of their own packaging, which has already cut waste sharply in several European states because it turns a cost they externalised into one they pay. Deposit schemes work for the same reason, returning bottles at rates above ninety per cent. [[Above all]], a global cap on new plastic production would [[impede]] the growth that defeats every downstream measure." },
+        { "role": "Conclusion", "text": "[[In summary]], progress has been slow because the burden was put on consumers while production expanded unchecked. Shifting the cost to the producer would [[expedite]] the change more than another decade of campaigns, and it is the one measure with an [[empirical]] record behind it." }
+      ],
+      "notes": [
+        "The two causes are linked, the second growing out of the first, which is what stops a causes paragraph reading as a list.",
+        "Every solution names who acts and cites a place where it worked. Deposit schemes with a percentage is worth more than a paragraph of principle.",
+        "The conclusion explains the failure in one sentence and the remedy in one, which is all a conclusion needs to do."
+      ]
+    },
+    {
+      "stance": "Blame the economics of recycling",
+      "approach": "Show that recycled plastic cannot compete with new plastic, and fix the price rather than the habit.",
+      "plan": [
+        "Introduction: the puzzle is that the technology exists and is not used.",
+        "Body 1: causes, the price of virgin plastic and the sorting problem.",
+        "Body 2: solutions that change the price and simplify the material.",
+        "Conclusion: an economic problem needs an economic answer."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The strange feature of plastic waste is that the technology to recycle it has existed for decades and is still barely used. [[It is evident that]] the obstacle is price rather than knowledge, which explains why awareness alone has achieved so little." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that new plastic is cheaper than recycled plastic, and while that holds, no manufacturer will buy the recycled kind. Cheap oil keeps it so, and the gap widens whenever the oil price falls. The second cause is material: modern packaging combines several polymers with foils and dyes, and separating them is so [[intricate]] that most sorting plants simply reject the item. [[As a result]], a great deal of carefully sorted household waste is burned or buried after collection." },
+        { "role": "Body 2 · solutions", "text": "The most effective remedies attack the price and the mixture. A tax on new plastic, matched by a minimum recycled content in packaging, would close the gap at a stroke and create the demand that recyclers lack. Governments could also restrict packaging to a short list of easily separated polymers, which would make sorting cheap enough to be worth doing. Neither measure asks the public to change a habit, which is exactly their advantage." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], plastic in the ocean is the result of a price signal pointing the wrong way. Correcting the price and simplifying the material would do more within five years than thirty years of campaigning managed, and it is [[incumbent]] on governments rather than shoppers to do it." }
+      ],
+      "notes": [
+        "Opening on a puzzle, the technology exists but is unused, gives the essay a question to answer and the reader a reason to continue.",
+        "Both causes are mechanisms, not complaints. A cause you can explain in one sentence is a cause you can propose a remedy for.",
+        "Neither measure asks the public to change a habit is the sentence that ties the solutions back to the failure described in the introduction."
+      ]
+    },
+    {
+      "stance": "Blame the missing enforcement",
+      "approach": "Argue that the problem is concentrated in a few places and that campaigns aimed at everybody miss it.",
+      "plan": [
+        "Introduction: the waste is not evenly spread, and neither should the remedy be.",
+        "Body 1: causes, where the plastic actually enters the sea.",
+        "Body 2: solutions targeted at those places and at fishing gear.",
+        "Conclusion: a soluble problem, mis-addressed for decades."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Public campaigns have addressed everybody equally, while the plastic entering the ocean comes overwhelmingly from a small number of rivers and one industry. [[To put it simply]], the effort has been [[disparate]] from the problem, and that is why progress has been so slow." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] geographic. A handful of rivers, in countries whose waste collection expanded far more slowly than their consumption, carry the majority of what reaches the sea, and a household there is not refusing to recycle but has no service to use. The second source is fishing gear: abandoned nets make up a large share of the floating debris, and no consumer campaign has ever touched them. [[Consequently]], decades of advice about shopping bags addressed neither of the two main channels." },
+        { "role": "Body 2 · solutions", "text": "Effective measures would follow the plastic. Funding waste collection in the twenty worst river basins is cheap by the standards of international aid and would remove more plastic than any European deposit scheme. Nets could be tagged and made returnable, so that abandoning them costs the owner money, and interceptor barriers at river mouths already recover thousands of tonnes where they have been [[implemented|Implement]]." },
+        { "role": "Conclusion", "text": "[[In summary]], the campaigns failed because they were aimed at the wrong people in the wrong places. Concentrating money on a few rivers and one industry would achieve more within a decade than universal exhortation has in three, and the failure so far has been one of aim rather than of effort." }
+      ],
+      "notes": [
+        "A causes paragraph that narrows the problem, twenty rivers and one industry, is far stronger than one that widens it.",
+        "The solutions match the two causes in the same order, and each says who pays. That mapping is the coherence mark.",
+        "Aim rather than effort is a four-word diagnosis. A conclusion that compresses the argument into a phrase reads as controlled."
+      ]
+    }
+  ]
+}

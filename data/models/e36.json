@@ -1,0 +1,68 @@
+{
+  "id": "e36",
+  "models": [
+    {
+      "stance": "Not a reasonable measure",
+      "approach": "Answer both halves at once, then show what the salary metric actually measures.",
+      "plan": [
+        "Introduction: answer no, and say what it measures instead.",
+        "Body 1: why graduate salary tracks intake rather than teaching.",
+        "Body 2: what it distorts, and the concession that it is not useless.",
+        "Conclusion: what should be measured instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Judging a university by its graduates' earnings is not a reasonable measure of educational success, chiefly because it measures who was admitted rather than what was taught. [[In my opinion]] a serious ranking would look at what changed during the degree." },
+        { "role": "Body 1 · what it actually measures", "text": "[[The main point is]] selection. An institution admitting affluent, well-schooled students will report high salaries whatever happens in its lecture halls, and a college recruiting from a poor region will report low ones even if it transformed every student it took. [[It is evident that]] the metric therefore rewards a strong intake and penalises the [[equitable]] work of widening access. [[There is evidence that]] the value added by the least prestigious institutions is frequently the largest." },
+        { "role": "Body 2 · what it distorts, and one concession", "text": "[[Consequently]], the measure changes behaviour in predictable ways. Departments in nursing, teaching and social work look like failures despite filling shortages that the country cannot manage without, and a university reading the league table has an [[explicit]] incentive to close them. [[Granted]], earnings are not [[irrelevant]]: a student borrowing heavily deserves to know the likely return, and a course whose graduates never find work is failing them. [[That said]], publishing that information is different from using it as the ranking." },
+        { "role": "Conclusion", "text": "[[To sum up]], salary is a poor measure of a university and a useful piece of consumer information. What should count instead is value added against intake, completion rates, and whether graduates enter work that is [[germane]] to what they studied, since those measure the institution rather than its admissions office." }
+      ],
+      "notes": [
+        "A direct question needs its answer in the first sentence, and the second half of the question needs answering in the conclusion. Both happen here.",
+        "The distinction between a bad ranking metric and useful consumer information is what keeps the essay from overstating its case.",
+        "Value added against intake is a specific alternative, which is what the second half of the question asked for."
+      ]
+    },
+    {
+      "stance": "Partly reasonable",
+      "approach": "Defend the metric's honesty about why most students attend, then bound it carefully.",
+      "plan": [
+        "Introduction: answer with a qualified yes.",
+        "Body 1: why earnings deserve a place.",
+        "Body 2: where the measure breaks, and what must accompany it.",
+        "Conclusion: the basket of measures you would use."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most students, asked why they are at university, mention work, and a measure that reflects this is not [[frivolous]]. [[To a certain extent]] the salary metric is reasonable, provided it is one measure among several rather than the ranking itself." },
+        { "role": "Body 1 · why it deserves a place", "text": "[[First and foremost]], students now carry the cost. Where a degree is funded by debt, a course whose graduates earn less than non-graduates has done its students a measurable harm, and institutions were not previously required to face that. [[It is worth noting]] that the disclosure has already closed courses with consistently poor outcomes, which is uncomfortable but not obviously wrong. Universities that resisted transparency for years made the case for it [[compelling]]." },
+        { "role": "Body 2 · where it breaks", "text": "[[Nevertheless]], the measure is easily misread. It tracks the subject and the region more than the teaching, so a university in a poor labour market is penalised for its geography, and any institution can improve its position simply by admitting wealthier students. [[Not surprisingly]], it also values a banker above a midwife, which makes it [[incongruous]] as a measure of what education is for. [[Above all]], it says nothing about what a student learned." },
+        { "role": "Conclusion", "text": "[[On balance]], earnings belong in the basket and should not be the basket. Alongside them I would put value added against prior attainment, graduate employment in the field studied, completion rates and student evaluations of teaching, since only together do these [[illuminate]] what an institution actually did." }
+      ],
+      "notes": [
+        "Conceding that the metric has forced a useful disclosure makes the criticism that follows much harder to dismiss.",
+        "A banker above a midwife is the sentence that shows the metric's values rather than describing them.",
+        "Naming four complementary measures answers the second half of the question in specific terms."
+      ]
+    },
+    {
+      "stance": "The question is the wrong one",
+      "approach": "Argue that ranking universities by any single output misunderstands what they do, and propose a different framing.",
+      "plan": [
+        "Introduction: answer no, and question the ranking impulse itself.",
+        "Body 1: universities perform several jobs that no single number covers.",
+        "Body 2: what measurement does to the thing measured.",
+        "Conclusion: what should be published instead of a ranking."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Salary is a poor measure of educational success, but the deeper problem is the assumption that a university can be ranked on any single output at all. [[I would argue]] that the question itself deserves examination before it is answered." },
+        { "role": "Body 1 · several jobs at once", "text": "[[The key issue is]] that these institutions do at least three [[disparate]] things: they teach, they produce research, and they act as the main route by which a talented child from a poor family reaches a professional career. No number captures all three, and optimising for one damages the others. [[For instance]], a university that maximised graduate earnings would recruit fewer poor students and close its most socially valuable departments, which would be counted as an improvement." },
+        { "role": "Body 2 · what measurement does", "text": "[[Consequently]], the metric becomes the target and stops describing anything. Institutions learn to manage the number rather than the thing, through selective admissions, generous classification of employment and the quiet closure of courses that serve the wrong labour market. [[It is clear that]] this is the ordinary fate of a single indicator, and it is why the ranking eventually [[invalidates|Invalidate]] itself." },
+        { "role": "Conclusion", "text": "[[To sum up]], no single measure will work, and salary is a particularly [[insidious]] choice because it looks objective. Publishing a small dashboard, value added, access, completion, research quality and earnings by subject rather than by institution, would inform a student without pretending that a university is one thing that can be placed in order." }
+      ],
+      "notes": [
+        "Questioning the framing is legitimate provided you still answer the question asked, which the first sentence does.",
+        "The metric becomes the target is a well-known problem stated in the writer's own words, which is better than naming the law it comes from.",
+        "A dashboard rather than a ranking is a concrete answer to what else should be taken into account."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e58",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from where the disease burden originates and answer the political objection about invisible benefits.",
+      "plan": [
+        "Introduction: agree, and name the arithmetic.",
+        "Body 1: what prevention would address, with figures.",
+        "Body 2: concede the political difficulty, then answer it.",
+        "Conclusion: restate, with what prevention actually means."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Health systems spend the overwhelming majority of their budgets on treating conditions that were largely preventable, which is an arrangement nobody would design deliberately. [[By and large]] I agree that far more should go to prevention, provided prevention is understood to mean more than advice." },
+        { "role": "Body 1 · the arithmetic", "text": "[[The main point is]] that a small number of causes produce most of the burden. Tobacco, poor diet, inactivity, alcohol and air pollution account for a large share of the cancers, heart disease and diabetes that consume hospital budgets, and each is addressable before it becomes a patient. [[There is evidence that]] the measures work: smoking rates halved where taxation, advertising bans and smoke-free laws were combined, and the saving to health systems is [[irrefutable]]. [[Consequently]], the current allocation treats the consequences of decisions the state could have influenced far more cheaply." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that prevention is politically thankless. Its successes are invisible, since nobody can point to the heart attack that did not happen, while a closed ward is on the news that evening, so a minister who moves money from treatment to prevention pays the cost now for a benefit that arrives after they have left office. [[That said]], this is an argument for protecting prevention budgets from ministerial discretion rather than for keeping them small, and independent funding of the kind used for [[interim]] public health bodies is one way to do it." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that investment should shift substantially towards prevention, and that it must mean regulation, housing, air quality and food policy rather than campaigns telling people what they already know. Advice alone is [[insignificant]] against the conditions that produce illness." }
+      ],
+      "notes": [
+        "Nobody can point to the heart attack that did not happen explains the political economy of prevention in one sentence.",
+        "The smoking example is the strongest evidence available and is used with a mechanism, not just a claim.",
+        "Insisting that prevention means regulation rather than advice is what stops the position being a platitude."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Support prevention while insisting that the treatment budget cannot be raided to fund it.",
+      "plan": [
+        "Introduction: agree about prevention, disagree about far more at treatment's expense.",
+        "Body 1: why prevention deserves more.",
+        "Body 2: why the trade-off as posed is dangerous.",
+        "Conclusion: where the money should come from instead."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Prevention is underfunded almost everywhere, and the case for correcting that is strong. [[To a certain extent]] I agree with the statement, though the framing of prevention against treatment conceals a choice that would harm people currently alive." },
+        { "role": "Body 1 · the case for prevention", "text": "The economic argument is straightforward. Vaccination, screening and tobacco control return several times their cost, and conditions such as type two diabetes consume enormous sums that earlier intervention would have avoided. [[It is evident that]] the [[propensity]] of health systems to fund the dramatic over the unglamorous is a bias rather than a plan, and correcting it would improve both budgets and lives." },
+        { "role": "Body 2 · why the trade-off is dangerous", "text": "[[Nevertheless]], the people needing treatment today cannot wait for a generation of better habits. Prevention pays back over decades, while a cancer service that loses funding produces deaths within a year, and no politician who has made that trade has survived it. [[It must be acknowledged]] that some prevention spending is also poorly evidenced: general health checks and awareness campaigns have repeatedly failed to change outcomes, so far more is not automatically better. [[Consequently]], the case is for better prevention rather than simply larger amounts." },
+        { "role": "Conclusion", "text": "[[On balance]], I would increase prevention substantially and fund it from outside the treatment budget, through taxation of the products causing the harm and through housing, transport and air quality budgets. [[In essence]] the health of a population is decided largely outside its hospitals, which makes the framing of this question the [[impediment]] to answering it well." }
+      ],
+      "notes": [
+        "Rejecting the trade-off in the framing is the essay's contribution, and it is stated in the introduction rather than sprung at the end.",
+        "Conceding that some prevention spending is ineffective prevents the essay from arguing for a slogan.",
+        "Naming the alternative funding sources answers the obvious question of where the money comes from."
+      ]
+    },
+    {
+      "stance": "Agree, and prevention should mean policy outside health",
+      "approach": "Argue that most prevention is not a health service activity at all.",
+      "plan": [
+        "Introduction: agree, and relocate where prevention happens.",
+        "Body 1: the evidence that health is decided outside hospitals.",
+        "Body 2: what that implies, with the concession about attribution.",
+        "Conclusion: how the budget should actually be arranged."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Prevention is usually discussed as something a health service does, when most of it happens in housing, transport and food policy. [[I would argue]] that far more should indeed be invested in prevention, and that most of the money should not be held by health ministries at all." },
+        { "role": "Body 1 · where health is decided", "text": "[[The main point is]] that the largest determinants of illness are social. Damp housing produces asthma, poverty produces poor diet, and air pollution produces both heart and lung disease, and none of these is treated in a clinic. [[There is evidence that]] differences in life expectancy between neighbourhoods a few miles apart reach a decade, which no difference in medical provision explains. [[Consequently]], a pound spent on insulation or on removing traffic from a school street can do more than a pound spent in a hospital, and the connection is [[implicit]] in every public health study of the last forty years." },
+        { "role": "Body 2 · what follows", "text": "[[It must be acknowledged]] that this creates an attribution problem: the department spending the money is not the one whose budget improves, so nobody has an incentive to act. [[Nevertheless]], the answer is institutional rather than a reason for inaction. Requiring a health impact assessment on housing and transport decisions, and allowing health budgets to fund non-medical interventions directly, would make the [[interdisciplinary]] nature of the problem visible in the accounts. [[Above all]], the measurement must follow outcomes rather than departments." },
+        { "role": "Conclusion", "text": "[[All things considered]], I agree strongly with the statement and would go further: most prevention is not medicine. Treating housing, air and food as health spending would be the single most [[incisive]] reform available, and it would cost less than the treatment it makes unnecessary." }
+      ],
+      "notes": [
+        "Relocating prevention outside the health service is a genuinely different answer to a familiar question.",
+        "The decade of difference between neighbouring districts is the fact that carries the argument.",
+        "Naming the attribution problem, and answering it institutionally, shows the proposal has been thought about practically."
+      ]
+    }
+  ]
+}

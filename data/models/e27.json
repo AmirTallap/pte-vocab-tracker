@@ -1,0 +1,68 @@
+{
+  "id": "e27",
+  "models": [
+    {
+      "stance": "Advantages outweigh",
+      "approach": "Argue from access for the people who currently get least, then concede what an examination requires.",
+      "plan": [
+        "Introduction: what telemedicine changes, and where you land.",
+        "Body 1: advantages, access, time and cost.",
+        "Body 2: disadvantages, examination, exclusion and continuity.",
+        "Conclusion: the verdict and the sorting rule it implies."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Consulting a doctor by video has moved in a few years from an experiment to an ordinary appointment. It brings clear gains and equally clear limits, and [[on balance]] I believe the advantages outweigh the drawbacks, provided the system knows which patients it is unsuitable for." },
+        { "role": "Advantages", "text": "The largest benefit is reach. A patient two hours from the nearest clinic, or one who cannot leave work without losing pay, can now be seen at all, and for them the alternative was not a worse consultation but none. Specialist opinion travels the same way: a rural doctor can consult a consultant in a city the same afternoon, which [[expedites|Expedite]] diagnosis considerably. [[It is worth noting]] that the saving in clinic time is [[invaluable]] to systems with long waiting lists, since a video appointment occupies no room." },
+        { "role": "Disadvantages", "text": "[[By contrast]], a camera cannot palpate an abdomen or smell an infection, and a doctor deprived of those signs is working with [[deficient]] information. The risk is not a missed cold but a missed cancer. Access is also uneven: the elderly and the poorest are least likely to have a decent connection or a private room, which means the format can widen the gap it was meant to close. [[Regrettably]], continuity suffers too, as many services rotate whichever clinician is free." },
+        { "role": "Conclusion", "text": "[[Taken together]], telemedicine is a genuine advance for the ordinary consultation and a poor substitute for the difficult one. The [[pragmatic]] arrangement is a triage rule: video for review, results and medication, and a room for anything undiagnosed, with a telephone alternative for patients without the technology." }
+      ],
+      "notes": [
+        "The alternative was not a worse consultation but none is the sentence that decides this essay. State what the comparison actually is.",
+        "Both paragraphs name who is affected rather than describing the technology, which keeps the essay on the human consequences.",
+        "The conclusion is a rule that could be written into a policy, which is a stronger finish than a balance of sentiment."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh",
+      "approach": "Argue that the gains are real for the simple case and that health systems are applying it to the hard one.",
+      "plan": [
+        "Introduction: concede the convenience, question where it is being used.",
+        "Body 1: advantages, granted in full.",
+        "Body 2: disadvantages, diagnosis, equity and the erosion of the relationship.",
+        "Conclusion: what should be kept and what abandoned."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Remote consultation is convenient, cheap for the provider and popular with the healthy. [[In my opinion]] those three facts explain its spread better than any clinical evidence, and the disadvantages outweigh the benefits as it is currently being deployed." },
+        { "role": "Advantages", "text": "[[It is true that]] the benefits are genuine for straightforward matters. Repeat prescriptions, test results and mental health follow-ups work perfectly well on a screen, and for a patient in a remote district the arrangement is [[indispensable]]. [[For the most part]], patients also report high satisfaction, though satisfaction and accuracy are not the same measurement." },
+        { "role": "Disadvantages", "text": "[[Nevertheless]], the format is being extended to first presentations, which is where the danger sits. Examination is how most serious disease is caught early, and a consultation without it relies on the patient describing what they do not know is significant. [[There is evidence that]] remote triage delays some cancer diagnoses by months. The relationship suffers too: a doctor who has never met a patient cannot notice that they look worse than last year, and that [[intuitive]] comparison is a real diagnostic instrument. [[Not surprisingly]], the patients most harmed are the old, the poor and those whose first language is not the doctor's." },
+        { "role": "Conclusion", "text": "[[All things considered]], telemedicine should be a supplement rather than a default. Keeping it for follow-up and remote regions while restoring face-to-face access for anything new would preserve the benefits, whereas the present direction [[jeopardizes|Jeopardize]] the early diagnosis that health systems depend on." }
+      ],
+      "notes": [
+        "Satisfaction and accuracy are not the same measurement is a single sentence that undercuts the strongest evidence for the other side.",
+        "Naming who is harmed most keeps the essay from being a general complaint about technology.",
+        "A supplement rather than a default is a precise verdict, and the conclusion says exactly which uses survive."
+      ]
+    },
+    {
+      "stance": "Depends on the consultation",
+      "approach": "Sort consultations into those that are speech and those that require a body in a room.",
+      "plan": [
+        "Introduction: the format is neither good nor bad; the consultation decides.",
+        "Body 1: consultations that are essentially conversation.",
+        "Body 2: consultations that are essentially examination.",
+        "Conclusion: the sorting rule and who should apply it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Whether telemedicine helps or harms depends on something the debate usually skips: what the appointment actually consists of. [[To a certain extent]] both camps are right, because they are describing different consultations." },
+        { "role": "Body 1 · consultations that are conversation", "text": "A great deal of medicine is talking. Reviewing a chronic condition, adjusting a dose, delivering a normal result and most psychological therapy are conducted almost entirely in speech, and for these the screen removes travel and waiting without removing anything clinical. [[A case in point]] is talking therapy, where completion rates rose when sessions moved online because attendance no longer required an afternoon off. [[Broadly speaking]], the advantages here are [[irrefutable]]." },
+        { "role": "Body 2 · consultations that are examination", "text": "[[By contrast]], a first presentation of an unexplained symptom is not a conversation. The doctor is gathering signs the patient cannot report, and removing that is not a small compromise but the removal of the method itself. Digital exclusion compounds it: the patients with the most complex needs are the least likely to manage the technology, so the format is [[insidious]] in sorting patients by their equipment rather than their illness." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, the question is not whether to use telemedicine but who decides which appointments it suits. That judgement belongs to a clinician rather than a booking system, and where it has been handed to the booking system the disadvantages have been [[pervasive]]." }
+      ],
+      "notes": [
+        "Sorting by what the consultation consists of gives the two paragraphs a clean, non-overlapping division.",
+        "The therapy example includes a mechanism, no afternoon off, which explains why the advantage exists rather than asserting it.",
+        "Locating the real question in who decides is a genuine conclusion rather than a restatement."
+      ]
+    }
+  ]
+}

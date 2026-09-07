@@ -1,0 +1,280 @@
+{
+  "id": "modals-deduction",
+  "title": "Modals of Deduction and Probability",
+  "group": "Modality",
+  "summary": "Using modals to grade how certain a conclusion is, from must be through might to can't be, in the present and in the past.",
+  "sections": [
+    {
+      "heading": "Deduction About the Present: Must, Can't, Couldn't",
+      "body": "When the evidence allows only one conclusion, English uses **must**: not an obligation, but the speaker's certainty that something is the case.\n\nThe negative of that certainty is **can't** or **couldn't**, never `mustn't`. `Mustn't` has only one job in modern English, and that is prohibition. `Couldn't` here is not a past tense; it is a marginally softer `can't`.",
+      "examples": [
+        {
+          "right": "The lights are still on at midnight, so someone must be working late.",
+          "wrong": null,
+          "note": "The evidence points to one conclusion, so `must` states it."
+        },
+        {
+          "right": "That can't be the final figure; the survey is still open.",
+          "wrong": "That mustn't be the final figure; the survey is still open.",
+          "note": "`Mustn't` forbids; the negative of a deduction is `can't`."
+        },
+        {
+          "right": "He couldn't be more than thirty, judging by the photograph.",
+          "wrong": null,
+          "note": "`Couldn't` softens the certainty slightly without shifting it into the past."
+        }
+      ]
+    },
+    {
+      "heading": "Possibility: May, Might and Could",
+      "body": "**May**, **might** and **could** all say that something is possible, with `might` and `could` sounding marginally more tentative than `may`. All three are followed by the bare infinitive.\n\nThe negatives do not line up so neatly. `May not` and `might not` mean that something is possibly not the case, which leaves the question open. `Couldn't` does not: it asserts impossibility, and so belongs with `can't` in the previous section rather than with `could`.",
+      "examples": [
+        {
+          "right": "The delay may be caused by a fault in the scheduling software.",
+          "wrong": null,
+          "note": "One possible explanation among several."
+        },
+        {
+          "right": "The results might not hold for larger samples.",
+          "wrong": "The results couldn't hold for larger samples.",
+          "note": "`Couldn't` claims impossibility, which is far stronger than the open doubt intended."
+        },
+        {
+          "right": "Funding could dry up altogether if the pilot fails.",
+          "wrong": null,
+          "note": "`Could` presents one possible outcome, not a capability."
+        }
+      ]
+    },
+    {
+      "heading": "What Follows the Modal",
+      "body": "The modal only carries the certainty; the form after it carries the time and the aspect. For a state or a general fact, use the bare infinitive: `must be`, `might cost`. For an activity in progress at the moment of speaking, use the continuous: modal + `be` + -ing.\n\nA deduction about an activity that ran up to the present or up to a past point takes modal + `have been` + -ing. Omitting `be` or `have been` is a frequent slip, because the modal already feels like a finished verb.",
+      "examples": [
+        {
+          "right": "She isn't answering her phone; she must be teaching.",
+          "wrong": "She isn't answering her phone; she must teach.",
+          "note": "`Must teach` states an obligation or a habit, not a deduction about this moment."
+        },
+        {
+          "right": "They might be waiting at the wrong entrance.",
+          "wrong": "They might waiting at the wrong entrance.",
+          "note": "The continuous after a modal still needs the bare infinitive `be`."
+        },
+        {
+          "right": "He looks exhausted; he must have been travelling all night.",
+          "wrong": null,
+          "note": "An activity in progress over a period leading up to now."
+        }
+      ]
+    },
+    {
+      "heading": "A Scale of Certainty",
+      "body": "The modals form a graded scale rather than a set of synonyms. At the confident end sit **must** and **will**; **should** and **ought to** express a reasonable expectation; **may**, and then **might** and **could**, open the question up; **might not** and **may not** lean towards the negative; and **can't** and **couldn't** close it at the far end.\n\nChoosing a point on that scale is a decision about evidence. Writing `must` where the evidence supports only `may` overstates the case, which reads as poor academic judgement quite apart from any grammatical error.",
+      "examples": [
+        {
+          "right": "The train should arrive at six; it usually runs to time.",
+          "wrong": null,
+          "note": "`Should` is expectation, weaker than `must` and stronger than `may`."
+        },
+        {
+          "right": "There must be an error in the calculation: the totals differ by a factor of ten.",
+          "wrong": null,
+          "note": "Strong evidence licenses the strongest positive form."
+        },
+        {
+          "right": "The effect may be seasonal, but a single year's data cannot show that.",
+          "wrong": null,
+          "note": "Thin evidence calls for the middle of the scale."
+        }
+      ]
+    },
+    {
+      "heading": "Past Deduction: Must Have, Can't Have, Might Have",
+      "body": "For a conclusion about a finished event, the pattern is modal + `have` + past participle: `must have rained`, `might have missed`, `may have been`. The modal itself never changes form.\n\nThe confident negative is **can't have** or **couldn't have**. In careful written English `mustn't have` is not used for this, and `didn't have to` is not a deduction at all but a statement about obligation. Note also that `could have` + past participle is ambiguous out of context: it can mean a past possibility, or something that was possible and never happened, and only the surrounding sentence separates the two.",
+      "examples": [
+        {
+          "right": "The road is soaked, so it must have rained overnight.",
+          "wrong": "The road is soaked, so it must rained overnight.",
+          "note": "The participle needs `have` in front of it."
+        },
+        {
+          "right": "She can't have read the whole report in ten minutes.",
+          "wrong": "She mustn't have read the whole report in ten minutes.",
+          "note": "The negative of a past deduction is `can't have` or `couldn't have`."
+        },
+        {
+          "right": "They might have missed the announcement altogether.",
+          "wrong": null,
+          "note": "An open possibility about a finished event."
+        }
+      ]
+    },
+    {
+      "heading": "Will and Would for Assumption",
+      "body": "**Will** is not only a future marker. It also expresses a confident assumption about the present, based on habit or expectation rather than on direct evidence: the speaker is not predicting but concluding.\n\n`Will have` + past participle assumes that something has already happened, and **would** or `would have` does the same work for a past reference point. This use is common in speech and in commentary, and it is worth recognising even if it is not needed in every essay.",
+      "examples": [
+        {
+          "right": "There's someone at the door — that will be the courier.",
+          "wrong": null,
+          "note": "A confident assumption about the present, not a prediction about the future."
+        },
+        {
+          "right": "You'll have seen the revised guidelines by now, I imagine.",
+          "wrong": null,
+          "note": "`Will have` + past participle assumes a completed event."
+        },
+        {
+          "right": "That would have been during the 2011 restructure.",
+          "wrong": null,
+          "note": "The same assumption, anchored in the past."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "Using `mustn't be` as the negative of a deduction. Prohibition is `mustn't`; the negative deduction is `can't be` or `couldn't be`.",
+    "Using `couldn't` to mean 'possibly not'. `Couldn't` asserts impossibility; possibly not is `might not` or `may not`.",
+    "Dropping `be` before an -ing form: `she must be working`, not `she must working`.",
+    "Writing `must have to` for a past deduction. The pattern is `must have` + past participle: `must have rained`.",
+    "Leaving the main verb in a plain form after a deduction about a finished event: `he must have left`, not `he must left`.",
+    "Treating `may not` and `cannot` as equally strong. `May not` leaves the question open; `cannot` closes it."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "Her office light is still on at midnight, so she ___ working on the grant application.",
+      "options": [
+        "must",
+        "must be",
+        "must been",
+        "must have"
+      ],
+      "answer": 1,
+      "explain": "A deduction about an activity in progress right now takes modal + `be` + -ing. `Must` alone would need a bare infinitive, and `must have` would point to a finished event."
+    },
+    {
+      "type": "blank",
+      "prompt": "The pavement is completely dry, so it ___ rained during the night.",
+      "hint": "can (negative deduction about the past)",
+      "accept": [
+        "can't have",
+        "cannot have",
+        "couldn't have",
+        "could not have"
+      ],
+      "explain": "The evidence rules the event out, and the confident negative deduction about a finished event is `can't have` or `couldn't have` plus the past participle."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The manuscript ___ be genuine: the paper it is written on was not manufactured until 1890.",
+      "options": [
+        "may not",
+        "can't",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 1,
+      "explain": "The dating rules the possibility out entirely, which is `can't`. `May not` would leave the question open, and `mustn't` forbids rather than concludes."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The spike in the readings ___ be an artefact of the sampling method, though we have no way of telling yet.",
+      "options": [
+        "might",
+        "must",
+        "can",
+        "couldn't"
+      ],
+      "answer": 0,
+      "explain": "The second clause admits that the evidence is inconclusive, so an open possibility is required. `Must` would assert the conclusion and `couldn't` would deny it."
+    },
+    {
+      "type": "blank",
+      "prompt": "The parcel was posted on Monday, so it ___ arrive by Thursday at the latest.",
+      "hint": "expectation, weaker than must",
+      "accept": [
+        "should",
+        "ought to"
+      ],
+      "explain": "`Should` and `ought to` state a reasonable expectation; `must` would claim a certainty that a postal estimate cannot support."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The corridor was flooded when we arrived, so a pipe ___ during the night.",
+      "options": [
+        "must have burst",
+        "had to burst",
+        "must be bursting",
+        "must burst"
+      ],
+      "answer": 0,
+      "explain": "A confident inference about a completed past event takes `must have` + past participle. `Had to burst` would state a past obligation, which makes no sense of a pipe."
+    },
+    {
+      "type": "blank",
+      "prompt": "The delivery slot was between ten and eleven, so that ___ be the courier at the door now.",
+      "hint": "will (confident assumption about the present, not a prediction)",
+      "accept": [
+        "will",
+        "'ll"
+      ],
+      "explain": "`Will` expresses an assumption based on what is expected rather than a statement about future time."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The grant ___ be renewed — nobody will know until the review panel reports.",
+      "options": [
+        "could not",
+        "must not",
+        "cannot",
+        "may not"
+      ],
+      "answer": 3,
+      "explain": "An open negative possibility is `may not` or `might not`. `Cannot` and `could not` would assert impossibility, and `must not` would forbid the renewal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You ___ the earlier version of the guidelines; this revision was only issued this morning.",
+      "options": [
+        "will have seen",
+        "will see",
+        "must see",
+        "would see"
+      ],
+      "answer": 0,
+      "explain": "`Will have` + past participle assumes that something has already happened. `Will see` and `would see` place the event in the future or the hypothetical."
+    },
+    {
+      "type": "blank",
+      "prompt": "Nobody has replied to the invitation, so it ___ gone to their spam folder.",
+      "hint": "an open possibility about a finished event",
+      "accept": [
+        "may have",
+        "might have",
+        "could have"
+      ],
+      "explain": "The evidence suggests an explanation without confirming it, so a possibility modal plus `have` and the past participle is the right strength."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The engine was still warm, so someone ___ the van only minutes earlier.",
+      "options": [
+        "must drive",
+        "must have driven",
+        "had to drive",
+        "was able to drive"
+      ],
+      "answer": 1,
+      "explain": "The warm engine is evidence for an inference about a completed action, which is `must have driven`. `Had to drive` would report a past obligation instead."
+    },
+    {
+      "type": "blank",
+      "prompt": "He isn't answering his phone and his coat is still here; he ___ in the seminar.",
+      "hint": "must + be (near-certain deduction about the present)",
+      "accept": [
+        "must be"
+      ],
+      "explain": "Two pieces of evidence point to one conclusion, and a deduction about a present state is `must be`."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e10",
+  "models": [
+    {
+      "stance": "Economic causes",
+      "approach": "Trace the trend to the cost of the years in which people would have had children, then follow the effects through the labour market.",
+      "plan": [
+        "Introduction: name the trend and promise causes then effects.",
+        "Body 1: the causes, ranked, with housing and childcare first.",
+        "Body 2: the effects, joined explicitly to those causes.",
+        "Conclusion: whether it is reversible and what would have to change."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "In most wealthy countries the average mother is now over thirty, and a growing minority will have no children at all. [[It is evident that]] this shift has identifiable causes rather than being a change of taste, and its consequences will be felt for the rest of the century." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] one of economic timing. The years in which people once started families are now the years of unstable work and unaffordable rent, and a couple cannot commit to a child while moving flat annually. Childcare costs [[exacerbate]] this: in several countries a nursery place consumes a third of one salary, which makes a second child a straightforward financial impossibility. [[Owing to]] both, the decision is postponed until it becomes biological rather than voluntary." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], the population ages from the bottom rather than the top. Fewer workers support more pensioners, so either taxes rise or provision falls, and both outcomes tend to [[engender]] resentment between generations. Rural areas empty first as young people concentrate in cities, leaving schools and clinics that no longer have a population to serve. [[It follows that]] the shortage of workers is met by immigration, which is itself contested precisely where the decline is steepest." },
+        { "role": "Conclusion", "text": "[[In conclusion]], the trend is driven by cost rather than by choice, and it is therefore not [[irreversible]]. Countries that made housing affordable and childcare free, notably in Scandinavia, slowed the fall, which suggests that the birth rate is measuring the price of a stable life rather than any decline in the wish for one." }
+      ],
+      "notes": [
+        "Causes are ranked rather than listed. Saying which matters most, and why, is what the question is really testing.",
+        "The effects paragraph opens with As a result and keeps referring back to the causes, which is where this question type earns its coherence mark.",
+        "The conclusion answers a question the prompt did not ask, whether it can be reversed, and that is the difference between finishing and stopping."
+      ]
+    },
+    {
+      "stance": "Cultural causes",
+      "approach": "Argue that the deeper cause is a change in what a life is expected to contain, and follow it through to social effects.",
+      "plan": [
+        "Introduction: money explains part of it, expectation explains more.",
+        "Body 1: causes, women's education and the redefinition of adulthood.",
+        "Body 2: effects, on families, care and politics.",
+        "Conclusion: what a society should do about a change it cannot undo."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Explanations for falling birth rates usually stop at the cost of housing, which is true but incomplete: rich countries with cheap housing have the same trend. [[From my perspective]] the deeper causes are cultural, and they are unlikely to reverse." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that women's education and employment have altered the shape of an adult life. A woman who spends her twenties qualifying and her early thirties establishing herself has not rejected children; she has [[intentional]] priorities that arrive first. [[At the same time]], parenthood itself has been redefined as an expensive project demanding [[meticulous]] attention, so having three children now implies a standard of provision that once applied to none. [[Consequently]], the decision feels less like a stage of life and more like a career choice competing with the others." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], households grow smaller and kinship networks thinner. A generation with few siblings has few aunts and cousins, so the informal care that families once absorbed becomes a service somebody must pay for, and the [[intangible]] support of a large family disappears from the accounts entirely. Politically, an older electorate votes for pensions over schools, which [[inhibits|Inhibit]] exactly the spending that might have made children affordable." },
+        { "role": "Conclusion", "text": "[[Overall]], the causes lie in a changed idea of adulthood, and no government policy will restore the previous one. [[It stands to reason]] that the sensible response is adaptation rather than reversal: later retirement, serious immigration policy and public care for the elderly, since the family can no longer be assumed to provide it." }
+      ],
+      "notes": [
+        "Opening by rejecting the obvious explanation gives the essay something to prove, and the counterexample of rich countries with cheap housing earns the right to do so.",
+        "The effects paragraph moves from household to state, which gives it a direction rather than a list.",
+        "Adaptation rather than reversal is a genuine opinion. Cause and effect questions still allow one in the conclusion."
+      ]
+    },
+    {
+      "stance": "Uncertainty as the cause",
+      "approach": "Argue that the common factor behind every explanation is the inability to predict the next ten years.",
+      "plan": [
+        "Introduction: one cause underlies the usual list.",
+        "Body 1: causes, insecurity of work, climate and place.",
+        "Body 2: effects, on the economy and on who has children.",
+        "Conclusion: what would have to change, and what will not."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Housing, childcare and careers are all offered as reasons for later parenthood, and each is real. [[I would argue]] that they share one root: having a child is a twenty-year commitment made by people who cannot confidently describe the next two." },
+        { "role": "Body 1 · causes", "text": "[[First and foremost]], work has become [[intermittent]]. Short contracts and gig platforms produce an income that cannot be planned around, and no amount of enthusiasm makes a family [[coherent]] with an unpredictable month. Housing repeats the pattern, since a tenancy renewed annually cannot hold a school place. [[It is worth noting]] that young adults also report a [[fervent]] anxiety about climate and war, and while that is easy to dismiss, surveys consistently find it among the stated reasons for delay." },
+        { "role": "Body 2 · effects", "text": "[[This leads to]] two consequences of very different kinds. Economically, a shrinking cohort of workers must fund a growing cohort of pensioners, and the [[imminent]] arrival of that imbalance is already visible in every long-range budget. Socially, childbearing concentrates among the two groups least exposed to insecurity, the wealthy and the very poor, so the [[dichotomy]] widens between families with resources and families without." },
+        { "role": "Conclusion", "text": "[[Ultimately speaking]], the birth rate is a measure of confidence in the future. Secure tenancies, predictable contracts and affordable care would restore some of it, though [[to some degree]] the anxiety runs deeper than any of those, and a society that wants children must first look like one worth handing to them." }
+      ],
+      "notes": [
+        "Finding a single cause behind several is the most impressive move available in a causes question, provided you then show how each of the usual reasons follows from it.",
+        "The two effects are deliberately different in kind, economic and social, so the paragraph does not simply say the same thing twice.",
+        "The final clause is the only rhetorical sentence in the essay. One is enough."
+      ]
+    }
+  ]
+}

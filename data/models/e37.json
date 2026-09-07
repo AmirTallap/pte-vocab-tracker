@@ -1,0 +1,68 @@
+{
+  "id": "e37",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue that exercise improves the examination results the exam years are protecting.",
+      "plan": [
+        "Introduction: agree, and name the argument you will answer.",
+        "Body 1: the cognitive case, which turns the objection around.",
+        "Body 2: concede the timetable pressure, then answer with what PE must become.",
+        "Conclusion: restate, with the form the subject should take."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Physical education is usually the first subject dropped when examinations approach, on the reasoning that time is short. [[On the whole]] I agree that it should be compulsory throughout, and precisely for the reason it is cut." },
+        { "role": "Body 1 · the cognitive case", "text": "[[The main point is]] that exercise improves the very performance the timetable is protecting. Regular aerobic activity is one of the better-evidenced interventions for memory, sleep and anxiety, all of which decide examination results more than an extra revision hour does. [[There is evidence that]] schools maintaining daily activity through examination years see attainment hold or rise, so removing it is not a neutral saving but an [[injudicious]] trade. [[It follows that]] the objection defeats itself." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the pressure on senior timetables is real and that something must give. [[That said]], the subject as usually taught invites its own removal: competitive team sports selected for the able leave the least active pupils standing in the cold, which is worse than useless and [[engenders|Engender]] the lifelong avoidance the subject is meant to prevent. Reformed into individual activity, walking, swimming, weights, the case becomes far harder to dismiss." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that physical education should be compulsory at every stage, on condition that it changes in the final years into something a non-athlete would choose. Three sessions a week of that kind would be [[integral]] to examination performance rather than a competitor with it." }
+      ],
+      "notes": [
+        "Turning the objection into the argument, that exercise raises exam results, is the most efficient structure available here.",
+        "Conceding that the subject as taught deserves its unpopularity is what makes the defence credible.",
+        "The conclusion attaches a condition about form, so agreement carries a design rather than only a preference."
+      ]
+    },
+    {
+      "stance": "Disagree with compulsion in the final years",
+      "approach": "Support PE throughout school and argue that compulsion at eighteen achieves the opposite of its aim.",
+      "plan": [
+        "Introduction: agree until sixteen, disagree after.",
+        "Body 1: why compulsion works for younger children.",
+        "Body 2: why it fails for older ones, with the autonomy argument.",
+        "Conclusion: entitlement rather than obligation."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Compulsion and habit are not the same thing, and the difference matters most at the age when young people begin choosing for themselves. [[To a certain extent]] I agree with compulsory physical education, but not in the final examination years." },
+        { "role": "Body 1 · why it works when young", "text": "For younger children the case is straightforward. Movement skills are acquired early or not at all, and a child who never learns to swim or catch is excluded from most physical activity for life. Compulsion at that stage stands beside compulsory reading: the child cannot yet choose meaningfully, and the capacity being built is a precondition for later choice. [[It is clear that]] making it optional at eight would simply remove it from the children who need it most." },
+        { "role": "Body 2 · why it fails when older", "text": "[[By contrast]], the evidence on eighteen-year-olds points the other way. Compulsory sport at that age is strongly associated with dropping activity entirely on leaving school, because the association formed is with obligation rather than with pleasure. [[Not surprisingly]], the [[autonomy]] to choose the activity is what predicts whether it continues. A student made to play rugby in February learns to avoid exercise, which is the exact reverse of the policy's [[intent]]." },
+        { "role": "Conclusion", "text": "[[All things considered]], physical education should be compulsory until sixteen and a guaranteed entitlement thereafter: timetabled, funded and available, with the activity chosen by the student. That preserves what compulsion achieves early without producing the [[indolent]] adult it accidentally creates late." }
+      ],
+      "notes": [
+        "Splitting by age is the clearest way to disagree with part of a proposal while supporting its aim.",
+        "The comparison with compulsory reading justifies compulsion for young children in one sentence.",
+        "Entitlement rather than obligation is a precise distinction and gives the conclusion something to propose."
+      ]
+    },
+    {
+      "stance": "Agree, but the subject must be redefined",
+      "approach": "Argue that the debate is about the wrong thing: what matters is daily movement, not a subject.",
+      "plan": [
+        "Introduction: agree with the aim and question the vehicle.",
+        "Body 1: why the health case is unanswerable.",
+        "Body 2: why the timetabled lesson is a poor way to deliver it.",
+        "Conclusion: what compulsory should mean in practice."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The health argument for compulsory activity is unanswerable, and the argument for compulsory physical education lessons is much weaker. [[From my perspective]] both sides in this debate have mistaken a subject for the outcome it is supposed to produce." },
+        { "role": "Body 1 · the health case", "text": "[[First and foremost]], adolescent inactivity is now a serious public health problem, and the habits formed by eighteen are largely the habits of adulthood. Sedentary schooling contributes directly: a student sits for six hours a day, and the way that stillness [[pervades]] posture, sleep and mood is well documented. [[It is evident that]] a school which removes movement in the final years is teaching that exercise is what you drop when life becomes serious, which is the [[maxim]] no health service can afford its citizens to learn." },
+        { "role": "Body 2 · the wrong vehicle", "text": "[[Nevertheless]], two hours of timetabled PE, half of it spent changing and waiting, delivers very little of this. Activity built into the ordinary day, walking routes, standing lessons, short breaks, active travel, produces more movement than the lesson does and consumes almost no timetable. [[Consequently]], defending the subject as it stands may be defending the least effective version of the thing we want." },
+        { "role": "Conclusion", "text": "[[On balance]], I agree that movement should be compulsory at every stage, and I would redefine what that means: a daily activity requirement met in several ways, of which a PE lesson is one. That keeps the health outcome [[intact]] while removing the timetable objection that ends this argument every year." }
+      ],
+      "notes": [
+        "Agreeing with the aim and questioning the vehicle is a genuine third position, and it avoids the usual for-and-against groove.",
+        "Half of it spent changing and waiting is the concrete detail that makes the criticism of the lesson stick.",
+        "The conclusion redefines the proposal rather than accepting or rejecting it, which is the sharpest available finish here."
+      ]
+    }
+  ]
+}

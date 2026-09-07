@@ -1,0 +1,68 @@
+{
+  "id": "e32",
+  "models": [
+    {
+      "stance": "Benefits outweigh",
+      "approach": "Lead with the road death figure, then treat the risks as engineering and legal problems rather than objections.",
+      "plan": [
+        "Introduction: what is at stake and where you land.",
+        "Body 1: the benefits, safety, access and city space.",
+        "Body 2: the risks, security, liability and employment.",
+        "Conclusion: the verdict and the condition attached."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Roughly 1.2 million people die on the world's roads each year, and over ninety per cent of those collisions involve human error. [[On balance]] I believe the benefits of self-driving vehicles outweigh their risks, though the risks are of a kind that will decide how quickly the benefits arrive." },
+        { "role": "Benefits", "text": "The first benefit is the obvious one. A system that does not drink, tire or look at a phone removes the causes of most crashes, and even a modest improvement would save more lives annually than most medical advances. The second is access: elderly and disabled people who cannot drive gain a mobility that is currently [[intangible]] to them, and that changes where they can live and work. [[It is worth noting]] that cities gain space as well, since a shared fleet would make much of the parking now occupying urban land [[irrelevant]]." },
+        { "role": "Risks", "text": "[[By contrast]], the risks are real and mostly novel. A fleet controlled by software is a target, and a coordinated attack could [[jeopardize]] thousands of vehicles at once in a way no human driver ever could. Liability is unresolved: when a car makes an [[involuntary]] choice between two harms, the law has no settled answer about who is responsible. [[Not surprisingly]], employment is the sharpest concern, since driving is among the most common occupations for men without degrees." },
+        { "role": "Conclusion", "text": "[[Taken together]], the safety gain is too large to forgo and the risks are addressable by regulation rather than by refusal. Mandatory security standards, a clear liability rule and a funded transition for professional drivers would allow the benefit, and without those the technology will be resisted for reasons that have nothing to do with whether it works." }
+      ],
+      "notes": [
+        "Opening with a number that frames the whole question is the most efficient introduction available on a technical topic.",
+        "The risks paragraph names three different kinds of risk, technical, legal and social, which stops it repeating one worry three times.",
+        "The conclusion converts each risk into a policy, which is what makes the verdict credible rather than optimistic."
+      ]
+    },
+    {
+      "stance": "Risks outweigh, for now",
+      "approach": "Argue that the safety claim is not yet proven in the conditions that matter, and that the social costs are certain.",
+      "plan": [
+        "Introduction: the benefits are projected, the costs are arithmetic.",
+        "Body 1: the benefits, granted in principle.",
+        "Body 2: the risks, evidence, employment and induced traffic.",
+        "Conclusion: what would change the verdict."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most claims made for autonomous vehicles concern a future fleet under ideal conditions, while their costs can be calculated today. [[In my opinion]] the risks currently outweigh the benefits, although that judgement is about timing rather than principle." },
+        { "role": "Benefits", "text": "[[It is true that]] the potential is considerable. Software does not drink or tire, and a mature system would almost certainly be safer than the median human driver. [[For the most part]], the mobility gain for people who cannot drive is also genuine and is the strongest argument in the technology's favour." },
+        { "role": "Risks", "text": "[[Nevertheless]], the safety evidence remains thin where it matters. Testing has been concentrated in warm, well-marked cities, and performance in snow, unmarked rural roads and unpredictable traffic is largely [[hypothetical]]. Employment is the certain cost: driving supports millions of households, and no retraining programme yet exists at that scale, which makes the disruption [[imminent]] and the remedy absent. [[Significantly]], cheaper travel [[engenders|Engender]] more of it, and a city of empty vehicles circling to avoid parking charges would worsen the congestion the technology is supposed to relieve." },
+        { "role": "Conclusion", "text": "[[All things considered]], the case is not yet made. Published safety data across varied conditions, a funded transition for drivers and road pricing to prevent empty running would change my view, and [[in due course]] they probably will, but adopting the technology before any of them exists would be [[injudicious]]." }
+      ],
+      "notes": [
+        "Making the disagreement about timing rather than principle keeps the essay from sounding like a rejection of technology.",
+        "Induced demand is the risk most essays miss, and naming it is what makes this one look informed.",
+        "Saying explicitly what would change your mind is a mark of intellectual control and reads as confidence, not hedging."
+      ]
+    },
+    {
+      "stance": "Depends who owns the fleet",
+      "approach": "Argue that the same technology produces opposite outcomes depending on whether it is privately owned or shared.",
+      "plan": [
+        "Introduction: the technology is not the variable; ownership is.",
+        "Body 1: benefits, which appear under shared fleets.",
+        "Body 2: risks, which appear under private ownership.",
+        "Conclusion: the policy that decides which future arrives."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Predictions about driverless cars diverge wildly because they quietly assume different ownership models. [[From my perspective]] the technology itself decides very little, and the benefits and risks follow almost entirely from who owns the vehicles." },
+        { "role": "Benefits · shared fleets", "text": "Under a shared fleet the advantages are large. Vehicles in continuous use need a fraction of the parking, so cities recover land currently given to stationary metal, and a single shared car can replace several private ones. Access improves for those who cannot drive, and pricing per journey makes the true cost of a trip [[explicit]] rather than hidden in an annual insurance bill. [[Consequently]], congestion could fall even as travel rises." },
+        { "role": "Risks · private ownership", "text": "[[By contrast]], if the vehicles are simply privately owned cars that drive themselves, most of the risks materialise. Journeys become cheap in attention as well as money, so people travel further and live further out, and the empty return trip doubles the traffic for every errand. [[It is evident that]] sprawl of this kind is [[irreversible]] once built, and the safety gain would be partly consumed by the extra distance driven. [[Regrettably]], the private model is also the one the market will produce by default." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, the same vehicles produce a better city or a worse one depending on a decision that has nothing to do with engineering. Road pricing, parking policy and support for shared fleets are what [[delineate]] the two futures, and they are being decided now, while the debate is still about the technology." }
+      ],
+      "notes": [
+        "Locating the variable outside the technology is an unusual and strong structure, and both paragraphs then describe the same vehicles behaving differently.",
+        "The empty return trip is the concrete mechanism that makes the private ownership risk vivid.",
+        "The conclusion says the decision is being made now, which gives the essay urgency without rhetoric."
+      ]
+    }
+  ]
+}

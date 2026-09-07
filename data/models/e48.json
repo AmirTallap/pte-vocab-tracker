@@ -1,0 +1,68 @@
+{
+  "id": "e48",
+  "models": [
+    {
+      "stance": "Algorithms and choice together",
+      "approach": "Give both the technical and the psychological cause, then follow the effects into political life.",
+      "plan": [
+        "Introduction: name the trend and promise causes then effects.",
+        "Body 1: causes, ranked, with the incentive first.",
+        "Body 2: effects, on debate and on the possibility of compromise.",
+        "Conclusion: what would help and what would not."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Most people now receive news through feeds assembled for them individually, and the result is that two neighbours can hold entirely different accounts of the same week. [[It is evident that]] this has both technical and human causes, and its effects reach well beyond how well informed anybody is." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] the incentive behind the selection. A system rewarded for attention learns that outrage and confirmation hold it, so it supplies more of what a user already agrees with, and the effect is [[insidious]] because it feels like a personal preference rather than a decision made elsewhere. [[At the same time]], the human [[propensity]] to prefer agreement was always there; the platforms did not invent it, they industrialised it. [[Consequently]], the disappearance of shared national broadcasters and local papers removed the common source that used to interrupt the pattern." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], public debate loses the thing that makes it possible: an agreed set of facts to disagree about. Arguments become disputes over whether an event occurred, which no amount of reasoning settles, and each side reads the other's confidence as dishonesty. [[It follows that]] compromise becomes harder, since a politician who concedes anything is seen as capitulating to people their supporters believe are lying. [[Not surprisingly]], trust in institutions falls alongside, and the [[dichotomy]] hardens into identity." },
+        { "role": "Conclusion", "text": "[[In conclusion]], the cause is a profitable machine acting on an old human tendency, and the effect is a public that can no longer argue productively. Funding shared journalism and requiring platforms to open their ranking to [[scrutiny]] would help; telling people to read more widely will not, since the [[impediment]] is the system's design rather than their willingness." }
+      ],
+      "notes": [
+        "Separating what the platforms invented from what they amplified is the distinction that keeps this essay accurate.",
+        "Naming the loss of shared facts as the effect, rather than polarisation in general, gives the second paragraph a mechanism.",
+        "Rejecting the obvious remedy in the last sentence shows the argument has been followed through."
+      ]
+    },
+    {
+      "stance": "Identity as the cause",
+      "approach": "Argue that people select sources to signal belonging, which explains why correction fails.",
+      "plan": [
+        "Introduction: the puzzle is that facts do not change minds.",
+        "Body 1: causes, news as membership rather than information.",
+        "Body 2: effects, on debate and on how facts are treated.",
+        "Conclusion: what follows if the cause is identity."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "If the problem were merely bad information, better information would fix it, and thirty years of fact checking suggests otherwise. [[I would argue]] that people increasingly choose news to express who they are rather than to learn what happened." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] that a news source has become a badge. Naming your outlet places you in a group as reliably as a football shirt, and abandoning it carries a social cost that no argument outweighs. [[Owing to]] this, correction has the [[incongruous]] effect of strengthening the belief it targets: an attack on the source is heard as an attack on the group. Political parties and broadcasters have learned to exploit the pattern, since an audience that watches out of loyalty is far more [[docile]] than one that watches for information." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], factual disputes become questions of allegiance, and public debate stops being able to resolve anything. Politicians are rewarded for expressing the identity rather than for governing, and [[significantly]], the same person will accept a fact when it is neutral and reject it when it is attached to the other side. [[Consequently]], policies are judged by who proposed them, which makes evidence largely [[irrelevant]] to what is enacted." },
+        { "role": "Conclusion", "text": "[[Overall]], if the cause is belonging rather than ignorance, most of the standard remedies are aimed at the wrong target. What might work is anything that puts people into groups not defined by politics, local institutions, shared services, mixed schools, since the [[isolation]] of the groups is doing more damage than the falsehoods they circulate." }
+      ],
+      "notes": [
+        "Beginning with a puzzle, that facts do not change minds, forces a deeper explanation and makes the essay distinctive.",
+        "The football shirt comparison explains the mechanism in one phrase.",
+        "The conclusion follows logically: if the cause is belonging, the remedy must be social rather than informational."
+      ]
+    },
+    {
+      "stance": "Economics of attention as the cause",
+      "approach": "Trace the change to how news is paid for, and follow the effects through what gets produced.",
+      "plan": [
+        "Introduction: the change in funding preceded the change in behaviour.",
+        "Body 1: causes rooted in advertising, abundance and collapse of local news.",
+        "Body 2: effects on what is produced and on debate.",
+        "Conclusion: what a different funding model would change."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Readers did not suddenly become partisan; the business of supplying them changed first. [[From my perspective]] the principal cause of the narrowing is economic, and the effects follow from what that economy rewards." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] that news stopped being sold and started being harvested. When a newspaper was bought, it had to serve a whole town and could not afford to alienate half of it; when attention is sold to advertisers, the incentive reverses, and a fervently loyal minority is worth more than a broad indifferent readership. [[This leads to]] the collapse of local reporting, which was the shared civic layer, and its replacement by national commentary that is cheap to produce and [[invariably|Invariable]] framed as conflict. [[Consequently]], the supply narrowed before the demand did." },
+        { "role": "Body 2 · effects", "text": "[[As a result]], the material available to a citizen is largely opinion about national politics, which is precisely the subject on which agreement is hardest. Local accountability disappears, so councils and courts go unreported, and the debate that remains is about distant symbols rather than nearby decisions. [[It follows that]] public argument becomes both more [[intense]] and less consequential, since the things people can actually change are the things nobody is reporting." },
+        { "role": "Conclusion", "text": "[[To sum up]], the narrowing of news follows the money rather than any change in human nature. Reader funding, public subsidy for local reporting and non-profit ownership all produce visibly different output, and until the funding changes, exhorting people to seek balance addresses a demand problem that is really a supply one." }
+      ],
+      "notes": [
+        "The reversal of incentives, from serving a whole town to holding a loyal minority, is the essay's central mechanism and is explained rather than asserted.",
+        "Connecting the loss of local reporting to the nature of the debate that remains is the link between the two paragraphs.",
+        "A supply problem misdiagnosed as a demand problem is a clean final formulation."
+      ]
+    }
+  ]
+}

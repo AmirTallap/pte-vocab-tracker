@@ -1,0 +1,68 @@
+{
+  "id": "e43",
+  "models": [
+    {
+      "stance": "Partly agree",
+      "approach": "Distinguish visible convergence from actual cultural depth, and agree only about the first.",
+      "plan": [
+        "Introduction: agree that surfaces converge, dispute that cultures do.",
+        "Body 1: what has genuinely been lost.",
+        "Body 2: what has not, and what has been gained.",
+        "Conclusion: where the real loss is, and what would reduce it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "High streets in Seoul, Santiago and Stockholm now display the same brands, and it is tempting to read that as cultures merging. [[To a certain extent]] I agree with the statement, though the convergence is largely at the surface and the genuine losses lie elsewhere." },
+        { "role": "Body 1 · what is lost", "text": "The real loss is linguistic. A language disappears roughly every fortnight, and with each one goes a classification of plants, kinship and weather that exists nowhere else, which makes the loss [[irreplaceable]] in a way a closed restaurant is not. Local crafts and regional foods also thin under the [[hegemony]] of national supply chains. [[It must be acknowledged]] that this is a genuine narrowing of what humanity collectively knows, and it is largely irreversible." },
+        { "role": "Body 2 · what is not lost", "text": "[[By contrast]], the claim that national cultures are becoming [[homogeneous]] confuses consumption with identity. Watching the same series has not made Japanese and Brazilian family life alike; the differences in how people argue, raise children, mark death and treat strangers persist and are far deeper than what is sold in the shops. [[It is worth noting]] that cultures have always absorbed foreign material and remained themselves: tea in Britain and chilli in India were both imports that became [[ingrained]] national symbols." },
+        { "role": "Conclusion", "text": "[[On balance]], then, I agree that something is being lost and disagree that it is national culture as such. The loss is concentrated in languages and local practice, and funding their transmission would do more than any [[fervent]] resistance to foreign films, which were never the threat." }
+      ],
+      "notes": [
+        "Locating the real loss precisely, in languages rather than in consumption, is what raises this above the familiar complaint about global brands.",
+        "Tea and chilli make the absorption argument in eight words, which is the right length for an example that only needs to be recognised.",
+        "The conclusion redirects the policy to where the loss actually is, which follows from both paragraphs."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Argue that the mechanism is economic, and that what looks like choice is a narrowing of what is available.",
+      "plan": [
+        "Introduction: agree, and identify the mechanism.",
+        "Body 1: how distribution narrows what exists.",
+        "Body 2: concede the exchange argument, then answer it.",
+        "Conclusion: restate, with what could slow it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Cultural convergence is usually described as people freely choosing the same things, which understates how much the choosing is done in advance. [[By and large]] I agree with the statement, because the narrowing happens at the level of what is available rather than what is preferred." },
+        { "role": "Body 1 · the mechanism", "text": "[[The main point is]] distribution. A handful of platforms decide what most of the world can watch and hear, and their economics favour whatever travels across the largest number of markets, which means the [[heterogeneous]] and the local are not banned but simply never commissioned. Local publishing, local music and local cinema shrink accordingly. [[There is evidence that]] the proportion of domestically produced content viewed in most countries has fallen sharply within a generation." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], exchange has always occurred and has usually enriched the cultures involved. [[Nevertheless]], previous exchange was slow and reciprocal, whereas the present flow is fast and largely one directional, and the difference in speed matters: a tradition can absorb a foreign idea over fifty years and cannot do so in five. [[Consequently]], what is described as mixing is often replacement, and the languages and forms that disappear are [[irrecoverable]] once nobody under forty uses them." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that difference is being lost and that this is a loss for everybody, since a world with fewer ways of living has fewer answers available to it. Quotas for local content, funded translation and support for minority languages are modest measures, but they are what [[impedes|Impede]] a process nobody chose." }
+      ],
+      "notes": [
+        "Locating the cause in distribution rather than in taste is the argument, and it makes the position much harder to dismiss as snobbery.",
+        "The speed argument, that absorption needs time, answers the exchange concession properly.",
+        "Fewer ways of living means fewer answers available is the reason the loss matters, stated once and not laboured."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Argue that the evidence points to hybridisation and revival rather than erasure.",
+      "plan": [
+        "Introduction: disagree, and name what is actually happening.",
+        "Body 1: hybridisation, with examples.",
+        "Body 2: concede language loss, then place it in context.",
+        "Conclusion: what a real cultural policy would target."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The erasure thesis has been asserted for a century, and the cultures said to be disappearing have not obliged. [[In my opinion]] globalisation produces hybridisation rather than uniformity, and the statement mistakes the two." },
+        { "role": "Body 1 · hybridisation", "text": "[[First and foremost]], imported forms are consistently rebuilt locally. Korean popular music took American production and produced something that now exports in the opposite direction; Nigerian cinema became the second largest film industry in the world using foreign technology and entirely local material. [[It is evident that]] what arrives is [[juxtaposed|Juxtapose]] with what exists rather than replacing it, and the result is a form that belongs to neither origin. [[Not surprisingly]], the same platforms accused of flattening culture have carried these exports outward." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that minority languages are genuinely disappearing, and that this is a real and [[irreversible]] loss. [[That said]], the principal cause is national schooling and internal migration rather than global media, and several languages have been [[invigorated|Invigorate]] by exactly the technology said to be killing them, since a scattered community can now speak daily." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that differences are being erased. Cultures are changing quickly, as they always have, and the mistake is to treat change as loss. Where loss is real, in endangered languages, the remedy is schooling and transmission rather than resistance to a global culture that is itself largely a [[hypothetical]] construction." }
+      ],
+      "notes": [
+        "Two named counterexamples with export figures do more than any argument about the resilience of culture in the abstract.",
+        "The concession identifies the correct cause of language loss, which prevents the essay from denying something real.",
+        "Treating change as loss is the confusion the essay diagnoses, and naming it is the conclusion's job."
+      ]
+    }
+  ]
+}

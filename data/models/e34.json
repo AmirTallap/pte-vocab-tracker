@@ -1,0 +1,68 @@
+{
+  "id": "e34",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from what a child can and cannot understand about persuasion, and answer the practicality objection.",
+      "plan": [
+        "Introduction: agree, and name the standard, informed consent.",
+        "Body 1: why children cannot evaluate advertising.",
+        "Body 2: concede the funding and enforcement objections, then answer them.",
+        "Conclusion: restate, with the scope of the ban."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Advertising works by persuasion, and persuasion assumes an audience able to recognise that it is being persuaded. [[By and large]] I agree that advertising to children should be prohibited, because that assumption is false below a certain age." },
+        { "role": "Body 1 · why children cannot evaluate it", "text": "[[The main point is]] developmental. Children below about eight do not reliably distinguish an advertisement from a programme, and below twelve they do not consistently recognise persuasive intent, which is not a matter of intelligence but of a capacity that arrives later. Advertising to them is therefore not [[compelling]] argument but simple conditioning, and the resulting pressure on parents is [[intentional]] rather than incidental. [[There is evidence that]] exposure to food advertising raises children's consumption of the products advertised, independently of what parents buy." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the objections are practical and serious. Children's programming is partly funded by advertising, and enforcement online is far harder than on television, where Sweden and Quebec have restricted it for decades. [[Nevertheless]], the funding argument concedes the point: if the content depends on advertising to a group that cannot evaluate it, the content is being paid for by the [[intrusion]]. Enforcement is difficult rather than [[insuperable]], and platforms already identify children's content precisely enough to place adverts against it." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree with prohibition for children under twelve across all media, with public funding for children's programming to replace the lost revenue. Adults can be persuaded; children can only be made [[docile]], and the law already recognises that distinction everywhere except here." }
+      ],
+      "notes": [
+        "Setting the standard in the first sentence, that persuasion assumes a competent audience, is what makes the rest of the essay follow logically.",
+        "The funding objection is turned into evidence for the position, which is the most effective way to handle a concession.",
+        "The conclusion states an age, a scope and a replacement for the lost revenue, which is a policy rather than a sentiment."
+      ]
+    },
+    {
+      "stance": "Disagree with a total ban",
+      "approach": "Support strong restriction and argue that entirely is where the position becomes unworkable and counterproductive.",
+      "plan": [
+        "Introduction: agree with restriction, disagree with the totality.",
+        "Body 1: why the total version fails, on definition and enforcement.",
+        "Body 2: concede the harm, then propose targeted rules.",
+        "Conclusion: what should be banned and what should not."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The word entirely is doing most of the work in this proposal, and it is where a reasonable position becomes an unworkable one. [[In my opinion]] advertising to children should be heavily restricted rather than prohibited altogether." },
+        { "role": "Body 1 · why the total version fails", "text": "[[First and foremost]], the category cannot be defined. A ban must specify what counts as aimed at children, and most of what children watch is not made for them: sport, family films and general video platforms carry the majority of the exposure. A rule covering only children's programming would be [[insignificant]] in effect, while one covering anything children might see would prohibit advertising altogether. [[Consequently]], the ban would either miss the problem or swallow the entire market." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the harm is documented, particularly for food, and that the youngest children genuinely cannot recognise persuasion. [[That said]], targeted rules address exactly that: prohibiting advertising of high-sugar products before the evening watershed, banning influencer promotion to under-sixteens and forbidding behavioural targeting of minors are enforceable and have measurable effects. [[It is worth noting]] that these attack the [[insidious]] forms rather than the whole category." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with a total prohibition while supporting most of what its advocates want. Ban the targeting, ban the products that do the damage, and leave general advertising alone, since a rule that cannot be [[delineated|Delineate]] will not be enforced and will discredit the restrictions that would have worked." }
+      ],
+      "notes": [
+        "Attacking a single word in the prompt is precise, and it commits you to agreeing with the rest, which this essay does openly.",
+        "The definitional problem, that most of what children watch is not for children, is the strongest practical objection available.",
+        "Three specific alternative rules make the disagreement constructive rather than obstructive."
+      ]
+    },
+    {
+      "stance": "Ban the targeting, not the advertisement",
+      "approach": "Distinguish broadcast advertising from personalised targeting, and argue the harm is concentrated in the second.",
+      "plan": [
+        "Introduction: separate two things the proposal treats as one.",
+        "Body 1: why general advertising is tolerable.",
+        "Body 2: why targeting children is not.",
+        "Conclusion: the line, and why it is enforceable."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "An advertisement in a cinema and an advertisement selected for one child by a model of that child's behaviour are different things wearing the same name. [[To a certain extent]] I agree with prohibition, and it belongs on the second." },
+        { "role": "Body 1 · general advertising", "text": "A broadcast advertisement is public, identical for everybody and therefore answerable. Parents see what their children see, regulators can review it, and campaigners can complain about it, so the ordinary correctives work. [[It is true that]] young children still cannot recognise its purpose, which justifies restricting products and timing, but the format itself is [[innocuous]] enough to be governed rather than abolished." },
+        { "role": "Body 2 · targeting", "text": "[[By contrast]], personalised advertising is invisible to everybody except its target. A system that has inferred a child is anxious, or lonely, and selects accordingly is exploiting information the child never knowingly gave, and no parent can see it in order to object. [[It is evident that]] this defeats every protection the older model relied on, and the practice is [[irreconcilable]] with any serious idea of consent. [[Regrettably]], it is also the dominant form now." },
+        { "role": "Conclusion", "text": "[[On balance]], then, I would prohibit all behavioural targeting of minors outright and regulate general advertising to them strictly. The line is [[explicit]] and technically enforceable, since platforms know exactly which profiles they are targeting, whereas a ban on advertising in general would founder on the question of who an advertisement is aimed at." }
+      ],
+      "notes": [
+        "The distinction between public and personalised advertising is the essay's whole contribution, and it is stated in the first sentence.",
+        "Invisible to everybody except its target explains in six words why the old safeguards fail.",
+        "Arguing that the line is enforceable answers the objection the other positions cannot."
+      ]
+    }
+  ]
+}

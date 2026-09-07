@@ -1,0 +1,68 @@
+{
+  "id": "e52",
+  "models": [
+    {
+      "stance": "Disagree with the comparison",
+      "approach": "Explain the mechanism that sets both salaries, then argue the comparison names the wrong culprit.",
+      "plan": [
+        "Introduction: the resentment is understandable, the comparison is not.",
+        "Body 1: why the salaries are what they are.",
+        "Body 2: concede the moral force, then redirect it.",
+        "Conclusion: what should actually be argued about."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The contrast between a footballer's wage and a nurse's is genuinely uncomfortable, and it is meant to be. [[To a certain extent]] I share the discomfort, but I disagree that the comparison identifies the right problem." },
+        { "role": "Body 1 · why the salaries differ", "text": "[[The main point is]] that the two are paid from entirely different sources. An athlete's wage is a share of the revenue that their own scarcity generates: a few thousand people in the world can do the thing, and several hundred million will pay to watch it, so the money is enormous and goes either to the player or to the owner. A nurse is paid from a public budget set by taxation, and no amount of restraint at a football club adds a penny to it. [[Consequently]], the comparison is [[incongruous]] as an economic argument, however powerful it is as a moral one." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that the moral point survives this. A society that pays more for entertainment than for care has revealed something about itself, and [[it is worth noting]] that the same argument is never made about the club owners, who take far more than any player. [[That said]], the [[fervent]] focus on athletes is convenient for everybody: it is easier to resent a visible salary than to argue for the taxation that would raise a nurse's." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that athletes' pay cannot be justified, while agreeing that nurses are underpaid. The two facts are unconnected, and the useful argument is about what the public is willing to fund, which is [[irrefutable]] and rather less comfortable than resenting a footballer." }
+      ],
+      "notes": [
+        "Explaining the two funding sources is what turns a moral reaction into an argument, and it takes four sentences.",
+        "Noting that owners take more than players is a fact that redirects the anger without dismissing it.",
+        "The conclusion agrees with the sentiment and rejects the inference, which is a precise position."
+      ]
+    },
+    {
+      "stance": "Agree",
+      "approach": "Argue that a market outcome is not a justification, and that the scale of the difference is itself the problem.",
+      "plan": [
+        "Introduction: agree, and reject the market answer in advance.",
+        "Body 1: why the market explanation is not a justification.",
+        "Body 2: concede scarcity and short careers, then weigh them.",
+        "Conclusion: restate, with what would change it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The usual reply to this question is that the market decides, which explains the salaries without justifying them. [[By and large]] I agree that pay of this size cannot be justified beside the wages of the people who keep a society functioning." },
+        { "role": "Body 1 · explanation is not justification", "text": "[[The main point is]] that describing how a price arises says nothing about whether it should. Markets also set the price of insulin and of housing, and few would accept the outcome as self-justifying there. A footballer earning in a week what a teacher earns in five years reflects broadcasting rights and [[hegemony]] in an attention economy, not any measure of contribution. [[It is evident that]] the same argument once defended every distribution that has since been reformed." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the defences have some force. Careers are short, injury can end them in an afternoon, and the talent is genuinely rare. [[Nevertheless]], scarcity does not scale to these numbers: heart surgeons are rarer still and are paid a fraction as much, and the difference is that nobody sells advertising against surgery. [[Consequently]], what is being rewarded is not the skill but the audience attached to it, which is a poor basis for calling the outcome deserved." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that these salaries are unjustifiable, though I would not cap them. Taxing very high incomes properly and paying essential workers from the proceeds is the [[pragmatic]] response, since the money is real and the current distribution is a choice rather than a law of nature." }
+      ],
+      "notes": [
+        "Separating explanation from justification is the move that answers the standard reply before it is made.",
+        "The heart surgeon comparison defeats the scarcity defence in one sentence.",
+        "Refusing to propose a cap while proposing taxation keeps the agreement practical rather than gestural."
+      ]
+    },
+    {
+      "stance": "The comparison is a symptom",
+      "approach": "Argue that both salaries are set by whether the value can be captured, and that this explains all care work.",
+      "plan": [
+        "Introduction: the question points at a wider pattern.",
+        "Body 1: why sport captures its value and care does not.",
+        "Body 2: what follows, and the concession about deserving.",
+        "Conclusion: what would actually raise essential pay."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Athletes are the most visible example of a pattern that runs through every economy: pay tracks how easily the value created can be captured, not how much value is created. [[From my perspective]] the question is worth asking, and the answer is not really about sport." },
+        { "role": "Body 1 · captured against diffuse value", "text": "[[The key issue is]] capture. A footballer's contribution is concentrated, measurable and packageable into a broadcasting right, so the revenue arrives in one place and is divided between a few people. A nurse's contribution is diffuse: it appears as a patient who did not deteriorate, an infection that did not spread, a family that stayed at work, and none of that generates an invoice. [[Consequently]], the value is real and largely [[intangible]], which is precisely why it is underpaid." },
+        { "role": "Body 2 · what follows", "text": "[[It must be acknowledged]] that this explains rather than justifies, and that the pattern is not confined to sport: the same logic underpays teachers, carers and cleaners everywhere. [[Significantly]], these are also the jobs whose absence is noticed within a day, which shows how poorly pay tracks necessity. [[That said]], resenting the athlete achieves nothing, since removing their salary would not redirect a penny to a ward, and the [[propensity]] to argue this way is itself a distraction." },
+        { "role": "Conclusion", "text": "[[To sum up]], the comparison is a symptom of a system that pays for capturable value rather than for necessary work. Raising essential pay requires collective bargaining, public funding and a willingness to tax, and until those are argued for directly the comparison with athletes will remain a way of feeling the injustice without addressing it." }
+      ],
+      "notes": [
+        "Naming the mechanism, value capture, turns a familiar complaint into an economic argument that also explains three other professions.",
+        "The patient who did not deteriorate is the clearest possible illustration of diffuse value.",
+        "Feeling the injustice without addressing it is a fair criticism of the question itself, and it earns its place at the end."
+      ]
+    }
+  ]
+}

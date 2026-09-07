@@ -1,0 +1,68 @@
+{
+  "id": "e15",
+  "models": [
+    {
+      "stance": "Partly positive",
+      "approach": "Answer the direct question in the first line, then separate coding from digital literacy.",
+      "plan": [
+        "Introduction: answer outright, positive with a reservation.",
+        "Body 1: why digital literacy earns its place.",
+        "Body 2: why displacing history and art is the wrong trade.",
+        "Conclusion: the priorities, in order."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The short answer is that teaching children to use computers is plainly positive and teaching all of them to program at the cost of history is not. [[In my opinion]] the schools making this trade have confused two different subjects that happen to share a machine." },
+        { "role": "Body 1 · the case for", "text": "Digital literacy is now as [[integral]] to citizenship as reading a timetable once was. A child who cannot tell a source from an advertisement, or a real message from a fraud, is at a disadvantage every day of adult life, and no other subject teaches it. [[It is worth noting]] that this takes very little timetable: judging evidence online is a habit taught inside other lessons rather than a separate discipline." },
+        { "role": "Body 2 · the case against the trade", "text": "[[By contrast]], programming for everybody is a bet on one industry. Languages change every decade, and a child taught one at seven will meet a different one at twenty-two, whereas the ability to weigh a source or read a painting does not expire. [[Importantly]], history is where a child learns that the present was not [[inevitable]], and art is where they learn to make something nobody asked for. A curriculum that [[jettisons|Jettison]] both to teach syntax has traded the durable for the topical." },
+        { "role": "Conclusion", "text": "[[To sum up]], a modern school should prioritise reading, mathematics and the habit of judging evidence, then history and art, and should teach programming as one option among several. [[In essence]] the test is which lessons will still be [[germane]] in thirty years, and syntax is the least likely of them to survive." }
+      ],
+      "notes": [
+        "A direct question is answered in the first sentence. Delaying the answer to build up to it is the commonest way to lose content marks on this type.",
+        "The essay separates two things the question bundles, coding and digital literacy, and that distinction carries the whole argument.",
+        "The conclusion gives a ranked list because the question asked what should be prioritised. Answer the second half as explicitly as the first."
+      ]
+    },
+    {
+      "stance": "Positive",
+      "approach": "Defend the shift, and argue that the displaced subjects survive inside it.",
+      "plan": [
+        "Introduction: answer yes, and say what the objection gets wrong.",
+        "Body 1: why early exposure matters, and to whom.",
+        "Body 2: concede the loss, then show what a curriculum should protect.",
+        "Conclusion: the priorities, with equity as the criterion."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Teaching computing from the earliest years is a positive development, and the objection to it usually rests on a nostalgic view of what history lessons used to achieve. [[I would argue]] that the change is right, though the priorities behind it need stating clearly." },
+        { "role": "Body 1 · why early", "text": "[[First and foremost]], early exposure decides who feels entitled to the subject later. Children who first meet programming at sixteen have already sorted themselves into those who think they are technical and those who do not, and that sorting follows class and gender with depressing reliability. Starting at six makes the skill ordinary rather than [[insular]], and the effect on who chooses it at university is well documented. [[Above all]], it is the least advantaged children who have no other route in." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that something is lost when the timetable shifts. History and art teach judgement and attention, and a week without either is poorer. [[That said]], the choice is rarely as stark as it is presented: a class that builds a database of local census records is doing both at once, and the [[interdisciplinary]] version is usually better teaching than either subject alone." },
+        { "role": "Conclusion", "text": "[[All things considered]], a modern curriculum should prioritise literacy, numeracy and computational thinking, then the humanities, and should protect art from being squeezed out entirely. The criterion is access: schools should teach first what a child cannot easily acquire anywhere else, and for most families that is now the [[computer]]." }
+      ],
+      "notes": [
+        "The equity argument, who feels entitled to the subject, is what lifts this above a general enthusiasm for technology.",
+        "The concession offers a way of having both, which is more persuasive than denying that anything is lost.",
+        "A stated criterion, what a child cannot acquire elsewhere, gives the ranked list a reason rather than a preference."
+      ]
+    },
+    {
+      "stance": "Not positive",
+      "approach": "Argue that the trade misunderstands what schooling is for and what employers actually want.",
+      "plan": [
+        "Introduction: answer no, and name the mistake.",
+        "Body 1: what is lost when the humanities shrink.",
+        "Body 2: concede the value of computing, then question the vocational premise.",
+        "Conclusion: the priorities, with the reasoning behind them."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Squeezing history and art to make room for coding is not a positive development, and the reasoning behind it is weaker than it appears. [[From my perspective]], schools have accepted a vocational argument that the employers themselves do not make." },
+        { "role": "Body 1 · what is lost", "text": "[[The key issue is]] what disappears. History is the only subject in which a child practises weighing conflicting accounts of the same event, which is precisely the skill a life online demands, and art is one of the few places where a mistake is not marked wrong. Remove them and the school becomes a training centre, teaching children to operate a system nobody has taught them to [[scrutinise|Scrutiny]]." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], computing is not a passing fashion, and a school that ignored it would be failing its pupils. [[Nevertheless]], the premise that early programming produces employable adults is largely unexamined. Employers consistently report that they are short of people who can write clearly, work with others and think about a problem they have not seen before, and [[it is arguable whether]] any of those are taught faster in a coding lesson than in a history seminar." },
+        { "role": "Conclusion", "text": "[[In conclusion]], the trade is a poor one. A curriculum should prioritise the ability to read closely, write clearly and evaluate evidence, and should teach computing as a tool inside those aims rather than in place of them, because a school's [[intent]] is to produce an adult rather than an employee." }
+      ],
+      "notes": [
+        "Disagreeing with a popular reform works best when you cite what the supposed beneficiaries actually say. Employers asking for writing and collaboration does that job here.",
+        "The sentence about operating a system nobody has taught them to scrutinise is the essay's argument compressed into a line.",
+        "An adult rather than an employee is a clean final contrast. Ending on a distinction is stronger than ending on a summary."
+      ]
+    }
+  ]
+}

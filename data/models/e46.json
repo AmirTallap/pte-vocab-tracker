@@ -1,0 +1,68 @@
+{
+  "id": "e46",
+  "models": [
+    {
+      "stance": "Benefits outweigh, with honest challenges",
+      "approach": "Give the fiscal and demographic case, then treat the challenges as questions of pace and provision.",
+      "plan": [
+        "Introduction: what migration brings and demands, and where you land.",
+        "Body 1: benefits, labour, demography and public finances.",
+        "Body 2: challenges, services, housing and integration.",
+        "Conclusion: the verdict and the condition."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Large-scale migration reshapes a receiving country's labour force, its public finances and its politics, and the three do not move together. [[On balance]] I believe the benefits exceed the challenges, provided the arrival is matched by the provision it requires." },
+        { "role": "Benefits", "text": "The clearest benefit is demographic. Ageing countries face a shrinking working population supporting a growing retired one, and migration is the only measure that changes that arithmetic within a decade. Newcomers arrive already educated at another country's expense and are concentrated in working ages, so they are net contributors to public finances in almost every study. [[It is worth noting]] that health and care systems in most wealthy countries would be unable to function without them, and that migrants are consistently more likely to start businesses than the native born." },
+        { "role": "Challenges", "text": "[[By contrast]], the pressures are local and immediate while the gains are national and gradual. A town receiving many arrivals in one year finds school places and housing short at once, and the funding formula that would pay for them lags by years. Integration takes time and money: without language teaching, communities become [[insular]] on both sides. [[Not surprisingly]], the political challenge is sharpest where provision was already [[deficient]], since migration is then blamed for a shortage that preceded it." },
+        { "role": "Conclusion", "text": "[[Taken together]], the economic case is strong and the difficulties are questions of speed and funding rather than of principle. Funding services in advance of arrivals, teaching the language seriously and distributing settlement across regions would answer nearly all of them, and the countries that skipped those steps produced the [[fervent]] backlash now shaping their politics." }
+      ],
+      "notes": [
+        "Distinguishing national gains from local costs explains why the public and the economists disagree, which is the heart of this topic.",
+        "The point that migrants arrive educated at another country's expense is precise and often missed.",
+        "The conclusion names three provisions, which turns a verdict into a policy."
+      ]
+    },
+    {
+      "stance": "Challenges are underestimated",
+      "approach": "Accept the aggregate economics and argue that pace and distribution decide whether the benefits are ever realised.",
+      "plan": [
+        "Introduction: the aggregate case is sound and incomplete.",
+        "Body 1: the benefits, granted in full.",
+        "Body 2: the challenges, pace, housing and consent.",
+        "Conclusion: what would make migration work."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The economic case for migration is strong and is usually made at a level of aggregation that no voter experiences. [[In my opinion]] the challenges are systematically underestimated, not because the benefits are false but because they are averages." },
+        { "role": "Benefits", "text": "[[It is true that]] the gains are real. Migration fills shortages that no domestic training programme has closed, sustains public finances in ageing societies and brings entrepreneurship at a rate above the native average. [[For the most part]], the fiscal contribution of working-age arrivals is positive across the studies, and the health services of several countries would close without them." },
+        { "role": "Challenges", "text": "[[Nevertheless]], pace determines everything. Housing supply responds over a decade while population changes within a year, so rapid arrival raises rents fastest in the districts where migrants and the poorest existing residents both live, and the resulting competition is real rather than imagined. School places and clinic appointments behave the same way. [[Consequently]], the costs land on precisely the people with least [[agency]], while the benefits accrue to employers and to the national accounts. [[Regrettably]], denying this has done more to [[engender]] hostility than any newspaper campaign." },
+        { "role": "Conclusion", "text": "[[All things considered]], migration is beneficial and has been managed badly. Building housing ahead of demand, funding local services by actual population rather than a lagging census, and speaking honestly about local costs would preserve the benefits, whereas the present approach [[jeopardizes|Jeopardize]] the consent on which any migration policy depends." }
+      ],
+      "notes": [
+        "Accepting the economics fully and then arguing about distribution is what makes this position hard to caricature.",
+        "The lagging funding formula is a mechanism, and mechanisms are what turn a complaint into an analysis.",
+        "Naming honesty as part of the remedy is unusual and gives the conclusion a distinctive final note."
+      ]
+    },
+    {
+      "stance": "Depends on the policy, not the numbers",
+      "approach": "Argue that the same level of migration succeeds or fails according to what the receiving state does.",
+      "plan": [
+        "Introduction: the variable is policy, not volume.",
+        "Body 1: benefits, which appear where settlement is supported.",
+        "Body 2: challenges, which appear where it is not.",
+        "Conclusion: what the receiving country controls."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Countries receiving similar numbers of migrants report wildly different outcomes, which suggests the number is not what decides. [[From my perspective]] the benefits and challenges follow almost entirely from what the receiving state does in the first three years." },
+        { "role": "Benefits · where settlement is supported", "text": "Where arrivals are permitted to work quickly, have their qualifications recognised and receive language teaching, the benefits appear fast. Employment rates converge with the native population within a few years, and the fiscal contribution begins almost immediately. [[A case in point]] is that countries recognising foreign medical qualifications promptly gained doctors, while those that did not gained taxi drivers with medical degrees, which is an [[incongruous]] waste of the same people." },
+        { "role": "Challenges · where it is not", "text": "[[By contrast]], where newcomers are barred from working while their claims are processed, the challenges are manufactured by the policy itself. Years of enforced idleness erode skills and confidence, dependence on the state becomes the statistic critics cite, and the [[isolation]] that results makes integration harder later. [[It is evident that]] concentrating arrivals in the cheapest housing in the poorest districts compounds it, since the pressure then falls where services are thinnest." },
+        { "role": "Conclusion", "text": "[[On the whole]], then, the receiving country largely determines its own outcome. Early work rights, recognition of qualifications, language provision and distributed settlement are what [[delineate]] a benefit from a challenge, and arguing about numbers while neglecting all four is how the challenges become self-fulfilling." }
+      ],
+      "notes": [
+        "Taxi drivers with medical degrees is the example that makes the qualification recognition argument unforgettable.",
+        "Showing that some challenges are created by policy rather than by migration is the essay's central and most useful claim.",
+        "The conclusion lists four controllable levers, which answers the question in terms the receiving country can act on."
+      ]
+    }
+  ]
+}

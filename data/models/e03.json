@@ -1,0 +1,68 @@
+{
+  "id": "e03",
+  "models": [
+    {
+      "stance": "Advantages outweigh",
+      "approach": "Two developed advantages, two honest disadvantages, then a verdict that names the hybrid compromise.",
+      "plan": [
+        "Introduction: say what has changed and which side you find heavier.",
+        "Body 1: the advantages for both parties, time and cost first.",
+        "Body 2: the disadvantages, and who actually bears them.",
+        "Conclusion: weigh them and name the arrangement that keeps the gains."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Home working has moved within a few years from a rare privilege to an ordinary condition of employment. It carries gains and costs for employers and staff alike, and although the costs are real, [[on balance]] the advantages appear to me the heavier side of the scale." },
+        { "role": "Body 1 · advantages", "text": "The clearest benefit is time. A worker who no longer spends two hours travelling recovers roughly ten hours a week for family, rest and [[leisure]], and begins the day less depleted. Employers gain as well, since offices are expensive and a firm that halves its floor space can [[implement]] the saving at once. Recruitment widens too: a company is no longer confined to people living within an hour of its door, which is [[invaluable]] wherever skills are scarce." },
+        { "role": "Body 2 · disadvantages", "text": "[[By contrast]], the drawbacks fall unevenly. Junior staff lose the overheard conversation through which a trade is actually learned, and distance can [[impede]] the informal training that no course reproduces. Managers, for their part, are tempted into monitoring software, which [[engenders|Engender]] distrust considerably faster than it produces output. [[It must be acknowledged]] that genuinely new problems are still solved more quickly by people in one room." },
+        { "role": "Conclusion", "text": "[[Taken together]], the advantages are structural while the disadvantages are largely manageable. A hybrid week, with two fixed days in the office for the work that needs a room, preserves the recovered time without the [[isolation]], and that is precisely where most large employers have settled." }
+      ],
+      "notes": [
+        "The question names two groups, employers and workers, so both appear in both body paragraphs. Answering only half of a two-part task is the commonest content loss on this type.",
+        "Ten hours a week and half the floor space are quantities. An advantage with a number attached reads as analysis rather than opinion.",
+        "The conclusion proposes hybrid working, which is a verdict rather than a shrug."
+      ]
+    },
+    {
+      "stance": "Disadvantages outweigh",
+      "approach": "Concede the obvious gains quickly, then argue that the costs are hidden, delayed and borne by the youngest.",
+      "plan": [
+        "Introduction: the benefits are immediate, the costs are deferred, and deferred costs are still costs.",
+        "Body 1: the advantages, granted in full but briefly.",
+        "Body 2: the disadvantages, developed: training, cohesion, and the home itself.",
+        "Conclusion: the balance tips the other way once the costs arrive."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Remote work is usually assessed on the first year, when the savings are visible and the damage is not. [[It is true that]] the immediate advantages are considerable, but [[in the long run]] I believe the disadvantages for both employers and workers outweigh them." },
+        { "role": "Body 1 · advantages", "text": "[[Admittedly]], the gains are genuine. Commuting is dead time, and abolishing it returns several hours a week to the employee at no cost to the employer. Companies shed rent, and parents of small children gain a flexibility that office hours never allowed. [[For the most part]], output on routine tasks has held steady or improved, which is why so few firms have ordered a full return." },
+        { "role": "Body 2 · disadvantages", "text": "[[Nevertheless]], the costs arrive later and land on the least powerful. A graduate learns the job by watching people do it, and a video call transmits the decision but never the reasoning behind it, so the training of an entire cohort is quietly [[deficient]]. Teams also lose the accidental conversation from which most [[innovation]] comes. [[Not surprisingly]], the burden falls hardest on those whose home is a shared flat rather than a study." },
+        { "role": "Conclusion", "text": "[[All things considered]], the advantages are drawn immediately and the disadvantages are paid over a decade. That trade would be [[irrational]] for any employer who intends to still have skilled staff in ten years, which is why the office, in some reduced form, deserves to survive." }
+      ],
+      "notes": [
+        "Putting the advantages first and briefly is deliberate. It shows the examiner you can see both sides while leaving your own paragraph the room to develop.",
+        "The shared flat is the sentence that stops this being an essay about abstractions. Name who bears the cost.",
+        "Immediately against over a decade is the same contrast the introduction promised. Keeping that promise is coherence."
+      ]
+    },
+    {
+      "stance": "It depends on career stage",
+      "approach": "Argue that the same policy is an advantage for one group and a disadvantage for another, and that the answer is therefore differentiated.",
+      "plan": [
+        "Introduction: the question has no single answer because the workforce is not one group.",
+        "Body 1: for experienced staff and their employers, the advantages dominate.",
+        "Body 2: for new entrants, the disadvantages dominate.",
+        "Conclusion: a policy that distinguishes between the two."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Asking whether home working is beneficial treats the workforce as one body, which it is not. [[To a certain extent]] the answer depends entirely on how long somebody has been doing the job, and a policy that ignores this [[nuance]] will disappoint half the staff whatever it decides." },
+        { "role": "Body 1 · the experienced", "text": "For established employees the advantages are close to decisive. They already know the work, so the supervision that distance removes was not doing much anyway, and the recovered commuting hours go straight into either output or rest. Employers benefit in parallel: retention improves, and the ability to hire from anywhere makes a shortage of specialists far less [[insuperable]]. [[As a rule]], the more experience a worker has, the better remote arrangements suit both parties." },
+        { "role": "Body 2 · the new entrant", "text": "[[By contrast]], the disadvantages concentrate almost entirely on newcomers. Judgement is absorbed rather than taught, and it is [[inherent]] in that process that you must be present to absorb it. A trainee at home receives instructions but not the reasoning, and [[isolation]] at the start of a career is a serious [[impediment]] to ever developing any." },
+        { "role": "Conclusion", "text": "[[In conclusion]], the same arrangement is a benefit to one group and a cost to another. The sensible policy is therefore not uniform: heavy office attendance for the first two years and broad freedom thereafter would capture most of the advantages while paying few of the disadvantages." }
+      ],
+      "notes": [
+        "Splitting the question by group is a strong structure for advantages and disadvantages, because it keeps the two paragraphs genuinely distinct instead of listing pros then cons.",
+        "The first two years and broad freedom thereafter is a concrete rule. Specific proposals score better than balanced sentiments.",
+        "Notice that each body paragraph still covers both employers and workers, which is what the question asked for."
+      ]
+    }
+  ]
+}

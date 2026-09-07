@@ -1,0 +1,68 @@
+{
+  "id": "e06",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from the platforms' own behaviour: they already curate, so they already publish.",
+      "plan": [
+        "Introduction: rephrase the immunity claim, then agree with a limit.",
+        "Body 1: curation makes them publishers, not noticeboards.",
+        "Body 2: concede the censorship risk, then answer it with a narrow duty.",
+        "Conclusion: restate, and say what liability would actually change."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Social networks have long insisted that they are neutral pipes carrying whatever the public pours into them. [[I would argue]] that this description stopped being accurate years ago, and I agree that platforms should bear legal responsibility for the falsehoods they distribute, although not for every one of them." },
+        { "role": "Body 1 · they already choose", "text": "[[The key issue is]] that these companies do not merely host content, they rank it. An algorithm that decides which of a million posts a user sees is making an editorial judgement, and it makes that judgement in favour of whatever holds attention, which is [[invariably|Invariable]] the most inflammatory version of any claim. A newspaper is liable for what it prints because it chose to print it; the choice here is identical, only automated." },
+        { "role": "Body 2 · concession", "text": "[[Admittedly]], unlimited liability would be dangerous. A company facing ruin for a single post would delete anything contested, and legitimate argument would be the first casualty, so the fear of over-removal is not [[frivolous]]. [[Nevertheless]], the remedy is a narrow duty rather than none: responsibility for material the platform actively promoted, and for anything it was told about and left up." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that legal responsibility should follow the editorial power these firms already exercise. Liability of that shape would not silence users; it would simply make amplification something a company must [[substantiate]], which is what every other publisher has always had to do." }
+      ],
+      "notes": [
+        "The essay agrees but narrows the claim in the first paragraph, which lets it survive the obvious objection instead of ignoring it.",
+        "The newspaper comparison does the argumentative work. One analogy, developed in two sentences, is worth more than three assertions.",
+        "The concession is answered with a specific legal test, promoted or notified, rather than with reassurance."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Defend the immunity on practical grounds: scale, and who ends up deciding what is true.",
+      "plan": [
+        "Introduction: the aim is right, the instrument is wrong.",
+        "Body 1: the volume argument, with numbers.",
+        "Body 2: who decides truth, plus a concession about clear-cut harms.",
+        "Conclusion: better instruments than liability."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Nobody defends the spread of falsehood online, but the wish to punish somebody for it should not decide the law. [[In my opinion]] making platforms liable for what their users write would be a serious mistake, however [[compelling]] the motive behind it." },
+        { "role": "Body 1 · scale", "text": "[[First and foremost]], the volume makes the duty impossible to discharge honestly. Several hundred hours of video arrive on the largest platforms every minute, and no combination of moderators and software can [[ascertain]] the truth of that in real time. Faced with liability, a rational company does not verify; it deletes on suspicion, and the safest thing to delete is anything unusual, unpopular or new." },
+        { "role": "Body 2 · who decides", "text": "[[More importantly|Importantly]], such a law hands the definition of truth to whoever is in office. Claims about the origins of a virus or the conduct of a war have moved from forbidden to accepted within two years, and a statute written in the first year would have suppressed the second. [[Granted]], deliberate medical hoaxes and incitement are different: those are already illegal, and enforcing existing law against the authors is entirely [[germane]]." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with the proposal while accepting the problem. Transparency about what algorithms promote, real penalties for coordinated deception, and rapid access to correction would each [[ameliorate]] the harm without asking a company to become a court." }
+      ],
+      "notes": [
+        "Agreeing with the motive and rejecting the mechanism is the most persuasive way to disagree. It removes the suspicion that you simply do not care about the problem.",
+        "The two objections are different in kind, practical then constitutional, which stops body two repeating body one.",
+        "Three alternatives in the conclusion turn a refusal into a proposal."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Distinguish hosting from amplifying, and put liability only on the second.",
+      "plan": [
+        "Introduction: the question is too broad as posed; split it.",
+        "Body 1: no liability for what is merely hosted, and why.",
+        "Body 2: liability for what is promoted, and why that is different.",
+        "Conclusion: the line, and how it could be enforced."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The proposal treats a platform as a single thing, when in practice it performs two very different jobs: it stores what users write, and it decides what users see. [[To a certain extent]] I agree with legal responsibility, but only for the second of these." },
+        { "role": "Body 1 · hosting", "text": "Holding a company liable for mere storage would be [[incongruous]]. A telephone company is not prosecuted for a lie told down its line, and the volume of material makes prior inspection [[hypothetical]] rather than practical. Such a rule would also [[dissuade]] anybody from starting a competitor, since only the largest firms could afford the moderation, and the result would be an even narrower [[hegemony]] than the one we have." },
+        { "role": "Body 2 · amplifying", "text": "[[By contrast]], promotion is a decision, and decisions attract responsibility. When a system calculates that a fabricated claim will hold attention and pushes it to two million feeds, the company has done something no telephone line does. [[It is evident that]] the harm comes from the reach rather than the existence: an untrue post nobody sees injures nobody, and the reach was chosen by the platform." },
+        { "role": "Conclusion", "text": "[[On balance]], then, responsibility should attach to amplification alone. The line is workable, since every platform already logs what it promoted and to whom, and applying [[scrutiny]] there would change behaviour without turning the internet's storage into somebody's liability." }
+      ],
+      "notes": [
+        "Splitting the subject of the question, here hosting against amplifying, is the most reliable way to write a partial agreement that still argues something.",
+        "The telephone comparison is used and then explicitly limited in body two. An analogy you police yourself is stronger than one you leave open.",
+        "The conclusion answers how, not just what. Saying the platforms already keep these logs makes the proposal look practical rather than clever."
+      ]
+    }
+  ]
+}

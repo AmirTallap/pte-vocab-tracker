@@ -1,0 +1,68 @@
+{
+  "id": "e54",
+  "models": [
+    {
+      "stance": "Parity, funded properly",
+      "approach": "Show that the status gap is manufactured by funding and selection, then argue for parity on labour-market grounds.",
+      "plan": [
+        "Introduction: the disagreement, and where you land.",
+        "Body 1: the case for university priority, put fairly.",
+        "Body 2: the case for parity, with the shortage evidence.",
+        "Conclusion: your opinion, and what parity would require."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is often argued]] that vocational training deserves equal standing with a degree, and equally that universities must remain the priority. Having weighed both, [[I would maintain]] that parity is the better policy, and that the present hierarchy is largely an artefact of how the two are funded." },
+        { "role": "Body 1 · the case for universities", "text": "[[On the one hand]], the defence of university priority is not empty. Research capacity resides there, and a country that neglects it loses the [[intellectual]] base on which its industries eventually depend. [[It is true that]] graduates still earn more on average and that broad academic study develops judgement that a narrow qualification does not, which is why parents push their children towards it." },
+        { "role": "Body 2 · the case for parity", "text": "[[On the other hand]], the shortages are almost entirely technical. Electricians, welders, technicians and care workers are scarce across Europe while graduate underemployment rises, so the signal from the labour market is [[explicit]] and has been ignored for a generation. [[There is evidence that]] a skilled trade in Germany or Switzerland, where apprenticeships are funded and respected, pays comparably to many degrees, which shows the status gap is a policy outcome rather than a natural ranking. [[Consequently]], the [[dearth]] of technicians is manufactured by the funding, not by the young." },
+        { "role": "Conclusion", "text": "[[All things considered]], my own view is that the two routes should carry equal funding, equal maintenance support and equal standing in the school system. That means paying for apprenticeships properly and, [[importantly]], allowing movement between the routes, since a hierarchy is [[ingrained]] most deeply when the ladder only runs one way." }
+      ],
+      "notes": [
+        "Naming the German and Swiss comparison converts a claim about status into an argument about policy.",
+        "The observation that shortages are technical while graduate underemployment rises is the evidence the position rests on.",
+        "The movement between routes condition is the detail that makes parity meaningful rather than declared."
+      ]
+    },
+    {
+      "stance": "Universities should remain the priority",
+      "approach": "Defend the broader education while conceding that vocational funding is inadequate.",
+      "plan": [
+        "Introduction: the disagreement, and which side you finish on.",
+        "Body 1: the parity case, fully stated.",
+        "Body 2: what a university does that training does not.",
+        "Conclusion: your opinion, with the concession built in."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] vocational training and degrees should carry equal weight, and the answer depends on what education is being asked to do. [[In my opinion]] universities should remain the priority, though the underfunding of vocational routes is a genuine scandal." },
+        { "role": "Body 1 · the parity case", "text": "[[On the one hand]], the case for parity is strong on immediate need. Shortages of technicians are acute, apprenticeships lead to secure work, and the assumption that everybody should take a degree has left many graduates with debt and a job that never required one. [[It must be acknowledged]] that the contempt directed at technical education is snobbery rather than analysis." },
+        { "role": "Body 2 · what a university does", "text": "[[On the other hand]], the two are not substitutes. A vocational qualification trains for a known occupation, and its value depends on that occupation continuing to exist, which is precisely what automation makes uncertain. A broad education develops the capacity to learn something else, which is [[intrinsic]] to a working life that will now contain several changes of trade. [[It is worth noting]] that universities also carry research, and a country that treats them as one training route among many will find the research capacity [[irrecoverable]] once it has gone." },
+        { "role": "Conclusion", "text": "[[On balance]], I would keep universities as the priority and fund vocational training far better than at present, which is not a contradiction: the argument is about the ranking of purposes rather than of people. [[In essence]] the state should pay for what the market will not, and the market underprovides both basic research and the apprenticeship it cannot recoup, which makes the [[dichotomy]] a false one." }
+      ],
+      "notes": [
+        "Conceding that the contempt for technical education is snobbery removes the worst reading of this position before it is made.",
+        "The argument that vocational value depends on the occupation surviving is the strongest available defence of broad education.",
+        "The final sentence dissolves the opposition rather than winning it, which is a mature finish."
+      ]
+    },
+    {
+      "stance": "The question conflates funding with status",
+      "approach": "Argue that funding parity is straightforward and status parity is a separate, harder problem.",
+      "plan": [
+        "Introduction: two claims are bundled; separate them.",
+        "Body 1: funding, where parity is straightforwardly right.",
+        "Body 2: status, which policy cannot simply legislate.",
+        "Conclusion: your opinion on each, and what would move the second."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The debate bundles two claims: that vocational training should be funded equally and that it should be regarded equally. [[From my perspective]] the first is straightforwardly right and the second cannot be delivered by funding alone, which is why decades of announcements have changed so little." },
+        { "role": "Body 1 · funding", "text": "[[On the one hand]], the funding case is close to unanswerable. A country short of electricians and long on unemployed graduates is misallocating its education budget, and apprenticeships return their cost quickly through wages and taxes. [[There is evidence that]] every serious economy with a strong technical sector funds it publicly rather than leaving it to employers, who will not pay to train somebody a competitor may hire. [[Consequently]], funding parity is a [[pragmatic]] measure rather than an act of generosity." },
+        { "role": "Body 2 · status", "text": "[[On the other hand]], status follows the choices of the people making them, not the intentions of ministers. Parents steer children towards degrees because a degree remains the safer signal to employers, and that will persist while the professions recruit almost exclusively from graduates. [[It must be acknowledged]] that governments have declared parity repeatedly and the [[propensity]] to choose university has barely moved. [[More precisely]], status will change when employers open senior routes to technical qualifications, which is a slower and less [[intelligible|Intelligible]] lever." },
+        { "role": "Conclusion", "text": "[[Taken together]], I support funding parity immediately and regard status parity as a longer project that requires employers rather than education ministries. [[In essence]] the two sides of this debate are arguing about different timescales, and separating them would produce agreement on the half that can be acted on now." }
+      ],
+      "notes": [
+        "Separating funding from status explains why the debate never resolves, and it lets the essay agree with both camps precisely.",
+        "The observation that employers, not ministries, control status is the essay's most useful claim.",
+        "Different timescales is a diagnosis of the disagreement itself, which is a strong way to close."
+      ]
+    }
+  ]
+}

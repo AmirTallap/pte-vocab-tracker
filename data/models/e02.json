@@ -1,0 +1,68 @@
+{
+  "id": "e02",
+  "models": [
+    {
+      "stance": "Net creator",
+      "approach": "Give the pessimists their strongest case first, then argue that the new roles outnumber the lost ones and that the real problem is the transition.",
+      "plan": [
+        "Introduction: note the historical pattern, then state which view you finish on.",
+        "Body 1: the case for mass unemployment, put at full strength.",
+        "Body 2: the case for creation, with a named example.",
+        "Conclusion: your opinion, and the policy that follows from it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Every wave of automation has provoked the same fear, and every wave so far has ended with more people in work than before. [[It is often argued]] that artificial intelligence is different in kind, because it replaces judgement rather than muscle. Having weighed both cases, [[I would maintain]] that it will create more employment than it removes, though rarely for the same people." },
+        { "role": "Body 1 · the pessimistic view", "text": "[[On the one hand]], the case for widespread unemployment is [[compelling]]. Earlier machines took over lifting and repetition, whereas these systems take over diagnosis, translation and drafting, which is exactly what a radiologist or a junior lawyer is paid for. When a technology is this [[pervasive]], the disruption reaches occupations that a decade ago looked untouchable, and no retraining scheme has ever moved a profession that quickly." },
+        { "role": "Body 2 · the optimistic view", "text": "[[On the other hand]], the same tools [[engender]] work that did not previously exist. Somebody has to assemble the data, audit the outputs and carry the legal responsibility when a model is confidently wrong, and those roles are multiplying faster than the ones disappearing. [[A case in point]] is the machine learning auditor, a job title that barely existed five years ago. Cheaper analysis also [[spurs|Spur]] demand: firms that could never afford a research department can now buy one." },
+        { "role": "Conclusion", "text": "[[All things considered]], I expect more jobs and worse transitions. The danger is not a world without work but a decade in which the displaced are forty-five and the new posts demand retraining nobody has funded. [[It follows that]] the question is not whether to permit these systems but how to pay for the retraining they make [[indispensable]]." }
+      ],
+      "notes": [
+        "The other side goes first and is put at full strength. An examiner can tell the difference between discussing a view and dismissing it, and content marks follow the difference.",
+        "Your own opinion is stated in the introduction and confirmed in the conclusion, so the essay never leaves the reader guessing which side is yours.",
+        "The conclusion adds a policy consequence instead of repeating the argument. That is what turns a summary into a finish."
+      ]
+    },
+    {
+      "stance": "Net destroyer",
+      "approach": "Accept the historical record honestly, then explain why this wave breaks it.",
+      "plan": [
+        "Introduction: name the assumption behind the optimistic case, and reject it.",
+        "Body 1: the optimists' record, stated fairly.",
+        "Body 2: why cognition is the rung that cannot be climbed past, with evidence.",
+        "Conclusion: your position and what preparation it requires."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The claim that technology always creates more work than it destroys rests on two centuries of evidence and one large assumption: that there is always something left for people to do. [[In my opinion]] artificial intelligence weakens that assumption badly, and significant displacement is the likelier outcome of the next twenty years." },
+        { "role": "Body 1 · the optimistic view", "text": "[[On the one hand]], optimists point out that automation has repeatedly moved workers upward rather than outward. Agricultural labour became factory labour, and factory labour became services, each shift ending in higher wages than the one before. [[It is true that]] no previous wave produced lasting mass unemployment, and that record is not a trivial thing to argue against." },
+        { "role": "Body 2 · why this wave differs", "text": "[[On the other hand]], every one of those transitions moved people towards tasks requiring thought, and thought is precisely what is being automated now. Once the next rung of the ladder is mechanised too, the old [[dichotomy]] between manual and mental work no longer offers an escape route. [[There is evidence that]] the process has begun: entry level coding and copywriting have contracted sharply in three years, and those were the rungs that graduates used to stand on." },
+        { "role": "Conclusion", "text": "[[On balance]], I believe the losses will be real and concentrated among the young and the mid-skilled. [[Consequently]] the sensible response is preparation rather than reassurance: serious retraining, shorter working weeks, and a tax system that does not [[inhibit]] the hiring of people while quietly subsidising the machines that replace them." }
+      ],
+      "notes": [
+        "Conceding the whole historical record in body one costs nothing and buys credibility for the argument in body two.",
+        "The essay attacks the assumption, not the people. Naming the assumption in the first sentence is what gives the rest of the essay something to push against.",
+        "Three specific remedies close the essay. A conclusion that only worries is weaker than one that proposes."
+      ]
+    },
+    {
+      "stance": "Both, at different speeds",
+      "approach": "Argue that the two camps are describing different timescales, and that distribution matters more than the total.",
+      "plan": [
+        "Introduction: the two views are about different decades, not different facts.",
+        "Body 1: destruction is fast and countable.",
+        "Body 2: creation is slow, scattered and easy to miss.",
+        "Conclusion: the totals balance, the timing does not, and that is what policy should target."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "[[It is arguable whether]] artificial intelligence will destroy or create more work, but the two camps are usually describing different decades rather than different facts. [[From my perspective]] both are right within their own timeframe, and the honest answer is that the totals will roughly balance while the distribution will not." },
+        { "role": "Body 1 · destruction is fast", "text": "[[On the one hand]], the destruction is immediate and easy to count. A call centre that replaces two hundred agents with one system does so within a quarter, and the loss is [[explicit]] on the payroll. Such savings [[occur]] first in routine office work, which is why administrators and junior analysts feel the [[intensity]] of the change long before anyone in a skilled trade does." },
+        { "role": "Body 2 · creation is slow", "text": "[[On the other hand]], creation is slow, scattered and easy to overlook. The occupations built on a new technology arrive years afterwards and in places nobody predicted: the web eventually created far more work than it removed, yet almost none of it in the industries it damaged first. [[It is worth noting]] that most of today's digital jobs were [[intangible]] speculation in 1995 and are ordinary careers now." },
+        { "role": "Conclusion", "text": "[[Taken together]], the two views describe one process observed at two speeds. [[I would argue]] that the totals matter less than the interval between them, since a country that loses work in five years and regains it in fifteen has lost a decade whatever the final figure says. [[Above all]], policy should be aimed at that gap rather than at the technology." }
+      ],
+      "notes": [
+        "Reframing the disagreement is a strong opening for a discuss both views question, provided you still treat each side properly afterwards.",
+        "Fast against slow gives the two body paragraphs a contrast you can hear. Parallel structure is one of the cheapest ways to earn a coherence mark.",
+        "The conclusion names what should be measured, the interval, which is a genuine opinion rather than a diplomatic shrug."
+      ]
+    }
+  ]
+}

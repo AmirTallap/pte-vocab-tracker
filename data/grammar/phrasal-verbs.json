@@ -1,0 +1,290 @@
+{
+  "id": "phrasal-verbs",
+  "title": "Phrasal Verbs",
+  "group": "Verb Patterns and Prepositions",
+  "summary": "Separable and inseparable patterns, three-part combinations, idiomatic meaning, and when a single formal verb reads better.",
+  "sections": [
+    {
+      "heading": "Phrasal Verb or Verb Plus Preposition",
+      "body": "A **phrasal verb** is a verb plus a particle such as `up`, `off`, `out`, `down` or `on`, and the combined meaning is often unpredictable from the parts: `put off` means postpone, not place away. A verb with a **dependent preposition** is different: the verb keeps its ordinary meaning and simply requires that preposition, as in `depend on` or `refer to`.\n\nThe practical test is word order. A particle can move to the far side of a short object, so `turn the offer down` is possible, whereas a preposition is locked in front of its object and `depend the outcome on` is impossible.\n\nStress gives the same answer in speech. In `She looked UP the reference` the particle carries stress; in `She looked at the REFERENCE` the preposition does not.",
+      "examples": [
+        {
+          "right": "The organisers called off the match.",
+          "wrong": null,
+          "note": "`off` is a particle: the meaning is cancel, unrelated to direction."
+        },
+        {
+          "right": "The organisers called the match off.",
+          "wrong": null,
+          "note": "The particle may follow the object, which a preposition never could."
+        },
+        {
+          "right": "The outcome depends on the weather.",
+          "wrong": "The outcome depends the weather on.",
+          "note": "`on` here is a preposition and cannot move."
+        }
+      ]
+    },
+    {
+      "heading": "Separable and Inseparable",
+      "body": "**Separable** phrasal verbs allow the object in either position: `turn down the offer` or `turn the offer down`. When the object is a pronoun the split becomes compulsory, so `turn it down` is the only possibility and `turn down it` is always wrong. This one rule accounts for a large share of phrasal-verb errors.\n\n**Inseparable** phrasal verbs keep the particle beside the verb whatever follows: `look after the children` and `look after them`, `come across a problem` and `come across it`. Dictionaries mark this, and it is worth checking for any phrasal verb entering active use.\n\nA long object stays on the far side even with a separable verb, since splitting would strand the particle far from its verb.",
+      "examples": [
+        {
+          "right": "The editor turned the proposal down.",
+          "wrong": null,
+          "note": "Separable: a short noun object may sit inside."
+        },
+        {
+          "right": "The editor turned it down.",
+          "wrong": "The editor turned down it.",
+          "note": "A pronoun object must precede the particle."
+        },
+        {
+          "right": "A technician will look after the equipment.",
+          "wrong": "A technician will look the equipment after.",
+          "note": "`look after` is inseparable."
+        },
+        {
+          "right": "She turned down the generous offer from the consultancy.",
+          "wrong": null,
+          "note": "A long object stays after the particle even when the verb is separable."
+        }
+      ]
+    },
+    {
+      "heading": "Three-Part Phrasal Verbs",
+      "body": "Some phrasal verbs carry a particle and a preposition together: `put up with`, `look forward to`, `come up with`, `get on with`, `cut down on`, `catch up on`, `run out of`, `keep up with`, `get rid of` and `face up to`.\n\nThese never separate. The object follows the whole group, and even a pronoun stays outside it: `put up with it`, never `put it up with`.\n\nBecause the final element is a preposition, a verb after it takes the `-ing` form: `look forward to hearing`, `get round to writing`, `face up to losing`.",
+      "examples": [
+        {
+          "right": "Few residents will put up with the noise for another year.",
+          "wrong": "Few residents will put the noise up with for another year.",
+          "note": "Three-part verbs never split, not even around a pronoun."
+        },
+        {
+          "right": "We look forward to reading the final draft.",
+          "wrong": "We look forward to read the final draft.",
+          "note": "`to` is a preposition here, so the -ing form follows."
+        },
+        {
+          "right": "The team came up with an inexpensive alternative.",
+          "wrong": null,
+          "note": "`come up with` means devise."
+        },
+        {
+          "right": "Households have been asked to cut down on water use.",
+          "wrong": null,
+          "note": "`cut down on` means reduce."
+        }
+      ]
+    },
+    {
+      "heading": "Literal and Idiomatic Meaning",
+      "body": "Many combinations have both a literal and an idiomatic reading, and only the context separates them. `The plane took off` describes movement; `Sales took off` does not. `She looked up at the ceiling` is direction; `She looked up the reference` is consultation.\n\nSeveral phrasal verbs carry more than one idiomatic sense. `pick up` covers collecting a person, acquiring a skill informally and improving after a decline; `break down` covers failing mechanically, collapsing emotionally and analysing something into parts.\n\nStoring them inside a short phrase rather than as a bare pair keeps the senses apart: `pick up a language`, `pick up a passenger`, `trade picked up`.",
+      "examples": [
+        {
+          "right": "The helicopter took off in poor visibility.",
+          "wrong": null,
+          "note": "Literal movement."
+        },
+        {
+          "right": "Online enrolment took off once the fee was scrapped.",
+          "wrong": null,
+          "note": "Idiomatic: began to grow rapidly."
+        },
+        {
+          "right": "He picked up conversational Portuguese in a single summer.",
+          "wrong": null,
+          "note": "`pick up` here means acquire informally."
+        },
+        {
+          "right": "The article breaks the costs down by region.",
+          "wrong": null,
+          "note": "`break down` in its analytical sense, and separable in that use."
+        }
+      ]
+    },
+    {
+      "heading": "Register: Phrasal Verb or Single Verb",
+      "body": "Phrasal verbs are ordinary English, not slang, and they belong in speech and in informal writing. In formal academic prose a single Latinate verb is often the better fit, and the mark comes from choosing deliberately rather than from avoiding phrasal verbs altogether.\n\nThe pairs worth knowing are `find out` and `discover`, `put off` and `postpone`, `bring about` and `cause`, `look into` and `investigate`, `carry out` and `conduct`, `point out` and `indicate`, `set up` and `establish`, `go up` and `increase`, `cut down on` and `reduce`, `deal with` and `address`, `get rid of` and `eliminate`, `come up with` and `devise`, `leave out` and `omit`.\n\nThe reverse error is also possible. A chain of Latinate verbs in the speaking tasks sounds stilted, and `find out` is the natural choice there.",
+      "examples": [
+        {
+          "right": "The agency carried out a survey of two thousand households.",
+          "wrong": null,
+          "note": "Neutral, and acceptable in most writing."
+        },
+        {
+          "right": "The agency conducted a survey of two thousand households.",
+          "wrong": null,
+          "note": "The formal equivalent, better suited to a written report."
+        },
+        {
+          "right": "The authors point out that the sample was small.",
+          "wrong": null,
+          "note": "In an essay, `indicate` or `note` lifts the register."
+        }
+      ]
+    },
+    {
+      "heading": "A Working Set for the Exam",
+      "body": "A limited set, learned properly, is worth more than a long list read once. For academic content: `carry out`, `point out`, `bring about`, `look into`, `set up`, `break down`, `come up with`, `rule out`, `account for`, `focus on`, `take into account` and `result in`.\n\nFor everyday tasks and for describing an image: `go up`, `go down`, `level off`, `pick up`, `drop off`, `catch up`, `run out of`, `turn out`, `end up`, `take over`, `put up with` and `get on with`.\n\nThe second group repays the most preparation, because the graph description has to be produced under time pressure and `level off`, `go up` and `drop off` are the natural words for it.",
+      "examples": [
+        {
+          "right": "The figure rose sharply in 2019 and then levelled off.",
+          "wrong": null,
+          "note": "`level off` means stop rising or falling."
+        },
+        {
+          "right": "The proposal turned out to be cheaper than expected.",
+          "wrong": null,
+          "note": "`turn out` means prove to be, and is inseparable in this sense."
+        },
+        {
+          "right": "The committee ruled out any further increase.",
+          "wrong": null,
+          "note": "`rule out` means exclude; it separates around a pronoun, as in `ruled it out`."
+        }
+      ]
+    }
+  ],
+  "slips": [
+    "`turn down it` is always wrong. A pronoun object goes between verb and particle: `turn it down`.",
+    "Three-part verbs never split: `put up with it`, not `put it up with`.",
+    "`look forward to` ends in a preposition, so the -ing form follows: `look forward to meeting you`.",
+    "`look after` and `come across` are inseparable, so no object can sit inside them.",
+    "A phrasal verb is not slang, but in a written task the single verb usually reads better: `investigate` for `look into`, `postpone` for `put off`.",
+    "`bring about` means cause while `bring up` means raise a topic. The particle carries the meaning and cannot be guessed."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "The offer was clearly inadequate, so the board turned ___ without further discussion.",
+      "options": [
+        "it down",
+        "down it",
+        "down",
+        "off it"
+      ],
+      "answer": 0,
+      "explain": "`turn down` is separable, and a pronoun object must sit between the verb and the particle. `turn down it` is never possible, however natural it looks beside `turn down the offer`."
+    },
+    {
+      "type": "blank",
+      "prompt": "Residents said they could no longer ___ with the noise from the construction site.",
+      "hint": "tolerate (two words before 'with')",
+      "accept": [
+        "put up"
+      ],
+      "explain": "`put up with` is a three-part verb meaning tolerate; all three elements stay together and the object follows them."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The regulator is looking ___ the disappearance of several audit files.",
+      "options": [
+        "for",
+        "into",
+        "up",
+        "after"
+      ],
+      "answer": 1,
+      "explain": "`look into` means investigate. `look up` would mean consulting a reference and `look for` searching for something not yet lost from view."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The reforms brought ___ a substantial fall in urban emissions within three years.",
+      "options": [
+        "about",
+        "up",
+        "out",
+        "off"
+      ],
+      "answer": 0,
+      "explain": "`bring about` means cause. `bring up` raises a topic and `bring out` publishes or reveals, so the particle alone decides the meaning."
+    },
+    {
+      "type": "blank",
+      "prompt": "The government has promised to cut ___ on the use of single-use plastics.",
+      "hint": null,
+      "accept": [
+        "down",
+        "back"
+      ],
+      "explain": "`cut down on` is the three-part verb meaning reduce, and `cut back on` is an equally standard alternative; `cut off` and `cut out` would both change the sense entirely."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The institute will ___ a series of field trials next spring.",
+      "options": [
+        "carry over",
+        "carry out",
+        "carry off",
+        "carry on"
+      ],
+      "answer": 1,
+      "explain": "`carry out` means perform or conduct, which is what happens to trials. `carry on` means continue and needs an activity already under way."
+    },
+    {
+      "type": "blank",
+      "prompt": "He gets ___ well with the rest of the research team.",
+      "hint": null,
+      "accept": [
+        "on",
+        "along"
+      ],
+      "explain": "`get on with` is the British form and `get along with` the American one; both mean have a good relationship with, and both are correct."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The organisers had to call ___ the outdoor sessions because of the storm.",
+      "options": [
+        "up",
+        "out",
+        "in",
+        "off"
+      ],
+      "answer": 3,
+      "explain": "`call off` means cancel. `call in` summons someone, `call up` telephones or conscripts, and neither works with an event."
+    },
+    {
+      "type": "blank",
+      "prompt": "Engineers have come ___ with a cheaper method of desalinating seawater.",
+      "hint": null,
+      "accept": [
+        "up"
+      ],
+      "explain": "`come up with` means devise or produce an idea; without `up` the verb would mean encounter by chance."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The committee looks forward to ___ the auditors' report next month.",
+      "options": [
+        "receive",
+        "received",
+        "receiving",
+        "have received"
+      ],
+      "answer": 2,
+      "explain": "The `to` of `look forward to` is the preposition of a three-part verb, not an infinitive marker, so an -ing form must follow."
+    },
+    {
+      "type": "blank",
+      "prompt": "The seminar was ___ off until the following term because of the rail strike.",
+      "hint": "postpone",
+      "accept": [
+        "put"
+      ],
+      "explain": "`put off` means postpone, and it is separable, so the passive keeps the particle after the participle."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The report ___ out that emissions have fallen for three consecutive years.",
+      "options": [
+        "points",
+        "brings",
+        "carries",
+        "takes"
+      ],
+      "answer": 0,
+      "explain": "`point out` means draw attention to a fact and is the only one of these that takes a that-clause; in formal writing `indicate` or `note` would raise the register."
+    }
+  ]
+}

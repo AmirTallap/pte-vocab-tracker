@@ -1,0 +1,68 @@
+{
+  "id": "e08",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue that a timed examination measures performance under a rare condition rather than learning.",
+      "plan": [
+        "Introduction: rephrase the claim and agree, with a qualification.",
+        "Body 1: what an examination actually measures.",
+        "Body 2: concede the objections to coursework, then answer them.",
+        "Conclusion: restate, and name the mixture that follows."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A three-hour paper decides most of a young person's future, and almost nothing else in adult life is judged that way. [[By and large]] I agree that examinations measure the wrong thing, though replacing them entirely would create a different unfairness." },
+        { "role": "Body 1 · what an exam measures", "text": "[[The main point is]] that timed papers reward recall and speed rather than understanding. A student who grasps a subject deeply but writes slowly is marked below one who has memorised model answers, and the [[propensity]] to panic, which has no bearing on competence, can undo two years of work in a morning. Outside the hall, nobody is asked to solve problems from memory without notes, colleagues or time, so the skill being tested is largely [[irrelevant]] to what follows." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], continuous assessment has real weaknesses. Coursework favours students with educated parents and quiet rooms, and [[plagiarism]] is far harder to detect than cheating in a supervised hall. [[That said]], both problems are administrative rather than fundamental: supervised class assessments spread across a year, marked externally, keep the security of an examination while removing the single terrible morning." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that examinations are a poor measure of learning and that regular assessment should carry most of the weight. Keeping one short paper for the sake of [[integrity]] is sensible, but a system that decides a career on one performance is measuring composure, not knowledge." }
+      ],
+      "notes": [
+        "The introduction agrees and immediately limits the agreement, which gives the essay somewhere to go in body two.",
+        "Naming what an exam does test, composure and recall, is more persuasive than saying it tests nothing.",
+        "The concession lists the strongest objections to your own side and then answers them with a design, not a denial."
+      ]
+    },
+    {
+      "stance": "Disagree",
+      "approach": "Defend examinations on fairness and anonymity, which coursework cannot reproduce.",
+      "plan": [
+        "Introduction: the complaint is real, the conclusion does not follow.",
+        "Body 1: the exam's one great virtue, anonymity and identical conditions.",
+        "Body 2: concede the stress, then show what continuous assessment does to the disadvantaged.",
+        "Conclusion: reform the paper rather than abolish it."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Complaints about examinations are usually justified in their detail and mistaken in their conclusion. [[In my opinion]] the timed paper survives not because it measures learning perfectly but because every proposed replacement measures background instead." },
+        { "role": "Body 1 · why exams persist", "text": "[[First and foremost]], an examination is anonymous and identical for everybody. The marker does not know whose script it is, every candidate has the same hours and the same questions, and no parent can help. That [[impartial]] quality is rare and easily lost: the moment work is done at home, the student with a graduate parent, a desk and a fast connection is competing against one with none of them, and the mark records the [[disparate]] households rather than the two minds." },
+        { "role": "Body 2 · concession", "text": "[[It must be acknowledged]] that examinations reward memory and punish anxiety, and that some able students are [[inadvertent]] casualties of the format. [[Nevertheless]], continuous assessment does not remove pressure; it distributes it across a whole year, so the anxious student is now anxious in October as well as June. [[There is evidence that]] coursework-heavy systems widen the gap between schools rather than narrowing it." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree that examinations should be replaced. The [[pragmatic]] answer is to reform them: fewer papers, more open-book questions and marks for reasoning rather than recall, which keeps the fairness while dropping the memorisation." }
+      ],
+      "notes": [
+        "Defending the unpopular side works when you name a virtue the other side cannot supply. Here it is anonymity.",
+        "The concession accepts the emotional force of the argument and then shows that the alternative does not remove it, only spreads it.",
+        "Reform rather than abolition gives the essay a constructive ending without abandoning the position."
+      ]
+    },
+    {
+      "stance": "Partly agree",
+      "approach": "Match the method to the subject: some things can only be examined, others only assessed over time.",
+      "plan": [
+        "Introduction: the question assumes one method must win, which is the error.",
+        "Body 1: what only an examination can measure.",
+        "Body 2: what only continuous assessment can measure.",
+        "Conclusion: the mixture, decided by subject rather than by principle."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The debate is usually conducted as though one method must be correct for every subject. [[To a certain extent]] I agree that examinations measure too little, but the [[nuance]] that both sides skip is that different kinds of knowledge need different instruments." },
+        { "role": "Body 1 · what exams do well", "text": "Some competence must be demonstrated unaided and under time. A doctor recalling a drug interaction, a translator working without a [[thesaurus]] and a mathematician holding a proof in mind are all doing something that only an unassisted test can [[validate]]. In those cases the artificiality of the examination hall is the point, since the professional moment it imitates is equally unforgiving." },
+        { "role": "Body 2 · what assessment does well", "text": "[[By contrast]], most of what education claims to develop cannot be shown in three hours. Research, revision, collaboration and the slow improvement of an argument are [[intrinsic]] to serious work, and a single sitting captures none of them. [[For instance]], a history dissertation written over a term reveals whether a student can weigh sources, which no examination question has ever managed to [[ascertain]]." },
+        { "role": "Conclusion", "text": "[[On balance]], then, neither method should replace the other; the choice belongs to the subject. Assessment should carry most of the weight in the humanities and the sciences alike, with examinations reserved for what genuinely must be done alone and at speed, and the argument about which is fairer would largely disappear." }
+      ],
+      "notes": [
+        "Deciding by subject rather than by principle is a genuine third position, and it keeps both body paragraphs distinct.",
+        "The doctor, the translator and the mathematician are one sentence of examples doing the work of a paragraph of argument.",
+        "The conclusion says what would follow if the position were adopted, which is stronger than restating it."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e51",
+  "models": [
+    {
+      "stance": "Design of places as the cause",
+      "approach": "Trace loneliness to the disappearance of places people meet without arranging to, and propose rebuilding them.",
+      "plan": [
+        "Introduction: name the scale and promise causes then remedies.",
+        "Body 1: two causes, lost third places and lost daily errands.",
+        "Body 2: what communities could do, with actors named.",
+        "Conclusion: the problem is soluble and what it needs."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Persistent loneliness is now associated with a rise in mortality comparable to heavy smoking, and among people over seventy-five it is close to ordinary. [[It is clear that]] this has structural causes in how daily life is arranged rather than in any decline of neighbourliness." },
+        { "role": "Body 1 · causes", "text": "[[The key issue is]] the disappearance of places where people meet without arranging to. Post offices, banks, libraries and shops were where an elderly person had a reason to leave the house and a chance of unplanned conversation, and their closure removed both. [[This leads to]] the second cause: errands themselves have gone, since banking, shopping and prescriptions now arrive at the door, so a week can pass with no reason to go out. [[Consequently]], the [[isolation]] is a by-product of convenience rather than of anybody's indifference." },
+        { "role": "Body 2 · what communities could do", "text": "Remedies should therefore rebuild the reasons to leave the house. Communities could keep a library, a market or a cafe open with subsidy, and the cost is trivial beside the health spending that follows [[isolation]]. Social prescribing, where a doctor refers a patient to a choir, a walking group or a men's shed, has measurable effects and is far cheaper than the antidepressants it replaces. [[Above all]], transport matters: a bus that stops running at six makes every other measure [[irrelevant]] to somebody who cannot drive." },
+        { "role": "Conclusion", "text": "[[In summary]], loneliness has grown because the ordinary occasions for company were withdrawn one at a time, each for a good reason. Restoring them deliberately would [[ameliorate]] it, and the [[impediment]] is that no single closure looked like a public health decision at the time." }
+      ],
+      "notes": [
+        "Comparing loneliness with smoking in the first sentence establishes that this is a health question rather than a sentimental one.",
+        "By-product of convenience is the diagnosis, and it explains why nobody is to blame and why it still needs fixing.",
+        "The transport point is what stops the remedies paragraph being a list of nice ideas."
+      ]
+    },
+    {
+      "stance": "Family and work patterns as the cause",
+      "approach": "Trace isolation to the geography of modern families and propose measures that work with it rather than against it.",
+      "plan": [
+        "Introduction: the change is in where families live, not in how much they care.",
+        "Body 1: causes, dispersal, working hours and longevity.",
+        "Body 2: measures, from communities and from the state.",
+        "Conclusion: what would change and what will not."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Explanations of loneliness that begin with declining family feeling are contradicted by how much care families still provide. [[It is evident that]] the causes are geographic and economic, and the remedies must work with those facts rather than lament them." },
+        { "role": "Body 1 · causes", "text": "[[The main point is]] dispersal. Work has concentrated in a few cities, so adult children live hours from their parents, and a daily visit that once cost ten minutes now costs a weekend. [[At the same time]], both partners in most households now work full time, which removed the person who used to be at home during the day, and longevity means many people outlive their entire generation of friends. [[Consequently]], a widow of eighty-five may have a devoted family and still spend six days a week alone, and treating that as a failure of affection misreads it entirely." },
+        { "role": "Body 2 · measures", "text": "Communities could therefore supply what proximity used to. Befriending schemes with trained volunteers work when they are consistent rather than occasional, and intergenerational housing, where students live cheaply in return for company, has succeeded in several countries. [[It is worth noting]] that employers have a part as well: paid carer's leave would let dispersed families visit without [[jeopardizing|Jeopardize]] a job. [[Above all]], services should be [[intentional]] about contact, since a carer allotted fifteen minutes cannot supply any." },
+        { "role": "Conclusion", "text": "[[Overall]], isolation follows from where people must live and work, and no amount of exhortation will reverse it. Deliberate substitutes, funded befriending, shared housing, carer's leave, would [[ameliorate]] a problem that is otherwise certain to grow as the population ages further." }
+      ],
+      "notes": [
+        "Rejecting the moralising explanation in the first sentence gives the essay a defensible and less obvious diagnosis.",
+        "The devoted family and the six days alone is the image that carries the argument.",
+        "Naming the fifteen-minute care visit shows the remedy has to change existing services, not only add new ones."
+      ]
+    },
+    {
+      "stance": "Two different lonelinesses",
+      "approach": "Distinguish isolation from loneliness and argue that the remedies for each are different.",
+      "plan": [
+        "Introduction: the word covers two conditions with different causes.",
+        "Body 1: causes of isolation, which are practical.",
+        "Body 2: causes of loneliness, which are not, and the measures for each.",
+        "Conclusion: why the distinction changes what communities should do."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Isolation is a shortage of contact and loneliness is a shortage of the contact that matters, and confusing them is why so many well-meant schemes fail. [[From my perspective]] the causes and the remedies differ for each, and both belong in the answer." },
+        { "role": "Body 1 · isolation", "text": "[[The key issue is]] that isolation has practical causes and practical fixes. Immobility, deafness, the loss of a driving licence and the closure of a bus route each remove contact directly, and their effects are cumulative: somebody who cannot hear a conversation in a noisy room stops going. [[Consequently]], hearing aids, transport and accessible venues do more than any campaign, and their absence makes every other effort [[insignificant]]." },
+        { "role": "Body 2 · loneliness", "text": "[[By contrast]], loneliness can persist in a full room. It follows bereavement, the loss of a role, and the [[intimacy]] that only long acquaintance supplies, and it is not cured by a stranger visiting for an hour. [[It is worth noting]] that schemes work best when they give people something to do together rather than someone to be visited by, since a shared task restores a purpose as well as company. Bereavement support and groups organised around an activity are [[germane]] here in a way that befriending alone is not." },
+        { "role": "Conclusion", "text": "[[To sum up]], communities should fix the practical barriers first, because nothing else works while they stand, and then build activities that give people a role rather than a visitor. [[In essence]] the distinction between having company and having a place is what most schemes miss, and it is the difference between a service being used and being politely declined." }
+      ],
+      "notes": [
+        "Splitting one word into two conditions is the essay's contribution, and both body paragraphs then have distinct causes and distinct remedies.",
+        "Something to do together rather than someone to be visited by is a precise design principle.",
+        "Being used against being politely declined is a concrete test of whether a scheme works."
+      ]
+    }
+  ]
+}

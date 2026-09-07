@@ -1,0 +1,68 @@
+{
+  "id": "e28",
+  "models": [
+    {
+      "stance": "Agree",
+      "approach": "Argue from how the objects were acquired and answer the preservation objection with facts about capacity.",
+      "plan": [
+        "Introduction: agree, and name the standard you will use.",
+        "Body 1: acquisition, and why the legal argument fails.",
+        "Body 2: concede the preservation and universal museum arguments, then answer them.",
+        "Conclusion: restate, and describe what returning well would look like."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Museums holding contested objects usually argue about law, while the countries asking for them argue about consent. [[By and large]] I agree that such artefacts should be returned, because the question is not who has legal title but whether anybody with authority ever agreed to part with them." },
+        { "role": "Body 1 · how they were acquired", "text": "[[The main point is]] that most disputed collections were removed under occupation. Objects taken from Benin in a punitive expedition or from a colony whose export permits were signed by the occupying power were not sold in any [[intelligible]] sense, and a permit issued by the taker to itself does not [[validate]] anything. [[It is clear that]] no museum would apply that reasoning to property taken in Europe during the same decades, and the [[dichotomy]] between the two standards is itself the argument." },
+        { "role": "Body 2 · concession", "text": "[[Granted]], the preservation objection was once serious, and the universal museum argument, that these collections let visitors see the world's cultures together, is not empty. [[Nevertheless]], the first has been overtaken: purpose-built museums in Lagos, Athens and Santiago now match anything in Europe, and the claim that objects are safer abroad has become an [[insular]] assumption rather than a finding. As for universality, loans run in both directions." },
+        { "role": "Conclusion", "text": "[[In conclusion]], I agree that these objects should go back, with long-term loans and joint exhibitions arranged as part of the return rather than offered instead of it. Keeping them on the basis of a title nobody consented to is a position that becomes harder to [[substantiate]] every year." }
+      ],
+      "notes": [
+        "Naming the standard, whether anybody with authority consented, tells the reader how to judge the essay and makes the argument testable.",
+        "The double-standard sentence about property taken in Europe is the strongest single point available here.",
+        "The concession answers both classic defences in three sentences, which is the right proportion when your own case is already made."
+      ]
+    },
+    {
+      "stance": "Disagree with a blanket rule",
+      "approach": "Argue that returning everything is a rule where a case-by-case test is needed, and defend the test.",
+      "plan": [
+        "Introduction: agree with many returns, disagree with the rule.",
+        "Body 1: why a blanket rule produces bad outcomes.",
+        "Body 2: concede the strongest cases for return, then define the test.",
+        "Conclusion: the criteria, and who should apply them."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Some famous objects should plainly go home, and the argument for them is overwhelming. [[In my opinion]], however, converting that into a general obligation to return everything would produce outcomes nobody intends, and the question deserves a test rather than a rule." },
+        { "role": "Body 1 · why a rule fails", "text": "[[First and foremost]], many collections were assembled by purchase, excavation agreements or exchange, and the modern state now asking for an object is frequently not the polity it came from. Sorting those claims requires evidence and [[meticulous]] provenance work rather than a slogan. [[It must be acknowledged]] that some requesting governments have themselves destroyed heritage they considered [[irrelevant]] to a current national story, and a rule that ignores this is not neutral but merely blind." },
+        { "role": "Body 2 · concession", "text": "[[That said]], the strongest cases are unanswerable. Objects taken during a military expedition, human remains and sacred material used in living practice should be returned without conditions and without waiting to be asked. [[There is evidence that]] museums which have done so kept their relationships and their loans rather than losing them, so the fear of an emptied gallery has proved [[hypothetical]]." },
+        { "role": "Conclusion", "text": "[[All things considered]], I disagree with a blanket obligation and support a strong presumption of return, rebutted only by documented consensual acquisition. Independent panels rather than museum boards should decide, since an institution judging its own title is not [[impartial]] however carefully it behaves." }
+      ],
+      "notes": [
+        "Disagreeing with the rule while conceding the clearest cases is a much stronger position than defending every acquisition.",
+        "Independent panels rather than museum boards answers the question of who decides, which most essays on this topic never reach.",
+        "Presumption rebutted by evidence is legal language used precisely, and precision of that kind lifts the vocabulary mark."
+      ]
+    },
+    {
+      "stance": "Return the contested, share the rest",
+      "approach": "Separate the objects whose acquisition is disputed from the vast majority that are not, and propose circulation for the latter.",
+      "plan": [
+        "Introduction: the debate is about a small fraction of what museums hold.",
+        "Body 1: the contested minority, which should go.",
+        "Body 2: the uncontested majority, and what should change there instead.",
+        "Conclusion: two policies, one for each category."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Arguments about restitution are conducted as though museums were entirely composed of loot, when the disputed objects are a small fraction of what they hold. [[To a certain extent]] I agree with return, and I would apply it precisely rather than generally." },
+        { "role": "Body 1 · the contested minority", "text": "Where an object was taken by force, or removed under an administration the population did not choose, the case for return is [[compelling]] and the delay is the scandal. Such objects are usually well documented, since the takers recorded their own expeditions in detail, so the provenance work is not the [[insuperable]] task museums sometimes suggest. [[Consequently]], these should be returned on a published timetable rather than negotiated one at a time over decades." },
+        { "role": "Body 2 · the uncontested majority", "text": "[[By contrast]], most holdings were bought, dug under agreement or donated, and returning them would achieve little for anybody. The real problem there is different: ninety per cent of these collections sit in storage, seen by nobody in either country. [[It is worth noting]] that circulating them, long loans to the regions they came from and to museums with no collection of their own, would do more for access than any transfer of title, and would [[integrate]] institutions that currently ignore each other." },
+        { "role": "Conclusion", "text": "[[On balance]], then, two policies are needed rather than one. Unconditional return where acquisition was coerced, and systematic circulation of everything else, would settle the moral question and answer a practical one that the [[fervent]] arguments about ownership have entirely obscured." }
+      ],
+      "notes": [
+        "Pointing out that most collections are in storage introduces a fact neither side usually mentions, and the essay builds its third position on it.",
+        "Two policies rather than one compromise is what distinguishes a real position from a hedge.",
+        "The published timetable detail shows you have thought about implementation, not only principle."
+      ]
+    }
+  ]
+}

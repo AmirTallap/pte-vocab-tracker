@@ -1,0 +1,68 @@
+{
+  "id": "e09",
+  "models": [
+    {
+      "stance": "Benefits outweigh",
+      "approach": "Treat a shared language as infrastructure, then concede the cultural and political costs.",
+      "plan": [
+        "Introduction: what a common language is for, and which side is heavier.",
+        "Body 1: the benefits, speed of knowledge and access.",
+        "Body 2: the drawbacks, advantage and loss.",
+        "Conclusion: the verdict and the condition that makes it hold."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "A shared working language is a piece of infrastructure, and like any infrastructure it is worth judging by what it carries and by whom it excludes. English now carries most of the world's research and commerce, and [[on the whole]] I believe the benefits of this arrangement exceed its costs." },
+        { "role": "Body 1 · benefits", "text": "The clearest benefit is speed. A finding published in Seoul is read in Nairobi the same week, without the years of translation that once separated national sciences, and this alone has done more to [[expedite]] research than any single institution. Commerce gains in the same way: a firm negotiating across four countries needs one contract rather than four, which [[facilitates|Facilitate]] trade that would otherwise be too expensive to attempt. [[Above all]], a single [[interdisciplinary]] literature means a chemist can read the biologists." },
+        { "role": "Body 2 · drawbacks", "text": "[[By contrast]], the costs fall on people who did not choose the arrangement. A researcher writing in Portuguese must publish in a second language or be ignored, which is neither fair nor [[impartial]], and the effort spent on the language is effort not spent on the work. [[It must be acknowledged]] that smaller academic languages have withered as a result, and once a field stops being written about in a language, that vocabulary is [[irrecoverable]]." },
+        { "role": "Conclusion", "text": "[[Taken together]], the gains in shared knowledge outweigh the losses, but only if the disadvantage is actively offset. Funded translation, journals that accept work in any language and patience with imperfect English would keep the benefit while reducing the unearned advantage that native speakers currently enjoy." }
+      ],
+      "notes": [
+        "Calling the language infrastructure sets up the whole essay: infrastructure has users, costs and people it bypasses, and each body paragraph uses that frame.",
+        "The drawbacks paragraph names who pays, which is what turns a disadvantage into an argument.",
+        "The conclusion attaches a condition rather than declaring a winner, which is a stronger finish for this question type."
+      ]
+    },
+    {
+      "stance": "Drawbacks outweigh",
+      "approach": "Argue that the hidden costs, unearned advantage and lost knowledge, are larger than the visible convenience.",
+      "plan": [
+        "Introduction: the convenience is real and the accounting is incomplete.",
+        "Body 1: the benefits, granted quickly and honestly.",
+        "Body 2: the drawbacks, developed: advantage, attrition and what is not translated.",
+        "Conclusion: the balance once the hidden costs are counted."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "The advantages of a single international language are obvious and are usually counted; the costs are diffuse and usually are not. Once both are on the page, [[in my opinion]] the drawbacks of English occupying this position are the greater." },
+        { "role": "Body 1 · benefits", "text": "[[It is true that]] the convenience is enormous. Conferences run without interpreters, software is written once, and a student anywhere can read the primary literature of almost any field. [[Needless to say]], this has widened access for millions who would otherwise wait years for a translation, and no serious argument denies it." },
+        { "role": "Body 2 · drawbacks", "text": "[[Nevertheless]], the arrangement hands a permanent advantage to roughly five per cent of humanity. A native speaker argues, jokes and persuades in a meeting where everybody else is translating, and that advantage is invisible precisely because it is [[ingrained]]. Knowledge is lost as well: [[indigenous]] classifications of plants, weather and land have no English equivalents and are simply not carried across, so the world's shared library is [[deficient]] in exactly the areas English never needed words for." },
+        { "role": "Conclusion", "text": "[[All things considered]], the convenience is real but it is bought with a distribution of effort that is anything but [[equitable]] and a quiet narrowing of what counts as knowledge. Machine translation may soon make the trade unnecessary, and [[in the long run]] that would be a better settlement than asking most of the planet to think in somebody else's language." }
+      ],
+      "notes": [
+        "Granting the benefits in five sentences and moving on is deliberate. You are judged on the balance you strike, not on giving each side identical space.",
+        "The invisible advantage in a meeting is the essay's best sentence because it is concrete. Abstract fairness arguments need one scene.",
+        "Ending on machine translation gives the reader a future rather than a complaint."
+      ]
+    },
+    {
+      "stance": "Depends who is counted",
+      "approach": "Argue that the same fact is a benefit at the global level and a drawback at the national one.",
+      "plan": [
+        "Introduction: the answer changes with the unit of account.",
+        "Body 1: benefits, measured across the world.",
+        "Body 2: drawbacks, measured inside a country.",
+        "Conclusion: which level should decide, and why."
+      ],
+      "paras": [
+        { "role": "Introduction", "text": "Whether English dominating science and business is good depends almost entirely on who is being counted. Measured across the world the arrangement looks efficient; measured inside a single country it often looks like a tax, and [[to a certain extent]] both readings are correct." },
+        { "role": "Body 1 · seen globally", "text": "Globally, the benefits are difficult to overstate. One language means one literature, and a shared literature is what allows a vaccine designed in Germany to be manufactured in India within months. It also lowers the cost of cooperation: treaties, safety standards and air traffic control all run on it, and the resulting [[coherent]] system is safer than a dozen national ones. [[Broadly speaking]], the more participants a network has, the more valuable a common protocol becomes." },
+        { "role": "Body 2 · seen nationally", "text": "[[By contrast]], inside a country the same protocol divides. English fluency becomes the gate to the best jobs, so families who can afford private tuition pass through and others do not, and the language quietly [[exacerbates|Exacerbate]] an inequality it did not create. Universities that switch to teaching in English also cut their own public off from their research, which makes the national conversation about science steadily thinner." },
+        { "role": "Conclusion", "text": "[[On balance]], I would keep the global benefit and attack the national cost directly, since the two are separable. Free, serious English teaching in state schools would remove most of the domestic disadvantage, and [[in essence]] that is the choice: pay for the language publicly, or let households pay for it privately and call the result merit." }
+      ],
+      "notes": [
+        "Changing the unit of account is a sophisticated structure and it works here because each paragraph genuinely measures something different.",
+        "Note that the two paragraphs discuss the same fact, not two facts. That is what makes the essay feel like one argument.",
+        "The final sentence offers a real policy choice, which is a much stronger close than a summary."
+      ]
+    }
+  ]
+}
