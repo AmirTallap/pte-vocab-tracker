@@ -3,6 +3,10 @@
 A CLI for the 16-week PTE vocabulary cycle: **50 academic words + 20 complex phrases a day**,
 tracked against the exam on **19 December 2026**.
 
+**Try it in your browser: <https://pte-vocab.amirfox.workers.dev>** - no sign-up, nothing
+to install. Your progress is saved in that browser and goes nowhere else. The version
+below is the local one, which reads and writes the real spreadsheet.
+
 ```bash
 npm install
 npm run web       # opens the study page in your browser
@@ -518,6 +522,39 @@ demotion is how a mastered word quietly re-enters rotation with no explanation.
   typo you fix in Excel survives.
 
 ---
+
+## The hosted version
+
+<https://pte-vocab.amirfox.workers.dev> - the same page, the same 491 entries, the same
+grammar syllabus and essay prompts, with two differences.
+
+**There is no account, and there is no database.** Your progress lives in your own
+browser, under `localStorage["pte-vocab-progress"]`. Nothing is uploaded, nothing is
+stored on the server, and nobody has to hand over an email address to practise
+vocabulary. The honest cost: it does not follow you to another device, and clearing
+site data clears it. Everyone starts at 0 of 491.
+
+**The audio is pre-recorded rather than synthesised.** The local tool speaks through a
+326MB model running on your own CPU, which has nowhere to live on a Worker, so all 491
+headwords are rendered ahead of time and shipped as MP3s. One voice, and no speed
+control - but it plays instantly, with none of the ~2.5s a first local rendering costs.
+
+Grammar answers still are not in the page: the syllabus is served with the answer key
+stripped out, and marking is a round trip, exactly as it is locally.
+
+### Deploying it
+
+```bash
+npm run audio                 # render the MP3s (once; needs the model and ffmpeg)
+npm run cf:build              # generate dist/
+npm run cf:dev                # try it on http://127.0.0.1:8787 first
+
+set -a && . ./.env && set +a  # personal Cloudflare token; never `wrangler login`
+npm run cf:deploy
+```
+
+`.env` holds `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` and is gitignored.
+`npx wrangler whoami` should say `the personal account` before you deploy.
 
 ## Files
 

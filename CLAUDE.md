@@ -13,9 +13,21 @@ to do with the work projects, `a work repo`, `a work repo`, `a work repo`, `a wo
   requirement, not the architecture-approval rule, not the deploy or nginx rules, not
   "read DB records on the server only". Do not open those files for work in this
   directory.
-- **There is no remote, no deploy, no server, no production, no database.** It is a
-  local Node tool and one Excel file. `rmt`, push-to-deploy, the nginx URL allowlist,
-  the menu cache and `pm.max_children` are all meaningless here.
+- **There IS now a remote and a deploy, and they are amir's own** (7 Sep 2026). The
+  repo is `github.com/AmirTallap/pte-vocab-tracker`, private, pushed with the `gh`
+  login already on this machine. The page is deployed to **`pte-vocab.amirfox.workers.dev`**
+  on amir's **PERSONAL** Cloudflare account (`the personal account`, account
+  `REDACTED`) - the same one `another personal project` uses, and the
+  reason that project's rule is repeated here:
+  **never `wrangler login` on this machine.** That OAuth session belongs to
+  the work projects. Authenticate only through `CLOUDFLARE_API_TOKEN` in the gitignored
+  `.env`, which is wrangler's reserved auth var and is never bound into the Worker.
+  Check with `npx wrangler whoami` if in any doubt - it must say
+  `the personal account`.
+- **There is still no database, and nothing of anyone's is stored on that Worker.**
+  Progress in the cloud build is the visitor's own `localStorage`. `rmt`,
+  push-to-deploy, the nginx URL allowlist, the menu cache and `pm.max_children` are
+  still meaningless here, and so are D1, R2 and KV.
 - **Do not move this project under `the shared web root`.** It was first built at
   `a work repository` and moved out precisely because that put it inside the
   a work repo git repo. It lives at `~/pte-vocab-tracker` and stays there.
@@ -34,9 +46,14 @@ model answers** and a guide to writing one.
 
 ```bash
 npm run web        # THE way to use it: browser page on http://localhost:4173
+npm run cf:deploy  # publish the cloud build (source ./.env first - see Cloud build)
 ```
 
 Everything else is optional terminal equivalents — see `README.md`.
+
+There are **two hosts and one rulebook**: this local tool, backed by the workbook,
+and a public build at **`pte-vocab.amirfox.workers.dev`** backed by the visitor's
+own `localStorage`. See **Cloud build** below.
 
 ## How it works
 
@@ -182,6 +199,66 @@ Everything else is optional terminal equivalents — see `README.md`.
   throws (file open in Excel, disk full) used to be an uncaught exception in a timer
   callback, which killed the process and took the unwritten batches with it; it now
   prints, keeps the data dirty, and retries on the next write.
+
+---
+
+## Cloud build
+
+The page also runs on Cloudflare, at **`pte-vocab.amirfox.workers.dev`**. Deploy with
+`set -a && . ./.env && set +a && npm run cf:deploy` — read Rule 0 about the account
+first.
+
+- **There is no account and no database, on purpose.** A visitor's progress is in
+  their own `localStorage` under `pte-vocab-progress`, kept apart from
+  `pte-vocab-view`, which holds the view settings and always has. Clerk was considered
+  and dropped: nobody should hand over an email address to practise vocabulary. Be
+  honest about the trade rather than papering over it — progress does not follow
+  anyone to a second device, and clearing site data clears it. **Do not add sign-in,
+  D1, KV or R2 to make it sync.** If cross-device ever matters, it is an export and an
+  import, not an account.
+- **The rules are imported, not reimplemented.** `web/cloud-store.js` answers the same
+  routes from `localStorage` but every decision worth getting wrong — least-seen-first
+  draws, a batch drawn once and never refilled, `keys`/`done` as two halves of the
+  same twenty, the listed `/api/reset` scopes — comes from `src/batches.js`. Only the
+  route glue is duplicated, a few lines each. **A rule changed in one host and not the
+  other is the failure this whole arrangement exists to prevent**: change it in
+  `batches.js` and both move together.
+- **`src/shared.js` is the browser-safe half**, and nothing in it may import from
+  Node, ever. It holds `SHEETS`, `EXAM_DATE`, `HEADERS`, `today()`, `daysBetween()`,
+  `stats()`, `keyOf()` and the grammar grader. `config.js`, `tracker.js`, `loader.js`
+  and `grammar.js` re-export what left them, so no call site changed. A value needing
+  a filesystem path belongs in `config.js` instead.
+- **`known` is the one field that has no workbook to live in**, so in the browser it
+  becomes one more map in the saved object, keyed by `keyOf()` exactly as `seen` and
+  `flags` are. It is collected from the deck entries on every save rather than tracked
+  alongside them — the rules mutate the entries, and two records of the same fact
+  disagree eventually. `deck.json` ships `known:false` on every row: a visitor has not
+  learnt anything yet, and amir's 208 are his.
+- **The Worker exists for one route.** `/static/grammar.json` is generated with
+  `answer`, `accept` and `explain` cut out by the same mapping `src/server.js` uses,
+  so the page still cannot be read for the answers; `POST /api/grammar/answer` marks
+  one question against `worker/grammar-key.json`, which is bundled into the Worker and
+  never served. The verdict is the Worker's, the **tally is the browser's** — a tally
+  is study state and study state does not leave the browser. `tools/build-cloud.js`
+  fails the build if an answer ever appears in the shipped file.
+- **Audio is pre-rendered, not synthesised.** `tools/render-audio.js` runs all 491
+  headwords through the same `src/tts.js` path and `ffmpeg` to MP3 (6.2MB, `af_heart`),
+  and `web/audio/manifest.json` maps `keyOf()` to a filename so the page never guesses
+  a URL. Kokoro is 326MB and has nowhere to live on a Worker — and off the edge there
+  is no 2.5s first render for the prefetch to hide, which is why `sayUrl()` returning
+  `null` for an unrendered word is a no-op rather than a 404. Adding a voice is
+  `npm run audio -- bf_emma` and a rebuild, not a rewrite.
+- **`run_worker_first = ["/api/*"]` in `wrangler.toml` is required.** Without it
+  Cloudflare's asset router answers *navigation* requests with `index.html` before the
+  Worker runs, which silently shadows every `/api/*` route: `fetch` still works, so
+  the app looks fine, and only a browser navigation to an API URL reveals it.
+- **`web/app.html` is one file for both hosts.** The cloud differences are four hooks
+  — `api()`, `sayUrl()`, the voice list, and parking `boot()` for the deferred module
+  — plus the two script tags `tools/build-cloud.js` injects. Do not fork the page.
+- `dist/` and `worker/grammar-key.json` are generated and gitignored; `web/audio/` is
+  committed, because reproducing it needs the 326MB model.
+
+---
 
 ## Things not to re-derive
 
