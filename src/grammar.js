@@ -127,49 +127,9 @@ export function loadGrammar() {
   return { groups, modules, problems };
 }
 
-/** Case- and space-insensitive, and blind to the apostrophe Word likes to curl. */
-function normalise(s) {
-  return String(s == null ? '' : s)
-    .replace(/[‘’ʼ]/g, "'")
-    .trim()
-    .replace(/\s+/g, ' ')
-    .toLowerCase();
-}
-
-/** Mark one typed answer against the accepted list. */
-export function isAccepted(question, given) {
-  const g = normalise(given);
-  if (!g) return false;
-  return question.accept.some((a) => normalise(a) === g);
-}
-
-/** The learner's record for one module, created on demand. */
-export function grammarState(progress, moduleId) {
-  progress.grammar ||= {};
-  const m = (progress.grammar[moduleId] ||= { answers: {}, lastAt: null });
-  if (!m.answers || typeof m.answers !== 'object') m.answers = {};
-  return m;
-}
-
-/**
- * Record one attempt. Both counts are kept: `right` and `wrong` make the
- * difference between a rule that was guessed once and one that is actually
- * held, which a single boolean would hide.
- */
-export function recordAnswer(progress, moduleId, questionId, correct) {
-  const m = grammarState(progress, moduleId);
-  const a = (m.answers[questionId] ||= { right: 0, wrong: 0, last: null });
-  if (correct) a.right += 1; else a.wrong += 1;
-  a.last = correct ? 'right' : 'wrong';
-  m.lastAt = new Date().toISOString();
-  return a;
-}
-
-/** Answers only - the content itself is on disk and never changes. */
-export function grammarProgress(progress) {
-  const out = {};
-  for (const [id, m] of Object.entries(progress.grammar || {})) {
-    out[id] = { answers: m.answers || {}, lastAt: m.lastAt || null };
-  }
-  return out;
-}
+// normalise(), isAccepted(), grammarState(), recordAnswer() and
+// grammarProgress() live in shared.js. The Worker marks answers with the same
+// isAccepted() this server does, and the browser keeps its tally with the same
+// recordAnswer() - a second grader is how a correct answer starts being marked
+// wrong on one host and right on the other.
+export { isAccepted, grammarState, recordAnswer, grammarProgress } from './shared.js';

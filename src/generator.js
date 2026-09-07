@@ -1,5 +1,5 @@
-import { SHEETS } from './config.js';
-import { today } from './tracker.js';
+// From shared.js so this module stays browser-safe - batches.js imports it.
+import { SHEETS, today } from './shared.js';
 
 /* ---- deterministic RNG -------------------------------------------------- */
 /* The batch must be the SAME every time you run `daily` on a given day.

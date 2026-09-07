@@ -1,30 +1,13 @@
 import fs from 'node:fs';
-import { PROGRESS_FILE, EXAM_DATE, SHEETS } from './config.js';
+import { PROGRESS_FILE, SHEETS } from './config.js';
+// today(), the empty shape and stats() live in shared.js: the browser store
+// starts from the same object and computes the same numbers, and it cannot
+// import this file (node:fs). Re-exported so every existing importer of
+// tracker.js is unaffected.
+import { EMPTY_PROGRESS, today, daysBetween } from './shared.js';
+export { today, daysBetween, stats } from './shared.js';
 
-const EMPTY = {
-  version: 1,
-  cycleStart: null,
-  examDate: EXAM_DATE,
-  batches: {},                       // "YYYY-MM-DD" -> { words: [key], phrases: [key] }
-  studyBatches: {},                  // sheet -> { next, list: [{ n, created, keys }] }
-  seen: { words: {}, phrases: {} },  // key -> times it has appeared in a batch
-  flags: { words: {}, phrases: {} }, // key -> true, words set aside to work on
-  history: [],                       // one snapshot per day a batch was drawn
-  drills: [],                        // recall/review sessions
-};
-
-/** Local calendar date as YYYY-MM-DD (not UTC — the study day is your day). */
-export function today(d = new Date()) {
-  const p = (n) => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
-}
-
-/** Whole days from a to b, compared at UTC midnight so DST cannot shift it. */
-export function daysBetween(a, b) {
-  const at = Date.parse(`${a}T00:00:00Z`);
-  const bt = Date.parse(`${b}T00:00:00Z`);
-  return Math.round((bt - at) / 86400000);
-}
+const EMPTY = EMPTY_PROGRESS;
 
 export function loadProgress() {
   if (!fs.existsSync(PROGRESS_FILE)) return structuredClone(EMPTY);
@@ -76,73 +59,6 @@ export function backupProgress(file = PROGRESS_FILE) {
 }
 
 /** Count of entries that have appeared in at least one batch. */
-function coverage(entries, seen) {
-  return entries.filter((e) => (seen[e.key] || 0) > 0).length;
-}
-
-/**
- * Everything the dashboard and the pace maths need.
- * Nothing here is stored — it is recomputed from the deck on every call, so a
- * flag edited in Excel is reflected immediately and cannot go stale.
- */
-export function stats(deck, progress, date = today()) {
-  const per = {};
-
-  for (const [id, cfg] of Object.entries(SHEETS)) {
-    const entries = deck[id] || [];
-    const known = entries.filter((e) => e.known).length;
-    const total = entries.length;
-    const seen = progress.seen[id] || {};
-    per[id] = {
-      label: cfg.label,
-      perDay: cfg.perDay,
-      total,
-      known,
-      unknown: total - known,
-      pct: total ? (known / total) * 100 : 0,
-      seenOnce: coverage(entries, seen),
-      seenPct: total ? (coverage(entries, seen) / total) * 100 : 0,
-      neverSeen: total - coverage(entries, seen),
-    };
-  }
-
-  const cycleStart = progress.cycleStart;
-  const examDate = progress.examDate || EXAM_DATE;
-  const daysToExam = daysBetween(date, examDate);
-
-  // A cycle start in the future (a batch drawn with --date ahead of today)
-  // yields a negative day number. Reported as "starts in N days" rather than
-  // "day -9, week -1", which is not a state the plan has.
-  const rawDay = cycleStart ? daysBetween(cycleStart, date) + 1 : null;
-  const cycleDay = rawDay != null && rawDay >= 1 ? rawDay : null;
-  const startsIn = rawDay != null && rawDay < 1 ? 1 - rawDay : null;
-
-  // Pace: the study days left INCLUDING today. Past the exam this floors at 0
-  // and requiredPerDay becomes null rather than dividing by zero or lying.
-  const daysLeft = Math.max(daysToExam, 0);
-  const studyDays = daysLeft + (daysToExam >= 0 ? 1 : 0);
-
-  for (const p of Object.values(per)) {
-    p.requiredPerDay = studyDays > 0 ? p.unknown / studyDays : null;
-    // Days to clear the backlog at the configured pace, assuming no re-marking.
-    p.daysAtCurrentPace = p.perDay > 0 ? Math.ceil(p.unknown / p.perDay) : null;
-    p.onTrack = p.requiredPerDay == null ? null : p.requiredPerDay <= p.perDay;
-  }
-
-  return {
-    date,
-    examDate,
-    daysToExam,
-    studyDays,
-    cycleStart,
-    cycleDay,
-    startsIn,
-    week: cycleDay ? Math.ceil(cycleDay / 7) : null,
-    batchesRun: Object.keys(progress.batches).length,
-    per,
-  };
-}
-
 /** Append today's mastery snapshot, replacing an existing one for the day. */
 export function snapshot(progress, deck, date = today()) {
   const entry = { date };

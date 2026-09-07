@@ -1,5 +1,6 @@
-import { SHEETS } from './config.js';
-import { today } from './tracker.js';
+// From shared.js, not config.js/tracker.js: this module's rules are the ones
+// the browser store runs too, so its imports must stay free of node:fs.
+import { SHEETS, today } from './shared.js';
 import { shuffled } from './generator.js';
 
 /**

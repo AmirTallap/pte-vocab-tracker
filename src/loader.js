@@ -32,8 +32,10 @@ export function parseKnown(v) {
   return TRUEISH.has(String(v).trim().toLowerCase());
 }
 
-/** The key an entry is identified by across files and across runs. */
-export const keyOf = (text) => String(text ?? '').trim().toLowerCase().replace(/\s+/g, ' ');
+// keyOf lives in shared.js - the browser store needs the same key rule, and
+// this file imports node:fs and xlsx. Re-exported so importers are unaffected.
+import { keyOf } from './shared.js';
+export { keyOf };
 
 /**
  * Read one sheet into normalised records.

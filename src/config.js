@@ -21,23 +21,10 @@ export const ESSAY_GUIDE_FILE = path.join(DATA_DIR, 'essay_guides.json');
 export const MODELS_DIR = path.join(DATA_DIR, 'models');
 export const EXPORT_DIR = path.join(ROOT, 'exports');
 
-// The two sheets, and how many of each go into a daily batch.
-export const SHEETS = {
-  words:   { sheet: 'Academic Words',  label: 'words',   perDay: 50 },
-  phrases: { sheet: 'Complex Phrases', label: 'phrases', perDay: 20 },
-};
-
-export const EXAM_DATE = '2026-12-19';
-
-// Canonical headers written back to Excel. Input headers are matched loosely
-// (see loader.js) so a file re-saved by Excel still loads.
-export const HEADERS = {
-  word:    'Word',
-  arabic:  'Arabic Translation',
-  meaning: 'English Meaning',
-  known:   'Known (T/F)',
-  listen:  'Listen (EN>AR)',
-};
-
-// Cell text for the pronunciation hyperlink column written into the workbook.
-export const LISTEN_LABEL = 'play';
+// SHEETS, EXAM_DATE, HEADERS, LISTEN_LABEL and the date helpers moved to
+// shared.js so the browser can load them - see the note at the top of that
+// file. They are re-exported here so every existing importer of config.js is
+// unaffected; there is still one definition of each.
+export {
+  SHEETS, EXAM_DATE, HEADERS, LISTEN_LABEL, EMPTY_PROGRESS, today, daysBetween,
+} from './shared.js';
