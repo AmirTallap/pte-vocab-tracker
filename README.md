@@ -554,7 +554,7 @@ npm run cf:deploy
 ```
 
 `.env` holds `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` and is gitignored.
-`npx wrangler whoami` should say `the personal account` before you deploy.
+`npx wrangler whoami` should report the intended account before you deploy.
 
 ## Files
 

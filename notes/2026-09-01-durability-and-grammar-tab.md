@@ -3,7 +3,7 @@
 Two pieces of work: **fixing the write path that lost a batch**, and **building the
 Grammar tab**. Both are finished and verified. Open items are at the bottom.
 
-Note: this file exists because it was asked for. It is not the `the shared web root` session-log
+Note: this file exists because it was asked for. It is not the work projects' session-log
 convention, which Rule 0 in `CLAUDE.md` says does not apply here. There is no git in
 this project, so nothing here is committed anywhere.
 

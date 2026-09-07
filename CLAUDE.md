@@ -1,37 +1,34 @@
 # CLAUDE.md — pte-vocab-tracker
 
-## ⛔ RULE 0 — THIS PROJECT IS SEPARATE FROM ALL THE WORK PROJECTS WORK
+## ⛔ RULE 0 — THIS PROJECT IS SEPARATE FROM THE WORK PROJECTS ON THIS MACHINE
 
 **Hard rule, set by amir on 2026-08-30.**
 
 This is a personal study tool for the PTE exam on **19 December 2026**. It has nothing
-to do with the work projects, `a work repo`, `a work repo`, `a work repo`, `a work repo`, `a work repo`, or
-`the work deploy host`, and it never will.
+to do with any of the work repositories or hosts on this machine, and it never will.
 
-- **`the work CLAUDE.md files` and `the work CLAUDE.md files` DO NOT APPLY HERE.** Not
-  Rule 0's mandatory `git pull rmt master` on the work repos, not the session-log
-  requirement, not the architecture-approval rule, not the deploy or nginx rules, not
-  "read DB records on the server only". Do not open those files for work in this
-  directory.
+- **The work `CLAUDE.md` files under the shared web root DO NOT APPLY HERE.** Not their
+  Rule 0's mandatory pull from the deploy remote, not the session-log requirement, not
+  the architecture-approval rule, not the deploy or nginx rules, not "read DB records
+  on the server only". Do not open those files for work in this directory.
 - **There IS now a remote and a deploy, and they are amir's own** (7 Sep 2026). The
   repo is `github.com/AmirTallap/pte-vocab-tracker`, private, pushed with the `gh`
   login already on this machine. The page is deployed to **`pte-vocab.amirfox.workers.dev`**
-  on amir's **PERSONAL** Cloudflare account (`the personal account`, account
-  `REDACTED`) - the same one `another personal project` uses, and the
-  reason that project's rule is repeated here:
-  **never `wrangler login` on this machine.** That OAuth session belongs to
-  the work projects. Authenticate only through `CLOUDFLARE_API_TOKEN` in the gitignored
-  `.env`, which is wrangler's reserved auth var and is never bound into the Worker.
-  Check with `npx wrangler whoami` if in any doubt - it must say
-  `the personal account`.
+  on amir's **PERSONAL** Cloudflare account
+  and the reason another personal project's rule is repeated here:
+  **never `wrangler login` on this machine.** That OAuth session belongs to the work
+  account. Authenticate only through `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`
+  in the gitignored `.env` - wrangler's reserved auth vars, never bound into the
+  Worker. Check with `npx wrangler whoami` if in any doubt: it must report the personal
+  account, not the work one.
 - **There is still no database, and nothing of anyone's is stored on that Worker.**
   Progress in the cloud build is the visitor's own `localStorage`. `rmt`,
   push-to-deploy, the nginx URL allowlist, the menu cache and `pm.max_children` are
   still meaningless here, and so are D1, R2 and KV.
-- **Do not move this project under `the shared web root`.** It was first built at
-  `a work repository` and moved out precisely because that put it inside the
-  a work repo git repo. It lives at `~/pte-vocab-tracker` and stays there.
-- Nothing here is a precedent for the work projects work, and no the work projects incident is a
+- **Do not move this project under the shared web root.** It was first built inside
+  one of the work repositories and moved out precisely because that put it inside
+  someone else's git repo. It lives at `~/pte-vocab-tracker` and stays there.
+- Nothing here is a precedent for the work projects, and no incident there is a
   precedent here.
 
 ---

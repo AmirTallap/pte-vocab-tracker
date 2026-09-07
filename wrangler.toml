@@ -2,17 +2,19 @@
 # (dist/, via the assets binding) and the single /api route that has to stay on
 # a server.
 #
-# ⚠️ PERSONAL account only (the personal account). Authenticate with the
-# CLOUDFLARE_API_TOKEN env var from .env - NEVER `wrangler login` on this
-# machine, because that OAuth session belongs to the work projects and this project
-# has nothing to do with the work projects.
+# ⚠️ PERSONAL account only. Authenticate with CLOUDFLARE_API_TOKEN and
+# CLOUDFLARE_ACCOUNT_ID from .env - NEVER `wrangler login` on this machine,
+# because that OAuth session belongs to the work account and this project has
+# nothing to do with it.
 #
 #   set -a && . ./.env && set +a && npm run cf:deploy
 name = "pte-vocab"
 main = "worker/index.js"
 compatibility_date = "2026-07-01"
 
-account_id = "REDACTED"
+# The account is NOT pinned here: wrangler reads CLOUDFLARE_ACCOUNT_ID from .env,
+# which is gitignored. That keeps the account id out of a public repo and makes it
+# impossible to deploy this without deliberately sourcing the right credentials.
 
 # The page and every static file it reads: the deck, the usage sentences, the
 # essays and model answers, the stripped grammar syllabus, and the pre-rendered
