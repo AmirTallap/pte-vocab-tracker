@@ -358,10 +358,20 @@ first.
   these headwords, so the whole-deck drill was asking which English word the
   sheet had in mind rather than testing the vocabulary. There is one
   `meaningUp` and one reveal block - do not reintroduce a per-mode rule.
-- **The sentence clue is the whole-deck drill's only** (`settings.clue`, added
-  7 Sep 2026). Turned on, the card shows the entry's example sentences *before*
-  you answer with the marked form painted out, and the ordinary reveal then
-  shows the same four sentences with the word in them. It is one `usageHtml()`
+- **The sentence clue runs in both drills** (`settings.clue`, added 7 Sep 2026,
+  **on by default and in batches too since 8 Sep 2026**). The card shows the entry's
+  example sentences *before* you answer with the marked form painted out, and
+  the ordinary reveal then shows the same four sentences with the word in them.
+  It defaulted off for a day, on the reasoning that a hint should be asked for;
+  that is the wrong way round here, because the Arabic alone is ambiguous and
+  the blanked sentence is what narrows it down. Changing that default needed a
+  second field, `settings.clueDefault`: `loadSettings()` merges the saved
+  object *over* the defaults, so every browser that had opened the page already
+  carried `clue:"off"` - chosen or not - and would have carried it for ever.
+  The stamp moves such a copy to the new default exactly once, and a deliberate
+  `No clue` saved afterwards carries the current stamp and survives. Bump it
+  again, never edit the saved value some other way, if the default ever moves.
+  It is one `usageHtml()`
   still - a third `where`, beside `"tip"`, that swaps the `<b>` for a blank -
   because a second copy of those sentences would eventually disagree with the
   first. Blanking the `[[...]]` marker is the whole of the redaction and that
@@ -369,13 +379,22 @@ first.
   appears, so what is hidden is exactly what the reveal would have bolded. The
   blank is one fixed width for every entry, never sized to the word - a blank
   as long as what it hides gives away the letter count.
-  `clueOn()` is the only place that knows when one is due: not in a batch (a
-  batch already carries the meaning, and renderTrainbar() hides the control
-  there), and only with the Arabic prompt - asked the other way round the
-  sentences are in the language of the prompt above them, so a hole in one is
-  the question printed twice rather than a hint. Toggling it does **not**
-  rebuild the queue, and it carries the half-typed answer across the repaint:
-  reaching for a hint mid-word must not cost you the word.
+  `clueOn()` is the only place that knows when one is due, and there is now one
+  condition in it: the Arabic prompt. Asked the other way round the sentences
+  are in the language of the prompt above them, so a hole in one is the
+  question printed twice rather than a hint; `renderChrome()` disables the
+  control on that direction rather than hiding it, and leaves the setting
+  alone. It refused inside a batch until 8 Sep 2026, on the reasoning that a
+  batch already carries the meaning. That was wrong: a meaning is a gloss and a
+  sentence is the word doing its job in a clause, which is what the exam marks.
+  **Do not put the batch condition back** - there is one `renderCard()`, and a
+  hint that appeared in the whole-deck pass and silently vanished when you
+  trained a batch was the page disagreeing with itself. `renderTrainbar()`
+  still hides `deckSeg` and `filterSeg` in a batch, because those choose what
+  is in the pass and a batch has chosen; the clue chooses nothing, so it stays.
+  Toggling it does **not** rebuild the queue, and it carries the half-typed
+  answer across the repaint: reaching for a hint mid-word must not cost you the
+  word.
 - **A wrong answer says which letter, not just that it was wrong.**
   `align()` is the same edit distance as `distance()` with the matrix kept so
   the path can be walked back; the verdict then shows what you typed over what

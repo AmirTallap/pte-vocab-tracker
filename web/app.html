@@ -1524,7 +1524,22 @@
       // and stored the same way, so the [data-set] wiring reaches it with no
       // code of its own. The whole-deck drill is the only place it applies -
       // see renderTrainbar(), which hides the control inside a batch.
-      clue: "off",
+      //
+      // ON by default (8 Sep 2026, by request). It used to be off, on the
+      // reasoning that a hint should have to be asked for. That is the wrong
+      // way round for this drill: the Arabic on its own is ambiguous - one
+      // Arabic word stands in for several of these headwords - and the
+      // sentence with the word cut out of it is the question that actually
+      // narrows it down. Turning it off is still one click and still saved.
+      clue: "on",
+      // Which default the saved copy was written under, and the whole reason
+      // the line above can be changed at all. loadSettings() merges the saved
+      // object OVER these defaults, so every browser that opened the page
+      // while the clue defaulted off carries clue:"off" - chosen or not - and
+      // would go on carrying it for ever. Bumping this number moves those
+      // copies to the new default exactly once; a deliberate "No clue" saved
+      // afterwards is stamped with the new number and survives every reload.
+      clueDefault: 2,
       list: {
         deck: "all", status: "all", flag: "all", seen: "all", q: "", blanks: 0,
         sort: "", sdir: 1,
@@ -1573,6 +1588,10 @@
       out.grammar = Object.assign({}, d.grammar, s.grammar || {});
       out.essay = Object.assign({}, d.essay, s.essay || {});
       out.voice = Object.assign({}, d.voice, s.voice || {});
+      // See clueDefault above: a copy saved under an older default takes the
+      // new one, once. Anything saved since is left exactly as it was.
+      if ((s.clueDefault || 0) < d.clueDefault) out.clue = d.clue;
+      out.clueDefault = d.clueDefault;
       return out;
     } catch (e) { return d; }
   }
@@ -1741,14 +1760,21 @@
   /* The one place that knows when a clue is due, so the control, the card and
      the trainbar cannot come to different answers about it.
 
-     Two conditions beyond the switch itself. Not inside a batch: that is the
-     scope asked for, and it is why renderTrainbar() hides the control there.
-     And only when the answer is the English - asked the other way round the
-     sentences ARE in the language of the prompt sitting right above them, so
-     a blank in one of them is not a hint towards the Arabic, it is the
-     question printed twice with a hole in it. */
+     One condition beyond the switch itself: only when the answer is the
+     English - asked the other way round the sentences ARE in the language of
+     the prompt sitting right above them, so a blank in one of them is not a
+     hint towards the Arabic, it is the question printed twice with a hole in
+     it. renderChrome() disables the control on that direction and says why.
+
+     It used to refuse inside a batch as well (8 Sep 2026, removed by
+     request). The reasoning was that a batch already carries the meaning, so
+     the hint was surplus there. It is not the same hint: the meaning is a
+     gloss and the sentence is the word doing its job in a clause, which is
+     what the exam asks for. One drill, one rule - a clue that appeared in the
+     whole-deck pass and silently vanished when you trained a batch was the
+     page disagreeing with itself. */
   function clueOn() {
-    return settings.clue === "on" && !settings.train && settings.dir === "ar";
+    return settings.clue === "on" && settings.dir === "ar";
   }
 
   /* --------------------------------------------------------------- queue */
@@ -2100,11 +2126,12 @@
     if (!revealed) {
       // The sentence clue: the same example sentences the reveal shows, with
       // the marked form painted out, offered before you answer instead of
-      // after. Whole-deck drill only, by request - a batch is the set you are
-      // working through deliberately and it already carries the meaning; this
-      // is for the pass over everything, where the Arabic on its own is thin.
-      // It is a hint, so it is off unless asked for, and asking is one saved
-      // view setting like the deck or the direction.
+      // after. Both drills - the pass over everything and a batch - because
+      // there is one renderCard() and clueOn() is the only rule about it.
+      // On by default, and turning it off is one saved view setting like the
+      // deck or the direction. The word is painted out here and bolded back
+      // in by the reveal below - one usageHtml(), one set of sentences, so
+      // what is hidden before you answer is exactly what is shown after.
       var clueHtml = clueOn() ? usageHtml(e, "clue") : "";
       el.stimulus.classList.toggle("has-usage", !!clueHtml);
       el.stimulus.innerHTML = promptHtml + clueHtml +
@@ -3171,11 +3198,12 @@
     var bar = document.getElementById("trainbar");
     var on = !!settings.train;
     bar.hidden = !on;
+    // The deck and the filter choose what is in the pass, and a batch has
+    // already chosen - so those two go. The clue does not: it only changes
+    // what the card in front of you shows, and it works the same in both
+    // drills, so it stays on screen in both.
     document.getElementById("deckSeg").hidden = on;
     document.getElementById("filterSeg").hidden = on;
-    // The clue is the whole-deck drill's, and clueOn() says so as well - this
-    // only takes the control off a screen where it would do nothing.
-    document.getElementById("clueSeg").hidden = on;
 
     if (!on) return;
     var b = batchFor(settings.train.kind, settings.train.n);
