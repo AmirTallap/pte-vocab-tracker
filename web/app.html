@@ -538,6 +538,11 @@
   }
   .voicebar .chk { display: flex; align-items: center; gap: 6px; color: var(--dim); }
   .voicebar .btn { padding: 4px 12px; font-size: 12px; }
+  /* The global switches share the bar, so they need parting from each other. */
+  .voicebar .vbsep {
+    width: 1px; align-self: stretch; background: var(--line); margin: 0 2px;
+  }
+  .voicebar .seg button { padding: 4px 10px; }
   /* Where "I know this" was, after an answer that was not right. Stated rather
      than left blank: a button that vanishes with no explanation reads as a bug. */
   .cantknow { color: var(--dim); font-size: 13px; align-self: center; }
@@ -1057,6 +1062,18 @@
   </span>
   <button class="btn small" id="voiceTest">Hear it</button>
   <span class="voicenote" id="voiceNote"></span>
+
+  <span class="vbsep" aria-hidden="true"></span>
+  <!-- Hiding the Arabic is one switch for the whole page, and it lives up here
+       beside the voice rather than in the Practice controls for the same two
+       reasons: it governs the word list, the batches and what prints as well
+       as the drill, and it is chosen once and then lived with. arabicOn() is
+       the only place that reads it. -->
+  <span class="lbl">Arabic</span>
+  <div class="seg" id="arabicSeg" role="group" aria-label="Arabic text">
+    <button data-set="arabic" data-val="on">Show</button>
+    <button data-set="arabic" data-val="off">Hide</button>
+  </div>
 </div>
 
 <div class="instruction" id="instruction"></div>
@@ -1457,6 +1474,11 @@
                data-gramm="false">
       </label>
 
+      <!-- The one place the Arabic stays put when it is hidden everywhere
+           else. Hiding is a view setting; a new row still needs an Arabic
+           cell to be a whole row in the workbook, and a field that vanishes
+           here would write blanks into data/PTE_Vocabulary_Master.xlsx that
+           nothing would ever tell you about. -->
       <label class="fld">
         <span class="lbl">Arabic</span>
         <input type="text" id="addArabic" dir="rtl" lang="ar"
@@ -1520,6 +1542,11 @@
   function loadSettings() {
     var d = {
       deck: "all", dir: "ar", filter: "learning", view: "list",
+      // Whether the Arabic is drawn at all, "on" | "off". A page-wide setting,
+      // not a per-view one: the word list, the batch table, what prints and
+      // the drill must never disagree about it. Stored like the rest, so the
+      // [data-set] wiring reaches it with no code of its own.
+      arabic: "on",
       // The sentence clue, "on" | "off". A view setting like the three above it
       // and stored the same way, so the [data-set] wiring reaches it with no
       // code of its own. The whole-deck drill is the only place it applies -
@@ -1774,8 +1801,31 @@
      whole-deck pass and silently vanished when you trained a batch was the
      page disagreeing with itself. */
   function clueOn() {
-    return settings.clue === "on" && settings.dir === "ar";
+    return settings.clue === "on" && answerEnglish();
   }
+
+  /* Whether the Arabic is drawn anywhere. The one place that reads
+     settings.arabic, so the drill, both tables, the print sheet, the search
+     box and the sort cannot come to different answers about it.
+
+     It hides; it never edits. data/PTE_Vocabulary_Master.xlsx keeps its Arabic
+     column either way - this is a view setting, and a view setting that
+     reached into the workbook would be the 2 Sep 2026 failure again. The Add
+     word form is the one deliberate exception below: a new row needs an Arabic
+     cell to be a valid row, so that field stays whatever this says. */
+  function arabicOn() { return settings.arabic !== "off"; }
+
+  /* What the card asks you to PRODUCE, and therefore what grade() compares
+     against, which way round the answer box reads, and whether a blanked
+     English sentence is a hint or the question printed twice.
+
+     Three states collapse into two. With the Arabic shown it is the direction
+     you picked. With the Arabic hidden there is only one answer the card can
+     ask for, whatever `dir` still says - so `dir` is left alone and simply
+     stops being consulted, and renderChrome() disables the control rather than
+     hiding it, exactly as it does to the clue on the English prompt. Switch
+     the Arabic back on and the direction you had chosen is still chosen. */
+  function answerEnglish() { return !arabicOn() || settings.dir === "ar"; }
 
   /* --------------------------------------------------------------- queue */
 
@@ -1998,15 +2048,24 @@
   function renderChrome() {
     document.querySelectorAll("[data-set]").forEach(function (b) {
       b.setAttribute("aria-pressed", String(settings[b.dataset.set] === b.dataset.val));
-      // Disabled rather than hidden with the English prompt: a control that
-      // vanishes reads as a bug, and the title says why it is off. The setting
-      // itself is left alone - switch back to the Arabic prompt and the clue
-      // you had asked for is still asked for.
+      // Disabled rather than hidden, here and for the direction below: a
+      // control that vanishes reads as a bug, and the title says why it is
+      // off. The settings themselves are left alone - turn the Arabic back on
+      // and the direction and the clue you had asked for are still asked for.
       if (b.dataset.set === "clue") {
-        b.disabled = settings.dir !== "ar";
+        b.disabled = !answerEnglish();
         b.title = b.disabled
-          ? "Only with the Arabic prompt - the sentences are in English, which is the prompt here"
+          ? "Only when the answer is the English - the sentences are in English, which is the prompt here"
           : "Show the example sentences with the word blanked out";
+      }
+      // With the Arabic hidden there is nothing for the direction to choose
+      // between: one of its two settings shows Arabic and the other asks you
+      // to type it.
+      if (b.dataset.set === "dir") {
+        b.disabled = !arabicOn();
+        b.title = b.disabled
+          ? "Not while the Arabic is hidden - the card asks for the English either way"
+          : "";
       }
     });
 
@@ -2022,7 +2081,9 @@
     el.poolLeft.textContent = queue.length ? (queue.length - at) + " remaining in this pass" : "";
     el.countdown.textContent = meta.daysToExam >= 0 ? meta.daysToExam + " days left" : "exam passed";
 
-    el.instruction.innerHTML = settings.dir === "ar"
+    el.instruction.innerHTML = !arabicOn()
+      ? "<b>Read the meaning and the sentences below.</b> Type the English word or phrase they describe, then select Submit."
+      : settings.dir === "ar"
       ? "<b>Look at the Arabic below.</b> Type the English word or phrase it means, then select Submit."
       : "<b>Look at the English below.</b> Type the Arabic it means, then select Submit.";
   }
@@ -2105,8 +2166,14 @@
     el.counter.textContent = (at + 1) + " of " + queue.length;
     el.position.textContent = String(at + 1);
 
-    var askArabic = settings.dir === "ar";
-    var promptHtml = askArabic
+    // askArabic is "the answer is the English", which is what every branch
+    // below actually turns on - so it is answerEnglish(), and the hidden-Arabic
+    // card falls out of the same three lines rather than needing a mode.
+    var askArabic = answerEnglish();
+    // With the Arabic hidden the prompt is nothing at all here: the meaning
+    // below and the blanked sentences under it ARE the question.
+    var promptHtml = !arabicOn() ? ""
+      : askArabic
       ? '<p class="prompt-ar" dir="rtl" lang="ar">' + esc(e.arabic) + "</p>"
       : '<p class="prompt-en">' + esc(e.word) + "</p>";
 
@@ -2132,7 +2199,13 @@
       // deck or the direction. The word is painted out here and bolded back
       // in by the reveal below - one usageHtml(), one set of sentences, so
       // what is hidden before you answer is exactly what is shown after.
-      var clueHtml = clueOn() ? usageHtml(e, "clue") : "";
+      // With the Arabic gone, the meaning and the blanked sentences are the
+      // whole of the question. A row with no Meaning cell and the clue turned
+      // off would otherwise draw an empty card, so the sentences come back
+      // regardless: a card with no question on it is not a harder card, it is
+      // a broken one. Every row has a meaning today - this is for the one
+      // added tomorrow without one.
+      var clueHtml = (clueOn() || (!arabicOn() && !meaningUp)) ? usageHtml(e, "clue") : "";
       el.stimulus.classList.toggle("has-usage", !!clueHtml);
       el.stimulus.innerHTML = promptHtml + clueHtml +
         '<div class="field">' +
@@ -2312,7 +2385,10 @@
     if (!e || revealed) return;
     var input = document.getElementById("answer");
     var typed = input ? input.value : "";
-    verdict = { typed: typed.trim(), g: grade(typed, settings.dir === "ar" ? e.word : e.arabic) };
+    // answerEnglish(), not settings.dir - the card is drawn from that rule and
+    // marking it against a different one is how you get an answer graded
+    // against a word the card never asked for.
+    verdict = { typed: typed.trim(), g: grade(typed, answerEnglish() ? e.word : e.arabic) };
     revealed = true;
     e.seen += 1;
 
@@ -2481,7 +2557,12 @@
     document.getElementById("listCount").textContent = known.length +
       " marked known. These are already saved as TRUE in " + meta.file;
     document.getElementById("listText").value = known.length
-      ? known.map(function (e) { return e.word + "\t" + e.arabic + "\tTRUE"; }).join("\n")
+      ? known.map(function (e) {
+          // Two columns rather than three while the Arabic is hidden: this is
+          // what you paste somewhere else, and it should carry what you were
+          // looking at. The workbook still has all three.
+          return arabicOn() ? e.word + "\t" + e.arabic + "\tTRUE" : e.word + "\tTRUE";
+        }).join("\n")
       : "Nothing marked known yet.";
     dialog.showModal();
   });
@@ -2624,7 +2705,13 @@
   function colsOf(view) {
     var blanks = Number(view.blanks) || 0;
     return view.order.map(colDef).filter(function (c) {
-      return c && (c.blank ? c.blank <= blanks : !!view.cols[c.key]);
+      if (!c) return false;
+      // The one gate for both tables AND the print sheet, which is drawn from
+      // this same list - so what you print can never carry Arabic that the
+      // screen is hiding. The view's own saved cols.ar is not touched: turn
+      // the Arabic back on and the column comes back if it was there before.
+      if (c.key === "ar" && !arabicOn()) return false;
+      return c.blank ? c.blank <= blanks : !!view.cols[c.key];
     });
   }
 
@@ -2664,7 +2751,10 @@
       if (L.status === "learning" && e.known) return false;
       if (!flagOk(e, L.flag)) return false;
       if (!seenOk(e, L.seen)) return false;
-      if (q && (e.word + " " + e.arabic + " " + e.meaning).toLowerCase().indexOf(q) < 0) return false;
+      // The Arabic leaves the haystack with the column: a row that matched on
+      // text the page is not showing looks like the filter is broken.
+      var hay = e.word + " " + e.meaning + (arabicOn() ? " " + e.arabic : "");
+      if (q && hay.toLowerCase().indexOf(q) < 0) return false;
       return true;
     });
 
@@ -2677,6 +2767,10 @@
   }
 
   function compare(a, b, key) {
+    // A saved sort outlives the column it names - order the rows by Arabic
+    // that is not on the page and the table looks shuffled. Falls through to
+    // the word, as an unknown key does.
+    if (key === "ar" && !arabicOn()) key = "word";
     if (key === "seen") return a.seen - b.seen;
     if (key === "status") return (a.known ? 1 : 0) - (b.known ? 1 : 0);
     if (key === "flag") return (a.flagged ? 1 : 0) - (b.flagged ? 1 : 0);
@@ -2787,6 +2881,14 @@
     });
     document.querySelectorAll("[data-col]").forEach(function (c) {
       c.checked = !!L.cols[c.dataset.col];
+      // Disabled, not unticked, while the Arabic is hidden - the same rule as
+      // the direction and the clue controls. Ticking a box that draws nothing
+      // is the page lying to you; clearing the saved value would lose a column
+      // you had chosen. colsOf() is what actually keeps it off the table.
+      if (c.dataset.col === "ar") {
+        c.disabled = !arabicOn();
+        c.title = c.disabled ? "The Arabic is hidden page-wide - turn it back on above" : "";
+      }
     });
 
     var rows = listRows();
@@ -2863,6 +2965,14 @@
     });
     document.querySelectorAll("[data-bcol]").forEach(function (c) {
       c.checked = !!B.cols[c.dataset.bcol];
+      // Disabled, not unticked, while the Arabic is hidden - the same rule as
+      // the direction and the clue controls. Ticking a box that draws nothing
+      // is the page lying to you; clearing the saved value would lose a column
+      // you had chosen. colsOf() is what actually keeps it off the table.
+      if (c.dataset.bcol === "ar") {
+        c.disabled = !arabicOn();
+        c.title = c.disabled ? "The Arabic is hidden page-wide - turn it back on above" : "";
+      }
     });
 
     var b = currentBatch();

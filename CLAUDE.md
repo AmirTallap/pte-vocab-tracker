@@ -395,6 +395,43 @@ first.
   Toggling it does **not** rebuild the queue, and it carries the half-typed
   answer across the repaint: reaching for a hint mid-word must not cost you the
   word.
+- **Hiding the Arabic is one page-wide switch, `settings.arabic`** (added
+  8 Sep 2026, by request; it lives in the voicebar with the voice because it
+  governs every view, not just the drill). The reason is the exam: everything
+  PTE asks happens in English, and an Arabic gloss sits between the learner and
+  the word as a lookup step - the same argument that put the English meaning
+  back on every card on 7 Sep, taken to its conclusion. **`arabicOn()` is the
+  only place that reads it**, and `colsOf()` is the only gate the tables and
+  the print sheet need, so what prints can never carry Arabic the screen is
+  hiding.
+  **It hides; it never edits.** The workbook keeps its Arabic column, and so do
+  the saved `cols.ar` of both tables and the saved `dir` - the controls for
+  those are *disabled with a title saying why*, never unticked or cleared,
+  exactly as the clue control already was on the English prompt. A control that
+  vanishes reads as a bug and a cleared setting loses a choice the reader made.
+  Turn the Arabic back on and everything is as they left it.
+  The **Add word form is the one deliberate exception**: a new row needs an
+  Arabic cell to be a whole row, so that field stays put. A form that hid it
+  would write blanks into the `.xlsx` that nothing would ever report.
+  Two knock-ons that are not optional: the search box drops `e.arabic` from its
+  haystack (a row matching on text that is not on screen looks like a broken
+  filter) and `compare()` turns a saved `sort: "ar"` into `word` (a table
+  ordered by invisible Arabic looks shuffled).
+- **`answerEnglish()` is what the drill is drawn AND marked from.** Three
+  states collapse into two: with the Arabic shown it is the direction you
+  picked, and with it hidden there is only one answer the card can ask for
+  whatever `dir` still says. `renderCard()` reads it for the prompt, the answer
+  box's direction and placeholder, the revealed answer and the letter diff, and
+  `submit()` reads it for `grade()`. **Do not put `settings.dir === "ar"` back
+  into `submit()`** - drawing the card from one rule and marking it against
+  another is how an answer gets graded against a word the card never asked for.
+  With the Arabic hidden the prompt is the meaning plus the blanked example
+  sentences and the answer is the English headword, which is the exam's own
+  task and needed no new renderer: the clue already blanked the word, and
+  `clueOn()` now asks `answerEnglish()` rather than the direction. The one
+  guard worth keeping: a row with no Meaning cell and the clue off would draw
+  an empty card, so `renderCard()` draws the sentences anyway in that case. A
+  card with no question on it is not a harder card, it is a broken one.
 - **A wrong answer says which letter, not just that it was wrong.**
   `align()` is the same edit distance as `distance()` with the matrix kept so
   the path can be walked back; the verdict then shows what you typed over what
