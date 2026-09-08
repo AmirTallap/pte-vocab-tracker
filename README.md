@@ -160,13 +160,16 @@ so the two can never disagree. The card never prints.
 
 ### Batches
 
-A **batch** is a set of **20 entries you do not know yet**, numbered and kept on
+A **batch** is a set of **entries you do not know yet**, numbered and kept on
 file. Words and phrases have their own series, so Words Batch 1 and Phrases
 Batch 1 are different sets.
 
-- **New batch** draws 20 from the unknown pool - least-seen first, and never a
-  word that is already sitting in another batch. When there is nothing left to
-  draw it says so instead of handing you a short batch you did not ask for.
+- **New batch** asks how many first: **20**, **50** or **100** at a click, or
+  any number you type in the box beside them. It opens on whatever you drew
+  last, so working in fifties does not mean retyping 50 every time. It then
+  draws that many from the unknown pool - least-seen first, and never a word
+  that is already sitting in another batch. Ask for more than is left and you
+  get what is left; when there is nothing left at all it says so.
 - **It is drawn once and never refilled.** The moment you mark one of its
   entries known - in the drill, or anywhere else - that entry leaves the batch,
   and nothing is drawn in to replace it: a batch that started as 20 shrinks as

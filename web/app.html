@@ -437,12 +437,14 @@
     color: var(--faint); font-weight: 700;
   }
   .fld { display: flex; flex-direction: column; gap: 4px; }
-  .fld input[type="text"] {
+  .fld input[type="text"], .fld input[type="number"] {
     font: inherit; font-size: 14px; padding: 8px 10px;
     color: var(--text); background: var(--panel);
     border: 1px solid var(--border); border-radius: 0;
   }
-  .fld input[type="text"]:focus { outline: 2px solid var(--focus); outline-offset: -1px; }
+  .fld input[type="number"] { width: 120px; }
+  .fld input[type="text"]:focus,
+  .fld input[type="number"]:focus { outline: 2px solid var(--focus); outline-offset: -1px; }
   .fld .req { color: var(--wrong); }
   .hint.err { color: var(--wrong); font-weight: 700; }
   .sheet .btn { min-width: 0; padding: 8px 14px; font-size: 13px; }
@@ -1425,6 +1427,46 @@
   </div>
 </dialog>
 
+<!-- How big the next batch is, asked at the draw. The presets are the sizes
+     worth a click and the box is for everything else; the box is the one
+     source of truth, and a preset simply fills it in, so there is never a
+     pressed chip disagreeing with the number that gets sent. -->
+<dialog id="newBatchDialog">
+  <form class="sheet" id="newBatchForm" method="dialog">
+    <div class="bar">New batch</div>
+    <div class="inner">
+      <p class="hint" id="newBatchText"></p>
+      <div class="grp">
+        <span class="lbl">Size</span>
+        <div class="seg" role="group" aria-label="Batch size">
+          <button type="button" data-bsize="20">20</button>
+          <button type="button" data-bsize="50">50</button>
+          <button type="button" data-bsize="100">100</button>
+        </div>
+      </div>
+      <label class="fld">
+        <!-- "Words" or "Phrases", set at open: the two sheets are drawn and
+             drilled separately, and a phrases batch labelled Words is the one
+             confusion worth spending a line of code on. -->
+        <span class="lbl" id="newBatchLabel">Words in this batch</span>
+        <input type="number" id="newBatchSize" min="1" step="1" inputmode="numeric"
+               spellcheck="false" autocorrect="off" autocapitalize="off"
+               autocomplete="off" data-gramm="false"
+               aria-label="How many in this batch">
+      </label>
+      <p class="hint">A batch is drawn once and never refilled, so this is the
+        set for good - it is finished when you have cleared all of it. Asking
+        for more than is left draws what is left.</p>
+      <p class="hint err" id="newBatchError" hidden></p>
+      <div class="row">
+        <button type="button" class="btn" id="newBatchCancel">Cancel</button>
+        <span class="spacer"></span>
+        <button type="submit" class="btn btn-primary" id="newBatchGo">Draw batch</button>
+      </div>
+    </div>
+  </form>
+</dialog>
+
 <dialog id="resetAllDialog">
   <div class="sheet">
     <div class="bar">Reset everything</div>
@@ -1576,6 +1618,11 @@
       },
       batch: {
         kind: "words", n: { words: null, phrases: null }, blanks: 0,
+        // How many the New batch dialog opens on: the last size drawn, so
+        // working in fifties does not mean retyping 50 every time. It is a
+        // view setting like the rest of this object - a drawn batch's own
+        // size is its `total`, and changing this never touches one.
+        size: 20,
         flag: "all", seen: "all", sort: "", sdir: 1,
         cols: { en: true, ar: true, meaning: true, status: false, flag: false, seen: false },
         names: {},
@@ -1637,7 +1684,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 8;
+  var API_VERSION = 9;
   var stale = false;
 
   function goStale(theirs) {
@@ -1844,7 +1891,7 @@
 
   /* While a batch is being drilled, membership IS the filter: a batch only
      ever holds unknown entries, so marking one known drops it out of the pass
-     at once and nothing takes its place. The batch is the 20 it was drawn
+     at once and nothing takes its place. The batch is the set it was drawn
      with; when the last one goes the pass is over. */
   function inFilter(e) {
     if (trainMap) return !!trainMap[e.id] && (retaking() || !e.known);
@@ -2912,10 +2959,11 @@
   }
 
   /* --------------------------------------------------------------- batches
-     A batch is a set of 20 unknown entries drawn once and never refilled: the
-     moment one is marked known it leaves the batch, and the batch is finished
-     when the last one does. Print it, work through it on paper, then come back
-     and drill it by number, and draw the next batch when this one is done. */
+     A batch is a set of unknown entries - as many as you asked for at the
+     draw - taken once and never refilled: the moment one is marked known it
+     leaves the batch, and the batch is finished when the last one does. Print
+     it, work through it on paper, then come back and drill it by number, and
+     draw the next batch when this one is done. */
 
   function batchFor(kind, n) {
     var list = (batches[kind] || {}).list || [];
@@ -2989,7 +3037,7 @@
 
     document.getElementById("batchDrop").disabled = !b;
 
-    /* A finished batch is still a set of 20 worth going over: the button turns
+    /* A finished batch is still a set worth going over: the button turns
        into Retake rather than going dead. It used to disable itself the moment
        the last word was marked known, which left the retake pass reachable
        only by typing its URL. Dead only when there is nothing there at all -
@@ -3011,7 +3059,7 @@
     var held = b ? b.ids.length : 0;
     paintNames("batchNames", "bname", B);
     paintTable("bt", rows, B, { sort: B.sort, sdir: B.sdir },
-      !list.length ? "No batches yet. Select New batch to draw your first 20."
+      !list.length ? "No batches yet. Select New batch to draw your first set."
         : held ? "Nothing in this batch matches these filters."
         : b && b.cleared
                ? "This batch is finished - every word in it is marked known. " +
@@ -3083,13 +3131,81 @@
     navigateTo("/batches/" + settings.batch.kind + "-" + Number(this.value));
   });
 
+  /* --------------------------------------------------------- new batch
+     How many words go in it is asked here rather than fixed at 20 (9 Sep
+     2026). The number box is the only thing read on submit; the presets fill
+     it in. Anything unusable falls through to the default on the server -
+     batchSize() in src/batches.js, so this host and the cloud one agree - and
+     the pool is the only cap, which is why nothing here clamps to what is
+     left. */
+
+  var newBatchDialog = document.getElementById("newBatchDialog");
+  var newBatchBox = document.getElementById("newBatchSize");
+
+  function renderNewBatch() {
+    var v = Number(newBatchBox.value);
+    document.querySelectorAll("[data-bsize]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(Number(b.dataset.bsize) === v));
+    });
+  }
+
+  function newBatchError(msg) {
+    var p = document.getElementById("newBatchError");
+    p.textContent = msg || "";
+    p.hidden = !msg;
+  }
+
+  document.querySelectorAll("[data-bsize]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      newBatchBox.value = b.dataset.bsize;
+      newBatchError("");
+      renderNewBatch();
+    });
+  });
+
+  newBatchBox.addEventListener("input", function () { newBatchError(""); renderNewBatch(); });
+
   document.getElementById("batchNew").addEventListener("click", function () {
     var kind = settings.batch.kind;
-    api("/api/batch/new", { kind: kind }).then(function (r) {
+    var left = (batches[kind] && batches[kind].remaining) || 0;
+    document.getElementById("newBatchText").textContent =
+      left + " unknown " + DECK_LABEL[kind].toLowerCase() + " left to draw on.";
+    document.getElementById("newBatchLabel").textContent =
+      DECK_LABEL[kind] + " in this batch";
+    newBatchBox.value = settings.batch.size || 20;
+    newBatchError("");
+    renderNewBatch();
+    newBatchDialog.showModal();
+    newBatchBox.focus();
+    newBatchBox.select();
+  });
+
+  document.getElementById("newBatchCancel").addEventListener("click", function () {
+    newBatchDialog.close();
+  });
+
+  document.getElementById("newBatchForm").addEventListener("submit", function (ev) {
+    ev.preventDefault();                       // method="dialog" would close it
+    var kind = settings.batch.kind;
+    var size = Math.floor(Number(newBatchBox.value));
+    if (!(size >= 1)) { newBatchError("Type how many to draw - 1 or more."); return; }
+
+    var go = document.getElementById("newBatchGo");
+    go.disabled = true;
+    newBatchError("");
+
+    api("/api/batch/new", { kind: kind, size: size }).then(function (r) {
       batches = r.batches;
+      // The size sticks for next time; the batch that was just drawn keeps
+      // whatever it actually got, which is its own `total`.
+      settings.batch.size = size;
+      saveSettings();
+      newBatchDialog.close();
       navigateTo("/batches/" + kind + "-" + r.n);
     })["catch"](function (err) {
-      document.getElementById("batchNote").textContent = err.message;
+      newBatchError(err.message);
+    })["finally"](function () {
+      go.disabled = false;
     });
   });
 

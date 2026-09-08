@@ -216,8 +216,8 @@ first.
 - **The rules are imported, not reimplemented.** `web/cloud-store.js` answers the same
   routes from `localStorage` but every decision worth getting wrong — least-seen-first
   draws, a batch drawn once and never refilled, `keys`/`done` as two halves of the
-  same twenty, the listed `/api/reset` scopes — comes from `src/batches.js`. Only the
-  route glue is duplicated, a few lines each. **A rule changed in one host and not the
+  same set, what a requested batch size means, the listed `/api/reset` scopes — comes
+  from `src/batches.js`. Only the route glue is duplicated, a few lines each. **A rule changed in one host and not the
   other is the failure this whole arrangement exists to prevent**: change it in
   `batches.js` and both move together.
 - **`src/shared.js` is the browser-safe half**, and nothing in it may import from
@@ -305,9 +305,23 @@ first.
   that checked every key by substitution. Do not re-run a bulk script over
   `data/grammar/*.json`: one authoring agent did exactly that, permuting 16 other
   modules' option arrays mid-write. Edit module files individually, by name.
+- **How many words go in a batch is asked at the draw** (9 Sep 2026). `New
+  batch` opens a dialog with `20 | 50 | 100` presets over a number box, and the
+  box is the only thing read on submit - a preset just fills it in, so a pressed
+  chip can never disagree with the number that gets sent. `BATCH_SIZE` is now
+  only the default that dialog opens on, and the last size drawn is remembered
+  in `settings.batch.size` beside the other view settings. **A batch's own size
+  is not stored anywhere**: it is `keys` plus `done`, which `batchPayload()`
+  already sends as `total`, so a batch of 50 and a batch of 20 need no field to
+  tell them apart and every batch drawn before the prompt existed needs no
+  migration. `batchSize()` in `src/batches.js` is the one place that decides
+  what a missing or nonsensical number means - the default, never an error,
+  because it comes off a form and a blank box should draw the usual 20.
+  Nothing clamps to what is left: asking for more than the pool has draws the
+  pool, which is what the dialog says it will do.
 - **A batch is drawn once and never refilled** (changed 2 Sep 2026; it used to
   top itself back up to 20 on every mark). `keys` is what is still to learn and
-  `done` is what it has cleared - the two halves of the same 20, so `keys` only
+  `done` is what it has cleared - the two halves of the same set, so `keys` only
   ever shrinks and the batch is *finished* when it empties. That is the whole
   point: the drill can end. `syncBatches()` only moves keys between the two
   lists to match the workbook - it draws nothing in, and `createBatch()` does
@@ -475,9 +489,9 @@ first.
   gone from the workbook.
 - **A study batch is not the daily batch.** `progress.batches` is the date-keyed daily
   draw (`npm run daily`), replayed per calendar day. `progress.studyBatches` is the
-  Batches tab: numbered sets of 20, one series per sheet, drawn once and worked
-  until they are empty. Batch numbers are never reused - a number on a printed sheet
-  has to keep meaning one thing.
+  Batches tab: numbered sets, as big as you asked for at the draw, one series per
+  sheet, drawn once and worked until they are empty. Batch numbers are never reused -
+  a number on a printed sheet has to keep meaning one thing.
 - **The page and the server carry a version, `API_VERSION`, and it must be
   bumped whenever a route's meaning changes.** `web/app.html` is read off disk
   on every request, so editing it puts new code in the browser at once - while
@@ -486,12 +500,13 @@ first.
   had no scope and ignored it, and wiped the workbook instead of the seen
   counts. The page now refuses to POST anything to a server whose number does
   not match, and a *missing* number counts as a mismatch. Restart the server
-  after changing a route, and say so. It is **8** as of 6 Sep 2026, for the
-  model answers: `/api/essays` now carries `guides` and a `models` count, and
-  `/api/essays/models/<id>` is new. An addition rather than a change, so nothing
-  an older server does here is dangerous - but it would answer `/api/essays`
-  without the counts, the page would draw no `Model answers` button anywhere,
-  and the whole feature would be silently missing rather than loudly broken.
+  after changing a route, and say so. It is **9** as of 9 Sep 2026, for the
+  batch size: `/api/batch/new` now takes a `size`. This one *is* a change of
+  meaning and it is exactly the shape of the 2 Sep failure - an older server
+  ignores the field and hands back 20 when you asked for 100, which looks like
+  the dialog not working rather than like a stale server. It was **8** from
+  6 Sep for the model answers: `/api/essays` carries `guides` and a `models`
+  count, and `/api/essays/models/<id>` is new.
 - **Speech is Kokoro-82M, local, through `src/tts.js`.** `/api/tts` returns a
   WAV; `/api/tts/voices` returns a static table so the dropdowns paint without
   loading a 326MB model. fp32 on purpose - q8 measured ~2.5x *slower* on this

@@ -51,8 +51,13 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    6 and 7 were - an older server answers /api/essays without the counts,
  *    the page draws no Show model answers button anywhere, and the whole
  *    feature is silently missing rather than loudly broken.
+ * 9  /api/batch/new takes a `size`: the New batch dialog asks how many words
+ *    go in it. A changed route this time, not an added one, and the danger is
+ *    the familiar one - an older server ignores the field and quietly draws 20
+ *    when 100 was asked for, which reads as the dialog being broken rather
+ *    than as a stale server.
  */
-const API_VERSION = 8;
+const API_VERSION = 9;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -322,7 +327,7 @@ export function serve({ port = 4173, open = true } = {}) {
         // Immediately, in the same request: a word you have just mastered
         // moves to its batch's cleared list, so the browser is told the batch
         // is one shorter before it draws the next card. Nothing replaces it -
-        // a batch is the 20 it was drawn with.
+        // a batch is the set it was drawn with.
         syncBatches(deck, progress);
         scheduleWrite();
 
@@ -401,10 +406,12 @@ export function serve({ port = 4173, open = true } = {}) {
       }
 
       if (req.method === 'POST' && url.pathname === '/api/batch/new') {
-        const { kind } = await readBody(req);
+        // `size` is what the New batch dialog asked for; batches.js decides what
+        // a missing or silly one means, so both hosts agree on that.
+        const { kind, size } = await readBody(req);
         if (!SHEETS[kind]) return json(res, 400, { error: `unknown deck: ${kind}` });
 
-        const batch = createBatch(deck, progress, kind);
+        const batch = createBatch(deck, progress, kind, size);
         if (!batch) {
           return json(res, 409, {
             error: `Nothing left to draw - every ${SHEETS[kind].label.replace(/s$/, '')} ` +

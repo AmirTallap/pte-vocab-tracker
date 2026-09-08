@@ -32,7 +32,7 @@ import { VOICES, ACCENTS, DEFAULT_VOICE } from '../src/tts.js';
 
 // Kept in step with src/server.js's. A page that finds a different number
 // refuses to write, which is the point of it.
-const API_VERSION = 8;
+const API_VERSION = 9;
 
 const DIST = path.join(ROOT, 'dist');
 const WEB = path.join(ROOT, 'web');

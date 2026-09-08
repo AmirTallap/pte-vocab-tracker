@@ -12,7 +12,7 @@
  * WHY IT IS NOT A SECOND COPY OF THE RULES. Every decision worth getting wrong
  * lives in src/batches.js and is imported here, not reimplemented: batches are
  * drawn least-seen-first, a batch is drawn once and never refilled, `keys` and
- * `done` are the two halves of the same twenty, a reset hands the set back as
+ * `done` are the two halves of the same set, a reset hands the set back as
  * drawn. What this file adds is the glue those functions sat behind in
  * src/server.js - a few lines per route - and the storage underneath them.
  * If a rule needs changing, it changes in batches.js and both hosts move
@@ -40,7 +40,7 @@ import {
    number does not match, and that guard is worth keeping here even though this
    host cannot misread a request: a stale service-worker copy of the page
    against fresh static data is the same failure wearing a different hat. */
-const API_VERSION = 8;
+const API_VERSION = 9;
 
 /* Kept apart from "pte-vocab-view", which holds the view settings and always
    has. This is study state; that is which column you dragged where. One key
@@ -232,9 +232,9 @@ const POST = {
     return { ok: true, id, ...payload() };
   },
 
-  '/api/batch/new'({ kind }) {
+  '/api/batch/new'({ kind, size }) {
     if (!SHEETS[kind]) throw new Error(`unknown deck: ${kind}`);
-    const batch = createBatch(deck, progress, kind);
+    const batch = createBatch(deck, progress, kind, size);
     if (!batch) {
       throw new Error(`Nothing left to draw - every ${SHEETS[kind].label.replace(/s$/, '')} ` +
                       'you have not marked known is already in a batch.');

@@ -4,22 +4,42 @@ import { SHEETS, today } from './shared.js';
 import { shuffled } from './generator.js';
 
 /**
- * Numbered study batches: standing sets of 20 entries, one series per sheet.
+ * Numbered study batches: standing sets of entries, one series per sheet, as
+ * many in a set as you asked for when you drew it.
  *
  * These are NOT `progress.batches`, which is the date-keyed daily draw replayed
  * per calendar day. A study batch is a set you print once and come back to by
  * number.
  *
- * A batch is drawn once and never refilled. The 20 it was drawn with are the
- * 20 it will always be: `keys` holds the ones still to learn and `done` the
+ * A batch is drawn once and never refilled. The set it was drawn with is the
+ * set it will always be: `keys` holds the ones still to learn and `done` the
  * ones marked known, and every mark only moves a key from one list to the
  * other. When `keys` empties the batch is finished - that is the point of it,
  * and it is what lets the drill end with "nothing left in this batch" instead
  * of handing you a word you have never seen in the middle of a pass. More work
  * comes from drawing the next batch.
+ *
+ * How many it is drawn with is asked at the draw (9 Sep 2026); BATCH_SIZE is
+ * only what that prompt opens on. A batch's own size is not stored anywhere -
+ * it is `keys` plus `done`, which is what `batchPayload()` already sends as
+ * `total`. So a batch of 50 and a batch of 20 need no field to tell them
+ * apart, and a batch drawn before the prompt existed needs no migration.
  */
 
+/** The default draw, and what the New batch prompt opens on. */
 export const BATCH_SIZE = 20;
+
+/**
+ * What a requested batch size means. Anything that is not a whole number of at
+ * least 1 is the default rather than an error: the number comes off a form, and
+ * a blank box should draw the usual 20 rather than fail. There is no upper
+ * bound here because the pool is one - `createBatch()` slices, so asking for
+ * 500 draws whatever is actually left.
+ */
+export function batchSize(n) {
+  const v = Math.floor(Number(n));
+  return Number.isFinite(v) && v >= 1 ? v : BATCH_SIZE;
+}
 
 /** The per-sheet store, repaired in place if the file was hand-edited. */
 function state(progress, id) {
@@ -62,7 +82,7 @@ function committed(s, byKey) {
 /**
  * The draw pool: unknown, not already in a batch, least-seen first and
  * shuffled inside each seen-count tier - the same rule the daily draw and the
- * browser queue use, so two batches drawn in a row are not the same 20 twice.
+ * browser queue use, so two batches drawn in a row are not the same words twice.
  */
 function candidates(deck, progress, id, taken) {
   const seen = progress.seen[id] || {};
@@ -141,10 +161,14 @@ export function syncBatches(deck, progress) {
 }
 
 /**
- * Draw a new batch: up to BATCH_SIZE unknown entries that no batch holds.
- * Returns the batch, or null when there is nothing left to draw.
+ * Draw a new batch: up to `size` unknown entries that no batch holds, the
+ * default being BATCH_SIZE. Asking for more than there is draws what is left
+ * rather than refusing - a short batch is still a batch, and the pool is the
+ * only thing that could ever cap it.
+ *
+ * Returns the batch, or null when there is nothing left to draw at all.
  */
-export function createBatch(deck, progress, id) {
+export function createBatch(deck, progress, id, size) {
   const s = state(progress, id);
   const byKey = new Map((deck[id] || []).map((e) => [e.key, e]));
   const pool = candidates(deck, progress, id, committed(s, byKey));
@@ -153,7 +177,7 @@ export function createBatch(deck, progress, id) {
   const batch = {
     n: s.next++,
     created: today(),
-    keys: pool.slice(0, BATCH_SIZE).map((e) => e.key),
+    keys: pool.slice(0, batchSize(size)).map((e) => e.key),
     done: [],
     errors: 0,
   };
@@ -227,6 +251,8 @@ export function batchPayload(deck, progress) {
     const s = state(progress, id);
     const byKey = new Map((deck[id] || []).map((e) => [e.key, e]));
     out[id] = {
+      // The default draw, not the size of any batch in this list: sizes are
+      // per batch now, and each one's is its own `total`.
       size: BATCH_SIZE,
       remaining: remaining(deck, progress, id),
       list: [...s.list].sort((a, b) => a.n - b.n).map((b) => {
@@ -243,7 +269,8 @@ export function batchPayload(deck, progress) {
           // back to it, and what a retake adds to the pass.
           cleared: doneIds.length,
           // The set as drawn, less any row since deleted from the workbook:
-          // what "3 of 20 left" counts against.
+          // what "3 of 20 left" counts against, and the only record of how big
+          // this batch was asked for.
           total: ids.length + doneIds.length,
           ids: ids.map((k) => `${id}:${k}`),
           doneIds: doneIds.map((k) => `${id}:${k}`),
