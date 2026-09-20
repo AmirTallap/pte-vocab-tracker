@@ -1,0 +1,14 @@
+{
+  "id": "L21",
+  "title": "How the seafloor solved continental drift",
+  "field": "Earth and environment",
+  "text": "Before we look at how mountain belts form, I want to settle a question that troubled geologists for most of the last century: what actually moves the continents? Early in the nineteen hundreds it was pointed out that the coastlines of South America and Africa fit together like torn paper, and that identical fossil species turn up on both sides of the ocean. What that argument lacked was a mechanism, a plausible force, and so it was set aside for decades.\n\nThe mechanism came from the ocean floor. Surveys after the Second World War found long volcanic ridges running down the middle of the ocean basins, with fresh rock forming along them and spreading outwards. Crucially, magnetic minerals in that rock record the direction of the Earth's magnetic field at the moment they cooled, and because the field reverses periodically, the seafloor carries matching magnetic stripes on either side of each ridge. That is a conveyor belt, and it can be dated. So continents do not plough through the ocean floor; they ride on rigid plates created at ridges and destroyed at trenches, where cold, dense oceanic crust sinks back into the mantle. Earthquakes and volcanoes cluster where those plates meet.",
+  "points": [
+    "Geologists long wondered what force could move continents.",
+    "The fit of the coastlines and matching fossils suggested the continents had once been joined, but there was no mechanism, so the idea was rejected.",
+    "Surveys found mid-ocean ridges where new rock forms and spreads outwards.",
+    "Magnetic stripes in that rock, caused by reversals of the Earth's magnetic field, show the seafloor spreading symmetrically and allow it to be dated.",
+    "Continents ride on rigid plates rather than ploughing through the ocean floor; plates are made at ridges and destroyed at trenches where old crust sinks.",
+    "Earthquakes and volcanoes are concentrated at plate boundaries."
+  ]
+}

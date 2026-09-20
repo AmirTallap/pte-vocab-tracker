@@ -1,0 +1,14 @@
+{
+  "id": "L60",
+  "title": "Predictable Departures From the Rational Chooser",
+  "field": "Economics and business",
+  "text": "For a long time economic models began from a convenient assumption: that a person facing a choice knows what they want, gathers whatever information is worth gathering, and selects the option that serves them best. It is a useful simplification, and for a great many questions it works well enough. Over the past few decades, however, careful experiments have shown where it breaks down, and the departures are not random noise. They are regular enough to be anticipated.\n\nTake three examples. People weigh a loss more heavily than a gain of the same size, so the very same option can be accepted or refused depending on whether it is described in terms of losing or of gaining. People place far more weight on the present than on a slightly later date, which is why saving and exercise are so easily postponed. And people tend to stay with whichever option has already been selected for them, so the default carries enormous weight even when switching would cost almost nothing. That last finding gave rise to the idea of a nudge: rearranging how choices are presented, without removing any of them, to influence what people pick. Automatic enrolment in a pension, with opting out still available, is the standard illustration.",
+  "points": [
+    "Standard economic models assume people know what they want and choose the option that best serves them.",
+    "Experiments show departures from that assumption which are systematic and predictable, not random.",
+    "A loss weighs more heavily than an equivalent gain, so how an option is described changes the decision.",
+    "People put far more weight on the present than on a slightly later date, so saving and exercise are postponed.",
+    "People stay with the default option even when switching costs almost nothing.",
+    "This led to the nudge: rearranging choices without removing any, as with automatic pension enrolment that still allows opting out."
+  ]
+}

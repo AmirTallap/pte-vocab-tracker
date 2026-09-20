@@ -40,7 +40,7 @@ import {
    number does not match, and that guard is worth keeping here even though this
    host cannot misread a request: a stale service-worker copy of the page
    against fresh static data is the same failure wearing a different hat. */
-const API_VERSION = 10;
+const API_VERSION = 11;
 
 /* Kept apart from "pte-vocab-view", which holds the view settings and always
    has. This is study state; that is which column you dragged where. One key
@@ -359,6 +359,11 @@ async function api(path, body) {
   if (path === '/api/deck') return payload();
   if (path === '/api/usage') return statics('/static/usage.json');
   if (path === '/api/essays') return statics('/static/essays.json');
+  if (path === '/api/lectures') return statics('/static/lectures.json');
+  if (path.startsWith('/api/lectures/')) {
+    const id = decodeURIComponent(path.slice('/api/lectures/'.length));
+    return statics(`/static/lectures/${encodeURIComponent(id)}.json`);
+  }
   if (path.startsWith('/api/essays/models/')) {
     const id = decodeURIComponent(path.slice('/api/essays/models/'.length));
     return statics(`/static/models/${encodeURIComponent(id)}.json`);

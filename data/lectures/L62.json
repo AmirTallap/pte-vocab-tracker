@@ -1,0 +1,14 @@
+{
+  "id": "L62",
+  "title": "When An Action Becomes A Habit",
+  "field": "Psychology and neuroscience",
+  "text": "I want to trace what happens as a deliberate action turns into a habit. Begin with a rat learning to press a lever for food. At first the behaviour is goal-directed: the animal presses because it wants the outcome, and if you make that outcome unattractive, by letting the animal eat its fill of the food beforehand, pressing drops away almost immediately.\n\nNow let the animal train for several weeks. Something changes. Devalue the food in exactly the same way, and the well-trained animal goes on pressing anyway. The behaviour has stopped being about the outcome and become a response triggered by the situation. That is the working definition of a habit in this literature: an action that survives devaluation of its own goal. The shift is accompanied by a change in the brain. Activity associated with goal-directed control in one region of the striatum gives way to activity in regions associated with stimulus-response learning, and damage to either region shifts the balance in the direction you would predict. The implication is often misread. A habit is hard to remove because the old association remains in place; what further training does is build a competing one. That is why cue, context and repetition matter more here than resolve does.",
+  "points": [
+    "The lecture traces how a deliberate, goal-directed action becomes a habit.",
+    "A rat that has just started learning stops pressing a lever once the food reward is made unattractive.",
+    "After long training the animal keeps pressing even when the reward has been devalued.",
+    "A habit is therefore defined as an action that survives devaluation of its goal.",
+    "The change is mirrored in the brain, as control shifts between regions of the striatum, from goal-directed to stimulus-response learning.",
+    "Old habits are not erased but overlaid by competing learning, so cues, context and repetition matter more than willpower."
+  ]
+}

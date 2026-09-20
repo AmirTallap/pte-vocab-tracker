@@ -1,0 +1,14 @@
+{
+  "id": "L86",
+  "title": "Storing renewable electricity for when the wind drops",
+  "field": "Technology and computing",
+  "text": "Wind and sunlight are free, but they arrive on their own schedule rather than ours, and that mismatch is the central engineering problem of a renewable grid. Electricity is unusual among commodities in that supply and demand have to balance instant by instant; there is no warehouse inside the wires. Storage, then, is not an optional extra. It is the thing that turns an intermittent source into a dependable one.\n\nDifferent technologies answer different parts of the problem, and the distinction worth holding on to is between power and energy. Power is how fast you can deliver; energy is how much you can hold in total. Lithium batteries respond within milliseconds and are excellent at smoothing fluctuations over minutes and hours, but storing a week of electricity in them is prohibitively expensive. Pumped hydroelectric storage, which lifts water uphill when power is plentiful and lets it fall back through turbines when it is scarce, holds far more energy for far less money, though it needs particular geography. For longer periods still, surplus electricity can split water into hydrogen, which keeps for months, but every conversion wastes a substantial share of what went in, and those losses are the price of patience.",
+  "points": [
+    "Wind and solar output does not match demand, and electricity must be balanced moment by moment.",
+    "Storage is what turns an intermittent source into a dependable supply.",
+    "The key distinction is between power, how fast energy is delivered, and energy, how much is held.",
+    "Batteries respond very quickly and suit short fluctuations but are expensive for long durations.",
+    "Pumped hydro stores much more energy cheaply but requires suitable geography.",
+    "Hydrogen can store energy for months, at the cost of substantial losses in each conversion."
+  ]
+}

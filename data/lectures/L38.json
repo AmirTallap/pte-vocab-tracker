@@ -1,0 +1,14 @@
+{
+  "id": "L38",
+  "title": "Why astronauts float: orbits as continuous falling",
+  "field": "Astronomy and space",
+  "text": "Ask why astronauts float aboard a space station and the usual answer is that there is no gravity up there. At the altitude of a typical space station, gravity is only slightly weaker than it is at the surface, roughly nine tenths of its value here, so the explanation has to be something else entirely.\n\nNewton offered the clearest way to see it. Imagine firing a cannonball horizontally from an impossibly high mountain. A slow shot curves downwards and lands nearby. Fire it faster and it lands further away. Fire it fast enough and the surface of the Earth curves away beneath the ball at exactly the rate at which the ball falls, so the ball never reaches the ground. It is still falling. It simply keeps missing.\n\nThat is what an orbit is. Astronauts float because they and their spacecraft are falling together, continuously, and nothing is pressing them against a floor. We call this free fall, and the weightlessness is apparent rather than a genuine absence of gravity.\n\nThe speed required depends on the mass of the body being orbited and the distance from its centre. Orbit lower and you must travel faster; orbit higher and you travel more slowly.",
+  "points": [
+    "Astronauts do not float because gravity is absent; at station altitude it is nearly as strong as at the surface.",
+    "Newton's thought experiment of a cannonball fired horizontally explains orbits.",
+    "Fired fast enough, the ball falls at the same rate as the Earth's surface curves away.",
+    "An orbit is therefore continuous falling that never reaches the ground.",
+    "Astronauts are weightless because they and the spacecraft fall together in free fall.",
+    "Orbital speed depends on the mass of the body and the distance, so lower orbits are faster."
+  ]
+}

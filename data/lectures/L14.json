@@ -1,0 +1,14 @@
+{
+  "id": "L14",
+  "title": "The Checkpoints That Govern Cell Division",
+  "field": "Life sciences",
+  "text": "A human body replaces an enormous number of cells every single day, and each replacement means copying about two metres of DNA without serious error. The interesting question is not how that copying happens, but how it is controlled. The cell cycle has four phases. In G1 the cell grows and takes stock of its situation; in S phase the DNA is replicated; in G2 it assembles the machinery of division; and in mitosis the duplicated chromosomes are pulled apart into two nuclei before the cell itself splits in two.\n\nBetween those phases sit checkpoints, and they behave rather like an inspection at the end of a production stage. At the G1 checkpoint the cell assesses its size, its nutrient supply and whether its DNA is damaged. If conditions are wrong it pauses, and it may withdraw into a resting state in which it goes on working without ever dividing. A second checkpoint, late in G2, refuses entry into mitosis while replication is incomplete. A third, during mitosis itself, holds the process until every chromosome is properly attached to the fibres that will pull it. When these controls fail, cells divide carrying damaged or unequal genetic material, and that failure is the underlying problem in cancer.",
+  "points": [
+    "The body constantly replaces cells, and each division must copy a large amount of DNA accurately.",
+    "The cell cycle has four phases: G1 growth, S phase replication, G2 preparation, and mitosis.",
+    "Checkpoints between the phases inspect the cell before division continues.",
+    "The G1 checkpoint checks size, nutrients and DNA damage, and can pause the cell into a resting, non-dividing state.",
+    "A checkpoint in G2 blocks mitosis if replication is incomplete, and one during mitosis waits until every chromosome is attached.",
+    "When these controls fail, cells divide with damaged or unequal genetic material, which underlies cancer."
+  ]
+}

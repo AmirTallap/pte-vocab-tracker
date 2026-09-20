@@ -1,0 +1,13 @@
+{
+  "id": "L22",
+  "title": "The water cycle as a budget of reservoirs",
+  "field": "Earth and environment",
+  "text": "Think of the water cycle not as a circle drawn on a diagram but as a budget, because that is what makes it useful. The total amount of water on Earth is essentially fixed. What changes is where it sits and how quickly it moves between stores. The oceans hold the overwhelming majority of it; the ice sheets hold most of the fresh water; and the atmosphere holds a remarkably small fraction, enough, if it all fell at once, to cover the planet only to the depth of a few centimetres.\n\nThat tiny atmospheric store matters because it turns over so fast. A water molecule spends roughly a week and a half in the air before returning as rain or snow, whereas a molecule in the deep ocean may wait a thousand years. Residence time, which is simply the size of a store divided by the flow passing through it, is the concept I want you to take away. Small stores with large flows do the work. Evaporation from the oceans supplies most of that atmospheric water, but over land a large share of the return flow comes from vegetation, which draws water from the soil and releases it through the leaves. Strip the vegetation and the local budget changes.",
+  "points": [
+    "The water cycle is better understood as a budget: the total quantity of water is fixed and only its location and movement change.",
+    "The oceans hold most of the water, ice holds most of the fresh water, and the atmosphere holds only a very small fraction.",
+    "The atmospheric store matters because it turns over quickly, in about a week and a half, while deep ocean water may stay for a thousand years.",
+    "Residence time means the size of a store divided by the flow through it.",
+    "Over land, much of the water returning to the air comes from plants releasing it through their leaves, so removing vegetation alters the local water budget."
+  ]
+}

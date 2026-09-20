@@ -1,0 +1,13 @@
+{
+  "id": "L29",
+  "title": "Habitat fragmentation and the debt of extinction",
+  "field": "Earth and environment",
+  "text": "We tend to picture extinction as an event: the last individual of a species dies and the species is gone. For most of what is happening now, that picture is misleading. Extinction is usually the end of a long process, and the process begins with the division of habitat.\n\nConsider a forest crossed by a new road, then by fields, until what remains is a scatter of isolated patches. The total area lost may be modest, but the ecological effect is out of proportion. Small patches have a great deal of edge relative to their interior, and edges are hotter, drier and windier, so species adapted to deep forest lose ground even where trees still stand. Large predators and species that need wide territories disappear first, and their loss cascades through the food web. The subtler problem is isolation. A population confined to one patch cannot be replenished from another, so when disease or a bad year reduces it, nothing arrives to restore the numbers, and inbreeding erodes the genetic variation the population needs to adapt. Ecologists speak of an extinction debt: species still present in a fragment but already committed to disappearing. The bill arrives decades later.",
+  "points": [
+    "Extinction is usually not a single event but the end of a long process that begins when habitat is divided up.",
+    "Fragmentation has an effect out of proportion to the area actually lost, because small patches have much edge relative to interior and edge conditions are hotter, drier and windier.",
+    "Large predators and wide-ranging species disappear first, and their loss cascades through the food web.",
+    "Isolation prevents populations being replenished from neighbouring patches, so losses are not made good and genetic variation is eroded by inbreeding.",
+    "An extinction debt means species still present in a fragment are already committed to disappearing, with the loss appearing decades later."
+  ]
+}

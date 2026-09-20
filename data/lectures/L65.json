@@ -1,0 +1,14 @@
+{
+  "id": "L65",
+  "title": "Why Seeing Is Not Photography",
+  "field": "Psychology and neuroscience",
+  "text": "It is tempting to think of seeing as a kind of photography: light arrives, and the world simply appears. The study of illusions makes that view untenable. The image falling on the retina is flat, inverted and hopelessly ambiguous, since an infinite number of different scenes could have produced exactly the same pattern. Perception is therefore better understood as inference, a best guess about what is out there, constrained by assumptions the visual system applies automatically.\n\nTake size. The retinal image of a friend walking away from you shrinks continuously, yet nobody appears to shrink. The system corrects for apparent distance, and that correction is precisely what illusions exploit. Draw two identical bars across a pair of converging lines, and the upper bar looks longer, because the converging lines imply greater distance while the image has not grown smaller. Build a room with a sloping floor and a distorted back wall, view it through a single peephole, and a person crossing that room seems to grow as they walk. Two conclusions follow. The assumptions are usually correct, which is why they are built in at all. And knowing about an illusion does not dissolve it, which tells you these processes run automatically, well before conscious judgement gets a say.",
+  "points": [
+    "Seeing is not like photography, because the retinal image is flat, inverted and ambiguous.",
+    "Many different scenes could produce the same image, so perception is an inference or best guess.",
+    "The visual system applies automatic assumptions, such as correcting apparent size for distance.",
+    "Illusions exploit those assumptions: identical bars on converging lines look unequal, and a distorted room makes a person seem to change size.",
+    "The assumptions are built in because they are usually right about the real world.",
+    "Knowing about an illusion does not make it disappear, showing the process happens before conscious judgement."
+  ]
+}

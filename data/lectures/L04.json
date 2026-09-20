@@ -1,0 +1,14 @@
+{
+  "id": "L04",
+  "title": "States of Matter as a Competition of Forces",
+  "field": "Physics and chemistry",
+  "text": "Most of you arrived here knowing that matter comes in three states, and for everyday purposes it is a serviceable picture. A solid holds its shape because its particles are locked in fixed positions. A liquid flows because those particles can slide past one another while remaining in contact. A gas expands to fill its container because the particles are effectively independent. What the picture leaves out is why a given substance sits in one state rather than another, and the answer is a competition. On one side there is the attraction between particles, pulling them together into ordered arrangements. On the other there is thermal motion, which scatters them. Temperature and pressure decide which side wins.\n\nOnce you see it as a competition, the boundaries become the interesting part. Raise the pressure on a gas and you push the particles close enough for attraction to take hold, so it liquefies. But raise the temperature as well, and eventually you reach a point where the distinction collapses altogether. Beyond that critical point there is no meniscus, no boiling, no separate liquid and vapour, only a supercritical fluid, as dense as a liquid yet spreading like a gas. Industry uses precisely that combination to strip caffeine from coffee beans.",
+  "points": [
+    "The three familiar states are described by how free the particles are to move.",
+    "Which state a substance takes is a competition between attraction between particles and thermal motion.",
+    "Temperature and pressure decide which of those two wins.",
+    "Raising pressure pushes particles together so a gas liquefies.",
+    "Above the critical point the liquid and gas distinction disappears, leaving a supercritical fluid.",
+    "A supercritical fluid is dense like a liquid but spreads like a gas, and is used to decaffeinate coffee."
+  ]
+}

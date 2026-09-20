@@ -1,0 +1,14 @@
+{
+  "id": "L88",
+  "title": "How a robot knows what it has actually done",
+  "field": "Technology and computing",
+  "text": "A robot is usually described as a machine that acts, but the acting is the easy part. What distinguishes a robot from an ordinary motor is the loop between sensing and acting. Consider a simple arm instructed to move to a particular position. It cannot just command the motor and assume success: the load may be heavier than expected, the joint may be stiff, the floor may not be level. So it measures where it actually is, compares that with where it ought to be, and drives the motor in proportion to the difference. As the error shrinks, the correction shrinks with it.\n\nThat arrangement is called closed-loop, or feedback, control, and its behaviour depends delicately on how strongly the system reacts. React too weakly and the arm creeps towards its target and never quite settles. React too strongly and it overshoots, corrects, overshoots the other way, and oscillates. Tuning that response is a large part of the engineer's work. Sensors, meanwhile, are never perfect. They drift, they carry noise, and they sample only at intervals, so a controller that believed every reading absolutely would end up chasing its own measurement errors.",
+  "points": [
+    "What makes a robot a robot is the loop between sensing and acting, not the acting itself.",
+    "An arm cannot assume a command succeeded, because load, friction or the surface may differ.",
+    "It measures its actual position, compares it with the target, and corrects in proportion to the error.",
+    "This is closed-loop or feedback control, and the strength of the response matters.",
+    "Too weak a response is sluggish; too strong a response overshoots and oscillates.",
+    "Sensors drift, carry noise and sample at intervals, so readings must be filtered rather than trusted absolutely."
+  ]
+}

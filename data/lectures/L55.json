@@ -1,0 +1,14 @@
+{
+  "id": "L55",
+  "title": "Why Bigger Is Cheaper, Until It Is Not",
+  "field": "Economics and business",
+  "text": "Today I want to examine why size can be an advantage in production, and why it stops being one. Begin with the distinction between costs that vary with output and costs that do not. Designing a car, building the factory, writing the software, obtaining a licence: these are paid whether the firm makes a thousand units or a million. Spread that fixed sum across more units and the amount carried by each one falls. That is the simplest economy of scale.\n\nThere are others. A larger operation can justify specialised machinery and specialised staff that would stand idle in a small one. It buys its inputs in bulk, and it can borrow more cheaply, because lenders regard it as the safer prospect. Together these advantages can make a large producer genuinely difficult to undercut. But the curve eventually turns. Beyond a certain size, coordination becomes the binding constraint. Information travels further and arrives distorted, layers of management multiply, and the effort of monitoring people who never see one another grows faster than output. That is what we mean by diseconomies of scale. The efficient size of a firm is where the two forces balance, and it differs from industry to industry.",
+  "points": [
+    "Some costs are fixed and do not vary with output, such as design, buildings, software and licences.",
+    "Spreading those fixed costs over more units lowers the cost of each unit, which is the basic economy of scale.",
+    "Larger firms can also use specialised machinery and staff, buy inputs in bulk, and borrow more cheaply.",
+    "These advantages make a large producer hard to undercut.",
+    "Beyond a certain size, coordination costs rise: information distorts, management layers multiply, and monitoring grows faster than output, giving diseconomies of scale.",
+    "The efficient size of a firm is where the two forces balance, and it varies by industry."
+  ]
+}

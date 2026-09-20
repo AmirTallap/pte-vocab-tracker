@@ -1,0 +1,14 @@
+{
+  "id": "L59",
+  "title": "The Pin Factory and the Limits of Specialisation",
+  "field": "Economics and business",
+  "text": "The most famous passage in economics describes a pin factory. Writing in 1776, Adam Smith observed that a single worker making pins from start to finish might manage only a handful in a day, whereas a small workshop that divided the job into separate operations, such as drawing out the wire, straightening it, cutting it, pointing it and fitting the head, produced vastly more per person. The work itself was the same. The organisation of it was not.\n\nThree things account for the gain. Repetition builds dexterity, so each operation is carried out faster and more reliably. Time is no longer lost moving between tasks and changing tools. And once a task is narrow and repeated, it becomes visible enough to be improved and eventually mechanised, which is how specialisation leads to invention and not merely to speed. Smith attached a condition that is often forgotten: the division of labour is limited by the extent of the market. You cannot split a job into twenty operations unless you can sell what they produce. That is why specialisation deepened as roads, shipping and communications widened markets. He also warned that narrow, repetitive work can dull the person performing it, and he regarded that as a cost worth taking seriously.",
+  "points": [
+    "Adam Smith's pin factory showed that dividing a job into separate operations greatly raises output per worker.",
+    "The work itself is unchanged; only the way it is organised differs.",
+    "Repetition builds skill, so each operation is done faster and more reliably.",
+    "Less time is lost moving between tasks and changing tools.",
+    "Narrow repeated tasks can be improved and eventually mechanised, so specialisation leads to invention, not just speed.",
+    "Specialisation is limited by the size of the market, and Smith warned that repetitive work can dull the worker."
+  ]
+}

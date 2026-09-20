@@ -1,0 +1,14 @@
+{
+  "id": "L56",
+  "title": "When a Price Leaves Out Part of the Cost",
+  "field": "Economics and business",
+  "text": "Picture a factory standing on a river, discharging its waste downstream. The firm counts its wages, its materials and its energy, and it prices its output to cover them. What it does not count is the cost borne by the households below it, who must filter their water or fish somewhere else. That cost is entirely real, but it falls on people who are not party to the transaction. Economists call it an external cost, or an externality.\n\nThe consequence is systematic rather than accidental. Because part of the true cost is not paid by the producer, the good appears cheaper than it really is, more of it is bought, and the market settles on an output higher than the one that takes every cost into account. This is what we call market failure: prices, which ordinarily carry reliable information, are here carrying incomplete information. Externalities also run the other way. A firm that trains an apprentice who later moves on, or a landowner who restores a wetland that shelters a whole valley, confers benefits they cannot charge anyone for, and such activities tend to be undersupplied. The general remedy is to make the missing cost or benefit appear in the price the decision-maker faces.",
+  "points": [
+    "An externality is a cost or benefit falling on someone outside the transaction, such as factory waste borne by households downstream.",
+    "The producer does not pay that cost, so the good looks cheaper than it truly is.",
+    "More of it is therefore bought, and output settles higher than it would if all costs were counted.",
+    "This is market failure: prices that usually carry reliable information are carrying incomplete information.",
+    "Positive externalities exist too, such as training workers or restoring a wetland, and those activities are undersupplied because the benefit cannot be charged for.",
+    "The general remedy is to make the missing cost or benefit show up in the price the decision-maker faces."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L12",
+  "title": "Natural Selection Needs Only Three Conditions",
+  "field": "Life sciences",
+  "text": "Darwin's argument is often remembered as a claim about strength, or about progress, so it is worth reducing it to what it actually requires. Only three conditions need to hold. First, individuals in a population must vary, in size, in colour, in behaviour, in almost anything measurable. Second, some of that variation must be heritable, passed from parent to offspring rather than acquired during a lifetime. Third, more offspring must be produced than the environment can support, so that not every individual reproduces equally. Wherever those three conditions hold together, the traits that happen to improve survival and reproduction will become more common over generations. No intention is involved, and nothing is striving towards a goal.\n\nNotice what the mechanism does not say. It does not say that the fittest individual is the strongest or the largest; fitness here means nothing more than reproductive success in a particular environment at a particular time. A trait that is an advantage in one setting may be a liability in another, which is why we speak of adaptation to conditions rather than improvement in general. And selection can act only on variation that already exists. It does not create what a population needs; it edits what the population happens to have.",
+  "points": [
+    "Natural selection requires only three conditions to hold.",
+    "Individuals in a population must vary.",
+    "Some of that variation must be heritable, passed from parent to offspring.",
+    "More offspring are produced than can survive, so individuals do not reproduce equally.",
+    "Fitness means reproductive success in a particular environment, not strength or general improvement.",
+    "Selection can only act on variation that already exists; it edits rather than creates."
+  ]
+}

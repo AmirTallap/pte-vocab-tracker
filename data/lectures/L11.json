@@ -1,0 +1,14 @@
+{
+  "id": "L11",
+  "title": "How Plants Turn Light Into Sugar",
+  "field": "Life sciences",
+  "text": "Consider what a leaf actually does on a bright morning. We often say that plants make food from sunlight, but that phrase hides a two-stage process, and the two stages have quite different requirements. The first stage happens in the thylakoid membranes inside the chloroplast. Pigments, chlorophyll chief among them, absorb photons and use that energy to strip electrons from water molecules. Oxygen is released as a by-product; the oxygen in this room is essentially plant waste. The energy itself is stored briefly in two carrier molecules, ATP and NADPH.\n\nThe second stage, the Calvin cycle, needs no light at all. It takes place in the stroma, the fluid surrounding those membranes, and it uses the ATP and NADPH from the first stage to fix carbon dioxide into a three-carbon sugar. The enzyme responsible, rubisco, is thought to be the most abundant protein on Earth, and it is also remarkably inefficient: it sometimes binds oxygen instead of carbon dioxide, wasting energy in a process called photorespiration. That inefficiency matters. It is why several plant lineages evolved mechanisms to concentrate carbon dioxide around rubisco, and why hot, dry climates tend to favour those plants.",
+  "points": [
+    "Photosynthesis runs in two stages with different requirements.",
+    "The first stage, in the thylakoid membranes, uses pigments such as chlorophyll to absorb light and strip electrons from water, releasing oxygen.",
+    "That stage stores energy briefly in the carrier molecules ATP and NADPH.",
+    "The second stage, the Calvin cycle, happens in the stroma, needs no light, and uses those carriers to fix carbon dioxide into sugar.",
+    "The enzyme rubisco is extremely abundant but inefficient, because it sometimes binds oxygen instead, causing photorespiration.",
+    "That inefficiency explains why some plants evolved ways to concentrate carbon dioxide and do better in hot, dry climates."
+  ]
+}

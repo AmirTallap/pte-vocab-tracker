@@ -1,0 +1,14 @@
+{
+  "id": "L61",
+  "title": "The Narrow Gate of Working Memory",
+  "field": "Psychology and neuroscience",
+  "text": "Consider what happens when someone reads out a phone number and you have to hold it until you can write it down. That brief, effortful storage is what psychologists call working memory, and it is not simply a small version of long-term memory. It is a system for holding information while you do something with it.\n\nThe first thing to notice is how little it holds. Early estimates put the limit at around seven items; more careful work suggests something closer to three or four meaningful chunks. But a chunk is defined by what you already know, which is why a string of letters that means nothing to you is far harder to hold than the same letters forming familiar words. Expertise does not raise the capacity of the system; it changes what counts as a single unit. The second thing is that the system is not one store. The evidence comes from dual-task experiments: holding a set of digits interferes surprisingly little with a simultaneous visual task, but a great deal with another verbal task. That pattern suggests separable verbal and visual components, coordinated by attentional control. And it is that control component, rather than raw storage, which best predicts performance on reasoning and comprehension tests.",
+  "points": [
+    "Working memory holds information briefly while you work with it, and is not just a small long-term memory.",
+    "Its capacity is very limited: older estimates of about seven items, newer ones nearer three or four chunks.",
+    "A chunk depends on existing knowledge, so familiar material is far easier to hold than meaningless material.",
+    "Expertise does not enlarge the store; it changes what counts as one unit.",
+    "Dual-task experiments show verbal and visual material interfere mainly with their own kind, implying separate components under attentional control.",
+    "The attentional control component predicts reasoning and comprehension better than raw storage does."
+  ]
+}

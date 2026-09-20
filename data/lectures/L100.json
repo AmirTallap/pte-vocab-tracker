@@ -1,0 +1,14 @@
+{
+  "id": "L100",
+  "title": "Why Translation Is Never Simply Carrying Meaning Across",
+  "field": "Arts, language and education",
+  "text": "A translator is often imagined as a kind of conduit, carrying meaning across from one language into another with as little interference as possible. That image collapses as soon as you try to do the job, because languages do not divide the world into the same pieces, and the pieces rarely correspond one to one.\n\nPart of the difficulty is vocabulary. A term in the original may cover a range that no single word in the target language covers, so the translator picks a narrower word and something is quietly lost. The deeper difficulty is that languages differ in what they oblige a speaker to say. English forces a choice of tense on almost every verb. Some languages oblige the speaker to mark how they came by the information, whether they saw it themselves or were told. Others require a level of politeness to be encoded in the verb. A translator moving between two such systems must either supply information the original never specified, or drop information the original could not have omitted. This is why theorists talk about equivalence rather than sameness, and why the real question is always equivalent for what purpose. A contract, a poem and a safety notice are not attempting the same task.",
+  "points": [
+    "Translation is often pictured as neutrally carrying meaning from one language to another.",
+    "That picture fails because languages divide the world differently and words rarely correspond one to one.",
+    "A word may cover a range no single target-language word covers, so something is lost in the choice.",
+    "Languages differ in what they force a speaker to state, such as tense, the source of information, or politeness.",
+    "The translator must add information the original left unspecified, or drop what the original had to include.",
+    "Theorists speak of equivalence for a particular purpose, since a contract, a poem and a notice differ."
+  ]
+}

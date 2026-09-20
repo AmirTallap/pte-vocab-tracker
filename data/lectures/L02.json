@@ -1,0 +1,14 @@
+{
+  "id": "L02",
+  "title": "Catalysts and the Barrier Between Reactants and Products",
+  "field": "Physics and chemistry",
+  "text": "Consider a reaction that is thermodynamically favourable, meaning the products sit at lower energy than the reactants, and yet nothing happens when you mix the two. Hydrogen and oxygen will sit together in a flask indefinitely at room temperature, even though combining them to make water releases a great deal of energy. The obstacle is kinetic rather than thermodynamic. Before new bonds can form, existing bonds have to be stretched and broken, and that intermediate arrangement lies at higher energy than either side. We call that hump the activation energy, and at ordinary temperatures only a small fraction of molecules carry enough thermal energy to climb it.\n\nA catalyst solves the problem without altering the destination. It offers an alternative route to the same products over a lower barrier, typically by binding the reactants and holding them in an orientation that makes the new bond easier to form. Notice what it does not do. It does not shift the position of equilibrium, because it lowers the barrier equally in both directions; it changes how fast you arrive, not where. And since the catalyst is regenerated at the end of every cycle, a small quantity can process an enormous throughput, which is why industrial chemistry depends on it.",
+  "points": [
+    "A reaction can be energetically favourable and still not happen, as with hydrogen and oxygen at room temperature.",
+    "The obstacle is kinetic: old bonds must break first, through a higher-energy intermediate.",
+    "That barrier is the activation energy, and few molecules have enough thermal energy to cross it.",
+    "A catalyst provides an alternative route with a lower barrier, often by binding and orienting the reactants.",
+    "It does not move the equilibrium, because it lowers the barrier in both directions; it only changes the rate.",
+    "The catalyst is regenerated each cycle, so a small amount handles a large throughput, which industry relies on."
+  ]
+}

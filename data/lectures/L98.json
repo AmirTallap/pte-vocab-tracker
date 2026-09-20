@@ -1,0 +1,14 @@
+{
+  "id": "L98",
+  "title": "Reliability, Validity And The Backwash Of Exams",
+  "field": "Arts, language and education",
+  "text": "Suppose two examiners mark the same script and award it the same grade, and suppose the candidate would score much the same again next week. That test is reliable. Notice that nothing said so far tells us the test is any good. Reliability is only consistency, and a consistent measurement of the wrong thing is still a measurement of the wrong thing.\n\nThe harder property is validity, which asks whether a test measures the ability it claims to measure. A reading test whose passages are all about cricket will reliably measure something, but part of what it measures is knowledge of cricket, and that is not what the certificate will say. The usual threats take that shape: an irrelevant demand smuggled in, or an important part of the ability left out, because a forty-minute paper can only sample a skill and never covers it. Then there is the effect of the test on teaching, which specialists call washback. Whatever is examined is what gets taught, and whatever is not examined is quietly dropped. That makes any serious test an instrument of curriculum design, whether its authors intended that or not, and it is the strongest practical argument for examining what you genuinely want learners to be able to do.",
+  "points": [
+    "Reliability means a test gives consistent results across markers and occasions.",
+    "Consistency alone does not make a test good, because it may consistently measure the wrong thing.",
+    "Validity asks whether the test measures the ability it claims to measure.",
+    "Threats include irrelevant demands such as background knowledge, and parts of the skill left out by sampling.",
+    "Washback is the effect of a test on teaching: unexamined content gets dropped.",
+    "A test therefore shapes the curriculum, so it should examine what learners should really be able to do."
+  ]
+}

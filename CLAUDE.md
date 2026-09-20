@@ -526,7 +526,43 @@ view that exists on **one host only**.
 - **`answerEnglish()` has no equivalent here and needs none**: the Speaking tab
   never reads `settings.dir` or the Arabic. Everything PTE asks happens in
   English and this tab is all of it.
-- `API_VERSION` went to **10** for the two new routes.
+- **Re-tell Lecture is a third task under Speaking**, not a tab of its own: it uses
+  the same recorder, the same report and the same playback. 100 lectures, one JSON
+  file each in `data/lectures/`, written by ten parallel agents - which is exactly
+  the situation the "no bulk script over authored content" rule exists for. Edit one
+  file, by name.
+- **You hear a lecture once and the text is NOT on screen.** `/api/lectures` sends
+  the index without any `text`; `/api/lectures/<id>` sends one when you take it, and
+  the words appear only in the report afterwards. Reading along would make it a
+  different exercise. PTE's own 10s to think and 40s to speak, fixed rather than
+  scaled - unlike Read Aloud, the exam does not vary them by length.
+- **The tool does not judge whether you covered the lecture, and must not start.**
+  Every cheap way of checking that - shared words, keyword matching - rewards
+  parroting the lecture's phrasing, which is the opposite of what *in your own words*
+  means and of what PTE marks. The page assembles the evidence instead and hands it
+  over: the lecture, its points, what you said **with the pauses written in**, and how
+  you sounded. `points` in the data is what the lecture said, for a model elsewhere to
+  judge against - it is not a mark scheme this code applies.
+- **The pauses go into the prompt on purpose.** A summary that reads fluently on the
+  page may have been delivered in lurches, and a model reading a transcript cannot
+  hear that - so `[1.2s]` and `(uh 0.5s)` are written down. Without them the prompt
+  asks for feedback on a transcript that flatters you.
+- **The Play button's progress bar has two phases and they are honestly different.**
+  Synthesis is ~0.23s per word and the server sends nothing until it is finished, so a
+  download bar would sit at 0% and then jump to 100%. The estimate phase is amber, says
+  "about Ns left", and stops at 92% - arriving at full while still waiting is the lie a
+  progress bar must not tell. Real bytes turn it teal with a true percentage. Readiness
+  is released when the stream opens, NOT when `play()` resolves: a blocked autoplay
+  returns a promise that may never settle, and hanging the task on it left the bar at
+  100% with Start disabled for ever.
+- **The lecture voice is synthetic and that is the weakest part of the tab.** PTE uses
+  real recorded lecturers with real accents and room acoustics. Ripping YouTube is not
+  the fix - it breaks their terms and the recordings are not ours to splice or commit.
+  The openly-licensed route is surveyed in `notes/2026-09-20-speaking-tab.md`, with the
+  finding that archive.org is a thin well and ocw.mit.edu is the better source. If it
+  is built: commit the *recipe* and gitignore the audio, so it is reproducible rather
+  than redistributed.
+- `API_VERSION` went to **10** for the speech routes and **11** for the lecture ones.
 
 ---
 

@@ -1,0 +1,14 @@
+{
+  "id": "L01",
+  "title": "Why No Engine Can Be Perfectly Efficient",
+  "field": "Physics and chemistry",
+  "text": "Let's begin with a question that troubled engineers for most of the nineteenth century: why can a steam engine never convert all the heat it absorbs into useful work? The answer is the second law of thermodynamics, and it is one of the few physical principles to which no exception has ever been found. Energy itself is always conserved, which is the first law, so the shortfall is not a matter of energy going missing. What limits the engine is the direction in which energy spontaneously moves.\n\nHeat flows from hot to cold and never the reverse of its own accord, and an engine can only extract work from that flow as it passes through. Some of the heat must therefore be dumped into a cold reservoir, where it is unavailable for work. Sadi Carnot, writing before the concept of energy had even settled, showed that the maximum possible efficiency depends only on the temperatures of the hot and cold reservoirs, and not at all on the working substance. Raise the input temperature, or lower the exhaust temperature, and you gain efficiency; nothing else helps. That is why power stations are built beside rivers, and why a perfect engine is not a hard engineering problem but a physical impossibility.",
+  "points": [
+    "The question is why a heat engine cannot turn all its heat into work.",
+    "The first law says energy is conserved, so the missing work is not lost energy.",
+    "Heat flows only from hot to cold, and the engine takes work from that flow.",
+    "Some heat must be rejected to a cold reservoir and cannot be used.",
+    "Carnot showed the maximum efficiency depends only on the two temperatures, not the substance.",
+    "A perfectly efficient engine is impossible in principle, not merely difficult to build."
+  ]
+}

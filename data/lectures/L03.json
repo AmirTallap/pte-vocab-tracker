@@ -1,0 +1,14 @@
+{
+  "id": "L03",
+  "title": "One Phenomenon, Many Names: The Electromagnetic Spectrum",
+  "field": "Physics and chemistry",
+  "text": "The word light, in everyday speech, means the narrow band our eyes happen to respond to. Physically, though, visible light is a thin slice of something far larger. Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays are all the same phenomenon, namely oscillating electric and magnetic fields travelling through space, and in a vacuum they all move at the same speed. What distinguishes them is wavelength, and with it frequency and the energy carried by each individual photon.\n\nThat single variable explains almost everything about how each band behaves. Long wavelengths at the radio end carry little energy per photon and bend around obstacles, which is why a radio signal still reaches you indoors. Short wavelengths at the other end carry enough energy to knock electrons out of atoms, which is what ionising means, and it is why X-rays and gamma rays damage living tissue while radio waves do not. Infrared sits just below the visible range, matching the vibrational energies of molecular bonds, which is why carbon dioxide and water vapour absorb it and why infrared spectroscopy can identify a compound. The spectrum itself is continuous. Our names for its regions are conveniences of history and technology rather than divisions in nature.",
+  "points": [
+    "Visible light is only a small part of a much wider electromagnetic spectrum.",
+    "All the bands are the same phenomenon, oscillating electric and magnetic fields, travelling at one speed in a vacuum.",
+    "They differ in wavelength, and therefore in frequency and photon energy.",
+    "Long radio waves are low in energy and bend around obstacles, so signals reach indoors.",
+    "Short wavelengths are ionising, which is why X-rays and gamma rays harm tissue.",
+    "The spectrum is continuous, and the named regions are human conveniences, not natural divisions."
+  ]
+}

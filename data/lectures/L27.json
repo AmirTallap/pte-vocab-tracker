@@ -1,0 +1,14 @@
+{
+  "id": "L27",
+  "title": "Why some volcanoes ooze and others explode",
+  "field": "Earth and environment",
+  "text": "Why do some volcanoes produce slow rivers of lava that tourists can walk beside, while others destroy themselves in a single afternoon? The answer is not the amount of magma but its composition, and specifically how much silica it contains.\n\nSilica-poor magma, the kind that rises beneath Hawaii and Iceland, is runny. Gas bubbles forming inside it can escape easily, so the magma simply flows out and builds the broad, gently sloping shields typical of those islands. Silica-rich magma is the opposite. Its molecules link into long chains, making it thick and sticky, so dissolved gases cannot escape as pressure falls. They stay trapped until the pressure exceeds the strength of the surrounding rock, and the magma is then torn apart into fragments and thrown violently into the air. That is an explosive eruption, and the steep, layered cones it builds are the ones we tend to picture. Composition, in turn, depends on setting. Magma rising directly from the mantle at a hot spot or an ocean ridge is silica-poor. Magma generated above a subduction zone melts and assimilates continental crust on its way up, becoming silica-rich. So plate tectonics ultimately predicts the style of eruption you should expect.",
+  "points": [
+    "Eruption style depends on the composition of the magma, particularly its silica content, not on how much magma there is.",
+    "Silica-poor magma is runny, so gas escapes easily and the lava flows out to build broad, gently sloping shield volcanoes.",
+    "Silica-rich magma is thick and sticky because its molecules link into chains, trapping gas until the pressure shatters the magma and produces a violent, explosive eruption and a steep layered cone.",
+    "Composition depends on tectonic setting.",
+    "Magma rising directly from the mantle at hot spots and ocean ridges is silica-poor, while magma above a subduction zone picks up continental crust and becomes silica-rich.",
+    "Plate tectonics therefore predicts what kind of eruption to expect."
+  ]
+}

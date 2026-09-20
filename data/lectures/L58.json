@@ -1,0 +1,14 @@
+{
+  "id": "L58",
+  "title": "Why Firms Exist at All",
+  "field": "Economics and business",
+  "text": "Here is a question that sounds naive and turns out not to be. Why do firms exist at all? If markets allocate resources efficiently through prices, why is so much economic activity organised inside companies, where things get done by instruction rather than by contract? A carmaker could in principle buy every component, every hour of labour and every piece of design from a separate supplier, negotiating each transaction afresh.\n\nThe answer proposed in the nineteen thirties is that using the market is not free. Finding a supplier takes time. Comparing offers takes effort. Writing a contract that anticipates everything which might happen is impossible, and enforcing the contract you did write is costly. These are transaction costs, and where they are high it is cheaper to bring the activity inside the firm and settle it by authority instead. That gives us a boundary rather than a rule. A firm expands until the cost of organising one more activity internally, meaning another layer of management and another person to supervise, exceeds what it would cost to buy that activity in the market. The same reasoning explains why the boundary moves. As communication and contracting become cheaper, activities once done in-house are put back out to suppliers.",
+  "points": [
+    "The question is why so much activity happens inside firms by instruction rather than through market contracts.",
+    "In principle a company could buy every component, hour of labour and design from separate suppliers.",
+    "Using the market has costs: searching, comparing, negotiating, writing contracts that cannot foresee everything, and enforcing them.",
+    "These are transaction costs, and where they are high it is cheaper to organise the activity inside the firm under authority.",
+    "A firm grows until the internal cost of organising one more activity exceeds the cost of buying it in.",
+    "When communication and contracting get cheaper, the boundary shifts and work is outsourced again."
+  ]
+}

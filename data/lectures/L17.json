@@ -1,0 +1,14 @@
+{
+  "id": "L17",
+  "title": "How Migrating Birds Hold Their Course",
+  "field": "Life sciences",
+  "text": "Some birds hatched in northern Europe will spend their first winter in West Africa, and in a number of species the young travel alone, with no experienced adult to follow. That fact sets the problem for this morning. A bird making its first journey cannot be remembering a route it has never taken, so the basic direction of the flight, and roughly how long to keep flying, must be inherited rather than learned.\n\nWhat it uses to hold that course is a set of overlapping cues. The sun gives a direction, but only to an animal that can allow for the sun's movement across the sky, which means consulting an internal clock. At night, the pattern of stars turning around the celestial pole offers a fixed reference, and young birds appear to learn that pattern in the weeks before they first fly. Many species can also detect the Earth's magnetic field, which supplies a heading when the sky is overcast. Landmarks such as coastlines, river valleys and mountain ranges then refine the route nearer the ground. The redundancy is the point. No single cue is reliable in all conditions, so a bird that can weigh several against one another will arrive where a bird trusting only one would be lost.",
+  "points": [
+    "In some species young birds migrate long distances alone, without following experienced adults.",
+    "Since they cannot remember a route they have never flown, the direction and duration must be inherited.",
+    "The sun gives a direction, but only if the bird uses an internal clock to allow for the sun's movement.",
+    "At night the stars rotating around the celestial pole give a fixed reference, and young birds learn that pattern before their first flight.",
+    "Many species also sense the Earth's magnetic field, which works under cloud, and use landmarks such as coasts and mountains near the ground.",
+    "The cues overlap deliberately, because no single cue is reliable in all conditions."
+  ]
+}

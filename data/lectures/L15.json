@@ -1,0 +1,14 @@
+{
+  "id": "L15",
+  "title": "Enzymes and the Shape of Catalysis",
+  "field": "Life sciences",
+  "text": "Every reaction inside a living cell faces the same obstacle: an energy barrier that has to be crossed before the reactants can become products. Heat would push molecules over that barrier, but a cell cannot simply raise its own temperature without destroying itself. Enzymes solve the problem in a different way. They are proteins, folded into a precise three-dimensional shape, and somewhere in that shape is a pocket we call the active site. The reacting molecule, the substrate, binds there, and the enzyme lowers the activation energy, often by holding two substrates in exactly the right orientation, or by straining a bond until it breaks more readily.\n\nTwo consequences follow. The first is specificity: because catalysis depends on shape, an enzyme normally acts on one substrate, or on a narrow family of similar ones. The second is fragility. Anything that disturbs the fold, whether high temperature or a shift in pH away from the enzyme's optimum, distorts the active site, and activity collapses. That is why enzyme activity climbs with temperature up to a point and then falls away sharply instead of levelling off, and it is why cells regulate their internal conditions so tightly. The chemistry depends on a shape, and a shape is easily lost.",
+  "points": [
+    "Reactions must cross an energy barrier, and a cell cannot use heat to do it.",
+    "Enzymes are proteins whose precise folded shape contains an active site.",
+    "The substrate binds at the active site and the enzyme lowers the activation energy, for example by orienting substrates or straining a bond.",
+    "Because catalysis depends on shape, enzymes are specific to one substrate or a narrow family.",
+    "High temperature or a change in pH distorts the fold and activity collapses rather than levelling off.",
+    "This is why cells regulate their internal conditions tightly."
+  ]
+}

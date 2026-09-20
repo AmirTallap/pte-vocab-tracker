@@ -1,0 +1,14 @@
+{
+  "id": "L05",
+  "title": "From Random Decay to a Reliable Geological Clock",
+  "field": "Physics and chemistry",
+  "text": "There is something genuinely strange about radioactive decay, and I would rather start with it than bury it later in the course. Take a single atom of a radioactive isotope and ask when it will decay. The honest answer is that nothing about the atom tells you. It does not age, it does not wear out, and an atom formed yesterday is no more likely to decay in the next hour than one formed when the Earth itself formed. Decay is a quantum process, governed by probability alone.\n\nAnd yet out of that unpredictability comes one of the most reliable clocks in science. Take an enormous number of such atoms, which any real sample contains, and the statistics become extremely precise. In a fixed interval a fixed proportion of them decays, which gives the exponential curve you will meet in the problem sheets, and the half-life, the time for half the sample to go, is a constant of that isotope. It is essentially unaffected by temperature, by pressure, or by what the atom is chemically bonded to. That insensitivity is what makes radiometric dating possible: measure the ratio of a parent isotope to its decay product in a rock and you can read off the time since it formed.",
+  "points": [
+    "For a single radioactive atom, nothing predicts when it will decay; atoms do not age.",
+    "Decay is a quantum process governed only by probability.",
+    "Across huge numbers of atoms the behaviour becomes statistically precise.",
+    "A fixed proportion decays in each interval, giving an exponential curve and a constant half-life.",
+    "The half-life is unaffected by temperature, pressure or chemical bonding.",
+    "That insensitivity allows radiometric dating from the parent-to-product ratio in a rock."
+  ]
+}

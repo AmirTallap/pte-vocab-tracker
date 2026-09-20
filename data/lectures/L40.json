@@ -1,0 +1,14 @@
+{
+  "id": "L40",
+  "title": "Space weather and the shield around the Earth",
+  "field": "Astronomy and space",
+  "text": "We tend to imagine space as empty, but the region between the Sun and the Earth is filled with a thin, fast stream of charged particles known as the solar wind. The Sun's outer atmosphere is so hot that its gas escapes continuously in every direction, and our planet sits permanently inside that outflow.\n\nMost of the time this is harmless, because the Earth has a magnetic field. The magnetosphere deflects the charged particles around us rather like a bow wave in front of a ship, and the atmosphere absorbs much of what does get through.\n\nThe interesting events are the disturbances. The Sun's magnetic field periodically becomes tangled, and the stored energy is released suddenly, either as a flare or as a coronal mass ejection, which is a vast cloud of magnetised plasma thrown outwards. If such a cloud happens to be aimed at us, it arrives within a day or two and compresses the magnetosphere, driving strong electric currents through it.\n\nThe visible consequence is the aurora, as particles funnelled towards the poles excite atoms high in the atmosphere. The practical consequences are less attractive: disrupted radio and satellite navigation, damaged spacecraft electronics, and induced currents that can overload power grids.",
+  "points": [
+    "The solar wind is a continuous stream of charged particles escaping the Sun's hot outer atmosphere.",
+    "The Earth's magnetic field, the magnetosphere, deflects those particles around the planet.",
+    "Tangled solar magnetic fields release energy as flares and coronal mass ejections.",
+    "A coronal mass ejection aimed at Earth arrives in a day or two and compresses the magnetosphere.",
+    "The aurora is produced when particles funnelled to the poles excite atoms in the upper atmosphere.",
+    "Severe space weather disrupts radio and satellite navigation, damages satellites and can overload power grids."
+  ]
+}

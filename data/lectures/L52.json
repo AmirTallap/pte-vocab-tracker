@@ -1,0 +1,14 @@
+{
+  "id": "L52",
+  "title": "The Cost That Never Appears on a Receipt",
+  "field": "Economics and business",
+  "text": "Every choice you made this week had a price that never appeared on a receipt. Economists call it opportunity cost: the value of the best alternative you gave up. An hour spent in this lecture is an hour not spent working, sleeping, or reading something else, and the cost of the lecture is whichever of those you would most have liked. The cost is the single best forgone option, not the sum of everything you did not do.\n\nThis matters because the costs that appear in a set of accounts are not the whole story. A family firm trading from a building it already owns may look comfortably profitable, because it pays no rent. But that building could have been let to somebody else, and the rent forgone is a genuine cost of staying in business, even though no money changes hands. Economists call that an implicit cost, and a firm covering only its explicit costs may be losing in the fuller sense. The idea also disposes of a familiar mistake. Money already spent and unrecoverable is not an opportunity cost, because no alternative use of it remains. What matters is what the next hour, or the next pound, can still buy.",
+  "points": [
+    "Opportunity cost is the value of the best alternative given up by making a choice.",
+    "It is the single best forgone option, not everything you did not do.",
+    "Accounting costs are incomplete: a firm using a building it owns pays no rent but gives up the rent it could have collected.",
+    "That forgone rent is an implicit cost, so a firm covering only its explicit costs may still be making a loss.",
+    "Money already spent and unrecoverable is not an opportunity cost, because no alternative use of it remains.",
+    "Decisions should turn on what the next hour or the next pound can still buy."
+  ]
+}

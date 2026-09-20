@@ -1,0 +1,14 @@
+{
+  "id": "L34",
+  "title": "The Moon, the Sun and the rhythm of tides",
+  "field": "Astronomy and space",
+  "text": "Tides look like a simple daily rhythm, but they are really a story about gravity varying across a distance. The Moon pulls on the Earth, and it pulls hardest on the side facing it, somewhat less on the centre of the planet, and least of all on the far side. It is that difference in the pull, which we call the tidal force, rather than the strength of the pull itself, that does the work.\n\nThe result is two bulges of water, one beneath the Moon and one on the opposite side, where the ocean is in effect left behind. The Earth rotates underneath those bulges, so most coastlines experience two high tides and two low tides in a little over a day.\n\nThe Sun contributes as well. It is vastly more massive than the Moon, but it lies so much further away that its tidal effect is roughly half as strong. When Sun and Moon are aligned, at new and full moon, the two effects add together and produce the large spring tides. When they sit at right angles, they partly cancel, giving the weaker neap tides. Local coastal geography then amplifies or damps the result.",
+  "points": [
+    "Tides are caused by the difference in the Moon's gravitational pull across the Earth, not the pull itself.",
+    "This tidal force raises two bulges of water, one facing the Moon and one on the opposite side.",
+    "The Earth rotates through those bulges, giving most coasts two high and two low tides daily.",
+    "The Sun also raises tides, but about half as strongly because it is so much further away.",
+    "Aligned Sun and Moon give large spring tides; at right angles they give weaker neap tides.",
+    "Local coastline shape can greatly increase or reduce the tidal range."
+  ]
+}

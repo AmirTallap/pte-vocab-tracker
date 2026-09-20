@@ -1,0 +1,14 @@
+{
+  "id": "L70",
+  "title": "Dopamine Signals Surprise, Not Pleasure",
+  "field": "Psychology and neuroscience",
+  "text": "Let me end this part of the course with reward, and with a result that overturned the obvious interpretation. Dopamine neurons in the midbrain were for a long time described as carrying pleasure, and recordings made from monkeys showed something considerably more interesting than that.\n\nWhen a thirsty animal receives an unexpected drop of juice, these neurons fire in a burst. But if a tone reliably precedes the juice, the burst migrates. After training the neurons respond to the tone, and barely respond to the juice itself, which has not become any less pleasant. And if the tone sounds but the juice fails to arrive, firing drops below its resting level at precisely the moment the juice was due. That pattern is not a pleasure signal. It is an error signal, reporting the difference between the reward received and the reward predicted. Something better than expected produces a positive signal, something worse a negative one, and something fully predicted produces nothing at all. That is exactly the quantity a learning system needs in order to correct its predictions, and it corresponds closely to algorithms developed independently in computer science. So the system is less about enjoying an outcome than about learning which cues predict it, and pursuing them.",
+  "points": [
+    "Midbrain dopamine neurons were long thought to signal pleasure.",
+    "An unexpected drop of juice makes them fire in a burst.",
+    "After a tone reliably predicts the juice, they respond to the tone instead and hardly respond to the juice.",
+    "If the predicted juice does not arrive, firing falls below baseline at the moment it was due.",
+    "The signal therefore reports the difference between reward received and reward predicted, an error signal rather than pleasure.",
+    "This is what a learning system needs to update predictions, matching algorithms from computer science, so the system is about learning and pursuing predictive cues rather than enjoyment."
+  ]
+}

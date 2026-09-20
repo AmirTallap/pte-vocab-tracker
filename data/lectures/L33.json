@@ -1,0 +1,14 @@
+{
+  "id": "L33",
+  "title": "Why the tilt of the Earth creates seasons",
+  "field": "Astronomy and space",
+  "text": "A question I put to every first-year group is this: why is it colder in winter? The usual answer is that the Earth is further from the Sun, and that answer is simply false. Our orbit is very nearly circular, and in fact the northern hemisphere's winter occurs when the Earth is at its closest approach to the Sun for the year.\n\nThe real cause is tilt. The Earth's rotation axis is inclined by roughly twenty-three degrees relative to the plane of its orbit, and, crucially, that axis keeps pointing in the same direction throughout the year. So for one half of the orbit the northern hemisphere leans towards the Sun, and for the other half it leans away.\n\nThe tilt then matters in two ways at once. When your hemisphere leans sunward, sunlight strikes the ground at a steeper angle, concentrating the same energy over a smaller area. And the Sun spends more hours above the horizon, so the heating lasts longer each day. Those two effects reinforce one another, and they operate in opposite phase in the two hemispheres, which is why December is midsummer in Australia and deep winter in Canada.",
+  "points": [
+    "The common explanation, that Earth is further from the Sun in winter, is wrong.",
+    "Earth's orbit is nearly circular, so distance is not the cause.",
+    "The cause is the roughly twenty-three degree tilt of Earth's axis, which keeps pointing the same way all year.",
+    "A hemisphere tilted towards the Sun receives sunlight at a steeper angle, concentrating the energy.",
+    "That hemisphere also gets more hours of daylight, so heating lasts longer.",
+    "The two hemispheres are in opposite phase, so their seasons are reversed."
+  ]
+}

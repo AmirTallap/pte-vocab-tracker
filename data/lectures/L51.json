@@ -1,0 +1,14 @@
+{
+  "id": "L51",
+  "title": "How Prices Coordinate a Market Nobody Plans",
+  "field": "Economics and business",
+  "text": "I want to begin with an everyday observation: nobody plans the supply of bread in this city, and yet the bakeries are rarely empty and rarely overwhelmed. What coordinates them is price. Think of a market as two sets of intentions. Buyers, taken as a group, want less of a good as its price rises, because at some point they switch to something else or do without it altogether. Sellers want to supply more as the price rises, because a higher price covers the cost of producing additional units. Put those two tendencies together and there is a price at which the quantity buyers want matches the quantity sellers offer.\n\nThe interesting part is what happens when the price is not that one. If it sits too high, unsold stock accumulates and sellers cut prices to clear it. If it sits too low, queues form and buyers bid the price up. Either way the imbalance itself generates the pressure that corrects it. And notice how little anyone needs to know. A grower who sees the price of wheat rise learns that wheat has become more urgently wanted somewhere, without being told where, or by whom, or why. The price carries the information and the incentive to act on it together.",
+  "points": [
+    "Nobody plans the supply of an everyday good, yet supply roughly matches demand, and price is what coordinates it.",
+    "Buyers want less of a good as the price rises; sellers want to supply more.",
+    "There is a price at which the quantity buyers want equals the quantity sellers offer.",
+    "If the price is too high, unsold stock builds up and sellers cut it; if too low, shortages or queues push it up.",
+    "The imbalance itself creates the pressure that corrects the price.",
+    "A price tells a producer that something is more wanted without telling them where or why, so it carries information and incentive at once."
+  ]
+}

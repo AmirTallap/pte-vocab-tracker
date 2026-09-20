@@ -1,0 +1,14 @@
+{
+  "id": "L50",
+  "title": "Reading Sources For What They Assume",
+  "field": "History and archaeology",
+  "text": "Every historian works with evidence that was made by somebody, for a purpose, and that purpose shapes what survives. Begin with the simplest problem: survival is not random. Tax registers, court records and monastic charters were kept because institutions had reasons to keep them, so the documentary past tilts heavily towards the literate, the propertied and the administered. Ordinary people tend to appear only when they are being counted, taxed or prosecuted.\n\nNext, consider intention. A chronicle written to praise a ruler is poor evidence for that ruler's virtues, but it may be excellent evidence for what virtues an audience of the time expected a ruler to display. That is the move which reshaped the discipline: reading a source not only for what it asserts, but for what it takes for granted, such as the prices, place names, categories and habits the writer assumed nobody would question. Finally, cross-examine. A single account is a claim. Several independent accounts that agree are stronger, and a document that undercuts its own author's interests is stronger still. Silence needs interpreting too: an absence in the record may mean that something did not happen, or merely that nobody with ink thought it worth recording.",
+  "points": [
+    "Evidence was created by people for purposes, and survival of sources is not random.",
+    "Administrative and legal records dominate, so the past tilts towards the literate, propertied and administered.",
+    "Ordinary people appear mainly when counted, taxed or prosecuted.",
+    "A biased source is weak evidence for its claims but good evidence for the expectations of its audience.",
+    "Historians read sources for what they take for granted, not only what they assert.",
+    "Accounts must be cross-examined, and gaps in the record need interpretation rather than being read as proof."
+  ]
+}

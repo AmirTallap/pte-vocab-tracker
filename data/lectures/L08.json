@@ -1,0 +1,14 @@
+{
+  "id": "L08",
+  "title": "Mendeleev's Gaps and the Logic of Periodicity",
+  "field": "Physics and chemistry",
+  "text": "When Mendeleev laid out the known elements in the eighteen-sixties, he was doing something that looks obvious now and was audacious then. He arranged them by increasing atomic weight and noticed that chemical behaviour repeated at intervals: a violently reactive metal, then a run of other elements, then another reactive metal behaving much like the first. Periodicity, hence the name of the table. His real nerve, though, showed in what he did with the gaps. Where the pattern demanded an element that nobody had yet found, he left a space and predicted the missing element's properties. When those elements duly turned up, the table stopped being a filing system and became a theory.\n\nWhat Mendeleev could not know was why any of it worked. That had to wait for atomic structure. Elements are properly ordered by the number of protons rather than by weight, which tidies away the handful of pairs he had to place out of sequence. And the periods correspond to the filling of electron shells. An element's chemistry is almost entirely the business of its outermost electrons, so elements sharing an outer configuration behave alike: noble gases are inert because their outer shell is complete, and halogens are aggressive because they are one electron short.",
+  "points": [
+    "Mendeleev ordered the known elements by atomic weight in the eighteen-sixties.",
+    "He noticed chemical behaviour repeating at intervals, which is periodicity.",
+    "He left gaps for undiscovered elements and predicted their properties, which made the table a theory rather than a filing system.",
+    "He could not explain why the pattern existed; that came from atomic structure.",
+    "Elements are properly ordered by proton number, which fixes the pairs that were out of sequence by weight.",
+    "Periods reflect the filling of electron shells, so outer electrons explain why noble gases are inert and halogens reactive."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L63",
+  "title": "Attention As A Leaky Filter",
+  "field": "Psychology and neuroscience",
+  "text": "Attention is our topic today, and I want to start from an old finding that still shapes the field. In the nineteen fifties, participants wore headphones delivering a different spoken message to each ear, and were asked to repeat one of them aloud. They managed that well. Questioned afterwards about the ignored ear, they could say whether the voice had been male or female, but not what language it was speaking, let alone what it had said.\n\nSo attention behaves like a filter, admitting one stream and discarding most of the other. But the filter leaks in an informative way: people often notice their own name in the channel they were ignoring. That suggests selection is not a simple gate at the ear, but happens after some meaning has already been extracted. The more striking demonstrations concern vision. When observers are given a demanding counting task to perform while watching a short film, a substantial proportion fail to report a conspicuous unexpected event that walks straight through the scene. They were looking directly at it. The lesson is not that people are careless. It is that awareness is not an automatic by-product of light reaching the eye, and capacity spent on one task is genuinely unavailable to another.",
+  "points": [
+    "In the classic listening experiment, participants repeated one spoken message while a different one played in the other ear.",
+    "They could report only crude features of the ignored message, such as the sex of the voice, not its content or language.",
+    "Attention therefore acts like a filter that admits one stream and rejects the rest.",
+    "The filter leaks, because people notice their own name in the ignored channel, so selection happens after some meaning is extracted.",
+    "In vision, observers busy with a counting task often miss a conspicuous unexpected event they are looking straight at.",
+    "The conclusion is that awareness is not automatic, and attention spent on one task is unavailable for another."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L45",
+  "title": "How Archaeologists Learned To Date Things",
+  "field": "History and archaeology",
+  "text": "Until the middle of the twentieth century, archaeologists could usually say what came before what, but rarely how long ago. Their main tool was stratigraphy, the principle that in undisturbed ground the lower layers are older than the ones above them. To this they added typology, the observation that artefact styles change gradually, so an assemblage of pottery or tools can be placed in a sequence. Both methods give relative dates. Neither gives a year.\n\nAbsolute dates came from physics. Radiocarbon dating rests on the fact that living things take in carbon from the atmosphere, including a small unstable proportion that begins to decay at a known rate once the organism dies. Measure how much remains, and you can estimate how long ago death occurred. The method transformed the discipline, because sequences built independently in different regions could finally be compared directly. It has limits worth remembering. It works only on organic material, it becomes unreliable beyond a few tens of thousands of years, and atmospheric carbon has not been perfectly constant, so raw results must be calibrated against tree rings and other records. And it dates the material, not the event: a beam reused from an older building gives you the age of the tree.",
+  "points": [
+    "Before radiocarbon, archaeologists could establish order but not calendar age.",
+    "Stratigraphy dates layers relative to each other, deeper meaning older in undisturbed ground.",
+    "Typology places artefacts in sequence because styles change gradually, but still gives only relative dates.",
+    "Radiocarbon dating measures the decay of unstable carbon taken in while an organism was alive.",
+    "It allowed sequences from different regions to be compared directly for the first time.",
+    "Its limits: organic material only, a time ceiling, the need for calibration, and it dates the material rather than the event."
+  ]
+}

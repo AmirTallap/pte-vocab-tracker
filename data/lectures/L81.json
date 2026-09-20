@@ -1,0 +1,14 @@
+{
+  "id": "L81",
+  "title": "Why compressed files get smaller, and what is lost",
+  "field": "Technology and computing",
+  "text": "Every file you send across a network costs time and bandwidth, so a great deal of computing effort goes into making files smaller. Compression works because most data is repetitive, and repetition is predictable. A plain text document uses the letter e far more often than the letter z, so instead of giving every character the same number of bits, a compression scheme gives common symbols short codes and rare ones long codes. Runs of identical values can be replaced by a count, and a repeated phrase by a reference back to where that phrase last appeared.\n\nThat family of methods is called lossless, because the original file can be reconstructed exactly, bit for bit, and it is what you must use for a program or a bank record. The alternative accepts a loss. Photographs and recorded sound contain detail that human eyes and ears cannot resolve, so a lossy scheme discards that detail deliberately and stores an approximation. The saving is enormous, often ten or twenty times, but the discarded information never comes back, and re-encoding an already compressed image degrades it further each time. The trade-off, then, is fidelity against size, and which one matters depends entirely on what the file is for.",
+  "points": [
+    "Compression exists to save bandwidth and storage, and works because data is repetitive.",
+    "Common symbols are given short codes and rare symbols long codes.",
+    "Repeated runs or phrases are replaced by counts or references back.",
+    "Lossless compression restores the original exactly and is required for programs and records.",
+    "Lossy compression throws away detail the senses cannot resolve and cannot be undone.",
+    "The trade-off is fidelity against size, decided by what the file is used for."
+  ]
+}

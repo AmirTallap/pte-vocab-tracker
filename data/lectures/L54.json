@@ -1,0 +1,14 @@
+{
+  "id": "L54",
+  "title": "Why Trade Helps Even the Better Producer",
+  "field": "Economics and business",
+  "text": "Suppose one country is better at producing everything than its neighbour: better at weaving cloth and better at growing wheat. The intuition most people reach for is that such a country has nothing to gain by trading. That intuition is wrong, and showing why is one of the oldest results in the discipline.\n\nThe reason is that what matters is not how much a country can produce, but what it must give up in order to produce it. If the more productive country puts workers into wheat, those workers are not weaving cloth, and if cloth is where its advantage is largest, the wheat is expensive in the only sense that counts. Meanwhile the less productive country, though worse at both tasks, sacrifices less cloth for every tonne of wheat it grows. Their opportunity costs differ, and that difference alone is enough. Each specialises where its own cost is lower, the two trade, and both can end up consuming more than either could produce alone. Two qualifications are worth keeping. The gain is a gain to each country in aggregate; within a country, industries that lose ground face real adjustment, and the workers there are not compensated automatically. And trade depends on transport, contracts and trust.",
+  "points": [
+    "Even a country better at producing everything can still gain from trade.",
+    "What matters is opportunity cost, meaning what must be given up to produce something, not absolute productivity.",
+    "The more productive country loses more cloth by growing wheat, while the less productive one gives up less.",
+    "Because their opportunity costs differ, each should specialise where its own cost is lower and then trade.",
+    "Both countries can then consume more than either could produce alone.",
+    "The gains are aggregate: industries and workers that lose out face real adjustment and are not automatically compensated, and trade relies on transport, contracts and trust."
+  ]
+}

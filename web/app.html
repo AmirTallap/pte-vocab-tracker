@@ -956,6 +956,64 @@
     background: var(--panel); padding: 12px 14px; margin-bottom: 14px;
   }
   .sspacer { flex: 1 1 auto; }
+
+  /* Three tasks now, so a segmented control rather than a button that says
+     the name of the other one. */
+  .smodes { display: flex; gap: 0; margin: 0 0 12px; flex-wrap: wrap; }
+  .smodes button {
+    font: inherit; font-size: 13px; cursor: pointer;
+    background: var(--panel); color: var(--muted);
+    border: 1px solid var(--border); padding: 7px 14px;
+  }
+  .smodes button + button { border-left: 0; }
+  .smodes button:first-child { border-radius: 8px 0 0 8px; }
+  .smodes button:last-child { border-radius: 0 8px 8px 0; }
+  .smodes button[aria-pressed="true"] {
+    background: var(--btn); border-color: var(--btn); color: #FFFFFF;
+  }
+  .smodes button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  .slec { margin-bottom: 12px; }
+  .slecmeta { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+  .slecfield {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--teal-dark); font-weight: 600;
+  }
+  .slecnum { font-size: 11.5px; color: var(--faint); }
+  .slectitle { margin: 0 0 10px; font-size: 17px; font-weight: 600; line-height: 1.4; }
+
+  /* The wait before a lecture can be heard. Two phases and they are honestly
+     different: the server has to synthesise about forty seconds of speech
+     before it sends a byte, and only then is there anything to download. */
+  .slecprog { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; }
+  .slecbar {
+    flex: 1 1 auto; height: 8px; border-radius: 5px; overflow: hidden;
+    background: var(--panel-2); border: 1px solid var(--border-2);
+  }
+  .slecbar i {
+    display: block; height: 100%; width: 0; background: var(--teal);
+    transition: width .25s linear;
+  }
+  .slecbar i.is-guess { background: var(--near); }
+  .slecprogtext {
+    flex: none; font-size: 12px; color: var(--muted);
+    font-variant-numeric: tabular-nums; min-width: 15em;
+  }
+
+  /* The lecture transcript in the report, and the prompt to take away. */
+  .slecture {
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel);
+    padding: 14px 16px; font-size: 15px; line-height: 1.75; white-space: pre-wrap;
+  }
+  .spoints { margin: 10px 0 0; padding-left: 20px; font-size: 13.5px; line-height: 1.7; color: var(--muted); }
+  .sprompt {
+    width: 100%; box-sizing: border-box; min-height: 220px; resize: vertical;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel-2);
+    color: var(--text); padding: 12px 14px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12.5px; line-height: 1.6; white-space: pre;
+  }
+  .scopied { font-size: 12.5px; color: var(--correct); margin-left: 8px; }
   .srec {
     width: 13px; height: 13px; border-radius: 50%;
     background: var(--wrong); flex: none; opacity: .25;
@@ -1632,7 +1690,35 @@
     <p id="speakLede"></p>
   </div>
 
+  <div class="smodes" role="group" aria-label="Task">
+    <button data-mode="free">Free talk</button>
+    <button data-mode="read">Read aloud</button>
+    <button data-mode="retell">Re-tell lecture</button>
+  </div>
+
   <div class="stask" id="speakTask">
+    <!-- Re-tell only. The lecture's words are NOT here: you hear it once, the
+         way the exam gives it, and the transcript appears in the report
+         afterwards. -->
+    <div class="slec" id="speakLec" hidden>
+      <div class="slecmeta">
+        <span class="slecfield" id="speakLecField"></span>
+        <span class="espacer"></span>
+        <span class="slecnum" id="speakLecNum"></span>
+      </div>
+      <p class="slectitle" id="speakLecTitle"></p>
+      <div class="slecprog" id="speakLecProg" hidden>
+        <span class="slecbar"><i id="speakLecBarFill"></i></span>
+        <span class="slecprogtext" id="speakLecProgText"></span>
+      </div>
+      <div class="erow">
+        <button class="btn small btn-primary" id="speakLecPlay">Play the lecture</button>
+        <button class="btn small" id="speakLecNext">Next lecture</button>
+        <button class="btn small" id="speakLecRandom">Random</button>
+        <span class="espacer"></span>
+        <select id="speakLecPick" aria-label="Choose a lecture"></select>
+      </div>
+    </div>
     <p class="sq" id="speakPrompt"></p>
     <p class="shint" id="speakHint"></p>
   </div>
@@ -1642,7 +1728,6 @@
     <span class="sclock" id="speakClock">0:00</span>
     <span class="smeter" aria-hidden="true"><i id="speakLevel"></i></span>
     <button class="btn small btn-primary" id="speakGo">Record</button>
-    <button class="btn small" id="speakMode">Read aloud</button>
     <button class="btn small" id="speakNew">New script</button>
     <button class="btn small" id="speakRate" hidden>0.5&times;</button>
     <span class="sspacer"></span>
@@ -1907,7 +1992,7 @@
       // recording, the transcript and the report are all deliberately
       // unsaved - see the speaking block for why - so there is nothing else
       // here that would survive a reload even if it wanted to.
-      speaking: { mode: "free" },
+      speaking: { mode: "free", lecture: null },
       // The Essays tab: which prompt, the countdown, and the draft. The draft
       // is here because the server keeps no essays (see src/essays.js), and
       // finding that out by losing twenty minutes to a stray reload would be
@@ -1962,7 +2047,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 10;
+  var API_VERSION = 11;
   var stale = false;
 
   function goStale(theirs) {
@@ -3589,7 +3674,7 @@
     try { speech.pause(); } catch (e) { /* nothing playing */ }
   }
 
-  function speak(text, btn) {
+  function speak(text, btn, onProgress) {
     if (!text) return Promise.resolve();
     var url = sayUrl(text, settings.voice.id, settings.voice.speed);
     if (!url) { voiceNote("No recording for this one.", "warn"); return Promise.resolve(); }
@@ -3605,7 +3690,23 @@
       if (!r.ok) {
         return r.json().then(function (j) { throw new Error(j.error || r.statusText); });
       }
-      return r.blob();
+      // Streamed only when somebody is watching. The server renders the whole
+      // clip before it sends a byte, so for a word this is one chunk and the
+      // reader is pure overhead - but for a lecture it is the difference
+      // between a real download bar and a guess.
+      if (!onProgress || !r.body || !r.body.getReader) return r.blob();
+      var total = Number(r.headers.get('content-length')) || 0;
+      var reader = r.body.getReader();
+      var parts = [], got = 0;
+      return (function pump() {
+        return reader.read().then(function (res) {
+          if (res.done) return new Blob(parts, { type: r.headers.get('content-type') || 'audio/wav' });
+          parts.push(res.value);
+          got += res.value.length;
+          onProgress(total ? got / total : null, got, total);
+          return pump();
+        });
+      })();
     }).then(function (blob) {
       // Something newer was asked for while this was rendering. Leave the
       // element alone - touching `src` here is exactly what aborts it.
@@ -4674,7 +4775,9 @@
 
   var mic = {
     available: false, status: null,
+    // "free" | "read" | "retell"
     mode: "free", script: null,
+    lectures: [], lecIndex: 0, lecture: null, lecTimes: null, lecHeard: false,
     recording: false, busy: false, report: null,
     session: [],
     media: null, rec: null, chunks: [], startedAt: 0, tick: null,
@@ -4706,7 +4809,8 @@
       speakEl("speakTab").hidden = !mic.available;
       // Which of the two tasks you were last on is a view setting like any
       // other; the recording and the report deliberately are not.
-      mic.mode = (settings.speaking && settings.speaking.mode) === "read" ? "read" : "free";
+      var saved = settings.speaking && settings.speaking.mode;
+      mic.mode = (saved === "read" || saved === "retell") ? saved : "free";
       if (mic.available) renderSpeakLede();
     })["catch"](function () {
       mic.available = false;
@@ -4760,7 +4864,15 @@
 
   function renderSpeakTask() {
     var read = mic.mode === "read";
-    speakEl("speakMode").textContent = read ? "Free talk" : "Read aloud";
+    var retell = mic.mode === "retell";
+
+    [].slice.call(document.querySelectorAll(".smodes [data-mode]")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.mode === mic.mode));
+    });
+    speakEl("speakLec").hidden = !retell;
+    speakEl("speakNew").hidden = !read;
+
+    if (retell) return renderLectureTask();
 
     if (read) {
       if (!mic.script) newScript();
@@ -4789,6 +4901,193 @@
     }
   }
 
+  /* ---- the lectures
+
+     A hundred short academic lectures to hear ONCE and then summarise in your
+     own words. The index is fetched with the deck; a lecture's text is fetched
+     only when you take it, and is not shown until the recording is over -
+     reading along would make it a different exercise entirely. */
+
+  function loadLectures() {
+    return api("/api/lectures").then(function (d) {
+      mic.lectures = d.lectures || [];
+      mic.lecTimes = { prepare: d.prepare || 10, speak: d.speak || 40 };
+      if (mic.lectures.length) {
+        var at = mic.lectures.findIndex(function (l) {
+          return l.id === (settings.speaking && settings.speaking.lecture);
+        });
+        mic.lecIndex = at >= 0 ? at : Math.floor(Math.random() * mic.lectures.length);
+      }
+    })["catch"](function () { mic.lectures = []; });   // the tab still works without them
+  }
+
+  function lecMeta() { return mic.lectures[mic.lecIndex] || null; }
+
+  /* Taking a lecture clears everything about the last one: the text, the
+     report, and whether it has been heard. You do not get to retell a lecture
+     you have not listened to, which is what `lecHeard` gates. */
+  function takeLecture(at) {
+    if (!mic.lectures.length) return;
+    mic.lecIndex = ((at % mic.lectures.length) + mic.lectures.length) % mic.lectures.length;
+    settings.speaking.lecture = mic.lectures[mic.lecIndex].id;
+    saveSettings();
+    mic.lecture = null;
+    mic.lecHeard = false;
+    lecProgress(false);
+    freshTask();
+  }
+
+  function renderLectureTask() {
+    var m = lecMeta();
+    speakEl("speakPrompt").textContent = "";
+    if (!m) {
+      speakEl("speakLecTitle").textContent = "No lectures are loaded.";
+      speakEl("speakHint").textContent = "";
+      return;
+    }
+    speakEl("speakLecField").textContent = m.field || "";
+    speakEl("speakLecNum").textContent = (mic.lecIndex + 1) + " of " + mic.lectures.length;
+    speakEl("speakLecTitle").textContent = m.title;
+
+    var pick = speakEl("speakLecPick");
+    if (pick.options.length !== mic.lectures.length) {
+      pick.innerHTML = mic.lectures.map(function (l, i) {
+        return '<option value="' + i + '">' + esc(l.title) + "</option>";
+      }).join("");
+    }
+    pick.value = String(mic.lecIndex);
+
+    speakEl("speakLecPlay").textContent = mic.lecHeard ? "Hear it again" : "Play the lecture";
+    speakEl("speakHint").innerHTML = mic.lecHeard
+      ? "<b>" + mmss(prepSeconds()) + " to think, then " + mmss(recSeconds()) +
+        " to re-tell it in your own words.</b> The microphone opens by itself and submits " +
+        "when the clock reaches zero. The lecture's words appear afterwards, not now."
+      : "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
+        "screen. The first play of a lecture has to be synthesised and takes a minute or " +
+        "two; every play after that is instant.";
+  }
+
+  /* Hearing it. The lecture is spoken by the voice in the bar at the top, so
+     the accent you practise against is the one you chose. It is NOT prefetched
+     for all hundred - that would be hours of synthesis for lectures you will
+     never take - but the NEXT one is warmed while you work on this, which is
+     the drill's trick for hiding a first render. */
+  /*
+   * How long synthesising a lecture takes, per word.
+   *
+   * Measured on this machine: 189 words rendered in about 43 seconds. It is
+   * used ONLY to fill a progress bar that would otherwise sit at nothing, and
+   * the bar says it is an estimate while it is running on it - a guess dressed
+   * as a measurement is worse than no bar at all. Once real bytes arrive the
+   * bar switches to the actual download, which IS measured.
+   */
+  var SYNTH_SECONDS_PER_WORD = 0.23;
+
+  function lecProgress(show, frac, label, guess) {
+    speakEl("speakLecProg").hidden = !show;
+    if (!show) return;
+    var fill = speakEl("speakLecBarFill");
+    fill.style.width = Math.max(0, Math.min(100, Math.round((frac || 0) * 100))) + "%";
+    fill.classList.toggle("is-guess", !!guess);
+    speakEl("speakLecProgText").textContent = label || "";
+  }
+
+  function playLecture() {
+    var m = lecMeta();
+    if (!m) return;
+    var btn = speakEl("speakLecPlay");
+    var timer = null, settled = false;
+
+    /* Idempotent, and NOT hung on the play() promise.
+       A blocked autoplay returns a promise that may never settle, and hanging
+       the whole task on it left the bar stuck at 100% and the Start button
+       disabled for ever - the lecture was fetched, rendered and ready, and the
+       page still would not let you speak. Ready is the thing being waited for
+       here; whether the browser consented to make a noise is a separate
+       question, and speak() already reports that in the voice note. */
+    function finish(err) {
+      if (settled) return;
+      settled = true;
+      clearInterval(timer);
+      lecProgress(false);
+      btn.classList.remove("is-busy");
+      if (err) return speakFail(err);
+      mic.lecHeard = true;
+      renderLectureTask();
+      renderSpeakBar();
+      warmNextLecture();
+    }
+
+    function speakIt(text) {
+      stopPlayback();
+      stopSpeaking();
+
+      // Phase one: the server is synthesising and has sent nothing yet. The
+      // bar creeps on an estimate from the word count and is coloured to say
+      // so, and it deliberately stops short of full - arriving at 100% while
+      // still waiting is the lie a progress bar must not tell.
+      var started = Date.now();
+      var expect = Math.max(4, m.words * SYNTH_SECONDS_PER_WORD);
+      var streaming = false, released = false;
+      lecProgress(true, 0, "Synthesising\u2026", true);
+      timer = setInterval(function () {
+        if (streaming) return;
+        var gone = (Date.now() - started) / 1000;
+        var left = Math.max(0, Math.round(expect - gone));
+        lecProgress(true, Math.min(0.92, gone / expect),
+          left ? "Synthesising \u2014 about " + left + "s left (first time only)"
+               : "Synthesising \u2014 nearly there", true);
+      }, 250);
+
+      return speak(text, btn, function (frac, got, total) {
+        // Phase two: real bytes, real percentage.
+        streaming = true;
+        lecProgress(true, frac == null ? 1 : frac,
+          total ? "Downloading " + Math.round((frac || 0) * 100) + "%"
+                : "Downloading " + Math.round(got / 1024) + "KB", false);
+        // Bytes are arriving, so the clip exists. Release the task shortly
+        // after, whether or not the browser consented to play it.
+        //
+        // Scheduled ONCE when the stream opens, not on "got >= total": the
+        // final chunk can leave the counter a byte under the advertised length
+        // while the percentage has already rounded to 100, and that near-miss
+        // left the bar stuck at "Downloading 100%" with Start still disabled.
+        if (!released) { released = true; setTimeout(finish, 2000); }
+      }).then(function () { finish(); })
+        ["catch"](function (err) {
+          finish("could not play that lecture: " + (err && err.message || err));
+        });
+    }
+
+    if (mic.lecture && mic.lecture.id === m.id) return speakIt(mic.lecture.text);
+
+    btn.classList.add("is-busy");
+    lecProgress(true, 0, "Fetching the lecture\u2026", true);
+    return api("/api/lectures/" + encodeURIComponent(m.id)).then(function (d) {
+      mic.lecture = d.lecture;
+      return speakIt(d.lecture.text);
+    })["catch"](function (err) {
+      finish("could not fetch that lecture: " + (err.message || err));
+    });
+  }
+
+  function warmNextLecture() {
+    var next = mic.lectures[(mic.lecIndex + 1) % mic.lectures.length];
+    if (!next) return;
+    api("/api/lectures/" + encodeURIComponent(next.id)).then(function (d) {
+      prefetchSpeech(d.lecture.text, true);
+    })["catch"](function () { /* a nicety */ });
+  }
+
+  speakEl("speakLecPlay").addEventListener("click", playLecture);
+  speakEl("speakLecNext").addEventListener("click", function () { takeLecture(mic.lecIndex + 1); });
+  speakEl("speakLecRandom").addEventListener("click", function () {
+    takeLecture(Math.floor(Math.random() * Math.max(1, mic.lectures.length)));
+  });
+  speakEl("speakLecPick").addEventListener("change", function () {
+    takeLecture(Number(this.value) || 0);
+  });
+
   /* ---- recording */
 
   function mmss(sec) {
@@ -4806,11 +5105,22 @@
      roughly 40 to read it - which is a comfortable 150wpm with room to
      breathe, not a sprint. Both are clamped, because a 20-word sentence still
      needs a moment and no Read Aloud ever runs past 40 seconds. */
-  function prepSeconds() { return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55))); }
-  function recSeconds()  { return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70))); }
+  /* Read Aloud scales both allowances to the length of the text, the way PTE
+     does. Re-tell Lecture does not: the exam gives ten seconds to think and
+     forty to speak whatever the lecture was, so those are fixed and come from
+     the server beside the lectures themselves. */
+  function prepSeconds() {
+    if (mic.mode === "retell") return (mic.lecTimes && mic.lecTimes.prepare) || 10;
+    return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55)));
+  }
+  function recSeconds() {
+    if (mic.mode === "retell") return (mic.lecTimes && mic.lecTimes.speak) || 40;
+    return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70)));
+  }
 
   function startPrep() {
-    if (!mic.script) return;
+    if (mic.mode === "read" && !mic.script) return;
+    if (mic.mode === "retell" && !mic.lecHeard) return;
     mic.phase = "prep";
     mic.prepEnds = Date.now() + prepSeconds() * 1000;
     clearInterval(mic.tick);
@@ -4908,9 +5218,9 @@
       mic.recording = true;
       mic.phase = "rec";
       mic.startedAt = Date.now();
-      // Only the read aloud is timed. Free talk is a conversation and stops
-      // when you stop, under the long backstop above.
-      mic.limit = mic.mode === "read" ? recSeconds() : 0;
+      // Free talk is a conversation and stops when you stop, under the long
+      // backstop above. The other two are exam tasks and are timed.
+      mic.limit = (mic.mode === "read" || mic.mode === "retell") ? recSeconds() : 0;
       clearInterval(mic.tick);
       mic.tick = setInterval(speakTick, 200);
       speakTick();
@@ -5392,16 +5702,18 @@
   function renderSpeakBar() {
     var go = speakEl("speakGo");
     var read = mic.mode === "read";
+    var retell = mic.mode === "retell";
     var busyish = mic.recording || mic.phase === "prep" || mic.busy;
 
     // One button, three labels, one handler - the Essays tab's Start/Restart
     // rule. A second handler for the timed start is how the two would drift.
     go.textContent = mic.recording ? "Stop"
       : mic.phase === "prep" ? "Record now"
-      : read ? "Start" : "Record";
+      : (read || retell) ? "Start" : "Record";
+    // In a re-tell you have to have HEARD the lecture before you can retell it.
+    go.disabled = mic.busy || (retell && !mic.lecHeard);
     go.classList.toggle("btn-primary", !mic.recording);
     go.classList.toggle("btn-danger", mic.recording);
-    go.disabled = mic.busy;
 
     speakEl("speakDot").classList.toggle("is-live", mic.recording);
     // Live only while something is actually being recorded or analysed - NOT
@@ -5409,9 +5721,19 @@
     // stopRecording() abandons a preparation cleanly, and that is the only way
     // out of a countdown you started by mistake. The exam gives you no way
     // out; a practice tool that also gave you none would just be annoying.
-    speakEl("speakMode").disabled = mic.recording || mic.busy;
-    speakEl("speakNew").disabled = mic.recording || mic.busy;
+    // Live through the reading time, dead only while something is actually
+    // being recorded or analysed - the only way out of a countdown started by
+    // mistake is to change task or take a new one.
+    var locked = mic.recording || mic.busy;
+    [].slice.call(document.querySelectorAll(".smodes [data-mode]")).forEach(function (b) {
+      b.disabled = locked;
+    });
+    speakEl("speakNew").disabled = locked;
     speakEl("speakNew").hidden = !read;
+    ["speakLecPlay", "speakLecNext", "speakLecRandom", "speakLecPick"].forEach(function (id) {
+      var el2 = speakEl(id);
+      if (el2) el2.disabled = locked;
+    });
 
     var state = speakEl("speakState");
     if (!mic.busy) {
@@ -5422,7 +5744,7 @@
           : "";
     }
     if (mic.phase === "idle" && !mic.busy) {
-      speakEl("speakClock").textContent = read
+      speakEl("speakClock").textContent = (read || retell)
         ? mmss(prepSeconds()) + " / " + mmss(recSeconds()) : "0:00";
     }
   }
@@ -5741,6 +6063,19 @@
       "model voice it is estimated, because a synthesised clip carries no word timings." +
       "</span></div>";
 
+    // The lecture first: you have just spoken about something you heard once,
+    // and the first thing worth seeing is what it actually said.
+    if (mic.mode === "retell" && mic.lecture) {
+      html += sec("The lecture", '<div class="slecture">' + esc(mic.lecture.text) + "</div>" +
+        (mic.lecture.points.length
+          ? '<ul class="spoints">' + mic.lecture.points.map(function (pt) {
+              return "<li>" + esc(pt) + "</li>";
+            }).join("") + "</ul>"
+          : ""),
+        "<b>" + esc(mic.lecture.title) + "</b> &mdash; the words you heard, and the points it " +
+        "makes. Read them against what you said below.");
+    }
+
     html += sec("What you said", legendHtml(rep) + transcriptHtml(rep) + row,
       '<b>Click any word or gap to hear exactly that slice of your recording</b>, and the word ' +
       'being said is underlined as it plays. The cut is exact to the sample; where it is cut is ' +
@@ -5870,8 +6205,46 @@
       "Word choice only, and neither column is correct &mdash; PTE accepts every standard variety. " +
       "This is a consistency check.");
 
+    // The prompt last, because it is the thing you take away once you have
+    // looked at everything above it.
+    if (mic.mode === "retell" && mic.lecture) {
+      html += sec("Ask a model for feedback",
+        '<textarea class="sprompt" id="retellPrompt" readonly spellcheck="false">' +
+        esc(retellPrompt(rep, mic.lecture)) + "</textarea>" +
+        '<div class="splayrow"><button class="sctl model" id="retellCopy">Copy the prompt</button>' +
+        '<span class="scopied" id="retellCopied" hidden>Copied</span></div>',
+        "This tool does not judge whether you covered the lecture, on purpose: every cheap way " +
+        "of checking that rewards parroting the lecture's phrasing, which is the opposite of " +
+        "what <i>in your own words</i> means. So it hands over the evidence instead &mdash; the " +
+        "lecture, what you said with the silences left in, and how you sounded. Paste this " +
+        "into Claude.");
+    }
+
     box.innerHTML = html;
     annotateScript(rep);
+
+    var copy = document.getElementById("retellCopy");
+    if (copy) {
+      copy.addEventListener("click", function () {
+        var t = document.getElementById("retellPrompt");
+        t.select();
+        var done = function () {
+          var note = document.getElementById("retellCopied");
+          note.hidden = false;
+          setTimeout(function () { note.hidden = true; }, 2000);
+        };
+        // The clipboard API needs a secure context, which http://localhost is
+        // but a bare IP is not - so the old selection route is kept as the
+        // fallback rather than leaving the button dead.
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(t.value).then(done, function () {
+            try { document.execCommand("copy"); done(); } catch (e) { /* select-and-copy */ }
+          });
+        } else {
+          try { document.execCommand("copy"); done(); } catch (e) { /* select-and-copy */ }
+        }
+      });
+    }
 
     /* Warm the cache for every correction on the page, the way a drill card
        prefetches its own audio: a first rendering costs ~2.5s, and spending it
@@ -5922,6 +6295,83 @@
         : "";
       return '<span class="w ok">' + esc(word) + "</span>" + extra;
     }).join(" ");
+  }
+
+  /*
+   * What you said, as plain text with the silences left in.
+   *
+   * The pauses are the point. A summary that reads fluently on the page may
+   * have been delivered in lurches, and a model asked to judge it cannot hear
+   * that - so it is written down: [1.2s] for a silence, (uh 0.5s) for a sound
+   * held in the gap. Without them the prompt would be asking for feedback on
+   * a transcript that flatters you.
+   */
+  function transcriptWithPauses(rep) {
+    var gapAfter = {};
+    (rep.fluency.gaps || []).forEach(function (g) {
+      if (g.after == null) return;
+      gapAfter[g.after] = g.kind === "filled" ? "(uh " + g.len + "s)" : "[" + g.len + "s]";
+    });
+    var out = [];
+    rep.words.forEach(function (w, i) {
+      out.push(String(w.text).trim());
+      if (gapAfter[i]) out.push(gapAfter[i]);
+    });
+    return out.join(" ");
+  }
+
+  /*
+   * The prompt to take away.
+   *
+   * This tool does not judge whether a summary covered a lecture, and should
+   * not start: that is a reading-comprehension judgement about meaning, and
+   * every cheap way of faking it - counting shared words, matching keywords -
+   * rewards parroting the lecture's phrasing, which is the exact opposite of
+   * what "in your own words" asks for and of what PTE marks.
+   *
+   * So the page assembles the evidence instead and hands it over: the lecture,
+   * what it actually said, what you actually said with the silences left in,
+   * and how you sounded. Paste it into a model that can read. That is an
+   * honest division of labour rather than a scoring number invented here.
+   */
+  function retellPrompt(rep, lecture) {
+    var p = rep.pace;
+    var fillers = rep.fillers.certain.length + rep.fluency.filled.length;
+    var L = [];
+    L.push("I am practising the PTE Academic \"Re-tell Lecture\" task. I heard the lecture");
+    L.push("below once, then had " + recSeconds() + " seconds to summarise it in my own words.");
+    L.push("");
+    L.push("=== THE LECTURE I HEARD ===");
+    L.push(lecture.text);
+    L.push("");
+    L.push("=== THE POINTS IT MAKES ===");
+    (lecture.points || []).forEach(function (pt, i) { L.push((i + 1) + ". " + pt); });
+    L.push("");
+    L.push("=== WHAT I SAID ===");
+    L.push("(Transcribed from the recording. [1.2s] is a silence, (uh 0.5s) is a sound");
+    L.push("held in the gap. Both are measured, not guessed.)");
+    L.push("");
+    L.push(transcriptWithPauses(rep));
+    L.push("");
+    L.push("=== HOW I SOUNDED ===");
+    L.push(p.words + " words in " + p.seconds + "s, which is " + p.wpm + " words per minute (" +
+           p.articulation + " with the pauses taken out).");
+    L.push(fillers + " filler" + (fillers === 1 ? "" : "s") + ", " +
+           rep.fluency.hesitations.length + " silence" +
+           (rep.fluency.hesitations.length === 1 ? "" : "s") + " over 0.7s.");
+    L.push("");
+    L.push("=== WHAT I WANT FROM YOU ===");
+    L.push("1. COVERAGE. Which of the points above did I actually get across? Which did I");
+    L.push("   miss? Did I say anything the lecture did not say, or get anything backwards?");
+    L.push("2. GRAMMAR. Every mistake, quoted from what I said, with the correction. Include");
+    L.push("   article, tense and agreement errors - they are the ones I lose marks on.");
+    L.push("3. OWN WORDS. Did I paraphrase, or did I lift the lecture's phrasing? PTE wants");
+    L.push("   the content in my own words, so tell me which of my sentences were borrowed.");
+    L.push("4. ONE FIX. The single most valuable thing to change next time, and why.");
+    L.push("");
+    L.push("Be blunt and specific, and quote me. Do not pad it with praise. Ignore");
+    L.push("pronunciation entirely - you are reading a transcript and cannot hear me.");
+    return L.join("\n");
   }
 
   function dialectHtml(rep) {
@@ -5982,7 +6432,7 @@
     if (mic.phase === "prep") return startRecording();  // done reading, go now
     // The read aloud gets its reading time first; free talk starts recording
     // on the press, because there is nothing to read.
-    if (mic.mode === "read") startPrep(); else startRecording();
+    if (mic.mode === "read" || mic.mode === "retell") startPrep(); else startRecording();
   });
 
   function freshTask() {
@@ -5995,11 +6445,14 @@
     renderSpeakBar();
   }
 
-  speakEl("speakMode").addEventListener("click", function () {
-    mic.mode = mic.mode === "read" ? "free" : "read";
-    settings.speaking.mode = mic.mode;
-    saveSettings();
-    freshTask();
+  [].slice.call(document.querySelectorAll(".smodes [data-mode]")).forEach(function (b) {
+    b.addEventListener("click", function () {
+      if (mic.mode === b.dataset.mode) return;
+      mic.mode = b.dataset.mode;
+      settings.speaking.mode = mic.mode;
+      saveSettings();
+      freshTask();
+    });
   });
   speakEl("speakNew").addEventListener("click", function () {
     newScript();
@@ -6499,7 +6952,7 @@
     // the address bar to match - so probing afterwards and re-routing reads
     // the corrected URL and lands on the drill for ever. It is one small local
     // request, and on the cloud build it is answered from memory.
-    return Promise.all([loadDeck(), loadUsage(), probeSpeech()]).then(function () {
+    return Promise.all([loadDeck(), loadUsage(), probeSpeech(), loadLectures()]).then(function () {
       applyRoute();
       // After the deck, not with it: the voice bar is a nicety and must not hold
       // up the first card, and a server without TTS simply hides the bar.

@@ -1,0 +1,14 @@
+{
+  "id": "L91",
+  "title": "Why English Spelling Stopped Matching Its Sounds",
+  "field": "Arts, language and education",
+  "text": "Open a page of Chaucer and you will struggle; open Shakespeare and you will manage, though some of his rhymes will fail. That difference tells us something important about language: it is always changing, and the change is far more orderly than it looks. Nineteenth-century philologists noticed that sound change does not strike individual words at random. When a sound shifts, it tends to shift in every word where it occurs in the same environment, which is why the relationships between related languages can be stated as rules rather than as lists of coincidences.\n\nThe clearest English example is the Great Vowel Shift, which ran roughly from the fourteenth century to the eighteenth. The long vowels all moved upward in the mouth, and the two that were already at the top had nowhere further to go, so they broke apart into diphthongs. The word we now pronounce as 'name' once had a vowel closer to the one in 'calm', and the vowel of 'time' was closer to that of 'team'. Printing fixed our spelling in the middle of all this, which is why English spelling records a pronunciation that has since walked away from it. Change is not decay; it is a system reorganising itself.",
+  "points": [
+    "Older English texts are progressively harder to read, which shows that language is always changing.",
+    "Sound change is regular: it affects every word where the sound appears in the same environment.",
+    "That regularity lets the relationships between related languages be stated as rules.",
+    "The Great Vowel Shift moved English long vowels upward between about the fourteenth and eighteenth centuries.",
+    "The highest vowels had nowhere to move and became diphthongs instead.",
+    "Printing fixed spelling during the shift, so spelling no longer matches pronunciation, and this is reorganisation rather than decay."
+  ]
+}

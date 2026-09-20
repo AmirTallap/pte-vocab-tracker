@@ -1,0 +1,14 @@
+{
+  "id": "L83",
+  "title": "Why networks break messages into packets",
+  "field": "Technology and computing",
+  "text": "When you load a web page, the data does not cross the network as one continuous stream. It is chopped into small units called packets, each carrying a fragment of the content together with a header giving the destination address and a sequence number. The alternative, the method the old telephone system used, was to reserve a dedicated circuit for the whole conversation. That guarantees a steady connection, but the circuit sits idle whenever nobody is speaking, and computer traffic is extremely bursty.\n\nPacket switching gives up the guarantee and gains efficiency. Because no route is reserved, many conversations share the same links, and each packet is forwarded hop by hop by routers that decide where to send it next. Packets from a single page may take different routes, arrive out of order, or not arrive at all, and it is the receiving computer's job to reassemble them by sequence number and ask again for anything missing. The cost of this design is variable delay, which is why a video call stutters when a link is congested. The benefit is a network that degrades gradually rather than collapsing, routes around a broken link, and needs no central authority to function.",
+  "points": [
+    "Data is divided into packets, each with a header carrying an address and a sequence number.",
+    "The older alternative reserved a dedicated circuit, which wasted capacity when nobody was speaking.",
+    "Packet switching lets many conversations share the same links, and routers forward each packet hop by hop.",
+    "Packets may take different routes, arrive out of order, or be lost.",
+    "The receiver reorders them by sequence number and requests missing ones again.",
+    "The trade is variable delay in exchange for efficiency, rerouting around failures and no central control."
+  ]
+}

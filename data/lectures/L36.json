@@ -1,0 +1,14 @@
+{
+  "id": "L36",
+  "title": "What telescopes really do with light",
+  "field": "Astronomy and space",
+  "text": "The popular idea of a telescope is that it magnifies, and magnification is very nearly the least important thing it does. What a telescope really does is collect light. The key number is the aperture, the diameter of the main mirror or lens, because the collecting area grows with the square of that diameter. Double the aperture and you gather four times as much light, which means that fainter and more distant objects become detectable. A larger aperture also improves resolution, the ability to distinguish two points that lie very close together.\n\nThere is a second reason to build large instruments and to build them in unusual places. Visible light is only a narrow slice of the electromagnetic spectrum, and objects radiate across the whole of it. Cold gas and dust glow in the infrared, while violent processes near black holes emit X-rays. Our atmosphere is generous with visible light and radio waves, and largely opaque to much of the rest.\n\nThat is why some observatories are placed on high mountaintops, above the densest and most turbulent air, and why others are placed in orbit altogether. An X-ray telescope on the ground would detect nothing, because the photons it needs never arrive.",
+  "points": [
+    "A telescope's main job is collecting light, not magnifying.",
+    "Aperture is the key measure, and collecting area rises with the square of the diameter.",
+    "A bigger aperture shows fainter objects and also gives better resolution.",
+    "Objects emit across the whole electromagnetic spectrum, not just visible light.",
+    "The atmosphere blocks most wavelengths apart from visible light and radio.",
+    "That is why telescopes are put on mountaintops or in orbit, and why X-ray astronomy must be done from space."
+  ]
+}

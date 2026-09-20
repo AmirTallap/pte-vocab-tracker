@@ -1,0 +1,14 @@
+{
+  "id": "L92",
+  "title": "Why Writing Systems Differ From One Another",
+  "field": "Arts, language and education",
+  "text": "It is tempting to assume that the alphabet is the natural endpoint of writing, and that other systems are earlier stages on the way towards it. That assumption does not survive contact with the evidence. Writing systems differ mainly in the size of the linguistic unit that each symbol stands for, and the unit that suits a language depends on how that language happens to be built.\n\nA logographic system gives each symbol to a word, or to a meaningful part of one. It needs thousands of symbols, so it takes years to learn, but it is remarkably independent of pronunciation: readers of mutually unintelligible Chinese varieties can use the same text. A syllabary gives one symbol to each syllable, which works well for a language such as Japanese, whose syllables are few and simple; it would be unusable for English, where the possible syllables run into the thousands. An alphabet assigns a symbol to each consonant and vowel, so two or three dozen characters cover everything, at the cost of tying the script closely to one pronunciation. None of these is primitive. Each is a different settlement of the same bargain, between the number of symbols a reader must memorise and the amount of work each symbol does.",
+  "points": [
+    "The alphabet is not the natural endpoint of writing or the most advanced system.",
+    "Writing systems differ in the size of the language unit each symbol represents.",
+    "Logographic symbols stand for words or meaningful parts, needing thousands of symbols but working across spoken varieties.",
+    "A syllabary suits a language with few simple syllables, such as Japanese, but not English.",
+    "An alphabet needs only a few dozen symbols but ties writing closely to one pronunciation.",
+    "Each system is a different trade-off between the number of symbols and the work each one does."
+  ]
+}

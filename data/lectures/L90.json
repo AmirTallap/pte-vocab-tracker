@@ -1,0 +1,14 @@
+{
+  "id": "L90",
+  "title": "Why redundancy alone does not prevent failure",
+  "field": "Technology and computing",
+  "text": "Anyone who builds large systems eventually learns that components fail, and that no amount of care in manufacture removes that fact. It only makes failures rarer. Reliability engineering therefore begins from a different question: not how do we stop the parts failing, but how does the whole system behave when they do.\n\nThe basic answer is redundancy, meaning more of something than the job strictly requires, so that a survivor can take over. But redundancy only helps against failures that are independent of each other. If two disks are identical, from the same production batch, in the same rack, drawing on the same power supply, then heat, a shared manufacturing defect or a surge can take both at once. Engineers call that a common-mode failure, and it quietly destroys the arithmetic that made duplication look safe. There is a second trap as well. A redundant system conceals its own damage, because it keeps working while spare capacity is consumed, and the fault that finally becomes visible is the last one rather than the first. That is why serious designs test the spare path deliberately, and why large outages are usually a chain of small faults arriving together.",
+  "points": [
+    "Components always fail; better manufacturing makes failure rarer but never removes it.",
+    "Reliability engineering asks how the system behaves when parts fail, not how to prevent all failures.",
+    "Redundancy means having more capacity than needed so a survivor can take over.",
+    "Redundancy only works against independent failures.",
+    "Shared batch, rack, heat or power supply cause common-mode failures that defeat duplication.",
+    "Redundant systems hide damage until the last spare is gone, so spare paths must be tested deliberately."
+  ]
+}

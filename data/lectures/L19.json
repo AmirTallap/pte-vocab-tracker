@@ -1,0 +1,14 @@
+{
+  "id": "L19",
+  "title": "Electrical Signals And The Synaptic Gap",
+  "field": "Life sciences",
+  "text": "Let us follow a single signal from one end of a nerve cell to the other. At rest, the inside of the cell is slightly negative compared with the outside, a difference maintained by pumps that push ions across the membrane. When the cell is stimulated past a certain threshold, channels in that membrane open, positively charged sodium ions rush inwards, and the voltage across the membrane briefly reverses. That reversal opens the channels immediately next to it, which opens the ones next to those, so the disturbance travels along the fibre as a wave. It is not electricity flowing down a wire; it is a local event, repeated along the cell.\n\nTwo features follow from that. The signal is all or nothing: below threshold nothing happens, and above it the response is always the same size, so the strength of a stimulus is coded by how often the cell fires, not by how large the signal is. And the fibre cannot fire again for a brief interval, which is what fixes the direction of travel. At the end of the fibre the signal meets a gap. There the cell releases a chemical transmitter, which crosses the synapse and makes the next neuron more, or less, likely to fire.",
+  "points": [
+    "A resting nerve cell is slightly negative inside, maintained by ion pumps across the membrane.",
+    "Stimulation past a threshold opens channels, sodium ions rush in, and the voltage reverses.",
+    "The reversal opens neighbouring channels, so the signal travels as a repeated local event rather than as current in a wire.",
+    "The signal is all or nothing, so stimulus strength is coded by firing frequency, not signal size.",
+    "The fibre briefly cannot fire again, which fixes the direction the signal travels.",
+    "At the synapse the cell releases a chemical transmitter across a gap, making the next neuron more or less likely to fire."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L37",
+  "title": "Two complementary ways of detecting exoplanets",
+  "field": "Astronomy and space",
+  "text": "Finding a planet around another star is difficult for an obvious reason. The planet is extremely faint and it sits beside something overwhelmingly bright. So for the most part we do not photograph exoplanets at all. We infer them from the effect they have on the star they orbit.\n\nThe first productive approach was the radial velocity technique. A planet does not simply orbit its star; the two bodies orbit their common centre of mass, so the star traces out a small wobble. As the star moves alternately towards us and away from us, its light is shifted slightly towards the blue and then towards the red, and that regular, repeating shift reveals the planet's orbital period and a minimum value for its mass.\n\nThe second approach, and now by far the more prolific, is the transit method. If the orbit happens to be aligned edge-on as seen from Earth, the planet passes in front of the star once per orbit and dims it very slightly. The depth of that dip gives the size of the planet relative to the star.\n\nThe two methods are complementary, and that is the point. Transits give radius, radial velocity gives mass, and together they give density.",
+  "points": [
+    "Exoplanets are hard to see directly because they are faint and close to a bright star.",
+    "They are usually detected through their effect on the star instead.",
+    "The radial velocity method measures the star's wobble as blue and red shifts in its light.",
+    "That wobble gives the planet's orbital period and a minimum mass.",
+    "The transit method measures the slight dimming when a planet crosses in front of its star, giving its size.",
+    "Combining the two methods gives mass and radius together, and therefore density."
+  ]
+}

@@ -28,11 +28,12 @@ import { loadUsage } from '../src/usage.js';
 import { loadGrammar } from '../src/grammar.js';
 import { loadEssays, loadEssayGuides } from '../src/essays.js';
 import { loadModels } from '../src/models.js';
+import { loadLectures, lectureIndex, PREPARE_SECONDS, SPEAK_SECONDS } from '../src/lectures.js';
 import { VOICES, ACCENTS, DEFAULT_VOICE } from '../src/tts.js';
 
 // Kept in step with src/server.js's. A page that finds a different number
 // refuses to write, which is the point of it.
-const API_VERSION = 10;
+const API_VERSION = 11;
 
 const DIST = path.join(ROOT, 'dist');
 const WEB = path.join(ROOT, 'web');
@@ -123,6 +124,21 @@ function main() {
     modelBytes += write(`static/models/${id}.json`, { api: API_VERSION, id, models: list });
   }
 
+  /* ------------------------------------------------------------- lectures */
+
+  // Same shape as the model answers, and for the same reason: an index that
+  // every visit reads, and one file per item that only a taken lecture fetches.
+  const { lectures } = loadLectures();
+  let lectureBytes = write('static/lectures.json', {
+    api: API_VERSION,
+    prepare: PREPARE_SECONDS,
+    speak: SPEAK_SECONDS,
+    lectures: lectureIndex(lectures),
+  });
+  for (const l of lectures) {
+    lectureBytes += write(`static/lectures/${l.id}.json`, { api: API_VERSION, lecture: l });
+  }
+
   /* -------------------------------------------------------------- grammar */
 
   // The same mapping src/server.js:/api/grammar uses. The answers are not
@@ -211,6 +227,7 @@ function main() {
   console.log(`  usage      ${kb(usageBytes)}`);
   console.log(`  grammar    ${kb(grammarBytes)}  (${stripped.modules.length} modules, no answers)`);
   console.log(`  essays     ${kb(essayBytes)} + ${kb(modelBytes)} of model answers`);
+  console.log(`  lectures   ${kb(lectureBytes)}  (${lectures.length} to re-tell)`);
   console.log(`  answers    ${kb(keyBytes)}  (worker/grammar-key.json - never served)`);
   console.log(`  audio      ${(audioBytes / 1024 / 1024).toFixed(1)}MB  (${shipped.map((v) => v.id).join(', ') || 'none'})`);
   console.log(`\n  dist/ ready`);

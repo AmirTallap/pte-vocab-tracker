@@ -1,0 +1,14 @@
+{
+  "id": "L13",
+  "title": "Two Layers of Immune Defence",
+  "field": "Life sciences",
+  "text": "I want to begin by correcting a common picture of immunity, the idea of a single defensive system that simply switches on when you fall ill. The body actually runs two layers, and they work on quite different timescales. The innate layer is immediate and general. Skin and mucous membranes belong to it, and so do cells such as macrophages, which engulf anything carrying the molecular signatures typical of bacteria. Inflammation belongs here too: blood vessels widen, fluid and cells move into the tissue, and you get the familiar heat, redness and swelling. This response does not distinguish one pathogen from another, and it does not improve with experience.\n\nThe adaptive layer is slower, taking days rather than minutes, but it is specific. Lymphocytes carry receptors, each shaped to recognise one particular molecular feature, which we call an antigen. When a receptor finds its match, that cell divides rapidly, producing antibodies or destroying infected cells. The crucial point is what happens afterwards. Some of those cells persist as memory cells, so a second encounter with the same pathogen provokes a response that is both faster and stronger. That is why certain infections are suffered only once, and it is the principle that vaccination exploits.",
+  "points": [
+    "Immunity is not one system but two layers working on different timescales.",
+    "The innate layer is immediate and general, including barriers such as skin, engulfing cells such as macrophages, and inflammation.",
+    "The innate response does not distinguish between pathogens and does not improve with experience.",
+    "The adaptive layer takes days but is specific, using lymphocyte receptors that recognise a particular antigen.",
+    "A matching lymphocyte divides rapidly and produces antibodies or destroys infected cells.",
+    "Memory cells make a second encounter faster and stronger, which is the basis of vaccination."
+  ]
+}

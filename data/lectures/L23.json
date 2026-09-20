@@ -1,0 +1,14 @@
+{
+  "id": "L23",
+  "title": "Why the deep ocean circulates at all",
+  "field": "Earth and environment",
+  "text": "I want to spend this session on a single question: why does the deep ocean move at all? Surface currents are straightforward enough. The wind drags on the water, the Earth's rotation deflects the resulting flow, and you get the great circling gyres of each ocean basin. But water several kilometres down is far beyond the reach of any wind, and it still circulates.\n\nThe answer is density, and in seawater density is governed by two properties: temperature and salinity. Cold water is denser than warm water, and salty water is denser than fresh. In a few places at high latitudes, notably the northern Atlantic and the margins of Antarctica, both effects act together. The atmosphere chills the surface, and when sea ice forms it excludes salt, leaving the water beneath it saltier. The surface water there becomes dense enough to sink, and it then spreads slowly across the ocean floor. That sinking drives what we call the thermohaline circulation, from the Greek words for heat and salt. It is extraordinarily slow, taking centuries to complete a circuit, yet it carries warmth towards the poles, supplies the deep ocean with oxygen and transports dissolved carbon downwards. A change in density at those few sinking regions is felt worldwide.",
+  "points": [
+    "Surface currents are driven by wind and deflected by the Earth's rotation, but deep water circulates far from any wind.",
+    "Deep circulation is driven by density, which in seawater depends on temperature and salinity: cold water and salty water are denser.",
+    "In a few high-latitude regions, such as the northern Atlantic and around Antarctica, cooling and salt left behind by forming sea ice both make surface water dense enough to sink.",
+    "The sunken water spreads slowly along the ocean floor, driving the thermohaline circulation.",
+    "The circulation takes centuries but carries heat polewards, supplies oxygen to the deep ocean and moves carbon downwards.",
+    "Because so few places drive it, a density change there has worldwide effects."
+  ]
+}

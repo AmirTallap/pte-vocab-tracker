@@ -1,0 +1,14 @@
+{
+  "id": "L39",
+  "title": "The emptiness hidden by solar system diagrams",
+  "field": "Astronomy and space",
+  "text": "Textbook diagrams of the solar system mislead almost everyone, and it is worth understanding exactly how. To fit eight planets onto a single page, the illustrator has to shrink the distances far more aggressively than the sizes. The result looks crowded and busy. The real solar system is overwhelmingly empty.\n\nTry a scale model instead. Shrink the Sun to the size of a large beach ball and place it at one end of a playing field. On that same scale the Earth becomes a peppercorn about thirty paces away. Jupiter, the largest planet in the system, is no wider than a marble, and you would have to walk the better part of a kilometre to reach Neptune. The nearest star beyond the Sun would be thousands of kilometres distant. You would have to leave the country.\n\nAstronomers cope with this by changing units rather than counting zeros. Distances within the solar system are measured in astronomical units, one unit being the average Earth to Sun distance. Beyond it they use the light year, the distance light travels in a year. And because light takes time, distance becomes delay. Sunlight reaches us in about eight minutes, so we always see the Sun as it was.",
+  "points": [
+    "Diagrams of the solar system compress distances much more than sizes, so they look crowded.",
+    "In reality the solar system is almost entirely empty space.",
+    "On a scale model with the Sun as a beach ball, Earth is a peppercorn about thirty paces away.",
+    "Neptune would be most of a kilometre away and the nearest star thousands of kilometres away.",
+    "Astronomers use astronomical units inside the solar system and light years beyond it.",
+    "Because light takes time to travel, we see distant objects as they were, not as they are."
+  ]
+}

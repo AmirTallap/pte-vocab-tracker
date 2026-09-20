@@ -1,0 +1,14 @@
+{
+  "id": "L10",
+  "title": "The Hydrogen Bond and Water's Useful Anomalies",
+  "field": "Physics and chemistry",
+  "text": "Water is so familiar that its oddities are easy to overlook, but almost every property that makes it useful is in fact anomalous. Compare it with the related molecules formed from the elements directly below oxygen in the same group. On the trend those substances establish, water ought to boil far below room temperature; it ought to be a gas everywhere on this planet's surface. It plainly is not, and the reason is a particular kind of bonding.\n\nWithin a water molecule, oxygen attracts the shared electrons considerably more strongly than hydrogen does. The bond is covalent but unequally so, which leaves the oxygen slightly negative and the hydrogens slightly positive. Those partial charges allow each molecule to attract its neighbours, and that attraction is the hydrogen bond. Individually it is much weaker than a covalent bond, but there are a great many of them, and collectively they hold liquid water together well beyond the temperature at which it would otherwise escape.\n\nThe same bonding accounts for the rest. Ice floats because hydrogen bonds lock the molecules into an unusually open lattice. Water dissolves salts because those partial charges surround the separated ions. And its large heat capacity, which moderates climate, is the energy needed to disturb that network.",
+  "points": [
+    "Water's useful properties are anomalous compared with related molecules from the same group.",
+    "By that trend water should boil far below room temperature and be a gas at the surface.",
+    "Oxygen pulls the shared electrons harder than hydrogen, making the covalent bond unequal and leaving partial charges.",
+    "Those partial charges let molecules attract each other, which is the hydrogen bond.",
+    "Each hydrogen bond is weak but there are many, so together they keep water liquid to a much higher temperature.",
+    "The same bonding explains floating ice, the dissolving of salts, and the high heat capacity that moderates climate."
+  ]
+}

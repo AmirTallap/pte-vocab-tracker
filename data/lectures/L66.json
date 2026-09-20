@@ -1,0 +1,14 @@
+{
+  "id": "L66",
+  "title": "How Children Discover The Rules Of Grammar",
+  "field": "Psychology and neuroscience",
+  "text": "By the age of four, a child who has never had a grammar lesson can produce sentences nobody has ever said to her, and mark tense and number correctly while doing it. Explaining that is the central problem of developmental psycholinguistics.\n\nStart with the evidence that children extract rules rather than memorising strings. English-speaking children typically use the form went correctly at first, then pass through a stage of saying goed and foots, and only later return to the adult forms. That U-shaped pattern is revealing, because the middle stage cannot possibly be imitation: no adult says goed. The child has induced a rule and is over-applying it. How is the rule found in the first place? A good deal of the work appears to be statistical. Infants of around eight months, after a couple of minutes of continuous nonsense speech containing no pauses, can distinguish syllable sequences that recurred reliably from sequences that did not, which is enough to begin pulling words out of a stream of sound. What remains genuinely contested is how much must be built in. One tradition argues that the input underdetermines the grammar, so some structural knowledge is innate; another holds that general learning and rich social interaction are sufficient.",
+  "points": [
+    "By about four, children produce novel, grammatical sentences without instruction.",
+    "Children say went correctly, then go through a stage of goed and foots, then return to the correct forms.",
+    "That middle stage cannot be imitation, so it shows the child has worked out a rule and over-applies it.",
+    "Infants of about eight months can pick out recurring syllable sequences from continuous nonsense speech, showing statistical learning helps them find words.",
+    "It is still debated how much grammatical knowledge is innate.",
+    "One view says the input is too poor without innate structure; the other says general learning plus social interaction is enough."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L93",
+  "title": "Linear Perspective As A Useful Convention",
+  "field": "Arts, language and education",
+  "text": "A fourteenth-century altarpiece can look wrong to a modern eye. Figures are sized according to their importance rather than their distance, and the floor tiles do not converge on anything. Nothing was wrong. The painter was ranking the figures, not reporting a view taken from one particular spot in a room.\n\nWhat changed in early fifteenth-century Florence was the arrival of a geometrical method. Brunelleschi demonstrated that a scene could be constructed as though seen through a window by a single fixed eye, and Alberti set the procedure down in writing: parallel lines running away from the viewer meet at one vanishing point, and equal intervals on the ground shrink in a calculable ratio. That turned depth into arithmetic. A painter could place a figure at a stated distance and get its height right without guessing. The cost is worth naming. Linear perspective assumes one motionless eye, in one position, looking through a flat rectangle, which is not how anybody actually looks at anything. Later painters said so directly. Cezanne let the two ends of a table edge disagree, and the Cubists abandoned the single viewpoint altogether. Perspective was never truth. It was a convention that proved extraordinarily useful for about five hundred years.",
+  "points": [
+    "Medieval paintings size figures by importance rather than distance, which was a deliberate convention.",
+    "In early fifteenth-century Florence, Brunelleschi demonstrated a geometrical way of constructing a view.",
+    "Alberti wrote the method down: parallel lines meet at a single vanishing point and intervals shrink predictably.",
+    "The method let painters calculate the size of a figure at a given distance instead of guessing.",
+    "It assumes one motionless eye looking through a flat rectangle, which is not how people really see.",
+    "Cezanne and the Cubists abandoned the single viewpoint, showing perspective was a useful convention rather than truth."
+  ]
+}

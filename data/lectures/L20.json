@@ -1,0 +1,14 @@
+{
+  "id": "L20",
+  "title": "Why Antibiotics Lose Their Power",
+  "field": "Life sciences",
+  "text": "Resistance to antibiotics is often described as bacteria growing stronger, or as a person becoming immune to a drug. Both descriptions are wrong, and correcting them shows you how the process actually works. Resistance is a property of a bacterial population, not of the patient carrying it, and it is ordinary natural selection running unusually fast.\n\nIn any large population of bacteria, a few cells will by chance carry a variant that lets them survive a particular drug: an altered target the antibiotic can no longer bind to, a pump that expels the drug, or an enzyme that breaks it down. In the absence of the drug those variants are often slightly costly to maintain, so they remain rare. Introduce the antibiotic and the arithmetic reverses. The susceptible cells die, the rare survivors inherit an empty field with no competitors, and within days the population is dominated by their descendants. Two things make this faster than selection in most organisms. Bacterial generations are measured in minutes rather than years. And bacteria pass genes sideways, carrying resistance on small rings of DNA to unrelated cells, even across species. Every unnecessary exposure is therefore another round of selection, applied to a population extremely good at responding.",
+  "points": [
+    "Resistance is a property of bacterial populations, not of the patient, and is not bacteria becoming stronger.",
+    "It is ordinary natural selection operating very quickly.",
+    "Rare variants already exist that survive a drug, by altering its target, pumping it out, or breaking it down.",
+    "Without the drug those variants are slightly costly and stay rare.",
+    "Using the antibiotic kills the susceptible cells and lets the survivors take over the population within days.",
+    "Very short bacterial generations and the sideways transfer of resistance genes between species speed this up, so every unnecessary exposure is another round of selection."
+  ]
+}

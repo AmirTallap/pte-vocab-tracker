@@ -1,0 +1,14 @@
+{
+  "id": "L06",
+  "title": "Diamond and Graphite: Structure Decides Everything",
+  "field": "Physics and chemistry",
+  "text": "I want you to picture two samples, both of them pure carbon with nothing else in either. One is diamond, among the hardest substances we know, transparent, and an excellent electrical insulator. The other is graphite, soft enough to leave a mark on paper, opaque, and a reasonable conductor of electricity. Same element, same atoms, and yet two utterly different materials. The lesson is that in the solid state the arrangement of the atoms matters quite as much as which atoms they are.\n\nIn diamond, every carbon atom is bonded to four neighbours in a rigid three-dimensional network. All four of its outer electrons are committed to those bonds, so none are free to carry a current, and to break the crystal you must break strong covalent bonds in every direction. Hence the hardness, and hence the insulation. In graphite, each atom bonds to only three neighbours, forming flat sheets of hexagons. The fourth electron is delocalised across the sheet and free to move, which gives conduction along the layers. Between the sheets there are only weak attractions, so the layers slide over one another, which is why graphite writes and why it works as a dry lubricant. Structure, bonding and properties form a single chain of consequences.",
+  "points": [
+    "Diamond and graphite are both pure carbon yet have opposite properties.",
+    "Diamond is hard, transparent and insulating; graphite is soft, opaque and conducting.",
+    "In diamond each atom bonds to four neighbours in a rigid three-dimensional network, with no free electrons.",
+    "In graphite each atom bonds to three neighbours in flat hexagonal sheets, leaving a delocalised electron that conducts.",
+    "Weak forces between graphite's sheets let them slide, so it writes and lubricates.",
+    "The general lesson is that structure and bonding determine a material's properties, not composition alone."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "L28",
+  "title": "Weather fronts and the life of a depression",
+  "field": "Earth and environment",
+  "text": "Everything that makes mid-latitude weather so changeable follows from one simple fact: warm tropical air and cold polar air meet, and they do not mix readily. The boundary between them is called a front, and the weather we experience is largely the story of what happens along it.\n\nBegin with a kink developing on that boundary. Warm air pushes polewards on one side, cold air pushes towards the equator on the other, and the whole system starts to rotate, forming a depression, an area of low pressure. Along the warm front, warm air climbs gently over the retreating cold air. Because it is less dense, it rises, cools, and its water vapour condenses, which gives the long, steady rain and the thickening layered cloud we notice hours in advance. Along the cold front behind it, denser cold air undercuts the warm air and forces it up steeply. That produces towering cloud, short and heavy downpours, and a sharp drop in temperature once it passes. The cold front travels faster and eventually catches the warm front, lifting the warm air clear of the ground. We call that an occlusion, and it marks the point at which the depression begins to weaken and decay.",
+  "points": [
+    "Mid-latitude weather arises because warm tropical air meets cold polar air without mixing, and the boundary between them is a front.",
+    "A kink on that boundary develops into a rotating depression, an area of low pressure.",
+    "At the warm front, warm air rises gently over retreating cold air, cools and condenses, giving layered cloud and long steady rain.",
+    "At the cold front, denser cold air undercuts the warm air and forces it up steeply, producing tall cloud, heavy showers and a sharp temperature drop.",
+    "The faster cold front catches the warm front, lifting the warm air off the ground in an occlusion, after which the depression weakens."
+  ]
+}

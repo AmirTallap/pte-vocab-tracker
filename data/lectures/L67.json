@@ -1,0 +1,14 @@
+{
+  "id": "L67",
+  "title": "The Systematic Errors In Human Judgement",
+  "field": "Psychology and neuroscience",
+  "text": "Classical economics assumed that people weigh probabilities and outcomes consistently. Psychologists spent several decades showing that they do not, and the interesting part is that the departures are systematic rather than random, which means they can be studied.\n\nConsider framing. Describe a medical treatment as saving ninety in every hundred patients and people accept it readily; describe the very same treatment as one where ten in every hundred die, and acceptance falls. The information is identical. What differs is the reference point, and whether the outcome is read as a gain or a loss. That matters because losses loom larger than gains of the same size, so people will often refuse a gamble that is favourable on average simply because it carries the possibility of losing. Consider anchoring. Ask people to estimate some unknown quantity just after they have seen an arbitrary number, and their estimates drift towards that number, even when they know it was generated at random. The usual explanation is that judgement often runs on fast automatic processes, which quietly substitute an easy question for a hard one, with slower effortful reasoning stepping in only sometimes. That two-process summary is disputed as an architecture. The biases themselves are robust, replicating across cultures and among experts.",
+  "points": [
+    "People do not weigh probabilities and outcomes consistently, and their errors are systematic rather than random.",
+    "Framing: the same treatment is judged differently when described in terms of survival rather than deaths.",
+    "What changes is the reference point and whether an outcome counts as a gain or a loss.",
+    "Losses loom larger than equal gains, so favourable gambles are often refused.",
+    "Anchoring: estimates drift towards an arbitrary number seen beforehand, even one known to be random.",
+    "Fast automatic judgement substituting an easier question is the usual explanation; the two-process account is debated, but the biases replicate widely, including among experts."
+  ]
+}

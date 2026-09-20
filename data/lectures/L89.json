@@ -1,0 +1,14 @@
+{
+  "id": "L89",
+  "title": "From single-purpose gears to the stored-program computer",
+  "field": "Technology and computing",
+  "text": "The history of computing is usually told as a story of increasing speed, but the more interesting thread running through it is increasing generality. The earliest calculating machines were mechanical and single-purpose: gears arranged to add, and later to multiply, with the procedure built into the metal itself. Changing the task meant rebuilding the machine. The decisive conceptual step came in the nineteenth century, when Charles Babbage designed an engine whose operations would be directed by punched cards rather than by its own construction, and Ada Lovelace observed that such a device might manipulate symbols of any kind, not only numbers. Neither machine was ever completed, but the idea survived. In the nineteen-thirties Alan Turing described an abstract machine capable of imitating any other such machine, which gave the notion a rigorous mathematical form.\n\nThe machines actually built in the nineteen-forties were electronic and enormously faster, yet several were still rewired by hand for each new job. The change that produced the computer as we now understand it was storing the instructions in the same memory as the data, so that a program became something the machine could load, and even alter, at electronic speed.",
+  "points": [
+    "The real theme of computing history is growing generality, not just growing speed.",
+    "Early calculating machines were mechanical and built for one fixed task.",
+    "Babbage designed a machine directed by punched cards, and Lovelace saw it could manipulate any symbols.",
+    "Turing gave the idea rigorous form with an abstract machine that could imitate any other.",
+    "Early electronic machines were fast but still had to be rewired for each new job.",
+    "Storing instructions in the same memory as the data made programs loadable and changeable at electronic speed."
+  ]
+}

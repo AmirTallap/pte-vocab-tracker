@@ -1,0 +1,14 @@
+{
+  "id": "L87",
+  "title": "Strength, toughness and the trade-off engineers cannot avoid",
+  "field": "Technology and computing",
+  "text": "Choosing a material is rarely a matter of finding the strongest one available, and understanding why tells you a good deal about engineering in general. Strength is the stress a material will bear before it permanently deforms. Stiffness is a different property: how much it bends under a given load. Toughness is a third, and it is often the one that decides whether a structure survives, because it measures the energy a material absorbs before a crack runs through it.\n\nThese properties tend to work against one another. Glass is strong, in the sense that it resists a great deal of stress, yet a tiny surface flaw concentrates that stress, and the crack crosses the whole pane at once. Mild steel bears less stress before it yields, but yielding blunts the tip of the crack and absorbs energy instead of shattering. Engineers therefore speak of trading strength against toughness, and much of materials science is an attempt to escape that trade rather than accept it. Composites are one escape route. Stiff, brittle fibres carry the load, while a softer surrounding matrix holds them in place and stops a crack in one fibre from passing into the next.",
+  "points": [
+    "The strongest material is not automatically the right choice.",
+    "Strength, stiffness and toughness are three different properties, defined separately.",
+    "Toughness is the energy absorbed before a crack spreads, and often decides survival.",
+    "Glass resists high stress but a small flaw lets a crack cross it instantly.",
+    "Mild steel yields, which blunts the crack and absorbs energy instead of shattering.",
+    "Composites combine stiff brittle fibres with a softer matrix to get strength and toughness together."
+  ]
+}

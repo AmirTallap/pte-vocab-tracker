@@ -1,0 +1,14 @@
+{
+  "id": "L95",
+  "title": "Where The Beat In Music Actually Lives",
+  "field": "Arts, language and education",
+  "text": "Tap your foot to a piece of music and you have done something that looks trivial and is not. The beat you are tapping is very often not a sound at all. It is a regular pulse that your brain has inferred from an uneven stream of notes, and once inferred it keeps running even when the music leaves a gap where a beat should be. Psychologists call this entrainment: an internal periodic expectation locking onto an external rhythm. A few other species manage it, notably some parrots, but it is rare in the animal world and universal in ours.\n\nMetre builds a second layer on top. Beats are not equal in weight; they are organised into a hierarchy of strong and weak positions, and that hierarchy is what lets a listener tell a waltz from a march even when the notes themselves are identical. Once it is in place, composers can play against it. Syncopation puts an accent where the hierarchy expects a weak position, and the pleasure of it comes from the expectation being violated rather than from the sound itself. That is the general principle. Rhythm is not simply in the signal; much of it is in the prediction the listener is making.",
+  "points": [
+    "The beat a listener taps is inferred by the brain and is often not present as a sound.",
+    "Entrainment means an internal pulse locks onto the music and keeps going through gaps.",
+    "Few other species can entrain to a beat, though some parrots can, while all humans do.",
+    "Metre organises beats into strong and weak positions, which distinguishes a waltz from a march.",
+    "Syncopation places an accent where a weak position is expected, and works by violating that expectation.",
+    "Rhythm therefore lies largely in the listener's prediction rather than in the sound signal."
+  ]
+}

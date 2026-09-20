@@ -1,0 +1,14 @@
+{
+  "id": "L69",
+  "title": "The Adult Brain Is Not Fixed",
+  "field": "Psychology and neuroscience",
+  "text": "For most of the twentieth century the adult brain was described as fixed: wired during childhood, and afterwards capable only of decline. That picture has been substantially revised, and I want to be precise about what has replaced it, because the popular version overstates the case.\n\nThe basic mechanism sits at the synapse. Connections that are repeatedly active together grow stronger, while connections that are not active weaken, a principle usually summarised as cells that fire together wire together. Over time this reshapes larger maps. In the sensory cortex, the territory devoted to a part of the body expands with use, so trained musicians show enlarged representations of the fingers they use most, and the territory belonging to a lost limb is gradually taken over by its neighbours. Structural change can be measured as well: people learning a demanding spatial or motor skill over months show changes in regional grey matter, which partly reverse once practice stops. Two qualifications matter. Plasticity is greatest during early critical periods, when experience establishes the basic sensory maps, and is more constrained afterwards. And it is not always helpful, since the same processes underlie phantom limb sensations. Plasticity is a property of the machinery, not a promise of improvement.",
+  "points": [
+    "The adult brain was long thought fixed after childhood, and that view has been revised.",
+    "The basic mechanism is synaptic: connections active together strengthen, inactive ones weaken.",
+    "Cortical maps reorganise with use, so musicians have enlarged representations of well-used fingers and a lost limb's territory is taken over by neighbours.",
+    "Measurable grey matter changes follow months of learning a skill, and partly reverse when practice stops.",
+    "Plasticity is greatest in early critical periods and more limited later.",
+    "Plasticity is not always beneficial, as phantom limb sensations show; it is a property of the machinery, not a guarantee of improvement."
+  ]
+}

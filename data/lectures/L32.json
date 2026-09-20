@@ -1,0 +1,14 @@
+{
+  "id": "L32",
+  "title": "Redshift and the evidence for an expanding universe",
+  "field": "Astronomy and space",
+  "text": "Let me begin with an observation that nobody expected. In the nineteen twenties, astronomers measuring the light of distant galaxies found that almost all of them were moving away from us, and, more strikingly, that the further away a galaxy was, the faster it was receding. That relationship, speed proportional to distance, is the central piece of evidence for an expanding universe.\n\nThe measurement itself depends on redshift. Light from a receding source arrives stretched towards longer, redder wavelengths, and the degree of stretching tells you the speed. Now, the intuitive interpretation is that we sit at the centre of some great outward rush, and that interpretation is wrong. Space itself is expanding, carrying galaxies apart rather like raisins in a rising dough. Every observer in every galaxy would see the same pattern of recession, and no point is the centre.\n\nRun that expansion backwards and you arrive at a hot, dense early state, which is the basis of the Big Bang model. The strongest confirmation came decades later with the discovery of the cosmic microwave background, faint radiation filling the sky in every direction, the cooled remnant of that early heat.",
+  "points": [
+    "Distant galaxies are observed to be moving away from us.",
+    "The further away a galaxy is, the faster it recedes.",
+    "Redshift, the stretching of light to longer wavelengths, is how the speed is measured.",
+    "It is space itself expanding, so there is no centre and every observer sees the same thing.",
+    "Running the expansion backwards gives a hot dense beginning, the Big Bang model.",
+    "The cosmic microwave background is the leftover radiation confirming that early hot state."
+  ]
+}

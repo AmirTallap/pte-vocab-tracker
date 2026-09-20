@@ -1,0 +1,14 @@
+{
+  "id": "L85",
+  "title": "Teaching a machine from examples rather than rules",
+  "field": "Technology and computing",
+  "text": "Traditional programming means writing the rules out yourself: if this condition holds, then do that. Machine learning inverts the arrangement. You supply examples together with the correct answers, and the system searches for rules that reproduce those answers. Show it many thousands of images already labelled as containing a cat or not containing one, and it gradually adjusts a large collection of internal numerical weights until its predictions agree with the labels often enough.\n\nThe point, however, is never the training examples themselves, since you already had their answers. The point is generalisation: performing well on cases the system has never encountered. That is where the central difficulty lies. A model with enough capacity can simply memorise its training set, including the noise and the accidents in it, and will then fail on anything new. Practitioners call this overfitting, and they guard against it by holding back a portion of the data, untouched during training, on which the model is finally tested. A second difficulty follows directly from the first. Because the rules come entirely from the examples, any bias in how those examples were gathered is learnt faithfully along with everything else, and the system will go on reproducing it.",
+  "points": [
+    "In traditional programming the rules are written by a person; machine learning reverses this.",
+    "The system is given labelled examples and adjusts internal weights until its predictions match.",
+    "The goal is generalisation, meaning good performance on cases never seen during training.",
+    "A model can memorise its training data, including noise, and then fail on new cases; this is overfitting.",
+    "Holding back untouched test data is how overfitting is detected.",
+    "Because the rules come from the examples, bias in the data is learnt and reproduced."
+  ]
+}

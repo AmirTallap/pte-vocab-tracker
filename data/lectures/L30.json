@@ -1,0 +1,14 @@
+{
+  "id": "L30",
+  "title": "Groundwater depletion and the myth of scarcity",
+  "field": "Earth and environment",
+  "text": "Water scarcity is normally reported as a shortage of water, and that phrasing conceals the actual problem. Globally there is no shortage. The difficulty is that fresh, accessible water is distributed unevenly in space, arrives unevenly in time, and is often demanded where and when it is least available.\n\nAgriculture is the largest user by a wide margin, and irrigated agriculture in dry regions is where the pressure concentrates. When rivers cannot meet that demand, farmers turn to groundwater held in aquifers, the porous rock beneath the surface. Aquifers recharge from rainfall soaking downwards, but in arid regions recharge is slow, and some of the water stored there fell as rain thousands of years ago. Pump faster than the recharge rate and you are not using a renewable resource; you are mining a finite one. The consequences compound. Water tables fall, so wells must be deepened and more energy is spent lifting water, which favours larger farms over smaller ones. Near coasts, seawater moves in to replace what is withdrawn and the aquifer is spoiled. In some regions the ground itself subsides as the emptied pores collapse, and that lost storage capacity does not come back.",
+  "points": [
+    "Water scarcity is not a global shortage but a problem of uneven distribution in place and time, with demand often greatest where water is least available.",
+    "Agriculture, especially irrigation in dry regions, is by far the largest user and where the pressure concentrates.",
+    "When rivers are insufficient, farmers pump groundwater from aquifers, which recharge slowly in arid regions and may hold water that fell thousands of years ago.",
+    "Pumping faster than the recharge rate means mining a finite resource rather than using a renewable one.",
+    "Falling water tables force deeper wells and more energy to lift water, which favours larger farms.",
+    "Other consequences include seawater intruding into coastal aquifers and ground subsidence that permanently destroys storage capacity."
+  ]
+}

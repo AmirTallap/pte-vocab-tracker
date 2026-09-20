@@ -1,0 +1,14 @@
+{
+  "id": "L09",
+  "title": "Superconductivity: When Resistance Vanishes Altogether",
+  "field": "Physics and chemistry",
+  "text": "In nineteen eleven, Kamerlingh Onnes was measuring how the electrical resistance of mercury changed as he cooled it towards absolute zero. What he expected was a gradual decline, and there was good reason to expect it: resistance arises largely from electrons scattering off the thermal vibrations of the crystal lattice, and cooling reduces those vibrations. What he found was not gradual at all. A few degrees above absolute zero the resistance did not merely fall, it vanished, abruptly and completely, at a sharply defined temperature.\n\nThat is superconductivity, and it is not simply very good conduction. In a superconducting ring, a current once started will circulate without any measurable decay. The explanation took several decades to arrive. Below the critical temperature, electrons stop behaving as independent particles; they pair up, through distortions of the lattice itself, and those pairs move collectively in a single quantum state that the lattice cannot scatter one electron at a time.\n\nThere is a second signature worth remembering. A superconductor expels magnetic fields from its interior, which is why a magnet can be made to hover steadily above one. The obstacle to using any of this widely is temperature, and raising the critical temperature remains a central problem of the field.",
+  "points": [
+    "Kamerlingh Onnes cooled mercury towards absolute zero expecting resistance to fall gradually.",
+    "Resistance normally comes from electrons scattering off lattice vibrations, which cooling reduces.",
+    "Instead the resistance vanished completely and abruptly at a sharp critical temperature.",
+    "A current in a superconducting ring persists without measurable decay, so this is not merely good conduction.",
+    "Below the critical temperature electrons pair up via lattice distortions and move as one quantum state that cannot be scattered individually.",
+    "Superconductors also expel magnetic fields, allowing magnetic levitation, and raising the critical temperature is still the main obstacle."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L57",
+  "title": "What a Central Bank Actually Does",
+  "field": "Economics and business",
+  "text": "A central bank is not a bank in the sense you are accustomed to. You cannot hold an account there. Its customers are the commercial banks and the government. In most countries its principal task is to keep inflation low and reasonably steady, and its main instrument is a short-term interest rate, the rate at which banks borrow from it overnight.\n\nThe mechanism works in steps. Move that rate, and the rates banks charge one another move with it. The rates on mortgages, business loans and savings accounts follow. Borrowing then becomes more attractive or less so, spending and investment respond, and the pressure of demand against the economy's productive capacity rises or falls. Prices follow that pressure, but slowly: the full effect of a change takes many months to work through, which means the decision must be taken on a forecast rather than on this month's figures. A central bank also acts as lender of last resort, supplying cash to solvent banks during a panic so that a loss of confidence does not turn into a collapse. And because expectations matter so much, a great deal of the work is done by what the bank says about the future, not only by what it does today.",
+  "points": [
+    "A central bank's customers are commercial banks and the government, not the public.",
+    "Its main aim in most countries is low, steady inflation, pursued through a short-term interest rate.",
+    "Changing that rate moves the rates on mortgages, business loans and savings, which changes borrowing, spending and investment.",
+    "That alters demand relative to the economy's capacity, and prices follow.",
+    "The effect takes many months, so decisions must be based on a forecast rather than current figures.",
+    "The bank is also lender of last resort in a panic, and because expectations matter, what it says is as important as what it does."
+  ]
+}

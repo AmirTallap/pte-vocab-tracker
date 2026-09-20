@@ -1,0 +1,14 @@
+{
+  "id": "L82",
+  "title": "Sending a secret to someone you have never met",
+  "field": "Technology and computing",
+  "text": "Suppose you need to send a message to somebody you have never met, over a network that strangers can listen to. This is the central problem of modern cryptography, and the elegant part of the solution is that you do not have to share a secret in advance. Older systems used a single key: the same key locked the message and unlocked it, which works well until you ask how the two parties agreed on that key in the first place. Sending it over the same untrusted channel defeats the whole purpose.\n\nPublic-key cryptography splits the key into two mathematically linked halves. One half is published openly, and anybody at all may use it to encrypt a message. The other half is kept private, and only that half can decrypt what the public one has locked. The security rests on operations that are easy in one direction and impractical to reverse: multiplying two very large prime numbers is trivial, while recovering those primes from the product is not. Used the other way round, the private key produces a digital signature, which proves a message came from the holder of that key and has not been altered along the way.",
+  "points": [
+    "The problem is communicating securely with a stranger over a channel others can hear.",
+    "Older single-key systems require both parties to share a key beforehand, which is the difficulty.",
+    "Public-key cryptography uses two linked keys, one published and one kept private.",
+    "Anyone can encrypt with the public key, but only the private key can decrypt.",
+    "Security relies on operations easy one way and impractical to reverse, such as multiplying large primes.",
+    "The private key can also sign a message, proving its origin and that it was not altered."
+  ]
+}

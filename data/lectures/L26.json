@@ -1,0 +1,14 @@
+{
+  "id": "L26",
+  "title": "The slow carbon cycle as a planetary thermostat",
+  "field": "Earth and environment",
+  "text": "Here is an apparent paradox to begin with. The Sun was considerably fainter early in Earth's history, yet the geological record shows liquid oceans almost throughout. Something has kept the planet's temperature within a habitable range for billions of years, and the leading explanation is the slow carbon cycle.\n\nIt works like this. Volcanoes release carbon dioxide from the interior into the atmosphere. That carbon dioxide dissolves in rainwater to form a weak acid, which attacks silicate rocks at the surface and releases dissolved ions. Rivers carry those ions to the sea, where marine organisms use them to build shells of calcium carbonate. When the organisms die, the shells settle and are buried as limestone, locking the carbon away. Eventually, where the seafloor is subducted at a plate boundary, heat and pressure drive the carbon back out through volcanoes, and the loop closes. The self-regulating part is the weathering step. Chemical weathering proceeds faster when the climate is warm and wet, so a warmer world removes carbon dioxide more rapidly, which cools it again. Conversely, a cold world weathers slowly and volcanic carbon dioxide builds up. The correction takes hundreds of thousands of years, which is why it offers no help on human timescales.",
+  "points": [
+    "Although the early Sun was much fainter, Earth has stayed within a habitable temperature range, which the slow carbon cycle helps to explain.",
+    "Volcanoes release carbon dioxide, which dissolves in rainwater to form a weak acid that weathers silicate rock.",
+    "Rivers carry the dissolved products to the sea, where organisms build carbonate shells that are buried as limestone, storing the carbon.",
+    "Subduction of the seafloor eventually returns that carbon to the atmosphere through volcanoes, completing the loop.",
+    "The cycle self-regulates because weathering is faster in a warm, wet climate, drawing down carbon dioxide and cooling the planet, and slower in a cold one.",
+    "The correction operates over hundreds of thousands of years, far too slowly to matter on human timescales."
+  ]
+}

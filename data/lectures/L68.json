@@ -1,0 +1,14 @@
+{
+  "id": "L68",
+  "title": "What Heritability Does And Does Not Mean",
+  "field": "Psychology and neuroscience",
+  "text": "Whether we are shaped by our genes or by our upbringing is, as usually posed, an unanswerable question, and the reason is worth understanding, because it is a point of logic rather than a diplomatic compromise. Every human trait requires both. Asking which contributes more to an individual is like asking whether length or width contributes more to the area of a field.\n\nThere is, however, a related question that can be answered. Within a particular population, how much of the variation between people is associated with genetic variation between them? That quantity is called heritability, and twin and adoption studies have estimated it for many traits. Identical twins raised in separate homes resemble one another more closely than adoptive siblings raised in the same home, on measures of personality and of cognitive ability. That is a real and initially surprising finding. But heritability is a statistic about one population under particular conditions. It is not a statement about any individual, and it is certainly not a limit on change. If every child in a country received identical schooling, the heritability of attainment would rise rather than fall, because environmental variation would have been removed. Genes and environments also correlate, since children partly select the surroundings they meet.",
+  "points": [
+    "Asking whether genes or environment shape us is unanswerable as posed, because every trait needs both.",
+    "The comparison offered is asking whether length or width matters more to the area of a field.",
+    "The answerable question is how much of the variation within a population is associated with genetic variation, which is heritability.",
+    "Twin and adoption studies find identical twins raised apart resemble each other more than adoptive siblings raised together.",
+    "Heritability describes a population under given conditions, not an individual, and is not a limit on change.",
+    "Equalising schooling would raise heritability by removing environmental variation, and genes and environments correlate because children help select their surroundings."
+  ]
+}

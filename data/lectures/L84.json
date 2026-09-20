@@ -1,0 +1,14 @@
+{
+  "id": "L84",
+  "title": "What an algorithm is, and why growth matters",
+  "field": "Technology and computing",
+  "text": "The word algorithm is used very loosely these days, so let me pin it down. An algorithm is a finite sequence of unambiguous steps that turns an input into an output and is guaranteed to stop. The definition predates computers by centuries. Long division is an algorithm, and so is the procedure for finding the greatest common divisor of two numbers set out by Euclid.\n\nWhat matters in practice, though, is not merely that an algorithm works, but how its cost grows as the problem gets bigger. Suppose you want to find one name in a sorted list of a million. Checking every entry in turn takes, on average, half a million comparisons. Splitting the list in half, discarding the half that cannot contain the name, and repeating, finds it in about twenty. The gap between those two methods is not a matter of faster hardware; it is a difference in the shape of the growth curve, and no processor speed can close it. That is why computer scientists describe algorithms by their order of growth rather than in seconds. A procedure that doubles its work each time you add a single item will defeat any machine ever built, once the input is large enough.",
+  "points": [
+    "An algorithm is a finite sequence of unambiguous steps that produces an output and terminates.",
+    "The idea is much older than computers; long division and Euclid's method are examples.",
+    "What matters is how the cost grows as the input gets larger.",
+    "Searching a sorted million-item list one by one takes about half a million comparisons.",
+    "Repeatedly halving the list finds the item in about twenty steps.",
+    "Faster hardware cannot compensate for a bad growth curve, so algorithms are compared by order of growth."
+  ]
+}

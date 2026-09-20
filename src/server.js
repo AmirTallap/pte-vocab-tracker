@@ -11,6 +11,7 @@ import { say, status as ttsStatus, VOICES, ACCENTS, DEFAULT_VOICE, isVoiceId } f
 import { loadUsage, usageCounts } from './usage.js';
 import { loadEssays, loadEssayGuides } from './essays.js';
 import { loadModels, modelCounts } from './models.js';
+import { loadLectures, lectureIndex, PREPARE_SECONDS, SPEAK_SECONDS } from './lectures.js';
 import { decode, transcribe, status as asrStatus, haveFfmpeg, MAX_SECONDS } from './asr.js';
 import { analyse } from './speech.js';
 import { SHEETS, MASTER_FILE, ROOT } from './config.js';
@@ -64,8 +65,12 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    404s the status probe, the page reads that as "this host cannot listen"
  *    and hides the tab completely, so the feature would appear never to have
  *    been built rather than to need a restart.
+ * 11 /api/lectures and /api/lectures/<id> are new: the Re-tell Lecture items.
+ *    Additions again, and bumped for the same reason - an older server 404s
+ *    the index, the Speaking tab draws no lecture section, and a hundred
+ *    lectures look like they were never written.
  */
-const API_VERSION = 10;
+const API_VERSION = 11;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -97,6 +102,10 @@ export function serve({ port = 4173, open = true } = {}) {
   // example that breaks the exam's 200-300 is reported at startup.
   const essayGuides = loadEssayGuides();
   const { models: essayModels, problems: modelProblems } = loadModels(undefined, essays.words);
+  // The Re-tell Lecture items. Static like everything else on this tab: read
+  // once, never written back, and no study state anywhere near them.
+  const { lectures, problems: lectureProblems } = loadLectures();
+  const lectureById = new Map(lectures.map((l) => [l.id, l]));
   const grammarById = new Map(grammar.modules.map((m) => [m.id, m]));
 
   /* ---- writes are debounced, and backed up once per session ------------ */
@@ -673,6 +682,39 @@ export function serve({ port = 4173, open = true } = {}) {
         return json(res, 200, { api: API_VERSION, id, models: list });
       }
 
+      /**
+       * The lecture index: everything about the hundred items EXCEPT the text,
+       * which is the whole exercise. You are meant to hear a lecture once, not
+       * read it, so the page is not given the words until the recording is
+       * over and the report is drawn.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/lectures') {
+        return json(res, 200, {
+          api: API_VERSION,
+          prepare: PREPARE_SECONDS,
+          speak: SPEAK_SECONDS,
+          lectures: lectureIndex(lectures),
+        });
+      }
+
+      /**
+       * One lecture, with its text and the points it makes. Fetched when a
+       * lecture is taken - per item rather than whole, the way the model
+       * answers are: a hundred lectures is well over a hundred KB, and a visit
+       * uses one of them.
+       *
+       * `points` is not a mark scheme this server applies. It is what the
+       * lecture actually said, and it goes into the prompt the page writes for
+       * a model elsewhere to judge coverage against. Nothing here grades
+       * anything, and nothing here should start.
+       */
+      if (req.method === 'GET' && url.pathname.startsWith('/api/lectures/')) {
+        const id = decodeURIComponent(url.pathname.slice('/api/lectures/'.length));
+        const lecture = lectureById.get(id);
+        if (!lecture) return json(res, 404, { error: `no lecture "${id}"` });
+        return json(res, 200, { api: API_VERSION, lecture });
+      }
+
       if (req.method === 'GET' && url.pathname === '/api/grammar') {
         return json(res, 200, {
           groups: grammar.groups,
@@ -759,6 +801,11 @@ export function serve({ port = 4173, open = true } = {}) {
     }
     for (const p of essayGuides.problems) console.error(`  ! guide - ${p}`);
     for (const p of modelProblems) console.error(`  ! model - ${p}`);
+    if (lectures.length) {
+      console.log(`  lectures: ${lectures.length} to re-tell · ` +
+                  `${PREPARE_SECONDS}s to think, ${SPEAK_SECONDS}s to speak`);
+    }
+    for (const p of lectureProblems) console.error(`  ! lecture - ${p}`);
     console.log(`  writing to ${MASTER_FILE}`);
     console.log('  Ctrl-C to stop.');
     console.log('');

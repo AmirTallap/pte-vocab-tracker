@@ -1,0 +1,14 @@
+{
+  "id": "L64",
+  "title": "What Sleep Does For A New Memory",
+  "field": "Psychology and neuroscience",
+  "text": "Why should an animal spend a third of its life unconscious and defenceless? One well-supported part of the answer concerns memory. A memory is not filed away complete at the moment of learning; it is stabilised over the following hours and days, and sleep does a good deal of that work.\n\nThe evidence takes several forms. Learn a list of words, then sleep, and recall the next morning is reliably better than after an equal period spent awake. That advantage is not merely protection from interference, because it is largest when the sleep includes the deep slow-wave stages that dominate early in the night. Recordings in animals suggest why. The patterns of hippocampal activity produced while a rat runs a maze are replayed during subsequent sleep, compressed in time, and matching patterns appear in the cortex. That supports a widely held account: the hippocampus captures an experience quickly, then reinstates it repeatedly, so that the slower cortex can weave it into what is already known. Different kinds of memory appear to depend on different stages of sleep, and many of the details are still argued over. What is not in doubt is that sleep is an active period of reorganisation rather than a simple shutdown of the system.",
+  "points": [
+    "The lecture asks why animals sleep, and answers partly in terms of memory.",
+    "Memories are not complete at the moment of learning but are stabilised over hours and days.",
+    "Recall after sleep is better than after an equal time awake, and the benefit is greatest for deep slow-wave sleep.",
+    "Recordings show patterns of hippocampal activity from a maze being replayed during sleep, in compressed form, with matching cortical activity.",
+    "The hippocampus is thought to capture experience quickly and replay it so the cortex can integrate it with existing knowledge.",
+    "Which memories depend on which sleep stage is still debated, but sleep is clearly active processing, not shutdown."
+  ]
+}

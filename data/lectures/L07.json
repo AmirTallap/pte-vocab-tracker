@@ -1,0 +1,14 @@
+{
+  "id": "L07",
+  "title": "Resonance: Small Pushes and Very Large Consequences",
+  "field": "Physics and chemistry",
+  "text": "Every object you have ever handled has a set of frequencies at which it prefers to vibrate. Pluck a guitar string and it does not vibrate at just any rate; it settles almost at once into a fundamental frequency fixed by its length, tension and mass. Those are its natural frequencies, and they belong to the object itself rather than to whatever disturbed it.\n\nResonance is what happens when you drive an object at one of those frequencies. Push a child on a swing at random moments and very little accumulates, because some pushes help the motion and others fight it. Time your pushes to the swing's own rhythm and each one adds to the last, so the amplitude grows enormously out of very modest effort. That is the whole idea: energy transfers efficiently when the driving frequency matches the natural frequency.\n\nThe consequences run in both directions. Resonance is how the body of a violin turns a thin string into a room-filling tone, and how a radio receiver picks one station out of many. It is equally why soldiers are told to break step when crossing a bridge, and why engineers work hard to keep a structure's natural frequencies well away from the frequencies the wind can supply.",
+  "points": [
+    "Every object has natural frequencies at which it prefers to vibrate.",
+    "A guitar string's fundamental frequency is set by its length, tension and mass, not by how it was plucked.",
+    "Resonance occurs when an object is driven at one of its natural frequencies.",
+    "The swing analogy shows that timed pushes accumulate while random ones do not, so small effort gives large amplitude.",
+    "Resonance is useful: violins amplify sound and radios select one station.",
+    "It is also a hazard, which is why soldiers break step on bridges and engineers avoid matching natural frequencies."
+  ]
+}

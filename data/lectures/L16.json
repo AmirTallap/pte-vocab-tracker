@@ -1,0 +1,14 @@
+{
+  "id": "L16",
+  "title": "The Partnership Beneath a Forest Floor",
+  "field": "Life sciences",
+  "text": "Dig up a tree seedling, wash the soil off its roots and put them under a microscope, and you will find them wrapped in, or penetrated by, the threads of a fungus. This association is called a mycorrhiza, and the great majority of land plants form one. It is worth asking why. A root is a fairly blunt instrument. It can absorb only what lies in the soil immediately around it, and it quickly exhausts the local supply of phosphorus and nitrogen. Fungal threads are far finer and vastly more extensive, so they explore a much greater volume of soil, and they can release nutrients that are locked into forms a root cannot take up by itself.\n\nIn exchange, the fungus receives sugars made by photosynthesis, which it has no way of producing for itself. The trade is therefore straightforward: carbon flows down, mineral nutrients flow up. But I would caution you against calling this cooperation in any moral sense. The relationship persists because each partner does better with it than without it, and the balance can shift. A fungus may take more carbon than the nutrients it returns would justify, and a plant can cut the sugar it sends to a poorly performing partner.",
+  "points": [
+    "Most land plants form a mycorrhiza, an association between their roots and a fungus.",
+    "Roots can only absorb nutrients from the soil immediately around them and soon exhaust the local phosphorus and nitrogen.",
+    "Fungal threads are finer and more extensive, reaching a larger volume of soil and nutrients roots cannot take up.",
+    "In return the fungus gets sugars from photosynthesis, which it cannot make itself.",
+    "The exchange is carbon flowing down to the fungus and mineral nutrients flowing up to the plant.",
+    "It is not cooperation in a moral sense: it lasts because both do better, and either side can take more or give less."
+  ]
+}
