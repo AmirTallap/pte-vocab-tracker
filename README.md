@@ -380,6 +380,45 @@ content and are never written back, like everything else on this tab.
 
 ---
 
+### Speaking
+
+Record yourself and have it pulled apart, on this machine. `npm run web`, then the
+**Speaking** tab. Nothing is uploaded and nothing is kept: the recording exists for
+the length of one request and is gone the moment the report is drawn.
+
+Two tasks. **Free talk** is thirty to sixty seconds on anything, which is where
+the hesitations and the fillers actually live. **Read aloud** is PTE's own task and
+is timed the way the exam times it - a fixed while to read the script, then the
+microphone opens by itself and submits when the clock reaches zero. Both
+allowances scale with the length of the text.
+
+What comes back:
+
+| | |
+|---|---|
+| **Speaking rate** | Words per minute, and again with the pauses taken out. Far apart means the words are fine and the stopping is what slows you down - opposite fixes. |
+| **Fillers** | "um" and "uh" *and* the ones with no words in them at all (see below), plus the ordinary words that turn into tics - one `actually` is fine, six is not. |
+| **Hesitations** | Silences over 0.7s. Shorter ones are phrasing and cost nothing; PTE marks rhythm, not silence. |
+| **Grammar** | Only faults that are wrong in every register, checked against the transcript. |
+| **Deck words** | Which of your 491 you actually reached for. Knowing a word and producing one unprompted are different things. |
+| **Dialect** | Word choice, `lift` against `elevator`, tracked across the session so you can see whether you stay in one register. |
+| **Read accuracy** | Every word the transcriber mishears is a word that was not clear - which is the measure PTE is really taking too. |
+
+**Click any word, gap or fault to hear exactly that slice of your recording**, and
+use `0.5×` in the bar for the close listening. The cut is sample-exact; where it
+is cut is the transcriber's alignment, good to about a fiftieth of a second.
+
+Two honest notes. The first is that **there is no accent detection** - telling
+accents apart by sound needs a classifier that will not run here, and a confident
+percentage with nothing behind it would be worse than nothing. Dialect above is
+word choice, which a transcript really can see. The second is that a filled pause
+is found in the *audio*, not in the text: Whisper is trained on tidy transcripts
+and deletes "um" and "uh", so the gaps between the word timestamps are measured
+directly - voiced means a sound was being made, quiet means silence. That is why
+the tab can tell you about the "uh" that no transcript would ever show you.
+
+First use downloads a 133MB speech model, once. `ffmpeg` must be on your PATH.
+
 ## The five things it does
 
 ## If you prefer the terminal

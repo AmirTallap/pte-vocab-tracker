@@ -40,7 +40,7 @@ import {
    number does not match, and that guard is worth keeping here even though this
    host cannot misread a request: a stale service-worker copy of the page
    against fresh static data is the same failure wearing a different hat. */
-const API_VERSION = 9;
+const API_VERSION = 10;
 
 /* Kept apart from "pte-vocab-view", which holds the view settings and always
    has. This is study state; that is which column you dragged where. One key
@@ -336,6 +336,24 @@ async function api(path, body) {
       return { ...out, tally };
     }
     throw new Error(`no local handler for ${path}`);
+  }
+
+  /* The one route this host answers by saying no.
+     Speech-to-text is a 133MB Whisper model and an ffmpeg process, and
+     neither has anywhere to live on a Worker - the same wall that sent the
+     audio to a pre-rendered manifest rather than Kokoro. `available:false` is
+     what makes the page hide the Speaking tab entirely, which is how
+     web/app.html stays ONE file for both hosts: the tab is absent here
+     because the host said it could not do it, not because there is a second
+     page with the tab cut out of it.
+
+     It is also the honest answer. Recording a visitor's voice and shipping it
+     off this machine is exactly what the local build promises never to do,
+     and there is no version of that which belongs on a public URL with no
+     account behind it. */
+  if (path === '/api/speech/status') {
+    return { api: API_VERSION, available: false, ready: false, ffmpeg: false,
+             reason: 'the cloud build cannot listen - run it locally with npm run web' };
   }
 
   if (path === '/api/deck') return payload();

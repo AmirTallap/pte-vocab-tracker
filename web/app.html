@@ -942,6 +942,249 @@
   }
   .emnotes ul { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.7; color: var(--muted); }
   .emcount { font-size: 12px; color: var(--faint); margin-top: 14px; }
+
+  /* ------------------------------------------------------------- speaking */
+  .swrap { max-width: 1060px; margin: 0 auto; padding: 0 16px 64px; }
+  .swrap .small { min-width: 0; padding: 6px 12px; font-size: 12px; font-weight: 400; }
+  .sintro { margin: 14px 0 18px; }
+  .sintro h1 { margin: 0 0 6px; font-size: 21px; letter-spacing: -0.01em; }
+  .sintro p { margin: 0; font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+
+  .sbar {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--panel); padding: 12px 14px; margin-bottom: 14px;
+  }
+  .sspacer { flex: 1 1 auto; }
+  .srec {
+    width: 13px; height: 13px; border-radius: 50%;
+    background: var(--wrong); flex: none; opacity: .25;
+  }
+  .srec.is-live { opacity: 1; animation: spulse 1.1s ease-in-out infinite; }
+  @keyframes spulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  @media (prefers-reduced-motion: reduce) { .srec.is-live { animation: none; } }
+  .sclock { font-variant-numeric: tabular-nums; font-size: 19px; font-weight: 600; }
+  .smeter {
+    flex: none; width: 120px; height: 7px; border-radius: 4px;
+    background: var(--panel-2); border: 1px solid var(--border-2); overflow: hidden;
+  }
+  .smeter i { display: block; height: 100%; width: 0; background: var(--teal); }
+
+  .stask { border: 1px solid var(--border); border-radius: 10px;
+           background: var(--panel-2); padding: 14px 16px; margin-bottom: 14px; }
+  .stask .sq { margin: 0 0 10px; font-size: 16px; line-height: 1.6; }
+  .stask .shint { font-size: 12.5px; color: var(--muted); margin: 0; }
+
+  .sstat { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 16px; }
+  .scard {
+    flex: 1 1 150px; border: 1px solid var(--border); border-radius: 10px;
+    background: var(--panel); padding: 10px 12px;
+  }
+  .scard b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; line-height: 1.2; }
+  .scard span { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .scard.is-good b { color: var(--correct); }
+  .scard.is-warn b { color: var(--near); }
+  .scard.is-bad  b { color: var(--wrong); }
+  .scard em { display: block; font-style: normal; font-size: 11.5px; color: var(--faint); margin-top: 3px; }
+
+  .ssec { margin: 0 0 18px; }
+  .ssec h2 {
+    margin: 0 0 8px; font-size: 13px; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--muted); font-weight: 600;
+  }
+  .ssec .snote { margin: 0 0 8px; font-size: 12.5px; color: var(--faint); line-height: 1.6; }
+
+  /* The transcript, with the faults sitting in the words rather than in a list
+     beside them - the whole point is to see WHERE it went. */
+  .stext {
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel);
+    padding: 14px 16px; font-size: 16px; line-height: 2.05;
+  }
+  .stext .w { border-radius: 3px; padding: 1px 1px; }
+
+  /* The playback head. The word being said right now, underlined - which is
+     why it is a text-decoration and not another background: all four of the
+     backgrounds above already mean something, and a fifth colour sliding over
+     them would say a word had changed category as it was spoken. An underline
+     sits UNDER all of it and collides with none of it. */
+  .w.is-said {
+    text-decoration: underline;
+    text-decoration-color: var(--focus);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+  }
+  /* The script, word by word, so the model voice can be followed across it -
+     and so each word can carry what you actually said in its place. */
+  .stask .sq .w { border-radius: 3px; padding: 1px 2px; }
+  .stask .sq .w.ok { background: var(--correct-bg); color: var(--correct); }
+  /* What came out instead, sitting beside the word it replaced. Deliberately
+     NOT class `w`: the model voice's timing is shared out across the script's
+     words, and counting these would slide the underline off the text. */
+  .stask .sq .saidwrong {
+    display: inline-block; max-width: 14em;
+    background: var(--wrong-bg); color: var(--wrong);
+    border-radius: 3px; padding: 1px 5px; margin-left: 3px;
+    font-size: 13.5px; text-decoration: line-through;
+    /* Everything that has to move for the wrong word to get out of the way:
+       it collapses its own width as well as fading, so the correct word slides
+       into the space rather than leaving a hole where it used to be. */
+    transition: opacity .4s ease, transform .4s ease, max-width .4s ease,
+                padding .4s ease, margin .4s ease;
+  }
+  /* Reached by the voice: the wrong word drops away and the right one settles
+     into its place. */
+  .stask .sq .saidwrong.corrected {
+    opacity: 0; transform: translateY(9px);
+    max-width: 0; padding-left: 0; padding-right: 0; margin-left: 0;
+  }
+  @keyframes wsettle {
+    from { transform: translateY(-9px); opacity: .35; }
+    to   { transform: translateY(0);    opacity: 1; }
+  }
+  .stask .sq .w.dropin { animation: wsettle .4s ease both; }
+  @media (prefers-reduced-motion: reduce) {
+    .stask .sq .saidwrong { transition: opacity .01s; }
+    .stask .sq .w.dropin { animation: none; }
+  }
+  /* Never said at all. Struck through on the word itself rather than given a
+     red chip of its own: a chip is for a word you PUT THERE INSTEAD, and an
+     absence is not that. On a read that went badly wrong this is the
+     difference between a sentence you can still read and forty "not said"
+     labels welded between the words. */
+  .stask .sq .w.gone {
+    color: var(--faint); text-decoration: line-through;
+    text-decoration-thickness: 1px; background: none;
+  }
+
+  /* The key to the four colours, above the transcript rather than in a note
+     under it: it is needed while reading, not afterwards. */
+  .slegend {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    margin: 0 0 9px; font-size: 12px; color: var(--muted);
+  }
+  .slegend span { display: inline-flex; align-items: center; gap: 5px; }
+  .slegend i {
+    width: 22px; height: 14px; border-radius: 3px; display: inline-block;
+    border: 1px solid var(--border-2);
+  }
+  .slegend i.lg-ok   { background: var(--correct-bg); border-color: var(--correct); }
+  .slegend i.lg-deck {
+    background: var(--panel); border-color: var(--border-2);
+    border-bottom: 2px dotted var(--teal-dark);
+  }
+  .slegend i.lg-fill { background: var(--near-bg); border-color: var(--near); }
+  .slegend i.lg-bad  { background: var(--wrong-bg); border-color: var(--wrong); }
+  .slegend i.lg-none { background: var(--panel); }
+  /* Anything with a timestamp on it is clickable, and clicking plays exactly
+     that slice of what you recorded. */
+  .stext [data-from], .slist li[data-from] { cursor: pointer; }
+  .stext [data-from]:hover { outline: 2px solid var(--focus); outline-offset: 1px; }
+  .slist li[data-from]:hover { border-color: var(--focus); }
+  .is-playing { box-shadow: 0 0 0 2px var(--focus); }
+  .splay {
+    display: inline-block; font-size: 11px; color: var(--faint);
+    border: 1px solid var(--border-2); border-radius: 4px;
+    padding: 0 5px; margin-left: 6px; font-variant-numeric: tabular-nums;
+  }
+  /* Says the CORRECT version in the chosen voice. Teal, because it is the
+     model rather than the evidence - a different kind of thing from the grey
+     chips that replay what you actually did. */
+  .ssay {
+    display: inline-block; font-size: 11px; cursor: pointer;
+    color: var(--teal-dark); border: 1px solid var(--teal-dark);
+    border-radius: 4px; padding: 0 5px; margin-left: 6px; background: none;
+  }
+  .ssay:hover { background: var(--panel-2); }
+  .ssay.is-busy { opacity: .5; }
+  /* The read-aloud faults, listed under the inline diff so each one can carry
+     both controls without cluttering the running text. */
+  /* The two ways to hear the paragraph, directly under it: one in your voice,
+     one in the chosen one. Under the text because that is what they both play
+     and what they both underline. */
+  .splayrow {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    margin: 8px 0 0;
+  }
+  .splayrow .sctl {
+    font-size: 12.5px; cursor: pointer; border-radius: 6px;
+    padding: 5px 11px; background: var(--panel); border: 1px solid var(--border);
+    color: var(--text);
+  }
+  .splayrow .sctl:hover { border-color: var(--focus); }
+  .splayrow .sctl.is-busy { opacity: .5; }
+  .splayrow .sctl.model { color: var(--teal-dark); border-color: var(--teal-dark); }
+  .splayrow .shint { font-size: 11.5px; color: var(--faint); }
+
+  .sfaults { margin: 10px 0 0; padding: 0; list-style: none; }
+  .sfaults li {
+    border: 1px solid var(--border); border-left: 3px solid var(--wrong);
+    border-radius: 8px; background: var(--panel);
+    padding: 8px 12px; margin-bottom: 6px; font-size: 13.5px;
+  }
+  .sfaults b { color: var(--correct); }
+  .sfaults i { font-style: normal; color: var(--wrong); }
+  /* Green is CORRECT, which is the thing worth most of the page. In a read
+     aloud that means it matched the script; in free talk there is nothing to
+     be correct against, so it means nothing was found wrong with it. */
+  .stext .w.ok   { background: var(--correct-bg); color: var(--correct); }
+  .stext .w.bad  { background: var(--wrong-bg); color: var(--wrong); }
+  .stext .w.marker { background: var(--near-bg); color: var(--near); }
+  /* A deck word is a different KIND of fact from right or wrong - it is which
+     vocabulary you reached for - so it gets its own channel rather than
+     competing for the background: a dotted rule underneath, which combines
+     with any of the three colours above instead of overwriting one. */
+  .stext .w.deck { border-bottom: 2px dotted var(--teal-dark); font-weight: 600; }
+
+  /* The playback pointer: start here and keep going to the end. */
+  .stext .sfrom {
+    display: inline-block; border: 1px solid var(--border-2); border-radius: 4px;
+    background: var(--panel-2); color: var(--muted);
+    font-size: 10px; line-height: 1; padding: 3px 5px; margin-right: 5px;
+    vertical-align: 2px; cursor: pointer;
+  }
+  .stext .sfrom:hover { border-color: var(--focus); color: var(--focus); background: var(--panel); }
+  .stext .gap {
+    display: inline-block; border-radius: 3px; padding: 0 5px; margin: 0 2px;
+    font-size: 11.5px; font-weight: 600; vertical-align: 1px;
+    background: var(--panel-2); color: var(--faint); border: 1px solid var(--border-2);
+  }
+  .stext .gap.fill { background: var(--wrong-bg); color: var(--wrong); border-color: var(--wrong); }
+  .stext .gap.hesi { background: var(--near-bg); color: var(--near); border-color: var(--near); }
+
+  .slist { margin: 0; padding: 0; list-style: none; }
+  .slist li {
+    border: 1px solid var(--border); border-radius: 8px; background: var(--panel);
+    padding: 9px 12px; margin-bottom: 7px; font-size: 13.5px; line-height: 1.6;
+  }
+  .slist li b { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .slist li.ok { border-left: 3px solid var(--correct); }
+  .slist li.warn { border-left: 3px solid var(--near); }
+  .slist li.bad { border-left: 3px solid var(--wrong); }
+
+  .schips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .schip {
+    border: 1px solid var(--border); border-radius: 999px; background: var(--panel);
+    padding: 3px 11px; font-size: 12.5px;
+  }
+  .schip.us { border-color: var(--btn); color: var(--btn); }
+  .schip.uk { border-color: var(--teal-dark); color: var(--teal-dark); }
+  .schip.deck { border-color: var(--correct); color: var(--correct); }
+  .schip b { font-weight: 600; }
+
+  .sempty { font-size: 13.5px; color: var(--muted); font-style: italic; }
+  .sbusy { font-size: 13.5px; color: var(--muted); }
+
+  /* The read-aloud diff, in the shape the drill's letter diff already uses. */
+  .sdiff { font-size: 15.5px; line-height: 2; }
+  .sdiff .miss { color: var(--wrong); text-decoration: line-through; }
+  .sdiff .adds { color: var(--near); }
+  .sdiff .swap { color: var(--wrong); font-weight: 600; }
+  .sdiff .swap i { font-style: normal; color: var(--faint); font-weight: 400; }
+
+  @media (max-width: 720px) {
+    .scard { flex: 1 1 calc(50% - 10px); }
+    .smeter { width: 78px; }
+  }
 </style>
 <style id="printStyles" media="print">
   body, body.list-view {
@@ -1037,6 +1280,10 @@
   <button data-view="batches">Batches</button>
   <button data-view="grammar">Grammar</button>
   <button data-view="essays">Essays</button>
+  <!-- Hidden on boot and shown only if the host says it can listen -
+       see probeSpeech(). The cloud build answers no, so this tab is
+       simply not there, which is how this stays one page for both. -->
+  <button data-view="speaking" id="speakTab" hidden>Speaking</button>
   <button data-view="practice">Practice</button>
 </div>
 
@@ -1379,6 +1626,32 @@
   </div>
 </section>
 
+<section class="swrap" id="speakView" hidden>
+  <div class="sintro">
+    <h1>Speaking</h1>
+    <p id="speakLede"></p>
+  </div>
+
+  <div class="stask" id="speakTask">
+    <p class="sq" id="speakPrompt"></p>
+    <p class="shint" id="speakHint"></p>
+  </div>
+
+  <div class="sbar">
+    <span class="srec" id="speakDot" aria-hidden="true"></span>
+    <span class="sclock" id="speakClock">0:00</span>
+    <span class="smeter" aria-hidden="true"><i id="speakLevel"></i></span>
+    <button class="btn small btn-primary" id="speakGo">Record</button>
+    <button class="btn small" id="speakMode">Read aloud</button>
+    <button class="btn small" id="speakNew">New script</button>
+    <button class="btn small" id="speakRate" hidden>0.5&times;</button>
+    <span class="sspacer"></span>
+    <span class="sbusy" id="speakState"></span>
+  </div>
+
+  <div id="speakReport"></div>
+</section>
+
 <div class="previewbar" id="previewbar" hidden>
   <span id="previewbarText"></span>
   <button class="btn small" id="previewPrint">Print</button>
@@ -1630,6 +1903,11 @@
       },
       train: null,
       grammar: { module: null },
+      // The Speaking tab. Only which of the two tasks you were on: the
+      // recording, the transcript and the report are all deliberately
+      // unsaved - see the speaking block for why - so there is nothing else
+      // here that would survive a reload even if it wanted to.
+      speaking: { mode: "free" },
       // The Essays tab: which prompt, the countdown, and the draft. The draft
       // is here because the server keeps no essays (see src/essays.js), and
       // finding that out by losing twenty minutes to a stray reload would be
@@ -1684,7 +1962,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 9;
+  var API_VERSION = 10;
   var stale = false;
 
   function goStale(theirs) {
@@ -3279,8 +3557,13 @@
      spent while you are typing rather than after you submit. Failures are
      silent: this is an optimisation, and the real request on the reveal will
      report anything actually wrong. */
-  function prefetchSpeech(text) {
-    if (!text || !settings.voice.auto) return;
+  function prefetchSpeech(text, force) {
+    // `force` is for audio the reader has asked for by putting a button on the
+    // page - the Speaking tab's corrections. "Speak on reveal" governs whether
+    // the DRILL talks at you unprompted, which is a different question, and
+    // letting it silence a button that is sitting there saying "hear this"
+    // would make that button feel broken.
+    if (!text || (!force && !settings.voice.auto)) return;
     var url = sayUrl(text, settings.voice.id, settings.voice.speed);
     if (!url) return;
     fetch(url)["catch"](function () {});
@@ -3290,6 +3573,22 @@
    * Say a word. `btn` is the speaker that asked, if one did, so it can show
    * that something is happening on a first render - the only time this is slow.
    */
+  /* Which request the <audio> element currently belongs to.
+     One speaker button was safe; a report full of them is not. Two overlapping
+     speak() calls meant the second assigned `src` while the first's play() was
+     still pending, and the browser aborts the first - "The play() request was
+     interrupted by a new load request". That is not a failure, it is the
+     newer click winning, but the catch below treated every non-autoplay
+     rejection as one and painted a red error for it. A superseded request now
+     bails before it touches the element at all. */
+  var speakSeq = 0;
+
+  /** Silence whatever is speaking, and disown any request still in flight. */
+  function stopSpeaking() {
+    speakSeq++;
+    try { speech.pause(); } catch (e) { /* nothing playing */ }
+  }
+
   function speak(text, btn) {
     if (!text) return Promise.resolve();
     var url = sayUrl(text, settings.voice.id, settings.voice.speed);
@@ -3300,17 +3599,25 @@
     // Fetched rather than assigned to audio.src so a failure is a message
     // instead of a silently dead button - the first word after a fresh install
     // downloads the model, and that is worth saying out loud.
+    var mine = ++speakSeq;
+
     return fetch(url).then(function (r) {
       if (!r.ok) {
         return r.json().then(function (j) { throw new Error(j.error || r.statusText); });
       }
       return r.blob();
     }).then(function (blob) {
+      // Something newer was asked for while this was rendering. Leave the
+      // element alone - touching `src` here is exactly what aborts it.
+      if (mine !== speakSeq) return;
       var was = speech.src;
       speech.src = URL.createObjectURL(blob);
       if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
       return speech.play();
     })["catch"](function (err) {
+      // Superseded by a newer click, or silenced on purpose. Both arrive as an
+      // AbortError and neither is a fault.
+      if (err && err.name === "AbortError") return;
       // A play() rejection before the page has been clicked on is the browser's
       // autoplay rule, not a fault worth shouting about.
       if (err && err.name === "NotAllowedError") {
@@ -4343,6 +4650,1362 @@
   });
 
 
+  /* ------------------------------------------------------------- speaking
+
+     Recording yourself, transcribed on this machine and reported on.
+
+     LOCAL ONLY, and not by oversight. The transcription is a 133MB Whisper
+     model and an ffmpeg process, neither of which exists on a Worker - and
+     more to the point, a recording of your voice going to a public URL with
+     no account behind it is not something this project is willing to do. The
+     tab is hidden until /api/speech/status says the host can listen, so on
+     Cloudflare it is simply absent. That is what keeps this file ONE page for
+     both hosts rather than two pages that drift.
+
+     NOTHING IS STORED, on either side. The server holds the audio for the
+     length of one request and writes none of it down; this object holds the
+     session in memory and a reload empties it. It is the Essays rule - what
+     you said is a rehearsal, not a document - and it applies harder here.
+     There is deliberately no history, no "past attempts", no export.
+
+     `session` is the exception that proves it: a list of small per-recording
+     summaries, kept only so the consistency panel can say "you have drifted
+     across these six answers". It never leaves this variable. */
+
+  var mic = {
+    available: false, status: null,
+    mode: "free", script: null,
+    recording: false, busy: false, report: null,
+    session: [],
+    media: null, rec: null, chunks: [], startedAt: 0, tick: null,
+    ctx: null, analyser: null, raf: 0,
+    // The timed read-aloud: "idle" | "prep" | "rec". PTE shows you the text,
+    // gives you a fixed while to look at it, then opens the microphone itself
+    // and submits when the clock runs out - there is no Stop button in the
+    // exam. `prepEnds` is a wall-clock DEADLINE rather than a running total,
+    // for the reason the essay timer is: it survives the tab losing focus,
+    // and only the repainting stops.
+    phase: "idle", prepEnds: 0, limit: 0, starting: false, headSeq: 0,
+    // Playback. The recording never reaches the disk on either side - the
+    // server forgets it the moment the report is drawn - so the only copy is
+    // this blob, decoded once into samples we can seek around inside.
+    blob: null, buffer: null, pctx: null, srcNode: null, playing: null, rate: 1,
+    phRaf: 0, said: null
+  };
+
+  function speakEl(id) { return document.getElementById(id); }
+
+  /* Whether this host can listen at all. Asked once, after the deck - like the
+     voice bar, it is a nicety that must not hold up the first card. A failure
+     of any kind leaves the tab hidden, which is the honest reading: a 404 from
+     an older server means that server cannot do this. */
+  function probeSpeech() {
+    return api("/api/speech/status").then(function (d) {
+      mic.status = d;
+      mic.available = !!(d && d.available);
+      speakEl("speakTab").hidden = !mic.available;
+      // Which of the two tasks you were last on is a view setting like any
+      // other; the recording and the report deliberately are not.
+      mic.mode = (settings.speaking && settings.speaking.mode) === "read" ? "read" : "free";
+      if (mic.available) renderSpeakLede();
+    })["catch"](function () {
+      mic.available = false;
+      speakEl("speakTab").hidden = true;
+    });
+  }
+
+  function renderSpeakLede() {
+    var st = mic.status || {};
+    var lede = "Record yourself, and have it transcribed and marked on this machine. " +
+      "Nothing is uploaded and nothing is kept - the recording is gone the moment the report is drawn.";
+    if (!st.ready) {
+      lede += " <b>The first recording downloads the 133MB speech model</b>, so it will take a " +
+              "few minutes; every one after that is immediate.";
+    }
+    speakEl("speakLede").innerHTML = lede;
+  }
+
+  /* ---- the two tasks
+
+     Free talk is the conversation: say anything, and everything below is
+     measured. Read aloud is PTE's own task, and it is the one that can say
+     something about pronunciation - every word the model mishears is a word
+     that was not clear. The script comes from the usage sentences, so the
+     words you are asked to say are the deck's own. */
+
+  function newScript() {
+    var pool = [];
+    ["words", "phrases"].forEach(function (kind) {
+      var forKind = usage[kind] || {};
+      Object.keys(forKind).forEach(function (k) {
+        (forKind[k] || []).forEach(function (line) { pool.push(line); });
+      });
+    });
+    if (!pool.length) { mic.script = null; return; }
+
+    // PTE's Read Aloud tops out around 60 words, so sentences are taken until
+    // that is in sight and no further. Under 25 words there is not enough to
+    // go wrong for the diff to say anything useful.
+    var picked = [], count = 0, guard = 0;
+    while (count < 45 && guard++ < 40) {
+      var line = pool[Math.floor(Math.random() * pool.length)];
+      var plain = line.replace(/\[\[(.+?)\]\]/g, "$1");
+      var n = plain.split(/\s+/).length;
+      if (count + n > 62) { if (count >= 25) break; else continue; }
+      if (picked.indexOf(plain) >= 0) continue;
+      picked.push(plain); count += n;
+    }
+    mic.script = picked.join(" ") || null;
+  }
+
+  function renderSpeakTask() {
+    var read = mic.mode === "read";
+    speakEl("speakMode").textContent = read ? "Free talk" : "Read aloud";
+
+    if (read) {
+      if (!mic.script) newScript();
+      // Word spans rather than plain text: "Hear it properly" reads the SCRIPT
+      // in a read aloud, and the underline has to land on the script, which is
+      // here - not on the transcript of what you actually said, which is a
+      // different set of words further down the page.
+      speakEl("speakPrompt").innerHTML = mic.script
+        ? mic.script.split(/\s+/).map(function (w) {
+            return '<span class="w">' + esc(w) + "</span>";
+          }).join(" ")
+        : "No example sentences are loaded.";
+      speakEl("speakHint").innerHTML =
+        "<b>" + mmss(prepSeconds()) + " to read it, then " + mmss(recSeconds()) +
+        " to say it.</b> The microphone opens by itself when the reading time is up and it " +
+        "submits itself when the clock reaches zero &mdash; that is what the exam does, and " +
+        "pacing against a shrinking number is half of what it is testing. Every word the " +
+        "transcriber mishears is a word that was not clear, which is the closest honest " +
+        "measure of pronunciation here.";
+    } else {
+      speakEl("speakPrompt").textContent =
+        "Talk for thirty to sixty seconds about anything - what you did today, or an opinion you hold.";
+      speakEl("speakHint").innerHTML =
+        "Unscripted speech is where the hesitations and the fillers actually live. Keep going even " +
+        "if you stumble: recovering mid-sentence is the skill, and stopping to restart hides it.";
+    }
+  }
+
+  /* ---- recording */
+
+  function mmss(sec) {
+    sec = Math.max(0, sec);
+    return Math.floor(sec / 60) + ":" + String(sec % 60).padStart(2, "0");
+  }
+
+  function scriptWords() {
+    return mic.script ? mic.script.trim().split(/\s+/).length : 0;
+  }
+
+  /* PTE scales both allowances to the length of the text rather than handing
+     out a flat number, so these do too. The constants are read off the exam's
+     own behaviour: roughly 35 seconds to look at a 60-word passage, and
+     roughly 40 to read it - which is a comfortable 150wpm with room to
+     breathe, not a sprint. Both are clamped, because a 20-word sentence still
+     needs a moment and no Read Aloud ever runs past 40 seconds. */
+  function prepSeconds() { return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55))); }
+  function recSeconds()  { return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70))); }
+
+  function startPrep() {
+    if (!mic.script) return;
+    mic.phase = "prep";
+    mic.prepEnds = Date.now() + prepSeconds() * 1000;
+    clearInterval(mic.tick);
+    mic.tick = setInterval(speakTick, 200);
+    speakTick();
+    renderSpeakBar();
+  }
+
+  /* One interval drives both phases. A single tick that knows the phase beats
+     two timers that have to agree with each other - the same argument that
+     keeps pickEssay() the only place that starts the essay clock. */
+  function speakTick() {
+    var now = Date.now();
+
+    if (mic.phase === "prep") {
+      var left = Math.ceil((mic.prepEnds - now) / 1000);
+      // Out of the prep phase BEFORE the await, so this branch cannot be
+      // re-entered while the microphone is being handed over.
+      if (left <= 0) { mic.phase = "rec"; startRecording(); return; }
+      speakEl("speakClock").textContent = "Prepare " + mmss(left);
+      return;
+    }
+
+    if (!mic.recording) return;
+    var used = Math.floor((now - mic.startedAt) / 1000);
+
+    if (mic.limit) {
+      // Counting DOWN, because that is what is on screen in the exam and the
+      // pacing you have to learn is pacing against a shrinking number.
+      var rem = mic.limit - used;
+      speakEl("speakClock").textContent = mmss(Math.max(0, rem));
+      // Time up: stop, which submits. No button is pressed and none exists -
+      // that is the whole point of a timed task.
+      if (rem <= 0) stopRecording();
+      return;
+    }
+
+    speakEl("speakClock").textContent = mmss(used);
+    // A hard stop for free talk, so a forgotten recording cannot run until the
+    // browser dies. The server truncates too; this is the half you can see.
+    if (used >= (mic.status && mic.status.maxSeconds || 180)) stopRecording();
+  }
+
+  function meter() {
+    if (!mic.analyser) return;
+    var buf = new Uint8Array(mic.analyser.fftSize);
+    mic.analyser.getByteTimeDomainData(buf);
+    var peak = 0;
+    for (var i = 0; i < buf.length; i++) peak = Math.max(peak, Math.abs(buf[i] - 128) / 128);
+    speakEl("speakLevel").style.width = Math.min(100, Math.round(peak * 160)) + "%";
+    mic.raf = requestAnimationFrame(meter);
+  }
+
+  function startRecording() {
+    // `starting` is synchronous and `recording` is not, and that difference
+    // was a real bug: getUserMedia is a promise, so `recording` stays false
+    // for as long as it takes the browser to hand over the microphone. The
+    // 200ms tick that starts a timed read aloud therefore called this again,
+    // and again, every tick until it resolved - each call opening ANOTHER
+    // stream, building ANOTHER MediaRecorder over the top of `mic.rec`,
+    // and clearing the shared `chunks` array that the previous one was still
+    // filling. What came back was a fragment of a take, or somebody else's
+    // fragment: 34 seconds of speech arriving as half a second of audio.
+    if (mic.recording || mic.busy || mic.starting) return;
+    mic.starting = true;
+    // A new take replaces the old one outright. Keeping both would be the
+    // beginning of a library of past attempts, which this tab deliberately
+    // does not have.
+    resetPlayback();
+    if (!navigator.mediaDevices || !window.MediaRecorder) {
+      return speakFail("this browser cannot record audio");
+    }
+    navigator.mediaDevices.getUserMedia({
+      // The three that matter for a transcript, all off: they are tuned to
+      // make a voice pleasant on a call, and suppression in particular eats
+      // exactly the quiet "uh" the gap analysis is looking for.
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
+    }).then(function (stream) {
+      // Belt and braces against the same class of failure: whatever was open
+      // before this call is closed now, so exactly one stream and exactly one
+      // recorder can ever be live.
+      if (mic.media) { try { mic.media.getTracks().forEach(function (t) { t.stop(); }); } catch (e) {} }
+      if (mic.rec && mic.rec.state === "recording") {
+        mic.rec.onstop = null;                    // it must not submit itself
+        try { mic.rec.stop(); } catch (e) {}
+      }
+      mic.starting = false;
+      mic.media = stream;
+      mic.chunks = [];
+      mic.rec = new MediaRecorder(stream);
+      mic.rec.ondataavailable = function (e) { if (e.data.size) mic.chunks.push(e.data); };
+      mic.rec.onstop = function () { sendRecording(); };
+      mic.rec.start();
+
+      mic.recording = true;
+      mic.phase = "rec";
+      mic.startedAt = Date.now();
+      // Only the read aloud is timed. Free talk is a conversation and stops
+      // when you stop, under the long backstop above.
+      mic.limit = mic.mode === "read" ? recSeconds() : 0;
+      clearInterval(mic.tick);
+      mic.tick = setInterval(speakTick, 200);
+      speakTick();
+
+      try {
+        mic.ctx = new (window.AudioContext || window.webkitAudioContext)();
+        mic.analyser = mic.ctx.createAnalyser();
+        mic.analyser.fftSize = 1024;
+        mic.ctx.createMediaStreamSource(stream).connect(mic.analyser);
+        meter();
+      } catch (e) { mic.analyser = null; }   // the meter is decoration
+
+      renderSpeakBar();
+    })["catch"](function (err) {
+      mic.starting = false;
+      mic.phase = "idle";
+      speakFail(err && err.name === "NotAllowedError"
+        ? "the microphone was blocked - allow it for this page and try again"
+        : "could not open the microphone: " + (err && err.message || err));
+    });
+  }
+
+  function stopRecording() {
+    // Cancelling during the preparation phase, before anything was recorded.
+    if (mic.phase === "prep") {
+      mic.phase = "idle";
+      clearInterval(mic.tick);
+      renderSpeakBar();
+      return;
+    }
+    if (!mic.recording) {
+      // Asked to stop while the microphone was still being handed over.
+      if (mic.starting) { mic.starting = false; mic.phase = "idle"; renderSpeakBar(); }
+      return;
+    }
+    mic.recording = false;
+    mic.phase = "idle";
+    clearInterval(mic.tick);
+    cancelAnimationFrame(mic.raf);
+    speakEl("speakLevel").style.width = "0";
+    try { mic.rec.stop(); } catch (e) { /* already stopped */ }
+    if (mic.media) mic.media.getTracks().forEach(function (t) { t.stop(); });
+    mic.media = null;
+    if (mic.ctx) { try { mic.ctx.close(); } catch (e) {} mic.ctx = null; }
+    mic.analyser = null;
+    renderSpeakBar();
+  }
+
+  function speakFail(msg) {
+    mic.busy = false;
+    speakEl("speakState").textContent = "";
+    speakEl("speakReport").innerHTML =
+      '<div class="ssec"><p class="sempty">' + esc(msg) + "</p></div>";
+    renderSpeakBar();
+  }
+
+  /* ---- playback
+
+     Hearing the exact moment it went wrong, which is the only way a fault
+     list turns into something you can fix.
+
+     Web Audio rather than an <audio> element, and that is the whole reason
+     this is precise: decodeAudioData() gives the recording as samples, and
+     AudioBufferSourceNode.start(when, offset, duration) plays an arbitrary
+     range of them to the sample - 1/48000 of a second, around twenty
+     microseconds. Seeking an <audio> element instead would land you within
+     "some point in that general area", and stopping it would depend on a
+     timeupdate event that fires about four times a second.
+
+     Worth being straight about where the precision actually runs out: the
+     PLAYBACK is sample-exact, but the BOUNDARIES come from Whisper, which
+     aligns on 20ms frames. So the slice you hear is cut exactly where it was
+     asked to be, and where it was asked is a good guess to about a fiftieth
+     of a second. Hence the small pad either side - a word cut dead on its
+     first sample is hard to recognise as the word. */
+
+  function stopPlayback() {
+    if (mic.srcNode) {
+      try { mic.srcNode.stop(); } catch (e) { /* already finished */ }
+      mic.srcNode = null;
+    }
+    if (mic.playing) { mic.playing.classList.remove("is-playing"); mic.playing = null; }
+    clearPlayhead();
+  }
+
+  function clearPlayhead() {
+    if (mic.phRaf) { cancelAnimationFrame(mic.phRaf); mic.phRaf = 0; }
+    if (mic.said) { mic.said.classList.remove("is-said"); mic.said = null; }
+  }
+
+  /**
+   * Underline the word being said, while it is being said.
+   *
+   * Driven off the AUDIO clock - ctx.currentTime - and not off Date.now() or a
+   * frame count. The audio clock is the one the sound is actually coming out
+   * on, so the underline cannot drift away from what you are hearing however
+   * busy the page gets; a wall clock would slide by a word or two across a
+   * long playback, which is worse than no underline at all. It also means half
+   * speed needs no special case: multiply by the rate and the maths is done.
+   *
+   * requestAnimationFrame because this is an animation and nothing else. A
+   * backgrounded tab pauses rAF, so the underline stops while the audio plays
+   * on - which is the same bargain the drill's level meter and the essay
+   * countdown already make: the repainting stops, the thing itself does not.
+   */
+  /* Put the wrong words back, so a replay corrects them again. They stay
+     corrected once passed - the fix has been made and watching it un-happen
+     would be worse - but a fresh play starts from the reading as it was. */
+  function resetCorrections() {
+    var p = speakEl("speakPrompt");
+    [].slice.call(p.querySelectorAll(".saidwrong.corrected")).forEach(function (n) {
+      n.classList.remove("corrected");
+    });
+    [].slice.call(p.querySelectorAll(".w.dropin")).forEach(function (n) {
+      n.classList.remove("dropin");
+    });
+  }
+
+  function runPlayhead(spans, clock, alive) {
+    if (!spans || !spans.length) return;
+    clearPlayhead();
+    resetCorrections();
+
+    function step() {
+      mic.phRaf = 0;
+      if (!alive()) return clearPlayhead();              // playback ended
+      var t = clock();
+
+      var hit = null;
+      for (var i = 0; i < spans.length; i++) {
+        if (t >= spans[i].from && t < spans[i].to) { hit = spans[i].el; break; }
+        // Past this word and not yet at the next: in a gap. The underline
+        // stays on the word just finished rather than blinking off and on
+        // between every pair - a flicker reads as a fault in the page.
+        if (t < spans[i].from) { hit = i ? spans[i - 1].el : null; break; }
+      }
+      if (hit !== mic.said) {
+        if (mic.said) mic.said.classList.remove("is-said");
+        if (hit) {
+          hit.classList.add("is-said");
+          // Arriving at a word you got wrong: the red one gets out of the way
+          // and the right one settles down into the gap. The correction
+          // happens exactly when you HEAR it, which is the whole point of
+          // tying it to the playhead rather than doing it on load.
+          var wrong = hit.nextElementSibling;
+          if (wrong && wrong.classList.contains("saidwrong") &&
+              !wrong.classList.contains("corrected")) {
+            wrong.classList.add("corrected");
+            hit.classList.add("dropin");
+          }
+        }
+        mic.said = hit;
+      }
+      mic.phRaf = requestAnimationFrame(step);
+    }
+    mic.phRaf = requestAnimationFrame(step);
+  }
+
+  /** The recording's own spans - real timestamps, measured by the transcriber. */
+  function recordedSpans() {
+    return [].slice.call(speakEl("speakReport").querySelectorAll(".stext .w[data-from]"))
+      .map(function (n) {
+        return { el: n, from: parseFloat(n.getAttribute("data-from")),
+                 to: parseFloat(n.getAttribute("data-to")) };
+      });
+  }
+
+  function resetPlayback() {
+    stopPlayback();
+    if (mic.pctx) { try { mic.pctx.close(); } catch (e) {} mic.pctx = null; }
+    mic.buffer = null;
+    mic.blob = null;
+    speakEl("speakRate").hidden = true;
+  }
+
+  /* Decoding does NOT need a live audio context, and deliberately does not
+     make one. A context built here - in a fetch callback, with no click
+     behind it - is born SUSPENDED, and a suspended context only resumes on a
+     genuine user gesture. Playing from it then depends on resume() resolving
+     later, which is a race the page loses silently: no sound, no error, and a
+     highlight stuck on the word. So an OfflineAudioContext does the decode
+     (it exists to not play anything) and the real context is built on the
+     first click instead, where the gesture is. */
+  function decodeForPlayback(blob) {
+    return blob.arrayBuffer().then(function (ab) {
+      var off = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, 1, 48000);
+      // The callback form, not the promise: Safari still only has that one,
+      // and this costs three lines.
+      return new Promise(function (ok, no) { off.decodeAudioData(ab, ok, no); });
+    }).then(function (buf) {
+      mic.buffer = buf;
+      speakEl("speakRate").hidden = false;
+    })["catch"](function () {
+      // No playback rather than no report: everything else on the page still
+      // stands without it.
+      mic.buffer = null;
+    });
+  }
+
+  /* Built on demand, which means inside the click that wants it - so it comes
+     up running rather than suspended. */
+  function playCtx() {
+    if (!mic.pctx) {
+      mic.pctx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    return mic.pctx;
+  }
+
+  function playSlice(from, to, pad, node) {
+    if (!mic.buffer) return;
+    stopPlayback();
+
+    var ctx = playCtx();
+    var d = mic.buffer.duration;
+    pad = pad == null ? 0.06 : pad;
+    var a = Math.max(0, from - pad);
+    var b = Math.min(d, (to == null ? from : to) + pad);
+    if (b - a < 0.03) b = Math.min(d, a + 0.03);   // too short to hear at all
+
+    function fire() {
+      // stopPlayback() may have run while resume() was in flight.
+      if (mic.pctx !== ctx) return;
+      var src = ctx.createBufferSource();
+      src.buffer = mic.buffer;
+      // Half speed keeps the pitch, which is wrong for a vowel but right for
+      // hearing WHERE the syllable came apart - and that is what this is for.
+      src.playbackRate.value = mic.rate;
+      src.connect(ctx.destination);
+      src.onended = function () {
+        if (node) node.classList.remove("is-playing");
+        if (mic.srcNode === src) mic.srcNode = null;
+      };
+      src.start(0, a, b - a);
+      mic.srcNode = src;
+      if (node) { node.classList.add("is-playing"); mic.playing = node; }
+      var startedAt = ctx.currentTime;
+      runPlayhead(recordedSpans(),
+        function () { return a + (ctx.currentTime - startedAt) * mic.rate; },
+        function () { return !!mic.srcNode; });
+    }
+
+    /* Made in a click, so it is normally already running and this is the
+       straight path. The suspended arm is the belt and braces - a tab that was
+       backgrounded mid-session can have its context suspended out from under
+       it - and both arms are `fire`, because a rejected resume still leaves a
+       context worth trying. A suspended context's clock does not advance, so
+       a source started against one never plays and never fires `onended`,
+       which would leave the highlight stuck on the word for ever. */
+    if (ctx.state === "suspended") ctx.resume().then(fire, fire); else fire();
+  }
+
+  /* One listener on the container, not one per fault: the report is rebuilt
+     from scratch on every recording, so anything bound to a word inside it
+     would be bound to an element that no longer exists. The same reason the
+     tables delegate to their <tbody>. */
+  /* The TTS <audio> element belongs to the rest of the page; this tab only
+     ever silences it, so the model answer and your own recording cannot play
+     over the top of each other. */
+  function hushVoice() { stopSpeaking(); }
+
+  speakEl("speakReport").addEventListener("click", function (ev) {
+    // Checked first: a speaker button can sit inside a row that also replays
+    // the recording, and the button is the more specific intent.
+    var say = ev.target.closest ? ev.target.closest("[data-say]") : null;
+    if (say) {
+      stopPlayback();
+      stopSpeaking();                     // clicking a second one replaces the first
+      speak(say.getAttribute("data-say"), say);
+      return;
+    }
+    var t = ev.target.closest ? ev.target.closest("[data-from]") : null;
+    if (!t) return;
+    hushVoice();
+    // data-end means "and keep going": the pointer at the head of a sentence.
+    // Only the decoded buffer knows where the end is, so it is resolved here
+    // rather than written into the markup.
+    var to = t.getAttribute("data-end")
+      ? (mic.buffer ? mic.buffer.duration : null)
+      : parseFloat(t.getAttribute("data-to"));
+    playSlice(parseFloat(t.getAttribute("data-from")), to,
+              t.getAttribute("data-pad") ? parseFloat(t.getAttribute("data-pad")) : 0.06,
+              t);
+  });
+
+  /* The three controls under the paragraph. Delegated, because the row is
+     rebuilt with the report on every recording. */
+  speakEl("speakReport").addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest(".sctl") : null;
+    if (!b) return;
+    var act = b.getAttribute("data-act");
+
+    if (act === "play") {                          // your own recording
+      stopSpeaking();
+      if (mic.buffer) playSlice(0, mic.buffer.duration, 0, null);
+      return;
+    }
+
+    /* "Properly" means the RIGHT words, which in a read aloud is the script
+       and never the transcript. Reading your own transcript back in a nice
+       voice is reading your mistakes back to you - it was doing exactly that,
+       under a button labelled "properly". Free talk has no script, so there it
+       really is your own words, said the way they should sound.
+
+       The underline follows the text being spoken to wherever that text is
+       drawn: the script lights up in the prompt at the top, the transcript
+       lights up in the panel below. One rule, two places, and neither
+       pretends to be the other. */
+    stopPlayback();
+    stopSpeaking();
+    var reading = mic.mode === "read" && mic.script;
+    var text = reading ? mic.script : transcriptText();
+    var where = reading ? speakEl("speakPrompt") : speakEl("speakReport");
+    if (!text) return;
+    if (reading) speakEl("speakTask").scrollIntoView({ block: "center" });
+
+    speak(text, b).then(function () {
+      if (speech.paused) return;
+      startModelHead(where);
+    });
+  });
+
+  /**
+   * Start the underline over whatever the model voice is reading.
+   *
+   * The duration has to be waited for, and that is not a formality: play()
+   * resolves when playback BEGINS, which can be before the blob's metadata has
+   * been read, and until then `duration` is NaN. Reading it at that moment and
+   * giving up - which is what this did - meant the head silently never
+   * started, while every test that stubbed the media clock said it was fine.
+   */
+  function startModelHead(where) {
+    // One head per request. A listener left over from an earlier click must
+    // not start a head for audio that has since been replaced: two heads
+    // running at once fight over the same `mic.phRaf`, and the second one's
+    // resetCorrections() wipes the corrections the first had already made.
+    var seq = ++mic.headSeq;
+
+    function go() {
+      if (seq !== mic.headSeq) return;                 // superseded
+      if (speech.paused || !isFinite(speech.duration) || !speech.duration) return;
+      var spans = estimateSpans(where, speech.duration);
+      if (!spans.length) return;
+      runPlayhead(spans,
+        function () { return speech.currentTime; },
+        function () { return !speech.paused && !speech.ended; });
+    }
+    if (isFinite(speech.duration) && speech.duration) return go();
+
+    // Waits for a duration that is actually a NUMBER. `durationchange` fires
+    // on its way to being known as well as on arrival, and unhooking on the
+    // first one - which is what this did - threw away the only notification
+    // that mattered and left the head permanently unstarted.
+    var on = function () {
+      if (seq !== mic.headSeq) {
+        speech.removeEventListener("durationchange", on);
+        speech.removeEventListener("loadedmetadata", on);
+        return;
+      }
+      if (!isFinite(speech.duration) || !speech.duration) return;
+      speech.removeEventListener("durationchange", on);
+      speech.removeEventListener("loadedmetadata", on);
+      go();
+    };
+    speech.addEventListener("durationchange", on);
+    speech.addEventListener("loadedmetadata", on);
+  }
+
+  /** The paragraph as plain words - what the model voice is asked to say. */
+  function transcriptText() {
+    var box = speakEl("speakReport");
+    return [].slice.call(box.querySelectorAll(".stext .w"))
+      .map(function (n) { return n.textContent.trim(); }).join(" ").trim();
+  }
+
+  /*
+   * Word timings for the MODEL voice, estimated.
+   *
+   * The recording has real timestamps - Whisper measured them - and the
+   * underline over it is exact. Kokoro returns a WAV and nothing else: there
+   * is no alignment in it, and getting one would mean transcribing the audio
+   * we just synthesised, which costs more than the playback itself. So the
+   * duration is shared out across the words by weight: letters, plus a little
+   * for the breath a comma or a full stop buys.
+   *
+   * This is an approximation and the hint under the buttons says so. It tracks
+   * well enough to follow along, and it is honest about being a guide rather
+   * than a measurement - which is why the two buttons say different things
+   * about what their underline means.
+   */
+  function estimateSpans(where, dur) {
+    var nodes = [].slice.call(where.querySelectorAll(".w"));
+    if (!nodes.length || !dur) return [];
+    var w = nodes.map(function (n) {
+      var t = n.textContent.trim();
+      var pause = /[,;:]$/.test(t) ? 2 : /[.?!]$/.test(t) ? 3.5 : 0;
+      return Math.max(1, t.replace(/[^A-Za-z']/g, "").length) + 1 + pause;
+    });
+    var total = w.reduce(function (a, b) { return a + b; }, 0);
+    var at = 0;
+    return nodes.map(function (n, i) {
+      var from = (at / total) * dur;
+      at += w[i];
+      return { el: n, from: from, to: (at / total) * dur };
+    });
+  }
+
+  speakEl("speakRate").addEventListener("click", function () {
+    mic.rate = mic.rate === 1 ? 0.5 : 1;
+    speakEl("speakRate").textContent = mic.rate === 1 ? "0.5\u00D7" : "1\u00D7";
+    stopPlayback();
+  });
+
+  /* The one call in this file that does not go through api(), and it says so
+     rather than pretending otherwise: the body is audio, not JSON. It keeps
+     api()'s two guarantees by hand - it refuses against a stale server, and it
+     cannot run on the cloud build at all, because the tab that reaches it is
+     hidden there. */
+  function sendRecording() {
+    var blob = new Blob(mic.chunks, { type: (mic.rec && mic.rec.mimeType) || "audio/webm" });
+    mic.chunks = [];
+    if (!blob.size) return speakFail("nothing was recorded");
+    // Kept in memory only, and only until the next take replaces it. This is
+    // the sole copy of the recording anywhere - the server holds it for the
+    // length of one request and writes none of it down.
+    mic.blob = blob;
+    decodeForPlayback(blob);
+    if (stale) return speakFail("the server is running older code - restart npm run web");
+
+    mic.busy = true;
+    renderSpeakBar();
+    var st = mic.status || {};
+    speakEl("speakState").textContent = st.ready
+      ? "Transcribing…"
+      : "Downloading the speech model (133MB), then transcribing…";
+
+    var q = mic.mode === "read" && mic.script
+      ? "?script=" + encodeURIComponent(mic.script) : "";
+
+    fetch("/api/speech/analyse" + q, {
+      method: "POST",
+      headers: { "content-type": "application/octet-stream" },
+      body: blob
+    }).then(function (r) {
+      return r.json().then(function (j) {
+        if (!r.ok) throw new Error(j.error || r.statusText);
+        return j;
+      });
+    }).then(function (rep) {
+      mic.busy = false;
+      speakEl("speakState").textContent = "";
+      if (mic.status) mic.status.ready = true;   // it has loaded by now
+      if (rep.empty) return speakFail(rep.error || "no speech was found in that recording");
+      mic.report = rep;
+      noteSession(rep);
+      renderSpeakReport();
+      renderSpeakBar();
+    })["catch"](function (err) { speakFail(err.message || String(err)); });
+  }
+
+  /* ---- the session
+
+     Small summaries, in memory, this page-load only. This is what lets the
+     panel answer "am I consistent" across a conversation rather than inside
+     one answer, which is the question that was actually asked. */
+
+  function noteSession(rep) {
+    mic.session.push({
+      wpm: rep.pace.wpm,
+      words: rep.pace.words,
+      fillers: rep.fillers.certain.length + rep.fluency.filled.length,
+      hesitations: rep.fluency.hesitations.length,
+      us: rep.dialect.us,
+      uk: rep.dialect.uk
+    });
+  }
+
+  /* ---- drawing */
+
+  function renderSpeakBar() {
+    var go = speakEl("speakGo");
+    var read = mic.mode === "read";
+    var busyish = mic.recording || mic.phase === "prep" || mic.busy;
+
+    // One button, three labels, one handler - the Essays tab's Start/Restart
+    // rule. A second handler for the timed start is how the two would drift.
+    go.textContent = mic.recording ? "Stop"
+      : mic.phase === "prep" ? "Record now"
+      : read ? "Start" : "Record";
+    go.classList.toggle("btn-primary", !mic.recording);
+    go.classList.toggle("btn-danger", mic.recording);
+    go.disabled = mic.busy;
+
+    speakEl("speakDot").classList.toggle("is-live", mic.recording);
+    // Live only while something is actually being recorded or analysed - NOT
+    // through the reading time. Both of these go through freshTask(), whose
+    // stopRecording() abandons a preparation cleanly, and that is the only way
+    // out of a countdown you started by mistake. The exam gives you no way
+    // out; a practice tool that also gave you none would just be annoying.
+    speakEl("speakMode").disabled = mic.recording || mic.busy;
+    speakEl("speakNew").disabled = mic.recording || mic.busy;
+    speakEl("speakNew").hidden = !read;
+
+    var state = speakEl("speakState");
+    if (!mic.busy) {
+      state.textContent = mic.phase === "prep"
+        ? "Reading time - the microphone opens on its own."
+        : mic.recording && mic.limit
+          ? "It submits itself when the clock reaches zero."
+          : "";
+    }
+    if (mic.phase === "idle" && !mic.busy) {
+      speakEl("speakClock").textContent = read
+        ? mmss(prepSeconds()) + " / " + mmss(recSeconds()) : "0:00";
+    }
+  }
+
+  function card(value, label, note, tone) {
+    return '<div class="scard' + (tone ? " is-" + tone : "") + '"><b>' + esc(String(value)) +
+      "</b><span>" + esc(label) + "</span>" +
+      (note ? "<em>" + esc(note) + "</em>" : "") + "</div>";
+  }
+
+  function sec(title, body, note) {
+    if (!body) return "";
+    return '<div class="ssec"><h2>' + esc(title) + "</h2>" +
+      (note ? '<p class="snote">' + note + "</p>" : "") + body + "</div>";
+  }
+
+  /* The transcript with the faults inside it. The gaps are drawn between the
+     words they fall between, so a filled pause is seen where it happened
+     rather than counted in a box somewhere else. */
+  /* Where a fault's words sit in the transcript. One function, because the
+     highlight in the transcript and the clickable line in the list below it
+     must point at the same place - two searches would eventually disagree. */
+  function findPhrase(t, phrase) {
+    var parts = String(phrase).split(" ");
+    var at = [];
+    for (var i = 0; i + parts.length <= t.length; i++) {
+      var hit = true;
+      for (var j = 0; j < parts.length; j++) if (t[i + j] !== parts[j]) { hit = false; break; }
+      if (hit) at.push(i);
+    }
+    return at;
+  }
+
+  /* The normalised tokens, the way the server normalised them. */
+  function normWords(rep) {
+    return rep.words.map(function (w) {
+      return String(w.text).toLowerCase().replace(/^[^a-z0-9']+|[^a-z0-9']+$/g, "");
+    });
+  }
+
+  /* data-from/data-to for a run of words, so a list item plays its own fault. */
+  function stampFor(rep, i, n) {
+    if (i == null || i < 0 || !rep.words[i]) return "";
+    var last = rep.words[Math.min(rep.words.length - 1, i + (n || 1) - 1)];
+    return ' data-from="' + rep.words[i].start + '" data-to="' + last.end + '"';
+  }
+
+  /* The key to the colours, and it names the PLAIN words too. A legend that
+     lists only the marked-up categories leaves the reader working out for
+     themselves what the unmarked majority means, and the honest answer -
+     nothing was found in it - is worth a line of its own. */
+  function legendHtml(rep) {
+    // Green means two different things in the two tasks, and saying which is
+    // the difference between a legend and a decoration.
+    var bits = [
+      ['lg-ok', rep.read ? "said as the script has it" : "nothing found wrong with it"],
+      ['lg-bad', rep.read ? "misread, or not recognised" : "a grammar fault or a word said twice"],
+      ['lg-fill', "a filler"],
+      ['lg-deck', "one of your 491 - you produced it unprompted"]
+    ];
+    var out = '<div class="slegend">' + bits.map(function (b) {
+      return '<span><i class="' + b[0] + '"></i>' + esc(b[1]) + "</span>";
+    }).join("");
+    if ((rep.fluency.gaps || []).length) {
+      out += '<span><i class="lg-fill"></i>a chip is a gap between words: ' +
+        "<b>uh</b> means a sound was held in it, a bare number means silence</span>";
+    }
+    out += '<span>&#9654; plays from that sentence to the end</span>';
+    return out + "</div>";
+  }
+
+  /* Which recorded words came out right.
+     In a READ ALOUD there is a script to be right against, and `readDiff`
+     already walked it - an `ok` op is a word that matched. In FREE TALK there
+     is no reference at all, so "correct" can only mean the honest weaker
+     thing: nothing was found wrong with it. Those are different claims and the
+     legend says which one is in force rather than letting one green stand for
+     both. */
+  function correctSet(rep) {
+    var ok = {};
+    if (!rep.read) return null;                 // free talk - no script to match
+    var gi = 0;
+    rep.read.ops.forEach(function (o) {
+      if (o.op === "missed") return;            // never spoken, consumes no word
+      if (o.op === "ok") ok[gi] = true;
+      gi++;
+    });
+    return ok;
+  }
+
+  /* Where the sentences break, so each can carry a play-from pointer.
+     Whisper punctuates, so a word ending in . ? or ! closes one. When it has
+     not punctuated at all - which happens on a short or hesitant answer - the
+     transcript is cut into even runs instead, because a pointer you can only
+     put at the very beginning is not a pointer. */
+  function sentenceStarts(rep) {
+    var starts = [0], t = rep.words.map(function (w) { return String(w.text).trim(); });
+    for (var i = 0; i < t.length - 1; i++) {
+      if (/[.?!]["')\]]?$/.test(t[i])) starts.push(i + 1);
+    }
+    if (starts.length === 1 && t.length > 14) {
+      starts = [];
+      for (var j = 0; j < t.length; j += 12) starts.push(j);
+    }
+    return starts;
+  }
+
+  function transcriptHtml(rep) {
+    var bad = {}, marker = {}, deckAt = {};
+    var t = normWords(rep);
+
+    rep.grammar.forEach(function (g) {
+      findPhrase(t, g.text).forEach(function (i) {
+        var n = g.text.split(" ").length;
+        for (var k = 0; k < n; k++) bad[i + k] = true;
+      });
+    });
+    rep.repeats.forEach(function (r) { bad[r.at] = true; });
+    rep.fillers.certain.forEach(function (f) { marker[f.at] = true; });
+
+    var deckKeys = {};
+    rep.deck.forEach(function (d) { deckKeys[d.word.toLowerCase()] = true; });
+    t.forEach(function (w, i) {
+      // The stem test the server used, loosely mirrored so the highlight lands
+      // on the word you actually said.
+      if (deckKeys[w]) { deckAt[i] = true; return; }
+      ["s", "es", "ed", "ing", "d", "ly"].forEach(function (suf) {
+        if (w.length > suf.length + 2 && w.slice(-suf.length) === suf &&
+            deckKeys[w.slice(0, -suf.length)]) deckAt[i] = true;
+      });
+    });
+
+    // A word that was misread against the script is wrong, whatever else is
+    // true of it - so this runs after the grammar marks and adds to them.
+    var okAt = correctSet(rep);
+    if (okAt) {
+      var gi = 0;
+      rep.read.ops.forEach(function (o) {
+        if (o.op === "missed") return;
+        if (o.op === "misread" || o.op === "added") bad[gi] = true;
+        gi++;
+      });
+    }
+
+    // EVERY gap, not only the ones with a verdict attached. A pause the page
+    // decided was unremarkable is still a pause you may want to hear.
+    var gapAfter = {};
+    (rep.fluency.gaps || []).forEach(function (g) {
+      if (g.after == null) return;
+      gapAfter[g.after] = {
+        cls: g.kind === "filled" ? "fill" : g.kind === "hesitation" ? "hesi" : "",
+        txt: g.kind === "filled" ? "uh " + g.len + "s" : g.len + "s",
+        from: g.at, to: g.to, len: g.len, voiced: g.voiced, tone: g.tone, kind: g.kind
+      };
+    });
+
+    var starts = {}, list = sentenceStarts(rep);
+    list.forEach(function (i) { starts[i] = true; });
+
+    var out = "";
+    rep.words.forEach(function (w, i) {
+      if (starts[i]) {
+        // Plays from here to the end of the recording - "from this sentence
+        // on", not "this sentence alone". data-end is read in the handler,
+        // because only the decoded buffer knows where the end is.
+        out += '<span class="sfrom" data-from="' + w.start + '" data-end="1" data-pad="0" ' +
+               'title="Play from here to the end">&#9654;</span>';
+      }
+      var cls = "w";
+      if (bad[i]) cls += " bad";
+      else if (marker[i]) cls += " marker";
+      else if (!okAt || okAt[i]) cls += " ok";
+      if (deckAt[i]) cls += " deck";
+
+      out += '<span class="' + cls + '" data-from="' + w.start + '" data-to="' + w.end +
+             '" title="' + w.start.toFixed(2) + "s - " + w.end.toFixed(2) + 's">' +
+             esc(String(w.text).trim()) + "</span> ";
+
+      if (gapAfter[i]) {
+        var g = gapAfter[i];
+        // The evidence, not just the verdict. `tone` is how periodic the most
+        // voice-like moment in the gap was, 0 to 1: a buzzing vowel sits near
+        // 0.95, breath and room noise near 0.2. If a chip looks wrong, this is
+        // the number that says why - and the chip plays back, so you can check.
+        // Say which test it failed, not a vague "too low". A gap can score high
+        // on voicing for one instant - a stray periodic-looking moment - and
+        // still be silence, because nothing was HELD; reporting that as low
+        // voicing would be a lie the tooltip could be caught in.
+        var tip = g.kind === "filled"
+          ? g.len + "s gap - " + g.voiced + "s of held sound, voicing " + g.tone +
+            ". Click to hear it."
+          : g.len + "s, no sound held in it (best voicing " + g.tone + ")" +
+            ". Click to hear it.";
+        out += '<span class="gap ' + g.cls + '" data-from="' + g.from + '" data-to="' + g.to +
+               '" data-pad="0.12" title="' + tip + '">' + esc(g.txt) + "</span> ";
+      }
+    });
+    return '<div class="stext">' + out + "</div>";
+  }
+
+  /* The read-aloud faults, one row each, under the running diff.
+     Two controls per row and they answer different questions: the grey one
+     replays what you actually said, the teal one says the word properly in
+     whichever voice is chosen in the bar at the top. Hearing those two back to
+     back is the whole exercise - a fault list you cannot hear is a list of
+     spellings. They are listed here rather than inline because a speaker
+     button after every wrong word would bury the sentence. */
+  function faultListHtml(rep) {
+    if (!rep.read) return "";
+    var rows = [], gi = 0;
+    rep.read.ops.forEach(function (o) {
+      if (o.op === "missed") {
+        rows.push({ want: o.want, got: null, at: gi - 1 });
+        return;                                   // consumed no recorded word
+      }
+      if (o.op === "misread") rows.push({ want: o.want, got: o.got, at: gi });
+      gi++;
+    });
+    if (!rows.length) return "";
+
+    // A read that went badly wrong produces a fault per word, and a hundred
+    // rows is not a lesson. The inline diff above still shows every one.
+    var shown = rows.slice(0, 12);
+    var out = '<ul class="sfaults">' + shown.map(function (r) {
+      var line = r.got
+        ? 'The script says <b>' + esc(r.want) + "</b>; it heard <i>" + esc(r.got) + "</i>."
+        : '<b>' + esc(r.want) + "</b> was not heard at all.";
+      return "<li" + stampFor(rep, r.at) + ">" + line +
+        (rep.words[r.at] ? ' <span class="splay">what you said</span>' : "") +
+        ' <button class="ssay" data-say="' + esc(r.want) +
+        '" title="Hear it in the chosen voice">&#9835; how it should sound</button></li>';
+    }).join("") + "</ul>";
+    if (rows.length > shown.length) {
+      out += '<p class="snote">' + (rows.length - shown.length) +
+        " more, shown in the text above.</p>";
+    }
+    return out;
+  }
+
+  function diffHtmlWords(rep, read) {
+    var out = "", gi = 0;
+    read.ops.forEach(function (o) {
+      if (o.op === "missed") {
+        out += '<span class="miss"' + stampFor(rep, gi - 1) + ">" + esc(o.want) + "</span> ";
+        return;
+      }
+      var stamp = stampFor(rep, gi);
+      var w = rep.words[gi];
+      var title = w ? ' title="' + w.start.toFixed(2) + 's"' : "";
+      if (o.op === "ok") out += "<span" + stamp + title + ">" + esc(o.want) + "</span> ";
+      else if (o.op === "added") {
+        out += '<span class="adds"' + stamp + title + ">+" + esc(o.got) + "</span> ";
+      } else {
+        out += '<span class="swap"' + stamp + title + ">" + esc(o.got) +
+               " <i>(" + esc(o.want) + ")</i></span> ";
+      }
+      gi++;
+    });
+    return '<div class="stext sdiff">' + out + "</div>";
+  }
+
+  function renderSpeakReport() {
+    var rep = mic.report;
+    var box = speakEl("speakReport");
+    if (!rep) { box.innerHTML = ""; return; }
+
+    var p = rep.pace;
+    var fillerN = rep.fillers.certain.length + rep.fluency.filled.length;
+    // PTE's own comfortable band for a spoken answer. Outside it in either
+    // direction costs fluency marks, and the two directions have opposite fixes.
+    var paceTone = p.wpm < 110 ? "bad" : p.wpm > 200 ? "bad"
+                 : (p.wpm < 130 || p.wpm > 185) ? "warn" : "good";
+    var perMin = p.seconds > 0 ? (fillerN / (p.seconds / 60)) : 0;
+    var fillTone = perMin < 2 ? "good" : perMin < 5 ? "warn" : "bad";
+
+    /* A capture that mostly failed must not be dressed up as statistics.
+       34 seconds of speech coming back as three words produced "360 words per
+       minute" and "2% read accurately" - numbers that are arithmetically
+       correct and completely meaningless, and that sent us hunting the filler
+       thresholds when the recording itself was broken. If the speaking found
+       inside the clip is a small fraction of the clip, say so first. */
+    var thin = rep.clipSeconds > 4 && (p.words < 8 || p.seconds < rep.clipSeconds * 0.25);
+    var html = "";
+    if (thin) {
+      html += '<div class="ssec"><h2>Something went wrong with that recording</h2>' +
+        '<ul class="slist"><li class="bad">The recording is <b>' + rep.clipSeconds +
+        "s</b> long but only <b>" + p.words + " word" + (p.words === 1 ? "" : "s") +
+        "</b> were found in it, spanning <b>" + p.seconds + "s</b>. That is a capture " +
+        "problem, not a speaking one &mdash; the numbers below are measured over those few " +
+        "words and mean nothing. Check the microphone is the one you think it is, then " +
+        "record again.</li></ul></div>";
+    }
+    html += '<div class="sstat">' +
+      card(p.wpm, "words / min", "140-180 is the band", paceTone) +
+      card(fillerN, "fillers", Math.round(perMin * 10) / 10 + " per minute", fillTone) +
+      card(rep.fluency.hesitations.length, "hesitations",
+           "pauses over " + rep.fluency.hesitationThreshold + "s",
+           rep.fluency.hesitations.length > 3 ? "bad"
+             : rep.fluency.hesitations.length ? "warn" : "good") +
+      card(rep.deck.length, "deck words used", "of your 491", rep.deck.length ? "good" : "") +
+      (rep.read ? card(rep.read.accuracy + "%", "read accurately",
+           rep.read.missed + " missed, " + rep.read.misread + " misheard",
+           rep.read.accuracy >= 95 ? "good" : rep.read.accuracy >= 85 ? "warn" : "bad") : "") +
+      "</div>";
+
+    var row = '<div class="splayrow">' +
+      '<button class="sctl" data-act="play">&#9654; Play it back</button>' +
+      '<button class="sctl model" data-act="model">&#9835; Hear it properly</button>' +
+      '<span class="shint">' +
+      (rep.read
+        ? "<b>Hear it properly</b> reads the script above, as it should have sounded. " +
+          "Up there, green is a word you produced, <span class=\"saidwrong\">red</span> is what " +
+          "came out in its place, and a struck-through word was not heard at all. It "
+        : "<b>Hear it properly</b> reads your words back as they should sound, and ") +
+      "underlines them as it goes. Over your own recording the underline is measured; over the " +
+      "model voice it is estimated, because a synthesised clip carries no word timings." +
+      "</span></div>";
+
+    html += sec("What you said", legendHtml(rep) + transcriptHtml(rep) + row,
+      '<b>Click any word or gap to hear exactly that slice of your recording</b>, and the word ' +
+      'being said is underlined as it plays. The cut is exact to the sample; where it is cut is ' +
+      'the transcriber\u2019s alignment, good to about a fiftieth of a second. Use ' +
+      '<b>0.5&times;</b> in the bar above for the close listening.');
+
+    if (rep.read) {
+      html += sec("Against the script", diffHtmlWords(rep, rep.read) + faultListHtml(rep),
+        'Struck through was not heard at all; <span class="swap">red <i>(bracketed)</i></span> is ' +
+        'what came out against what was written. A word here is a word that was not clear enough ' +
+        'to be recognised &mdash; not proof you said it wrong, but the place to listen again.');
+    }
+
+    /* fillers */
+    var fbody = "";
+    if (rep.fillers.certain.length) {
+      var counted = {};
+      rep.fillers.certain.forEach(function (f) { counted[f.word] = (counted[f.word] || 0) + 1; });
+      fbody += '<div class="schips">' + Object.keys(counted).map(function (w) {
+        return '<span class="schip"><b>' + esc(w) + "</b> &times;" + counted[w] + "</span>";
+      }).join("") + "</div>";
+    }
+    if (rep.fluency.filled.length) {
+      fbody += '<p class="snote" style="margin-top:8px">' + rep.fluency.filled.length +
+        " filled pause" + (rep.fluency.filled.length === 1 ? "" : "s") +
+        " heard in the gaps between the words &mdash; a sound was being made, but it was not a " +
+        "word. These are the ones a transcript alone would never show you, so play them.</p>";
+      fbody += '<ul class="slist">' + rep.fluency.filled.map(function (g) {
+        return '<li class="bad" data-from="' + g.at + '" data-to="' + (g.at + g.len) +
+          '" data-pad="0.12"><b>' + g.len + "s</b> at " + g.at + "s &mdash; " +
+          g.voiced + "s of held sound, voicing " + g.tone +
+          '. <span class="splay">play</span></li>';
+      }).join("") + "</ul>";
+    }
+    if (rep.fillers.markers.length) {
+      fbody += '<div class="schips" style="margin-top:8px">' + rep.fillers.markers.map(function (m) {
+        return '<span class="schip' + (m.count >= 3 ? " us" : "") + '"><b>' + esc(m.phrase) +
+          "</b> &times;" + m.count + "</span>";
+      }).join("") + "</div>";
+    }
+    // When nothing was flagged, say what came closest and what it needed. A
+    // panel that shows an empty list cannot be told apart from one that is
+    // broken - which is exactly the confusion this spent two rounds in.
+    if (!fillerN) {
+      var gaps = (rep.fluency.gaps || []).slice().sort(function (x, y) {
+        return (y.voiced || 0) - (x.voiced || 0);
+      });
+      var near = gaps[0];
+      var th = rep.fluency.thresholds;
+      if (near && th) {
+        fbody = '<ul class="slist"><li class="ok">Nothing cleared the bar. The closest was the <b>' +
+          near.len + "s</b> gap at " + near.at + "s: a sound was held in it for <b>" +
+          (near.voiced || 0) + "s</b> at voicing <b>" + (near.tone || 0) + "</b>, against the <b>" +
+          th.run + "s</b> at <b>" + th.periodic + "</b> it needs." +
+          ' <span class="splay">play it</span></li></ul>' +
+          '<p class="snote">If you know you held a sound there, play it and tell me those two ' +
+          "numbers &mdash; they are what sets this threshold honestly.</p>";
+        fbody = fbody.replace('<li class="ok">', '<li class="ok" data-from="' + near.at +
+          '" data-to="' + near.to + '" data-pad="0.12">');
+      }
+    }
+
+    html += sec("Fillers", fbody || '<p class="sempty">None found. That is genuinely good.</p>',
+      "The chips at the bottom are ordinary words &mdash; one is fine, several is a tic. " +
+      "A gap is only called a filler if a <i>periodic</i> sound was held in it: a voice buzzing " +
+      "scores near 0.95, breath and room noise near 0.2. Every gap plays back, so a call that " +
+      "looks wrong can be listened to.");
+
+    /* fluency detail */
+    var flbody = "";
+    if (rep.fluency.hesitations.length) {
+      flbody += '<ul class="slist">' + rep.fluency.hesitations.map(function (g) {
+        return '<li class="warn" data-from="' + g.at + '" data-to="' + (g.at + g.len) +
+          '" data-pad="0.15"><b>' + g.len + "s</b> of silence at " + g.at +
+          's. <span class="splay">play</span></li>';
+      }).join("") + "</ul>";
+    }
+    flbody += '<ul class="slist"><li class="ok">' + p.words + " words in " + p.seconds +
+      "s. Speaking rate " + p.wpm + " wpm; with the pauses taken out, " + p.articulation +
+      " wpm. " + (p.articulation - p.wpm > 40
+        ? "The gap between those two is the story: the words themselves come out at a good speed, and the pauses are what slows you down."
+        : "Those two being close means the pace is steady rather than stop-start.") +
+      "</li></ul>";
+    if (rep.repeats.length) {
+      flbody += '<ul class="slist">' + rep.repeats.map(function (r) {
+        // `at` is the second of the pair, so the playback starts one word
+        // earlier and you hear the doubling rather than half of it.
+        return '<li class="warn"' + stampFor(rep, Math.max(0, r.at - 1), 2) + "><b>" +
+          esc(r.text) + "</b> &mdash; " +
+          (r.kind === "repeat" ? "said twice over." : "a false start.") +
+          ' <span class="splay">play</span></li>';
+      }).join("") + "</ul>";
+    }
+    html += sec("Fluency", flbody,
+      "PTE marks rhythm, not silence as such: a pause at a clause boundary is good speaking. " +
+      "Only the long ones are listed.");
+
+    /* grammar */
+    html += sec("Grammar",
+      rep.grammar.length
+        ? '<ul class="slist">' + rep.grammar.map(function (g) {
+            var t = normWords(rep);
+            var at = findPhrase(t, g.text);
+            var n = g.text.split(" ").length;
+            return '<li class="bad"' + (at.length ? stampFor(rep, at[0], n) : "") + ">" +
+              esc(g.message) +
+              (at.length ? ' <span class="splay">play</span>' : "") +
+              (g.fix ? ' <button class="ssay" data-say="' + esc(g.fix) +
+                       '" title="Hear it said correctly">&#9835; ' + esc(g.fix) + "</button>" : "") +
+              "</li>";
+          }).join("") + "</ul>"
+        : '<p class="sempty">Nothing caught.</p>',
+      "Only faults that are wrong in every register are flagged, and they are checked against the " +
+      "<i>transcript</i> &mdash; if the transcriber misheard you, that shows up here as your mistake. " +
+      "Read the line above before believing one.");
+
+    /* deck */
+    html += sec("Words off your deck",
+      rep.deck.length
+        ? '<div class="schips">' + rep.deck.map(function (d) {
+            return '<span class="schip deck">' + esc(d.word) + "</span>";
+          }).join("") + "</div>"
+        : '<p class="sempty">None of your 491 came out. Knowing a word and reaching for it ' +
+          'unprompted are different things, and this is the only place the tool can see the second.</p>');
+
+    html += sec("Dialect", dialectHtml(rep),
+      "Word choice only, and neither column is correct &mdash; PTE accepts every standard variety. " +
+      "This is a consistency check.");
+
+    box.innerHTML = html;
+    annotateScript(rep);
+
+    /* Warm the cache for every correction on the page, the way a drill card
+       prefetches its own audio: a first rendering costs ~2.5s, and spending it
+       now means the speaker buttons answer instantly when they are pressed.
+       Silent on failure - this is an optimisation, and the real request will
+       report anything actually wrong. */
+    var seen = {};
+    [].slice.call(box.querySelectorAll("[data-say]")).forEach(function (el2) {
+      var t = el2.getAttribute("data-say");
+      // The whole script is not worth pre-rendering: it is long, it is one
+      // click, and it would hold the model busy while the short ones queue.
+      if (!t || t.length > 60 || seen[t]) return;
+      seen[t] = true;
+      prefetchSpeech(t, true);
+    });
+  }
+
+  /*
+   * The script with your reading written into it: every word green, because
+   * the script is by definition the right answer, and beside any word you did
+   * not produce, what came out instead in red.
+   *
+   * It is put HERE, on the script itself, rather than as another list further
+   * down, because the pair only means something together - "the word that was
+   * wanted, and the word you said in its place" is one fact, not two. And it
+   * is the text the model voice reads, so the underline walks across it while
+   * you hear the difference.
+   *
+   * The ops are aligned to the script's words: everything except `added`
+   * consumes one, so walking them in order indexes the script exactly.
+   */
+  function annotateScript(rep) {
+    if (!rep.read || !mic.script) return;
+    var want = mic.script.split(/\s+/);
+    var marks = [], wi = 0;
+    rep.read.ops.forEach(function (o) {
+      if (o.op === "added") return;            // heard, but not in the script
+      marks[wi++] = o;
+    });
+
+    speakEl("speakPrompt").innerHTML = want.map(function (word, i) {
+      var m = marks[i];
+      if (m && m.op === "missed") {
+        return '<span class="w gone" title="not heard at all">' + esc(word) + "</span>";
+      }
+      var extra = m && m.op === "misread"
+        ? '<span class="saidwrong" title="what came out instead">' + esc(m.got) + "</span>"
+        : "";
+      return '<span class="w ok">' + esc(word) + "</span>" + extra;
+    }).join(" ");
+  }
+
+  function dialectHtml(rep) {
+    var d = rep.dialect;
+    var out = "";
+    if (d.hits.length) {
+      out += '<div class="schips">' + d.hits.map(function (h) {
+        return '<span class="schip ' + h.variety + '"><b>' + esc(h.word) + "</b> " +
+          (h.variety === "us" ? "US" : "UK") + (h.count > 1 ? " &times;" + h.count : "") + "</span>";
+      }).join("") + "</div>";
+    }
+    if (d.mixedPairs.length) {
+      out += '<ul class="slist" style="margin-top:8px"><li class="bad">Both halves of the same pair ' +
+        "in one answer: <b>" + esc(d.mixedPairs.join(", ")) + "</b>. That is the clearest sign of " +
+        "mixing there is.</li></ul>";
+    }
+
+    /* across the session - the question actually asked */
+    var ses = mic.session;
+    if (ses.length >= 2) {
+      var us = ses.reduce(function (n, x) { return n + x.us; }, 0);
+      var uk = ses.reduce(function (n, x) { return n + x.uk; }, 0);
+      var wpms = ses.map(function (x) { return x.wpm; });
+      var lo = Math.min.apply(null, wpms), hi = Math.max.apply(null, wpms);
+      var line = "Across " + ses.length + " recordings this session: ";
+      line += us && uk
+        ? "<b>" + us + " American</b> and <b>" + uk + " British</b> choices &mdash; you are mixing."
+        : us ? "consistently American word choice." : uk ? "consistently British word choice."
+        : "no dialect-marked words have come up yet.";
+      line += " Speaking rate has ranged " + lo + "-" + hi + " wpm" +
+        (hi - lo > 45 ? ", which is a wide spread - your pace is not yet settled." : ", which is steady.");
+      out += '<ul class="slist" style="margin-top:8px"><li class="' +
+        (us && uk ? "warn" : "ok") + '">' + line + "</li></ul>";
+    } else {
+      out += '<p class="snote" style="margin-top:8px">Record a second answer and this will ' +
+        "start comparing them &mdash; consistency is a thing you can only see across turns.</p>";
+    }
+
+    out += '<p class="snote" style="margin-top:10px"><b>What this is not:</b> your accent. ' +
+      "Telling accents apart by <i>sound</i> needs a classifier, and the ones that work will not run " +
+      "beside the models already here &mdash; so rather than print a confident percentage with " +
+      "nothing behind it, this measures the one part of dialect a transcript really can see: " +
+      "which variety's words you reach for.</p>";
+    return out;
+  }
+
+  function renderSpeak() {
+    renderSpeakLede();
+    renderSpeakTask();
+    renderSpeakBar();
+    renderSpeakReport();
+  }
+
+  /* ---- wiring */
+
+  speakEl("speakGo").addEventListener("click", function () {
+    if (mic.recording) return stopRecording();          // early stop still submits
+    if (mic.phase === "prep") return startRecording();  // done reading, go now
+    // The read aloud gets its reading time first; free talk starts recording
+    // on the press, because there is nothing to read.
+    if (mic.mode === "read") startPrep(); else startRecording();
+  });
+
+  function freshTask() {
+    stopRecording();
+    resetPlayback();
+    mic.report = null;
+    mic.phase = "idle";
+    speakEl("speakReport").innerHTML = "";
+    renderSpeakTask();
+    renderSpeakBar();
+  }
+
+  speakEl("speakMode").addEventListener("click", function () {
+    mic.mode = mic.mode === "read" ? "free" : "read";
+    settings.speaking.mode = mic.mode;
+    saveSettings();
+    freshTask();
+  });
+  speakEl("speakNew").addEventListener("click", function () {
+    newScript();
+    freshTask();
+  });
+
   /* --------------------------------------------------------------- routing
      Every view is a real URL:
 
@@ -4373,6 +6036,9 @@
     // make a shared or bookmarked link start somebody else's clock.
     if (seg[0] === "essays") return { view: "essays" };
     if (seg[0] === "practice") return { view: "practice", train: null };
+    // One URL and no sub-routes, for the essays' reason: which task you are on
+    // is a rehearsal in progress, not a place to send anybody to.
+    if (seg[0] === "speaking") return { view: "speaking" };
 
     if (seg[0] === "batches") {
       var m = seg[1] && /^(words|phrases)-(\d+)$/.exec(seg[1]);
@@ -4402,6 +6068,7 @@
       return gm && (!grammar || gById[gm]) ? "/grammar/" + gm : "/grammar";
     }
     if (settings.view === "essays") return "/essays";
+    if (settings.view === "speaking") return "/speaking";
     if (settings.view === "practice") {
       if (!settings.train) return "/practice";
       return "/batches/" + refOf(settings.train) +
@@ -4491,8 +6158,12 @@
   /* ------------------------------------------------------------- views */
 
   function setView(v) {
-    settings.view = (v === "list" || v === "batches" || v === "grammar" || v === "essays")
-      ? v : "practice";
+    // A host that cannot listen has no Speaking tab, so a saved view or a
+    // typed /speaking on the cloud build falls through to the drill rather
+    // than showing an empty section.
+    if (v === "speaking" && !mic.available) v = "practice";
+    settings.view = (v === "list" || v === "batches" || v === "grammar" ||
+                     v === "essays" || v === "speaking") ? v : "practice";
     saveSettings();
     var practice = settings.view === "practice";
 
@@ -4506,6 +6177,11 @@
     document.getElementById("batchView").hidden = settings.view !== "batches";
     document.getElementById("grammarView").hidden = settings.view !== "grammar";
     document.getElementById("essayView").hidden = settings.view !== "essays";
+    document.getElementById("speakView").hidden = settings.view !== "speaking";
+    // Walking away from the tab stops the microphone. A recording that carried
+    // on behind the word list would be the single worst bug this file could
+    // have, so it is cut here rather than trusted to any handler.
+    if (settings.view !== "speaking" && mic.recording) stopRecording();
     // Only the two table views get the fixed-height shell: they pin their
     // filters and scroll the rows inside .tablewrap. The grammar view is a
     // long document, so it must scroll the page itself - handing it
@@ -4518,6 +6194,7 @@
     else if (settings.view === "list") renderList();
     else if (settings.view === "grammar") renderGrammar();
     else if (settings.view === "essays") renderEssay();
+    else if (settings.view === "speaking") renderSpeak();
     else renderBatches();
 
     // Leaving the tab stops the repainting; the deadline itself carries on.
@@ -4525,7 +6202,7 @@
   }
 
   var VIEW_PATH = { list: "/word_list", batches: "/batches", grammar: "/grammar",
-                    essays: "/essays", practice: "/practice" };
+                    essays: "/essays", speaking: "/speaking", practice: "/practice" };
 
   document.querySelectorAll("[data-view]").forEach(function (b) {
     b.addEventListener("click", function () { navigateTo(VIEW_PATH[b.dataset.view]); });
@@ -4816,7 +6493,13 @@
   /* ----------------------------------------------------------------- go */
 
   function boot() {
-    return Promise.all([loadDeck(), loadUsage()]).then(function () {
+    // probeSpeech() is IN the gate, unlike loadVoices() below it, and the
+    // difference is that the ROUTE depends on it. setView() sends /speaking to
+    // the drill on a host that cannot listen, and applyRoute() then rewrites
+    // the address bar to match - so probing afterwards and re-routing reads
+    // the corrected URL and lands on the drill for ever. It is one small local
+    // request, and on the cloud build it is answered from memory.
+    return Promise.all([loadDeck(), loadUsage(), probeSpeech()]).then(function () {
       applyRoute();
       // After the deck, not with it: the voice bar is a nicety and must not hold
       // up the first card, and a server without TTS simply hides the bar.

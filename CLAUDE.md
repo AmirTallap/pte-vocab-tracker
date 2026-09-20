@@ -39,7 +39,9 @@ A study tool for the two vocabulary sheets, English ↔ Arabic - **284 academic 
 + 207 complex phrases** as of 3 Sep 2026, and it grows whenever a word is added -
 plus a **grammar syllabus of 24 modules / 288 questions** at B2-C1, plus
 **60 PTE-style Write Essay prompts** on the Essays tab, each with **three worked
-model answers** and a guide to writing one.
+model answers** and a guide to writing one, plus a **Speaking tab** that records
+you, transcribes it on this machine and marks the fluency, the fillers and the
+grammar - with every fault clickable to hear the exact moment it happened.
 
 ```bash
 npm run web        # THE way to use it: browser page on http://localhost:4173
@@ -50,7 +52,9 @@ Everything else is optional terminal equivalents — see `README.md`.
 
 There are **two hosts and one rulebook**: this local tool, backed by the workbook,
 and a public build at **`pte-vocab.amirfox.workers.dev`** backed by the visitor's
-own `localStorage`. See **Cloud build** below.
+own `localStorage`. See **Cloud build** below. The Speaking tab is the one view
+that is local-only, and it hides itself on the other host rather than forking the
+page - see **The Speaking tab**.
 
 ## How it works
 
@@ -196,6 +200,333 @@ own `localStorage`. See **Cloud build** below.
   throws (file open in Excel, disk full) used to be an uncaught exception in a timer
   callback, which killed the process and took the unwritten batches with it; it now
   prints, keeps the data dirty, and retries on the next write.
+
+---
+
+## The Speaking tab
+
+Added 20 Sep 2026, after a mock came back at 57. `/speaking`, and it is the one
+view that exists on **one host only**.
+
+- **It is local, and the cloud build says so rather than hiding the code.**
+  `web/cloud-store.js` answers `/api/speech/status` with `available:false`, the
+  page hides the tab, and `web/app.html` stays ONE file for both hosts - the
+  rule the Essays and Batches tabs already live under. Do not fork the page to
+  cut this tab out. Whisper is 133MB plus an `ffmpeg` process and has nowhere
+  to live on a Worker, which is the same wall that sent the audio to a
+  pre-rendered manifest; and sending a visitor's voice to a public URL with no
+  account behind it is not something this project will do.
+- **Nothing is stored, on either side.** `/api/speech/analyse` holds the audio
+  for the length of one request and writes none of it down; the browser keeps
+  the blob in memory until the next take replaces it. There is no history, no
+  past attempts and no export, and none should be added. It is the Essays rule
+  - what you said is a rehearsal, not a document - and it matters more here
+  because it is your voice. `speech.session` is the single exception: a handful
+  of numbers per recording, in memory, so the consistency panel can compare
+  turns. A reload empties it.
+- **There is no accent detection and that is a decision, not a gap.** Telling
+  accents apart acoustically needs a classifier; the ones that work (SpeechBrain
+  ECAPA, CommonAccent) are PyTorch and will not run in Node, and an ONNX search
+  returns nothing usable. "73% Australian" invented anyway would be a random
+  number with a progress bar, and it would be believed. What `dialect()`
+  measures is **word choice** - `lift`/`elevator`, `maths`/`math`, `gotten` -
+  which is exactly right or exactly wrong per word, and the browser accumulates
+  it across a session to answer the question actually asked: am I consistent
+  from the first answer to the last. Neither column is correct; PTE accepts
+  every standard variety.
+  **Never add spelling markers to that table.** Whisper writes American
+  spelling almost regardless of what it heard, so `color` is evidence about the
+  model, not the speaker. Nothing turns a spoken "lift" into "elevator".
+- **Filled pauses are found in the AUDIO, not in the transcript.** Whisper is
+  trained on tidy transcripts and deletes "um" and "uh" outright - ask it and it
+  will report cheerfully that you have no fillers at all. It cannot delete the
+  400ms the "um" took, so `pauses()` reads the samples inside each gap between
+  word timestamps: voiced and loud relative to the room is a filled pause, quiet
+  is silence, and noisy-but-quiet is a breath and is deliberately not a fault.
+  This is why the model is the `_timestamped` build; the ordinary `base.en`
+  would make the whole feature impossible.
+- **Everything below 200Hz is filtered out before a single measurement is
+  taken, and that line is the whole of `pauses()` being correct.** The first
+  version tested for "loud, with a low zero-crossing rate", which is a precise
+  description of MAINS HUM - so a room with any hum, fan or desk rumble in it
+  had *every silent pause reported as an "uh"*, and the quieter the recording
+  the worse it got, because the threshold is relative to the speech. A vowel's
+  pitch is down in hum territory too, which is why pitch cannot be the
+  discriminator; a vowel's ENERGY is not, it is in the formants at 300Hz-3kHz,
+  and that is what makes it a vowel rather than a drone. Three one-pole
+  sections, ~18dB/octave. Do not take the filter out to "keep more signal".
+- **A filled pause is PERIODIC, and that test is the one that matters.** Hum
+  and loudness were red herrings; the failure that showed up in real use was an
+  "uh" printed at every full stop, because what lives in a sentence-boundary
+  pause is a breath and the tail of the word just finished - both loud, neither
+  a filler. A vowel is the vocal folds buzzing, so the waveform REPEATS at the
+  pitch period. Breath does not repeat, and a word tail is not a filler at all.
+  `periodicity()` is a normalised autocorrelation over lags 40-200 (80-400Hz),
+  run only on frames that already passed the loudness test because it is the
+  expensive thing in the file.
+- **It is a continuous RUN of voicing, not a percentage and not a peak.**
+  Scattered frames reach any percentage you like without a sound ever being
+  held, and a breath touches 0.82 periodicity for one instant. The run is what
+  separates them and it does nearly all the work - see the sweep below, where
+  the false-positive count is zero at *every* periodicity tried.
+- **A brief dip does not end the run.** Measured clean, a synthetic vowel
+  scores 0.97 frame after frame; through a microphone with a room behind it, a
+  real "uh" flickers either side of the line, and a rule that reset on every
+  dip scored a continuous half-second filler as 0.08s and threw it away. Two
+  frames of slack, 20ms - far shorter than any filler, far too short for noise
+  to chain through. Only frames that genuinely passed are counted, so the
+  reported `voiced` is still how long a sound was really held.
+- **The thresholds were swept, not chosen.** Against a real recording - three
+  sentences read aloud with breath in every pause, once with a half-second "uh"
+  in the first gap and once without: periodicity <= 0.50 finds it, >= 0.55
+  misses it, and false positives are ZERO at every combination tried. Hence
+  0.50 strict / 0.45 sensitive. Reading the clean synthetic 0.97 as "0.70 is
+  safe" is exactly the mistake that made a version of this miss real fillers:
+  the threshold has to sit below what a real microphone measures, about 0.65,
+  not below the laboratory figure.
+- **One set of thresholds, and no control for them.** There was briefly a
+  strict/sensitive toggle in the toolbar. It was the wrong answer to "I cannot
+  calibrate this from here": it put a word in front of the reader that they had
+  no way to interpret and asked them to tune an acoustic threshold, which is
+  not their job. `THRESHOLDS` in `src/speech.js` is the one place; if the
+  numbers are wrong they get fixed there.
+- **The gap is trimmed at the HEAD, barely at the tail, and the difference is
+  not cosmetic.** 150ms off both ends - the first attempt at keeping word tails
+  out - made the whole feature dead for short gaps: a 0.4s gap has 0.1s left
+  after that, which cannot hold the 0.2s run a filler must show, so no short
+  gap could ever be flagged whatever was in it. And an "uh" normally lands
+  immediately after the word just finished, which is exactly the region being
+  discarded. It is 120ms at the head, where the previous word's tail bleeds
+  forward and is voiced, periodic and the same speaker; 30ms at the tail, which
+  only ever holds the next word's onset. The RUN length is what rejects a tail,
+  and it does it better: Whisper's boundaries are wrong by tens of
+  milliseconds, not 200, so a tail cannot sustain long enough to qualify.
+- **When nothing is flagged, the panel says what came CLOSEST and what it
+  needed.** "It found no fillers" and "it cannot find fillers" look identical
+  from the outside, and telling them apart cost two rounds of guessing. The
+  nearest gap is named with its held-sound duration, its voicing, and the bar
+  it failed - and it plays back. `thresholds` rides along in the report for
+  exactly this.
+- **Exactly one recorder can be live, and `starting` is what guarantees it.**
+  `getUserMedia` is a promise, so `speech.recording` stays false for as long as
+  the browser takes to hand over the microphone. The 200ms tick that opens a
+  timed read aloud therefore called `startRecording()` again on every tick
+  until it resolved - each call opening another stream, building another
+  `MediaRecorder` over the top of `speech.rec`, and clearing the shared
+  `chunks` array the previous one was still filling. A 34-second take came back
+  as half a second of audio, and the panel dutifully reported 360 words per
+  minute and 2% read accurately over the three words that survived. The
+  synchronous `starting` flag closes the window; `speakTick` also leaves the
+  prep phase BEFORE the await so the branch cannot be re-entered; and the
+  resolver stops any stream or recorder that is somehow still open. Any new
+  await on this path needs the same treatment.
+- **A failed capture is reported as a failed capture, never as statistics.**
+  If the speaking found inside a clip is a small fraction of the clip - few
+  words, tiny span against a long recording - the panel says so at the top and
+  says the numbers below mean nothing. The figures in the bug above were
+  arithmetically correct and completely meaningless, and they sent two rounds
+  of investigation at the filler thresholds when the recording itself was
+  broken. `clipSeconds` rides in the report for exactly this.
+- **The Speaking tab's state object is `mic`, and it must never be called
+  `speech` again.** `var speech = new Audio()` is the page's TTS element,
+  declared a thousand lines earlier in the same function scope; a second
+  `var speech = {...}` for this tab silently clobbered it at load, which broke
+  `Hear it` and speak-on-reveal across the *whole app* - the drill, the word
+  list, everything - while the Speaking tab itself looked fine. Nothing errors:
+  the audio element simply stops existing. Check the scope before naming a new
+  top-level `var` in `web/app.html`.
+- **Every fault carries a machine-readable `fix`, not only prose.** The panel
+  speaks the correct version aloud in the chosen voice, and it cannot do that
+  from "the verb goes back to its plain form" - hence `IRREGULAR_BASE` as a map
+  rather than a list, and `BAD_BE` as a map. A rule that cannot say what the
+  right answer IS can still explain itself; it just has nothing to demonstrate.
+- **Two controls, two meanings, and they must stay distinguishable.** The grey
+  one replays what you actually said, out of the recording still in the
+  browser; the teal one says it properly through Kokoro in whichever voice the
+  voicebar has. Hearing those back to back is the entire exercise - a fault
+  list you cannot hear is a list of spellings. The click handler checks
+  `[data-say]` BEFORE `[data-from]`, because a speaker button sits inside a row
+  that also replays the recording and the button is the more specific intent,
+  and each stops the other first so they never talk over each other.
+- **The two ways to hear it live UNDER the paragraph**, not in the toolbar,
+  because that is what they both play. `Play it back` is your own recording;
+  `Hear it properly` is the model voice.
+- **"Properly" means the SCRIPT, never the transcript.** In a read aloud the
+  right words are the script's; the transcript is what you actually produced,
+  mistakes and all. Wiring that button to the transcript - which was done
+  briefly, to make the underline line up with the text directly above it - had
+  it read your own errors back to you in a nice voice, under a button labelled
+  "properly". Free talk has no script, so there it really is your own words
+  said the way they should sound, and that is the only case where the two
+  coincide.
+- **The underline follows the text being spoken to wherever that text is
+  drawn**: the script lights up in the prompt panel at the top, the transcript
+  lights up in the panel below, and clicking in a read aloud scrolls the script
+  into view first. One rule, two places, and neither pretends to be the other -
+  which is why the script is rendered as word spans rather than plain text.
+  The paragraph one is deliberately NOT prefetched: it takes the model many
+  seconds on a first render and would hold every short correction on the page
+  behind it. The per-fault corrections ARE prefetched, with `force`, because
+  `settings.voice.auto` governs whether the drill talks at you unprompted -
+  a different question from whether a button the reader is looking at should
+  answer instantly.
+- **The script carries your reading written into it.** Every word green,
+  because the script IS the right answer; beside any word you put something
+  else in place of, what came out, in red. The pair only means anything
+  together - "the word that was wanted, and the word you said instead" is one
+  fact, not two - so it belongs on the script rather than in another list
+  further down, and it is the text the model voice reads, so the underline
+  walks across it while you hear the difference.
+  A word **never said** is struck through on the word itself and gets NO red
+  chip: a chip is for something you put there instead, and an absence is not
+  that. On a read that went badly wrong the chip version welded forty "not
+  said" labels between the words and the sentence stopped being readable.
+  The red chips are deliberately not class `w` - the model voice's timing is
+  shared across the script's words, and counting them would slide the
+  underline off the text.
+- **The model head waits for a duration that is actually a NUMBER.** `play()`
+  resolves when playback BEGINS, which can be before the blob's metadata has
+  been read - and until then `duration` is NaN. Reading it at that instant and
+  giving up silently left the underline permanently unstarted, while every test
+  that stubbed the media clock reported it working. `startModelHead()` now
+  hangs on `durationchange`/`loadedmetadata` and only unhooks once the value is
+  finite: that event fires on its way to being known as well as on arrival, and
+  unhooking on the first one throws away the only notification that matters.
+  It is token-guarded too (`mic.headSeq`), because a listener left over from an
+  earlier click must not start a head for audio that has since been replaced -
+  two heads fight over the same `mic.phRaf`, and the second one's
+  `resetCorrections()` wipes the corrections the first had already made.
+- **The correction is tied to the PLAYHEAD, not to the report.** When the voice
+  reaches a word you got wrong, the red word collapses - width as well as
+  opacity, so the right word slides into the space rather than leaving a hole -
+  and the correct word settles down into its place. It happens exactly when you
+  HEAR it, which is the whole reason it is not done on load. Corrections stay
+  put once passed, because watching a fix un-happen would be worse, and a fresh
+  play resets them so the reading starts as it was. `prefers-reduced-motion`
+  turns the movement off and keeps the outcome.
+- **`runPlayhead(spans, clock, alive)` is driven by whichever audio is
+  playing.** The recording supplies real spans and the AudioContext clock; the
+  model voice supplies estimated spans and the media element's `currentTime`.
+  One loop, one `.is-said`, so the two can never disagree about what is lit.
+- **The model voice's word timings are ESTIMATED, and the page says so.**
+  Whisper measured the recording, so the underline over it is exact. Kokoro
+  returns a WAV and nothing else - there is no alignment in it, and getting one
+  would mean transcribing audio we just synthesised, which costs more than the
+  playback. So the duration is shared out by weight: letters, plus a little for
+  the breath a comma or a full stop buys. It tracks well enough to follow, and
+  the hint under the buttons calls it estimated rather than letting it pass as
+  a measurement.
+- **Overlapping `speak()` calls are a normal event now, and `speakSeq` is what
+  makes them harmless.** One speaker button was safe; a report full of them is
+  not. Two overlapping calls meant the second assigned `src` while the first's
+  `play()` was still pending, and the browser aborts the first - *"The play()
+  request was interrupted by a new load request"*. That is not a failure, it is
+  the newer click winning, but the catch treated every non-autoplay rejection
+  as one and painted a red error for it. A superseded request now bails before
+  it touches the element at all, and `AbortError` is swallowed on both paths -
+  it also arrives when `stopSpeaking()` silences something on purpose.
+- **Known limits, not to be papered over:** Whisper sometimes timestamps the
+  following word early and swallows the filler into that word's span, and then
+  there is no gap to look inside and the "uh" is missed. Measured at roughly
+  one time in three on a deliberately planted filler.
+  A **false start or repair is worse: it cannot be seen at all.** Splicing a
+  real `near- nearly` into a sentence and transcribing it gives a transcript
+  *identical* to the clean one - same words, same text - with the only residue
+  an extra 0.08s on a 0.18s word span. Whisper repairs disfluency into clean
+  prose before this code sees anything, so `repeats()`, which looks for a word
+  that is a prefix of the next, has nothing to work with. Word duration is the
+  only remaining signal and it is far too noisy to flag on: in that same
+  sentence, honest word durations ran from 0.06s to 0.66s.
+  The panel shows every gap with its measured `voiced` and `tone` so a
+  disagreement can be listened to rather than argued about, and that is the
+  honest answer here rather than a cleverer threshold.
+- **The noise floor is capped at 3% of the speech level, and the cap is
+  load-bearing in both directions.** (Kept for the reason below, though the
+  periodicity test now carries the discrimination.) The floor is a low quantile over every
+  frame, so a long "uhhh" is part of the sample it is measured against: fill
+  enough of a short clip and the filled pauses raise the floor until they sit
+  under it and vanish - telling exactly the people who do it most that they
+  never do it. But at 6% the `floor * 3` term came out at 18% of speech and
+  quietly became the binding threshold, which is *above* a softly-said "uh" at
+  about 17% - so the backstop was overruling the real test. It is a backstop;
+  it must never bind.
+- **Every gap comes back from `pauses()`, labelled, including the short silent
+  ones that cost nothing**, and the panel draws them all with the measured
+  `voiced` seconds in the tooltip. A detector that silently discards what it
+  judged uninteresting is a detector you cannot check, and this one has been
+  wrong before. Each chip plays back, so a verdict you disagree with can be
+  listened to rather than just disbelieved.
+- **Dead air at the two ends is not hesitation.** A silent gap before the first
+  word or after the last is the fumble for the stop button, and counting it made
+  a clean answer report a pause it never contained. A *filled* edge is kept -
+  "ummm, I think..." really does start with one. Every rate is measured over the
+  speaking span, first word to last, so leaving the recorder running cannot make
+  you look slow.
+- **The grammar rules are precision over recall, always.** The transcript is
+  itself a guess, and a spoken answer is not prose - so every rule is one where
+  the flagged string is not English in any register. `ED_BASE` and the two
+  article exception lists exist for that: without them "didn't need" and "a
+  university" are reported as your mistakes. A false "you said that wrong"
+  against an answer that was right is the same failure the grammar grader calls
+  the worst this tool has. Fix the list, never loosen the rule.
+- **Playback is Web Audio, and the context is built inside the click.**
+  `AudioBufferSourceNode.start(when, offset, duration)` plays an exact sample
+  range, which is what makes clicking a fault land on the fault. A context made
+  anywhere else - in the fetch callback that decodes the recording - is born
+  SUSPENDED, its clock never advances, the source never plays and `onended`
+  never fires, so the highlight sticks on the word for ever with no error
+  anywhere. So `decodeForPlayback()` decodes through an **OfflineAudioContext**,
+  which needs no gesture, and `playCtx()` makes the real one on first click.
+  Be straight about the limit: playback is sample-exact, but the boundaries are
+  Whisper's alignment, good to about 20ms. Hence the small pad either side.
+- **The playhead runs off the AUDIO clock, not a wall clock.** `runPlayhead()`
+  underlines the word being said from `ctx.currentTime`, which is the clock the
+  sound is actually coming out on - so the underline cannot drift from what you
+  hear however busy the page gets, and half speed needs no special case because
+  multiplying by the rate does it. `Date.now()` would slide by a word or two
+  across a long playback, which is worse than no underline at all. It is an
+  *underline* rather than a fifth background colour because all four backgrounds
+  already mean something and a colour sliding over them would read as a word
+  changing category as it was spoken. Between two words the underline stays on
+  the one just finished rather than blinking off: a flicker reads as a fault in
+  the page. A backgrounded tab freezes rAF, so the underline stops while the
+  audio plays on - the same bargain the level meter and the essay countdown
+  already make.
+- **Green is CORRECT, and a deck word is a dotted underline.** They are
+  different kinds of fact - one is right-or-wrong, the other is which
+  vocabulary you reached for - so they get different channels and combine
+  freely rather than one overwriting the other. Green means the word matched
+  the script in a read aloud, and the weaker, honest thing in free talk, where
+  there is no reference at all: nothing was found wrong with it. Those are
+  different claims and the legend says which is in force rather than letting
+  one colour stand for both.
+- **A `▶` at the head of each sentence plays from there to the END of the
+  recording**, while clicking a word still plays only that word. Both are
+  wanted and they are not the same gesture: one is "what exactly did that sound
+  like", the other is "let me hear this part again in context". Sentences come
+  off Whisper's own punctuation, and fall back to even runs when it did not
+  punctuate - a pointer you can only put at the very beginning is not a pointer.
+- **The colour key is a legend above the transcript, and it names the PLAIN
+  words too.** It was a grey note underneath and that was wrong twice over: a
+  key is needed while reading, not afterwards, and listing only the marked-up
+  categories leaves the reader guessing what the unmarked majority means. The
+  honest answer - nothing was found in it - is worth its own line. Green is a
+  deck word *produced unprompted*, which is the one thing on that panel worth
+  being pleased about.
+- **The read aloud is timed and submits itself.** PTE shows you the text, gives
+  you a fixed while to read it, opens the microphone on its own and submits when
+  the clock runs out - there is no Stop button in the exam. Both allowances scale
+  with the length of the script and are clamped. `prepEnds` is a wall-clock
+  **deadline**, not a running total, for the reason the essay timer is: it
+  survives the tab losing focus and only the repainting stops. One button, three
+  labels, one handler - `Start`, `Record now`, `Stop` - because a second handler
+  for the timed start is how the two would drift apart. The mode and script
+  buttons stay live through the reading time, which is the only way out of a
+  countdown started by mistake.
+- **`answerEnglish()` has no equivalent here and needs none**: the Speaking tab
+  never reads `settings.dir` or the Arabic. Everything PTE asks happens in
+  English and this tab is all of it.
+- `API_VERSION` went to **10** for the two new routes.
 
 ---
 

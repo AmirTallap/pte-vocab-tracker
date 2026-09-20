@@ -11,6 +11,8 @@ import { say, status as ttsStatus, VOICES, ACCENTS, DEFAULT_VOICE, isVoiceId } f
 import { loadUsage, usageCounts } from './usage.js';
 import { loadEssays, loadEssayGuides } from './essays.js';
 import { loadModels, modelCounts } from './models.js';
+import { decode, transcribe, status as asrStatus, haveFfmpeg, MAX_SECONDS } from './asr.js';
+import { analyse } from './speech.js';
 import { SHEETS, MASTER_FILE, ROOT } from './config.js';
 
 const PAGE = path.join(ROOT, 'web', 'app.html');
@@ -56,8 +58,14 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    the familiar one - an older server ignores the field and quietly draws 20
  *    when 100 was asked for, which reads as the dialog being broken rather
  *    than as a stale server.
+ * 10 /api/speech/status and /api/speech/analyse are new: the Speaking tab
+ *    records you, transcribes it locally and reports on it. Additions rather
+ *    than changes, and bumped for the reason 6, 7 and 8 were - an older server
+ *    404s the status probe, the page reads that as "this host cannot listen"
+ *    and hides the tab completely, so the feature would appear never to have
+ *    been built rather than to need a restart.
  */
-const API_VERSION = 9;
+const API_VERSION = 10;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -239,6 +247,27 @@ export function serve({ port = 4173, open = true } = {}) {
     });
   }
 
+  /**
+   * The recording itself, as bytes. Its own reader because readBody() above
+   * caps at a megabyte and parses JSON, and neither is right here: a minute of
+   * Opus is a few hundred KB of binary. The cap is generous but real - the
+   * point is that a runaway upload cannot exhaust memory, and src/asr.js
+   * truncates the audio to MAX_SECONDS anyway.
+   */
+  function readAudioBody(req) {
+    return new Promise((resolve, reject) => {
+      const parts = [];
+      let n = 0;
+      req.on('data', (chunk) => {
+        n += chunk.length;
+        if (n > 32 * 1024 * 1024) { req.destroy(); return reject(new Error('recording too large')); }
+        parts.push(chunk);
+      });
+      req.on('end', () => resolve(Buffer.concat(parts)));
+      req.on('error', reject);
+    });
+  }
+
   const server = http.createServer(async (req, res) => {
     const url = new URL(req.url, `http://localhost:${port}`);
 
@@ -307,6 +336,83 @@ export function serve({ port = 4173, open = true } = {}) {
           'cache-control': 'public, max-age=604800',
         });
         return res.end(req.method === 'HEAD' ? undefined : audio.buffer);
+      }
+
+      /**
+       * Whether this host can listen at all, and what it will cost the first
+       * time. The page asks on boot and hides the Speaking tab outright if the
+       * answer is no - which is what keeps web/app.html one file for both
+       * hosts. On Cloudflare web/cloud-store.js answers this `available:false`
+       * and the tab is simply not there; there is no second page.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/speech/status') {
+        const st = asrStatus();
+        const ffmpeg = haveFfmpeg();
+        return json(res, 200, {
+          api: API_VERSION,
+          available: ffmpeg,
+          ffmpeg,
+          ...st,
+        });
+      }
+
+      /**
+       * One recording in, one report out. The audio is decoded, transcribed
+       * and analysed, and then it is GONE: nothing is written to disk, nothing
+       * is kept in memory past this handler, and there is no route that reads
+       * a past recording back. That is the same rule the Essays tab follows -
+       * what you said is a rehearsal, not a document - and it matters more
+       * here, because this is your voice.
+       *
+       * The body is the audio; everything else rides on the query string, so
+       * the request stays a single stream with no multipart parsing.
+       */
+      if (req.method === 'POST' && url.pathname === '/api/speech/analyse') {
+        if (!haveFfmpeg()) {
+          return json(res, 503, { error: 'ffmpeg is not installed, so audio cannot be decoded' });
+        }
+        const buf = await readAudioBody(req);
+        if (!buf.length) return json(res, 400, { error: 'the recording was empty' });
+
+        let pcm;
+        try {
+          pcm = await decode(buf);
+        } catch (err) {
+          return json(res, 400, { error: `could not read the recording: ${err.message}` });
+        }
+        if (pcm.length < 16000 * 0.4) {
+          return json(res, 400, { error: 'that was too short to say anything about' });
+        }
+
+        let heard;
+        try {
+          heard = await transcribe(pcm);
+        } catch (err) {
+          // Offline on the very first run, before the model is downloaded, is
+          // the one failure worth explaining rather than logging.
+          return json(res, 503, { error: `could not transcribe: ${err.message}` });
+        }
+        if (!heard.words.length) {
+          return json(res, 200, {
+            api: API_VERSION,
+            empty: true,
+            error: 'no speech was found in that recording',
+          });
+        }
+
+        const script = url.searchParams.get('script') || '';
+
+        // Both sheets together: which deck a word came off is the report's to
+        // say, not the caller's to choose.
+        const all = [
+          ...deck.words.map((e) => ({ ...e, kind: 'words' })),
+          ...deck.phrases.map((e) => ({ ...e, kind: 'phrases' })),
+        ];
+
+        return json(res, 200, {
+          api: API_VERSION,
+          ...analyse({ words: heard.words, pcm, text: heard.text, script, deck: all }),
+        });
       }
 
       if (req.method === 'POST' && url.pathname === '/api/mark') {
