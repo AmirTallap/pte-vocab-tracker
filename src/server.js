@@ -11,7 +11,7 @@ import { say, status as ttsStatus, VOICES, ACCENTS, DEFAULT_VOICE, isVoiceId } f
 import { loadUsage, usageCounts } from './usage.js';
 import { loadEssays, loadEssayGuides } from './essays.js';
 import { loadModels, modelCounts } from './models.js';
-import { loadLectures, lectureIndex, PREPARE_SECONDS, SPEAK_SECONDS } from './lectures.js';
+import { loadLectures, lectureIndex, lectureAudioPath, PREPARE_SECONDS, SPEAK_SECONDS } from './lectures.js';
 import { decode, transcribe, status as asrStatus, haveFfmpeg, MAX_SECONDS } from './asr.js';
 import { analyse } from './speech.js';
 import { SHEETS, MASTER_FILE, ROOT } from './config.js';
@@ -708,6 +708,32 @@ export function serve({ port = 4173, open = true } = {}) {
        * a model elsewhere to judge coverage against. Nothing here grades
        * anything, and nothing here should start.
        */
+      /**
+       * A real lecture's audio. Served from disk rather than synthesised,
+       * which is the whole point of the fetched ones: a person in a hall,
+       * with the accent and the room that PTE actually plays you.
+       *
+       * The file is gitignored - it is someone else's recording under a
+       * share-alike licence, it stays on this machine, and this route is
+       * local-only like the rest of the Speaking tab.
+       */
+      if (req.method === 'GET' && /^\/api\/lectures\/[^/]+\/audio$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const lecture = lectureById.get(id);
+        const file = lectureAudioPath(lecture);
+        if (!file || !fs.existsSync(file)) {
+          return json(res, 404, { error: `no audio for "${id}"` });
+        }
+        const buf = fs.readFileSync(file);
+        res.writeHead(200, {
+          'content-type': 'audio/mpeg',
+          'content-length': buf.length,
+          // Same file every time, and the page asks for it again on a replay.
+          'cache-control': 'public, max-age=604800',
+        });
+        return res.end(req.method === 'HEAD' ? undefined : buf);
+      }
+
       if (req.method === 'GET' && url.pathname.startsWith('/api/lectures/')) {
         const id = decodeURIComponent(url.pathname.slice('/api/lectures/'.length));
         const lecture = lectureById.get(id);
@@ -802,7 +828,9 @@ export function serve({ port = 4173, open = true } = {}) {
     for (const p of essayGuides.problems) console.error(`  ! guide - ${p}`);
     for (const p of modelProblems) console.error(`  ! model - ${p}`);
     if (lectures.length) {
-      console.log(`  lectures: ${lectures.length} to re-tell · ` +
+      const real = lectures.filter((l) => l.audio).length;
+      console.log(`  lectures: ${lectures.length} to re-tell · ${real} real recordings, ` +
+                  `${lectures.length - real} written · ` +
                   `${PREPARE_SECONDS}s to think, ${SPEAK_SECONDS}s to speak`);
     }
     for (const p of lectureProblems) console.error(`  ! lecture - ${p}`);

@@ -4958,13 +4958,20 @@
     pick.value = String(mic.lecIndex);
 
     speakEl("speakLecPlay").textContent = mic.lecHeard ? "Hear it again" : "Play the lecture";
+    // Attribution is a licence condition on the fetched ones, not a nicety.
+    speakEl("speakLecNum").textContent = (mic.lecIndex + 1) + " of " + mic.lectures.length +
+      (m.real ? " \u00B7 " + (m.credit || "real recording") : " \u00B7 read by a synthetic voice");
     speakEl("speakHint").innerHTML = mic.lecHeard
       ? "<b>" + mmss(prepSeconds()) + " to think, then " + mmss(recSeconds()) +
         " to re-tell it in your own words.</b> The microphone opens by itself and submits " +
         "when the clock reaches zero. The lecture's words appear afterwards, not now."
-      : "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
-        "screen. The first play of a lecture has to be synthesised and takes a minute or " +
-        "two; every play after that is instant.";
+      : m.real
+        ? "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
+          "screen. This one is a <b>real lecture recording</b>: a person in a hall, with the " +
+          "accent, the asides and the room that the exam actually plays you."
+        : "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
+          "screen. This one is read by a synthetic voice; the first play has to be " +
+          "synthesised and takes most of a minute, and every play after that is instant.";
   }
 
   /* Hearing it. The lecture is spoken by the voice in the bar at the top, so
@@ -5018,6 +5025,32 @@
       warmNextLecture();
     }
 
+    /* A real recording: play the file. No synthesis, so no wait and no
+       progress estimate - and, more to the point, a person in a lecture hall
+       rather than a clean American voice reading at an even pace. */
+    function playFile(lecture) {
+      stopPlayback();
+      stopSpeaking();
+      lecProgress(true, 0.15, "Loading the recording\u2026", true);
+      return fetch("/api/lectures/" + encodeURIComponent(lecture.id) + "/audio")
+        .then(function (r) {
+          if (!r.ok) throw new Error("no audio for this lecture");
+          return r.blob();
+        })
+        .then(function (blob) {
+          var was = speech.src;
+          speech.src = URL.createObjectURL(blob);
+          if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
+          var pl = speech.play();
+          // Released whether or not the browser consented to make a noise -
+          // the same rule the synthesised path follows.
+          setTimeout(finish, 600);
+          return pl;
+        })["catch"](function (err) {
+          finish("could not play that recording: " + (err.message || err));
+        });
+    }
+
     function speakIt(text) {
       stopPlayback();
       stopSpeaking();
@@ -5059,13 +5092,17 @@
         });
     }
 
-    if (mic.lecture && mic.lecture.id === m.id) return speakIt(mic.lecture.text);
+    var go = function (lecture) {
+      return lecture.audio ? playFile(lecture) : speakIt(lecture.text);
+    };
+
+    if (mic.lecture && mic.lecture.id === m.id) { btn.classList.add("is-busy"); return go(mic.lecture); }
 
     btn.classList.add("is-busy");
     lecProgress(true, 0, "Fetching the lecture\u2026", true);
     return api("/api/lectures/" + encodeURIComponent(m.id)).then(function (d) {
       mic.lecture = d.lecture;
-      return speakIt(d.lecture.text);
+      return go(d.lecture);
     })["catch"](function (err) {
       finish("could not fetch that lecture: " + (err.message || err));
     });
@@ -5074,8 +5111,9 @@
   function warmNextLecture() {
     var next = mic.lectures[(mic.lecIndex + 1) % mic.lectures.length];
     if (!next) return;
+    if (next.real) return;                 // a file, nothing to synthesise
     api("/api/lectures/" + encodeURIComponent(next.id)).then(function (d) {
-      prefetchSpeech(d.lecture.text, true);
+      if (!d.lecture.audio) prefetchSpeech(d.lecture.text, true);
     })["catch"](function () { /* a nicety */ });
   }
 

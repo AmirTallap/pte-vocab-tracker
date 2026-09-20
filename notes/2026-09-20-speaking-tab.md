@@ -210,3 +210,67 @@ was touched.
   clamps timers to once a minute, freezes `requestAnimationFrame`, and never loads
   audio metadata. Several measurements timed out or read as failures for that reason
   alone. `MessageChannel` scheduling is the way round the timer clamp.
+
+---
+
+## 9. Addendum — real lecture audio (hybrid), same day
+
+Asked for a hybrid: keep the 100 written lectures, add real ones. Done as far as
+time allowed - **20 real excerpts are in, the fetcher does the rest on demand.**
+
+**MIT OpenCourseWare did not work out.** Its old API is gone (404), the new one 404s
+too, and course pages serve media through an embedded video platform with no direct
+download. That is the route already declined on terms-of-service grounds, so it was
+not taken.
+
+**Open Yale Courses is the source instead**, and it is a better fit than OCW would
+have been:
+
+- Plain MP3s served directly, no video platform. `accept-ranges: bytes`, so `ffmpeg
+  -ss ... -t ...` pulls only the window - a 75s excerpt out of a 65MB lecture in 3.5
+  seconds. No full downloads.
+- CC BY-NC-SA 3.0: excerpting permitted with attribution. The credit is stored per
+  lecture and shown in the UI, because that is a licence condition and not a nicety.
+- 37 courses across 23 departments - astronomy, physics, biology, psychology,
+  economics, history, philosophy, geology. Close to PTE's own subject range.
+- **Every lecture carries an official transcript with chapter timestamps.**
+
+That last point is what made this cheap AND correct. The first design ran each excerpt
+through the local Whisper: ~45s per lecture, and on the very first real try it
+hallucinated a loop - "a sixth is going to end up with A minus", about thirty times,
+reported as 392 words per minute. Yale's transcript is authoritative and free, so the
+audio is cut at a chapter boundary and the text is taken from the same chapter.
+Nothing is transcribed and nothing can drift.
+
+Three faults found by looking at the output rather than trusting it:
+
+1. **Chapter openings are not content.** A chapter titled "Planetary Orbits" produced
+   the professor answering whether a student could sit an early final. Lecturers finish
+   the previous chapter's questions after the mark. Leading dialogue is now skipped -
+   and the audio offset moves with it, converted through the chapter's own
+   words-per-second, so what is heard stays exactly what is written down.
+2. **The word budget was binding.** Capped at 240, which cut a 220-wpm economist's
+   transcript about twenty-five seconds short of his audio - the student would have
+   heard content the feedback prompt knew nothing about. Now 340.
+3. **The clip could overrun its chapter.** Bounded to the chapter's remaining time, so
+   the audio can never cover words the transcript does not.
+
+Verified by transcribing a finished excerpt back through `/api/speech/analyse`: the
+audio opens exactly on the stored text, word for word.
+
+`tools/fetch-yale-lectures.js [n] [--start N]` does the whole thing. **The audio is
+gitignored** (`data/lectures/audio/`) - someone else's recording under a share-alike
+licence, kept local, which costs nothing because the Speaking tab is local-only. The
+JSON commits the *recipe*: page url, mp3 url, offset, length, chapter, credit, licence.
+Anyone can regenerate it.
+
+### Where it stopped
+
+- **20 real excerpts** fetched and playing; the run was stopped early. Resume with
+  `node tools/fetch-yale-lectures.js 80 --start 21`.
+- **`points` is empty on all 20.** The written lectures have 5-6 authored points that
+  the feedback prompt uses to judge coverage; the real ones need the same, written
+  from their text. That is the one thing left before they are equal to the written set.
+- The page plays a real lecture as a **file** - no synthesis, no wait, no progress
+  estimate - and labels it as a real recording with its credit. Synthesised ones keep
+  the two-phase progress bar.

@@ -71,9 +71,11 @@ export function loadLectures(dir = LECTURES_DIR) {
     const text = raw.text.trim();
     const n = words(text);
     // Reported, never repaired - the word band rule the model essays follow.
-    // A lecture far outside the band is teaching the wrong thing and the fix
-    // is to rewrite that one file, by name.
-    if (n < 150 || n > 240) problems.push(`${id}: ${n} words, outside 150-240`);
+    // Wider than the written ones' 170-210 because a real excerpt is bounded
+    // by where its chapter ends and how fast that lecturer talks, and neither
+    // is ours to choose. Far outside this is a bad cut, and the fix is to
+    // re-fetch that one, by name.
+    if (n < 110 || n > 340) problems.push(`${id}: ${n} words, outside 110-340`);
 
     lectures.push({
       id,
@@ -83,6 +85,10 @@ export function loadLectures(dir = LECTURES_DIR) {
       words: n,
       points: (Array.isArray(raw.points) ? raw.points : [])
         .map((p) => String(p).trim()).filter(Boolean),
+      // A real recording, if there is one. Written ones are spoken by Kokoro;
+      // these are a person in a lecture hall and are played as a file.
+      audio: raw.audio ? String(raw.audio) : null,
+      source: raw.source || null,
     });
   }
 
@@ -94,5 +100,19 @@ export function loadLectures(dir = LECTURES_DIR) {
 export function lectureIndex(lectures) {
   return lectures.map((l) => ({
     id: l.id, title: l.title, field: l.field, words: l.words,
+    // Whether it is a real recording. The page needs this before it takes a
+    // lecture so it can say what the wait will be: a file is instant, a
+    // synthesised one is most of a minute the first time.
+    real: !!l.audio,
+    credit: l.source && l.source.credit ? l.source.credit : null,
   }));
+}
+
+/** Where a lecture's audio lives on disk, or null for the written ones. */
+export function lectureAudioPath(lecture, dir = LECTURES_DIR) {
+  if (!lecture || !lecture.audio) return null;
+  // Name only - never a path from the data - so a crafted `audio` field cannot
+  // reach outside the audio directory.
+  const name = path.basename(String(lecture.audio));
+  return path.join(dir, 'audio', name);
 }

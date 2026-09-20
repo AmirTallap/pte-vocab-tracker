@@ -1,0 +1,17 @@
+{
+  "id": "Y023",
+  "title": "Motion at Constant Acceleration",
+  "field": "Physics and chemistry",
+  "text": "Right. The most famous example is that when things fall near the surface of the Earth, they all have the same acceleration, and the acceleration that's constant is called g , and that's 9.8 meters/second2. So that's a very typical problem. When you're falling to the surface of the Earth, you are describing a problem of constant acceleration. That's why there's a lot of emphasis on sharpening your teeth by doing this class of problems. So, the question we are going to ask is the following, \"If I tell you that a particle has a constant acceleration a , can you tell me what the position x is?\" Normally, I will give you a function and tell you to take any number of derivatives. That's very easy. This is the backwards problem. You're only given the particle has acceleration a , and you are asked to find out what is x ? In other words, your job is to guess a function whose second derivative is a , and this is called integration, which is the opposite of differentiation, and integration is just guessing. Integration is not an algorithmic process like differentiation. If I give you a function, you know how to take the derivative. Change the independent variable, find the change in the function, take the ratio and that's the derivative. The opposite is being",
+  "points": [],
+  "audio": "Y023.mp3",
+  "source": {
+    "page": "https://oyc.yale.edu/physics/phys-200/lecture-1",
+    "mp3": "https://oyc.yale.edu/sites/default/files/courses/fall06/phys200/mp3/phys200_01_090606.mp3",
+    "start": 2337,
+    "seconds": 85,
+    "chapter": "4. Motion at Constant Acceleration",
+    "credit": "Open Yale Courses, Yale University",
+    "licence": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+  }
+}
