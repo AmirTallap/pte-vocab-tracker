@@ -19,7 +19,8 @@
             "intelligible",
             "innovation",
             "incongruous",
-            "interrogate"
+            "interrogate",
+            "irreplaceable"
           ],
           "done": [
             "janitor",
@@ -38,7 +39,6 @@
             "jail",
             "jeweler",
             "irritate",
-            "irreplaceable",
             "irrecoverable",
             "inept",
             "explicit",
@@ -179,7 +179,8 @@
             "plagiarism",
             "invective",
             "jejune",
-            "meticulous"
+            "meticulous",
+            "fortuitous"
           ],
           "done": [
             "intellectual",
@@ -189,12 +190,11 @@
             "jetty",
             "invisible",
             "integrity",
-            "fortuitous",
             "jester",
             "jewel",
             "delineate"
           ],
-          "errors": 0
+          "errors": 1
         },
         {
           "n": 7,
@@ -431,7 +431,7 @@
       "jail": 2,
       "jeweler": 2,
       "irritate": 1,
-      "irreplaceable": 1,
+      "irreplaceable": 2,
       "irrecoverable": 2,
       "inept": 1,
       "inviting": 2,
@@ -517,7 +517,7 @@
       "integrity": 2,
       "delineate": 2,
       "dissuade": 2,
-      "fortuitous": 1,
+      "fortuitous": 2,
       "intrusion": 2,
       "jester": 2,
       "inhibit": 2,
@@ -565,7 +565,7 @@
       "agency": 1,
       "inveigh": 1,
       "juxtapose": 9,
-      "internal": 1,
+      "internal": 2,
       "itinerant": 3,
       "jagged": 2,
       "intrigue": 2,
@@ -606,7 +606,7 @@
       "jaywalk": 2,
       "irritant": 2,
       "intrinsic": 1,
-      "jet": 1,
+      "jet": 2,
       "prepositions": 2,
       "inundate": 2,
       "irreverence": 1,
@@ -640,7 +640,7 @@
       "jew": 2,
       "involuntary": 2,
       "involve": 2,
-      "inert": 1,
+      "inert": 2,
       "isolate": 2,
       "insult": 2,
       "interminable": 2,
@@ -774,6 +774,28 @@
       "date": "2026-09-07",
       "words": {
         "known": 208,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "words": {
+        "known": 206,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "words": {
+        "known": 206,
         "total": 284
       },
       "phrases": {
