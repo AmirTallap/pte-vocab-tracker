@@ -802,6 +802,17 @@
         "known": 0,
         "total": 207
       }
+    },
+    {
+      "date": "2026-09-21",
+      "words": {
+        "known": 206,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
     }
   ],
   "drills": [],
@@ -835,6 +846,615 @@
         }
       },
       "lastAt": "2026-09-01T13:11:10.208Z"
+    }
+  },
+  "listening": {
+    "language-and-writing": {
+      "answers": {
+        "lang-01": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        }
+      },
+      "lastAt": "2026-09-20T20:16:47.437Z"
+    },
+    "medicine-and-the-body": {
+      "answers": {
+        "med-01": {
+          "right": 1,
+          "wrong": 1,
+          "last": "right"
+        },
+        "med-02": {
+          "right": 0,
+          "wrong": 2,
+          "last": "wrong"
+        },
+        "med-03": {
+          "right": 2,
+          "wrong": 0,
+          "last": "right"
+        },
+        "med-04": {
+          "right": 1,
+          "wrong": 1,
+          "last": "right"
+        },
+        "med-05": {
+          "right": 1,
+          "wrong": 1,
+          "last": "right"
+        },
+        "med-06": {
+          "right": 1,
+          "wrong": 1,
+          "last": "right"
+        },
+        "med-07": {
+          "right": 2,
+          "wrong": 0,
+          "last": "right"
+        },
+        "med-08": {
+          "right": 2,
+          "wrong": 0,
+          "last": "right"
+        },
+        "med-09": {
+          "right": 0,
+          "wrong": 2,
+          "last": "wrong"
+        },
+        "med-10": {
+          "right": 1,
+          "wrong": 1,
+          "last": "right"
+        }
+      },
+      "lastAt": "2026-09-20T20:21:21.058Z"
+    },
+    "tools-and-instruments": {
+      "answers": {
+        "tool-01": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-02": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-03": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        },
+        "tool-04": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-05": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-06": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-07": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-08": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-09": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "tool-10": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        }
+      },
+      "lastAt": "2026-09-20T20:23:18.886Z"
+    },
+    "weather-and-the-earth": {
+      "answers": {
+        "earth-01": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        }
+      },
+      "lastAt": "2026-09-20T20:23:46.634Z"
+    }
+  },
+  "hiw": {
+    "hiw-1": {
+      "answers": {
+        "h1-01": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "h1-02": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "h1-03": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "h1-04": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        }
+      },
+      "lastAt": "2026-09-21T05:50:37.469Z"
+    }
+  },
+  "pronounce": {
+    "words": {
+      "prepositions": {
+        "word": "prepositions",
+        "heard": [
+          "repositions",
+          "pre positions",
+          "arrangement",
+          "three positions",
+          "preposition"
+        ],
+        "misses": 1,
+        "tries": 24,
+        "clear": 7,
+        "first": "2026-09-21T07:35:52.288Z",
+        "last": "2026-09-21T07:35:52.288Z"
+      },
+      "soothing": {
+        "word": "soothing",
+        "heard": [
+          "chosen",
+          "sussing",
+          "do a thing",
+          "susing",
+          "so same"
+        ],
+        "misses": 1,
+        "tries": 17,
+        "clear": 2,
+        "first": "2026-09-21T07:35:52.288Z",
+        "last": "2026-09-21T07:35:52.288Z"
+      },
+      "ointment": {
+        "word": "ointment",
+        "heard": [
+          "arianment",
+          "orientment",
+          "iron mint",
+          "arian mint",
+          "aryntment"
+        ],
+        "misses": 1,
+        "tries": 15,
+        "clear": 1,
+        "first": "2026-09-21T07:35:52.288Z",
+        "last": "2026-09-21T07:35:52.288Z"
+      },
+      "old": {
+        "word": "old",
+        "heard": [
+          "text"
+        ],
+        "misses": 1,
+        "tries": 2,
+        "clear": 2,
+        "first": "2026-09-21T07:45:14.561Z",
+        "last": "2026-09-21T07:45:14.561Z"
+      },
+      "textbooks": {
+        "word": "textbooks",
+        "heard": [
+          "books"
+        ],
+        "misses": 1,
+        "tries": 1,
+        "clear": 1,
+        "first": "2026-09-21T07:45:14.561Z",
+        "last": "2026-09-21T07:45:14.561Z"
+      },
+      "standardized": {
+        "word": "standardized",
+        "heard": [
+          "standard guys",
+          "stand that advice",
+          "tanta darl",
+          "dye's"
+        ],
+        "misses": 1,
+        "tries": 7,
+        "clear": 4,
+        "first": "2026-09-21T07:45:14.561Z",
+        "last": "2026-09-21T07:45:14.561Z"
+      },
+      "toddler's": {
+        "word": "toddler's",
+        "heard": [
+          "toddlers",
+          "god bless",
+          "god lardess",
+          "carghers",
+          "third lures"
+        ],
+        "misses": 1,
+        "tries": 8,
+        "clear": 0,
+        "first": "2026-09-21T07:45:14.561Z",
+        "last": "2026-09-21T07:45:14.561Z"
+      },
+      "irrepressible": {
+        "word": "irrepressible",
+        "heard": [
+          "every principle",
+          "very flexible",
+          "are",
+          "a replaceable",
+          "add a pressable"
+        ],
+        "misses": 1,
+        "tries": 6,
+        "clear": 0,
+        "first": "2026-09-21T07:45:14.561Z",
+        "last": "2026-09-21T07:45:14.561Z"
+      },
+      "novel's": {
+        "word": "novel's",
+        "heard": [
+          "novel"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:55:09.294Z",
+        "last": "2026-09-21T07:55:09.294Z"
+      },
+      "overall": {
+        "word": "overall",
+        "heard": [
+          "all"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:55:09.294Z",
+        "last": "2026-09-21T07:55:09.294Z"
+      },
+      "costs": {
+        "word": "costs",
+        "heard": [
+          "coastal"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:55:09.294Z",
+        "last": "2026-09-21T07:55:09.294Z"
+      },
+      "rose": {
+        "word": "rose",
+        "heard": [
+          "shore"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:55:09.294Z",
+        "last": "2026-09-21T07:55:09.294Z"
+      },
+      "sharply": {
+        "word": "sharply",
+        "heard": [
+          "peace"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:55:09.294Z",
+        "last": "2026-09-21T07:55:09.294Z"
+      },
+      "improve": {
+        "word": "improve",
+        "heard": [
+          "first",
+          "very"
+        ],
+        "misses": 2,
+        "tries": 2,
+        "clear": 2,
+        "first": "2026-09-21T07:56:33.448Z",
+        "last": "2026-09-21T08:17:05.315Z"
+      },
+      "first-year": {
+        "word": "first-year",
+        "heard": [
+          "tier",
+          "clear"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:56:33.448Z",
+        "last": "2026-09-21T08:17:05.315Z"
+      },
+      "remained": {
+        "word": "remained",
+        "heard": [
+          "remain"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:56:33.448Z",
+        "last": "2026-09-21T07:56:33.448Z"
+      },
+      "ingrained": {
+        "word": "ingrained",
+        "heard": [
+          "ingraint",
+          "engraint",
+          "in green",
+          "engraved"
+        ],
+        "misses": 3,
+        "tries": 3,
+        "clear": 0,
+        "first": "2026-09-21T07:56:33.448Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "village": {
+        "word": "village",
+        "heard": [
+          "villages"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T07:56:33.448Z",
+        "last": "2026-09-21T07:56:33.448Z"
+      },
+      "disagreement": {
+        "word": "disagreement",
+        "heard": [
+          "agreement"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:17:05.315Z",
+        "last": "2026-09-21T08:17:05.315Z"
+      },
+      "programs": {
+        "word": "programs",
+        "heard": [
+          "program"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:17:05.315Z",
+        "last": "2026-09-21T08:17:05.315Z"
+      },
+      "pianist's": {
+        "word": "pianist's",
+        "heard": [
+          "pianist",
+          "be honest"
+        ],
+        "misses": 1,
+        "tries": 4,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "director's": {
+        "word": "director's",
+        "heard": [
+          "directors"
+        ],
+        "misses": 1,
+        "tries": 1,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "city's": {
+        "word": "city's",
+        "heard": [
+          "cities",
+          "fit eve",
+          "it is",
+          "sit is",
+          "sip is"
+        ],
+        "misses": 1,
+        "tries": 9,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "neighbourhoods": {
+        "word": "neighbourhoods",
+        "heard": [
+          "neighborhoods",
+          "neighborhood"
+        ],
+        "misses": 1,
+        "tries": 2,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "large-scale": {
+        "word": "large-scale",
+        "heard": [
+          "scale"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "principles": {
+        "word": "principles",
+        "heard": [
+          "principle"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "short-term": {
+        "word": "short-term",
+        "heard": [
+          "term"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:18:07.884Z",
+        "last": "2026-09-21T08:18:07.884Z"
+      },
+      "better": {
+        "word": "better",
+        "heard": [
+          "bitter"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:26:54.979Z"
+      },
+      "northern": {
+        "word": "northern",
+        "heard": [
+          "nursing"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "further": {
+        "word": "further",
+        "heard": [
+          "the"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "south": {
+        "word": "south",
+        "heard": [
+          "cells"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "'measure": {
+        "word": "'measure",
+        "heard": [
+          "measured"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "twice": {
+        "word": "twice",
+        "heard": [
+          "while"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:26:54.979Z"
+      },
+      "once'": {
+        "word": "once'",
+        "heard": [
+          "once"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "essay": {
+        "word": "essay",
+        "heard": [
+          "safe"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:26:54.979Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "lead": {
+        "word": "lead",
+        "heard": [
+          "led"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:28:41.740Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "maxim": {
+        "word": "maxim",
+        "heard": [
+          "maximum"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T08:28:41.740Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      }
+    },
+    "deleted": {
+      "'on'": true,
+      "'at'": true,
+      "'in'": true
     }
   }
 }
