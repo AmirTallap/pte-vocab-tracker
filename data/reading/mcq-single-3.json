@@ -1,0 +1,154 @@
+{
+  "id": "mcq-single-3",
+  "task": "mcq-single",
+  "title": "Set 3",
+  "summary": "Ten more passages, one answer each: the blue sky to the Ship of Theseus.",
+  "items": [
+    {
+      "id": "ms3-01",
+      "title": "Why the sky is blue",
+      "passage": "Sunlight appears white, but it is a mixture of all the colours of the visible spectrum. As it passes through the atmosphere, it meets molecules of nitrogen and oxygen that are far smaller than the wavelength of the light itself. Such molecules scatter light in all directions, and they do so very unevenly: the shorter the wavelength, the more strongly the light is scattered. This relationship, worked out by the physicist Lord Rayleigh in the nineteenth century, means that blue light, with its short wavelength, is scattered much more than red.\nWhen we look at any part of the sky away from the Sun, what reaches our eyes is this scattered light, arriving from every direction, and it is dominated by blue. Violet light has an even shorter wavelength and is scattered more still, yet the sky does not look violet. Part of the reason is that sunlight contains less violet than blue to begin with, and part is that human eyes are considerably less sensitive to violet.\nThe same principle explains the colours of sunrise and sunset. When the Sun is low, its light must travel through a much greater thickness of atmosphere to reach an observer. Along that long path, most of the blue is scattered out of the direct beam, so the light that remains is dominated by the longer wavelengths of orange and red.",
+      "question": "According to the passage, why does the sky not appear violet?",
+      "options": [
+        "Violet light is scattered less than blue light.",
+        "Violet light is absorbed by molecules of nitrogen and oxygen.",
+        "Violet light has a longer wavelength than blue light.",
+        "Sunlight contains less violet than blue, and human eyes are less sensitive to violet.",
+        "Violet light is scattered out of the direct beam only at sunset."
+      ],
+      "answer": [3],
+      "note": "The passage gives exactly two reasons: sunlight 'contains less violet than blue to begin with' and human eyes are 'considerably less sensitive to violet'. The first and third options reverse the passage, which says violet has 'an even shorter wavelength' and is 'scattered more still'. Absorption is never mentioned; the passage is about scattering."
+    },
+    {
+      "id": "ms3-02",
+      "title": "From willow bark to aspirin",
+      "passage": "Aspirin has one of the longest histories of any medicine. Preparations of willow bark were used to relieve pain and fever in ancient times, and in 1763 the English clergyman Edward Stone reported to the Royal Society that powdered willow bark had eased the fevers of around fifty patients. In the nineteenth century chemists isolated the active compound, salicin, and from it produced salicylic acid, which was effective but notoriously hard on the stomach.\nIn 1897 chemists at the German company Bayer produced a purer and more stable form of acetylsalicylic acid, which the company marketed two years later under the name Aspirin. It quickly became one of the most widely used drugs in the world, although for decades nobody understood how it worked. That puzzle was largely solved in 1971, when the pharmacologist John Vane showed that aspirin blocks the production of prostaglandins, substances involved in pain, fever and inflammation; the work contributed to his share of a Nobel Prize in 1982.\nVane's discovery also helped to explain an effect that had been noticed earlier: aspirin reduces the tendency of blood platelets to clump together. As a result, low doses came to be prescribed to some patients to lower the risk of heart attacks and strokes. Because the same action increases the risk of bleeding, however, doctors now weigh these benefits carefully for each patient rather than recommending the drug to everyone.",
+      "question": "Which of the following best summarises the passage?",
+      "options": [
+        "Aspirin was discovered by accident by a German chemist in 1897.",
+        "A remedy with ancient roots became a modern drug whose workings were explained long after it came into use, which in turn shaped how it is prescribed.",
+        "Aspirin should be taken by everyone to prevent heart attacks and strokes.",
+        "Willow bark is more effective than aspirin because it is gentler on the stomach."
+      ],
+      "answer": [1],
+      "note": "The passage moves from willow bark in ancient times, to Bayer's drug, to Vane's 1971 explanation 'for decades' after it came into use, to the prescribing of low doses that this helped explain. It says doctors weigh the benefits 'rather than recommending the drug to everyone', the opposite of the third option. Nothing says the 1897 work was accidental, and it is salicylic acid, not willow bark, that is called hard on the stomach."
+    },
+    {
+      "id": "ms3-03",
+      "title": "The return of the beaver",
+      "passage": "The Eurasian beaver was hunted to extinction in Britain several hundred years ago, prized for its fur and for castoreum, a secretion used in medicine and perfume. In recent decades it has returned, through licensed releases and some unofficial ones, and its reappearance has given ecologists an opportunity to study what the animal does to a landscape.\nBeavers build dams across small streams to create ponds deep enough to protect the entrances to their lodges. The results extend well beyond the pond. Water held back behind a series of dams is released more slowly downstream, which can reduce the peak flow of floods after heavy rain and help to keep streams flowing during dry spells. The ponds trap sediment and some of the pollutants washed off surrounding farmland, and the mosaic of pools, channels and dead wood that develops supports a greater variety of insects, amphibians and birds.\nNot everyone welcomes the animals. Farmers may find fields waterlogged or valuable trees felled, and dams can block culverts and drainage ditches. Projects in Britain have therefore paired reintroduction with management: removing or lowering problem dams, protecting particular trees, and installing pipes through dams to control the water level. Supporters argue that such measures are a small price for services that would otherwise require costly engineering, while opponents point out that the costs tend to fall on the landowners directly affected, not on the wider public who gain.",
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "The benefits of beavers and the costs they impose are not necessarily borne by the same people.",
+        "Beaver dams cause more flooding downstream than they prevent.",
+        "All reintroductions of beavers in Britain have been licensed.",
+        "Beavers were hunted in Britain because they damaged farmland.",
+        "Beaver ponds remove all agricultural pollution from streams."
+      ],
+      "answer": [0],
+      "note": "The final sentence says the costs 'fall on the landowners directly affected, not on the wider public who gain', so those who benefit and those who pay can be different people. The passage says dams can reduce downstream flood peaks, mentions 'some unofficial' releases, and says beavers were hunted for fur and castoreum. The ponds trap 'some of the pollutants', not all of them."
+    },
+    {
+      "id": "ms3-04",
+      "title": "Paper money in Song China",
+      "passage": "Paper money first came into widespread use in China, several centuries before it appeared in Europe. Its origins lay in the practical difficulties of trading with metal coins. Chinese coins were usually made of copper or iron, and large transactions required quantities too heavy to carry comfortably over long distances. In the ninth century, merchants began depositing coins with agents and receiving certificates in return, which could be redeemed elsewhere and were popularly known as 'flying money'.\nIn the early eleventh century, a group of merchant houses in Sichuan, a region that used heavy iron coins, issued notes that circulated as currency. When some of these houses failed to honour their notes, the government of the Song dynasty took over the issue itself, and in 1024 it began producing official paper money in the region. The notes were printed, carried official seals, and were intended to be backed by reserves of coin.\nThe innovation brought obvious convenience, but it also introduced a new temptation. A government short of funds, particularly in wartime, could simply print more notes, and later Song and subsequent governments did so repeatedly. As more notes circulated without adequate backing, their value fell and prices rose, and public confidence in paper currency was badly damaged. The Chinese experience thus anticipated, by many centuries, a problem that later governments elsewhere would also struggle with.",
+      "question": "In the passage, the word 'honour' in 'failed to honour their notes' is closest in meaning to",
+      "options": [
+        "respect the reputation of",
+        "award a prize for",
+        "print",
+        "praise publicly",
+        "pay out what was promised on"
+      ],
+      "answer": [4],
+      "note": "A note is a promise to pay, and to honour it is to pay what it promises when it is presented. The failure is what made the government take over the issue, which only makes sense if holders could not get their money. The other meanings of 'honour', such as respecting or praising, do not fit a financial instrument."
+    },
+    {
+      "id": "ms3-05",
+      "title": "The paradox of thrift",
+      "passage": "For an individual household, saving more is usually a sensible response to hard times. Spending less today builds a cushion against job loss or illness, and few people would criticise a family for tightening its belt. The economist John Maynard Keynes, writing during the Great Depression, drew attention to what can happen when everyone does this at once, an idea that came to be known as the paradox of thrift.\nThe reasoning runs as follows. One person's spending is another person's income. If households across the economy cut their spending at the same moment, shops and firms sell less, and they respond by reducing output, cancelling orders and laying off workers. Those workers then have less income and cut their own spending further. Total income in the economy falls, and because saving depends on income, the attempt by everyone to save more may leave total saving no higher than before, and possibly lower.\nThe paradox is an example of what logicians call a fallacy of composition: the mistaken assumption that what is true of each part must be true of the whole. It is one reason why many economists argue that governments should support spending during a recession rather than cutting it. Others point out that the argument applies most strongly when an economy has idle resources and unemployed workers; when it is already running at full capacity, higher saving can finance investment and support growth over the longer term.",
+      "question": "Why does the author mention the 'fallacy of composition'?",
+      "options": [
+        "To show that Keynes's own reasoning contained a logical error.",
+        "To argue that individual households should never save during a recession.",
+        "To identify the kind of mistaken reasoning that the paradox of thrift exposes.",
+        "To explain why saving always finances investment."
+      ],
+      "answer": [2],
+      "note": "The fallacy is 'the mistaken assumption that what is true of each part must be true of the whole', and the paradox shows exactly that: saving is sensible for one household but can backfire when everyone does it. The error belongs to the assumption Keynes was challenging, not to Keynes. The passage calls household saving 'sensible' and says higher saving can finance investment only when the economy is at full capacity, not always."
+    },
+    {
+      "id": "ms3-06",
+      "title": "Chiaroscuro",
+      "passage": "Chiaroscuro, from the Italian words for 'light' and 'dark', refers to the use of strong contrasts between light and shade to give figures and objects a convincing sense of volume. Painters of the Italian Renaissance, among them Leonardo da Vinci, studied how light falls across a rounded surface and used gradual transitions of tone to model form, so that a face or a fold of drapery appears to turn away from the viewer into shadow.\nAround 1600 the painter Caravaggio pushed the technique to an extreme. In many of his works, figures are lit by a single strong source from one side and emerge from backgrounds of almost total darkness. This manner, often called tenebrism, from the Italian for 'darkness', gave his scenes an intense and theatrical immediacy, as though a moment had been caught in the beam of a lamp. It was also controversial: some contemporaries admired its realism, while others objected that he painted saints and apostles with the dirty feet and worn faces of ordinary working people.\nCaravaggio's influence spread rapidly across Europe through painters who saw his work in Rome, and it can be traced in the art of the Dutch Republic and Spain during the following decades. Rembrandt, although he never travelled to Italy, developed his own profound use of light and shadow, in which darkness is not merely a background but seems to hold the figures in a quiet, reflective atmosphere.",
+      "question": "According to the passage, what did some of Caravaggio's contemporaries object to?",
+      "options": [
+        "His use of gradual transitions of tone.",
+        "His depiction of holy figures with the appearance of ordinary working people.",
+        "His refusal to travel outside Italy.",
+        "His use of bright, colourful backgrounds."
+      ],
+      "answer": [1],
+      "note": "The passage says some contemporaries 'objected that he painted saints and apostles with the dirty feet and worn faces of ordinary working people'. Gradual transitions of tone are what the passage attributes to Leonardo, and never travelling to Italy is said of Rembrandt. Caravaggio's backgrounds are described as 'almost total darkness', the opposite of bright."
+    },
+    {
+      "id": "ms3-07",
+      "title": "Does language shape thought?",
+      "passage": "The idea that the language we speak shapes the way we think is usually associated with Benjamin Lee Whorf, who argued in the 1930s and 1940s that speakers of languages with very different grammars perceive the world in fundamentally different ways. In its strongest form, sometimes called linguistic determinism, the hypothesis holds that language sets the limits of thought, so that a concept for which one's language has no word cannot be grasped at all.\nThat strong version has few defenders today. Some of Whorf's most striking claims, including his account of how the Hopi language treats time, were later challenged by linguists who studied the language more closely, and people plainly can understand ideas for which they lack a single word; they simply describe them at greater length.\nIt would be a mistake, however, to conclude that language has no influence on thought whatever. More carefully designed experiments have found modest but measurable effects. Russian, for instance, has separate basic words for light blue and dark blue, and Russian speakers in one study were slightly faster at distinguishing shades that fell on either side of that boundary. Speakers of languages that describe locations using compass directions rather than 'left' and 'right' tend to keep track of their orientation remarkably well. Effects of this kind do not imprison thought, but they suggest that habits of speaking can shape habits of attention. The most defensible position lies somewhere between the extremes.",
+      "question": "Which of the following best describes the author's view of the idea that language shapes thought?",
+      "options": [
+        "The author fully accepts Whorf's claim that language sets the limits of thought.",
+        "The author dismisses the idea that language influences thought as entirely unfounded.",
+        "The author considers the question impossible to investigate scientifically.",
+        "The author rejects the strongest version of the idea but accepts that language may have modest effects on thought.",
+        "The author believes that experiments on colour have proved Whorf right about the Hopi."
+      ],
+      "answer": [3],
+      "note": "The author says the strong version 'has few defenders today', then warns it would be 'a mistake' to conclude language has no influence, and ends that 'the most defensible position lies somewhere between the extremes'. That rules out both full acceptance and outright dismissal. The author cites 'carefully designed experiments', so does not think the question cannot be studied, and the colour study concerns Russian, not the Hopi claims, which were 'challenged'."
+    },
+    {
+      "id": "ms3-08",
+      "title": "Social capital",
+      "passage": "Sociologists use the term social capital for the resources that people gain from their relationships: the networks they belong to, and the trust and habits of cooperation that grow within them. The analogy with other forms of capital is deliberate. Just as money and skills can be invested and yield returns, so connections can help a person find a job, obtain advice, borrow a tool or be looked after when ill.\nA useful distinction is drawn between two kinds. Bonding social capital links people who are similar to one another, such as members of a family, an ethnic community or a close group of friends. It provides strong support and a sense of belonging. Bridging social capital links people across social divides, such as colleagues from different backgrounds or members of a club open to all. Its ties may be weaker, but they can be especially valuable because they give access to information and opportunities that one's immediate circle does not have. Research on job-seeking has found that people often hear about new positions through acquaintances rather than close friends, for precisely this reason.\nSocial capital is not always benign, however. The same strong bonds that sustain a community can also exclude outsiders, enforce conformity or sustain networks of favouritism and corruption. For this reason, many researchers argue that what matters for a society is not simply how much social capital it has, but what kind, and whom it includes.",
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "Relationships are a resource that can bring real benefits, but the kind of connections matters and they can also do harm.",
+        "Bonding social capital is always more useful than bridging social capital.",
+        "People find jobs mainly through their close friends.",
+        "Social capital is a form of money that can be borrowed and repaid."
+      ],
+      "answer": [0],
+      "note": "The passage defines social capital as a resource, distinguishes two kinds, and ends that what matters is 'not simply how much social capital it has, but what kind', after noting it 'is not always benign'. It gives no ranking of bonding over bridging and in fact stresses the special value of bridging ties. The job research points to acquaintances 'rather than close friends', and money is only an analogy."
+    },
+    {
+      "id": "ms3-09",
+      "title": "Plea bargaining",
+      "passage": "In many criminal justice systems, and above all in the United States, most convictions are obtained not by a trial but by a guilty plea, very often one reached through negotiation. In a plea bargain, the defendant agrees to plead guilty, typically in return for a reduced charge or a lighter sentence than the prosecution would seek after a trial. The great majority of federal convictions in the United States are now obtained in this way.\nSupporters argue that the practice is indispensable. Trials are slow and expensive, and courts could not cope if every case were contested. A plea spares victims and witnesses the ordeal of giving evidence, gives defendants certainty about the outcome, and allows prosecutors to concentrate their resources on the most serious cases.\nCritics focus on the pressure the system can create. If the sentence expected after conviction at trial is much longer than the one offered for a plea, the difference, sometimes called the trial penalty, may be large enough to persuade a defendant to plead guilty even when they have a reasonable defence. Defendants held in custody before trial may also accept a plea simply to secure an earlier release. Critics also point out that negotiated outcomes take place largely out of public view, so that the evidence against a defendant is seldom tested in open court.",
+      "question": "What can be inferred from the passage about the 'trial penalty'?",
+      "options": [
+        "It is a fine that defendants must pay if they choose to go to trial.",
+        "It applies only to defendants who are held in custody before trial.",
+        "The larger it is, the more pressure it puts on defendants to plead guilty, including some who might have been acquitted.",
+        "It was introduced in order to reduce the number of guilty pleas.",
+        "It ensures that the evidence against a defendant is tested in open court."
+      ],
+      "answer": [2],
+      "note": "The trial penalty is the gap between the sentence expected after a trial and the one offered for a plea, and a large gap 'may be large enough to persuade a defendant to plead guilty even when they have a reasonable defence'. It is a difference in sentences, not a fine. Custody is a separate source of pressure introduced with 'also', and the passage says negotiated outcomes mean evidence is 'seldom tested in open court'."
+    },
+    {
+      "id": "ms3-10",
+      "title": "The Ship of Theseus",
+      "passage": "The ancient Greek writer Plutarch records a puzzle about the ship in which the hero Theseus returned to Athens. The Athenians preserved it for centuries, and as its timbers decayed they replaced them one by one with new ones, until eventually none of the original wood remained. Philosophers, Plutarch says, disagreed about whether it was still the same ship.\nThe puzzle gained a further twist in the seventeenth century, when the English philosopher Thomas Hobbes asked what would follow if someone had kept every discarded plank and later reassembled them. There would then be two ships with a claim to be the original: the one that had been continuously maintained, and the one built entirely of the original materials. Each answer has some intuitive pull, and each seems to imply that the other is mistaken.\nThe puzzle is not merely an idle game. Questions about identity over time arise wherever things persist while changing. Many of the cells of the human body are replaced over time, and a person's beliefs and memories alter over a lifetime, yet we hold people responsible for promises made and wrongs committed years before. Organisations, cities and nations change every member while keeping their names. Some philosophers conclude that 'the same' is not a single fixed relation, and that whether two things count as the same depends on what we are asking and why. On that view, the puzzle does not have one correct answer waiting to be found.",
+      "question": "In the passage, the phrase 'has some intuitive pull' most nearly means",
+      "options": [
+        "is supported by historical evidence",
+        "has been proved correct by philosophers",
+        "is physically possible to carry out",
+        "is too complicated to be understood",
+        "seems naturally plausible to many people"
+      ],
+      "answer": [4],
+      "note": "An intuition is what seems right before any argument, and a 'pull' is an attraction, so each answer seems plausible, which is why the puzzle is hard. The passage says neither answer has been proved; indeed some philosophers think there is no single correct answer. The phrase is about how convincing the answers seem, not about history or physical possibility."
+    }
+  ]
+}

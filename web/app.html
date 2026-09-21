@@ -246,15 +246,15 @@
      picked out. Monospace and `pre-wrap` so the two lines sit column under
      column and a highlighted SPACE - a missing or an extra one, which is a
      real mistake in a phrase - still has width to be seen. */
-  .verdict .diff { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; margin-top: 4px; }
-  .verdict .diff dt { color: var(--faint); font-size: 11px; text-transform: uppercase;
+  .verdict .diff, .qverdict .diff { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; margin-top: 4px; }
+  .verdict .diff dt, .qverdict .diff dt { color: var(--faint); font-size: 11px; text-transform: uppercase;
     letter-spacing: .07em; padding-top: 2px; }
-  .verdict .diff dd {
+  .verdict .diff dd, .qverdict .diff dd {
     margin: 0; color: var(--text); white-space: pre-wrap; overflow-wrap: anywhere;
     font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     font-size: 14px; line-height: 1.5;
   }
-  .verdict .diff dd[dir="rtl"] {
+  .verdict .diff dd[dir="rtl"], .qverdict .diff dd[dir="rtl"] {
     font-family: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif; font-size: 16px;
   }
   /* Amber on the line you typed, red on the answer: the first is "this is the
@@ -262,16 +262,16 @@
      there". Both are legible without the colour - the weight and the underline
      carry it - because a red/amber pair is exactly what a colour-blind reader
      cannot tell apart. */
-  .verdict .diff .bad {
+  .verdict .diff .bad, .qverdict .diff .bad {
     font-weight: 700; border-radius: 2px; padding: 0 1px;
     background: var(--near-bg); color: var(--near);
     box-shadow: inset 0 -2px 0 0 currentColor;
   }
-  .verdict .diff .want .bad { background: var(--wrong-bg); color: var(--wrong); }
+  .verdict .diff .want .bad, .qverdict .diff .want .bad { background: var(--wrong-bg); color: var(--wrong); }
   /* Where a letter is simply missing there is no character to paint, so the gap
      itself is drawn - otherwise "pervded" and "pervaded" line up with nothing
      to show that something fell out. */
-  .verdict .diff .gap {
+  .verdict .diff .gap, .qverdict .diff .gap {
     display: inline-block; width: .5ch; height: 1em; vertical-align: -.15em;
     background: currentColor; opacity: .35; border-radius: 1px;
   }
@@ -480,6 +480,10 @@
   .viewtabs button[aria-pressed="true"] { color: var(--text); border-bottom-color: var(--teal); }
   .viewtabs button:hover:not([aria-pressed="true"]) { color: var(--text); }
   .viewtabs button:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+  /* The Training tab's own row, one step quieter than the tabs above it. */
+  .viewtabs.subtabs { background: var(--panel-2); padding-left: 28px; }
+  .viewtabs.subtabs[hidden] { display: none; }
+  .viewtabs.subtabs button { font-size: 12px; padding: 7px 14px; border-bottom-width: 2px; }
 
   /* ------------------------------------------------------------ list view */
   /* The list pins its filters and column headers and scrolls the rows
@@ -545,6 +549,8 @@
     width: 1px; align-self: stretch; background: var(--line); margin: 0 2px;
   }
   .voicebar .seg button { padding: 4px 10px; }
+  .voicebar .vbgrp { display: flex; align-items: center; gap: 10px; align-self: stretch; }
+  .voicebar .vbgrp[hidden] { display: none; }
   /* Where "I know this" was, after an answer that was not right. Stated rather
      than left blank: a button that vanishes with no explanation reads as a bug. */
   .cantknow { color: var(--dim); font-size: 13px; align-self: center; }
@@ -973,6 +979,11 @@
   }
   .smodes button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
+  .pword { display: block; font-size: 34px; font-weight: 700; letter-spacing: .01em; margin: 6px 0 4px; }
+  .pverdict { display: inline-block; font-size: 14px; font-weight: 600; padding: 3px 10px; border-radius: 6px; }
+  .pverdict.ok { color: var(--correct); background: var(--correct-bg); }
+  .pverdict.bad { color: var(--wrong); background: var(--wrong-bg); }
+
   .slec { margin-bottom: 12px; }
   .slecmeta { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
   .slecfield {
@@ -985,6 +996,9 @@
   /* The wait before a lecture can be heard. Two phases and they are honestly
      different: the server has to synthesise about forty seconds of speech
      before it sends a byte, and only then is there anything to download. */
+  .slecsrc { margin: 0; }
+  .slecsrc button { padding: 5px 11px; font-size: 12px; }
+
   .slecprog { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; }
   .slecbar {
     flex: 1 1 auto; height: 8px; border-radius: 5px; overflow: hidden;
@@ -995,10 +1009,195 @@
     transition: width .25s linear;
   }
   .slecbar i.is-guess { background: var(--near); }
+  /* The playing bar follows a clock, not a download, so it must not ease
+     between readings the way the download bar does - a 250ms transition on a
+     value that changes every frame is a bar that always lags the sound. */
+  .slecbar i.is-playing { transition: none; }
   .slecprogtext {
     flex: none; font-size: 12px; color: var(--muted);
     font-variant-numeric: tabular-nums; min-width: 15em;
   }
+
+  /* The speakers named beside the discussion's "N of M". Quieter than the
+     names themselves: which of them is British is context, not a heading. */
+  .sdim { color: var(--faint); font-size: 10.5px; }
+
+  /* A discussion in the report, set out as people rather than as prose. Who
+     said what is half of what the task asks you to have followed, so a wall
+     of unattributed text would hide exactly the thing you got wrong. */
+  .sturns {
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel);
+    padding: 12px 16px;
+  }
+  .sturn { margin: 0 0 9px; font-size: 15px; line-height: 1.7; }
+  .sturn:last-child { margin-bottom: 0; }
+  .sturnwho {
+    display: inline-block; min-width: 5.5em; color: var(--teal-dark);
+    font-size: 12.5px; text-transform: uppercase; letter-spacing: .04em;
+    vertical-align: baseline;
+  }
+
+  /* ---- Listening: hear a definition, type the word */
+  .qintro { margin: 0 0 18px; }
+  .qintro h2 { margin: 0 0 6px; font-size: 20px; }
+  .qintro p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+
+  .qsets { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .qset {
+    text-align: left; font: inherit; cursor: pointer;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel);
+    padding: 13px 15px;
+  }
+  .qset:hover { border-color: var(--teal); }
+  .qset:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .qsetname { font-weight: 600; font-size: 15px; margin-bottom: 3px; }
+  .qsetsum { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+  .qsetbar { margin-top: 9px; font-size: 11.5px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  .qsetbar b { color: var(--teal-dark); }
+
+  .qhead { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+  .qhead h2 { margin: 0; font-size: 19px; }
+  .qcount { color: var(--faint); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+  .qcard {
+    border: 1px solid var(--border); border-radius: 12px; background: var(--panel);
+    padding: 20px; margin-bottom: 14px;
+  }
+  /* The clue is NEVER drawn here before the answer is sent. The whole point is
+     that it arrives as sound, and a copy of it in the DOM would be a copy
+     anybody could read. */
+  .qplayrow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .qplay {
+    font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+    border: 1px solid var(--btn); border-radius: 10px; background: var(--btn);
+    color: #FFFFFF; padding: 11px 20px;
+  }
+  .qplay:hover { filter: brightness(1.08); }
+  .qplay:disabled { opacity: .55; cursor: default; }
+  .qplay:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .qplaynote { font-size: 12.5px; color: var(--muted); }
+
+  .qanswer { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+  .qinput {
+    flex: 1 1 220px; font: inherit; font-size: 17px; padding: 11px 13px;
+    border: 1px solid var(--border-2); border-radius: 10px;
+    background: var(--panel-2); color: inherit;
+  }
+  .qinput:focus { outline: 2px solid var(--focus); outline-offset: 1px; }
+  .qinput:disabled { opacity: .7; }
+
+  .qverdict { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 14px; }
+  .qmark { font-weight: 600; font-size: 15px; margin: 0 0 10px; }
+  .qmark.right { color: var(--teal-dark); }
+  .qmark.wrong { color: var(--bad); }
+  .qclue {
+    margin: 0 0 10px; font-size: 15.5px; line-height: 1.7;
+    border-left: 3px solid var(--border-2); padding-left: 12px; color: var(--muted);
+  }
+  .qwant { font-size: 15px; margin: 0 0 8px; }
+  .qwant b { font-size: 17px; }
+  .qalso { font-size: 12.5px; color: var(--muted); margin: 0 0 8px; }
+  .qnote { font-size: 13.5px; color: var(--muted); line-height: 1.7; margin: 10px 0 0; }
+  .qverdict .diff { margin: 10px 0 0; }
+
+  /* ---- Listening: highlight incorrect words */
+  .hwords { margin-top: 16px; font-size: 16px; line-height: 2.1; }
+  .hwtitle { margin: 16px 0 0; }
+  .hw {
+    font: inherit; color: var(--text); background: none; cursor: pointer;
+    border: 0; border-radius: 4px; padding: 1px 2px; margin: 0 -1px;
+  }
+  .hw:hover:not(:disabled) { background: var(--panel-2); box-shadow: inset 0 -2px 0 var(--border); }
+  .hw:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+  .hw.picked { background: var(--near-bg); color: var(--near); font-weight: 600; }
+  .hw:disabled { cursor: default; }
+  .hw.ok { background: var(--correct-bg); color: var(--correct); font-weight: 600; }
+  .hw.bad { background: var(--wrong-bg); color: var(--wrong); text-decoration: line-through; }
+  .hw.missed { box-shadow: inset 0 0 0 2px var(--wrong); color: var(--wrong); }
+  .hsaid {
+    display: inline-block; margin-left: 3px; padding: 0 6px; border-radius: 6px;
+    font-size: 13px; font-weight: 700; color: var(--correct); background: var(--correct-bg);
+  }
+
+  /* ---- Reading: the exam's reading items */
+  .rhead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 6px 0 6px; }
+  .rhead h2 { margin: 0; font-size: 19px; }
+  .rhead .rsets { margin: 0; }
+  .rhead .rsets button { font-size: 12px; padding: 4px 11px; }
+  .rsum { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
+  .rhow { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
+  .rtitle { margin: 0 0 10px; font-size: 16px; }
+  .rpassage { font-size: 15.5px; line-height: 2.1; }
+  .rprose { line-height: 1.75; }
+  .rprose p { margin: 0 0 10px; }
+  .rsel {
+    font: inherit; font-size: 14.5px; padding: 2px 6px; margin: 0 2px;
+    border: 1px solid var(--border); border-radius: 6px;
+    background: var(--panel-2); color: var(--text); min-width: 7em;
+  }
+  .rsel:focus { outline: 2px solid var(--focus); outline-offset: 1px; }
+  .rsel.right, .rslot.right { border-color: var(--correct); background: var(--correct-bg); color: var(--correct); }
+  .rsel.wrong, .rslot.wrong { border-color: var(--wrong); background: var(--wrong-bg); color: var(--wrong); }
+  .rsel:disabled { opacity: 1; }
+  .rfix {
+    display: inline-block; margin: 0 4px 0 2px; padding: 0 6px; border-radius: 6px;
+    font-size: 13px; font-weight: 700; color: var(--correct); background: var(--correct-bg);
+  }
+  .rslot {
+    font: inherit; font-size: 14.5px; cursor: pointer; min-width: 7em;
+    padding: 1px 10px; margin: 0 2px; border-radius: 6px;
+    border: 1px dashed var(--border); background: var(--panel-2); color: var(--text);
+  }
+  .rslot.filled { border-style: solid; font-weight: 600; }
+  .rslot:disabled { cursor: default; opacity: 1; }
+  .rbank {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; padding: 12px;
+    border: 1px solid var(--border-2); border-radius: 10px; background: var(--panel-2);
+    min-height: 48px;
+  }
+  .rchip {
+    font: inherit; font-size: 14px; cursor: grab; padding: 5px 12px;
+    border: 1px solid var(--border); border-radius: 999px;
+    background: var(--panel); color: var(--text);
+  }
+  .rchip:hover:not(:disabled) { border-color: var(--teal); }
+  .rchip.held { background: var(--navy); color: #FFFFFF; border-color: var(--navy); }
+  .rchip.used { opacity: .3; cursor: default; }
+  .rchip:disabled:not(.used) { cursor: default; }
+  .rtip { margin: 8px 0 0; font-size: 12px; color: var(--faint); }
+  .dropon { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+  .rparas { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .rpara {
+    display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--panel-2);
+    font-size: 14.5px; line-height: 1.65;
+  }
+  .rpara[draggable="true"] { cursor: grab; }
+  .rpara.dragging { opacity: .4; }
+  .rpara.pairok { border-left: 4px solid var(--correct); }
+  .rpara.pairbad { border-left: 4px solid var(--wrong); }
+  .rnum { font-weight: 700; color: var(--faint); min-width: 1.2em; font-variant-numeric: tabular-nums; }
+  .rtext { flex: 1; min-width: 0; }
+  .rmove { display: flex; flex-direction: column; gap: 4px; }
+  .rmove .btn { padding: 2px 8px; min-width: 0; }
+
+  .rq { font-weight: 600; margin: 14px 0 10px; }
+  .ropts { display: grid; gap: 8px; }
+  .ropt {
+    display: flex; gap: 10px; align-items: flex-start; cursor: pointer;
+    padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px;
+    font-size: 14.5px; line-height: 1.55;
+  }
+  .ropt input { margin-top: 4px; }
+  .ropt.right { border-color: var(--correct); background: var(--correct-bg); }
+  .ropt.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+
+  .rwhy { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; line-height: 1.6; }
+  .rmiss { color: var(--wrong); font-size: 13px; margin-left: 6px; }
+  .rwhytext { display: block; color: var(--muted); font-size: 13.5px; }
+  .rsub { font-weight: 600; font-size: 13.5px; margin: 6px 0 8px; }
+  .rright { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; line-height: 1.6; color: var(--muted); }
 
   /* The lecture transcript in the report, and the prompt to take away. */
   .slecture {
@@ -1334,15 +1533,25 @@
 </div>
 
 <div class="viewtabs" role="group" aria-label="View">
-  <button data-view="list">Word list</button>
-  <button data-view="batches">Batches</button>
-  <button data-view="grammar">Grammar</button>
-  <button data-view="essays">Essays</button>
+  <!-- Training is a group, not a view: it holds the four views below that
+       drill the deck and the grammar, and a click lands on whichever of them
+       you were last on (settings.trainView). -->
+  <button data-group="training">Training</button>
+  <button data-view="reading">Reading</button>
+  <button data-view="writing">Writing</button>
+  <button data-view="listening">Listening</button>
   <!-- Hidden on boot and shown only if the host says it can listen -
        see probeSpeech(). The cloud build answers no, so this tab is
        simply not there, which is how this stays one page for both. -->
   <button data-view="speaking" id="speakTab" hidden>Speaking</button>
+</div>
+
+<!-- The Training tab's sections. Shown only while one of them is on screen. -->
+<div class="viewtabs subtabs" id="trainTabs" role="group" aria-label="Training" hidden>
+  <button data-view="list">Word list</button>
   <button data-view="practice">Practice</button>
+  <button data-view="batches">Batches</button>
+  <button data-view="grammar">Grammar</button>
 </div>
 
 <!-- Directly under the tabs, on every view: the voice the drill speaks in.
@@ -1370,17 +1579,20 @@
   <button class="btn small" id="voiceTest">Hear it</button>
   <span class="voicenote" id="voiceNote"></span>
 
-  <span class="vbsep" aria-hidden="true"></span>
-  <!-- Hiding the Arabic is one switch for the whole page, and it lives up here
-       beside the voice rather than in the Practice controls for the same two
-       reasons: it governs the word list, the batches and what prints as well
-       as the drill, and it is chosen once and then lived with. arabicOn() is
-       the only place that reads it. -->
-  <span class="lbl">Arabic</span>
-  <div class="seg" id="arabicSeg" role="group" aria-label="Arabic text">
-    <button data-set="arabic" data-val="on">Show</button>
-    <button data-set="arabic" data-val="off">Hide</button>
-  </div>
+  <!-- Hiding the Arabic is one switch for the whole of Training, and it lives
+       up here beside the voice rather than in the Practice controls for the
+       same two reasons: it governs the word list, the batches and what prints
+       as well as the drill, and it is chosen once and then lived with. It is
+       shown only under Training (setView), because no other tab has any
+       Arabic to hide. arabicOn() is the only place that reads it. -->
+  <span id="arabicCtl" class="vbgrp">
+    <span class="vbsep" aria-hidden="true"></span>
+    <span class="lbl">Arabic</span>
+    <div class="seg" id="arabicSeg" role="group" aria-label="Arabic text">
+      <button data-set="arabic" data-val="on">Show</button>
+      <button data-set="arabic" data-val="off">Hide</button>
+    </div>
+  </span>
 </div>
 
 <div class="instruction" id="instruction"></div>
@@ -1620,6 +1832,30 @@
   <div id="grammarBody"></div>
 </section>
 
+<!-- Listening: hear a definition, type the word. Built by renderListen() the
+     way the grammar view is, because unlike the Essays tab there is nothing
+     in it a repaint could throw away - the answer box holds one word, not
+     twenty minutes of prose. -->
+<section class="swrap" id="listenView" hidden>
+  <div class="sintro">
+    <h1>Listening</h1>
+    <p id="listenLede"></p>
+  </div>
+  <!-- One tab per task, the Speaking tab's control. LISTEN_SLUG names them. -->
+  <div class="smodes" role="group" aria-label="Task">
+    <button data-lmode="define">Word from Definition</button>
+    <button data-lmode="hiw">Highlight Incorrect Words</button>
+  </div>
+  <div id="listenBody"></div>
+  <div id="hiwBody" hidden></div>
+</section>
+
+<!-- Reading: the exam's reading items, one at a time, marked on the server.
+     Built by renderReading() the way the Listening view is. -->
+<section class="swrap" id="readView" hidden>
+  <div id="readBody"></div>
+</section>
+
 <!-- Essays: one PTE Write Essay prompt, a 20-minute countdown and a box.
      Built once, here, rather than by a render function - the whole view is one
      textarea holding work you cannot retype, and a repaint that replaced that
@@ -1694,12 +1930,18 @@
     <button data-mode="free">Free talk</button>
     <button data-mode="read">Read aloud</button>
     <button data-mode="retell">Re-tell lecture</button>
+    <button data-mode="discuss">Group discussion</button>
+    <button data-mode="repeat">Repeat sentence</button>
+    <button data-mode="pron">Pronunciation</button>
   </div>
 
   <div class="stask" id="speakTask">
-    <!-- Re-tell only. The lecture's words are NOT here: you hear it once, the
-         way the exam gives it, and the transcript appears in the report
-         afterwards. -->
+    <!-- The two LISTENING tasks share this panel: Re-tell Lecture and
+         Summarize Group Discussion. The ids still say "Lec" because the
+         lecture had it first and renaming fifteen of them buys nothing; what
+         is in it is whichever task you are on. The words are NOT here for
+         either: you hear it once, the way the exam gives it, and the
+         transcript appears in the report afterwards. -->
     <div class="slec" id="speakLec" hidden>
       <div class="slecmeta">
         <span class="slecfield" id="speakLecField"></span>
@@ -1716,9 +1958,38 @@
         <button class="btn small" id="speakLecNext">Next lecture</button>
         <button class="btn small" id="speakLecRandom">Random</button>
         <span class="espacer"></span>
+        <!-- Which lectures the rotation is allowed to draw from. PTE plays
+             real recorded lecturers, so "Real voices" is the setting that
+             practises the thing being tested; the synthetic hundred are a
+             wider spread of subjects. -->
+        <span class="smodes slecsrc" id="speakLecSource" role="group" aria-label="Which lectures">
+          <button data-lecsrc="all">All</button>
+          <button data-lecsrc="real">Real voices</button>
+          <button data-lecsrc="tts">Synthetic</button>
+        </span>
         <select id="speakLecPick" aria-label="Choose a lecture"></select>
       </div>
     </div>
+    <!-- Repeat Sentence. No title and no text: there is nothing to show
+         before you have heard it, and showing it afterwards is the report's
+         job. Only which band you are in and how long the sentence was. -->
+    <div class="slec" id="speakSay" hidden>
+      <div class="slecmeta">
+        <span class="slecfield">REPEAT SENTENCE</span>
+        <span class="espacer"></span>
+        <span class="slecnum" id="speakSayNum"></span>
+      </div>
+      <div class="erow">
+        <button class="btn small btn-primary" id="speakSayPlay">Play the sentence</button>
+        <button class="btn small" id="speakSayNext">Next sentence</button>
+        <span class="espacer"></span>
+        <span class="smodes slecsrc" id="speakSayBand" role="group" aria-label="Length"></span>
+      </div>
+    </div>
+    <!-- Pronunciation: the words a Read Aloud came out wrong on, one at a
+         time. Built by renderPronTask(); the word itself goes in speakPrompt
+         below, so it sits where every other task's script does. -->
+    <div class="slec" id="speakPron" hidden></div>
     <p class="sq" id="speakPrompt"></p>
     <p class="shint" id="speakHint"></p>
   </div>
@@ -1942,6 +2213,9 @@
   function loadSettings() {
     var d = {
       deck: "all", dir: "ar", filter: "learning", view: "list",
+      // Which of the Training tab's four views that tab opens on: the last
+      // one you were on, kept by setView().
+      trainView: "list",
       // Whether the Arabic is drawn at all, "on" | "off". A page-wide setting,
       // not a per-view one: the word list, the batch table, what prints and
       // the drill must never disagree about it. Stored like the rest, so the
@@ -1988,11 +2262,25 @@
       },
       train: null,
       grammar: { module: null },
+      // The Writing tab: which written task you are on. One today; the table
+      // that names them is WRITE_SLUG, beside the routing.
+      writing: { mode: "essay" },
+      // The Listening tab: which set you were on, and nothing else. Which
+      // question within it is not saved, for the Essays tab's reason - a
+      // question in progress is a rehearsal, not a place to come back to.
+      // `mode` is which task tab is open, "define" | "hiw"; `set` the
+      // definition set being worked through; `hiwSet` the Highlight Incorrect
+      // Words set you were on.
+      listening: { set: null, mode: "define", hiwSet: null },
+      // The Reading tab: which question type is open, and which set of it you
+      // were on, per type. Not which item - an item half-answered is a
+      // rehearsal, not a place to come back to (the Listening tab's rule).
+      reading: { task: "fib-rw", sets: {} },
       // The Speaking tab. Only which of the two tasks you were on: the
       // recording, the transcript and the report are all deliberately
       // unsaved - see the speaking block for why - so there is nothing else
       // here that would survive a reload even if it wanted to.
-      speaking: { mode: "free", lecture: null },
+      speaking: { mode: "free", lecture: null, source: "all" },
       // The Essays tab: which prompt, the countdown, and the draft. The draft
       // is here because the server keeps no essays (see src/essays.js), and
       // finding that out by losing twenty minutes to a stray reload would be
@@ -2023,6 +2311,9 @@
       out.batch.names = Object.assign({}, d.batch.names, sb.names || {});
       out.batch.n = Object.assign({}, d.batch.n, sb.n || {});
       out.grammar = Object.assign({}, d.grammar, s.grammar || {});
+      out.reading = Object.assign({}, d.reading, s.reading || {});
+      out.listening = Object.assign({}, d.listening, s.listening || {});
+      if (!out.reading.sets || typeof out.reading.sets !== "object") out.reading.sets = {};
       out.essay = Object.assign({}, d.essay, s.essay || {});
       out.voice = Object.assign({}, d.voice, s.voice || {});
       // See clueDefault above: a copy saved under an older default takes the
@@ -2047,7 +2338,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 11;
+  var API_VERSION = 18;
   var stale = false;
 
   function goStale(theirs) {
@@ -3669,7 +3960,13 @@
   var speakSeq = 0;
 
   /** Silence whatever is speaking, and disown any request still in flight. */
+  /* Whatever silences the audio element silences a lecture with it, and the
+     flag has to go down with the sound: an `ended` that arrives after this
+     must not be read as "the lecture finished, start the clock". This is the
+     one choke point - speak() calls it before it assigns a new src - so there
+     is no second copy of the rule to drift. */
   function stopSpeaking() {
+    if (mic && mic.lecPlaying) { mic.lecPlaying = false; lecClock(false); }
     speakSeq++;
     try { speech.pause(); } catch (e) { /* nothing playing */ }
   }
@@ -3803,9 +4100,11 @@
   });
   document.getElementById("voiceTest").addEventListener("click", function () {
     // The card on screen if there is one, so auditioning a voice is done on
-    // the word you are actually working; a fixed sample otherwise.
+    // the word you are actually working; a fixed sample otherwise. On the
+    // Pronunciation task that word is the one on screen, not the drill's card.
+    var pw = settings.view === "speaking" && mic.mode === "pron" ? pronWord() : null;
     var e = current();
-    speak(e ? e.word : "articulate", this);
+    speak(pw ? pw.word : e ? e.word : "articulate", this);
   });
 
   /* ------------------------------------------------------------- training */
@@ -4317,7 +4616,7 @@
      countdown itself is a deadline, not a tally, so leaving the tab does not
      pause it - only the repainting stops, which is all the interval was for. */
   function essayTimerSync() {
-    var live = settings.view === "essays" && essayLeft().state === "run";
+    var live = settings.view === "writing" && essayLeft().state === "run";
     if (live && !eTimer) eTimer = setInterval(essayClockPaint, 250);
     else if (!live && eTimer) { clearInterval(eTimer); eTimer = null; }
   }
@@ -4775,9 +5074,34 @@
 
   var mic = {
     available: false, status: null,
-    // "free" | "read" | "retell"
+    // The Pronunciation list: the server's, fetched when the task opens and
+    // again whenever a Read Aloud has added to it. `at` is the word on screen
+    // and `verdict` the last practice take of it. Words only - see
+    // src/pronounce.js for why this is the one thing the tab keeps.
+    pron: { words: [], at: 0, loaded: false, verdict: null },
+    // "free" | "read" | "retell" | "discuss" - see SPEAK_SLUG, which is the
+    // list the route table and this agree on.
     mode: "free", script: null,
-    lectures: [], lecIndex: 0, lecture: null, lecTimes: null, lecHeard: false,
+    /* The two listening tasks - Re-tell Lecture and Summarize Group
+       Discussion - are the same exercise with different audio: you hear
+       something once, you get a few seconds, and you say it back in your own
+       words. So they share the panel, the transport, the recorder, the clock
+       and the report, and the only thing that varies is which list is in
+       front of you. Keyed rather than duplicated, because a second copy of
+       any of that is how the two would drift apart. */
+    items: { retell: [], discuss: [] },
+    at: { retell: 0, discuss: 0 },
+    times: { retell: null, discuss: null },
+    item: null, heard: false,
+    // The lecture transport. `lecPlaying` is what tells an `ended` on the
+    // shared audio element apart from a TTS clip finishing - the same element
+    // says "Hear it properly" and the per-fault corrections, and only ONE of
+    // those may start a ten-second countdown.
+    lecPlaying: false, lecRaf: 0,
+    /* Repeat Sentence. `say` is the sentence being worked on - its id and its
+       length, never its words, which the page is not given until the report.
+       See src/sentences.js. */
+    bands: [], band: 0, sayAt: 0, say: null, sayHeard: false,
     recording: false, busy: false, report: null,
     session: [],
     media: null, rec: null, chunks: [], startedAt: 0, tick: null,
@@ -4810,7 +5134,9 @@
       // Which of the two tasks you were last on is a view setting like any
       // other; the recording and the report deliberately are not.
       var saved = settings.speaking && settings.speaking.mode;
-      mic.mode = (saved === "read" || saved === "retell") ? saved : "free";
+      // Checked against the route table rather than a list of names, so a
+      // task added there is remembered here without a second edit.
+      mic.mode = SPEAK_SLUG[saved] ? saved : "free";
       if (mic.available) renderSpeakLede();
     })["catch"](function () {
       mic.available = false;
@@ -4821,7 +5147,8 @@
   function renderSpeakLede() {
     var st = mic.status || {};
     var lede = "Record yourself, and have it transcribed and marked on this machine. " +
-      "Nothing is uploaded and nothing is kept - the recording is gone the moment the report is drawn.";
+      "Nothing is uploaded and no recording is kept - it is gone the moment the report is drawn. " +
+      "The one thing kept is a list of words a Read aloud got wrong, for the Pronunciation task.";
     if (!st.ready) {
       lede += " <b>The first recording downloads the 133MB speech model</b>, so it will take a " +
               "few minutes; every one after that is immediate.";
@@ -4864,15 +5191,19 @@
 
   function renderSpeakTask() {
     var read = mic.mode === "read";
-    var retell = mic.mode === "retell";
+    var retell = listening();
 
     [].slice.call(document.querySelectorAll(".smodes [data-mode]")).forEach(function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.mode === mic.mode));
     });
-    speakEl("speakLec").hidden = !retell;
+    speakEl("speakLec").hidden = !listening();
+    speakEl("speakSay").hidden = mic.mode !== "repeat";
+    speakEl("speakPron").hidden = mic.mode !== "pron";
     speakEl("speakNew").hidden = !read;
 
-    if (retell) return renderLectureTask();
+    if (mic.mode === "pron") return renderPronTask();
+    if (listening()) return renderLectureTask();
+    if (mic.mode === "repeat") return renderSayTask();
 
     if (read) {
       if (!mic.script) newScript();
@@ -4901,6 +5232,27 @@
     }
   }
 
+  /* What each listening task is called, where its items come from, and what
+     the buttons say. One table, so adding a third listening task is a row
+     rather than a sweep through the file. */
+  var LISTEN = {
+    retell: {
+      base: "/api/lectures", noun: "lecture", plural: "lectures", saved: "lecture",
+      play: "Play the lecture", again: "Hear it again", none: "No lectures are loaded."
+    },
+    discuss: {
+      base: "/api/discussions", noun: "discussion", plural: "discussions", saved: "discussion",
+      play: "Play the discussion", again: "Hear it again",
+      none: "No discussions are loaded."
+    }
+  };
+  /** Whether the task in front of you is one you listen to first. */
+  function listening() { return !!LISTEN[mic.mode]; }
+  /** The current listening task, defaulting to the lectures so callers that
+      run while another mode is showing cannot read undefined. */
+  function taskKey() { return LISTEN[mic.mode] ? mic.mode : "retell"; }
+  function task() { return LISTEN[taskKey()]; }
+
   /* ---- the lectures
 
      A hundred short academic lectures to hear ONCE and then summarise in your
@@ -4908,70 +5260,201 @@
      only when you take it, and is not shown until the recording is over -
      reading along would make it a different exercise entirely. */
 
-  function loadLectures() {
-    return api("/api/lectures").then(function (d) {
-      mic.lectures = d.lectures || [];
-      mic.lecTimes = { prepare: d.prepare || 10, speak: d.speak || 40 };
-      if (mic.lectures.length) {
-        var at = mic.lectures.findIndex(function (l) {
-          return l.id === (settings.speaking && settings.speaking.lecture);
+  /* Both indexes, at boot. Neither is large - it is the WORDS that are
+     withheld, and those are fetched one item at a time when you take one -
+     and a task that fetched its list only when you first switched to it would
+     make the switch itself feel slow. A failure is not fatal: that task
+     reports that nothing is loaded and the rest of the tab carries on. */
+  function loadListenItems() {
+    return Promise.all(Object.keys(LISTEN).map(function (key) {
+      var T = LISTEN[key];
+      return api(T.base).then(function (d) {
+        mic.items[key] = d[T.plural] || [];
+        mic.times[key] = { prepare: d.prepare || 10, speak: d.speak || 40 };
+        var pool = poolFor(key);
+        var at = pool.findIndex(function (it) {
+          return it.id === (settings.speaking && settings.speaking[T.saved]);
         });
-        mic.lecIndex = at >= 0 ? at : Math.floor(Math.random() * mic.lectures.length);
-      }
-    })["catch"](function () { mic.lectures = []; });   // the tab still works without them
+        mic.at[key] = pool.length ? (at >= 0 ? at : Math.floor(Math.random() * pool.length)) : 0;
+      })["catch"](function () { mic.items[key] = []; });
+    }));
   }
 
-  function lecMeta() { return mic.lectures[mic.lecIndex] || null; }
+  /* Which lectures the rotation may draw from.
+
+     PTE plays real recorded lecturers - a person in a hall, with an accent
+     and a room behind them - and practising only against those is a
+     reasonable way to work, which is what this setting is for. It is a
+     filter on the POOL rather than a preference the picker consults: Next,
+     Random, the dropdown, the "N of M" count and the saved id all read this
+     list, so a setting that excludes the lecture you are on cannot leave the
+     page sitting on one it says is not there.
+
+     `real` comes off the server and means "has a credit" - a recording
+     somebody else made under a licence. It deliberately does not mean "has an
+     audio file", which every lecture has now that the hundred are
+     pre-rendered. */
+  function lecSource() {
+    var v = settings.speaking && settings.speaking.source;
+    return (v === "real" || v === "tts") ? v : "all";
+  }
+
+  function poolFor(key) {
+    var all = mic.items[key] || [];
+    // The real/synthetic split is a fact about LECTURES only. Every discussion
+    // is synthesised - that is what it is, three voices made on this machine -
+    // so the filter does not apply, and the control is hidden rather than
+    // offered as a choice with one possible answer.
+    if (key !== "retell") return all;
+    var want = lecSource();
+    if (want === "all") return all;
+    return all.filter(function (l) { return want === "real" ? !!l.real : !l.real; });
+  }
+
+  function lecPool() { return poolFor(taskKey()); }
+
+  function lecMeta() { return lecPool()[mic.at[taskKey()]] || null; }
+
+  /* Narrowing the pool keeps the lecture you are on when the new setting
+     still allows it - and keeps whether you have heard it. Switching to
+     "Real voices" while already on a real one should not throw away the
+     lecture you were a moment from taking. */
+  function setLecSource(want) {
+    if (lecSource() === want) return;
+    var keep = lecMeta();
+    settings.speaking.source = want;
+    saveSettings();
+
+    var pool = lecPool();
+    if (!pool.length) {
+      mic.at[taskKey()] = 0;
+      mic.item = null;
+      mic.heard = false;
+      stopLecture();
+      return freshTask();
+    }
+    var at = keep ? pool.findIndex(function (l) { return l.id === keep.id; }) : -1;
+    if (at >= 0) { mic.at[taskKey()] = at; renderSpeakTask(); renderSpeakBar(); return; }
+    takeLecture(Math.floor(Math.random() * pool.length));
+  }
 
   /* Taking a lecture clears everything about the last one: the text, the
      report, and whether it has been heard. You do not get to retell a lecture
      you have not listened to, which is what `lecHeard` gates. */
   function takeLecture(at) {
-    if (!mic.lectures.length) return;
-    mic.lecIndex = ((at % mic.lectures.length) + mic.lectures.length) % mic.lectures.length;
-    settings.speaking.lecture = mic.lectures[mic.lecIndex].id;
+    var pool = lecPool();
+    if (!pool.length) return;
+    mic.at[taskKey()] = ((at % pool.length) + pool.length) % pool.length;
+    settings.speaking[task().saved] = pool[mic.at[taskKey()]].id;
     saveSettings();
-    mic.lecture = null;
-    mic.lecHeard = false;
-    lecProgress(false);
+    mic.item = null;
+    mic.heard = false;
+    stopLecture();
     freshTask();
   }
 
   function renderLectureTask() {
+    var pool = lecPool();
+    var want = lecSource();
     var m = lecMeta();
+
     speakEl("speakPrompt").textContent = "";
-    if (!m) {
-      speakEl("speakLecTitle").textContent = "No lectures are loaded.";
-      speakEl("speakHint").textContent = "";
-      return;
-    }
-    speakEl("speakLecField").textContent = m.field || "";
-    speakEl("speakLecNum").textContent = (mic.lecIndex + 1) + " of " + mic.lectures.length;
-    speakEl("speakLecTitle").textContent = m.title;
+    speakEl("speakLecSource").hidden = taskKey() !== "retell";
+    [].slice.call(document.querySelectorAll("#speakLecSource [data-lecsrc]")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.lecsrc === want));
+      b.disabled = mic.recording || mic.busy;
+    });
 
     var pick = speakEl("speakLecPick");
-    if (pick.options.length !== mic.lectures.length) {
-      pick.innerHTML = mic.lectures.map(function (l, i) {
+    if (!m) {
+      // An empty pool is a filter, not a missing file, so say which - the two
+      // look identical from here and only one of them is fixed by a click.
+      var whole = (mic.items[taskKey()] || []).length;
+      speakEl("speakLecTitle").textContent = !whole ? task().none
+        : (want === "real" ? "No real recordings are loaded." : "No synthetic lectures are loaded.");
+      speakEl("speakLecField").textContent = "";
+      speakEl("speakLecNum").textContent = "";
+      speakEl("speakHint").innerHTML = whole
+        ? "That is this filter, not the library: <b>All</b> has " + whole + "."
+        : (taskKey() === "discuss"
+            ? "Nothing in <code>data/discussions/</code> has been rendered yet &mdash; " +
+              "<code>node tools/render-discussions.js</code> makes the audio."
+            : "");
+      pick.innerHTML = "";
+      pick.dataset.pool = "";
+      return;
+    }
+
+    speakEl("speakLecField").textContent = m.field || "";
+    speakEl("speakLecTitle").textContent = m.title;
+
+    // Rebuilt when the pool itself changes, not on every paint: the <select>
+    // is the one control here that loses the reader's place if it is replaced
+    // underneath them. The stamp is what the list IS, so a filter change
+    // rebuilds it and a rotation does not.
+    var stamp = taskKey() + ":" + want + ":" + pool.length;
+    if (pick.dataset.pool !== stamp) {
+      pick.innerHTML = pool.map(function (l, i) {
         return '<option value="' + i + '">' + esc(l.title) + "</option>";
       }).join("");
+      pick.dataset.pool = stamp;
     }
-    pick.value = String(mic.lecIndex);
+    pick.value = String(mic.at[taskKey()]);
 
-    speakEl("speakLecPlay").textContent = mic.lecHeard ? "Hear it again" : "Play the lecture";
+    var T = task();
+    speakEl("speakLecPlay").textContent = mic.heard ? T.again : T.play;
+    // The rotation button names what it rotates. It said "Next lecture" on
+    // the discussion tab, which is the shared panel telling the truth about
+    // the wrong task.
+    speakEl("speakLecNext").textContent = "Next " + T.noun;
+
+    if (taskKey() === "discuss") {
+      // Who is talking, and where they are from. The exam tells you that much
+      // too: it is the WORDS that are withheld, not the situation, and
+      // knowing there are three of them is part of what you listen for.
+      var who = (m.speakers || []).map(function (sp) {
+        var how = [sp.gender === "male" ? "m" : sp.gender === "female" ? "f" : null,
+                   sp.accent === "en-gb" ? "British" : sp.accent === "en-us" ? "American" : null]
+          .filter(Boolean).join(", ");
+        return esc(sp.name) + (how ? ' <span class="sdim">(' + how + ")</span>" : "");
+      }).join(" \u00B7 ");
+      speakEl("speakLecNum").innerHTML = (mic.at[taskKey()] + 1) + " of " + pool.length +
+        (who ? " \u00B7 " + who : "");
+      speakEl("speakHint").innerHTML = mic.heard
+        ? "<b>" + mmss(prepSeconds()) + " to think, then " + mmss(recSeconds()) +
+          " to summarise it in your own words.</b> The microphone opens by itself and submits " +
+          "when the clock reaches zero. What they said appears afterwards, not now."
+        : m.audio
+          ? "Listen once, the way the exam gives it &mdash; nothing is on screen. " +
+            (m.speakers || []).length + " people talking to each other rather than at you, so " +
+            "<b>who said what</b> is part of what you are listening for. The time to prepare " +
+            "starts the moment they finish."
+          : "This one has <b>not been rendered yet</b>. A discussion is several voices laid out " +
+            "on one timeline, so unlike a lecture there is nothing to fall back to &mdash; " +
+            "<code>node tools/render-discussions.js</code> makes the audio.";
+      return;
+    }
+
     // Attribution is a licence condition on the fetched ones, not a nicety.
-    speakEl("speakLecNum").textContent = (mic.lecIndex + 1) + " of " + mic.lectures.length +
+    speakEl("speakLecNum").textContent = (mic.at[taskKey()] + 1) + " of " + pool.length +
       (m.real ? " \u00B7 " + (m.credit || "real recording") : " \u00B7 read by a synthetic voice");
-    speakEl("speakHint").innerHTML = mic.lecHeard
+    speakEl("speakHint").innerHTML = mic.heard
       ? "<b>" + mmss(prepSeconds()) + " to think, then " + mmss(recSeconds()) +
         " to re-tell it in your own words.</b> The microphone opens by itself and submits " +
         "when the clock reaches zero. The lecture's words appear afterwards, not now."
       : m.real
         ? "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
           "screen. This one is a <b>real lecture recording</b>: a person in a hall, with the " +
-          "accent, the asides and the room that the exam actually plays you."
+          "accent, the asides and the room that the exam actually plays you. The ten seconds " +
+          "to prepare start the moment it ends, as they do in the exam."
+      : m.audio
+        ? "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
+          "screen. This one is read by a synthetic voice, rendered beforehand and played from " +
+          "a file. The ten seconds to prepare start the moment it ends, as they do in the exam."
         : "Listen once, the way the exam gives it &mdash; the text is deliberately not on " +
-          "screen. This one is read by a synthetic voice; the first play has to be " +
-          "synthesised and takes most of a minute, and every play after that is instant.";
+          "screen. This one has <b>not been rendered yet</b>, so the first play has to " +
+          "synthesise it and takes most of a minute &mdash; " +
+          "<code>node tools/render-lectures.js</code> makes them all in advance.";
   }
 
   /* Hearing it. The lecture is spoken by the voice in the bar at the top, so
@@ -4990,14 +5473,102 @@
    */
   var SYNTH_SECONDS_PER_WORD = 0.23;
 
-  function lecProgress(show, frac, label, guess) {
+  function lecProgress(show, frac, label, guess, playing) {
     speakEl("speakLecProg").hidden = !show;
     if (!show) return;
     var fill = speakEl("speakLecBarFill");
     fill.style.width = Math.max(0, Math.min(100, Math.round((frac || 0) * 100))) + "%";
     fill.classList.toggle("is-guess", !!guess);
+    fill.classList.toggle("is-playing", !!playing);
     speakEl("speakLecProgText").textContent = label || "";
   }
+
+  /* ---- the transport
+
+     PTE gives you a status bar and nothing else: no pause, no scrubbing, no
+     replay inside a take. The recording is played once, and the clock starts
+     when it ends. So this is a bar and a pair of numbers, and the only
+     control beside it is `Hear it again`, which starts the whole thing over.
+
+     It is driven by the AUDIO's own clock, the way runPlayhead() is and for
+     the same reason: a wall clock slides against what you are hearing. A
+     backgrounded tab freezes rAF, so the bar stops while the sound plays on -
+     the bargain the level meter and the essay countdown already make - but
+     `ended` is an event and still arrives, so the task still starts itself. */
+  function lecClock(on) {
+    if (mic.lecRaf) { cancelAnimationFrame(mic.lecRaf); mic.lecRaf = 0; }
+    if (!on) return;
+    (function step() {
+      mic.lecRaf = 0;
+      if (!mic.lecPlaying) return;
+      var dur = isFinite(speech.duration) && speech.duration ? speech.duration : 0;
+      var at = speech.currentTime || 0;
+      lecProgress(true, dur ? at / dur : 0,
+        mmss(Math.floor(at)) + " / " + (dur ? mmss(Math.round(dur)) : "––:––") +
+        "  ·  the time to prepare starts when it ends", false, true);
+      mic.lecRaf = requestAnimationFrame(step);
+    })();
+  }
+
+  function stopLecture() {
+    mic.lecPlaying = false;
+    lecClock(false);
+    lecProgress(false);
+    try { speech.pause(); } catch (e) { /* nothing playing */ }
+  }
+
+  /* The ONE thing that means the lecture has been heard.
+
+     It used to be `setTimeout(finish, 600)` after play() was called, which
+     called an eighty-five second recording heard while it was still on its
+     first sentence: the button went to "Hear it again", Start went live, and
+     nothing anywhere stopped the audio - so the lecture played on through the
+     ten seconds to prepare and into the forty being recorded, into the
+     microphone, underneath the answer. A recording that has finished is an
+     event the browser will tell us about, and there was never any reason to
+     guess at it. */
+  function lecEnded() {
+    if (!mic.lecPlaying) return;
+    mic.lecPlaying = false;
+    lecClock(false);
+    lecProgress(false);
+    if (mic.mode === "repeat") {
+      // Repeat Sentence has no panel of its own to repaint beyond the button,
+      // and no lecture to mark as heard.
+      mic.sayHeard = true;
+      renderSayTask();
+      renderSpeakBar();
+      return startPrep();
+    }
+    mic.heard = true;
+    renderLectureTask();
+    renderSpeakBar();
+    // The exam starts the ten seconds the moment the lecture ends and puts no
+    // button in front of them. It goes through startPrep() rather than
+    // setting the phase here, so there is still one place that knows how a
+    // task begins - the rule that keeps the read aloud's three labels on one
+    // handler.
+    if (listening()) startPrep();
+  }
+
+  // Installed once, on the shared element, and guarded by `lecPlaying`: the
+  // same element also says "Hear it properly" and every per-fault correction,
+  // and only one of those may start a countdown.
+  speech.addEventListener("ended", lecEnded);
+
+  /* Coming back to the tab repaints the bar at once.
+
+     A backgrounded tab freezes rAF, so the bar stops where it was while the
+     lecture plays on - the bargain the level meter and the essay countdown
+     already make, and it costs nothing while nobody is looking. What it does
+     cost is the moment you look again: the clock resumes from the next frame,
+     but until that frame lands the bar still reads whatever it read when the
+     tab went away, and a lecture forty seconds in showing 0:00 reads as a
+     broken page rather than a paused one. Restarting the clock paints
+     immediately, because that is the first thing it does. */
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden && mic.lecPlaying) lecClock(true);
+  });
 
   function playLecture() {
     var m = lecMeta();
@@ -5005,24 +5576,42 @@
     var btn = speakEl("speakLecPlay");
     var timer = null, settled = false;
 
-    /* Idempotent, and NOT hung on the play() promise.
-       A blocked autoplay returns a promise that may never settle, and hanging
-       the whole task on it left the bar stuck at 100% and the Start button
-       disabled for ever - the lecture was fetched, rendered and ready, and the
-       page still would not let you speak. Ready is the thing being waited for
-       here; whether the browser consented to make a noise is a separate
-       question, and speak() already reports that in the voice note. */
+    /* Idempotent, and it no longer decides anything about the task: getting
+       the audio open is all this reports. Whether it has been HEARD is
+       lecEnded()'s to say, and whether the browser consented to make a noise
+       is watchStart()'s. */
     function finish(err) {
       if (settled) return;
       settled = true;
       clearInterval(timer);
-      lecProgress(false);
       btn.classList.remove("is-busy");
-      if (err) return speakFail(err);
-      mic.lecHeard = true;
-      renderLectureTask();
-      renderSpeakBar();
+      if (err) { stopLecture(); return speakFail(err); }
       warmNextLecture();
+    }
+
+    /* Playing, on the shared element, whichever path put it there. From here
+       a fetched recording and a synthesised one are the same thing: one bar,
+       one clock, one `ended`. */
+    function playing() {
+      mic.lecPlaying = true;
+      lecClock(true);
+      watchStart();
+      finish();
+    }
+
+    /* Autoplay can refuse, and it refuses quietly. Nothing else on this tab
+       minded - a word that does not speak is a word you click again - but a
+       lecture that never starts leaves the whole task waiting on an `ended`
+       that cannot arrive, with a bar at 0:00 and no error anywhere. So it is
+       checked once, shortly after playback was supposed to begin, and said
+       out loud. */
+    function watchStart() {
+      setTimeout(function () {
+        if (!mic.lecPlaying || !speech.paused) return;
+        stopLecture();
+        renderLectureTask();
+        speakFail("the browser would not start the audio - click anywhere on the page, then Play again");
+      }, 1200);
     }
 
     /* A real recording: play the file. No synthesis, so no wait and no
@@ -5032,7 +5621,7 @@
       stopPlayback();
       stopSpeaking();
       lecProgress(true, 0.15, "Loading the recording\u2026", true);
-      return fetch("/api/lectures/" + encodeURIComponent(lecture.id) + "/audio")
+      return fetch(task().base + "/" + encodeURIComponent(lecture.id) + "/audio")
         .then(function (r) {
           if (!r.ok) throw new Error("no audio for this lecture");
           return r.blob();
@@ -5041,11 +5630,13 @@
           var was = speech.src;
           speech.src = URL.createObjectURL(blob);
           if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
-          var pl = speech.play();
-          // Released whether or not the browser consented to make a noise -
-          // the same rule the synthesised path follows.
-          setTimeout(finish, 600);
-          return pl;
+          return speech.play().then(playing, function (err) {
+            // A refused autoplay is not a failure to fetch, and it is the one
+            // rejection watchStart() is there to explain. Anything else is a
+            // real fault and is reported as one.
+            if (err && err.name === "NotAllowedError") return playing();
+            throw err;
+          });
         })["catch"](function (err) {
           finish("could not play that recording: " + (err.message || err));
         });
@@ -5061,7 +5652,7 @@
       // still waiting is the lie a progress bar must not tell.
       var started = Date.now();
       var expect = Math.max(4, m.words * SYNTH_SECONDS_PER_WORD);
-      var streaming = false, released = false;
+      var streaming = false;
       lecProgress(true, 0, "Synthesising\u2026", true);
       timer = setInterval(function () {
         if (streaming) return;
@@ -5078,49 +5669,67 @@
         lecProgress(true, frac == null ? 1 : frac,
           total ? "Downloading " + Math.round((frac || 0) * 100) + "%"
                 : "Downloading " + Math.round(got / 1024) + "KB", false);
-        // Bytes are arriving, so the clip exists. Release the task shortly
-        // after, whether or not the browser consented to play it.
-        //
-        // Scheduled ONCE when the stream opens, not on "got >= total": the
-        // final chunk can leave the counter a byte under the advertised length
-        // while the percentage has already rounded to 100, and that near-miss
-        // left the bar stuck at "Downloading 100%" with Start still disabled.
-        if (!released) { released = true; setTimeout(finish, 2000); }
-      }).then(function () { finish(); })
+      // speak() resolves once play() has begun, so the transport takes over
+      // from the download bar at exactly the right moment. There is no timer
+      // racing it any more: the old one released the task two seconds after
+      // the first byte, which is why a lecture could be "ready" while it was
+      // still arriving.
+      }).then(playing)
         ["catch"](function (err) {
           finish("could not play that lecture: " + (err && err.message || err));
         });
     }
 
-    var go = function (lecture) {
-      return lecture.audio ? playFile(lecture) : speakIt(lecture.text);
+    var T = task();
+    var go = function (item) {
+      if (item.audio) return playFile(item);
+      // A lecture with no file can still be synthesised on the spot - one
+      // voice, one block of text. A discussion cannot: it is several voices
+      // laid out on one timeline with real turn-taking gaps, and the browser
+      // has no way to build that. Saying so beats a button that does nothing.
+      if (taskKey() === "discuss") {
+        return finish("this discussion has not been rendered yet - " +
+                      "run node tools/render-discussions.js");
+      }
+      return speakIt(item.text);
     };
 
-    if (mic.lecture && mic.lecture.id === m.id) { btn.classList.add("is-busy"); return go(mic.lecture); }
+    if (mic.item && mic.item.id === m.id) { btn.classList.add("is-busy"); return go(mic.item); }
 
     btn.classList.add("is-busy");
-    lecProgress(true, 0, "Fetching the lecture\u2026", true);
-    return api("/api/lectures/" + encodeURIComponent(m.id)).then(function (d) {
-      mic.lecture = d.lecture;
-      return go(d.lecture);
+    lecProgress(true, 0, "Fetching the " + T.noun + "\u2026", true);
+    return api(T.base + "/" + encodeURIComponent(m.id)).then(function (d) {
+      mic.item = d[T.noun];
+      return go(mic.item);
     })["catch"](function (err) {
-      finish("could not fetch that lecture: " + (err.message || err));
+      finish("could not fetch that " + T.noun + ": " + (err.message || err));
     });
   }
 
   function warmNextLecture() {
-    var next = mic.lectures[(mic.lecIndex + 1) % mic.lectures.length];
-    if (!next) return;
-    if (next.real) return;                 // a file, nothing to synthesise
+    var pool = lecPool();
+    if (!pool.length) return;
+    var next = pool[(mic.at[taskKey()] + 1) % pool.length];
+    // `audio`, not `real`. It used to skip the warm-up for a real recording,
+    // which was the same test only while the written hundred had no files of
+    // their own; now that they are pre-rendered, asking `real` would sit and
+    // synthesise a lecture that is already an MP3 on disk. Whether there is a
+    // file is the question, and it is the field that answers it.
+    // A discussion is never warmed: it cannot be synthesised in the browser
+    // at all, so there is nothing to render ahead of time.
+    if (!next || next.audio || taskKey() !== "retell") return;
     api("/api/lectures/" + encodeURIComponent(next.id)).then(function (d) {
       if (!d.lecture.audio) prefetchSpeech(d.lecture.text, true);
     })["catch"](function () { /* a nicety */ });
   }
 
   speakEl("speakLecPlay").addEventListener("click", playLecture);
-  speakEl("speakLecNext").addEventListener("click", function () { takeLecture(mic.lecIndex + 1); });
+  speakEl("speakLecNext").addEventListener("click", function () { takeLecture(mic.at[taskKey()] + 1); });
   speakEl("speakLecRandom").addEventListener("click", function () {
-    takeLecture(Math.floor(Math.random() * Math.max(1, mic.lectures.length)));
+    takeLecture(Math.floor(Math.random() * Math.max(1, lecPool().length)));
+  });
+  [].slice.call(document.querySelectorAll("#speakLecSource [data-lecsrc]")).forEach(function (b) {
+    b.addEventListener("click", function () { setLecSource(b.dataset.lecsrc); });
   });
   speakEl("speakLecPick").addEventListener("change", function () {
     takeLecture(Number(this.value) || 0);
@@ -5148,17 +5757,30 @@
      forty to speak whatever the lecture was, so those are fixed and come from
      the server beside the lectures themselves. */
   function prepSeconds() {
-    if (mic.mode === "retell") return (mic.lecTimes && mic.lecTimes.prepare) || 10;
+    // The exam gives you no thinking time at all here: the tone follows the
+    // sentence and the microphone is already open. One second is the beat
+    // between the two, not a chance to prepare.
+    if (mic.mode === "repeat") return 1;
+    if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].prepare) || 10;
     return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55)));
   }
   function recSeconds() {
-    if (mic.mode === "retell") return (mic.lecTimes && mic.lecTimes.speak) || 40;
+    // Scaled to the sentence, because a seven-word sentence given fifteen
+    // seconds teaches you to dawdle and a sixteen-word one given eight cuts
+    // you off mid-clause. Clamped either side for the same reason Read Aloud
+    // clamps its own.
+    if (mic.mode === "repeat") {
+      var sm = sayMeta();
+      return Math.max(8, Math.min(15, Math.round((sm ? sm.words : 10) * 0.9)));
+    }
+    if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].speak) || 40;
     return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70)));
   }
 
   function startPrep() {
     if (mic.mode === "read" && !mic.script) return;
-    if (mic.mode === "retell" && !mic.lecHeard) return;
+    if (listening() && !mic.heard) return;
+    if (mic.mode === "repeat" && !mic.sayHeard) return;
     mic.phase = "prep";
     mic.prepEnds = Date.now() + prepSeconds() * 1000;
     clearInterval(mic.tick);
@@ -5224,6 +5846,11 @@
     // fragment: 34 seconds of speech arriving as half a second of audio.
     if (mic.recording || mic.busy || mic.starting) return;
     mic.starting = true;
+    // Belt and braces. The lecture has normally ended of its own accord by
+    // now - that is what started the clock - but `Record now` during the
+    // preparation can get here with something still playing, and a lecture
+    // audible underneath the answer is recorded along with it.
+    stopLecture();
     // A new take replaces the old one outright. Keeping both would be the
     // beginning of a library of past attempts, which this tab deliberately
     // does not have.
@@ -5235,7 +5862,18 @@
       // The three that matter for a transcript, all off: they are tuned to
       // make a voice pleasant on a call, and suppression in particular eats
       // exactly the quiet "uh" the gap analysis is looking for.
-      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
+      //
+      // The Pronunciation task is the exception, and the only one: it asks
+      // whether ONE word was heard as itself, runs no gap analysis at all, and
+      // its "Hear yourself" is more useful without the room's hiss under it.
+      // Measured on 21 Sep 2026 before deciding anything else: Whisper read a
+      // lecture clip word-perfect with pink noise mixed in down to about 5dB
+      // SNR, and 99% at -1dB, with or without a denoiser in front of it - so
+      // noise is not what costs a transcript, and the raw capture stays for
+      // every task that listens for fillers.
+      audio: mic.mode === "pron"
+        ? { echoCancellation: true, noiseSuppression: true, autoGainControl: true }
+        : { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
     }).then(function (stream) {
       // Belt and braces against the same class of failure: whatever was open
       // before this call is closed now, so exactly one stream and exactly one
@@ -5245,40 +5883,69 @@
         mic.rec.onstop = null;                    // it must not submit itself
         try { mic.rec.stop(); } catch (e) {}
       }
-      mic.starting = false;
       mic.media = stream;
-      mic.chunks = [];
-      mic.rec = new MediaRecorder(stream);
-      mic.rec.ondataavailable = function (e) { if (e.data.size) mic.chunks.push(e.data); };
-      mic.rec.onstop = function () { sendRecording(); };
-      mic.rec.start();
-
-      mic.recording = true;
-      mic.phase = "rec";
-      mic.startedAt = Date.now();
-      // Free talk is a conversation and stops when you stop, under the long
-      // backstop above. The other two are exam tasks and are timed.
-      mic.limit = (mic.mode === "read" || mic.mode === "retell") ? recSeconds() : 0;
-      clearInterval(mic.tick);
-      mic.tick = setInterval(speakTick, 200);
-      speakTick();
-
-      try {
-        mic.ctx = new (window.AudioContext || window.webkitAudioContext)();
-        mic.analyser = mic.ctx.createAnalyser();
-        mic.analyser.fftSize = 1024;
-        mic.ctx.createMediaStreamSource(stream).connect(mic.analyser);
-        meter();
-      } catch (e) { mic.analyser = null; }   // the meter is decoration
-
-      renderSpeakBar();
-    })["catch"](function (err) {
+      // The microphone is given a moment to wake before anything is kept.
+      // Measured on this machine (21 Sep 2026): an input resuming from
+      // PipeWire's suspend delivers ~0.2s pinned at full scale, then a slow
+      // DC swing - and with the source already open, none of it. Every take
+      // began with that bang, which is noise at the head of the recording for
+      // the transcriber, a false "sound" for the edge of the gap analysis, and
+      // a thump at the start of every playback. `starting` stays up through
+      // the wait, so nothing can re-enter; a cancel during it stops the stream.
+      speakEl("speakState").textContent = "Opening the microphone…";
+      return new Promise(function (r) { setTimeout(r, MIC_SETTLE_MS); }).then(function () {
+        if (!mic.starting || mic.media !== stream) {
+          stream.getTracks().forEach(function (t) { t.stop(); });
+          if (mic.media === stream) mic.media = null;
+          speakEl("speakState").textContent = "";
+          return;
+        }
+        speakEl("speakState").textContent = "";
+        beginTake(stream);
+      });
+    }).then(null, function (err) {
       mic.starting = false;
       mic.phase = "idle";
       speakFail(err && err.name === "NotAllowedError"
         ? "the microphone was blocked - allow it for this page and try again"
         : "could not open the microphone: " + (err && err.message || err));
     });
+  }
+
+  var MIC_SETTLE_MS = 600;
+
+  /** The take itself, on a stream that has had time to settle. */
+  function beginTake(stream) {
+    mic.starting = false;
+    mic.chunks = [];
+    mic.rec = new MediaRecorder(stream);
+    mic.rec.ondataavailable = function (e) { if (e.data.size) mic.chunks.push(e.data); };
+    mic.rec.onstop = function () { sendRecording(); };
+    mic.rec.start();
+
+    mic.recording = true;
+    mic.phase = "rec";
+    mic.startedAt = Date.now();
+    // Free talk is a conversation and stops when you stop, under the long
+    // backstop above. The other two are exam tasks and are timed.
+    // One word needs a few seconds, and stopping by itself is what lets
+    // you keep your eyes on the word rather than on the button.
+    mic.limit = mic.mode === "pron" ? PRON_SECONDS
+      : (mic.mode === "read" || listening() || mic.mode === "repeat")
+      ? recSeconds() : 0;
+    clearInterval(mic.tick);
+    mic.tick = setInterval(speakTick, 200);
+    speakTick();
+
+    try {
+      mic.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      mic.analyser = mic.ctx.createAnalyser();
+      mic.analyser.fftSize = 1024;
+      mic.ctx.createMediaStreamSource(stream).connect(mic.analyser);
+      meter();
+    } catch (e) { mic.analyser = null; }   // the meter is decoration
+
+    renderSpeakBar();
   }
 
   function stopRecording() {
@@ -5694,8 +6361,18 @@
       ? "Transcribing…"
       : "Downloading the speech model (133MB), then transcribing…";
 
-    var q = mic.mode === "read" && mic.script
-      ? "?script=" + encodeURIComponent(mic.script) : "";
+    var q = "";
+    if (mic.mode === "read" && mic.script) {
+      q = "?script=" + encodeURIComponent(mic.script);
+    } else if (mic.mode === "pron" && pronWord()) {
+      // A practice take: marked against the one word, and never filed as a
+      // Read Aloud - see src/pronounce.js.
+      q = "?script=" + encodeURIComponent(pronWord().word) + "&practice=1";
+    } else if (mic.mode === "repeat" && sayMeta()) {
+      // The ID, not the words. The page has never held this sentence and the
+      // server looks it up - see src/sentences.js.
+      q = "?sentence=" + encodeURIComponent(sayMeta().id);
+    }
 
     fetch("/api/speech/analyse" + q, {
       method: "POST",
@@ -5711,10 +6388,30 @@
       speakEl("speakState").textContent = "";
       if (mic.status) mic.status.ready = true;   // it has loaded by now
       if (rep.empty) return speakFail(rep.error || "no speech was found in that recording");
+      if (mic.mode === "pron") return pronHeard(rep);
       mic.report = rep;
+      // Repeat Sentence gets its script back here, with the verdict, and the
+      // prompt panel is drawn from it before the report is - annotateScript()
+      // marks up word spans that have to exist by then.
+      if (rep.script) {
+        mic.script = rep.script;
+        speakEl("speakPrompt").innerHTML = rep.script.split(/\s+/).map(function (w) {
+          return '<span class="w">' + esc(w) + "</span>";
+        }).join(" ");
+      }
       noteSession(rep);
       renderSpeakReport();
       renderSpeakBar();
+      // A Read Aloud files the words it came out wrong on. Said here, at the
+      // top of the report, so the list growing is never a surprise.
+      var added = rep.pronounce && rep.pronounce.added || [];
+      if (added.length) {
+        mic.pron.loaded = false;
+        speakEl("speakReport").insertAdjacentHTML("afterbegin",
+          '<div class="ssec"><p class="shint">' + added.length +
+          (added.length === 1 ? " word went" : " words went") + " to the <b>Pronunciation</b> list: " +
+          added.map(esc).join(", ") + ".</p></div>");
+      }
     })["catch"](function (err) { speakFail(err.message || String(err)); });
   }
 
@@ -5740,7 +6437,7 @@
   function renderSpeakBar() {
     var go = speakEl("speakGo");
     var read = mic.mode === "read";
-    var retell = mic.mode === "retell";
+    var retell = listening() || mic.mode === "repeat";
     var busyish = mic.recording || mic.phase === "prep" || mic.busy;
 
     // One button, three labels, one handler - the Essays tab's Start/Restart
@@ -5748,8 +6445,21 @@
     go.textContent = mic.recording ? "Stop"
       : mic.phase === "prep" ? "Record now"
       : (read || retell) ? "Start" : "Record";
-    // In a re-tell you have to have HEARD the lecture before you can retell it.
-    go.disabled = mic.busy || (retell && !mic.lecHeard);
+    // You have to have HEARD it before you can say it back, in either of the
+    // two listening tasks.
+    go.disabled = mic.busy || (listening() && !mic.heard) ||
+      (mic.mode === "repeat" && !mic.sayHeard) ||
+      (mic.mode === "pron" && !pronWord());
+    // ...and then there is nothing for it to do. The lecture ending starts
+    // the preparation itself, the way the exam does, so a Start button in a
+    // re-tell is a button that is either disabled or redundant. It comes back
+    // for the two labels that are neither: `Record now`, which skips the rest
+    // of the preparation, and `Stop`.
+    go.hidden = retell && mic.phase === "idle";
+    [].slice.call(document.querySelectorAll("#speakSayBand [data-band]")).forEach(function (b) {
+      b.disabled = mic.recording || mic.busy;
+    });
+    speakEl("speakSayNext").disabled = mic.recording || mic.busy;
     go.classList.toggle("btn-primary", !mic.recording);
     go.classList.toggle("btn-danger", mic.recording);
 
@@ -6101,17 +6811,30 @@
       "model voice it is estimated, because a synthesised clip carries no word timings." +
       "</span></div>";
 
-    // The lecture first: you have just spoken about something you heard once,
+    // What you heard, first: you have just spoken about something played once,
     // and the first thing worth seeing is what it actually said.
-    if (mic.mode === "retell" && mic.lecture) {
-      html += sec("The lecture", '<div class="slecture">' + esc(mic.lecture.text) + "</div>" +
-        (mic.lecture.points.length
-          ? '<ul class="spoints">' + mic.lecture.points.map(function (pt) {
+    if (listening() && mic.item) {
+      // A lecture is one block of prose. A discussion is people, so it is set
+      // out as people - the name against the words - because who said what is
+      // half of what the task asks you to have followed, and a wall of
+      // unattributed text would hide exactly the thing you got wrong.
+      var heardHtml = mic.item.turns
+        ? '<div class="sturns">' + mic.item.turns.map(function (t) {
+            return '<p class="sturn"><b class="sturnwho">' + esc(t.speaker) + "</b> " +
+                   esc(t.text) + "</p>";
+          }).join("") + "</div>"
+        : '<div class="slecture">' + esc(mic.item.text) + "</div>";
+
+      html += sec(mic.item.turns ? "The discussion" : "The lecture",
+        heardHtml +
+        ((mic.item.points || []).length
+          ? '<ul class="spoints">' + mic.item.points.map(function (pt) {
               return "<li>" + esc(pt) + "</li>";
             }).join("") + "</ul>"
           : ""),
-        "<b>" + esc(mic.lecture.title) + "</b> &mdash; the words you heard, and the points it " +
-        "makes. Read them against what you said below.");
+        "<b>" + esc(mic.item.title) + "</b> &mdash; the words you heard, and the points " +
+        (mic.item.turns ? "they established" : "it makes") +
+        ". Read them against what you said below.");
     }
 
     html += sec("What you said", legendHtml(rep) + transcriptHtml(rep) + row,
@@ -6245,17 +6968,18 @@
 
     // The prompt last, because it is the thing you take away once you have
     // looked at everything above it.
-    if (mic.mode === "retell" && mic.lecture) {
+    if (listening() && mic.item) {
+      var noun = mic.item.turns ? "discussion" : "lecture";
       html += sec("Ask a model for feedback",
         '<textarea class="sprompt" id="retellPrompt" readonly spellcheck="false">' +
-        esc(retellPrompt(rep, mic.lecture)) + "</textarea>" +
+        esc(retellPrompt(rep, mic.item)) + "</textarea>" +
         '<div class="splayrow"><button class="sctl model" id="retellCopy">Copy the prompt</button>' +
         '<span class="scopied" id="retellCopied" hidden>Copied</span></div>',
-        "This tool does not judge whether you covered the lecture, on purpose: every cheap way " +
-        "of checking that rewards parroting the lecture's phrasing, which is the opposite of " +
-        "what <i>in your own words</i> means. So it hands over the evidence instead &mdash; the " +
-        "lecture, what you said with the silences left in, and how you sounded. Paste this " +
-        "into Claude.");
+        "This tool does not judge whether you covered the " + noun + ", on purpose: every cheap " +
+        "way of checking that rewards parroting the phrasing you heard, which is the opposite " +
+        "of what <i>in your own words</i> means. So it hands over the evidence instead &mdash; " +
+        "the " + noun + ", what you said with the silences left in, and how you sounded. Paste " +
+        "this into Claude.");
     }
 
     box.innerHTML = html;
@@ -6372,18 +7096,32 @@
    * and how you sounded. Paste it into a model that can read. That is an
    * honest division of labour rather than a scoring number invented here.
    */
-  function retellPrompt(rep, lecture) {
+  /* One prompt for both listening tasks. What changes is the task's name,
+     how the thing you heard is written down, and one extra question for the
+     discussion - because following three people is a different skill from
+     following one, and it is the skill that task exists to test. */
+  function retellPrompt(rep, item) {
     var p = rep.pace;
     var fillers = rep.fillers.certain.length + rep.fluency.filled.length;
+    var talk = !!item.turns;
     var L = [];
-    L.push("I am practising the PTE Academic \"Re-tell Lecture\" task. I heard the lecture");
+    L.push('I am practising the PTE ' + (talk
+      ? '"Summarize Group Discussion" task. I heard the discussion'
+      : '"Re-tell Lecture" task. I heard the lecture'));
     L.push("below once, then had " + recSeconds() + " seconds to summarise it in my own words.");
     L.push("");
-    L.push("=== THE LECTURE I HEARD ===");
-    L.push(lecture.text);
+    L.push(talk ? "=== THE DISCUSSION I HEARD ===" : "=== THE LECTURE I HEARD ===");
+    if (talk) {
+      // Speaker-labelled, because a summary that attributes a view to the
+      // wrong person is wrong in a way no transcript of the words alone
+      // would reveal.
+      item.turns.forEach(function (t) { L.push(t.speaker + ": " + t.text); });
+    } else {
+      L.push(item.text);
+    }
     L.push("");
-    L.push("=== THE POINTS IT MAKES ===");
-    (lecture.points || []).forEach(function (pt, i) { L.push((i + 1) + ". " + pt); });
+    L.push(talk ? "=== THE POINTS THEY ESTABLISHED ===" : "=== THE POINTS IT MAKES ===");
+    (item.points || []).forEach(function (pt, i) { L.push((i + 1) + ". " + pt); });
     L.push("");
     L.push("=== WHAT I SAID ===");
     L.push("(Transcribed from the recording. [1.2s] is a silence, (uh 0.5s) is a sound");
@@ -6403,9 +7141,15 @@
     L.push("   miss? Did I say anything the lecture did not say, or get anything backwards?");
     L.push("2. GRAMMAR. Every mistake, quoted from what I said, with the correction. Include");
     L.push("   article, tense and agreement errors - they are the ones I lose marks on.");
-    L.push("3. OWN WORDS. Did I paraphrase, or did I lift the lecture's phrasing? PTE wants");
+    L.push("3. OWN WORDS. Did I paraphrase, or did I lift the phrasing I heard? PTE wants");
     L.push("   the content in my own words, so tell me which of my sentences were borrowed.");
-    L.push("4. ONE FIX. The single most valuable thing to change next time, and why.");
+    if (talk) {
+      L.push("4. WHO SAID WHAT. Did I attribute the positions to the right people, and did I");
+      L.push("   convey that they disagreed rather than flattening it into one opinion?");
+      L.push("5. ONE FIX. The single most valuable thing to change next time, and why.");
+    } else {
+      L.push("4. ONE FIX. The single most valuable thing to change next time, and why.");
+    }
     L.push("");
     L.push("Be blunt and specific, and quote me. Do not pad it with praise. Ignore");
     L.push("pronunciation entirely - you are reading a transcript and cannot hear me.");
@@ -6470,11 +7214,16 @@
     if (mic.phase === "prep") return startRecording();  // done reading, go now
     // The read aloud gets its reading time first; free talk starts recording
     // on the press, because there is nothing to read.
-    if (mic.mode === "read" || mic.mode === "retell") startPrep(); else startRecording();
+    if (mic.mode === "read" || listening() || mic.mode === "repeat") startPrep();
+    else startRecording();
   });
 
   function freshTask() {
     stopRecording();
+    // Changing task, or taking another lecture, silences the one playing.
+    // Without this, switching to Free talk mid-lecture left it running with
+    // its own tab no longer on screen.
+    stopLecture();
     resetPlayback();
     mic.report = null;
     mic.phase = "idle";
@@ -6483,19 +7232,1223 @@
     renderSpeakBar();
   }
 
+  /* Changing task is a navigation now, so the address bar, the back button
+     and the buttons cannot disagree about which one you are on. The state
+     change itself is setSpeakingMode(), which applyRoute() calls - one place
+     that knows what switching task means, the rule the drill's flag button
+     and its keyboard shortcut already live under. */
+  function setSpeakingMode(mode) {
+    if (!SPEAK_SLUG[mode] || mic.mode === mode) return;
+    mic.mode = mode;
+    settings.speaking.mode = mode;
+    saveSettings();
+    freshTask();
+  }
+
   [].slice.call(document.querySelectorAll(".smodes [data-mode]")).forEach(function (b) {
     b.addEventListener("click", function () {
-      if (mic.mode === b.dataset.mode) return;
-      mic.mode = b.dataset.mode;
-      settings.speaking.mode = mic.mode;
-      saveSettings();
-      freshTask();
+      navigateTo("/speaking/" + speakSlugOf(b.dataset.mode));
     });
   });
   speakEl("speakNew").addEventListener("click", function () {
     newScript();
     freshTask();
   });
+
+  /* ------------------------------------------ pronunciation: word by word
+
+     Every word a Read Aloud came out wrong on - the script said one thing and
+     the transcriber heard another - lands on this list, and this task walks
+     through it one word at a time: hear it said properly in the chosen voice,
+     say it, and find out whether it was heard as itself. It stays on the list
+     until you delete it, however many times you get it right, because only
+     you know when a word is done.
+
+     It rides on the one recorder, like every other task here - exactly one
+     can be live, and a second copy of it is how that stops being true. The
+     take is sent with `practice=1`, which the server counts against the word
+     and never files as a Read Aloud. */
+
+  var PRON_SECONDS = 4;
+
+  function pronWord() { return mic.pron.words[mic.pron.at] || null; }
+
+  function loadPronounce() {
+    return api("/api/pronounce").then(function (d) {
+      mic.pron.words = d.words || [];
+      mic.pron.loaded = true;
+      if (mic.pron.at >= mic.pron.words.length) mic.pron.at = 0;
+    })["catch"](function () { mic.pron.words = []; mic.pron.loaded = true; });
+  }
+
+  function renderPronTask() {
+    var box = speakEl("speakPron");
+    if (!mic.pron.loaded) {
+      box.innerHTML = '<p class="shint">Loading the list…</p>';
+      speakEl("speakPrompt").textContent = "";
+      speakEl("speakHint").textContent = "";
+      loadPronounce().then(function () {
+        if (mic.mode === "pron") { renderPronTask(); renderSpeakBar(); }
+      });
+      return;
+    }
+    var words = mic.pron.words, w = pronWord();
+    if (!w) {
+      box.innerHTML = "";
+      speakEl("speakPrompt").textContent = "Nothing to practise yet.";
+      speakEl("speakHint").innerHTML =
+        "Every word you get wrong in a <b>Read aloud</b> comes here - the script said one " +
+        "thing and the transcriber heard another - and stays until you delete it.";
+      return;
+    }
+    var v = mic.pron.verdict && mic.pron.verdict.word === w.word ? mic.pron.verdict : null;
+    var locked = mic.recording || mic.busy;
+
+    box.innerHTML =
+      '<div class="slecmeta">' +
+        '<span class="slecfield">PRONUNCIATION</span>' +
+        '<span class="espacer"></span>' +
+        '<span class="slecnum">Word ' + (mic.pron.at + 1) + " of " + words.length + "</span>" +
+      "</div>" +
+      '<div class="erow">' +
+        '<button class="btn small btn-primary" data-pron="hear">Hear it</button>' +
+        '<button class="btn small" data-pron="mine"' + (mic.blob && v ? "" : " disabled") +
+          ">Hear yourself</button>" +
+        '<button class="btn small" data-pron="prev"' + (locked || words.length < 2 ? " disabled" : "") +
+          ">&larr; Previous</button>" +
+        '<button class="btn small" data-pron="next"' + (locked || words.length < 2 ? " disabled" : "") +
+          ">Next &rarr;</button>" +
+        '<span class="espacer"></span>' +
+        '<button class="btn small btn-danger" data-pron="delete"' + (locked ? " disabled" : "") +
+          ">Delete this word</button>" +
+      "</div>";
+
+    speakEl("speakPrompt").innerHTML = '<span class="pword">' + esc(w.word) + "</span>" +
+      (v ? '<span class="pverdict ' + (v.clear ? "ok" : "bad") + '">' +
+             (v.clear ? "Clear &mdash; heard as itself"
+                      : v.heard ? "Heard as &ldquo;" + esc(v.heard) + "&rdquo; &mdash; try again"
+                      : "Nothing recognisable was heard &mdash; try again") + "</span>"
+         : "");
+    speakEl("speakHint").innerHTML =
+      "In a Read Aloud this came out as " +
+      w.heard.map(function (h) { return "&ldquo;" + esc(h) + "&rdquo;"; }).join(", ") +
+      (w.misses > 1 ? " (" + w.misses + " times)" : "") + ". " +
+      (w.tries ? "Practised " + w.tries + (w.tries === 1 ? " time" : " times") + ", clear " +
+                 w.clear + ". " : "") +
+      "Hear it, then press <b>Record</b> and say it once &mdash; it stops by itself after " +
+      PRON_SECONDS + " seconds.";
+  }
+
+  /** The practice take is back: note it against the word, and say how it went. */
+  function pronHeard(rep) {
+    var pr = rep.pronounce && rep.pronounce.practice;
+    mic.report = null;
+    renderSpeakReport();
+    if (!pr) return speakFail("the server did not mark that take - restart npm run web");
+    mic.pron.verdict = { word: pr.word, clear: pr.clear, heard: pr.heard };
+    if (pr.entry) {
+      mic.pron.words = mic.pron.words.map(function (e) {
+        return e.word === pr.word ? pr.entry : e;
+      });
+    }
+    renderPronTask();
+    renderSpeakBar();
+  }
+
+  function pronGo(step) {
+    var n = mic.pron.words.length;
+    if (!n) return;
+    mic.pron.at = (mic.pron.at + step + n) % n;
+    mic.pron.verdict = null;
+    resetPlayback();
+    renderPronTask();
+    renderSpeakBar();
+  }
+
+  speakEl("speakPron").addEventListener("click", function (ev) {
+    var b = ev.target.closest && ev.target.closest("[data-pron]");
+    if (!b || b.disabled) return;
+    var w = pronWord();
+    if (!w) return;
+    var what = b.dataset.pron;
+    if (what === "hear") return speak(w.word, b);
+    if (what === "mine") {
+      if (mic.buffer) playSlice(0, mic.buffer.duration, 0, null);
+      return;
+    }
+    if (what === "prev") return pronGo(-1);
+    if (what === "next") return pronGo(1);
+    if (what === "delete") {
+      b.disabled = true;
+      api("/api/pronounce/delete", { word: w.word }).then(function (d) {
+        mic.pron.words = d.words || [];
+        if (mic.pron.at >= mic.pron.words.length) mic.pron.at = 0;
+        mic.pron.verdict = null;
+        resetPlayback();
+        renderPronTask();
+        renderSpeakBar();
+      })["catch"](function (err) {
+        speakEl("speakState").textContent = "Could not delete it: " + (err.message || err);
+        b.disabled = false;
+      });
+    }
+  });
+
+  /* ---------------------------------------- repeat sentence: hear it, say it
+
+     Read Aloud with the script HEARD instead of shown. Everything that makes
+     Read Aloud work is reused unchanged - the recorder, the clock, the
+     transcript, the word-by-word comparison against the script, the
+     click-to-hear playback - and the only differences are that the words
+     arrive as sound, that the page is never given them, and that recording
+     starts the moment the sentence ends rather than after a reading time.
+
+     PTE scores this item under both Speaking and Listening, which is why a
+     listening drill lives on this tab rather than in a second copy of the
+     recorder somewhere else. */
+
+  function loadSentences() {
+    return api("/api/sentences").then(function (d) {
+      mic.bands = d.sets || [];
+      if (mic.bands.length) mic.sayAt = Math.floor(Math.random() * mic.bands[0].sentences.length);
+    })["catch"](function () { mic.bands = []; });
+  }
+
+  function sayBand() { return mic.bands[mic.band] || null; }
+  function sayMeta() {
+    var b = sayBand();
+    return b ? b.sentences[mic.sayAt % b.sentences.length] || null : null;
+  }
+
+  /* A new sentence clears everything about the last one - including the
+     script, which must not survive into a task where it has not been earned
+     yet. */
+  function takeSentence(at) {
+    var b = sayBand();
+    if (!b) return;
+    mic.sayAt = ((at % b.sentences.length) + b.sentences.length) % b.sentences.length;
+    mic.say = null;
+    mic.sayHeard = false;
+    mic.script = null;
+    stopLecture();
+    freshTask();
+    warmSentence();
+  }
+
+  function setBand(i) {
+    if (i === mic.band) return;
+    mic.band = i;
+    mic.sayAt = 0;
+    takeSentence(Math.floor(Math.random() * Math.max(1, (sayBand() || {}).sentences.length || 1)));
+  }
+
+  function sayUrlFor(id) {
+    return "/api/sentences/" + encodeURIComponent(id) + "/audio" +
+      "?voice=" + encodeURIComponent(settings.voice.id) +
+      "&speed=" + encodeURIComponent(settings.voice.speed);
+  }
+
+  /* Warmed as soon as the sentence is taken, the Listening tab's trick: a
+     sentence that has never been spoken costs a few seconds to synthesise,
+     and that wait belongs before the reader presses anything. */
+  function warmSentence() {
+    var m = sayMeta();
+    if (m) fetch(sayUrlFor(m.id))["catch"](function () { /* a nicety */ });
+  }
+
+  function renderSayTask() {
+    var b = sayBand(), m = sayMeta();
+    speakEl("speakPrompt").innerHTML = "";
+
+    var bandbar = speakEl("speakSayBand");
+    if (bandbar.childElementCount !== mic.bands.length) {
+      bandbar.innerHTML = mic.bands.map(function (x, i) {
+        return '<button data-band="' + i + '">' + esc(x.title) + "</button>";
+      }).join("");
+      [].slice.call(bandbar.querySelectorAll("[data-band]")).forEach(function (btn) {
+        btn.addEventListener("click", function () { setBand(Number(btn.dataset.band)); });
+      });
+    }
+    [].slice.call(bandbar.querySelectorAll("[data-band]")).forEach(function (btn) {
+      btn.setAttribute("aria-pressed", String(Number(btn.dataset.band) === mic.band));
+      btn.disabled = mic.recording || mic.busy;
+    });
+
+    if (!b || !m) {
+      speakEl("speakSayNum").textContent = "";
+      speakEl("speakHint").textContent = "No sentences are loaded.";
+      return;
+    }
+
+    speakEl("speakSayPlay").textContent = mic.sayHeard ? "Hear it again" : "Play the sentence";
+    speakEl("speakSayNum").textContent =
+      (mic.sayAt + 1) + " of " + b.sentences.length + " · " + m.words + " words";
+
+    speakEl("speakHint").innerHTML = mic.sayHeard
+      ? "<b>Say it back exactly.</b> The microphone opens by itself the moment the sentence " +
+        "ends and submits when the clock reaches zero. Every word counts, including the " +
+        "small ones."
+      : "<b>" + esc(b.summary) + "</b> You hear it once. The recording starts the instant it " +
+        "finishes, as it does in the exam, so be ready rather than reaching for a button. " +
+        "The words are not on screen and will not be until you have answered.";
+  }
+
+  /* Playing it. Same element, same transport flag, same `ended` as the
+     lecture - `lecEnded()` is what turns the end of the audio into the start
+     of the task, and it already knows not to fire for anything else. */
+  function playSentence(byHand) {
+    var m = sayMeta();
+    if (!m) return;
+    var btn = speakEl("speakSayPlay");
+    stopSpeaking();
+    btn.classList.add("is-busy");
+    btn.textContent = "Loading…";
+
+    return fetch(sayUrlFor(m.id)).then(function (r) {
+      if (!r.ok) throw new Error("no audio for that sentence");
+      return r.blob();
+    }).then(function (blob) {
+      var was = speech.src;
+      speech.src = URL.createObjectURL(blob);
+      if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
+      mic.lecPlaying = true;
+      return speech.play().then(null, function (err) {
+        if (err && err.name === "NotAllowedError") {
+          mic.lecPlaying = false;
+          speakFail("the browser would not start the audio - click anywhere on the page, then Play again");
+          return;
+        }
+        throw err;
+      });
+    })["catch"](function (err) {
+      mic.lecPlaying = false;
+      speakFail("could not play that sentence: " + (err.message || err));
+    })["finally"](function () {
+      btn.classList.remove("is-busy");
+      btn.textContent = mic.sayHeard ? "Hear it again" : "Play the sentence";
+    });
+  }
+
+  speakEl("speakSayPlay").addEventListener("click", function () { playSentence(true); });
+  speakEl("speakSayNext").addEventListener("click", function () { takeSentence(mic.sayAt + 1); });
+
+  /* ------------------------------------------- listening: hear it, type it
+
+     A clue is spoken - "a doctor uses this instrument to listen to your heart
+     and your lungs" - and you type one word. It drills the two things this
+     tool tested separately until now: hearing a sentence you cannot re-read,
+     and PRODUCING a precise word rather than recognising one.
+
+     The state object is `quiz` rather than anything with listen in the name,
+     because `listening()` already means something else a few hundred lines up
+     - whether the current Speaking task is one you listen to first - and this
+     file has been bitten once by exactly that kind of collision.
+
+     Nothing here holds a clue or an answer before it has been earned. The
+     index carries ids; the sound comes from /api/listening/<id>/audio; the
+     words arrive only in the verdict for the question just answered. */
+  var quiz = {
+    sets: [], progress: {}, byId: {},
+    at: 0, verdict: null, busy: false, playing: false,
+    // Autoplay is refused until the page has been clicked on, so the first
+    // clue of a session waits for the button. Once one has played, every
+    // later card can start on its own, which is what the exam does.
+    allowed: false
+  };
+
+  function quizEl(id) { return document.getElementById(id); }
+
+  function loadListen() {
+    return api("/api/listening").then(function (d) {
+      quiz.sets = d.sets || [];
+      quiz.progress = d.progress || {};
+      quiz.byId = {};
+      quiz.sets.forEach(function (st) { quiz.byId[st.id] = st; });
+    })["catch"](function () { quiz.sets = []; });   // the tab simply says so
+  }
+
+  function quizSet() { return quiz.byId[settings.listening.set] || null; }
+
+  /** Right and wrong for one set, off the tally the server keeps. */
+  function quizTally(setId) { return quizTallyOf(quiz.progress, setId); }
+
+  /** Right and wrong for one set of any drilled subject, off its tally. */
+  function quizTallyOf(progress, setId) {
+    var a = (progress[setId] || {}).answers || {};
+    var right = 0, wrong = 0, seen = 0;
+    Object.keys(a).forEach(function (k) {
+      seen++;
+      right += a[k].right || 0;
+      wrong += a[k].wrong || 0;
+    });
+    return { right: right, wrong: wrong, seen: seen };
+  }
+
+  function renderListen() {
+    var hiwOn = settings.listening.mode === "hiw";
+    [].slice.call(document.querySelectorAll("[data-lmode]")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.lmode === settings.listening.mode));
+    });
+    quizEl("listenLede").innerHTML = hiwOn
+      ? "You hear a recording while its transcript is on screen, and a few words in " +
+        "the transcript are not what the speaker says. Click each one. A right click " +
+        "earns a mark and a wrong one takes a mark away, as in the exam."
+      : "A definition is read aloud and you type the one word it describes. " +
+        "The wording is never on screen until you have answered &mdash; you get it " +
+        "by ear, the way the exam gives it. Where more than one word honestly fits, " +
+        "every one of them is accepted.";
+    quizEl("listenBody").hidden = hiwOn;
+    quizEl("hiwBody").hidden = !hiwOn;
+    if (hiwOn) return renderHiw();
+
+    var box = quizEl("listenBody");
+    if (!quiz.sets.length) {
+      box.innerHTML = '<div class="qintro">' +
+        "<p>No question sets are loaded. They live in <code>data/listening/</code>, " +
+        "one file per set.</p></div>";
+      return;
+    }
+    return quizSet() ? renderQuizDrill(box) : renderQuizIndex(box);
+  }
+
+  function renderQuizIndex(box) {
+    box.innerHTML =
+      '<div class="qsets">' +
+      quiz.sets.map(function (st) {
+        var t = quizTally(st.id);
+        return '<button class="qset" data-qset="' + esc(st.id) + '">' +
+          '<div class="qsetname">' + esc(st.title) + "</div>" +
+          '<div class="qsetsum">' + esc(st.summary) + "</div>" +
+          '<div class="qsetbar">' + st.questions.length + " clues" +
+          (t.right + t.wrong
+            ? " &middot; <b>" + t.right + " right</b>, " + t.wrong + " wrong"
+            : "") +
+          "</div></button>";
+      }).join("") + "</div>";
+
+    [].slice.call(box.querySelectorAll("[data-qset]")).forEach(function (b) {
+      b.addEventListener("click", function () {
+        navigateTo("/listening/" + LISTEN_SLUG.define + "/" + encodeURIComponent(b.dataset.qset));
+      });
+    });
+  }
+
+  function renderQuizDrill(box) {
+    var st = quizSet();
+    var total = st.questions.length;
+    if (quiz.at >= total) quiz.at = 0;
+    var q = st.questions[quiz.at];
+    var v = quiz.verdict;
+    var t = quizTally(st.id);
+
+    box.innerHTML =
+      '<div class="qhead">' +
+        '<button class="btn small" id="quizBack">All sets</button>' +
+        "<h2>" + esc(st.title) + "</h2>" +
+        '<span class="qcount">' + (quiz.at + 1) + " of " + total +
+        (t.right + t.wrong ? " &middot; " + t.right + " right, " + t.wrong + " wrong" : "") +
+        "</span>" +
+      "</div>" +
+      '<div class="qcard">' +
+        '<div class="qplayrow">' +
+          '<button class="qplay" id="quizPlay">' +
+            (quiz.playing ? "Loading…" : v ? "Hear it again" : "Hear the clue") +
+          "</button>" +
+          '<span class="qplaynote" id="quizNote">' +
+            (v ? "You can replay it as often as you like."
+               : "Listen, then type the single word it describes.") +
+          "</span>" +
+        "</div>" +
+        '<div class="qanswer">' +
+          '<input class="qinput" id="quizInput" type="text" autocomplete="off" ' +
+            'autocorrect="off" autocapitalize="off" spellcheck="false" ' +
+            'data-gramm="false" placeholder="one word" ' +
+            (v ? "disabled" : "") + ">" +
+          '<button class="btn btn-primary" id="quizGo">' +
+            (v ? "Next" : "Check") + "</button>" +
+        "</div>" +
+        (v ? quizVerdictHtml(v) : "") +
+      "</div>";
+
+    quizEl("quizBack").addEventListener("click", function () { navigateTo("/listening/" + LISTEN_SLUG.define); });
+    quizEl("quizPlay").addEventListener("click", function () { playClue(q.id, true); });
+    quizEl("quizGo").addEventListener("click", quizSubmit);
+
+    var input = quizEl("quizInput");
+    if (!v) {
+      input.value = quiz.typed || "";
+      input.focus();
+      // Enter submits and goes no further, the drill's own rule: without
+      // stopPropagation the same keypress reached the document handler.
+      input.addEventListener("keydown", function (e) {
+        if (e.key !== "Enter") return;
+        e.stopPropagation();
+        e.preventDefault();
+        quizSubmit();
+      });
+      input.addEventListener("input", function () {
+        quiz.typed = input.value;
+        // The next clue is warmed while you type this one - the drill's trick
+        // for hiding a first rendering, and the reason the second question
+        // starts instantly instead of after a couple of seconds.
+        warmNextClue();
+      });
+    } else {
+      quizEl("quizGo").focus();
+    }
+
+    if (!v) {
+      // Straight into the sound once the page has permission to make a noise;
+      // otherwise at least have it ready for the click that gives permission.
+      if (quiz.allowed) playClue(q.id, false); else warmThisClue();
+    }
+  }
+
+  function quizVerdictHtml(v) {
+    var also = (v.accept || []).filter(function (a) {
+      return normalise(a) !== normalise(v.answer);
+    });
+    var diff = v.correct ? "" : diffHtml(v.typed, v.answer, false);
+    return '<div class="qverdict">' +
+      '<p class="qmark ' + (v.correct ? "right" : "wrong") + '">' +
+        (v.correct ? "Correct" : "Not this time") + "</p>" +
+      '<p class="qclue">' + esc(v.clue) + "</p>" +
+      '<p class="qwant">The word is <b>' + esc(v.answer) + "</b></p>" +
+      (also.length
+        ? '<p class="qalso">Also accepted: ' + also.map(esc).join(", ") + "</p>"
+        : "") +
+      diff +
+      (v.note ? '<p class="qnote">' + esc(v.note) + "</p>" : "") +
+      "</div>";
+  }
+
+  /* One clue, heard. It goes through the page's own <audio> element, so
+     stopSpeaking() silences it like everything else and the Speaking tab's
+     `ended` handler stays guarded by its own flag. */
+  function playClue(id, byHand) {
+    var st = quizSet();
+    if (!st) return;
+    stopSpeaking();
+    quiz.playing = true;
+    var btn = quizEl("quizPlay");
+    // "Loading", not "Playing". A clue that has never been spoken before has
+    // to be synthesised, which takes a few seconds, and a button claiming to
+    // be playing while nothing is coming out is the lie a progress indicator
+    // must not tell. It says Playing only once sound is actually starting.
+    if (btn) btn.textContent = "Loading…";
+
+    return fetch(clueUrl(id)).then(function (r) {
+      if (!r.ok) throw new Error("no audio for that clue");
+      return r.blob();
+    }).then(function (blob) {
+      var was = speech.src;
+      speech.src = URL.createObjectURL(blob);
+      if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
+      // A click is a gesture, so from the first hand-played clue onwards the
+      // browser will let later ones start by themselves.
+      if (byHand) quiz.allowed = true;
+      return speech.play();
+    })["catch"](function (err) {
+      if (err && err.name === "NotAllowedError") {
+        var n = quizEl("quizNote");
+        if (n) n.textContent = "Press the button once and it will play by itself after that.";
+        return;
+      }
+      var note = quizEl("quizNote");
+      if (note) note.textContent = "Could not play that clue: " + (err.message || err);
+    })["finally"](function () {
+      quiz.playing = false;
+      quiz.heardThis = true;
+      var b = quizEl("quizPlay");
+      // play() resolves when playback BEGINS, so by here the sound is either
+      // running or was refused - either way the button is a replay button.
+      if (b) b.textContent = "Hear it again";
+    });
+  }
+
+  function clueUrl(id) {
+    return "/api/listening/" + encodeURIComponent(id) + "/audio" +
+      "?voice=" + encodeURIComponent(settings.voice.id) +
+      "&speed=" + encodeURIComponent(settings.voice.speed);
+  }
+
+  function warmNextClue() {
+    var st = quizSet();
+    if (!st || quiz.warmed) return;
+    var next = st.questions[quiz.at + 1];
+    if (!next) return;
+    quiz.warmed = true;
+    fetch(clueUrl(next.id))["catch"](function () { /* a nicety */ });
+  }
+
+  /* The clue you are about to be asked for, fetched the moment the set opens.
+     Everything after the first question is hidden behind the typing of the
+     one before it - warmNextClue() does that - but the FIRST one of a set has
+     nothing in front of it, and a clue that has never been spoken costs a few
+     seconds to synthesise. Warming it while the reader is still reading the
+     heading turns their first click into a cache hit. */
+  function warmThisClue() {
+    var st = quizSet();
+    if (!st) return;
+    var q = st.questions[quiz.at];
+    if (!q) return;
+    fetch(clueUrl(q.id))["catch"](function () { /* a nicety */ });
+  }
+
+  function quizSubmit() {
+    var st = quizSet();
+    if (!st || quiz.busy) return;
+
+    // Second press: move on. One handler, two meanings, the Essays tab's
+    // Start/Restart rule - a separate Next button would be a second place
+    // that knows how a question ends.
+    if (quiz.verdict) {
+      quiz.verdict = null;
+      quiz.typed = "";
+      quiz.warmed = false;
+      quiz.at = (quiz.at + 1) % st.questions.length;
+      return renderListen();
+    }
+
+    var input = quizEl("quizInput");
+    var typed = (input && input.value || "").trim();
+    if (!typed) { if (input) input.focus(); return; }
+
+    quiz.busy = true;
+    var q = st.questions[quiz.at];
+    return api("/api/listening/answer", { q: q.id, text: typed }).then(function (d) {
+      quiz.verdict = {
+        correct: !!d.correct, typed: typed, clue: d.clue,
+        answer: d.answer, accept: d.accept, note: d.note
+      };
+      // The tally comes back with the verdict, so the header updates without
+      // asking the server for the whole index again.
+      quiz.progress[st.id] = quiz.progress[st.id] || { answers: {} };
+      quiz.progress[st.id].answers[q.id] = d.tally;
+      renderListen();
+    })["catch"](function (err) {
+      var n = quizEl("quizNote");
+      if (n) n.textContent = "Could not mark that: " + (err.message || err);
+    })["finally"](function () { quiz.busy = false; });
+  }
+
+  /* ------------------------- listening: highlight incorrect words
+
+     A recording plays while its transcript is on screen, and a few words in
+     the transcript are not what the speaker says. Click each one. PTE marks
+     it +1 per right click and -1 per wrong one, never below zero, and so does
+     the server: the page is given the transcript as shown and never which
+     words were swapped. See src/hiw.js.
+
+     The recording plays ONCE before you answer, as in the exam, and can be
+     replayed only after Check. It goes through the page's one <audio>
+     element, so stopSpeaking() silences it like everything else. */
+  var hiwq = {
+    sets: [], progress: {}, byId: {},
+    at: 0, picked: [], verdict: null, busy: false,
+    heard: false, playing: false, note: ""
+  };
+
+  function loadHiw() {
+    return api("/api/hiw").then(function (d) {
+      hiwq.sets = d.sets || [];
+      hiwq.progress = d.progress || {};
+      hiwq.byId = {};
+      hiwq.sets.forEach(function (st) { hiwq.byId[st.id] = st; });
+    })["catch"](function () { hiwq.sets = []; });   // the tab simply says so
+  }
+
+  function hiwReset(at) {
+    hiwq.at = at; hiwq.picked = []; hiwq.verdict = null;
+    hiwq.heard = false; hiwq.playing = false; hiwq.note = "";
+  }
+  function hiwSet() { return hiwq.byId[settings.listening.hiwSet] || hiwq.sets[0] || null; }
+  function hiwItem() { var st = hiwSet(); return st ? st.items[hiwq.at] || null : null; }
+  function hiwUrl(id) {
+    return "/api/hiw/" + encodeURIComponent(id) + "/audio" +
+      "?voice=" + encodeURIComponent(settings.voice.id) +
+      "&speed=" + encodeURIComponent(settings.voice.speed);
+  }
+
+  function renderHiw() {
+    var box = document.getElementById("hiwBody");
+    if (!hiwq.sets.length) {
+      box.innerHTML = '<div class="qintro"><p>No recordings are loaded. They live in ' +
+        "<code>data/hiw/</code>, one file per set of ten" +
+        (window.PTE_CLOUD ? ", and this task runs on the local build only." : ".") +
+        "</p></div>";
+      return;
+    }
+    var st = hiwSet();
+    if (hiwq.at >= st.items.length) hiwReset(0);
+    var item = st.items[hiwq.at];
+    var v = hiwq.verdict;
+    var t = quizTallyOf(hiwq.progress, st.id);
+    var wrongAt = {};
+    if (v) v.wrong.forEach(function (k, i) { wrongAt[k] = v.said[i]; });
+
+    var words = item.words.map(function (w, k) {
+      var mine = hiwq.picked.indexOf(k) >= 0;
+      var cls = "hw" + (mine ? " picked" : "");
+      if (v) {
+        var isWrong = Object.prototype.hasOwnProperty.call(wrongAt, k);
+        cls += isWrong ? (mine ? " ok" : " missed") : (mine ? " bad" : "");
+      }
+      return '<button class="' + cls + '" data-hw="' + k + '"' + (v ? " disabled" : "") + ">" +
+        esc(w) + "</button>" +
+        (v && Object.prototype.hasOwnProperty.call(wrongAt, k)
+          ? '<span class="hsaid" title="What the speaker said">' + esc(wrongAt[k]) + "</span>"
+          : "");
+    }).join(" ");
+
+    var playLabel = hiwq.playing ? "Loading…"
+      : v ? "Hear it again"
+      : hiwq.heard ? "Played" : "Play the recording";
+
+    box.innerHTML =
+      '<div class="rhead">' +
+        "<h2>Highlight Incorrect Words</h2>" +
+        (hiwq.sets.length > 1
+          ? '<span class="smodes rsets" role="group" aria-label="Set">' +
+            hiwq.sets.map(function (x, i) {
+              return '<button data-hset="' + (i + 1) + '" aria-pressed="' + (x === st) + '">' +
+                esc(x.title) + "</button>";
+            }).join("") + "</span>"
+          : "") +
+        '<span class="qcount">Item ' + (hiwq.at + 1) + " of " + st.items.length +
+        (t.right + t.wrong ? " &middot; " + t.right + " full marks, " + t.wrong + " not" : "") +
+        "</span>" +
+      "</div>" +
+      (st.summary ? '<p class="rsum">' + esc(st.summary) + "</p>" : "") +
+      '<div class="qcard">' +
+        '<div class="qplayrow">' +
+          '<button class="qplay" data-hplay="1"' +
+            (hiwq.playing || (hiwq.heard && !v) ? " disabled" : "") + ">" + playLabel + "</button>" +
+          '<span class="qplaynote">' + esc(hiwq.note ||
+            (v ? "Replay it and follow the transcript to hear each difference."
+               : hiwq.heard ? "It plays once, as in the exam. Click every word that is different."
+               : "Read the transcript first if you like, then play it.")) + "</span>" +
+        "</div>" +
+        (item.title ? '<h3 class="rtitle hwtitle">' + esc(item.title) + "</h3>" : "") +
+        '<div class="hwords">' + words + "</div>" +
+        '<div class="qanswer">' +
+          '<button class="btn btn-primary" data-hgo="1">' + (v ? "Next" : "Check") + "</button>" +
+          (v ? "" : '<button class="btn small" data-hclear="1">Clear</button>') +
+        "</div>" +
+        (v ? hiwVerdictHtml(item, v) : "") +
+      "</div>";
+
+    // The first rendering of a recording takes the voice model some seconds,
+    // so it is asked for the moment the item is on screen - reading the
+    // transcript first hides most of it.
+    if (!v && !hiwq.heard) fetch(hiwUrl(item.id))["catch"](function () { /* a nicety */ });
+  }
+
+  function hiwVerdictHtml(item, v) {
+    var full = v.score === v.max && v.misses === 0;
+    return '<div class="qverdict">' +
+      '<p class="qmark ' + (full ? "right" : "wrong") + '">' + v.score + " of " + v.max +
+        (full ? " &mdash; full marks" : "") + "</p>" +
+      '<p class="rsub">' + v.hits + " found, " + (v.max - v.hits) + " missed, " +
+        v.misses + " clicked that were right" +
+        (v.misses ? " &mdash; each of those took a mark back." : ".") + "</p>" +
+      '<ol class="rwhy">' + v.wrong.map(function (k, i) {
+        return "<li>On screen <b>" + esc(item.words[k]) + "</b>, said <b>" + esc(v.said[i]) + "</b>" +
+          (hiwq.picked.indexOf(k) >= 0 ? "" : ' <span class="rmiss">missed</span>') + "</li>";
+      }).join("") + "</ol>" +
+      (v.note ? '<p class="qnote">' + esc(v.note) + "</p>" : "") +
+      "</div>";
+  }
+
+  function hiwPlay() {
+    var item = hiwItem();
+    if (!item || hiwq.playing) return;
+    if (hiwq.heard && !hiwq.verdict) return;       // once, until you have answered
+    stopSpeaking();
+    hiwq.playing = true;
+    hiwq.note = "";
+    renderHiw();
+    fetch(hiwUrl(item.id)).then(function (r) {
+      if (!r.ok) throw new Error("no audio for that recording");
+      return r.blob();
+    }).then(function (blob) {
+      var was = speech.src;
+      speech.src = URL.createObjectURL(blob);
+      if (was && was.indexOf("blob:") === 0) URL.revokeObjectURL(was);
+      return speech.play();
+    }).then(function () {
+      hiwq.heard = true;
+    })["catch"](function (err) {
+      // Not heard, so the one play is still owed.
+      hiwq.note = err && err.name === "NotAllowedError"
+        ? "The browser blocked the sound - press Play again."
+        : "Could not play it: " + ((err && err.message) || err);
+    })["finally"](function () {
+      hiwq.playing = false;
+      if (settings.view === "listening" && settings.listening.mode === "hiw") renderHiw();
+    });
+  }
+
+  function hiwSubmit() {
+    var st = hiwSet();
+    if (!st || hiwq.busy) return;
+    if (hiwq.verdict) {                            // second press: move on
+      stopSpeaking();
+      hiwReset((hiwq.at + 1) % st.items.length);
+      renderHiw();
+      window.scrollTo(0, 0);
+      return;
+    }
+    var item = hiwItem();
+    hiwq.busy = true;
+    api("/api/hiw/answer", { item: item.id, picked: hiwq.picked }).then(function (d) {
+      hiwq.verdict = d;
+      hiwq.note = "";
+      hiwq.progress[st.id] = hiwq.progress[st.id] || { answers: {} };
+      hiwq.progress[st.id].answers[item.id] = d.tally;
+      renderHiw();
+    })["catch"](function (err) {
+      hiwq.note = "Could not mark that: " + (err.message || err);
+      renderHiw();
+    })["finally"](function () { hiwq.busy = false; });
+  }
+
+  (function wireHiw() {
+    var root = document.getElementById("hiwBody");
+    root.addEventListener("click", function (ev) {
+      var n = ev.target;
+      if (n && n.nodeType !== 1) n = n.parentElement;
+      if (!n) return;
+      var b;
+      if ((b = n.closest("[data-hset]"))) {
+        return navigateTo("/listening/" + LISTEN_SLUG.hiw + "/" + b.dataset.hset);
+      }
+      if (n.closest("[data-hplay]")) return hiwPlay();
+      if (n.closest("[data-hgo]")) return hiwSubmit();
+      if (hiwq.verdict) return;
+      if (n.closest("[data-hclear]")) { hiwq.picked = []; return renderHiw(); }
+      if ((b = n.closest("[data-hw]"))) {
+        var k = Number(b.dataset.hw);
+        var at = hiwq.picked.indexOf(k);
+        if (at >= 0) hiwq.picked.splice(at, 1); else hiwq.picked.push(k);
+        // Repaint the one word, not the panel: the recording is playing and
+        // a rebuild mid-sentence would be a flicker under the reader's eye.
+        b.classList.toggle("picked", at < 0);
+      }
+    });
+  })();
+
+  [].slice.call(document.querySelectorAll("[data-lmode]")).forEach(function (b) {
+    b.addEventListener("click", function () {
+      navigateTo("/listening/" + LISTEN_SLUG[b.dataset.lmode]);
+    });
+  });
+
+  /* ------------------------------------------- reading: read it, answer it
+
+     The exam's reading items, one at a time: both kinds of Fill in the
+     Blanks, Re-order Paragraphs, and Multiple Choice with one answer or
+     several. Content is in data/reading/, one file per set of ten.
+
+     The page is given the passage and never the key. Options arrive already
+     shuffled by the server and every position this page sends back is a
+     position in what it was SHOWN - so there is nothing here that knows which
+     option is right or where a paragraph belongs until the verdict says so.
+     The grammar tab's rule, and marking stays on the server with it.
+
+     The state object is `rdq`, not anything called `reading`: that word is
+     all over this file in comments about the Essays panels, and `quiz` next
+     door is named the way it is after exactly that kind of collision. */
+  var rdq = {
+    sets: [], tasks: {}, progress: {}, byId: {},
+    at: 0, resp: null, verdict: null, busy: false,
+    held: null,                                // a word picked up from the box
+    drag: null,                                // what is being dragged, if anything
+    note: ""
+  };
+
+  function loadReading() {
+    return api("/api/reading").then(function (d) {
+      rdq.sets = d.sets || [];
+      rdq.tasks = d.tasks || {};
+      rdq.progress = d.progress || {};
+      rdq.byId = {};
+      rdq.sets.forEach(function (st) { rdq.byId[st.id] = st; });
+    })["catch"](function () { rdq.sets = []; });   // the tab simply says so
+  }
+
+  function rdqReset(at) {
+    rdq.at = at; rdq.resp = null; rdq.verdict = null; rdq.held = null; rdq.note = "";
+  }
+  /** The open question type: the saved one, if it has any sets loaded. */
+  function rdqTask() {
+    var t = settings.reading.task;
+    if (READ_SLUG[t] && rdqSets(t).length) return t;
+    for (var k in READ_SLUG) if (rdqSets(k).length) return k;
+    return "fib-rw";
+  }
+  function rdqSets(task) {
+    task = task || rdqTask();
+    return rdq.sets.filter(function (st) { return st.task === task; });
+  }
+  /** The set in front of you: the one remembered for this type, else its first. */
+  function rdqSet() {
+    var task = rdqTask(), sets = rdqSets(task);
+    var st = rdq.byId[settings.reading.sets[task]];
+    return st && st.task === task ? st : sets[0] || null;
+  }
+  function rdqItem() {
+    var st = rdqSet();
+    return st ? st.items[rdq.at] || null : null;
+  }
+
+  function rdqGapCount(item) {
+    return item.parts.filter(function (p) { return typeof p !== "string"; }).length;
+  }
+
+  /** A blank response of the right shape for this item. */
+  function rdqFresh(task, item) {
+    if (task === "fib-rw" || task === "fib-r") {
+      return { gaps: new Array(rdqGapCount(item)).fill("") };
+    }
+    if (task === "reorder") return { order: item.paragraphs.map(function (_, i) { return i; }) };
+    return { choice: [] };
+  }
+
+  /** Items got fully right and items attempted, off the server's tally. */
+  function rdqTally(setId) {
+    var a = (rdq.progress[setId] || {}).answers || {};
+    var right = 0, wrong = 0;
+    Object.keys(a).forEach(function (k) { right += a[k].right || 0; wrong += a[k].wrong || 0; });
+    return { right: right, wrong: wrong };
+  }
+
+  function renderReading() {
+    var box = document.getElementById("readBody");
+    if (!rdq.sets.length) {
+      box.innerHTML = '<div class="sintro"><h1>Reading</h1>' +
+        "<p>No reading sets are loaded. They live in <code>data/reading/</code>, " +
+        "one file per set of ten" +
+        (window.PTE_CLOUD ? ", and this tab runs on the local build only." : ".") +
+        "</p></div>";
+      return;
+    }
+    var task = rdqTask(), info = rdq.tasks[task] || {};
+    var sets = rdqSets(task), st = rdqSet();
+    if (rdq.at >= st.items.length) rdqReset(0);
+    var item = st.items[rdq.at];
+    if (!rdq.resp) rdq.resp = rdqFresh(task, item);
+    var v = rdq.verdict;
+    var t = rdqTally(st.id);
+
+    var body =
+      task === "fib-rw" ? rdqFibRw(item, v) :
+      task === "fib-r" ? rdqFibR(item, v) :
+      task === "reorder" ? rdqReorder(item, v) :
+      rdqChoice(task, item, v);
+
+    box.innerHTML =
+      '<div class="sintro"><h1>Reading</h1>' +
+        "<p>The exam's reading items, marked the way PTE marks them: a point per " +
+        "gap, a point per pair of paragraphs in the right order, and a point off " +
+        "for every wrong choice where more than one answer is asked for. The key " +
+        "is never in the page until you have submitted.</p></div>" +
+      // One tab per question type, the Speaking tab's control. A type with no
+      // sets on disk has no tab rather than an empty one.
+      '<div class="smodes" role="group" aria-label="Question type">' +
+        Object.keys(READ_SLUG).filter(function (k) { return rdqSets(k).length; })
+          .map(function (k) {
+            return '<button data-rtask="' + k + '" aria-pressed="' + (k === task) + '">' +
+              esc((rdq.tasks[k] || {}).short || k) + "</button>";
+          }).join("") +
+      "</div>" +
+      '<div class="rhead">' +
+        "<h2>" + esc(info.title || task) + "</h2>" +
+        (sets.length > 1
+          ? '<span class="smodes rsets" role="group" aria-label="Set">' +
+            sets.map(function (x, i) {
+              return '<button data-rsetn="' + (i + 1) + '" aria-pressed="' + (x === st) + '">' +
+                esc(x.title) + "</button>";
+            }).join("") + "</span>"
+          : "") +
+        '<span class="qcount">Item ' + (rdq.at + 1) + " of " + st.items.length +
+        (t.right + t.wrong ? " &middot; " + t.right + " full marks, " + t.wrong + " not" : "") +
+        "</span>" +
+      "</div>" +
+      (st.summary ? '<p class="rsum">' + esc(st.summary) + "</p>" : "") +
+      '<div class="qcard rcard">' +
+        '<p class="rhow">' + esc(info.how || "") + "</p>" +
+        (item.title ? '<h3 class="rtitle">' + esc(item.title) + "</h3>" : "") +
+        body +
+        '<div class="qanswer">' +
+          '<button class="btn btn-primary" data-rgo="1">' + (v ? "Next" : "Check") + "</button>" +
+          (v ? "" : '<button class="btn small" data-rclear="1">Clear</button>') +
+          '<span class="qplaynote">' + esc(rdq.note) + "</span>" +
+        "</div>" +
+        (v ? rdqVerdictHtml(task, item, v) : "") +
+      "</div>";
+  }
+
+  /* ---- the four bodies. Each draws the same thing before and after the
+     verdict, with the marks laid over it: the passage you answered is the
+     one worth looking at when you find out how you did. */
+
+  function rdqFibRw(item, v) {
+    return '<div class="rpassage">' + item.parts.map(function (p) {
+      if (typeof p === "string") return esc(p);
+      var g = p.gap, mine = rdq.resp.gaps[g];
+      var mark = v ? (v.right[g] ? " right" : " wrong") : "";
+      return '<select class="rsel' + mark + '" data-rgap="' + g + '"' +
+          (v ? " disabled" : "") + ' aria-label="Gap ' + (g + 1) + '">' +
+        '<option value=""></option>' +
+        item.options[g].map(function (o) {
+          return '<option value="' + esc(o) + '"' + (o === mine ? " selected" : "") + ">" +
+            esc(o) + "</option>";
+        }).join("") + "</select>" +
+        (v && !v.right[g] ? '<span class="rfix">' + esc(v.answers[g]) + "</span>" : "");
+    }).join("") + "</div>";
+  }
+
+  function rdqFibR(item, v) {
+    var placed = rdq.resp.gaps;
+    var passage = '<div class="rpassage">' + item.parts.map(function (p) {
+      if (typeof p === "string") return esc(p);
+      var g = p.gap, w = placed[g];
+      var mark = v ? (v.right[g] ? " right" : " wrong") : "";
+      return '<button class="rslot' + (w ? " filled" : "") + mark + '" data-rslot="' + g + '"' +
+          (w && !v ? ' draggable="true"' : "") + (v ? " disabled" : "") +
+          ' aria-label="Gap ' + (g + 1) + (w ? ": " + esc(w) : ", empty") + '">' +
+          (w ? esc(w) : "&nbsp;") + "</button>" +
+        (v && !v.right[g] ? '<span class="rfix">' + esc(v.answers[g]) + "</span>" : "");
+    }).join("") + "</div>";
+    var bank = '<div class="rbank" data-rbank="1">' + item.bank.map(function (w, i) {
+      var used = placed.indexOf(w) >= 0;
+      return '<button class="rchip' + (used ? " used" : "") +
+          (rdq.held === w ? " held" : "") + '" data-rword="' + i + '"' +
+          (used || v ? " disabled" : ' draggable="true"') + ">" + esc(w) + "</button>";
+    }).join("") + "</div>";
+    return passage + bank +
+      (v ? "" : '<p class="rtip">Click a word, then the gap it goes in &mdash; or drag it there. ' +
+                "Click a filled gap to send its word back.</p>");
+  }
+
+  function rdqReorder(item, v) {
+    var order = rdq.resp.order, n = order.length;
+    return '<ol class="rparas">' + order.map(function (k, i) {
+      // After the verdict each paragraph says whether it follows the one
+      // above it correctly - that is exactly what was marked.
+      var pair = v && i > 0 ? (v.pairs[i - 1] ? " pairok" : " pairbad") : "";
+      return '<li class="rpara' + pair + '" data-rpos="' + i + '"' +
+          (v ? "" : ' draggable="true"') + ">" +
+        '<span class="rnum">' + (i + 1) + "</span>" +
+        '<div class="rtext">' + esc(item.paragraphs[k]) + "</div>" +
+        (v ? "" :
+          '<span class="rmove">' +
+            '<button class="btn small" data-rup="' + i + '"' + (i === 0 ? " disabled" : "") +
+              ' aria-label="Move up">&uarr;</button>' +
+            '<button class="btn small" data-rdown="' + i + '"' + (i === n - 1 ? " disabled" : "") +
+              ' aria-label="Move down">&darr;</button>' +
+          "</span>") +
+        "</li>";
+    }).join("") + "</ol>" +
+    (v ? "" : '<p class="rtip">Drag a paragraph, or use the arrows.</p>');
+  }
+
+  function rdqChoice(task, item, v) {
+    var multi = task === "mcq-multi";
+    var chosen = rdq.resp.choice;
+    var key = v ? v.correct : [];
+    return '<div class="rpassage rprose"><p>' + esc(item.passage).replace(/\n+/g, "</p><p>") + "</p></div>" +
+      '<p class="rq">' + esc(item.question) + "</p>" +
+      '<div class="ropts">' + item.options.map(function (o, k) {
+        var mine = chosen.indexOf(k) >= 0;
+        var mark = !v ? "" : key.indexOf(k) >= 0 ? " right" : mine ? " wrong" : "";
+        return '<label class="ropt' + mark + '">' +
+          '<input type="' + (multi ? "checkbox" : "radio") + '" name="rdopt" data-ropt="' + k + '"' +
+            (mine ? " checked" : "") + (v ? " disabled" : "") + "> " +
+          "<span>" + esc(o) + "</span></label>";
+      }).join("") + "</div>";
+  }
+
+  function rdqVerdictHtml(task, item, v) {
+    var full = v.score === v.max;
+    var html = '<div class="qverdict">' +
+      '<p class="qmark ' + (full ? "right" : "wrong") + '">' +
+        v.score + " of " + v.max + (full ? " &mdash; full marks" : "") + "</p>";
+    if (task === "fib-rw" || task === "fib-r") {
+      html += '<ol class="rwhy">' + v.answers.map(function (a, g) {
+        var mine = rdq.resp.gaps[g];
+        return "<li><b>" + esc(a) + "</b>" +
+          (v.right[g] ? "" : ' <span class="rmiss">you ' +
+            (mine ? "put " + esc(mine) : "left it empty") + "</span>") +
+          (v.why && v.why[g] ? '<span class="rwhytext">' + esc(v.why[g]) + "</span>" : "") +
+          "</li>";
+      }).join("") + "</ol>";
+    } else if (task === "reorder") {
+      html += '<p class="rsub">The right order</p><ol class="rright">' +
+        v.correct.map(function (k) { return "<li>" + esc(item.paragraphs[k]) + "</li>"; }).join("") +
+        "</ol>";
+    } else if (task === "mcq-multi") {
+      html += '<p class="rsub">' + v.hits + " right " + (v.hits === 1 ? "choice" : "choices") +
+        ", " + v.misses + " wrong &mdash; each wrong one took a mark back.</p>";
+    }
+    if (v.note) html += '<p class="qnote">' + esc(v.note) + "</p>";
+    return html + "</div>";
+  }
+
+  /* ---- answering */
+
+  function rdqAnswered() {
+    var r = rdq.resp;
+    if (r.gaps) return r.gaps.some(Boolean);
+    if (r.choice) return r.choice.length > 0;
+    return true;                               // an order is always an answer
+  }
+
+  function rdqSubmit() {
+    var st = rdqSet();
+    if (!st || rdq.busy) return;
+    // Second press: move on. One button, two meanings - the Listening tab's rule.
+    if (rdq.verdict) {
+      rdqReset((rdq.at + 1) % st.items.length);
+      renderReading();
+      window.scrollTo(0, 0);
+      return;
+    }
+    if (!rdqAnswered()) { rdq.note = "Nothing answered yet."; return renderReading(); }
+    var item = rdqItem();
+    rdq.busy = true;
+    api("/api/reading/answer", { item: item.id, response: rdq.resp }).then(function (d) {
+      rdq.verdict = d;
+      rdq.note = "";
+      rdq.progress[st.id] = rdq.progress[st.id] || { answers: {} };
+      rdq.progress[st.id].answers[item.id] = d.tally;
+      renderReading();
+    })["catch"](function (err) {
+      rdq.note = "Could not mark that: " + (err.message || err);
+      renderReading();
+    })["finally"](function () { rdq.busy = false; });
+  }
+
+  /** Put a word from the box into gap g. Whatever was there goes back. */
+  function rdqPlace(word, g) {
+    var gaps = rdq.resp.gaps;
+    var from = gaps.indexOf(word);
+    if (from >= 0) gaps[from] = "";
+    gaps[g] = word;
+    rdq.held = null;
+  }
+
+  function rdqMove(from, to) {
+    var o = rdq.resp.order;
+    if (from === to || to < 0 || to >= o.length) return;
+    o.splice(to, 0, o.splice(from, 1)[0]);
+  }
+
+  /* One set of listeners on the section, which survives every repaint - the
+     body inside it is rebuilt each time, the way the tables' heads are. */
+  (function wireReading() {
+    var root = document.getElementById("readBody");
+    function hit(ev, sel) {
+      var n = ev.target;
+      if (n && n.nodeType !== 1) n = n.parentElement;
+      return n ? n.closest(sel) : null;
+    }
+
+    root.addEventListener("click", function (ev) {
+      var b;
+      if ((b = hit(ev, "[data-rtask]"))) return navigateTo("/reading/" + READ_SLUG[b.dataset.rtask]);
+      if ((b = hit(ev, "[data-rsetn]"))) {
+        return navigateTo("/reading/" + READ_SLUG[rdqTask()] + "/" + b.dataset.rsetn);
+      }
+      if (hit(ev, "[data-rgo]")) return rdqSubmit();
+      if (rdq.verdict) return;
+      var item = rdqItem();
+      if (!item) return;
+      if (hit(ev, "[data-rclear]")) {
+        rdq.resp = rdqFresh(rdqSet().task, item); rdq.held = null; rdq.note = "";
+        return renderReading();
+      }
+      if ((b = hit(ev, "[data-rword]"))) {
+        var w = item.bank[Number(b.dataset.rword)];
+        rdq.held = rdq.held === w ? null : w;
+        return renderReading();
+      }
+      if ((b = hit(ev, "[data-rslot]"))) {
+        var g = Number(b.dataset.rslot);
+        if (rdq.held) rdqPlace(rdq.held, g);
+        else rdq.resp.gaps[g] = "";            // a filled gap, clicked empty-handed
+        return renderReading();
+      }
+      if ((b = hit(ev, "[data-rup]"))) {
+        var i = Number(b.dataset.rup); rdqMove(i, i - 1); return renderReading();
+      }
+      if ((b = hit(ev, "[data-rdown]"))) {
+        var j = Number(b.dataset.rdown); rdqMove(j, j + 1); return renderReading();
+      }
+    });
+
+    root.addEventListener("change", function (ev) {
+      if (rdq.verdict || !rdq.resp) return;
+      var n = ev.target;
+      if (n.dataset.rgap != null) { rdq.resp.gaps[Number(n.dataset.rgap)] = n.value; return; }
+      if (n.dataset.ropt != null) {
+        var k = Number(n.dataset.ropt);
+        if (n.type === "radio") rdq.resp.choice = [k];
+        else {
+          var c = rdq.resp.choice.filter(function (x) { return x !== k; });
+          if (n.checked) c.push(k);
+          rdq.resp.choice = c;
+        }
+      }
+    });
+
+    /* Dragging: a word from the box, a word out of a gap, or a paragraph. */
+    root.addEventListener("dragstart", function (ev) {
+      var b, item = rdqItem();
+      if (!item || rdq.verdict) return;
+      if ((b = hit(ev, "[data-rword]"))) {
+        rdq.drag = { word: item.bank[Number(b.dataset.rword)] };
+      } else if ((b = hit(ev, "[data-rslot]"))) {
+        rdq.drag = { word: rdq.resp.gaps[Number(b.dataset.rslot)] };
+      } else if ((b = hit(ev, "[data-rpos]"))) {
+        rdq.drag = { pos: Number(b.dataset.rpos) };
+        b.classList.add("dragging");
+      } else return;
+      ev.dataTransfer.effectAllowed = "move";
+      ev.dataTransfer.setData("text/plain", "");   // Firefox will not drag without it
+    });
+    root.addEventListener("dragend", function () {
+      rdq.drag = null;
+      root.querySelectorAll(".dragging, .dropon").forEach(function (n) {
+        n.classList.remove("dragging", "dropon");
+      });
+    });
+    root.addEventListener("dragover", function (ev) {
+      if (!rdq.drag) return;
+      var t = rdq.drag.word ? hit(ev, "[data-rslot], [data-rbank]") : hit(ev, "[data-rpos]");
+      if (!t) return;
+      ev.preventDefault();
+      root.querySelectorAll(".dropon").forEach(function (n) { if (n !== t) n.classList.remove("dropon"); });
+      t.classList.add("dropon");
+    });
+    root.addEventListener("drop", function (ev) {
+      var d = rdq.drag, t;
+      if (!d) return;
+      ev.preventDefault();
+      rdq.drag = null;
+      if (d.word) {
+        if ((t = hit(ev, "[data-rslot]"))) rdqPlace(d.word, Number(t.dataset.rslot));
+        else if (hit(ev, "[data-rbank]")) {
+          var at = rdq.resp.gaps.indexOf(d.word);
+          if (at >= 0) rdq.resp.gaps[at] = "";
+        }
+      } else if ((t = hit(ev, "[data-rpos]"))) {
+        rdqMove(d.pos, Number(t.dataset.rpos));
+      }
+      renderReading();
+    });
+  })();
 
   /* --------------------------------------------------------------- routing
      Every view is a real URL:
@@ -6505,7 +8458,20 @@
        /batches/words-3               that batch
        /batches/words-3/training      drilling that batch
        /batches/words-3/print         its print sheet
-       /essays                        the Write Essay tab
+       /listening                     the listening task you were last on
+       /listening/word-from-definition[/<set-id>]
+       /listening/highlight-incorrect-words[/<n>]
+       /reading                       the question type you were last on
+       /reading/re-order-paragraphs   one type, its first set (or the one you were on)
+       /reading/re-order-paragraphs/2 that type's second set
+       /writing                       the written task you were last on
+       /writing/essay                 Write Essay
+       /speaking                      the task you were last on
+       /speaking/free-talk            talk about anything
+       /speaking/read-aloud           read a script against the clock
+       /speaking/retell               hear a lecture, then re-tell it
+       /speaking/group-discussion     hear three people, then summarise it
+       /speaking/repeat-sentence      hear a sentence, then say it back exactly
        /practice                      the whole-deck drill
 
      The URL is what decides which view, which batch and whether a batch is
@@ -6516,20 +8482,90 @@
 
   function refOf(x) { return x.kind + "-" + x.n; }
 
+  /* The Speaking tab's tasks and their URLs. One table, read in both
+     directions, so a slug and a mode can never drift apart. */
+  var SPEAK_SLUG = {
+    free: "free-talk",
+    read: "read-aloud",
+    retell: "retell",
+    discuss: "group-discussion",
+    repeat: "repeat-sentence",
+    pron: "pronunciation"
+  };
+  function speakSlugOf(mode) { return SPEAK_SLUG[mode] || SPEAK_SLUG.free; }
+
+  /* The Reading tab's question types, read both ways like SPEAK_SLUG, so a
+     slug and a type cannot drift. The keys are the `task` in each set file. */
+  var READ_SLUG = {
+    "fib-rw": "rw-fill-in-the-blanks",
+    "fib-r": "fill-in-the-blanks",
+    reorder: "re-order-paragraphs",
+    "mcq-single": "multiple-choice-single",
+    "mcq-multi": "multiple-choice-multiple"
+  };
+  function readTaskOf(slug) {
+    for (var t in READ_SLUG) if (READ_SLUG[t] === slug) return t;
+    return null;                              // bare /reading, or a typo
+  }
+
+  var LISTEN_SLUG = { define: "word-from-definition", hiw: "highlight-incorrect-words" };
+
+  var WRITE_SLUG = { essay: "essay" };
+  function writeSlugOf(mode) { return WRITE_SLUG[mode] || WRITE_SLUG.essay; }
+  function writeModeOf(slug) {
+    for (var m in WRITE_SLUG) if (WRITE_SLUG[m] === slug) return m;
+    return null;                              // bare /writing, or a typo
+  }
+  function speakModeOf(slug) {
+    for (var m in SPEAK_SLUG) if (SPEAK_SLUG[m] === slug) return m;
+    return null;                              // bare /speaking, or a typo
+  }
+
   function parseRoute(path) {
     var seg = String(path || "").split("/").filter(Boolean);
     if (!seg.length) return null;                       // "/" - use what is remembered
 
     if (seg[0] === "word_list") return { view: "list" };
     if (seg[0] === "grammar") return { view: "grammar", module: seg[1] || null };
+    // Same shape as the grammar routes: the index, or one set being drilled.
+    // One URL per task, as on Speaking and Reading. The definition drill
+    // keeps its set under its own slug; a bare set id is the address that
+    // drill had before the tab had tasks, and still lands on it.
+    if (seg[0] === "listening") {
+      if (!seg[1]) return { view: "listening" };
+      if (seg[1] === LISTEN_SLUG.hiw) return { view: "listening", lmode: "hiw", n: Number(seg[2]) || null };
+      if (seg[1] === LISTEN_SLUG.define) return { view: "listening", lmode: "define", set: seg[2] || null };
+      return { view: "listening", lmode: "define", set: seg[1] };
+    }
+    // Speaking's shape: one URL per question type, and a set number under it.
+    // A bare /reading keeps the type you were last on.
+    if (seg[0] === "reading") {
+      return { view: "reading", task: readTaskOf(seg[1]), n: Number(seg[2]) || null };
+    }
     // One URL, no sub-routes: which prompt you are on is a draft in progress,
     // not a place to send someone to - and putting it in the address bar would
     // make a shared or bookmarked link start somebody else's clock.
-    if (seg[0] === "essays") return { view: "essays" };
+    /* Writing holds the written tasks the way Speaking holds the spoken
+       ones. There is one of them today - Write Essay - and the table is read
+       in both directions so adding Summarize Written Text is a row rather
+       than a sweep through this file. */
+    if (seg[0] === "writing") return { view: "writing", write: writeModeOf(seg[1]) };
+    // The address this tab had before it was a tab. An old bookmark or a
+    // pasted link still lands on the essay rather than on nothing.
+    if (seg[0] === "essays") return { view: "writing", write: "essay" };
     if (seg[0] === "practice") return { view: "practice", train: null };
-    // One URL and no sub-routes, for the essays' reason: which task you are on
-    // is a rehearsal in progress, not a place to send anybody to.
-    if (seg[0] === "speaking") return { view: "speaking" };
+    // Each of the Speaking tab's tasks is its own URL. It was one /speaking
+    // for all of them, on the Essays tab's reasoning - which prompt you are on
+    // is a rehearsal in progress, not a place to send anybody to. That is
+    // still true of the prompt, and none of these routes carries one: no
+    // lecture id, no discussion id, no script. Which TASK you are on is a
+    // different kind of fact - it is a section of the tab, it is where you
+    // are, and it is worth a back button and a bookmark.
+    //
+    // A bare /speaking keeps the task you were last on: parseRoute returns no
+    // mode, nothing overrides it, and applyRoute's canonicalising go() writes
+    // the full path into the address bar.
+    if (seg[0] === "speaking") return { view: "speaking", speak: speakModeOf(seg[1]) };
 
     if (seg[0] === "batches") {
       var m = seg[1] && /^(words|phrases)-(\d+)$/.exec(seg[1]);
@@ -6558,8 +8594,23 @@
       var gm = settings.grammar.module;
       return gm && (!grammar || gById[gm]) ? "/grammar/" + gm : "/grammar";
     }
-    if (settings.view === "essays") return "/essays";
-    if (settings.view === "speaking") return "/speaking";
+    if (settings.view === "listening") {
+      // A set id that is not on disk falls back to the index, the way a
+      // deleted batch number and a missing grammar module already do.
+      var qs = settings.listening.set;
+      if (settings.listening.mode === "hiw") {
+        var hn = hiwq.sets.indexOf(hiwSet()) + 1;
+        return "/listening/" + LISTEN_SLUG.hiw + (hn > 1 ? "/" + hn : "");
+      }
+      var lbase = "/listening/" + LISTEN_SLUG.define;
+      return qs && (!quiz.sets.length || quiz.byId[qs]) ? lbase + "/" + qs : lbase;
+    }
+    if (settings.view === "reading") {
+      var rn = rdqSets().indexOf(rdqSet()) + 1;
+      return "/reading/" + READ_SLUG[rdqTask()] + (rn > 1 ? "/" + rn : "");
+    }
+    if (settings.view === "writing") return "/writing/" + writeSlugOf(settings.writing.mode);
+    if (settings.view === "speaking") return "/speaking/" + speakSlugOf(mic.mode);
     if (settings.view === "practice") {
       if (!settings.train) return "/practice";
       return "/batches/" + refOf(settings.train) +
@@ -6589,6 +8640,36 @@
       }
       if (r.view === "practice") settings.train = r.train || null;
       if (r.view === "grammar") settings.grammar.module = r.module || null;
+      if (r.view === "listening") {
+        if (r.lmode) settings.listening.mode = r.lmode;
+        // A different set means a fresh start rather than resuming somebody
+        // else's place in it.
+        if (r.lmode === "define") {
+          if (settings.listening.set !== (r.set || null)) {
+            quiz.at = 0; quiz.verdict = null; quiz.typed = ""; quiz.warmed = false;
+          }
+          settings.listening.set = r.set || null;
+        }
+        if (r.lmode === "hiw") {
+          var hs = r.n ? hiwq.sets[r.n - 1] : null;
+          var hid = r.n ? (hs && hs.id) : settings.listening.hiwSet;
+          if ((hid || null) !== (settings.listening.hiwSet || null)) hiwReset(0);
+          if (hid) settings.listening.hiwSet = hid;
+        }
+      }
+      if (r.view === "reading") {
+        var rtask = r.task || rdqTask();
+        var rset = rdqSets(rtask)[(r.n || 1) - 1];
+        // A bare type keeps the set you were on in it; a number picks one.
+        var rid = r.n ? (rset && rset.id) : settings.reading.sets[rtask];
+        if (rtask !== settings.reading.task || (rid || null) !== (settings.reading.sets[rtask] || null)) {
+          rdqReset(0);
+        }
+        settings.reading.task = rtask;
+        if (rid) settings.reading.sets[rtask] = rid;
+      }
+      if (r.view === "speaking" && r.speak) setSpeakingMode(r.speak);
+      if (r.view === "writing" && r.write) settings.writing.mode = r.write;
       settings.view = r.view;
       printing = !!r.print;
       saveSettings();
@@ -6654,25 +8735,38 @@
     // than showing an empty section.
     if (v === "speaking" && !mic.available) v = "practice";
     settings.view = (v === "list" || v === "batches" || v === "grammar" ||
-                     v === "essays" || v === "speaking") ? v : "practice";
+                     v === "writing" || v === "speaking" || v === "listening" ||
+                     v === "reading") ? v : "practice";
+    var training = TRAINING[settings.view] === true;
+    if (training) settings.trainView = settings.view;
     saveSettings();
     var practice = settings.view === "practice";
 
     document.querySelectorAll("[data-view]").forEach(function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.view === settings.view));
     });
+    document.querySelector('[data-group="training"]').setAttribute("aria-pressed", String(training));
+    document.getElementById("trainTabs").hidden = !training;
+    // The Arabic switch is Training's alone - nothing on the other tabs has
+    // any Arabic in it. The setting itself is left as it is.
+    document.getElementById("arabicCtl").hidden = !training;
     document.getElementById("instruction").hidden = !practice;
     document.querySelector(".shell").hidden = !practice;
     document.querySelector("footer").hidden = !practice;
     document.getElementById("listView").hidden = settings.view !== "list";
     document.getElementById("batchView").hidden = settings.view !== "batches";
     document.getElementById("grammarView").hidden = settings.view !== "grammar";
-    document.getElementById("essayView").hidden = settings.view !== "essays";
+    document.getElementById("essayView").hidden =
+      !(settings.view === "writing" && settings.writing.mode === "essay");
+    document.getElementById("listenView").hidden = settings.view !== "listening";
+    document.getElementById("readView").hidden = settings.view !== "reading";
     document.getElementById("speakView").hidden = settings.view !== "speaking";
     // Walking away from the tab stops the microphone. A recording that carried
     // on behind the word list would be the single worst bug this file could
     // have, so it is cut here rather than trusted to any handler.
-    if (settings.view !== "speaking" && mic.recording) stopRecording();
+    // `starting` too: the microphone is given a moment to settle before the
+    // take begins, and leaving in that moment must not let it begin anyway.
+    if (settings.view !== "speaking" && (mic.recording || mic.starting)) stopRecording();
     // Only the two table views get the fixed-height shell: they pin their
     // filters and scroll the rows inside .tablewrap. The grammar view is a
     // long document, so it must scroll the page itself - handing it
@@ -6684,7 +8778,9 @@
     if (practice) { renderTrainbar(); renderCard(); }
     else if (settings.view === "list") renderList();
     else if (settings.view === "grammar") renderGrammar();
-    else if (settings.view === "essays") renderEssay();
+    else if (settings.view === "writing") renderEssay();
+    else if (settings.view === "listening") renderListen();
+    else if (settings.view === "reading") renderReading();
     else if (settings.view === "speaking") renderSpeak();
     else renderBatches();
 
@@ -6693,10 +8789,18 @@
   }
 
   var VIEW_PATH = { list: "/word_list", batches: "/batches", grammar: "/grammar",
-                    essays: "/essays", speaking: "/speaking", practice: "/practice" };
+                    writing: "/writing", speaking: "/speaking", practice: "/practice",
+                    listening: "/listening", reading: "/reading" };
+
+  // The four views under the Training tab. It is a group of views, not a view
+  // of its own, so it has no route: its address is whichever one is open.
+  var TRAINING = { list: true, practice: true, batches: true, grammar: true };
 
   document.querySelectorAll("[data-view]").forEach(function (b) {
     b.addEventListener("click", function () { navigateTo(VIEW_PATH[b.dataset.view]); });
+  });
+  document.querySelector('[data-group="training"]').addEventListener("click", function () {
+    navigateTo(VIEW_PATH[TRAINING[settings.trainView] ? settings.trainView : "list"]);
   });
 
   document.querySelectorAll("[data-list]").forEach(function (b) {
@@ -6990,7 +9094,8 @@
     // the address bar to match - so probing afterwards and re-routing reads
     // the corrected URL and lands on the drill for ever. It is one small local
     // request, and on the cloud build it is answered from memory.
-    return Promise.all([loadDeck(), loadUsage(), probeSpeech(), loadLectures()]).then(function () {
+    return Promise.all([loadDeck(), loadUsage(), probeSpeech(), loadListenItems(),
+                        loadListen(), loadSentences(), loadReading(), loadHiw()]).then(function () {
       applyRoute();
       // After the deck, not with it: the voice bar is a nicety and must not hold
       // up the first card, and a server without TTS simply hides the bar.

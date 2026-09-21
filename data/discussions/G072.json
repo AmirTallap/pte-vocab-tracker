@@ -1,0 +1,33 @@
+{
+  "id": "G072",
+  "title": "Wildfires and the way we manage forests",
+  "field": "Environment",
+  "speakers": [
+    { "name": "Rowan", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Talia", "voice": "af_heart", "speed": 1.04 },
+    { "name": "Jens", "voice": "bm_george", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Talia", "text": "Another record season. And every article says climate change, full stop, as though that's the whole explanation." },
+    { "speaker": "Jens", "text": "It's a large part of it. Hotter, drier, longer seasons, that's measurable." },
+    { "speaker": "Rowan", "text": "It's necessary and not sufficient. The other half is a century of putting every fire out the moment it started." },
+    { "speaker": "Talia", "text": "So the fuel builds up." },
+    { "speaker": "Rowan", "text": "Enormously. These forests used to burn lightly every decade or so and clear the undergrowth. Stop that and you get one fire that takes the canopy." },
+    { "speaker": "Jens", "text": "Which is why controlled burning keeps coming up, and keeps not happening at scale." },
+    { "speaker": "Talia", "text": "Because the window is narrow and the risk is asymmetric. Nobody was ever fired for not lighting a fire.", "gap": -0.13 },
+    { "speaker": "Talia", "text": "If your burn escapes, that's your career. If you skip it, the fire arrives in someone else's term." },
+    { "speaker": "Rowan", "text": "That's the institutional problem in one sentence." },
+    { "speaker": "Jens", "text": "Indigenous fire management did this for thousands of years and is finally being brought back in a few places." },
+    { "speaker": "Rowan", "text": "Slowly, and with the liability question unresolved." },
+    { "speaker": "Talia", "text": "There's also the building. Half the losses are houses put in forest with wooden decks and no clearance." },
+    { "speaker": "Jens", "text": "Which is a planning decision, not a climate one, and much easier to change." }
+  ],
+  "points": [
+    "Record wildfire seasons are commonly attributed solely to climate change.",
+    "Rowan argues climate is necessary but not sufficient, with a century of fire suppression allowing fuel to accumulate.",
+    "Forests that once burned lightly every decade now carry enough fuel for canopy-destroying fires.",
+    "Controlled burning is rarely done at scale because risk is asymmetric: an escaped burn ends a career while inaction defers the consequence.",
+    "Indigenous fire management is being reintroduced slowly, with liability unresolved.",
+    "Talia notes many losses involve houses built in forest without clearance, which is a planning decision and easier to change."
+  ]
+}

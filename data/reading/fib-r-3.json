@@ -1,0 +1,128 @@
+{
+  "id": "fib-r-3",
+  "task": "fib-r",
+  "title": "Set 3",
+  "summary": "People and what they make: economics, the media, the mind, buildings, music and language.",
+  "items": [
+    {
+      "id": "r3-01",
+      "title": "Loss aversion",
+      "text": "Traditional economic models assume that people weigh gains and losses of the same size equally. Research by the psychologists Daniel Kahneman and Amos Tversky, however, showed that this is rarely the {{case}}. In a series of experiments, they found that the pain of losing a sum of money is typically felt more {{strongly}} than the pleasure of gaining the same amount. This asymmetry, known as loss aversion, helps to explain a range of behaviour that standard theory struggles to account {{for}}. Investors, for instance, often hold on to falling shares far too long because selling would mean accepting a loss. Kahneman was awarded the Nobel Memorial Prize in Economic Sciences in 2002, partly for this {{work}}.",
+      "distractors": ["true", "strength", "with"],
+      "why": [
+        "\"This is rarely the case\" is the fixed expression; \"the true\" is not a noun phrase.",
+        "An adverb must describe how the pain is felt, so \"strongly\"; \"strength\" is a noun.",
+        "The phrasal verb is \"account for\"; \"account with\" has a different, financial meaning.",
+        "The prize was awarded for research, so \"this work\"; none of the other box words can follow \"this\" here."
+      ]
+    },
+    {
+      "id": "r3-02",
+      "title": "The tragedy of the commons",
+      "text": "In 1968 the ecologist Garrett Hardin published an influential essay describing what he called the tragedy of the commons. His argument {{centred}} on a pasture open to all herders. Each herder gains the full benefit of adding an extra animal to the pasture, while the cost of overgrazing is shared among everyone. Acting rationally in their own interest, individuals therefore keep adding animals until the pasture is {{ruined}}. Hardin concluded that shared resources would inevitably be destroyed unless {{access}} to them was restricted by private ownership or government regulation. The political economist Elinor Ostrom later challenged this conclusion, showing that many communities {{manage}} common resources successfully through rules they devise themselves.",
+      "distractors": ["accessible", "centre", "managing"],
+      "why": [
+        "The past tense is needed, so \"centred on\"; \"centre\" does not agree with the past narrative or the singular subject.",
+        "\"Is\" plus a past participle describes the pasture's final state, so \"ruined\".",
+        "A noun is needed as the subject of \"was restricted\", so \"access\"; \"accessible\" is an adjective.",
+        "\"Communities\" needs a finite verb, so \"manage\"; \"managing\" leaves the clause without one."
+      ]
+    },
+    {
+      "id": "r3-03",
+      "title": "Setting the agenda",
+      "text": "In 1968, the communication researchers Maxwell McCombs and Donald Shaw surveyed undecided voters in Chapel Hill, North Carolina, during the United States presidential campaign. They found a close match between the issues voters {{considered}} most important and the issues that local and national news outlets had covered most heavily. This led them to propose what became known as agenda-setting theory. {{According}} to this theory, the media may not be very successful in telling people what to think, but they are remarkably successful in telling them what to think {{about}}. By choosing which stories to feature prominently and which to ignore, editors {{effectively}} shape the priorities of the public, even when their coverage is balanced.",
+      "distractors": ["considerate", "for", "effective"],
+      "why": [
+        "A verb is needed, so \"considered\"; \"considerate\" is an adjective meaning thoughtful towards others.",
+        "\"According to\" introduces a source; no other box word forms a phrase with \"to\" here.",
+        "\"Think about\" means give attention to a topic; \"think for\" does not carry that meaning.",
+        "An adverb must modify \"shape\", so \"effectively\"; \"effective\" is an adjective."
+      ]
+    },
+    {
+      "id": "r3-04",
+      "title": "Gothic cathedrals",
+      "text": "Gothic architecture emerged in northern France in the twelfth century and spread across much of Europe over the following three hundred years. Its builders aimed to create churches that were taller and filled with more light than anything that had come {{before}}. Several structural innovations made this possible. Pointed arches directed the weight of the roof more steeply downwards than rounded ones, and ribbed vaults {{concentrated}} that weight onto a small number of points. Flying buttresses, stone arms reaching out from the walls, carried much of the outward thrust down to the ground. Because the walls no longer had to {{bear}} the full load, they could be pierced by large windows of stained glass, which {{flooded}} the interior with coloured light.",
+      "distractors": ["ahead", "bearing", "flooding"],
+      "why": [
+        "\"Anything that had come before\" means anything earlier; \"come ahead\" does not refer to the past.",
+        "The clause needs a past-tense verb for \"ribbed vaults\", so \"concentrated\"; \"bearing\" leaves it without one.",
+        "\"Had to\" needs a base-form verb, and walls \"bear\" a load; \"bearing\" is the wrong form.",
+        "\"Which\" needs a finite past-tense verb, so \"flooded\"; \"flooding\" cannot stand alone."
+      ]
+    },
+    {
+      "id": "r3-05",
+      "title": "Equal temperament",
+      "text": "Musical instruments with fixed pitches, such as the piano, {{face}} a problem that has troubled theorists since antiquity. Intervals that sound perfectly pure, based on simple ratios between frequencies, cannot all be fitted together within the octave. If a keyboard is tuned so that some keys sound pure, music written in keys {{far}} removed from them will sound noticeably out of tune. Equal temperament resolves this by dividing the octave into twelve exactly equal semitones. Every interval except the octave is then slightly impure, but the error is spread so evenly that it is barely {{perceptible}}, and a piece can be played in any key. Although the system had been described centuries earlier, it only became {{standard}} for keyboard instruments in the nineteenth century.",
+      "distractors": ["faces", "perceptibly", "standardise"],
+      "why": [
+        "The plural subject \"instruments\" needs \"face\"; \"faces\" is singular.",
+        "\"Far removed from\" means very distant from; no other box word fits before \"removed\".",
+        "\"Barely\" here modifies an adjective after \"is\", so \"perceptible\"; \"perceptibly\" is an adverb.",
+        "\"Became\" needs an adjective, so \"standard\"; \"standardise\" is a verb."
+      ]
+    },
+    {
+      "id": "r3-06",
+      "title": "Pidgins and creoles",
+      "text": "When groups of people who share no common language are brought into sustained contact, often through trade or colonisation, they may develop a pidgin. A pidgin is a simplified form of communication with a limited vocabulary, usually {{drawn}} largely from one dominant language, and few grammatical rules. It is nobody's first language. If children grow up hearing a pidgin, however, they tend to expand it into a {{fully}} developed language with a stable grammar. This new language is known as a creole. Tok Pisin, for example, began as a pidgin in the Pacific and is now an official language of Papua New Guinea, spoken as a first {{language}} by a growing number of people. Linguists study creoles closely because they offer a rare {{opportunity}} to observe how grammar emerges.",
+      "distractors": ["draws", "full", "opportune"],
+      "why": [
+        "A vocabulary is \"drawn from\" a source, a passive participle; \"draws\" is an active finite verb.",
+        "An adverb must modify \"developed\", so \"fully\"; \"full\" is an adjective.",
+        "\"Spoken as a first language\" means learned from birth; no other box word is a noun that fits.",
+        "After \"a rare\" a noun is needed, so \"opportunity\"; \"opportune\" is an adjective."
+      ]
+    },
+    {
+      "id": "r3-07",
+      "title": "Cognitive dissonance",
+      "text": "In 1957 the social psychologist Leon Festinger proposed the theory of cognitive dissonance. He argued that people feel psychological discomfort when they hold two beliefs that {{contradict}} each other, or when their behaviour conflicts with their values. To reduce this discomfort, they are motivated to change one of the beliefs, or to find a {{justification}} for the behaviour. In a well-known experiment, participants performed a tedious task and were then paid either one dollar or twenty dollars to tell the next participant that it had been enjoyable. Those paid only one dollar later rated the task as more interesting. Festinger reasoned that the small payment was {{insufficient}} to explain their lie, so they resolved the tension by persuading {{themselves}} that they had enjoyed it after all.",
+      "distractors": ["conflict", "justified", "insufficiently"],
+      "why": [
+        "\"Contradict\" takes \"each other\" directly; \"conflict\" needs \"with\".",
+        "After \"a\" a noun is needed, so \"justification\"; \"justified\" is a participle.",
+        "\"Was\" needs an adjective, so \"insufficient\"; \"insufficiently\" is an adverb.",
+        "The participants persuaded their own selves, so the reflexive \"themselves\"."
+      ]
+    },
+    {
+      "id": "r3-08",
+      "title": "The prisoner's dilemma",
+      "text": "The prisoner's dilemma is one of the best-known problems in game theory. Two suspects are {{held}} in separate cells and cannot communicate. Each is offered the same deal: betray the other and receive a lighter sentence, or stay silent. If both stay silent, both receive a short sentence; if both betray, both receive a fairly long one. Whatever the other does, each prisoner is better off betraying, so two rational players will both betray {{despite}} the fact that mutual silence would leave them both better off. The dilemma helps to explain why cooperation can be difficult to {{achieve}}, from arms races to price wars. When the game is repeated many times, however, strategies based on reciprocity tend to perform {{well}}.",
+      "distractors": ["hold", "although", "good"],
+      "why": [
+        "The passive needs a past participle, so \"are held\"; \"are hold\" is ungrammatical.",
+        "\"Despite\" is followed by a noun phrase, \"the fact that\"; \"although\" must be followed by a clause.",
+        "\"Difficult to\" needs a base-form verb, and cooperation is \"achieved\".",
+        "\"Perform\" is modified by an adverb, so \"well\"; \"perform good\" is non-standard."
+      ]
+    },
+    {
+      "id": "r3-09",
+      "title": "Brutalism",
+      "text": "Brutalism was an architectural style that flourished from the 1950s to the 1970s, particularly in public buildings such as universities, housing estates and government offices. The name {{derives}} from the French béton brut, meaning raw concrete, and the style is characterised by massive, geometric forms in which concrete is left exposed, often still bearing the marks of the wooden moulds into which it was poured. For its admirers, Brutalism was honest and democratic, {{offering}} solid and affordable buildings for a society rebuilding after the war. Its critics, {{by}} contrast, regarded it as cold and oppressive. Many Brutalist buildings have been demolished, yet in recent years the style has enjoyed a {{revival}} of interest.",
+      "distractors": ["derive", "offered", "on"],
+      "why": [
+        "The singular subject \"the name\" needs \"derives\"; \"derive\" is plural.",
+        "A participle clause follows the comma, so \"offering\"; \"offered\" would make a second main verb with no subject or conjunction.",
+        "\"By contrast\" is the fixed phrase; \"on contrast\" is not English.",
+        "\"A revival of interest\" is the collocation; no other box word is a noun that fits."
+      ]
+    },
+    {
+      "id": "r3-10",
+      "title": "The Great Vowel Shift",
+      "text": "English spelling often seems to bear little relation to pronunciation, and one major reason is the Great Vowel Shift. Between roughly 1400 and 1700, the long vowels of English {{underwent}} a series of changes in which most were pronounced higher in the mouth, while the highest ones became diphthongs. A word such as bite, for instance, had been pronounced much {{like}} modern beet, and house had sounded like modern hoose. However, English spelling was becoming fixed during the same period, {{partly}} as a result of the spread of printing. Written forms therefore reflect pronunciations that have since changed, which is why the letters of many English words give an unreliable {{guide}} to their sound.",
+      "distractors": ["undergone", "alike", "partial"],
+      "why": [
+        "A simple past verb is needed, so \"underwent\"; \"undergone\" is a participle and needs \"had\".",
+        "\"Much like\" means very similar to; \"alike\" cannot be followed by a noun.",
+        "An adverb must modify \"as a result of\", so \"partly\"; \"partial\" is an adjective.",
+        "After \"an unreliable\" a countable noun is needed, so \"guide\"."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G096",
+  "title": "Should school days start later?",
+  "field": "Education and health",
+  "speakers": [
+    { "name": "Cerys", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Milo", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Rae", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Rae", "text": "The proposal is a ten o'clock start for the sixth form. The biology behind it is apparently quite solid." },
+    { "speaker": "Milo", "text": "The body clock shifts in adolescence, doesn't it. It isn't laziness." },
+    { "speaker": "Cerys", "text": "It's measurable. Melatonin release moves later by roughly two hours and then drifts back in the twenties." },
+    { "speaker": "Rae", "text": "So asking a sixteen-year-old to think at half past eight is like asking me to at half past six." },
+    { "speaker": "Cerys", "text": "Roughly, yes. And the districts that moved the start time saw attendance rise and, in a few studies, grades." },
+    { "speaker": "Milo", "text": "How big were the effects?" },
+    { "speaker": "Cerys", "text": "Modest on grades, clearer on attendance and on reported mood. Sleep studies are hard to run well, to be fair." },
+    { "speaker": "Rae", "text": "The objection is always logistics rather than biology. Buses, siblings, parents' shifts.", "gap": -0.13 },
+    { "speaker": "Milo", "text": "Which are real. A parent leaving at seven can't have a child starting at ten." },
+    { "speaker": "Cerys", "text": "Staggering helps. Primary early, secondary late, which suits both age groups' clocks anyway." },
+    { "speaker": "Rae", "text": "And the buses run twice, which costs money nobody has." },
+    { "speaker": "Milo", "text": "There's a sport argument too. Late finish means no training, no part-time job, no evening." },
+    { "speaker": "Cerys", "text": "That's the trade that actually needs discussing, rather than pretending it's free." }
+  ],
+  "points": [
+    "A later start for older pupils is proposed on biological grounds.",
+    "Adolescent melatonin release shifts about two hours later, returning in the twenties, so early starts conflict with the body clock.",
+    "Districts moving start times saw improved attendance and mood, with modest grade effects.",
+    "Objections are logistical rather than biological, involving buses, siblings and parents' working hours.",
+    "Staggering primary and secondary start times suits both age groups but requires additional transport cost.",
+    "Milo notes a later finish reduces time for sport, jobs and evenings, which Cerys says is the trade-off that should be discussed openly."
+  ]
+}

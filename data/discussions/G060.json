@@ -1,0 +1,33 @@
+{
+  "id": "G060",
+  "title": "Does remote work empty the city centre?",
+  "field": "Cities and work",
+  "speakers": [
+    { "name": "Vera", "voice": "af_sarah", "speed": 1.02 },
+    { "name": "Hal", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Jin", "voice": "am_puck", "speed": 1.03 }
+  ],
+  "turns": [
+    { "speaker": "Hal", "text": "Office occupancy midweek is around seventy per cent of what it was. Mondays and Fridays are nearer thirty." },
+    { "speaker": "Jin", "text": "And the sandwich shops built a business on five days that now has three." },
+    { "speaker": "Vera", "text": "Which is real, but it's a transfer rather than a loss. That lunch is being bought somewhere, just nearer where people live." },
+    { "speaker": "Hal", "text": "Except the somewhere is a suburb with a supermarket, not a small independent place." },
+    { "speaker": "Vera", "text": "Sometimes. The data on suburban high streets is actually quite positive, though. Smaller towns near big cities have done well out of this." },
+    { "speaker": "Jin", "text": "So the money didn't vanish, it moved outward." },
+    { "speaker": "Vera", "text": "Mostly, yes. Which is arguably what everyone wanted for thirty years of regional policy.", "gap": -0.13 },
+    { "speaker": "Hal", "text": "That's a fair point and an uncomfortable one for anyone who spent that career arguing for it." },
+    { "speaker": "Jin", "text": "The office buildings themselves are the harder question. You can't easily convert a deep-plan tower into flats." },
+    { "speaker": "Vera", "text": "Because the middle has no windows and the plumbing was never designed for it." },
+    { "speaker": "Hal", "text": "The conversions that do work tend to be older, narrower buildings, which is a nice irony." },
+    { "speaker": "Jin", "text": "And the public transport is priced on five-day commuting that no longer exists." },
+    { "speaker": "Vera", "text": "Which is fixable with fares, and is being fixed extremely slowly." }
+  ],
+  "points": [
+    "Midweek office occupancy is around seventy per cent of pre-existing levels, with Mondays and Fridays near thirty.",
+    "City centre businesses built around five-day attendance have suffered.",
+    "Vera argues this is a transfer rather than a loss, with spending moving closer to where people live.",
+    "Data on suburban and small-town high streets has been positive, which arguably fulfils decades of regional policy aims.",
+    "Converting deep-plan office towers to housing is difficult because of windowless interiors and unsuitable plumbing, while older narrower buildings convert well.",
+    "Public transport pricing still assumes five-day commuting and is adapting slowly."
+  ]
+}

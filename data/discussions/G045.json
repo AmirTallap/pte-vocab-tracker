@@ -1,0 +1,33 @@
+{
+  "id": "G045",
+  "title": "Trees in cities, and the ones that die",
+  "field": "Cities and environment",
+  "speakers": [
+    { "name": "Marisol", "voice": "af_aoede", "speed": 1.03 },
+    { "name": "Ewan", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Jay", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Jay", "text": "They planted four hundred street trees two summers ago and about a third of them are dead." },
+    { "speaker": "Ewan", "text": "A third is about standard for urban planting, unfortunately. The planting gets funded and the watering doesn't." },
+    { "speaker": "Marisol", "text": "Which is backwards, because a street tree needs about three years of attention and then nothing for a century." },
+    { "speaker": "Jay", "text": "So a small maintenance budget would save most of them." },
+    { "speaker": "Marisol", "text": "A tiny one. But planting has a photograph and watering doesn't." },
+    { "speaker": "Ewan", "text": "The species choice matters as much, honestly. Half of these are ornamental things that look good on a plan and hate compacted soil." },
+    { "speaker": "Jay", "text": "What are they actually for? Because the arguments keep changing.", "gap": 0.1 },
+    { "speaker": "Marisol", "text": "The cooling is the serious one. A shaded street can run several degrees below an unshaded one on a hot day, and that's a life-and-death difference for elderly residents." },
+    { "speaker": "Ewan", "text": "Air quality gets overstated, mind you. Trees intercept some particulates and they can also trap them under a canopy on a narrow street." },
+    { "speaker": "Marisol", "text": "That's true, and the honest version is cooling first, water management second, air quality a distant third.", "gap": -0.13 },
+    { "speaker": "Jay", "text": "Plus people simply prefer them, which nobody counts." },
+    { "speaker": "Ewan", "text": "It does show up in property prices, which is the only way anyone measures preference." },
+    { "speaker": "Marisol", "text": "And is also why the leafy streets are the expensive ones already." }
+  ],
+  "points": [
+    "About a third of four hundred newly planted street trees died, which is typical because planting is funded and watering is not.",
+    "Marisol notes street trees need roughly three years of care and then none for a century.",
+    "Species choice matters, as ornamental varieties often cope badly with compacted urban soil.",
+    "The strongest benefit is cooling, with shaded streets several degrees cooler, which matters for elderly residents.",
+    "Ewan argues air quality benefits are overstated and canopies can trap particulates in narrow streets.",
+    "Preference shows up only in property prices, which is also why leafy streets are already expensive."
+  ]
+}

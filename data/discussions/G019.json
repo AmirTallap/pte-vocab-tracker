@@ -1,0 +1,33 @@
+{
+  "id": "G019",
+  "title": "Should we still be testing on animals?",
+  "field": "Science and ethics",
+  "speakers": [
+    { "name": "Paul", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Deniz", "voice": "bf_emma", "speed": 1.03 },
+    { "name": "Hana", "voice": "af_bella", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Deniz", "text": "The new rules phase out animal testing for cosmetics entirely by the end of next year, and for some drug categories after that." },
+    { "speaker": "Hana", "text": "Cosmetics I'd have banned decades ago. Nobody needs a new mascara badly enough." },
+    { "speaker": "Paul", "text": "Agreed, and that part's easy. The drug side is where it gets uncomfortable, because the alternatives aren't equivalent yet." },
+    { "speaker": "Deniz", "text": "Organ-on-a-chip is genuinely impressive, though. You get human tissue responding to a human dose." },
+    { "speaker": "Paul", "text": "For liver toxicity, yes. For anything systemic, a chip doesn't have a nervous system or an immune response." },
+    { "speaker": "Hana", "text": "So the honest position is that some of it can go now and some of it can't." },
+    { "speaker": "Paul", "text": "That's where I am. What I object to is pretending the choice is free." },
+    { "speaker": "Deniz", "text": "The counter-argument I find hard is the predictive one. Something like nine in ten drugs that pass animal trials still fail in humans.", "gap": 0.1 },
+    { "speaker": "Hana", "text": "Nine in ten?" },
+    { "speaker": "Deniz", "text": "Roughly. So the test we're defending on ethical grounds isn't even a good test." },
+    { "speaker": "Paul", "text": "That's the strongest thing anyone's said to me on this, honestly. Although the failures we never see are the ones it caught." },
+    { "speaker": "Hana", "text": "Which is unfalsifiable, to be fair." },
+    { "speaker": "Paul", "text": "It is. I'd still rather be the person making that argument than the one ignoring it." }
+  ],
+  "points": [
+    "New rules phase out animal testing for cosmetics next year and for some drug categories later.",
+    "All three accept the cosmetics ban readily; the disagreement is about medicines.",
+    "Paul argues alternatives are not yet equivalent, since organ-on-a-chip models lack nervous and immune systems.",
+    "Deniz's strongest point is predictive failure: roughly nine in ten drugs passing animal trials still fail in humans.",
+    "Paul concedes this is the strongest objection, but notes the harms the tests prevented are invisible.",
+    "Hana points out that this defence is unfalsifiable, which Paul accepts."
+  ]
+}

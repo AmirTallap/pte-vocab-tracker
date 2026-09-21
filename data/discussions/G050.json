@@ -1,0 +1,33 @@
+{
+  "id": "G050",
+  "title": "Who owns what an AI was trained on?",
+  "field": "Technology and law",
+  "speakers": [
+    { "name": "Sana", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Gil", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Ty", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Gil", "text": "The illustrators' case went to trial this week. Whether training on their work without asking was ever lawful." },
+    { "speaker": "Ty", "text": "The defence is that reading isn't copying. A person can look at ten thousand drawings and learn a style, and style isn't protected." },
+    { "speaker": "Sana", "text": "That analogy does a lot of work, though. A person reads slowly, forgets most of it, and can't be run ten million times in parallel." },
+    { "speaker": "Gil", "text": "Scale as a difference in kind rather than degree." },
+    { "speaker": "Sana", "text": "I think so, yes. The law usually cares about market effect, and this affects the market in a way one student never could." },
+    { "speaker": "Ty", "text": "The awkward part is that licensing everything would only be affordable for the biggest companies.", "gap": -0.13 },
+    { "speaker": "Ty", "text": "So a rule meant to protect artists ends up entrenching whoever can pay for a catalogue." },
+    { "speaker": "Gil", "text": "That's the strongest counter and I've never heard a good answer to it." },
+    { "speaker": "Sana", "text": "Collective licensing, maybe. It's how radio pays for music without negotiating with every band." },
+    { "speaker": "Gil", "text": "That took decades and a lot of legislation to build." },
+    { "speaker": "Ty", "text": "The part that gets lost is that most artists aren't asking for money first. They asked to be able to say no." },
+    { "speaker": "Sana", "text": "Which an opt-out does badly, because it assumes you knew it was happening." },
+    { "speaker": "Gil", "text": "And nobody did until the models were already trained." }
+  ],
+  "points": [
+    "Illustrators are litigating over whether training on their work without permission was lawful.",
+    "The defence argues learning a style is not copying, since style is unprotected.",
+    "Sana argues scale makes it a difference in kind, because the market effect exceeds anything a human learner could cause.",
+    "Ty's counter is that mandatory licensing would favour the largest companies, entrenching those who can buy catalogues.",
+    "Sana proposes collective licensing on the radio model, though Gil notes it took decades to establish.",
+    "Ty observes most artists sought the right to refuse rather than payment, which opt-out schemes handle poorly since nobody knew training was happening."
+  ]
+}

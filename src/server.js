@@ -12,6 +12,24 @@ import { loadUsage, usageCounts } from './usage.js';
 import { loadEssays, loadEssayGuides } from './essays.js';
 import { loadModels, modelCounts } from './models.js';
 import { loadLectures, lectureIndex, lectureAudioPath, PREPARE_SECONDS, SPEAK_SECONDS } from './lectures.js';
+import { loadListening, listeningIndex } from './listening.js';
+import { loadSentences, sentenceIndex } from './sentences.js';
+import { loadReading, readingIndex, gradeReading, TASKS as READING_TASKS } from './reading.js';
+import { loadHiw, hiwIndex, gradeHiw } from './hiw.js';
+import { noteMisreads, notePractice, pronounceList, deletePronounce } from './pronounce.js';
+// The tally helpers straight from the browser-safe half. grammar.js re-exports
+// the three grammar-named ones for its own call sites; these two take the
+// store as an argument and belong to no single subject, so there is nothing to
+// route them through.
+import { recordIn, progressOf } from './shared.js';
+import {
+  loadDiscussions, discussionIndex, discussionAudioPath,
+  // Aliased: a discussion's allowances are not a lecture's. Summarising three
+  // people takes longer than re-telling one, which is why the speaking time
+  // is 60 rather than 40, and why these are two pairs of numbers rather than
+  // one pair shared between the tasks.
+  PREPARE_SECONDS as DISCUSSION_PREPARE, SPEAK_SECONDS as DISCUSSION_SPEAK,
+} from './discussions.js';
 import { decode, transcribe, status as asrStatus, haveFfmpeg, MAX_SECONDS } from './asr.js';
 import { analyse } from './speech.js';
 import { SHEETS, MASTER_FILE, ROOT } from './config.js';
@@ -69,8 +87,43 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    Additions again, and bumped for the same reason - an older server 404s
  *    the index, the Speaking tab draws no lecture section, and a hundred
  *    lectures look like they were never written.
+ * 12 /api/lectures changes MEANING, which is the 2 Sep failure's own shape.
+ *    `real` used to be "has an audio file", which was the same question only
+ *    while the written hundred had none. They are all pre-rendered now
+ *    (tools/render-lectures.js), so an older server would answer `real:true`
+ *    for every one of them - and the page's new "Real voices" filter would
+ *    quietly serve synthetic lectures under the one label whose whole job is
+ *    to exclude them. `real` is now "has a credit", and `audio` is the new
+ *    field for whether the file exists.
+ * 13 /api/discussions, /api/discussions/<id> and .../audio are new: Summarize
+ *    Group Discussion. Additions, and bumped for the reason 10 and 11 were -
+ *    an older server 404s the index, the page draws no discussion section at
+ *    all, and a whole task looks like it was never built rather than like a
+ *    server that needs restarting.
+ * 14 /api/listening, /api/listening/<id>/audio and /api/listening/answer are
+ *    new: hear a definition, type the word. Additions, and bumped for the
+ *    reason 10, 11 and 13 were - an older server 404s the index, the page
+ *    draws no Listening tab at all, and a whole module looks like it was
+ *    never built rather than like a server that needs restarting.
+ * 15 /api/sentences and /api/sentences/<id>/audio are new, and
+ *    /api/speech/analyse now takes `?sentence=<id>` as well as `?script=`:
+ *    Repeat Sentence, where the script is HEARD and the page is never given
+ *    the words. An older server ignores the sentence parameter and marks the
+ *    answer against an EMPTY script, which reports every word you said as an
+ *    addition - wrong in a way that looks like your speaking rather than like
+ *    a stale server, which is exactly the 2 Sep failure's shape.
+ * 16 /api/reading and /api/reading/answer are new: the Reading tab. Additions,
+ *    bumped for the reason 14 was - an older server 404s the index and the
+ *    tab looks like it was never built rather than like a stale server.
+ * 17 /api/hiw, /api/hiw/<id>/audio and /api/hiw/answer are new: Highlight
+ *    Incorrect Words, the Listening tab's second task. Additions, bumped for
+ *    the same reason as 16.
+ * 18 /api/pronounce and /api/pronounce/delete are new, and /api/speech/analyse
+ *    takes `&practice=1`: the Speaking tab's Pronunciation list. A change of
+ *    meaning as well as an addition - an older server ignores `practice` and
+ *    would file a one-word practice take as a Read Aloud.
  */
-const API_VERSION = 11;
+const API_VERSION = 18;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -106,6 +159,15 @@ export function serve({ port = 4173, open = true } = {}) {
   // once, never written back, and no study state anywhere near them.
   const { lectures, problems: lectureProblems } = loadLectures();
   const lectureById = new Map(lectures.map((l) => [l.id, l]));
+  const { discussions, problems: discussionProblems } = loadDiscussions();
+  const discussionById = new Map(discussions.map((d) => [d.id, d]));
+  const { sets: listenSets, byQuestion: listenByQuestion,
+          problems: listenProblems } = loadListening();
+  const { sets: sentenceSets, byId: sentenceById,
+          problems: sentenceProblems } = loadSentences();
+  const { sets: readingSets, byItem: readingByItem,
+          problems: readingProblems } = loadReading();
+  const { sets: hiwSets, byItem: hiwByItem, problems: hiwProblems } = loadHiw();
   const grammarById = new Map(grammar.modules.map((m) => [m.id, m]));
 
   /* ---- writes are debounced, and backed up once per session ------------ */
@@ -409,7 +471,17 @@ export function serve({ port = 4173, open = true } = {}) {
           });
         }
 
-        const script = url.searchParams.get('script') || '';
+        /* Read Aloud sends the script it is already showing you. Repeat
+         * Sentence sends only the sentence's ID, and the words are looked up
+         * HERE - the page was never given them, because being able to read
+         * the sentence would make it a different task. The comparison comes
+         * back in the report either way. */
+        const sentenceId = url.searchParams.get('sentence') || '';
+        const spoken = sentenceId ? sentenceById.get(sentenceId) : null;
+        if (sentenceId && !spoken) {
+          return json(res, 404, { error: `unknown sentence: ${sentenceId}` });
+        }
+        const script = spoken ? spoken.text : (url.searchParams.get('script') || '');
 
         // Both sheets together: which deck a word came off is the report's to
         // say, not the caller's to choose.
@@ -418,10 +490,45 @@ export function serve({ port = 4173, open = true } = {}) {
           ...deck.phrases.map((e) => ({ ...e, kind: 'phrases' })),
         ];
 
+        const report = analyse({ words: heard.words, pcm, text: heard.text, script, deck: all });
+
+        /* The Pronunciation list. A Read Aloud - a script sent by the page,
+         * not a Repeat Sentence looked up here - files the words it came out
+         * wrong on. A practice take from that list files nothing: it is
+         * counted against the one word being practised. Words only, never
+         * the audio - see src/pronounce.js. */
+        let pronounce = null;
+        if (url.searchParams.get('practice') === '1' && script) {
+          pronounce = { practice: notePractice(progress, script, report.read) };
+          scheduleProgressWrite();
+        } else if (script && !spoken) {
+          const added = noteMisreads(progress, report.read);
+          if (added.length) scheduleProgressWrite();
+          pronounce = { added };
+        }
+
         return json(res, 200, {
           api: API_VERSION,
-          ...analyse({ words: heard.words, pcm, text: heard.text, script, deck: all }),
+          // Echoed back only now, with the report. The page needs the words to
+          // draw the script it is annotating, and this is the first moment at
+          // which having them costs nothing.
+          ...(spoken ? { script } : {}),
+          ...report,
+          ...(pronounce ? { pronounce } : {}),
         });
+      }
+
+      /** The Pronunciation list, most recently missed first. */
+      if (req.method === 'GET' && url.pathname === '/api/pronounce') {
+        return json(res, 200, { api: API_VERSION, words: pronounceList(progress) });
+      }
+
+      /** Off the list, for good: it will not be filed again. */
+      if (req.method === 'POST' && url.pathname === '/api/pronounce/delete') {
+        const { word } = await readBody(req);
+        if (!deletePronounce(progress, word)) return json(res, 400, { error: 'no word given' });
+        scheduleProgressWrite();
+        return json(res, 200, { ok: true, words: pronounceList(progress) });
       }
 
       if (req.method === 'POST' && url.pathname === '/api/mark') {
@@ -741,6 +848,250 @@ export function serve({ port = 4173, open = true } = {}) {
         return json(res, 200, { api: API_VERSION, lecture });
       }
 
+      /**
+       * Summarize Group Discussion: the same three routes as the lectures,
+       * answering the same shape, because the page drives both tasks through
+       * one panel, one transport and one report. The index withholds what was
+       * SAID and nothing else - who is speaking, and how many of them, is
+       * what the exam tells you too.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/discussions') {
+        return json(res, 200, {
+          api: API_VERSION,
+          prepare: DISCUSSION_PREPARE,
+          speak: DISCUSSION_SPEAK,
+          discussions: discussionIndex(discussions),
+        });
+      }
+
+      if (req.method === 'GET' && /^\/api\/discussions\/[^/]+\/audio$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const discussion = discussionById.get(id);
+        const file = discussionAudioPath(discussion);
+        if (!file || !fs.existsSync(file)) {
+          return json(res, 404, { error: `no audio for "${id}"` });
+        }
+        const buf = fs.readFileSync(file);
+        res.writeHead(200, {
+          'content-type': 'audio/mpeg',
+          'content-length': buf.length,
+          'cache-control': 'public, max-age=604800',
+        });
+        return res.end(req.method === 'HEAD' ? undefined : buf);
+      }
+
+      if (req.method === 'GET' && url.pathname.startsWith('/api/discussions/')) {
+        const id = decodeURIComponent(url.pathname.slice('/api/discussions/'.length));
+        const discussion = discussionById.get(id);
+        if (!discussion) return json(res, 404, { error: `no discussion "${id}"` });
+        return json(res, 200, { api: API_VERSION, discussion });
+      }
+
+      /**
+       * Listening: hear a definition, type the word.
+       *
+       * The index carries the sets, their question ids and the learner's
+       * tally. It does NOT carry the clues or the answers, and that is the
+       * whole design: the grammar tab withholds its answers so the page
+       * cannot be read for them, and here the CLUE has to be withheld too,
+       * because being able to read it removes the listening entirely.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/listening') {
+        return json(res, 200, {
+          api: API_VERSION,
+          sets: listeningIndex(listenSets),
+          progress: progressOf(progress, 'listening'),
+        });
+      }
+
+      /**
+       * One clue, spoken. A WAV, so the page hands it straight to an <audio>
+       * element, in whichever voice the voicebar has - the accent you
+       * practise against is the one you chose.
+       *
+       * Rendered through the same cached `say()` the drill uses, so a clue
+       * costs a few seconds once and about twenty milliseconds every time
+       * after that. The page prefetches the next question's audio while you
+       * are typing this one, exactly as the vocabulary drill does.
+       */
+      if (req.method === 'GET' && /^\/api\/listening\/[^/]+\/audio$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const question = listenByQuestion.get(id);
+        if (!question) return json(res, 404, { error: `unknown question: ${id}` });
+
+        const voice = url.searchParams.get('voice') || DEFAULT_VOICE;
+        const speed = url.searchParams.get('speed') || '1';
+        if (!isVoiceId(voice)) return json(res, 400, { error: `unknown voice: ${voice}` });
+
+        let audio;
+        try {
+          audio = await say(question.clue, voice, { speed });
+        } catch (err) {
+          return json(res, 503, { error: `could not speak: ${err.message}` });
+        }
+        res.writeHead(200, {
+          'content-type': 'audio/wav',
+          'content-length': audio.buffer.length,
+          'cache-control': 'public, max-age=604800',
+        });
+        return res.end(req.method === 'HEAD' ? undefined : audio.buffer);
+      }
+
+      /**
+       * Mark one typed answer, and only then hand over the words.
+       *
+       * `isAccepted()` is the grammar grader, imported rather than
+       * reimplemented: case-insensitive, whitespace collapsed, curly
+       * apostrophes normalised. A missing variant in a question's `accept`
+       * array marks a correct answer wrong, which CLAUDE.md calls the worst
+       * failure this tool has - so the fix for one is always the array, never
+       * the grader.
+       *
+       * scheduleProgressWrite(), never scheduleWrite(): this is a 1KB change
+       * and the workbook is 275KB of .xlsx. Same rule as a grammar answer and
+       * a batch error.
+       */
+      if (req.method === 'POST' && url.pathname === '/api/listening/answer') {
+        const { q: questionId, text } = await readBody(req);
+        const question = listenByQuestion.get(questionId);
+        if (!question) return json(res, 404, { error: `unknown question: ${questionId}` });
+
+        const correct = isAccepted(question, text);
+        const tally = recordIn(progress, 'listening', question.set, question.id, correct);
+        scheduleProgressWrite();
+
+        return json(res, 200, {
+          ok: true,
+          correct,
+          // The clue comes back with the verdict so it can be READ once it
+          // has been heard and answered. That is the point at which seeing it
+          // teaches rather than gives it away.
+          clue: question.clue,
+          answer: question.answer,
+          accept: question.accept,
+          note: question.note,
+          tally,
+        });
+      }
+
+      /**
+       * Reading: every set, every passage, and none of the keys. The passage
+       * has to be read, so it is sent - about 330KB for the 250 items, fetched once
+       * when the tab opens. What is right in a gap, the order the paragraphs
+       * belong in and which options are correct stay here until the item is
+       * submitted: see src/reading.js.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/reading') {
+        return json(res, 200, {
+          api: API_VERSION,
+          tasks: READING_TASKS,
+          sets: readingIndex(readingSets),
+          progress: progressOf(progress, 'reading'),
+        });
+      }
+
+      /**
+       * Mark one reading item and hand over the key with the verdict. Right
+       * means full marks - the partial score is in the verdict. A progress
+       * write, never a workbook one: the grammar answer's rule.
+       */
+      if (req.method === 'POST' && url.pathname === '/api/reading/answer') {
+        const { item: itemId, response } = await readBody(req);
+        const item = readingByItem.get(itemId);
+        if (!item) return json(res, 404, { error: `unknown item: ${itemId}` });
+
+        const verdict = gradeReading(item, response || {});
+        const tally = recordIn(progress, 'reading', item.set, item.id,
+                               verdict.score === verdict.max);
+        scheduleProgressWrite();
+        return json(res, 200, { ok: true, ...verdict, tally });
+      }
+
+      /**
+       * Highlight Incorrect Words: the transcripts AS SHOWN - clicking the
+       * words is the task, so they have to be sent - and never which ones are
+       * wrong or what was really said. See src/hiw.js.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/hiw') {
+        return json(res, 200, {
+          api: API_VERSION,
+          sets: hiwIndex(hiwSets),
+          progress: progressOf(progress, 'hiw'),
+        });
+      }
+
+      /** The recording: the SPOKEN text, through the same cached say(). */
+      if (req.method === 'GET' && /^\/api\/hiw\/[^/]+\/audio$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const item = hiwByItem.get(id);
+        if (!item) return json(res, 404, { error: `unknown item: ${id}` });
+        const voice = url.searchParams.get('voice') || DEFAULT_VOICE;
+        const speed = url.searchParams.get('speed') || '1';
+        if (!isVoiceId(voice)) return json(res, 400, { error: `unknown voice: ${voice}` });
+        let audio;
+        try {
+          audio = await say(item.script, voice, { speed });
+        } catch (err) {
+          return json(res, 503, { error: `could not speak: ${err.message}` });
+        }
+        res.writeHead(200, {
+          'content-type': 'audio/wav',
+          'content-length': audio.buffer.length,
+          'cache-control': 'public, max-age=604800',
+        });
+        return res.end(audio.buffer);
+      }
+
+      /** Mark the clicked words; the key comes back with the verdict. */
+      if (req.method === 'POST' && url.pathname === '/api/hiw/answer') {
+        const { item: itemId, picked } = await readBody(req);
+        const item = hiwByItem.get(itemId);
+        if (!item) return json(res, 404, { error: `unknown item: ${itemId}` });
+        const verdict = gradeHiw(item, picked);
+        const tally = recordIn(progress, 'hiw', item.set, item.id,
+                               verdict.score === verdict.max && verdict.misses === 0);
+        scheduleProgressWrite();
+        return json(res, 200, { ok: true, ...verdict, tally });
+      }
+
+      /**
+       * Repeat Sentence: the sets and their ids. NOT the sentences - they are
+       * heard, once, and reading one beforehand would make it a different
+       * exercise. The word count IS sent, because the exam tells you how long
+       * the sentence was the moment it plays and the page needs it to size the
+       * recording window.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/sentences') {
+        return json(res, 200, {
+          api: API_VERSION,
+          sets: sentenceIndex(sentenceSets),
+        });
+      }
+
+      /** One sentence, spoken, through the same cached say() the drill uses. */
+      if (req.method === 'GET' && /^\/api\/sentences\/[^/]+\/audio$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const item = sentenceById.get(id);
+        if (!item) return json(res, 404, { error: `unknown sentence: ${id}` });
+
+        const voice = url.searchParams.get('voice') || DEFAULT_VOICE;
+        const speed = url.searchParams.get('speed') || '1';
+        if (!isVoiceId(voice)) return json(res, 400, { error: `unknown voice: ${voice}` });
+
+        let audio;
+        try {
+          audio = await say(item.text, voice, { speed });
+        } catch (err) {
+          return json(res, 503, { error: `could not speak: ${err.message}` });
+        }
+        res.writeHead(200, {
+          'content-type': 'audio/wav',
+          'content-length': audio.buffer.length,
+          'cache-control': 'public, max-age=604800',
+        });
+        return res.end(req.method === 'HEAD' ? undefined : audio.buffer);
+      }
+
       if (req.method === 'GET' && url.pathname === '/api/grammar') {
         return json(res, 200, {
           groups: grammar.groups,
@@ -828,12 +1179,54 @@ export function serve({ port = 4173, open = true } = {}) {
     for (const p of essayGuides.problems) console.error(`  ! guide - ${p}`);
     for (const p of modelProblems) console.error(`  ! model - ${p}`);
     if (lectures.length) {
-      const real = lectures.filter((l) => l.audio).length;
+      // `real` is a credit, not a file. Counting files here said "43 real
+      // recordings" the moment the written ones started being pre-rendered,
+      // which is the same mistake lectureIndex() used to make and the reason
+      // API_VERSION went to 12.
+      const real = lectures.filter((l) => l.source && l.source.credit).length;
+      const silent = lectures.filter((l) => !l.audio).length;
       console.log(`  lectures: ${lectures.length} to re-tell · ${real} real recordings, ` +
                   `${lectures.length - real} written · ` +
                   `${PREPARE_SECONDS}s to think, ${SPEAK_SECONDS}s to speak`);
+      // Worth saying out loud: a lecture with no file still has to be
+      // synthesised at the moment it is played, which is most of a minute.
+      if (silent) {
+        console.log(`  ! ${silent} lectures have no audio yet - ` +
+                    `node tools/render-lectures.js renders them`);
+      }
     }
     for (const p of lectureProblems) console.error(`  ! lecture - ${p}`);
+    if (discussions.length) {
+      const silent = discussions.filter((d) => !d.audio).length;
+      console.log(`  discussions: ${discussions.length} to summarise · ` +
+                  `${DISCUSSION_PREPARE}s to think, ${DISCUSSION_SPEAK}s to speak`);
+      // Unlike a lecture, a discussion with no file cannot be taken at all:
+      // it is several voices laid out on one timeline, and there is nothing
+      // for the browser to fall back to synthesising.
+      if (silent) {
+        console.log(`  ! ${silent} discussions have no audio yet - ` +
+                    `node tools/render-discussions.js renders them`);
+      }
+    }
+    for (const p of discussionProblems) console.error(`  ! discussion - ${p}`);
+    if (listenSets.length) {
+      console.log(`  listening: ${listenSets.length} sets · ${listenByQuestion.size} clues ` +
+                  `to hear and type`);
+    }
+    for (const p of listenProblems) console.error(`  ! listening - ${p}`);
+    if (sentenceSets.length) {
+      console.log(`  repeat sentence: ${sentenceSets.length} bands · ` +
+                  `${sentenceById.size} sentences to hear and say back`);
+    }
+    for (const p of sentenceProblems) console.error(`  ! sentence - ${p}`);
+    if (readingSets.length) {
+      console.log(`  reading: ${readingSets.length} sets · ${readingByItem.size} items`);
+    }
+    for (const p of readingProblems) console.error(`  ! reading - ${p}`);
+    if (hiwSets.length) {
+      console.log(`  highlight incorrect words: ${hiwSets.length} sets · ${hiwByItem.size} recordings`);
+    }
+    for (const p of hiwProblems) console.error(`  ! hiw - ${p}`);
     console.log(`  writing to ${MASTER_FILE}`);
     console.log('  Ctrl-C to stop.');
     console.log('');

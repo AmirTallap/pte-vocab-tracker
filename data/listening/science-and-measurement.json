@@ -1,0 +1,69 @@
+{
+  "id": "science-and-measurement",
+  "title": "Science and measurement",
+  "summary": "Forces, quantities and the words for measuring them.",
+  "questions": [
+    {
+      "id": "sci-01",
+      "clue": "This is the force that pulls every object towards the centre of the earth.",
+      "answer": "gravity",
+      "note": "Gravity is the force; weight is what it produces on a given mass. Mass itself does not change with location."
+    },
+    {
+      "id": "sci-02",
+      "clue": "This is what a liquid does when it turns into a gas, such as a puddle drying in the sun.",
+      "answer": "evaporate",
+      "accept": ["evaporation", "evaporates"],
+      "note": "The reverse, a gas becoming a liquid, is condensation. Boiling is evaporation throughout the liquid rather than at its surface."
+    },
+    {
+      "id": "sci-03",
+      "clue": "This is the resistance felt when one surface rubs against another.",
+      "answer": "friction",
+      "note": "It converts movement into heat, which is why rubbing your hands together warms them."
+    },
+    {
+      "id": "sci-04",
+      "clue": "This is the distance straight across a circle, passing through its centre.",
+      "answer": "diameter",
+      "note": "Half of it is the radius, and the distance all the way round the outside is the circumference."
+    },
+    {
+      "id": "sci-05",
+      "clue": "This is the distance all the way around the outside of a circle.",
+      "answer": "circumference",
+      "note": "For any circle it is a little over three times the diameter, and that ratio is pi."
+    },
+    {
+      "id": "sci-06",
+      "clue": "This is a proposed explanation, put forward so that it can be tested by experiment.",
+      "answer": "hypothesis",
+      "note": "The plural is hypotheses. A theory in science is far stronger: an explanation that has already survived a great deal of testing."
+    },
+    {
+      "id": "sci-07",
+      "clue": "This is the smallest particle of a substance that still has all the properties of that substance.",
+      "answer": "molecule",
+      "note": "Molecules are made of atoms. A water molecule is two hydrogen atoms joined to one oxygen atom."
+    },
+    {
+      "id": "sci-08",
+      "clue": "This is the height of something measured above sea level.",
+      "answer": "altitude",
+      "accept": ["elevation"],
+      "note": "Altitude is usual for aircraft and elevation for ground features, but both answer the clue."
+    },
+    {
+      "id": "sci-09",
+      "clue": "This is a substance that speeds up a chemical reaction without being used up itself.",
+      "answer": "catalyst",
+      "note": "It is also used of a person or event that causes change, as in the catalyst for the reform."
+    },
+    {
+      "id": "sci-10",
+      "clue": "This is the speed of an object measured in a particular direction.",
+      "answer": "velocity",
+      "note": "Speed alone has no direction, so it is not accepted here. A change in velocity over time is acceleration."
+    }
+  ]
+}

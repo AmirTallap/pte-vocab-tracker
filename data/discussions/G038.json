@@ -1,0 +1,33 @@
+{
+  "id": "G038",
+  "title": "The replication crisis, ten years on",
+  "field": "Science",
+  "speakers": [
+    { "name": "Hana", "voice": "af_sarah", "speed": 1.02 },
+    { "name": "Gareth", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Theo", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Gareth", "text": "Another textbook effect failed to replicate this month. That's three this year from the same chapter." },
+    { "speaker": "Theo", "text": "Which chapter?" },
+    { "speaker": "Gareth", "text": "Social priming. Most of it has quietly evaporated." },
+    { "speaker": "Hana", "text": "The large replication project got something like thirty-nine per cent of psychology findings to hold up. That number is a decade old and people still find it shocking." },
+    { "speaker": "Theo", "text": "Is thirty-nine actually bad, though? A field where everything replicates is a field taking no risks." },
+    { "speaker": "Hana", "text": "That's a fair point and it gets made too rarely. The problem isn't the failure rate, it's that the failures were invisible." },
+    { "speaker": "Gareth", "text": "Because nobody could publish them. A null result was a wasted three years.", "gap": -0.13 },
+    { "speaker": "Gareth", "text": "So the literature was a record of what worked once, not of what was tried." },
+    { "speaker": "Theo", "text": "Pre-registration seems to have helped, at least. You say what you'll test before you look." },
+    { "speaker": "Hana", "text": "It has. Registered reports show far lower rates of positive findings, which is exactly what you'd expect if the old rate was inflated." },
+    { "speaker": "Theo", "text": "The incentive underneath it hasn't moved though. Careers still run on novel and surprising." },
+    { "speaker": "Gareth", "text": "And a replication, however careful, counts for almost nothing at a hiring committee." },
+    { "speaker": "Hana", "text": "Which is the actual fix and it's the one nobody controls." }
+  ],
+  "points": [
+    "Several textbook psychology effects, particularly in social priming, have failed to replicate.",
+    "A major replication project found about thirty-nine per cent of findings held up.",
+    "Theo argues a low failure rate would indicate a field taking no risks, so the rate itself is not the problem.",
+    "Hana and Gareth identify the real problem as invisibility, since null results were unpublishable and the literature recorded only what worked once.",
+    "Pre-registration and registered reports have reduced positive findings, consistent with the old rate being inflated.",
+    "The underlying incentive remains, as careers reward novelty and replication counts for little in hiring."
+  ]
+}

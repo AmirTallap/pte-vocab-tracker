@@ -1,0 +1,67 @@
+{
+  "id": "hiw-8",
+  "title": "Set 8",
+  "summary": "The speed of sound, blood pressure, glaciers, the Berlin Wall, tax bands, supply chains, attachment, printed objects, the early novel and slang.",
+  "items": [
+    {
+      "id": "h8-01",
+      "title": "The speed of sound",
+      "text": "Sound is a wave of pressure, so it needs a medium to travel through, and it travels at different speeds in different materials. In air at room temperature it covers about three hundred and forty metres every second. In water it moves roughly {{four|seven}} times faster, and in steel faster still, because the particles are {{tightly|loosely}} bound and pass the vibration along quickly. Temperature matters too: sound travels {{faster|slower}} in warm air than in cold. And because light arrives almost instantly, you can {{estimate|calculate}} the distance to a storm by counting the seconds between the flash and the thunder: roughly three seconds for every kilometre.",
+      "note": "Faster and slower in warm air is a fact few readers know, so only the ear can decide. Estimate and calculate are close in meaning and both fit counting seconds."
+    },
+    {
+      "id": "h8-02",
+      "title": "Blood pressure",
+      "text": "When a doctor measures your blood pressure, you are given two numbers. The first, the systolic pressure, is the {{highest|average}} pressure in your arteries, when the heart contracts. The second, the diastolic pressure, is measured when the heart {{relaxes|refills}} between beats. A reading of around one hundred and twenty over eighty is generally considered {{healthy|typical}}. High blood pressure is often called a silent killer, because it usually causes no {{symptoms|damage}} at all, while it steadily raises the risk of strokes and heart attacks. This is why regular {{screening|exercise}} matters so much.",
+      "note": "Relaxes and refills both start with re and both describe the heart between beats, so this is the easiest to miss. Healthy and typical are both reasonable things to say about a normal reading."
+    },
+    {
+      "id": "h8-03",
+      "title": "Retreating glaciers",
+      "text": "Mountain glaciers are among the clearest {{indicators|victims}} of a warming climate. A glacier grows when more snow falls in winter than {{melts|evaporates}} in summer, and it shrinks when the balance tips the other way. Since the middle of the nineteenth century, the great majority of the world's glaciers have been {{retreating|shrinking}}, and the pace has quickened in recent decades. This matters well beyond the mountains. In parts of Asia and South America, meltwater from glaciers {{supplies|irrigates}} rivers that millions of people depend on in the {{dry|summer}} season.",
+      "note": "Retreating and shrinking describe the same change, so the extra syllable is the only clue. Dry and summer are both natural before season, and it is the last word of the talk."
+    },
+    {
+      "id": "h8-04",
+      "title": "The fall of the Berlin Wall",
+      "text": "On the evening of the ninth of November, nineteen eighty-nine, an East German official named Günter Schabowski held a press conference about new travel rules. Asked when they would take effect, he looked at his notes and said, {{hesitantly|confidently}}, that as far as he knew, it was immediately. In fact the rules were meant to begin the {{following|previous}} day, and in an orderly way. Within hours, thousands of East Berliners had gathered at the checkpoints, and the {{overwhelmed|frightened}} guards opened the gates. The wall had stood for {{twenty-eight|thirty}} years. Within eleven months, Germany was reunited.",
+      "note": "Following and previous are opposites, but a reader cannot tell which was planned. Twenty-eight and thirty are both believable as the life of the wall, so the number must be heard."
+    },
+    {
+      "id": "h8-05",
+      "title": "Progressive taxation",
+      "text": "A tax system is called progressive when people with higher incomes pay a {{larger|smaller}} share of what they earn. In most such systems, income is divided into bands. You pay nothing on the first portion, a {{basic|reduced}} rate on the next, and higher rates only on the {{amount|income}} above each threshold. A common misunderstanding is that moving into a higher band means your whole income is taxed at the higher rate, so that a pay rise could leave you worse off. In fact, only the extra pounds are affected. Supporters argue that progressive taxes reduce {{inequality|poverty}}, while critics worry that they discourage effort.",
+      "note": "Larger and smaller both have two syllables and a reader unsure of the definition will accept either. Inequality and poverty are both things a tax might reduce."
+    },
+    {
+      "id": "h8-06",
+      "title": "The bullwhip effect",
+      "text": "The bullwhip effect describes how small changes in customer demand grow {{larger|faster}} as they travel back up a supply chain. Imagine that sales of nappies in a shop rise slightly one week. The shop orders a little extra from the wholesaler, just to be safe. The wholesaler, seeing a {{bigger|sudden}} order, adds its own margin before ordering from the factory, and the factory does the same with its suppliers. By the time the signal reaches the raw materials, a modest {{fluctuation|increase}} has become a wild swing. The usual remedy is to share real sales data {{openly|regularly}} along the chain, so that everyone plans from actual demand rather than {{guesswork|forecasts}}.",
+      "note": "Guesswork and forecasts both describe planning without data and come at the very end. Openly and regularly both end in ly and both suit sharing data."
+    },
+    {
+      "id": "h8-07",
+      "title": "Attachment theory",
+      "text": "Attachment theory was developed by the British psychiatrist John Bowlby in the nineteen fifties and sixties. He argued that infants are born with a {{biological|social}} need to stay close to a caregiver, because in our evolutionary past that closeness meant {{survival|comfort}}. His colleague Mary Ainsworth later devised the Strange Situation, a laboratory procedure in which a toddler is briefly {{separated|distracted}} from its mother and then reunited. She observed how children reacted when the mother {{returned|departed}}, and from these reactions she identified distinct attachment styles, which researchers still use today.",
+      "note": "Returned and departed are opposites, and both moments matter in the procedure, so reading will not settle it. Survival and comfort both sound like what a caregiver offers."
+    },
+    {
+      "id": "h8-08",
+      "title": "Printing in three dimensions",
+      "text": "Traditional manufacturing is often {{subtractive|destructive}}: you start with a block of material and cut away what you don't need. Three-dimensional printing works the other way round, which is why engineers call it additive manufacturing. A printer builds an object layer by layer from a digital {{model|drawing}}, laying down plastic, resin or even metal powder. Because it needs no moulds or special tools, it is ideal for {{prototypes|components}} and for one-off parts, such as a replacement joint shaped to a patient's own body. For mass production, however, it is usually still too {{slow|costly}}.",
+      "note": "Subtractive and destructive rhyme, so only the first syllable separates them. Model and drawing are both things a printer might work from."
+    },
+    {
+      "id": "h8-09",
+      "title": "The rise of the novel",
+      "text": "The novel as we know it took shape in England in the eighteenth century. Writers such as Daniel Defoe and Samuel Richardson told long stories about {{ordinary|remarkable}} people, in plain prose, set in a recognisable present. Several things made this possible. Literacy was {{rising|spreading}}, especially among the middle classes and among women, and {{circulating|public}} libraries allowed readers to borrow books they could not afford to buy. Richardson's Pamela was written as a series of {{letters|diaries}}, which gave readers an unusually intimate view of a character's thoughts.",
+      "note": "Rising and spreading both describe literacy growing, so it depends on the ear. Circulating and public both go naturally with libraries."
+    },
+    {
+      "id": "h8-10",
+      "title": "Where slang comes from",
+      "text": "Slang is informal vocabulary that marks the speaker as belonging to a particular group, and it changes {{quickly|constantly}}. Much of it is created by young people, partly because it {{signals|proves}} membership and partly because it keeps outsiders out. New words arrive through several routes. Some are {{borrowed|translated}} from other languages or dialects, some are old words given a {{fresh|different}} meaning, and some are clipped from longer words, as when fabulous became fab. What happens next is predictable. Once a slang word is picked up by advertisers and parents, it tends to {{disappear|spread}} among the young.",
+      "note": "Borrowed and translated both describe taking words from another language. Disappear and spread are opposites, and spread sounds plausible if you are not thinking about why teenagers drop a word."
+    }
+  ]
+}

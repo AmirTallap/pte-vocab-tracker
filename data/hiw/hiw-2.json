@@ -1,0 +1,67 @@
+{
+  "id": "hiw-2",
+  "title": "Set 2",
+  "summary": "Moving continents, vaccines, hot cities, the plague, trade, dissonance, learning goals, batteries, the Globe and why suicide is social.",
+  "items": [
+    {
+      "id": "h2-01",
+      "title": "Continental drift",
+      "text": "The idea that continents move was proposed by Alfred Wegener in nineteen twelve, but for decades most geologists {{rejected|accepted}} it. His problem was that he could not explain what force could push entire continents across the globe. The breakthrough came in the nineteen sixties, when surveys of the ocean floor revealed that new crust is constantly being {{created|destroyed}} at mid-ocean ridges. Today we know the plates move at roughly the {{speed|rate}} at which your fingernails grow, a few centimetres a year, which sounds trivial but adds up to {{thousands|hundreds}} of kilometres over millions of years.",
+      "note": "Speed and rate are near-synonyms and both fit perfectly. Rejected and accepted are opposites, but both are sensible outcomes for a new theory."
+    },
+    {
+      "id": "h2-02",
+      "title": "Edward Jenner and smallpox",
+      "text": "In seventeen ninety-six, the English physician Edward Jenner noticed that milkmaids who had caught cowpox seemed to be {{protected|immune}} from smallpox. He tested the idea by {{deliberately|carefully}} infecting a young boy with material from a cowpox sore, and later exposing him to smallpox. The boy did not fall {{ill|sick}}. The word vaccine itself comes from the Latin for {{cow|calf}}. Nearly two centuries later, in nineteen eighty, smallpox was declared {{eradicated|controlled}}, the only human disease ever wiped out completely.",
+      "note": "Ill and sick are short and the sentence moves on quickly, so it is the easiest to miss. Cow and calf both begin with the same hard sound."
+    },
+    {
+      "id": "h2-03",
+      "title": "The urban heat island",
+      "text": "Cities are usually warmer than the countryside around them, a pattern known as the urban heat island. Concrete and asphalt {{absorb|store}} heat during the day and release it slowly at night, so the difference is often greatest after {{sunset|midday}}. Fewer trees also means less cooling from evaporation. The good news is that relatively simple measures, such as planting street trees or painting roofs in {{pale|dark}} colours, can lower local temperatures noticeably.",
+      "note": "Store sits happily beside release, so the first swap reads well. Pale and dark are opposites, and only the physics tells you dark roofs would do the reverse."
+    },
+    {
+      "id": "h2-04",
+      "title": "The Black Death",
+      "text": "The Black Death reached Europe in thirteen forty-seven, carried along trade routes from Central Asia. Within about five years it had killed somewhere between a third and a {{half|quarter}} of the continent's population. The consequences went far beyond the {{immediate|terrible}} loss of life. With so many workers gone, labour became {{scarce|expensive}}, and in many regions surviving peasants were able to demand better {{wages|terms}}. Some historians argue that this helped to weaken the feudal system.",
+      "note": "Expensive is what scarce labour becomes, so the shown word is true in spirit and easy to accept. Wages and terms are both things a worker bargains for."
+    },
+    {
+      "id": "h2-05",
+      "title": "Comparative advantage",
+      "text": "David Ricardo's theory of comparative advantage is one of the most {{counterintuitive|important}} ideas in economics. It says that two countries can both gain from trade even if one of them is {{better|faster}} at producing everything. What matters is not absolute efficiency but the {{relative|opportunity}} cost. Ricardo's {{famous|original}} example, published in eighteen seventeen, involved England and Portugal trading cloth and {{wine|wool}}. It remains the basic argument for free trade taught in introductory courses today.",
+      "note": "Opportunity cost is a real economics term, so the shown word looks more correct than the spoken one. Wine and wool both start with a w and both fit a list of trade goods."
+    },
+    {
+      "id": "h2-06",
+      "title": "Cognitive dissonance",
+      "text": "The social psychologist Leon Festinger introduced the idea of cognitive dissonance in the nineteen fifties. It describes the {{discomfort|confusion}} we feel when we hold two beliefs that contradict each other, or when our actions conflict with our values. Festinger argued that people are strongly motivated to reduce this tension, and they often do so not by changing their behaviour but by {{adjusting|defending}} their beliefs. A smoker, for instance, may decide that the health risks have been {{exaggerated|ignored}}.",
+      "note": "Defending beliefs is a perfectly natural phrase, which hides the swap. Discomfort and confusion both begin with a similar syllable and both describe a feeling."
+    },
+    {
+      "id": "h2-07",
+      "title": "Bloom's taxonomy",
+      "text": "In nineteen fifty-six, Benjamin Bloom and his colleagues published a framework for classifying educational {{objectives|outcomes}}. It arranges thinking skills in a {{hierarchy|sequence}}, starting with simple recall of facts and moving up towards analysis and evaluation. The framework was {{revised|replaced}} in two thousand and one, and the top level became creating rather than evaluating. Teachers still use it to plan questions, making sure students are asked to do more than simply {{remember|repeat}} information.",
+      "note": "Revised and replaced both begin with re and end in a d sound, so listen to the middle. Repeat information is as natural as remember information."
+    },
+    {
+      "id": "h2-08",
+      "title": "Lithium-ion batteries",
+      "text": "Lithium-ion batteries power almost every phone and laptop we use. When the battery {{charges|discharges}}, lithium ions move from the positive electrode to the negative one, and when you use the device, they move back again. The technology was {{commercialised|patented}} by Sony in nineteen ninety-one, and three scientists shared the Nobel Prize in Chemistry for it in two thousand and {{nineteen|nine}}. The main {{drawback|advantage}} is that the batteries slowly {{degrade|overheat}} with every cycle, which is why an old phone never lasts as long as a new one.",
+      "note": "Charges and discharges differ by one syllable at the front, which is easy to lose. Nineteen and nine are close too, so listen for the teen ending."
+    },
+    {
+      "id": "h2-09",
+      "title": "The Globe Theatre",
+      "text": "The Globe Theatre was built in fifteen ninety-nine on the south bank of the Thames by Shakespeare's company. It was an open-air theatre, so performances took place in the {{afternoon|evening}}, using natural light. The poorest spectators paid a {{penny|shilling}} to stand in the yard in front of the stage. In sixteen thirteen, a cannon fired during a performance of Henry the Eighth set the thatched roof alight, and the building burned to the {{ground|foundations}}.",
+      "note": "Evening sounds like a normal time for the theatre, and only the phrase about natural light gives it away. Burned to the foundations is plausible, so the last swap needs the ear."
+    },
+    {
+      "id": "h2-10",
+      "title": "Durkheim on suicide",
+      "text": "Émile Durkheim's study of suicide, published in eighteen ninety-seven, is often described as one of the first works of {{empirical|modern}} sociology. Durkheim wanted to show that even an act that seems deeply {{personal|emotional}} is shaped by social forces. Using official statistics, he found that suicide rates were {{lower|higher}} among groups with stronger social ties, and he argued that the {{degree|quality}} of integration into society made the difference.",
+      "note": "Lower and higher are opposites, and a reader who does not know the finding has no reason to doubt either. Personal and emotional both describe a private act."
+    }
+  ]
+}

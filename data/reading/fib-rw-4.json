@@ -1,0 +1,118 @@
+{
+  "id": "fib-rw-4",
+  "task": "fib-rw",
+  "title": "Set 4",
+  "summary": "From gene editing, insulin and ocean chemistry to the Suez Canal, basic income, loanwords and why the unskilled overrate themselves.",
+  "items": [
+    {
+      "id": "rw4-01",
+      "title": "Editing genes with CRISPR",
+      "text": "CRISPR is a gene-editing technique adapted from a defence system that bacteria use against viruses. When a virus attacks, some bacteria store short fragments of its genetic code, which later {{enable|enables|enabling|enablement}} them to recognise the same invader. In 2012, Jennifer Doudna and Emmanuelle Charpentier showed that one part of this system, an enzyme called Cas9, could be {{directed|direct|directing|direction}} to cut DNA at almost any chosen location by supplying it with a matching guide molecule. Scientists can then disable a faulty gene or insert a new sequence at the break. The method is far cheaper and more precise than earlier approaches, and its inventors were awarded the Nobel Prize in Chemistry in 2020. Nevertheless, editing human embryos remains highly {{controversial|controversy|controversially|controversies}}, because any changes would be passed {{on|in|off|at}} to future generations.",
+      "why": [
+        "The relative clause needs a verb agreeing with the plural 'fragments', so 'enable'; 'enables' is singular, 'enabling' leaves the clause without a verb, and 'enablement' is a noun.",
+        "'Could be' needs a passive past participle, 'directed'; 'direct' and 'directing' cannot follow 'be' in a passive, and 'direction' is a noun.",
+        "After 'remains highly' an adjective is needed, 'controversial'; 'controversy' and 'controversies' are nouns and 'controversially' is an adverb.",
+        "'Pass on to' is the phrasal verb for handing something to the next generation; 'passed in', 'passed off' and 'passed at' do not carry that meaning."
+      ]
+    },
+    {
+      "id": "rw4-02",
+      "title": "The discovery of insulin",
+      "text": "Before the 1920s, a diagnosis of type 1 diabetes was effectively a death sentence, since the body of a patient could no longer {{produce|product|production|productive}} the hormone that allows cells to take up sugar from the blood. In 1921, Frederick Banting and Charles Best, working in a laboratory at the University of Toronto, succeeded in {{extracting|extract|extracted|extraction}} insulin from the pancreas of dogs. Early in 1922 a fourteen-year-old boy became the first person to be treated with it, and his condition improved dramatically. The discovery was hailed as one of the great medical achievements of the century, and it {{earned|earning|earns|earner}} Banting a share of the Nobel Prize in 1923. Insulin does not cure the disease, but it allows millions of people to live long and active lives {{despite|although|however|even}} their condition.",
+      "why": [
+        "After the modal 'could no longer' a bare infinitive is needed, 'produce'; 'product' and 'production' are nouns and 'productive' is an adjective.",
+        "'Succeed in' is followed by an -ing form, 'extracting'; 'extract', 'extracted' and the noun 'extraction' do not fit the pattern with a following object.",
+        "The clause needs a past-tense verb to match an event in 1923, 'earned'; 'earns' is present, 'earning' leaves no finite verb, and 'earner' is a noun.",
+        "Before the noun phrase 'their condition' a preposition is needed, 'despite'; 'although' must introduce a clause, and 'however' and 'even' cannot link a noun phrase here."
+      ]
+    },
+    {
+      "id": "rw4-03",
+      "title": "Ocean acidification",
+      "text": "The oceans absorb a large share of the carbon dioxide released by the burning of fossil fuels, which slows the rate at which the atmosphere warms. This service, however, comes at a cost. When carbon dioxide {{dissolves|dissolve|dissolving|dissolution}} in seawater, it forms carbonic acid, and the water becomes slightly more acidic. The change also reduces the amount of carbonate available to organisms such as corals, oysters and some plankton, which {{depend|depends|dependent|dependence}} on it to build their shells and skeletons. In more acidic conditions these structures grow more slowly and may even begin to dissolve. Because many of these species sit near the base of marine food webs, scientists are concerned that the effects could spread {{throughout|thorough|thoroughly|throughput}} entire ecosystems. Reducing emissions is the only reliable way to {{address|addressing|addressed|addresses}} the problem at its source.",
+      "why": [
+        "The 'when' clause needs a present-tense verb agreeing with the singular 'carbon dioxide', so 'dissolves'; 'dissolve' is plural, 'dissolving' is not a finite verb, and 'dissolution' is a noun.",
+        "The relative clause refers to the plural 'organisms', so 'depend'; 'depends' is singular, 'dependent' is an adjective and would need 'are', and 'dependence' is a noun.",
+        "A preposition meaning 'across the whole of' is needed before 'entire ecosystems', 'throughout'; 'thorough' is an adjective, 'thoroughly' an adverb and 'throughput' a noun.",
+        "After 'the only reliable way to' a bare infinitive is needed, 'address'; the -ing, past and third-person forms cannot follow infinitive 'to'."
+      ]
+    },
+    {
+      "id": "rw4-04",
+      "title": "The Suez Canal",
+      "text": "Opened in 1869, the Suez Canal links the Mediterranean Sea with the Red Sea and {{allows|allow|allowing|allowance}} ships travelling between Europe and Asia to avoid the long voyage around the southern tip of Africa. The project was led by the French diplomat Ferdinand de Lesseps and took around ten years to complete, much of the digging being done by Egyptian labourers working in harsh conditions. The canal quickly became one of the most {{strategically|strategic|strategy|strategies}} important waterways in the world, and control over it was a {{source|force|resource|course}} of repeated international tension. In 1956 the Egyptian president, Gamal Abdel Nasser, nationalised the canal, which led to a brief military intervention by Britain, France and Israel. Today it {{carries|carry|carried|carrying}} a significant proportion of global seaborne trade.",
+      "why": [
+        "The verb is coordinated with 'links' and shares the singular subject 'the Suez Canal', so 'allows'; 'allow' breaks agreement, 'allowing' breaks the parallel, and 'allowance' is a noun.",
+        "An adverb is needed to modify the adjective 'important', so 'strategically'; 'strategic important' puts two adjectives together without a noun, and 'strategy' and 'strategies' are nouns.",
+        "'A source of tension' is the fixed collocation for where tension comes from; 'resource', 'force' and 'course' do not combine with 'of tension' in this sense.",
+        "'Today' calls for the present simple with the singular 'it', so 'carries'; 'carried' is past, 'carry' breaks agreement, and 'carrying' is not a finite verb."
+      ]
+    },
+    {
+      "id": "rw4-05",
+      "title": "Universal basic income",
+      "text": "A universal basic income is a regular cash payment made by the state to every adult, regardless {{of|to|for|with}} whether they are working. Supporters argue that it would simplify complex welfare systems and provide a secure floor beneath people whose earnings are unpredictable, such as those in seasonal or temporary work. They also suggest that it could become increasingly {{relevant|relevance|relevantly|relevances}} if automation reduces the number of routine jobs. Critics, by contrast, point to the enormous cost of paying everyone, and some fear that an unconditional payment might {{discourage|discouraged|discouraging|discouragement}} people from seeking employment. Finland tested a version of the idea between 2017 and 2018, giving a monthly payment to two thousand unemployed people. The recipients reported greater wellbeing, although the effect on employment was modest, and the debate {{remains|remain|remaining|remainder}} unresolved.",
+      "why": [
+        "'Regardless of' is a fixed phrase; 'regardless to', 'regardless for' and 'regardless with' are not used.",
+        "After 'become increasingly' an adjective is needed, 'relevant'; 'relevance' and 'relevances' are nouns and 'relevantly' is an adverb.",
+        "After the modal 'might' a bare infinitive is needed, 'discourage', and 'discourage somebody from doing' is the pattern; the other forms cannot follow a modal.",
+        "The clause needs a finite verb agreeing with the singular 'the debate', so 'remains'; 'remain' is plural, 'remaining' is not finite, and 'remainder' is a noun."
+      ]
+    },
+    {
+      "id": "rw4-06",
+      "title": "Economies of scale",
+      "text": "Economies of scale are the cost advantages that a firm gains as its output grows. Many of the expenses involved in production, such as machinery, research and advertising, are fixed, so they must be paid whatever the {{level|levelled|leveller|levelling}} of output. When these costs are spread across a larger number of units, the average cost of each unit falls. Large firms may also be able to buy raw materials in bulk at lower prices and to borrow money on more {{favourable|favour|favourably|favourite}} terms than their smaller rivals. However, growth does not reduce costs {{indefinitely|indefinite|infinity|definitely}}. Beyond a certain size, a business can become difficult to coordinate, and communication between departments may slow down. Economists describe this problem as diseconomies of scale, and it helps to explain why even very successful companies {{rarely|rare|rarity|rarer}} grow without limit.",
+      "why": [
+        "'Whatever the level of output' needs a noun meaning an amount, 'level'; 'levelled' and 'levelling' are verb forms, and a 'leveller' is a person or tool.",
+        "'On favourable terms' is the fixed collocation for good conditions of borrowing; 'favourite terms' means the ones you like best, 'favour' is a noun and 'favourably' an adverb.",
+        "An adverb is needed to modify 'reduce', and the meaning is 'without end', so 'indefinitely'; 'definitely' means 'certainly' and contradicts the sentence, 'indefinite' is an adjective and 'infinity' a noun.",
+        "An adverb of frequency is needed before the verb 'grow', so 'rarely'; 'rare' and 'rarer' are adjectives and 'rarity' is a noun."
+      ]
+    },
+    {
+      "id": "rw4-07",
+      "title": "Spaced repetition",
+      "text": "In the 1880s the German psychologist Hermann Ebbinghaus memorised long lists of nonsense syllables and then {{measured|measure|measuring|measurement}} how quickly he forgot them. He found that memory declines steeply in the first hours after learning and more slowly afterwards, a pattern now known as the forgetting curve. Later research showed that the decline can be slowed by reviewing material at gradually increasing intervals, a technique {{referred|refer|referring|reference}} to as spaced repetition. Each review strengthens the memory, so that the next one can be delayed for longer without the information being lost. Studying the same content in a single long session, by contrast, tends to produce knowledge that fades quickly. For this reason, many language learners now {{rely|relies|reliant|reliance}} on flashcard software that schedules reviews automatically, {{based|basing|base|bases}} on how well each item has been remembered.",
+      "why": [
+        "The verb is coordinated with the past-tense 'memorised', so 'measured'; 'measure' is present, 'measuring' is not finite, and 'measurement' is a noun.",
+        "'A technique referred to as' is a reduced passive and needs the past participle 'referred'; 'referring to as' would mean the technique does the referring, and 'refer' and 'reference' do not fit.",
+        "The plural subject 'many language learners' needs the present verb 'rely'; 'relies' is singular, and 'reliant' and 'reliance' are not verbs.",
+        "'Based on' is the fixed participle phrase meaning 'according to'; 'basing on' is not used without an object, and 'base' and 'bases' leave the phrase ungrammatical."
+      ]
+    },
+    {
+      "id": "rw4-08",
+      "title": "Linear perspective",
+      "text": "Linear perspective is a method of representing three-dimensional space on a flat surface. Its rules were first demonstrated in Florence in the early fifteenth century by the architect Filippo Brunelleschi, and they were set out in writing a few years later by Leon Battista Alberti in his treatise On Painting. The technique {{depends|depend|dependent|dependence}} on the observation that parallel lines, such as the edges of a road, appear to meet at a single point on the horizon. By drawing objects smaller as they {{approach|approaches|approached|approaching}} this vanishing point, an artist can create a convincing illusion of depth. Painters such as Masaccio adopted the method with {{remarkable|remarkably|remark|remarking}} speed, and it became a defining feature of Renaissance art. For centuries afterwards, it was regarded as the {{correct|correctly|correction|correctness}} way to depict the visible world.",
+      "why": [
+        "The singular subject 'the technique' needs 'depends'; 'depend' breaks agreement, 'dependent' would need 'is', and 'dependence' is a noun.",
+        "The plural 'they' in a general present-tense statement needs 'approach'; 'approaches' is singular, 'approached' clashes with 'can create', and 'approaching' is not finite.",
+        "An adjective is needed before the noun 'speed', so 'remarkable'; 'remarkably' is an adverb, and 'remark' and 'remarking' do not describe a noun.",
+        "An adjective is needed between 'the' and 'way', so 'correct'; 'correctly' is an adverb, and 'correction' and 'correctness' are nouns."
+      ]
+    },
+    {
+      "id": "rw4-09",
+      "title": "Borrowed words in English",
+      "text": "English has borrowed words from other languages throughout its history, and the pattern of these borrowings {{reflects|reflect|reflection|reflective}} the contacts its speakers have had with other peoples. Viking settlement in the ninth and tenth centuries brought Norse words such as sky, egg and window into everyday use. A far larger wave {{followed|follows|following|follower}} the Norman Conquest of 1066, after which French became the language of the court, the law and government administration for several centuries. One well-known result is the contrast between the English names for farm animals and the French-derived names for their meat, such as cow and beef or pig and pork. This is often explained by the fact that English-speaking peasants {{raised|rose|risen|raising}} the animals, while the French-speaking nobility ate them. Later, trade and empire added words {{from|off|by|at}} languages as distant as Hindi and Malay.",
+      "why": [
+        "The singular subject 'the pattern' needs the present verb 'reflects'; 'reflect' breaks agreement, 'reflection' is a noun and 'reflective' an adjective.",
+        "A past-tense verb is needed for an event after 1066, 'followed'; 'follows' is present, 'following' is not finite, and 'follower' is a noun.",
+        "'Raise' is transitive and takes 'the animals' as its object, so the past tense 'raised'; 'rose' is the past of intransitive 'rise' and cannot take an object, and 'risen' and 'raising' need an auxiliary.",
+        "Words come 'from' a source language; 'off', 'by' and 'at' do not express origin."
+      ]
+    },
+    {
+      "id": "rw4-10",
+      "title": "Unaware of our own limits",
+      "text": "In 1999 the psychologists David Dunning and Justin Kruger published a study {{suggesting|suggest|suggested|suggestion}} that people with limited skill in a particular area tend to overestimate their own ability. Participants who scored lowest on tests of logical reasoning, grammar and humour rated their performance as well above average. The researchers argued that the knowledge needed to perform a task well is often the same knowledge {{required|require|requiring|requirement}} to recognise a poor performance. Those who lack it are therefore {{poorly|poor|poorer|poorness}} placed to judge their own mistakes. Interestingly, the most skilled participants showed a smaller error in the opposite direction, slightly underestimating how they compared {{with|at|on|from}} others. Later researchers have questioned how much of the pattern reflects a genuine psychological effect and how much is a statistical artefact, but the idea has become widely known.",
+      "why": [
+        "'A study suggesting that' is a reduced relative clause and needs the -ing form; 'suggested' would read as a second main verb, 'suggest' cannot follow a noun here, and 'suggestion' is a noun.",
+        "'The same knowledge required to' is a reduced passive, 'knowledge that is required'; 'requiring to' is ungrammatical, 'require' cannot follow the noun, and 'requirement' is a noun.",
+        "An adverb is needed to modify the participle 'placed', and 'poorly placed' is the collocation; 'poor' and 'poorer' are adjectives and 'poorness' is a noun.",
+        "'Compare with' is the standard preposition when measuring one thing against another; 'compared at', 'compared on' and 'compared from' are not used."
+      ]
+    }
+  ]
+}

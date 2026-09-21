@@ -1,0 +1,33 @@
+{
+  "id": "G002",
+  "title": "Should city centres be closed to cars?",
+  "field": "Cities and transport",
+  "speakers": [
+    { "name": "Daniel", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Aisha", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Tom", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Aisha", "text": "Did you see the council wants to close the whole central grid to private cars? Buses and deliveries only, from next spring." },
+    { "speaker": "Tom", "text": "They've been threatening that for years. I'll believe it when the barriers go up." },
+    { "speaker": "Daniel", "text": "They did exactly this in Ghent, and the thing everyone forgets is that the shops fought it hard and then the footfall went up. Not down. Up." },
+    { "speaker": "Tom", "text": "Footfall going up doesn't mean the same shops survived, though. A butcher who loses his parking and gains a coffee crowd hasn't been helped." },
+    { "speaker": "Aisha", "text": "That's a good point, actually." },
+    { "speaker": "Daniel", "text": "It is, but you can phase it. Ghent took three years and moved the deliveries to early mornings. Nobody woke up to a wall." },
+    { "speaker": "Tom", "text": "My worry is the ring road. If you squeeze the middle, all that traffic has to go somewhere, and where it goes is usually the cheapest housing." },
+    { "speaker": "Aisha", "text": "Mm, that's the bit I hadn't thought about.", "gap": -0.12 },
+    { "speaker": "Aisha", "text": "So the air gets cleaner exactly where the offices are, and worse where people actually live." },
+    { "speaker": "Daniel", "text": "That can happen. It depends entirely on whether the public transport arrives before the ban does, and usually it doesn't." },
+    { "speaker": "Tom", "text": "Which is my whole objection, really. I'm not against it. I'm against doing it in that order." },
+    { "speaker": "Aisha", "text": "So none of us is against the idea. We just don't trust them to build the trams first." },
+    { "speaker": "Daniel", "text": "Pretty much, yes." }
+  ],
+  "points": [
+    "The council proposes closing the central grid to private cars, leaving buses and deliveries, from next spring.",
+    "Daniel cites Ghent, where shopkeepers opposed the change and footfall then rose rather than fell.",
+    "Tom counters that higher footfall does not mean the same businesses survived, giving a butcher losing parking as an example.",
+    "Daniel argues for phasing it over years and shifting deliveries to early mornings, as Ghent did.",
+    "Tom's main objection is displacement: traffic squeezed out of the centre moves to the ring road and typically to cheaper housing, so air quality improves where offices are and worsens where people live.",
+    "They agree the idea is sound but object to the sequence, wanting public transport in place before any ban."
+  ]
+}

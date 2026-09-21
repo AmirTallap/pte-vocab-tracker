@@ -1,0 +1,33 @@
+{
+  "id": "G054",
+  "title": "Loneliness, and whether it is a health problem",
+  "field": "Health and society",
+  "speakers": [
+    { "name": "Cerys", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Otis", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Lin", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Lin", "text": "The practice has started prescribing social groups. Actually writing it on a prescription pad, alongside the tablets." },
+    { "speaker": "Otis", "text": "That sounds like a headline rather than medicine." },
+    { "speaker": "Cerys", "text": "The mortality figures make it harder to dismiss. Persistent loneliness tracks with a risk increase comparable to smoking, in the large reviews." },
+    { "speaker": "Otis", "text": "Comparable to smoking is a very strong claim." },
+    { "speaker": "Cerys", "text": "It is, and the causal direction is the weak point. Being ill makes you isolated as readily as isolation makes you ill." },
+    { "speaker": "Lin", "text": "The longitudinal work does point one way more than the other, though. Loneliness at fifty predicts decline at sixty-five better than the reverse." },
+    { "speaker": "Otis", "text": "Alright, that's more persuasive than the raw correlation." },
+    { "speaker": "Cerys", "text": "What bothers me about prescribing it is that it treats a structural thing as a personal one. The bus route went, the pub shut, the post office closed.", "gap": -0.13 },
+    { "speaker": "Cerys", "text": "None of that is fixed by a leaflet about a walking group." },
+    { "speaker": "Lin", "text": "Except the walking group is what exists this month, and the bus route isn't coming back." },
+    { "speaker": "Otis", "text": "That's the argument for doing both rather than for doing neither." },
+    { "speaker": "Lin", "text": "And the evaluations are reasonable. Not dramatic, but fewer appointments and people report feeling better." },
+    { "speaker": "Cerys", "text": "I'd just rather it wasn't the only thing anyone is funded to do." }
+  ],
+  "points": [
+    "A medical practice has begun prescribing social activities alongside medication.",
+    "Cerys cites reviews linking persistent loneliness to mortality risk comparable to smoking.",
+    "She acknowledges causal direction is the weakness, since illness also causes isolation.",
+    "Lin notes longitudinal evidence that loneliness at fifty predicts later decline better than the reverse.",
+    "Cerys objects that social prescribing treats a structural problem, caused by lost buses, pubs and post offices, as an individual one.",
+    "Lin and Otis argue for doing both, noting evaluations show modest benefits in wellbeing and fewer appointments."
+  ]
+}

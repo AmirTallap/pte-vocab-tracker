@@ -1,0 +1,33 @@
+{
+  "id": "G040",
+  "title": "Video games and the hours they take",
+  "field": "Media and psychology",
+  "speakers": [
+    { "name": "Kit", "voice": "am_michael", "speed": 1.0 },
+    { "name": "Noelle", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Rafa", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Noelle", "text": "My brother's fourteen and he played about thirty hours last week. I don't know whether to be worried or to leave it alone." },
+    { "speaker": "Kit", "text": "Thirty hours is a part-time job. Although I'd want to know what else he's doing before calling it a problem." },
+    { "speaker": "Rafa", "text": "That's the thing the research keeps landing on. Hours alone predict almost nothing. Displacement does." },
+    { "speaker": "Noelle", "text": "Meaning whether it's replacing sleep and friends." },
+    { "speaker": "Rafa", "text": "Exactly. Thirty hours with people he talks to every day is socially different from thirty hours alone, even though it logs identically." },
+    { "speaker": "Kit", "text": "The moral panic history here is worth remembering too. Novels, radio, comics, television. Every one of them was going to ruin a generation." },
+    { "speaker": "Noelle", "text": "Which doesn't mean this one is fine.", "gap": -0.13 },
+    { "speaker": "Noelle", "text": "The designs are different now. Nobody engineered a novel to be hard to put down using a team of behavioural scientists." },
+    { "speaker": "Rafa", "text": "That's the part I'd actually regulate. Not the playing, the monetisation. Loot boxes are gambling with the serial numbers filed off." },
+    { "speaker": "Kit", "text": "Several countries agree, and the industry keeps redesigning around each ruling." },
+    { "speaker": "Noelle", "text": "So what do I say to him?" },
+    { "speaker": "Rafa", "text": "Ask what he'd be doing otherwise, and whether he's sleeping. If both answers are fine, thirty hours is a hobby." },
+    { "speaker": "Kit", "text": "Which is more than most people manage to say about their hobbies." }
+  ],
+  "points": [
+    "A fourteen-year-old played about thirty hours in a week, prompting concern.",
+    "Rafa says research finds hours alone predict little; displacement of sleep and friendships is what matters.",
+    "Social context changes the meaning of identical play time.",
+    "Kit notes a long history of moral panics about novels, radio, comics and television.",
+    "Noelle counters that modern games are deliberately engineered for engagement by behavioural specialists.",
+    "Rafa would regulate monetisation rather than play, describing loot boxes as gambling; the practical test offered is whether sleep and other activities are intact."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "weather-and-the-earth",
+  "title": "Weather and the earth",
+  "summary": "What the sky and the ground do, and what it is called.",
+  "questions": [
+    {
+      "id": "earth-01",
+      "clue": "This is a long period during which far too little rain falls and the land dries out.",
+      "answer": "drought",
+      "note": "It rhymes with out, not with thought, which is one of the least predictable spellings in English."
+    },
+    {
+      "id": "earth-02",
+      "clue": "This is a mass of snow and ice that breaks loose and slides suddenly down a mountainside.",
+      "answer": "avalanche",
+      "note": "From a word in the French Alps. The equivalent made of mud and rock is a landslide."
+    },
+    {
+      "id": "earth-03",
+      "clue": "This is a slow-moving river of ice that carves out a valley as it travels.",
+      "answer": "glacier",
+      "note": "They move a few centimetres to a few metres a day. The U-shaped valleys they leave behind are the clearest evidence they were there."
+    },
+    {
+      "id": "earth-04",
+      "clue": "This is the amount of water vapour held in the air, which makes a hot day feel heavy.",
+      "answer": "humidity",
+      "note": "High humidity stops sweat evaporating, which is why the same temperature feels far hotter in a damp climate."
+    },
+    {
+      "id": "earth-05",
+      "clue": "This is a sudden violent shaking of the ground caused by movement deep below the surface.",
+      "answer": "earthquake",
+      "accept": ["quake", "tremor"],
+      "note": "Tremor usually means a small one, but it answers the clue. Its strength is measured on a magnitude scale."
+    },
+    {
+      "id": "earth-06",
+      "clue": "This is the gradual wearing away of rock and soil by wind, water or ice.",
+      "answer": "erosion",
+      "note": "Erosion carries material away. Weathering, which is a different word, breaks it down where it lies."
+    },
+    {
+      "id": "earth-07",
+      "clue": "This is a violent tropical storm with spiralling winds, and it has three different names depending on the ocean it forms over.",
+      "answer": "hurricane",
+      "accept": ["typhoon", "cyclone"],
+      "note": "Exactly the same storm: hurricane in the Atlantic, typhoon in the north-west Pacific, cyclone in the Indian Ocean. All three are accepted."
+    },
+    {
+      "id": "earth-08",
+      "clue": "This is the regular rise and fall of the sea, caused mainly by the pull of the moon.",
+      "answer": "tide",
+      "note": "Most coasts get two high tides a day. The moon does most of the work and the sun adds to it."
+    },
+    {
+      "id": "earth-09",
+      "clue": "This is the opening in the earth's surface through which molten rock is thrown out.",
+      "answer": "volcano",
+      "note": "The molten rock is called magma underground and lava once it reaches the air."
+    },
+    {
+      "id": "earth-10",
+      "clue": "This is the layer of gases held around a planet by its gravity.",
+      "answer": "atmosphere",
+      "note": "The same word is used for the mood of a place, as in the atmosphere in the room, from the idea of something surrounding you."
+    }
+  ]
+}

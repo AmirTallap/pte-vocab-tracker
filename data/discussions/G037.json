@@ -1,0 +1,33 @@
+{
+  "id": "G037",
+  "title": "Air travel and the offsets people buy",
+  "field": "Environment and travel",
+  "speakers": [
+    { "name": "Tom", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Priya", "voice": "af_kore", "speed": 1.03 },
+    { "name": "Nils", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Priya", "text": "The airline added a four-pound offset box at checkout and I genuinely don't know whether ticking it does anything." },
+    { "speaker": "Nils", "text": "Four pounds for a long-haul flight tells you most of what you need to know." },
+    { "speaker": "Tom", "text": "The audits have been brutal. One review of forest offset projects found the large majority hadn't prevented anything, because the trees weren't going to be cut down anyway." },
+    { "speaker": "Priya", "text": "So you're paying to protect a forest that was already safe." },
+    { "speaker": "Tom", "text": "And it counts on a balance sheet as a tonne removed, which is worse than doing nothing, because doing nothing doesn't come with a claim attached." },
+    { "speaker": "Nils", "text": "Removal offsets are different, in fairness. Actual carbon taken out and stored, priced properly, are somewhere over a hundred pounds a tonne." },
+    { "speaker": "Priya", "text": "Which would make my four-pound box about forty pounds." },
+    { "speaker": "Nils", "text": "Roughly, and nobody would tick it, which is precisely why it's priced where it is.", "gap": -0.12 },
+    { "speaker": "Tom", "text": "The deeper problem is what it does to the person. There's decent evidence that buying an offset makes people fly more, not less." },
+    { "speaker": "Priya", "text": "Moral licensing." },
+    { "speaker": "Tom", "text": "Exactly that. You've paid, so it's handled." },
+    { "speaker": "Nils", "text": "I'd rather the money went into fuel research and the airline just told me the flight has a cost I can't undo." },
+    { "speaker": "Priya", "text": "That's a harder sentence to put next to a checkout button." }
+  ],
+  "points": [
+    "Airlines offer cheap carbon offsets at checkout, around four pounds for a long-haul flight.",
+    "Tom cites audits finding most forest offset projects prevented nothing, because the trees were not under threat.",
+    "Such offsets are worse than inaction because they carry a false claim of a tonne removed.",
+    "Nils distinguishes genuine removal offsets, which cost over a hundred pounds a tonne, meaning an honest price would be roughly ten times what is charged.",
+    "Tom raises moral licensing: evidence suggests buying offsets increases rather than reduces flying.",
+    "Nils would prefer the money funded fuel research alongside an honest statement that the flight's cost cannot be undone."
+  ]
+}

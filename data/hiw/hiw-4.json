@@ -1,0 +1,67 @@
+{
+  "id": "hiw-4",
+  "title": "Set 4",
+  "summary": "The periodic table, handwashing, the ozone hole, steam power, the pin factory, bystanders, feedback, chips, cathedrals and city growth.",
+  "items": [
+    {
+      "id": "h4-01",
+      "title": "Mendeleev's periodic table",
+      "text": "When Dmitri Mendeleev published his periodic table in eighteen sixty-nine, its boldest feature was not what it included but the {{gaps|errors}} he left in it. He arranged the known elements by atomic {{weight|number}} and grouped those with similar properties, and where the pattern demanded an element that nobody had found, he left a space. He even {{predicted|described}} the properties of these missing elements. Within about {{twenty|thirty}} years, three of them had been discovered, including gallium and germanium.",
+      "note": "Atomic number is how the modern table is ordered, so the shown word looks more correct than what was said. Predicted and described both fit a scientist writing about properties."
+    },
+    {
+      "id": "h4-02",
+      "title": "Semmelweis and handwashing",
+      "text": "In the eighteen forties, the Hungarian doctor Ignaz Semmelweis noticed that women giving birth in one {{ward|wing}} of a Vienna hospital were dying far more often than in another. The first was staffed by doctors and medical students, who often came {{directly|straight}} from performing autopsies. When Semmelweis made them wash their hands in a chlorine solution, deaths fell {{dramatically|gradually}}. Yet his ideas were largely {{dismissed|ignored}} by the medical establishment, partly because germ theory had not yet been {{established|accepted}}.",
+      "note": "Ward and wing are short, begin with the same sound and both name part of a hospital. Dismissed and ignored mean nearly the same, so only the sound gives it away."
+    },
+    {
+      "id": "h4-03",
+      "title": "The ozone hole",
+      "text": "In nineteen eighty-five, British scientists reported that the ozone layer over Antarctica was becoming dramatically {{thinner|weaker}} each spring. The cause was a group of chemicals called CFCs, then widely used in {{refrigerators|cosmetics}} and aerosol sprays. The response was remarkably {{swift|strong}}: the Montreal Protocol, signed just two years later, phased these chemicals out. The ozone layer is now {{recovering|stabilising}}, although full recovery is not expected for several more decades.",
+      "note": "Swift and strong both begin with an s and both praise the response. Stabilising sits comfortably before the word recovery, which makes it look right."
+    },
+    {
+      "id": "h4-04",
+      "title": "James Watt and the steam engine",
+      "text": "James Watt did not invent the steam engine, whatever the popular story says. Engines built by Thomas Newcomen had been pumping water out of mines for more than {{fifty|fifteen}} years before Watt began his work. His contribution, patented in seventeen sixty-nine, was a separate condenser, which made the engine far more {{efficient|powerful}}. It used much less coal, and that made steam power {{affordable|available}} for factories as well as mines.",
+      "note": "Fifty and fifteen are the classic number trap: listen for whether the ending is stressed. Affordable and available both begin with a and end in able."
+    },
+    {
+      "id": "h4-05",
+      "title": "Adam Smith's pin factory",
+      "text": "In The Wealth of Nations, published in seventeen seventy-six, Adam Smith described a pin factory to illustrate the division of labour. One untrained worker, he said, could {{hardly|easily}} make a single pin in a day. But when the task was divided into about eighteen separate {{operations|stages}}, a small team of ten could produce around forty-eight {{thousand|hundred}} pins daily. Smith also warned, though, that repetitive work could make people {{stupid|tired}} and ignorant.",
+      "note": "Forty-eight hundred is still a large number, so the page gives no reason to doubt it. Hardly and easily are opposites, but a reader skimming may not notice."
+    },
+    {
+      "id": "h4-06",
+      "title": "The bystander effect",
+      "text": "The bystander effect is the finding that people are {{less|more}} likely to help someone in trouble when other people are present. In a classic experiment from nineteen sixty-eight, John Darley and Bibb Latané had participants hear what sounded like another student having a {{seizure|breakdown}} over an intercom. When participants believed they were the only listener, most went for help {{quickly|eventually}}. When they believed several others could hear, many never {{responded|intervened}} at all. The explanation offered was a {{diffusion|division}} of responsibility.",
+      "note": "Diffusion and division sound alike and division of responsibility is a real phrase, so this is the hardest one. Less and more is an opposite that common sense might accept either way."
+    },
+    {
+      "id": "h4-07",
+      "title": "Formative assessment",
+      "text": "In nineteen ninety-eight, Paul Black and Dylan Wiliam published a review called Inside the Black Box, which examined hundreds of studies of classroom {{assessment|teaching}}. Their conclusion was that formative assessment, meaning feedback used to adjust teaching while learning is still {{happening|possible}}, could raise standards substantially. The key point is that a mark on its own tells a student very little. What helps is {{specific|regular}} guidance about how to improve the next piece of work.",
+      "note": "Regular guidance sounds like good advice, which hides the swap. Happening and possible are both natural after still."
+    },
+    {
+      "id": "h4-08",
+      "title": "Moore's law",
+      "text": "In nineteen sixty-five, Gordon Moore observed that the number of components on a chip was {{doubling|increasing}} roughly every year. He later revised that estimate to every {{two|three}} years, and for several decades the industry kept remarkably close to his prediction. It was never a law of physics, more a {{target|forecast}} that manufacturers organised themselves around. In recent years progress has {{slowed|stopped}}, because transistors are now so small that they are approaching the size of individual atoms.",
+      "note": "Increasing is true of doubling, so the shown word is vaguer rather than false and is easy to accept. Slowed and stopped both begin with st or sl sounds and end in a d."
+    },
+    {
+      "id": "h4-09",
+      "title": "Gothic cathedrals",
+      "text": "Gothic architecture appeared in northern France in the twelfth century, and its great {{ambition|achievement}} was light. Builders wanted walls that were tall and {{thin|strong}}, filled with stained glass. The problem was that a high stone vault pushes {{outwards|downwards}} on the walls, and a thin wall would simply collapse. The solution was the flying buttress, an external arch that {{transfers|reduces}} that force to a pillar standing away from the building. It allowed cathedrals such as Chartres to reach heights that {{astonished|inspired}} visitors.",
+      "note": "Outwards and downwards share their ending, and downwards sounds right to anyone who thinks of weight. Ambition and achievement both begin with a."
+    },
+    {
+      "id": "h4-10",
+      "title": "The urban majority",
+      "text": "Around two thousand and seven, for the first time in history, more people lived in towns and cities than in the {{countryside|suburbs}}. The United Nations expects that share to reach about two {{thirds|fifths}} by the middle of this century. Most of that growth will take place in Asia and Africa, often in informal {{settlements|housing}} on the edges of rapidly expanding cities. Sociologists are interested in how this shift changes family life, work and community ties.",
+      "note": "Thirds and fifths are both fractions ending in a th sound, so listen closely to the middle. Housing is a natural word beside informal."
+    }
+  ]
+}

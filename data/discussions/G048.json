@@ -1,0 +1,33 @@
+{
+  "id": "G048",
+  "title": "Museums charging for entry",
+  "field": "Culture and policy",
+  "speakers": [
+    { "name": "Delphine", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Arun", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Kate", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Kate", "text": "The national museum is consulting on a twelve-pound entry charge. Free for under eighteens and for residents of the city." },
+    { "speaker": "Arun", "text": "The residents carve-out tells you they know the objection and are trying to buy it off." },
+    { "speaker": "Delphine", "text": "It's not a bad carve-out, mind you. Most of the visitors are tourists who paid four hundred pounds for a flight." },
+    { "speaker": "Kate", "text": "The evidence from the last time charges were dropped is pretty stark though. Visits roughly doubled." },
+    { "speaker": "Arun", "text": "Doubled in numbers. Did the mix change?" },
+    { "speaker": "Kate", "text": "Barely. That's the finding that ought to be embarrassing. Free entry mostly gave more visits to the people already coming." },
+    { "speaker": "Delphine", "text": "Because the barrier was never the ticket. It's whether you were taken as a child, and whether the building looks like it's for you.", "gap": -0.13 },
+    { "speaker": "Delphine", "text": "A free door into a place you feel unwelcome in is still a closed door." },
+    { "speaker": "Arun", "text": "So the money would be better spent on outreach than on the door." },
+    { "speaker": "Kate", "text": "Possibly. Although charging does something free entry doesn't, which is make people plan and stay longer." },
+    { "speaker": "Arun", "text": "That's a genuine argument and it always sounds like a rationalisation." },
+    { "speaker": "Delphine", "text": "The practical risk is that once a charge exists it never comes off, and the free days drift to Tuesday mornings." },
+    { "speaker": "Kate", "text": "Which is how every concession scheme I've ever seen has ended." }
+  ],
+  "points": [
+    "A national museum proposes twelve-pound entry, free for under-eighteens and city residents.",
+    "Delphine notes most visitors are tourists who already paid heavily to travel.",
+    "When charges were previously dropped, visits roughly doubled but the demographic mix barely changed.",
+    "Delphine argues the real barriers are childhood exposure and whether the institution feels welcoming, not the ticket price.",
+    "Arun suggests outreach would be a better use of funds than free entry.",
+    "Kate concedes charging encourages longer, planned visits, while Delphine warns charges are rarely reversed and free access drifts to inconvenient times."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "hiw-1",
+  "title": "Set 1",
+  "summary": "Plants, penicillin, reefs, printing, prices, memory, schools, satellites, painting and the roots of European languages.",
+  "items": [
+    {
+      "id": "h1-01",
+      "title": "Photosynthesis",
+      "text": "Today I want to look at photosynthesis, the process by which plants turn light into chemical energy. Inside the leaf, chlorophyll {{absorbs|reflects}} mostly red and blue light, which is why leaves appear green to us. Water is split, and oxygen is released as a {{byproduct|waste}}, while carbon dioxide is fixed into sugars. It is worth remembering that nearly all the oxygen in our atmosphere has a {{biological|geological}} origin. Without this process, the food chains we depend on would simply {{collapse|stop}}.",
+      "note": "Absorbs and reflects are opposites, and a reader who half-remembers the colour of leaves will accept either. Biological and geological share their ending, so listen for the first syllable."
+    },
+    {
+      "id": "h1-02",
+      "title": "The discovery of penicillin",
+      "text": "In nineteen twenty-eight, Alexander Fleming returned from a holiday to find that a mould had {{contaminated|covered}} one of his culture plates. Around the mould, the bacteria had been {{destroyed|reduced}}. What is often forgotten is that penicillin was not produced in useful {{quantities|volumes}} until more than a decade later, when a team at Oxford developed ways to purify it. By the end of the Second World War, it was saving {{thousands|hundreds}} of lives, and it {{transformed|improved}} the treatment of infection.",
+      "note": "Every shown word makes sense, so reading cannot find any of them. Thousands and hundreds is the one people miss, because the ear accepts any large number."
+    },
+    {
+      "id": "h1-03",
+      "title": "Coral bleaching",
+      "text": "Coral reefs cover less than one per cent of the ocean floor, yet they support roughly a {{quarter|third}} of all marine species. When the water becomes too warm, corals expel the algae living in their tissues, and they turn white. This is what we call bleaching. A bleached coral is not {{dead|lost}}, but it is starving, and if the high temperatures last for several weeks, it may not recover. The Great Barrier Reef has experienced a series of mass bleaching events in recent {{years|decades}}.",
+      "note": "Years and decades is the easiest to miss: it comes at the very end, and both are true of the reef, so nothing on the page looks wrong."
+    },
+    {
+      "id": "h1-04",
+      "title": "The printing press",
+      "text": "Johannes Gutenberg is usually credited with introducing movable type printing to Europe around the middle of the fifteenth century. His real {{achievement|invention}} was not a single machine but a whole system: metal type that could be cast quickly, an oil-based ink, and a press adapted from those used for making wine. Within fifty years, printing presses had spread to more than two hundred {{cities|towns}}. Books became {{cheaper|smaller}}, and ideas could travel far more {{rapidly|widely}} than ever before.",
+      "note": "Cities and towns are near-synonyms and both fit, so listen for the sound rather than the sense. Rapidly and widely rhyme at the end, which makes that swap easy to let through."
+    },
+    {
+      "id": "h1-05",
+      "title": "What inflation means",
+      "text": "Let us start with a simple definition. Inflation is a general {{rise|change}} in prices across an economy over time, which means that each unit of money buys {{less|more}} than it did before. Most central banks aim to keep inflation low and {{stable|steady}}, often around two per cent a year. When prices rise too quickly, people on fixed {{incomes|salaries}} lose out. However, a little inflation is usually considered healthier than {{deflation|stagnation}}, because falling prices can encourage consumers to delay spending.",
+      "note": "Stable and steady begin with the same sound and mean almost the same thing, so it is the hardest of the five. Less and more is an opposite that a quick reader may not question."
+    },
+    {
+      "id": "h1-06",
+      "title": "The forgetting curve",
+      "text": "In the eighteen eighties, the German psychologist Hermann Ebbinghaus tested his own memory using lists of nonsense syllables. He found that forgetting is {{fastest|slowest}} in the first hour or so after learning, and then gradually levels off. This pattern became known as the forgetting curve. Crucially, he also showed that reviewing material at {{spaced|regular}} intervals makes it far more {{durable|reliable}}. That finding is the basis of many modern study applications, including the flashcard systems that some of you probably use.",
+      "note": "Fastest and slowest are opposites, but the rest of the sentence is the same either way. Durable and reliable end alike, so listen to the start of the word."
+    },
+    {
+      "id": "h1-07",
+      "title": "Maria Montessori",
+      "text": "Maria Montessori was one of the first women in Italy to qualify as a {{doctor|teacher}}, and her approach to education grew out of close observation of children. She opened her first school in Rome in nineteen oh seven. Her classrooms had mixed-age groups, child-sized furniture, and materials that children could {{handle|choose}} themselves. The teacher's role was to guide rather than to {{instruct|direct}}. Today, there are thousands of Montessori schools {{worldwide|nationwide}}, although researchers still debate how well the method works.",
+      "note": "Teacher reads naturally in a talk about education, which is exactly why it was chosen. Worldwide and nationwide share their second half, so the difference is all in the first syllable."
+    },
+    {
+      "id": "h1-08",
+      "title": "How satellite navigation works",
+      "text": "Satellite navigation relies on a surprisingly simple idea. Each satellite {{broadcasts|receives}} a signal that includes the precise time it was sent. Your phone measures how long that signal took to arrive and works out its distance from the satellite. With signals from at least {{four|three}} satellites, it can calculate its position and correct its own clock. The timing has to be extremely {{accurate|consistent}}, because an error of a single {{microsecond|millisecond}} would shift your position by about three hundred metres. Engineers even have to correct for the effects of {{relativity|gravity}}.",
+      "note": "Microsecond and millisecond differ only in the first syllable and sit in a sentence full of numbers. Three satellites sounds reasonable if you picture a triangle, so the number swap survives a reading too."
+    },
+    {
+      "id": "h1-09",
+      "title": "The Impressionists",
+      "text": "The Impressionists took their name from a painting by Claude Monet called Impression, Sunrise, which a critic mocked in eighteen seventy-four. The label was meant as an {{insult|joke}}, but the painters adopted it. What united them was an interest in capturing light as it changes through the day. They often painted {{outdoors|quickly}}, using short, visible brushstrokes and bright colours. The new tubes of paint made this far more {{practical|popular}}, since artists no longer had to grind their pigments in the studio.",
+      "note": "Quickly fits the short brushstrokes that follow, so the page gives no hint. Practical and popular both begin with a p and end in the same way."
+    },
+    {
+      "id": "h1-10",
+      "title": "The discovery of a language family",
+      "text": "In seventeen eighty-six, the British judge William Jones observed that Sanskrit, Greek and Latin shared {{striking|obvious}} similarities, too many to be explained by chance. He suggested they had all descended from a common {{ancestor|source}} that no longer existed. This idea laid the foundation of comparative linguistics. We now call that lost language Proto-Indo-European, and its descendants are spoken by {{billions|millions}} of people. Nobody has ever found a written {{record|text}} of it, and it has been reconstructed entirely from its daughter languages.",
+      "note": "Billions and millions share their ending, so the ear has only the first sound to go on. Record and text are near-synonyms and both are plausible."
+    }
+  ]
+}

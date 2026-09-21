@@ -1,0 +1,33 @@
+{
+  "id": "G067",
+  "title": "Should juries decide complex fraud trials?",
+  "field": "Law and society",
+  "speakers": [
+    { "name": "Blaise", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Nadia", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Craig", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Craig", "text": "That fraud trial ran fourteen months. Twelve jurors gave up over a year of their lives to it." },
+    { "speaker": "Nadia", "text": "And the proposal is judge-only trials for anything above a certain complexity threshold." },
+    { "speaker": "Blaise", "text": "Which is where I get uncomfortable, because complexity is defined by the people who benefit from the change." },
+    { "speaker": "Craig", "text": "That's a bit cynical. Somebody has to draw the line." },
+    { "speaker": "Blaise", "text": "Somebody does. My point is that fraud is precisely the offence where defendants can afford to make things complicated." },
+    { "speaker": "Nadia", "text": "So difficulty becomes a defence strategy and then a reason to remove the jury.", "gap": -0.13 },
+    { "speaker": "Nadia", "text": "That's an unattractive incentive however you look at it." },
+    { "speaker": "Craig", "text": "The practical case is real though. Fourteen months excludes anyone who can't take that off work, so the jury isn't representative anyway." },
+    { "speaker": "Blaise", "text": "That's the strongest argument and it's an argument for paying jurors properly rather than for abolishing them." },
+    { "speaker": "Nadia", "text": "There's a middle option some countries use. A judge sits with two lay assessors who have relevant expertise." },
+    { "speaker": "Craig", "text": "Which keeps a public element without asking twelve strangers to learn accounting." },
+    { "speaker": "Blaise", "text": "I'd want to see how those assessors get chosen before agreeing. That's where it would go wrong." },
+    { "speaker": "Nadia", "text": "It usually is." }
+  ],
+  "points": [
+    "A fourteen-month fraud trial prompts proposals for judge-only trials above a complexity threshold.",
+    "Blaise objects that complexity would be defined by those who benefit, and fraud defendants can afford to make cases complicated.",
+    "Nadia notes this creates an incentive to make trials difficult in order to remove juries.",
+    "Craig's practical argument is that long trials exclude anyone unable to take time off work, so juries are unrepresentative.",
+    "Blaise responds that this argues for paying jurors properly rather than abolishing juries.",
+    "Nadia offers a middle option of a judge sitting with expert lay assessors, which Blaise accepts conditionally depending on selection."
+  ]
+}

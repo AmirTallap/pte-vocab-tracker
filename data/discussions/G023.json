@@ -1,0 +1,33 @@
+{
+  "id": "G023",
+  "title": "Subtitles, dubbing and what gets lost",
+  "field": "Language and media",
+  "speakers": [
+    { "name": "Pia", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Marco", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Ellis", "voice": "bm_george", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Marco", "text": "Apparently half the subscribers here watch English-language shows with the subtitles on. Their own language, subtitled." },
+    { "speaker": "Ellis", "text": "That's me, actually. The sound mixing on a lot of new drama is genuinely unintelligible." },
+    { "speaker": "Pia", "text": "That's a real thing. Dialogue gets mixed for cinema and then played through a television speaker the width of a pencil." },
+    { "speaker": "Marco", "text": "The more interesting question is dubbing though. Countries split on it and nobody really knows why." },
+    { "speaker": "Ellis", "text": "Size of the market, mostly. Dubbing is expensive, so small language markets subtitled and got used to it." },
+    { "speaker": "Pia", "text": "And there's a decent correlation between subtitling countries and English proficiency, which nobody can prove is causal." },
+    { "speaker": "Marco", "text": "It's suggestive, though. Thousands of hours of hearing a language while reading what it means is not nothing." },
+    { "speaker": "Ellis", "text": "Dubbing defenders would say you lose the picture while you read.", "gap": 0.1 },
+    { "speaker": "Pia", "text": "Which is true for maybe a week, and then you stop noticing you're doing it." },
+    { "speaker": "Marco", "text": "The thing I'd actually defend dubbing for is children and anyone who reads slowly. It isn't only snobbery on the other side." },
+    { "speaker": "Ellis", "text": "No, that's fair. And good dubbing is a craft. The bad kind is what gives it the reputation." },
+    { "speaker": "Pia", "text": "What I object to is a country only ever offering one. Give people the switch." },
+    { "speaker": "Marco", "text": "Which streaming actually solved, more or less by accident." }
+  ],
+  "points": [
+    "About half of subscribers watch shows in their own language with subtitles on, partly because modern dialogue mixing is hard to hear on television speakers.",
+    "Ellis explains the dubbing and subtitling divide largely by market size, since dubbing is expensive for small language markets.",
+    "Pia notes a correlation between subtitling countries and English proficiency that cannot be shown to be causal.",
+    "Marco argues exposure to a language alongside its meaning is likely to help.",
+    "Pia dismisses the objection that reading costs you the picture, saying viewers adapt quickly.",
+    "Marco defends dubbing for children and slower readers, and they agree the real fault is offering only one option, which streaming largely solved."
+  ]
+}

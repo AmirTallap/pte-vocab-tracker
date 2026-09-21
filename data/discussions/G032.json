@@ -1,0 +1,33 @@
+{
+  "id": "G032",
+  "title": "Should voting be compulsory?",
+  "field": "Politics and society",
+  "speakers": [
+    { "name": "Piotr", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Jade", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Amos", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Jade", "text": "Turnout was fifty-two per cent. Somebody's going to propose compulsory voting again within the month." },
+    { "speaker": "Amos", "text": "Australia does it and gets into the nineties, so it plainly works at the thing it's aimed at." },
+    { "speaker": "Piotr", "text": "It works at attendance. Whether it works at democracy is a different question." },
+    { "speaker": "Jade", "text": "Meaning uninformed people being made to choose." },
+    { "speaker": "Piotr", "text": "Meaning exactly that. A vote cast to avoid a fine isn't obviously worth more than a vote not cast." },
+    { "speaker": "Amos", "text": "Except who doesn't vote isn't random. It's the young, the poor and the recently moved, so low turnout systematically over-weights everyone else.", "gap": -0.13 },
+    { "speaker": "Amos", "text": "Parties then write manifestos for the people who show up, which makes the gap self-reinforcing." },
+    { "speaker": "Piotr", "text": "That's the strongest version of it, yes." },
+    { "speaker": "Jade", "text": "The Australian detail I like is that it's compulsory attendance, not compulsory choice. You can spoil the ballot legally." },
+    { "speaker": "Amos", "text": "Which answers the freedom objection almost entirely." },
+    { "speaker": "Piotr", "text": "Almost. Being made to turn up is still compulsion even if you can hand in a blank paper." },
+    { "speaker": "Jade", "text": "There's a cheaper alternative nobody tries first, which is automatic registration. A good part of the gap is administrative rather than apathetic." },
+    { "speaker": "Piotr", "text": "That I'd support tomorrow, and it wouldn't need an argument about liberty at all." }
+  ],
+  "points": [
+    "Turnout of fifty-two per cent prompts discussion of compulsory voting.",
+    "Australia achieves over ninety per cent, showing it works at raising attendance.",
+    "Piotr objects that a vote cast to avoid a fine is not clearly worth more than abstention.",
+    "Amos's strongest argument is that non-voters are not a random group, so low turnout over-weights other voters and parties then write manifestos for those who show up.",
+    "Jade notes the Australian requirement is attendance rather than choice, since spoiling the ballot is legal, which largely answers the freedom objection.",
+    "Jade proposes automatic registration as a cheaper first step, since much of the gap is administrative, and Piotr agrees readily."
+  ]
+}

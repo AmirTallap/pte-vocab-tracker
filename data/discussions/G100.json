@@ -1,0 +1,33 @@
+{
+  "id": "G100",
+  "title": "Is the weekend an outdated idea?",
+  "field": "Work and society",
+  "speakers": [
+    { "name": "Imani", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Soren", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Val", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Val", "text": "The proposal is that everyone picks their own two days off rather than everyone taking Saturday and Sunday." },
+    { "speaker": "Soren", "text": "Which sounds flexible and would quietly destroy the thing the weekend is actually for." },
+    { "speaker": "Imani", "text": "Go on." },
+    { "speaker": "Soren", "text": "It isn't rest. You can rest on a Tuesday. It's synchronised rest, so the people you care about are free at the same time." },
+    { "speaker": "Val", "text": "That's a fair point and it's already broken for a lot of people. Nurses, retail staff, anyone in hospitality." },
+    { "speaker": "Imani", "text": "Which is roughly a quarter of the workforce, and they consistently report worse social connection than shift length alone would explain.", "gap": -0.13 },
+    { "speaker": "Imani", "text": "So the harm of desynchronisation is measurable, and we've already imposed it on the people with least choice." },
+    { "speaker": "Soren", "text": "Staggering it for everyone would just spread that thinly rather than fix it." },
+    { "speaker": "Val", "text": "The counter is coverage. Someone has to staff a hospital on a Sunday, so a fully synchronised week is impossible anyway." },
+    { "speaker": "Imani", "text": "Then protect the overlap rather than the specific days. Guarantee everyone some shared time with whoever they live near." },
+    { "speaker": "Soren", "text": "Which is harder to legislate than a day of the week." },
+    { "speaker": "Val", "text": "Much harder, and that's presumably why we ended up with a day of the week." },
+    { "speaker": "Imani", "text": "A crude rule that works beats a precise one nobody can enforce." }
+  ],
+  "points": [
+    "A proposal would let employees choose their own two days off instead of a common weekend.",
+    "Soren argues the weekend's value is synchronisation rather than rest itself, since rest can occur on any day.",
+    "Val notes synchronisation is already broken for around a quarter of the workforce in healthcare, retail and hospitality.",
+    "Imani cites measurably worse social connection among shift workers beyond what hours alone explain.",
+    "Full synchronisation is impossible because essential services require weekend staffing.",
+    "Imani proposes protecting guaranteed overlapping free time rather than specific days, while acknowledging a crude enforceable rule may beat a precise unenforceable one."
+  ]
+}

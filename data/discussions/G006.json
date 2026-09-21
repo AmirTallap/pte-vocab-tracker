@@ -1,0 +1,33 @@
+{
+  "id": "G006",
+  "title": "Does remote work hurt people starting out?",
+  "field": "Work and business",
+  "speakers": [
+    { "name": "Yusuf", "voice": "am_michael", "speed": 0.97 },
+    { "name": "Ellie", "voice": "bf_isabella", "speed": 1.03 },
+    { "name": "Dana", "voice": "af_nicole", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Ellie", "text": "We've lost three graduates in eighteen months and every one of them said the same thing on the way out. They felt invisible." },
+    { "speaker": "Dana", "text": "Invisible how? Were they being given work?" },
+    { "speaker": "Ellie", "text": "Plenty of work. What they weren't getting was anyone noticing when they were stuck." },
+    { "speaker": "Yusuf", "text": "That's the bit remote is genuinely bad at. When I started, half of what I learned I learned by overhearing. Someone two desks away would be on the phone doing the thing I'd been guessing at all week." },
+    { "speaker": "Dana", "text": "You can't overhear a video call." },
+    { "speaker": "Yusuf", "text": "No, and you can't ask a small question either. Everything becomes a meeting request, so you sit on it instead." },
+    { "speaker": "Ellie", "text": "That's exactly what they described." },
+    { "speaker": "Dana", "text": "I'd say the answer is deliberate structure rather than making everyone come back, though. If the learning used to happen by accident, and the accident's gone, you have to schedule it." },
+    { "speaker": "Yusuf", "text": "Scheduled overhearing." },
+    { "speaker": "Dana", "text": "Well, yes, sort of.", "gap": -0.12 },
+    { "speaker": "Dana", "text": "Pair them with someone senior for an hour a day and don't make it optional. That's not the same as the corridor, but it beats hoping." },
+    { "speaker": "Ellie", "text": "It's more expensive than the corridor was, mind you. Somebody's hour is being spent." },
+    { "speaker": "Yusuf", "text": "It was always being spent. It just never appeared on anyone's calendar, so nobody costed it." }
+  ],
+  "points": [
+    "Ellie's team lost three graduates in eighteen months, all saying they felt invisible.",
+    "The problem was not a lack of work but that nobody noticed when they were stuck.",
+    "Yusuf argues remote work removes incidental learning, since much early knowledge comes from overhearing colleagues.",
+    "He adds that small questions become meeting requests, so junior staff sit on them instead of asking.",
+    "Dana proposes deliberate structure rather than a return to the office: if learning used to happen by accident, it now has to be scheduled, for example daily pairing with a senior colleague, made compulsory.",
+    "Ellie notes this costs someone's time; Yusuf replies that the time was always being spent but never appeared on a calendar, so it was never counted."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G035",
+  "title": "Are online reviews worth anything?",
+  "field": "Technology and business",
+  "speakers": [
+    { "name": "Lena", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Barry", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Ines", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Barry", "text": "I booked a hotel on four point six stars and it was the worst room I've stayed in this decade." },
+    { "speaker": "Lena", "text": "Four point six is the danger zone, honestly. Nearly everything sits between four point two and four point eight now, so the number stopped carrying information." },
+    { "speaker": "Ines", "text": "Compressed at the top because people leave five stars out of politeness and one star out of fury, and almost nothing in between." },
+    { "speaker": "Barry", "text": "So the average is two moods rather than a measurement." },
+    { "speaker": "Lena", "text": "And then there's the paid layer. Estimates of fake reviews on the big platforms run somewhere between four and fifteen per cent depending on who's counting." },
+    { "speaker": "Ines", "text": "The fakes are getting harder to spot too. They used to be short and oddly enthusiastic. Now they're plausible paragraphs.", "gap": 0.1 },
+    { "speaker": "Barry", "text": "So is there anything left worth reading?" },
+    { "speaker": "Ines", "text": "The three-star ones. Someone who thought about it for long enough to be ambivalent is usually the only person describing the actual room." },
+    { "speaker": "Lena", "text": "That's my rule too. And the count matters more than the score, because forty reviews is a sample and four is an anecdote." },
+    { "speaker": "Barry", "text": "What I can't get past is that the whole system replaced something that worked, which was a guidebook written by somebody paid to be honest." },
+    { "speaker": "Lena", "text": "It also replaced knowing nothing at all, though. Which is what most people had.", "gap": -0.12 },
+    { "speaker": "Ines", "text": "True. It's worse than the best thing it replaced and much better than the common one." },
+    { "speaker": "Barry", "text": "That's a fairer summary than mine." }
+  ],
+  "points": [
+    "Review averages cluster between about 4.2 and 4.8 stars, so the score carries little information.",
+    "Ines explains the compression: people leave five stars out of politeness and one out of anger, with little in between.",
+    "Estimates of fake reviews range from four to fifteen per cent, and fakes have become harder to detect.",
+    "Ines recommends reading three-star reviews, as ambivalent reviewers describe the actual experience.",
+    "Lena adds that the number of reviews matters more than the score, since forty is a sample and four is an anecdote.",
+    "Barry argues the system replaced paid honest guidebooks; Ines concludes it is worse than the best alternative but better than the common one of knowing nothing."
+  ]
+}

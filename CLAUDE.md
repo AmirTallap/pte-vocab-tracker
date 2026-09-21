@@ -38,10 +38,15 @@ to do with any of the work repositories or hosts on this machine, and it never w
 A study tool for the two vocabulary sheets, English ↔ Arabic - **284 academic words
 + 207 complex phrases** as of 3 Sep 2026, and it grows whenever a word is added -
 plus a **grammar syllabus of 24 modules / 288 questions** at B2-C1, plus
-**60 PTE-style Write Essay prompts** on the Essays tab, each with **three worked
-model answers** and a guide to writing one, plus a **Speaking tab** that records
+**60 PTE-style Write Essay prompts** on the Writing tab, each with **three worked
+model answers** and a guide to writing one, plus a **Listening tab** where a definition
+is read aloud and you type the word it describes (10 sets, 100 clues), plus a
+**Speaking tab** that records
 you, transcribes it on this machine and marks the fluency, the fillers and the
-grammar - with every fault clickable to hear the exact moment it happened.
+grammar - with every fault clickable to hear the exact moment it happened. Its
+four tasks are Free talk, Read aloud, **Re-tell Lecture** (135 items, 35 of them
+real Open Yale recordings) and **Summarize Group Discussion** (three synthetic
+voices talking to each other), each on its own URL.
 
 ```bash
 npm run web        # THE way to use it: browser page on http://localhost:4173
@@ -221,7 +226,9 @@ view that exists on **one host only**.
   the blob in memory until the next take replaces it. There is no history, no
   past attempts and no export, and none should be added. It is the Essays rule
   - what you said is a rehearsal, not a document - and it matters more here
-  because it is your voice. `speech.session` is the single exception: a handful
+  because it is your voice. **The Pronunciation list is the one deliberate
+  exception (21 Sep 2026, by request)** - see its section below: it keeps WORDS,
+  never audio. `speech.session` is the other exception: a handful
   of numbers per recording, in memory, so the consistency panel can compare
   turns. A reload empties it.
 - **There is no accent detection and that is a decision, not a gap.** Telling
@@ -320,6 +327,14 @@ view that exists on **one host only**.
   prep phase BEFORE the await so the branch cannot be re-entered; and the
   resolver stops any stream or recorder that is somehow still open. Any new
   await on this path needs the same treatment.
+- **The microphone is given `MIC_SETTLE_MS` (600ms) to wake before the take
+  begins.** Measured on this machine (21 Sep 2026): the input resuming from
+  PipeWire's suspend delivers ~0.2s pinned at full scale and then a DC swing that
+  takes ~1.5s to die away; with the source already open there is none of it. So
+  `startRecording()` opens the stream, waits, and only then `beginTake()` builds the
+  recorder - with `starting` held up through the wait, and a cancel (Stop, a task
+  change, leaving the tab) stopping the stream instead. The steady floor itself was
+  about -49dBFS with 50Hz hum at -57dBFS: quiet, and not worth a filter.
 - **A failed capture is reported as a failed capture, never as statistics.**
   If the speaking found inside a clip is a small fraction of the clip - few
   words, tiny span against a long recording - the panel says so at the top and
@@ -547,14 +562,73 @@ view that exists on **one host only**.
   page may have been delivered in lurches, and a model reading a transcript cannot
   hear that - so `[1.2s]` and `(uh 0.5s)` are written down. Without them the prompt
   asks for feedback on a transcript that flatters you.
-- **The Play button's progress bar has two phases and they are honestly different.**
-  Synthesis is ~0.23s per word and the server sends nothing until it is finished, so a
-  download bar would sit at 0% and then jump to 100%. The estimate phase is amber, says
-  "about Ns left", and stops at 92% - arriving at full while still waiting is the lie a
-  progress bar must not tell. Real bytes turn it teal with a true percentage. Readiness
-  is released when the stream opens, NOT when `play()` resolves: a blocked autoplay
-  returns a promise that may never settle, and hanging the task on it left the bar at
-  100% with Start disabled for ever.
+- **Every lecture's audio is rendered once and SAVED, and the reason is not the
+  wait.** `tools/render-lectures.js` writes `data/lectures/audio/<id>.mp3` for each
+  written lecture, beside the Yale excerpts and gitignored with them. Synthesising
+  at the moment of Play cost most of a minute, which was merely annoying - but it
+  also **truncated, silently**. Kokoro's context is ~510 phoneme tokens and
+  `generate()` renders what fits and returns looking exactly like a success.
+  Measured with `af_heart`: 60 words came back as 21.35s at a natural 169wpm, and
+  100, 140 and 209 words ALL came back as *exactly* 26.95s. Every one of the
+  hundred was playing its first eighty words, stopping mid-sentence, and the
+  truncated clip was then written to the audio cache, so the replay was wrong
+  instantly and for ever. Nothing reported it because nothing had been told to look.
+  `say()` now chunks on sentence boundaries and joins the samples, and its
+  `render()` **re-splits any chunk that comes back faster than a human could say
+  it** (260wpm - far above every Kokoro voice, far below the 465 a truncation
+  measures). That backstop is the half that actually guarantees this: the budget is
+  in WORDS and the ceiling is in PHONEMES, so a hand-tuned budget will be wrong
+  again. `render-lectures.js` checks the finished MP3 the same way. This also fixed
+  "Hear it properly" on any Read Aloud script over ~80 words, which was being cut
+  at 26.95s by the same call.
+- **`say(text, voice, { cache: false })` renders without touching the WAV cache**,
+  for a caller keeping the audio itself. A lecture is ~3.8MB of WAV against a
+  headword's 60KB, so pre-rendering the hundred through the cache would spend its
+  whole 400MB budget on clips already saved as MP3 and evict, oldest first, exactly
+  the 491 headwords that make the drill's reveal instant.
+- **The lecture has a transport, and `ended` is the ONLY thing that means you have
+  heard it.** It used to be `setTimeout(finish, 600)` after `play()` was called,
+  which called an 85-second recording heard while it was still on its first
+  sentence: the button went to "Hear it again", Start went live, and *nothing
+  anywhere stopped the audio* - so the lecture played on through the ten seconds to
+  prepare and into the forty being recorded, into the microphone, underneath the
+  answer. A recording that has finished is an event the browser will tell us about,
+  and there was never any reason to guess at it. `stopSpeaking()` lowers
+  `lecPlaying` as it silences the element, which is what tells a finished lecture
+  apart from a finished "Hear it properly" on the same shared `<audio>` - only one
+  of those may start a countdown.
+- **The bar is a status bar, not a player: no pause, no scrubbing.** That is what
+  PTE gives you, and the ten seconds to prepare start the moment the lecture ends,
+  with no button in front of them - so `Start` is *hidden* in a re-tell while the
+  task is idle, and comes back only for `Record now` and `Stop`, the two labels
+  that are neither disabled nor redundant. `startPrep()` is still the one place
+  that knows how a task begins. Driven by the audio's own clock, as
+  `runPlayhead()` is. A backgrounded tab freezes rAF so the bar stops while the
+  sound plays on - the bargain the level meter and the essay countdown already make
+  - but `ended` is an event and still arrives, so the task still starts itself, and
+  `visibilitychange` repaints the moment you look again: a lecture forty seconds in
+  showing 0:00 reads as a broken page rather than a paused one.
+- **Autoplay refusing is reported.** Nothing else on this tab minded - a word that
+  does not speak is a word you click again - but a lecture that never starts leaves
+  the whole task waiting on an `ended` that cannot arrive, with a bar at 0:00 and no
+  error anywhere. `watchStart()` checks once, shortly after playback was supposed to
+  begin, and says so.
+- **The filter over the pool is `settings.speaking.source`** - `All | Real voices |
+  Synthetic`. PTE plays real recorded lecturers, so practising against only those is
+  a reasonable way to work. It is a filter on the POOL rather than a preference the
+  picker consults: `lecPool()` is what Next, Random, the dropdown, the "N of M"
+  count and the saved id all read, so a setting that excludes the lecture you are on
+  cannot leave the page sitting on one it says is not there. Narrowing keeps the
+  lecture you are on when the new setting still allows it, and keeps whether you
+  have heard it. An empty pool says *which* - a filter and a missing file look
+  identical from the outside and only one of them is fixed by a click.
+- **`real` means "has a credit", never "has an audio file".** Those were the same
+  question only while the written hundred had no files; they all have files now, so
+  the old test would call every one of them real - and "Real voices" would serve
+  synthetic lectures under the one label whose whole job is to exclude them. The
+  index carries `audio` separately for whether the file exists. This is what
+  `API_VERSION` 12 is for, and it is the 2 Sep failure's own shape: an older server
+  answers the old meaning, and the page believes it.
 - **The lecture voice is synthetic and that is the weakest part of the tab.** PTE uses
   real recorded lecturers with real accents and room acoustics. Ripping YouTube is not
   the fix - it breaks their terms and the recordings are not ours to splice or commit.
@@ -562,7 +636,274 @@ view that exists on **one host only**.
   finding that archive.org is a thin well and ocw.mit.edu is the better source. If it
   is built: commit the *recipe* and gitignore the audio, so it is reproducible rather
   than redistributed.
-- `API_VERSION` went to **10** for the speech routes and **11** for the lecture ones.
+- **Each Speaking task is its own URL**: `/speaking/free-talk`, `/speaking/read-aloud`,
+  `/speaking/retell`, `/speaking/group-discussion`, and a bare `/speaking` keeps the one
+  you were last on. It used to be one URL for all of them, on the Essays tab's reasoning
+  that a rehearsal in progress is not a place to send anybody. That is still true of the
+  *prompt*, and none of these routes carries one - no lecture id, no discussion id, no
+  script. Which TASK you are on is a different kind of fact: it is a section of the tab,
+  and it is worth a back button. `SPEAK_SLUG` is the one table, read both ways, so a slug
+  and a mode cannot drift; the buttons `navigateTo()` and `applyRoute()` calls
+  `setSpeakingMode()`, so the address bar and the buttons cannot disagree.
+
+### Summarize Group Discussion
+
+- **It is the Re-tell exercise with different audio, so it shares everything.** Hear it
+  once, get a few seconds, say it back in your own words. One panel, one transport, one
+  recorder, one clock, one report, and `LISTEN` is the only place that knows which task
+  is in front of you - `mic.items`, `mic.at` and `mic.times` are keyed by it rather than
+  duplicated. A second copy of any of that is how the two would drift, which is the same
+  argument `src/batches.js` settles for the two hosts. The panel's ids still say
+  `speakLec` because the lecture had it first; renaming fifteen of them buys nothing.
+- **What differs is only ever named once.** The API base, the noun, the button labels,
+  the saved-id key. The real differences are three: a discussion's allowances are 10s and
+  **60s** (summarising three people takes longer than re-telling one lecturer, so
+  `src/discussions.js` has its own pair and the server aliases them on import); the
+  `All | Real voices | Synthetic` filter is hidden, because every discussion is
+  synthesised and a choice with one answer is not a choice; and a discussion with no
+  audio file **cannot be played at all**, where a lecture falls back to synthesising on
+  the spot. It is several voices on one timeline and the browser cannot build that, so
+  the page says so rather than offering a button that does nothing.
+- **One JSON file per discussion in `data/discussions/`** - the rule every directory of
+  authored content here lives under. Speakers are declared with their voice, turns name
+  their speaker, and `loadDiscussions()` **refuses** a file where two speakers share a
+  voice: two speakers you cannot tell apart make the exercise impossible rather than
+  hard. It also rejects a speaker who never speaks, a turn by someone not listed, and
+  reports a word count outside 140-340.
+- **Three things make it sound like people rather than three files played in order.**
+  Different voices mixed across accent and gender; a per-speaker `speed` a little either
+  side of 1, because pitch alone is a weak cue over a laptop speaker and pace is what
+  separates two voices; and real turn-taking gaps. Conversation runs about 200ms between
+  turns, far tighter than the silence a reader leaves between paragraphs, and a turn may
+  ask for less - or for a **negative** gap, which lays it over the end of the previous
+  turn and sums the samples. That is the only way to get an interruption: no amount of
+  writing makes sequential audio interrupt.
+- **`tools/render-discussions.js` renders each turn in its own voice and lays them out on
+  one timeline.** A turn can never start before the one before it did, however negative
+  its gap, and summed overlaps are clipped in one deliberate place rather than by the
+  16-bit conversion. Output is `data/discussions/audio/<id>.mp3`, gitignored like the
+  lectures'. `decodeWav()` lives beside `wav()` in `src/tts.js` on purpose: it is the
+  same format description read the other way, and the one thing that must never happen
+  is for the writer and the reader of it to be edited apart.
+- **The report sets a discussion out as people, not prose** - the name against the words
+  - because who said what is half of what the task asks you to have followed, and a wall
+  of unattributed text would hide exactly the thing you got wrong. The prompt is
+  speaker-labelled for the same reason, and carries one extra question: did you
+  attribute the positions to the right people, and did you convey that they disagreed
+  rather than flattening it into one opinion.
+- **Whisper loses half a multi-speaker clip at 30s windows**, measured: `chunk_length_s:
+  30` transcribed 127 of G001's 243 words, and 20s with a 5s stride got all 243. The
+  same 30s setting reads a 78-second single-voice lecture at 208 of 209. **`transcribe()`
+  is deliberately left alone**: it only ever sees the learner's own answer, which is one
+  voice, and shrinking its window would put more boundaries into exactly the gap analysis
+  its comment warns about. Use 20s and a stride only when checking a rendered discussion.
+- `API_VERSION` went to **10** for the speech routes, **11** for the lecture ones,
+  **12** when `real` changed meaning on `/api/lectures`, and **13** for the three
+  `/api/discussions` routes.
+
+### Repeat Sentence
+
+Added 20 Sep 2026, as a **fourth Speaking task** at `/speaking/repeat-sentence`.
+
+- **It is Read Aloud with the script HEARD instead of shown**, which is the whole reason
+  it lives on the Speaking tab rather than on Listening where it was first suggested.
+  The recorder, the clock, the transcript, the word-by-word comparison against the
+  script and the click-to-hear playback are already there; a second copy of any of them
+  on another tab is how the two would drift. PTE scores this item under **both** Speaking
+  and Listening, so this is the exam's own arrangement rather than a compromise.
+- **The page is never given the words.** `/api/sentences` carries ids and word counts;
+  the sentence arrives as sound from `/api/sentences/<id>/audio`; and the recording is
+  analysed with **`?sentence=<id>`** rather than `?script=`, so the server looks the
+  words up itself. They come back for the first time in the report, which then draws the
+  prompt panel from them before `annotateScript()` marks it up. Read Aloud still sends
+  `?script=` because it is already showing you the script - two callers, one route, and
+  the difference is which of them has earned the text.
+- **The word count IS sent and is not a leak.** The exam tells you how long the sentence
+  was the moment it plays, and the page needs it to size the recording window: eight
+  seconds for seven words, thirteen for fourteen, clamped 8-15. A short sentence given
+  fifteen seconds teaches you to dawdle and a long one given eight cuts you off.
+- **Recording starts one second after the audio ends, with no button.** That one second
+  is the beat between the tone and the microphone, not a chance to prepare - the exam
+  gives you none. `lecEnded()` is the single place that turns the end of audio into the
+  start of a task, shared with the two listening tasks.
+- **100 sentences in 5 bands by LENGTH, not subject** - `data/sentences/*.json`, one
+  file per band. What makes this item hard is working memory, not vocabulary, so the way
+  to improve is to move up the bands. `figures` is its own band because numbers, dates
+  and proper nouns are the details that slip out first.
+- `API_VERSION` went to **15**. This one is a change of MEANING, not an addition: an
+  older server ignores `?sentence=` and marks the answer against an **empty** script,
+  which reports every word you said as an addition. Wrong in a way that looks like your
+  speaking rather than like a stale server, which is the 2 Sep failure's exact shape.
+
+### Pronunciation
+
+Added 21 Sep 2026, as a sixth Speaking task at `/speaking/pronunciation`.
+
+- **Every word a Read Aloud came out wrong on is filed**: a `misread` op from
+  `readDiff()`, script word against what the transcriber heard. It is filed on the
+  SERVER, inside `/api/speech/analyse`, when the page sent a `?script=` - Repeat
+  Sentence (`?sentence=`) files nothing, because the request was to take these from
+  Read Aloud only. `src/pronounce.js` is the one place.
+- **Words, never audio.** `progress.pronounce.words[key] = { word, heard[], misses,
+  tries, clear, first, last }`, through `scheduleProgressWrite()`. The recording
+  itself is still held for one request and written nowhere.
+- **Precision over recall**: nothing is filed from a take under 50% accuracy (the
+  alignment is noise by then), and no word under three letters.
+- **The task walks the list one word at a time**: Hear it (the voicebar's voice),
+  Record (the ONE recorder, auto-stopping after `PRON_SECONDS`), a verdict, Hear
+  yourself, Previous / Next. The take goes up with `&practice=1`, which counts
+  `tries`/`clear` against that word and never files anything - an older server would
+  file it as a Read Aloud, hence `API_VERSION` **18**.
+- **It is the one task that records with the browser's noise suppression, echo
+  cancellation and gain control ON.** Everything else asks for all three OFF, because
+  suppression eats the quiet "uh" the gap analysis looks for. This task runs no gap
+  analysis, so there is nothing to lose. Measured before deciding (21 Sep 2026):
+  Whisper read a lecture clip word-perfect with pink noise down to ~5dB SNR and 99% at
+  -1dB, with or without an ffmpeg `afftdn` denoiser in front of it - noise is not what
+  costs a transcript, so there is deliberately NO denoiser in `decode()`. (`afftdn`
+  also delays the signal by 25ms, which would put Whisper's timestamps out of step
+  with the raw samples `pauses()` measures.)
+- **A word leaves the list only by Delete, and Delete is for good**:
+  `progress.pronounce.deleted[key]`, so it is never filed again. Often the reason for
+  deleting is that the transcriber mishears it however it is said; a word that came
+  back after the next read would make the button a liar. Getting it right does not
+  remove it - only the learner knows when a word is done.
+
+---
+
+## The Writing tab
+
+Added 20 Sep 2026. `/writing`, and `/writing/essay` for Write Essay.
+
+- **It holds the written tasks the way Speaking holds the spoken ones.** There is one
+  today and `WRITE_SLUG` is the table naming them, read in both directions, so adding
+  Summarize Written Text is a row rather than a sweep through the file.
+- **`/essays` still works** and lands on `/writing/essay`. It was the address of a tab
+  for weeks; an old bookmark or a pasted link should not break because the furniture
+  moved.
+- Nothing about the essay itself changed - same twenty-minute deadline, same draft in
+  `settings.essay`, same rule that `renderEssay()` never touches the textarea.
+
+---
+
+## The Reading tab
+
+Added 21 Sep 2026. Laid out like Speaking: one tab per question type, each its own URL -
+`/reading/rw-fill-in-the-blanks`, `/fill-in-the-blanks`, `/re-order-paragraphs`,
+`/multiple-choice-single`, `/multiple-choice-multiple` - with `/<n>` for a type's n-th
+set, and a bare `/reading` keeping the type you were last on. `READ_SLUG` is the one
+table, read both ways, as `SPEAK_SLUG` is. 50 items per type, in sets of ten.
+The exam's reading items, one at a time: **Reading & Writing Fill in the Blanks**
+(a dropdown per gap), **Reading Fill in the Blanks** (a box of words, more than there
+are gaps), **Re-order Paragraphs**, and **Multiple Choice** with one answer or several.
+One JSON file per set of ten in `data/reading/`, each naming its `task`, loaded by
+`src/reading.js` - the rule every directory of authored content lives under.
+
+- **The page gets the passage and never the key.** The data lists the correct option
+  first and the paragraphs in their right order, because that is how to write and check
+  it; the server shuffles them before sending, **seeded from the item id** so a reload
+  is not a reroll, and a re-order item never arrives already in order. Every position
+  the page sends back is a position in what it was *shown*, mapped back on the server.
+  A multiple-answer item does not say how many are right, because the exam does not.
+- **Marked on the server, the way PTE marks.** A point per gap; a point per ADJACENT
+  PAIR in a re-order, so one misplaced paragraph does not cost everything; single
+  answer all or nothing; multiple answers +1 per right choice, -1 per wrong one, never
+  below zero. `gradeReading()` is the one place.
+- **The tally is the shared one** - `recordIn(progress, 'reading', ...)`, through
+  `scheduleProgressWrite()`. An item counts right only at full marks; the partial score
+  is in the verdict.
+- **A distractor that is also correct is the worst failure here**, the Fill in the
+  Blanks form of a missing `accept` variant. Fix the item, never the marker.
+- **Local only for now**, like Listening: `web/cloud-store.js` has no handler, so the
+  cloud page says the tab runs locally rather than drawing nothing.
+- The state object is **`rdq`**. `API_VERSION` went to **16** for the two routes.
+
+---
+
+## The Listening tab
+
+Added 20 Sep 2026. `/listening` and `/listening/<set-id>`, the grammar tab's route shape.
+
+A definition is spoken - *"a doctor uses this instrument to listen to your heart and
+your lungs"* - and you type one word. It drills the two things this tool tested
+separately until then: hearing a sentence you cannot re-read, and **producing** a
+precise word rather than recognising one. **10 sets, 100 clues**, one JSON file per set
+in `data/listening/`, under the same rule as every other directory of authored content
+here. Edit one file, by name.
+
+- **Nothing reaches the browser before it is earned.** The index carries set titles and
+  question *ids*; the sound comes from `GET /api/listening/<id>/audio`; the clue text,
+  the answer, the alternatives and the note arrive only in the verdict for the question
+  just answered. That is the grammar tab's rule - the page cannot be read for the
+  answers - and here it matters twice over, because being able to read the clue would
+  remove the listening entirely. A `.qcard` never holds the clue before the POST.
+- **`isAccepted()` marks it, imported rather than reimplemented.** Case-insensitive, on
+  collapsed whitespace, with curly apostrophes normalised. Every question's `accept`
+  array is expected to list *all* legitimate variants, and 43 of the 100 have one:
+  both spellings (`anaesthetic`/`anesthetic`), regional pairs (`spanner`/`wrench`,
+  `pharmacy`/`chemist`/`drugstore`) and genuine synonyms. A hurricane, a typhoon and a
+  cyclone are the same storm and all three are accepted. **A missing variant marks a
+  correct answer wrong, which is the worst failure this tool has: fix the array, never
+  the grader.**
+- **Where a word is deliberately NOT accepted, the note says why.** `velocity` does not
+  take `speed`, and `translator` does not take `interpreter`, because the clue names
+  the distinguishing feature in each case. Teaching the difference is the point; a
+  silent rejection would just look like a bug.
+- **The tally rule lives once.** `answerState()`, `recordIn()` and `progressOf()` in
+  `src/shared.js` take the store as an argument; `grammarState()`, `recordAnswer()` and
+  `grammarProgress()` are kept as the grammar-named wrappers so no call site changed.
+  Two subjects counting right and wrong two ways is how they would eventually disagree
+  about what an attempt means. Answers go to `progress.listening` through
+  `scheduleProgressWrite()` - **never** `scheduleWrite()`, which would rewrite 275KB of
+  `.xlsx` for a 1KB change, the same rule a grammar answer and a batch error follow.
+- **The clue audio is the drill's own cached `say()`**, in whichever voice the voicebar
+  has. There is no pre-render tool and none is needed: a clue is one short sentence, so
+  it costs a few seconds once and about twenty milliseconds every time after. What hides
+  even that is prefetching - `warmNextClue()` fetches the next clue while you type this
+  one, and `warmThisClue()` warms the first one the moment a set is opened, which turns
+  the opening click into a cache hit. Measured at 16ms to start after a warm.
+- **The button says `Loading` while it is loading and `Hear it again` once sound has
+  started.** It briefly said `Playing` during the fetch, which is a progress indicator
+  telling a lie - the one thing the lecture tab's two-phase bar exists to avoid.
+- **The letter diff is `diffHtml()`, the vocabulary drill's own**, so a near miss shows
+  *which* letter: `anton`**`i`**`m` in amber over `anton`**`y`**`m` in red. Its CSS was
+  scoped to `.verdict` and now names `.qverdict` too, rather than being copied - one
+  function must not have two appearances.
+- **Spellcheck, autocorrect, autocapitalize and Grammarly are off on the answer box**,
+  for the reason they are off on the drill and the Essays textarea: the exam gives you
+  none of them.
+- **One button, two meanings** - `Check` becomes `Next` - the Essays tab's Start/Restart
+  rule. A separate Next button would be a second place that knows how a question ends.
+  Enter submits and calls `stopPropagation()`, the drill's own rule.
+- **Which set you were on is saved; which question is not.** `settings.listening.set`
+  only. A question in progress is a rehearsal, not a place to come back to.
+- The state object is **`quiz`**, deliberately not anything containing *listen*:
+  `listening()` already means "is the current Speaking task one you listen to first",
+  and this file has been bitten once by exactly that kind of collision.
+- `API_VERSION` went to **14** for the three `/api/listening` routes.
+
+### Highlight Incorrect Words
+
+Added 21 Sep 2026, as the Listening tab's second task. The tab now has Speaking's
+layout: one tab per task, `LISTEN_SLUG` the one table - `/listening/word-from-definition[/<set-id>]`
+and `/listening/highlight-incorrect-words[/<n>]`. A bare set id, `/listening/<set-id>`, is
+the address the definition drill had before and still lands on it.
+
+- **One line of data is both the script and the transcript.** A swapped word is
+  `{{spoken|shown}}`; `src/hiw.js` builds the spoken text the voice reads and the word
+  list the page draws from the same line, so they cannot drift. One JSON file per set of
+  ten in `data/hiw/`.
+- **The page gets the transcript as shown, never the swapped positions** - the grammar
+  tab's rule. The spoken text reaches it only as sound, from `/api/hiw/<id>/audio`, via
+  the drill's cached `say()`.
+- **PTE's marking**: +1 per right click, -1 per wrong one, never below zero - so
+  clicking everything scores nothing. `gradeHiw()` is the one place. Full marks for
+  the tally means every swap found and nothing else clicked.
+- **It plays once before you answer**, as in the exam; `Hear it again` comes back only
+  after Check. A play the browser refused does not count as the one play.
+- Clicking a word repaints that word only - the recording is playing, and rebuilding
+  the panel mid-sentence would flicker under the reader's eye.
+- State object `hiwq`. `API_VERSION` went to **17** for the three `/api/hiw` routes.
 
 ---
 
@@ -781,7 +1122,11 @@ first.
   governs every view, not just the drill). The reason is the exam: everything
   PTE asks happens in English, and an Arabic gloss sits between the learner and
   the word as a lookup step - the same argument that put the English meaning
-  back on every card on 7 Sep, taken to its conclusion. **`arabicOn()` is the
+  back on every card on 7 Sep, taken to its conclusion. Since 21 Sep 2026 the
+  switch is **shown only under the Training tab** (Word list, Practice, Batches,
+  Grammar - one tab with a sub-row, the last one opened kept in
+  `settings.trainView`, URLs unchanged); the other tabs have no Arabic to hide.
+  **`arabicOn()` is the
   only place that reads it**, and `colsOf()` is the only gate the tables and
   the print sheet need, so what prints can never carry Arabic the screen is
   hiding.

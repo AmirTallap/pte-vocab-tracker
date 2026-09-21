@@ -1,0 +1,33 @@
+{
+  "id": "G093",
+  "title": "Weather forecasting and why nobody believes it",
+  "field": "Science and communication",
+  "speakers": [
+    { "name": "Marit", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Dale", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Zainab", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Dale", "text": "It said thirty per cent chance of rain and it rained, and everyone in the office said the forecast was wrong." },
+    { "speaker": "Zainab", "text": "Which it wasn't. Thirty per cent means it rains on roughly three of every ten days like that one." },
+    { "speaker": "Marit", "text": "The forecasts are actually extremely good now. A five-day forecast today is about as accurate as a one-day forecast was in the eighties." },
+    { "speaker": "Dale", "text": "That's a striking comparison. Why does nobody feel that?" },
+    { "speaker": "Marit", "text": "Because people remember the one wrong Saturday and not the two hundred correct Tuesdays." },
+    { "speaker": "Zainab", "text": "And the probability gets communicated badly. Thirty per cent of what, over where, during which hours?", "gap": -0.12 },
+    { "speaker": "Zainab", "text": "Some services mean thirty per cent of the area gets rain, which is a completely different claim." },
+    { "speaker": "Dale", "text": "So the number is right and the sentence is ambiguous." },
+    { "speaker": "Marit", "text": "That's most science communication, honestly." },
+    { "speaker": "Zainab", "text": "There's a forecaster bias worth knowing too. They tend to over-predict rain slightly, because being caught out costs more reputationally than a dry warning." },
+    { "speaker": "Dale", "text": "Which people then notice and trust it less, so the bias makes the problem it was protecting against." },
+    { "speaker": "Marit", "text": "The apps made it worse by showing a single icon for a whole day." },
+    { "speaker": "Zainab", "text": "One cloud with rain on it, for twelve hours across forty miles." }
+  ],
+  "points": [
+    "A thirty per cent rain forecast followed by rain is wrongly judged as an error.",
+    "Zainab explains probabilistic forecasts refer to frequency across similar days.",
+    "Marit notes five-day forecasts now match the accuracy of one-day forecasts in the 1980s.",
+    "Public perception lags because people remember rare failures rather than routine successes.",
+    "Communication is ambiguous, as some services express probability as the proportion of an area receiving rain.",
+    "Forecasters slightly over-predict rain for reputational reasons, which erodes trust, and single daily icons in apps worsen the problem."
+  ]
+}

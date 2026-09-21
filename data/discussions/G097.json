@@ -1,0 +1,33 @@
+{
+  "id": "G097",
+  "title": "Urban foxes, pigeons and what counts as wildlife",
+  "field": "Nature and cities",
+  "speakers": [
+    { "name": "Blair", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Suri", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Tom", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Tom", "text": "There's a petition to cull the foxes on the estate and another one to leave them alone. Same estate, same week." },
+    { "speaker": "Suri", "text": "Culling urban foxes doesn't work anyway, which is the part that settles it practically." },
+    { "speaker": "Blair", "text": "Because the territory just gets filled." },
+    { "speaker": "Suri", "text": "Within weeks. Remove a family and neighbouring foxes expand into the gap, so you get the same density and more fighting." },
+    { "speaker": "Tom", "text": "So the only thing that changes density is food." },
+    { "speaker": "Suri", "text": "Bins, mostly. A city with secured waste has fewer foxes without anyone doing anything else.", "gap": -0.12 },
+    { "speaker": "Blair", "text": "The pigeon situation is the same argument and people find it less charming." },
+    { "speaker": "Tom", "text": "Pigeons get treated as vermin and foxes get treated as wildlife, and the only real difference is that one of them is attractive." },
+    { "speaker": "Suri", "text": "Which is worth noticing, because conservation funding works the same way. Large mammals get money and invertebrates don't." },
+    { "speaker": "Blair", "text": "Although a fox in a garden at night is genuinely different from a fox on a nature documentary." },
+    { "speaker": "Tom", "text": "That's fair. Proximity changes how people feel about anything." },
+    { "speaker": "Suri", "text": "The honest position is that these animals are adapted to us rather than surviving despite us." },
+    { "speaker": "Blair", "text": "Which makes them a consequence of how we live rather than an invasion of it." }
+  ],
+  "points": [
+    "Competing petitions call for culling and protecting urban foxes.",
+    "Suri argues culling fails because neighbouring foxes fill vacated territory within weeks, restoring density and increasing conflict.",
+    "Food availability, chiefly waste, is the only effective control on population.",
+    "Tom notes pigeons are treated as vermin and foxes as wildlife largely because of appearance.",
+    "Suri extends this to conservation funding, which favours large mammals over invertebrates.",
+    "They conclude urban animals are adapted to human habits rather than surviving despite them, making them a consequence of how cities operate."
+  ]
+}

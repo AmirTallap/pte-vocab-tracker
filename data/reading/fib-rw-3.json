@@ -1,0 +1,118 @@
+{
+  "id": "fib-rw-3",
+  "task": "fib-rw",
+  "title": "Set 3",
+  "summary": "Technology, psychology, the arts, language and business: from the birth of the internet to cognitive bias and just-in-time production.",
+  "items": [
+    {
+      "id": "rw3-01",
+      "title": "The origins of the internet",
+      "text": "The internet grew out of ARPANET, a research network {{funded|funding|funds|fund}} by the United States Department of Defense in the late 1960s. Its designers wanted a system in which data could travel by many different routes, so that the network would continue to function even if parts of it {{failed|fails|failure|failing}}. The key technique, known as packet switching, breaks each message into small units that are sent separately and {{reassembled|reassembling|reassembly|reassembles}} at their destination. For about two decades the network was used mainly by universities and government researchers. The World Wide Web, invented by Tim Berners-Lee in 1989, finally made it {{accessible|access|accessibly|accessibility}} to the general public by allowing documents to be linked and browsed with ease.",
+      "why": [
+        "A past participle is needed for the reduced passive 'funded by the Department'; 'funding' would mean the network paid for something.",
+        "'Parts of it' is plural and the clause is in the past, so 'failed'; 'fails' is singular and 'failing' leaves the clause without a verb.",
+        "It is coordinated with the passive 'are sent', so the past participle 'reassembled'; 'reassembles' cannot follow 'are' and 'reassembly' is a noun.",
+        "'Made it ...' needs an adjective as the complement, 'accessible to'; 'access' and 'accessibility' are nouns and 'accessibly' is an adverb."
+      ]
+    },
+    {
+      "id": "rw3-02",
+      "title": "Confirmation bias",
+      "text": "Confirmation bias is the tendency to search for, interpret and remember information in a way that {{confirms|confirm|confirming|confirmation}} what we already believe. People tend to give more weight to evidence that supports their views and to {{dismiss|dismissal|dismissive|dismissing}} evidence that contradicts them. The bias is not a sign of low intelligence or poor education: it has been observed in scientists, judges and doctors {{alike|like|likely|likeness}}. One reason it is so {{persistent|persistence|persist|persistently}} is that questioning our own beliefs is uncomfortable, whereas finding reasons to agree with ourselves feels natural and even pleasant. Deliberately seeking out the strongest opposing arguments, rather than the weakest, is one of the few reliable ways to reduce its influence on our judgement.",
+      "why": [
+        "The relative clause after 'a way that' needs a singular present verb, 'confirms'; 'confirm' breaks agreement and 'confirmation' is a noun.",
+        "Parallel with 'to give', the bare infinitive 'dismiss' is needed; 'dismissive' is an adjective and 'dismissal' a noun.",
+        "'Alike' at the end of a list means equally, all of them; 'like' needs an object after it, and 'likely' means probable.",
+        "After 'so' and 'is' an adjective is needed, 'persistent'; 'persistence' is a noun and 'persistently' an adverb."
+      ]
+    },
+    {
+      "id": "rw3-03",
+      "title": "Impressionism",
+      "text": "Impressionism emerged in France in the 1860s and 1870s, when a group of painters including Claude Monet and Pierre-Auguste Renoir {{rejected|rejection|rejecting|rejects}} the strict conventions of the official Salon. Rather than working in the studio on carefully finished historical scenes, they often painted outdoors, trying to {{capture|captive|capturing|captured}} the changing effects of light and weather. Their visible brushstrokes and bright, unblended colours struck many critics as {{careless|carelessly|carelessness|care}} and unfinished. The movement's name itself came from a hostile review of Monet's painting Impression, Sunrise, whose title the critic repeated {{mockingly|mocking|mockery|mocked}}. Within a few decades, however, Impressionism had become one of the most popular and influential styles in the history of Western art.",
+      "why": [
+        "The 'when' clause needs a past-tense verb for 'a group of painters', 'rejected'; 'rejecting' leaves the clause without a verb and 'rejects' is present.",
+        "'Trying to' is followed by the bare infinitive, 'capture'; 'captive' is an adjective or noun and 'captured' cannot follow 'to'.",
+        "'Strike somebody as' is followed by an adjective, and it is coordinated with 'unfinished', so 'careless'; 'carelessly' is an adverb.",
+        "An adverb is needed to modify 'repeated', 'mockingly'; 'mocking' and 'mocked' are verb forms and 'mockery' is a noun."
+      ]
+    },
+    {
+      "id": "rw3-04",
+      "title": "The critical period for language",
+      "text": "Young children acquire their first language with remarkable ease, without formal instruction and {{despite|although|however|even}} hearing speech that is often fragmented and incomplete. Many linguists believe there is a critical period, lasting roughly until puberty, during which the brain is especially {{receptive|reception|receive|receptively}} to language. Evidence for this idea comes partly from people who learn a second language at different ages: those who start in early childhood are far more likely to {{achieve|achievement|achieving|achieved}} a native-like accent than those who begin as adults. The hypothesis remains {{controversial|controversy|controversially|contrary}}, however, because older learners often acquire vocabulary and grammar faster than young children, at least in the early stages of study.",
+      "why": [
+        "A preposition taking the gerund 'hearing' is needed, 'despite'; 'although' needs a full clause and 'however' is an adverb.",
+        "After 'especially' and 'is' an adjective is needed, 'receptive to'; 'reception' is a noun and 'receive' a verb.",
+        "'More likely to' is followed by the bare infinitive, 'achieve'; 'achievement' is a noun and 'achieving' cannot follow 'to' here.",
+        "'Remains' needs an adjective meaning disputed, 'controversial'; 'controversy' is a noun and 'contrary' means opposite, which the passage does not say."
+      ]
+    },
+    {
+      "id": "rw3-05",
+      "title": "Just-in-time manufacturing",
+      "text": "Just-in-time manufacturing is a production strategy that {{originated|originating|origin|originally}} in Japan, most famously at Toyota, in the decades after the Second World War. Instead of keeping large stocks of parts in warehouses, a factory {{orders|order|ordering|orderly}} components so that they arrive only when they are needed on the production line. This approach reduces storage costs and waste, and it makes defects easier to detect, {{since|because of|due to|owing to}} problems can no longer be hidden behind piles of spare stock. The system has a serious {{weakness|weakly|weaken|weakened}}, however: it depends entirely on a reliable supply chain. When deliveries are disrupted, as happened widely during the COVID-19 pandemic, production can come to a halt almost immediately.",
+      "why": [
+        "The relative clause needs a past-tense verb, 'originated'; 'originally' is an adverb and 'origin' a noun, so neither gives 'that' a verb.",
+        "The singular subject 'a factory' needs 'orders'; 'order' breaks agreement and 'ordering' leaves the sentence without a finite verb.",
+        "A conjunction is needed before the full clause 'problems can no longer be hidden', so 'since'; 'because of', 'due to' and 'owing to' must be followed by a noun, not a clause.",
+        "After 'a serious' a noun is needed, 'weakness'; 'weaken' is a verb and 'weakly' an adverb."
+      ]
+    },
+    {
+      "id": "rw3-06",
+      "title": "Machine learning",
+      "text": "Machine learning is a branch of artificial intelligence in which computers learn from data rather than {{following|followed|follows|follower}} rules written by a programmer. A system designed to recognise spam emails, for instance, is trained on thousands of messages that have already been {{labelled|labelling|labels|label}} as spam or genuine. Gradually the system identifies the patterns that distinguish one category {{from|with|between|among}} the other, and it can then apply them to messages it has never seen. The quality of the results depends heavily on the training data, however. If that data is incomplete or {{biased|bias|biasing|biases}}, the system will faithfully reproduce those flaws, which is why the careful selection of data has become a central concern for developers.",
+      "why": [
+        "'Rather than' here is followed by a gerund describing what the computers do instead, 'following'; 'followed' and 'follows' are finite forms and 'follower' is a noun.",
+        "'Have already been ... as' is passive and needs the past participle 'labelled'; 'labelling' would make the messages do the labelling.",
+        "The pattern is 'distinguish one thing from another'; 'between' needs both items after it, and 'with' and 'among' do not fit.",
+        "It is coordinated with the adjective 'incomplete' after 'is', so 'biased'; 'bias' and 'biases' are a noun or a verb and 'biasing' is active."
+      ]
+    },
+    {
+      "id": "rw3-07",
+      "title": "The bystander effect",
+      "text": "The bystander effect refers to the finding that people are less likely to help someone in an emergency when other people are {{present|presence|presently|presenting}}. Research on the effect was {{prompted|prompting|prompt|promptly}} by the 1964 murder of Kitty Genovese in New York, although later investigations showed that early newspaper accounts of the case had exaggerated the number of passive witnesses. The psychologists John Darley and Bibb Latané demonstrated in experiments that responsibility {{appears|appear|appearance|apparent}} to be diffused among onlookers: each person assumes that somebody else will act, and so nobody does. Encouragingly, awareness of this tendency may help people to {{counteract|counteraction|counteractive|counteracted}} it, and a direct appeal to one named individual is often enough to break the pattern.",
+      "why": [
+        "After 'are' an adjective meaning there, in the place, is needed, 'present'; 'presence' is a noun and 'presenting' means giving a presentation.",
+        "'Was ... by' is passive and needs the past participle 'prompted'; 'prompting' would be active and 'promptly' is an adverb.",
+        "The singular noun 'responsibility' needs 'appears', in the pattern 'appear to be'; 'appear' breaks agreement and 'apparent' is an adjective.",
+        "'Help people to' is followed by the bare infinitive, 'counteract'; 'counteraction' is a noun and 'counteracted' cannot follow 'to'."
+      ]
+    },
+    {
+      "id": "rw3-08",
+      "title": "The invention of writing",
+      "text": "Writing was invented independently in several parts of the world, but the earliest known system {{developed|development|developing|developer}} in Mesopotamia around 3200 BCE. It began as a practical way of keeping {{records|recording|recorded|recordable}} of goods such as grain and livestock, using small pictures pressed into clay tablets with a reed. Over time these pictures became {{increasingly|increasing|increase|increased}} abstract, and the script, now called cuneiform, came to represent sounds as well as objects. This allowed scribes to record laws, letters and literature, including the Epic of Gilgamesh, one of the oldest surviving works of literature {{in|on|at|by}} the world. Cuneiform remained in use for about three thousand years before it was gradually replaced by alphabetic scripts.",
+      "why": [
+        "The subject 'the earliest known system' needs a past-tense verb, 'developed'; 'developing' leaves the clause without a verb and 'development' and 'developer' are nouns.",
+        "The collocation is 'keep records of'; 'keeping recording of' is ungrammatical and 'recorded' is a participle.",
+        "An adverb is needed to modify the adjective 'abstract', so 'increasingly'; 'increasing' is an adjective and cannot modify another adjective.",
+        "The fixed phrase is 'in the world'; 'on', 'at' and 'by the world' do not collocate here."
+      ]
+    },
+    {
+      "id": "rw3-09",
+      "title": "Photography and painting",
+      "text": "When photography was introduced to the public in 1839, many artists feared that it would {{replace|replacing|replacement|replaced}} painting altogether. The daguerreotype, named after its French inventor Louis Daguerre, produced remarkably {{detailed|detailing|detail|details}} images on polished metal plates, although each one was unique and could not be copied. Rather than making painting obsolete, however, the new medium freed painters from the {{obligation|obliged|oblige|obligatory}} to record the world exactly as it appeared. Many of them began to experiment more boldly with colour, form and abstraction, paving the way for modern art. Photography itself gradually {{gained|gaining|gain|gainful}} acceptance as an art form in its own right, and today it is collected and exhibited by major museums.",
+      "why": [
+        "After the modal 'would' the bare infinitive is needed, 'replace'; 'replaced' and 'replacing' cannot follow a modal.",
+        "An adjective is needed after the adverb 'remarkably' and before 'images', so 'detailed'; 'detail' and 'details' are nouns or verbs.",
+        "After 'the' a noun is needed, and 'the obligation to' is the pattern; 'obliged' is a participle and 'obligatory' an adjective.",
+        "The subject 'Photography' needs a past-tense main verb, 'gained', in the collocation 'gain acceptance'; 'gaining' leaves the sentence without a verb."
+      ]
+    },
+    {
+      "id": "rw3-10",
+      "title": "Keeping customers",
+      "text": "Many businesses devote most of their marketing budget to attracting new customers, yet research on customer {{retention|retain|retained|retaining}} suggests that this may be a mistake. Winning a new customer is generally more expensive than keeping an existing one, and loyal customers tend to spend more {{over|in|at|on}} time as their trust in a company grows. They are also more likely to recommend it to friends and colleagues, which {{provides|provide|provision|providing}} valuable publicity at no cost. For these reasons, many firms now invest in loyalty schemes and in {{improving|improve|improvement|improved}} the quality of their customer service. A single poor experience can undo years of goodwill, particularly now that dissatisfied customers can share their complaints online within minutes.",
+      "why": [
+        "A noun is needed in the compound 'customer retention', meaning keeping customers; 'retain' is a verb and 'retaining' does not form this compound.",
+        "The fixed phrase is 'over time', meaning gradually; 'in time' means early enough and 'on time' means punctually.",
+        "The relative clause refers to the recommending as a whole and needs a singular verb, 'provides'; 'provide' breaks agreement and 'provision' is a noun.",
+        "After the preposition 'in' a gerund taking the object 'the quality' is needed, 'improving'; 'improvement' is a noun and would need 'of'."
+      ]
+    }
+  ]
+}

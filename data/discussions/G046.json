@@ -1,0 +1,33 @@
+{
+  "id": "G046",
+  "title": "Should streaming pay artists differently?",
+  "field": "Music and business",
+  "speakers": [
+    { "name": "Tariq", "voice": "am_michael", "speed": 0.99 },
+    { "name": "Esme", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Vik", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Esme", "text": "My band got about nine pounds for eleven thousand streams last month. I checked it twice because I assumed I'd misread it." },
+    { "speaker": "Vik", "text": "That's roughly the going rate. The per-stream number is somewhere under a third of a penny once the label takes its share." },
+    { "speaker": "Tariq", "text": "The part most people don't know is how the pot is divided. All the subscription money goes into one pool and gets split by total share of plays." },
+    { "speaker": "Esme", "text": "So my subscription doesn't go to the people I listen to." },
+    { "speaker": "Tariq", "text": "Almost none of it. If you only played your band all month, most of your ten pounds still goes to whoever is globally biggest." },
+    { "speaker": "Vik", "text": "User-centric payment fixes exactly that, and it's been trialled. Your money follows your listening.", "gap": -0.12 },
+    { "speaker": "Vik", "text": "Small artists gain, the very biggest lose a little, and that's why it moves slowly." },
+    { "speaker": "Esme", "text": "How much do small artists gain?" },
+    { "speaker": "Vik", "text": "Less than people hope. It's a better model, not a solution. The pool is still small." },
+    { "speaker": "Tariq", "text": "Which is the real issue. Recorded music got much cheaper for listeners and nobody wants to reverse that." },
+    { "speaker": "Esme", "text": "I don't either, honestly. I listen to more music than I could ever have bought." },
+    { "speaker": "Vik", "text": "So the income moved to touring and merchandise, which favours whoever can afford to tour." },
+    { "speaker": "Tariq", "text": "Meaning the model quietly selects for people with money behind them already." }
+  ],
+  "points": [
+    "A band received about nine pounds for eleven thousand streams, reflecting a per-stream rate under a third of a penny.",
+    "Subscription revenue is pooled and divided by global share of plays, so a listener's money largely does not reach the artists they play.",
+    "User-centric payment models redirect each subscription to that listener's artists and have been trialled.",
+    "Vik cautions the gain for small artists is modest, since the total pool remains small.",
+    "Tariq notes recorded music became much cheaper for listeners, which nobody wishes to reverse.",
+    "Income has shifted to touring and merchandise, which favours artists who can already afford to tour."
+  ]
+}

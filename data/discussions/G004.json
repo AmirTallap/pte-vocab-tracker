@@ -1,0 +1,33 @@
+{
+  "id": "G004",
+  "title": "Phones, sleep and the evidence",
+  "field": "Health and psychology",
+  "speakers": [
+    { "name": "Oliver", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Sofia", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Ben", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Sofia", "text": "The sleep study came out today. Students who keep the phone out of the bedroom got about forty minutes more sleep a night. Forty minutes." },
+    { "speaker": "Ben", "text": "Out of the bedroom entirely, or just not in the bed?" },
+    { "speaker": "Sofia", "text": "Out of the room. Charging somewhere else." },
+    { "speaker": "Oliver", "text": "I'd want to know who agreed to do that, though. The kind of person who'll put their phone in the hallway for a month is probably already sleeping better than the rest of us." },
+    { "speaker": "Ben", "text": "Yeah, that's the thing that always gets me with these.", "gap": -0.14 },
+    { "speaker": "Ben", "text": "You're not measuring the phone. You're measuring the sort of person who volunteers." },
+    { "speaker": "Sofia", "text": "They randomised it, actually. Same pool, half told to move it, half told to carry on." },
+    { "speaker": "Oliver", "text": "Oh. Well, that's a better study than I assumed." },
+    { "speaker": "Sofia", "text": "And the interesting bit is it wasn't the blue light. They tested that separately and the filters made almost no difference." },
+    { "speaker": "Ben", "text": "So it's just that the thing is interesting." },
+    { "speaker": "Sofia", "text": "Basically. It's not the screen, it's the fact that there's always one more thing on it." },
+    { "speaker": "Oliver", "text": "Which would explain why the night mode setting never did anything for me. I still lay there for an hour, only in orange." },
+    { "speaker": "Ben", "text": "Honestly, that's the most convincing part of the whole thing." }
+  ],
+  "points": [
+    "A study found students who charged their phones outside the bedroom slept about forty minutes more per night.",
+    "Oliver raises self-selection: people willing to move their phone may already sleep better.",
+    "Ben agrees the study might be measuring the type of volunteer rather than the phone.",
+    "Sofia answers that the study was randomised from one pool, which removes that objection.",
+    "The effect was not blue light: filters tested separately made almost no difference.",
+    "They conclude the cause is engagement rather than the screen itself, since there is always one more thing to look at, which is why night mode settings do not help."
+  ]
+}

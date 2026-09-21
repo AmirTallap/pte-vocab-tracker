@@ -1,0 +1,33 @@
+{
+  "id": "G028",
+  "title": "Do we still need public libraries?",
+  "field": "Society and culture",
+  "speakers": [
+    { "name": "Harriet", "voice": "bf_isabella", "speed": 1.0 },
+    { "name": "Samir", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Jo", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Samir", "text": "Two branches are closing. The consultation document talks about book lending being down forty per cent." },
+    { "speaker": "Jo", "text": "Which measures the wrong thing, and I think deliberately. Almost nobody uses a library primarily for books any more." },
+    { "speaker": "Harriet", "text": "What do they use it for?" },
+    { "speaker": "Jo", "text": "Printing a form. Filling in a benefits application. Sitting somewhere warm. Letting a child do homework where it's quiet." },
+    { "speaker": "Samir", "text": "Our branch runs the only free computer access for about a mile, and half the council's own services are online only now." },
+    { "speaker": "Harriet", "text": "So the council digitised its services and then closed the place where people go to use them." },
+    { "speaker": "Samir", "text": "That's more or less the shape of it, yes." },
+    { "speaker": "Jo", "text": "The other thing, and it's hard to put in a business case, is that it's one of the last indoor places you can be without buying something.", "gap": -0.13 },
+    { "speaker": "Jo", "text": "Everywhere else expects a transaction." },
+    { "speaker": "Harriet", "text": "I'd push back slightly. That argument could justify keeping any building open for ever." },
+    { "speaker": "Samir", "text": "It could. The counter is that the measured savings usually don't appear, because the demand goes somewhere more expensive." },
+    { "speaker": "Harriet", "text": "Meaning the GP, or the school." },
+    { "speaker": "Jo", "text": "Which is a different budget, so from where the decision is made it looks like a saving." }
+  ],
+  "points": [
+    "Two library branches face closure, justified by a forty per cent fall in book lending.",
+    "Jo argues lending is the wrong measure, since libraries are used for printing, forms, warmth and quiet study space.",
+    "Samir notes his branch provides the only free computer access locally while council services have moved online.",
+    "Harriet observes the contradiction of digitising services and closing the place people use to access them.",
+    "Jo adds that libraries are among the last indoor spaces requiring no purchase, though Harriet warns this argument could justify keeping anything open.",
+    "Samir argues projected savings often fail to appear because demand moves to costlier services in other budgets, which makes closure look like a saving locally."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G027",
+  "title": "Fast fashion and who actually changes",
+  "field": "Environment and business",
+  "speakers": [
+    { "name": "Cara", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Nate", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Divya", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Divya", "text": "The figure that stopped me was that the average garment now gets worn about seven times before it's thrown away." },
+    { "speaker": "Nate", "text": "Seven. That's barely a season." },
+    { "speaker": "Cara", "text": "And the price makes it rational. If a top costs four pounds, repairing it is irrational, and so is caring about it." },
+    { "speaker": "Divya", "text": "The usual answer is buy better, buy less, which works fine if you can spend eighty pounds on a coat." },
+    { "speaker": "Nate", "text": "Right, and that's where the moralising falls apart. It's cheap to be told to buy expensive things." },
+    { "speaker": "Cara", "text": "Although the second-hand market genuinely has changed, and that isn't a rich person's option." },
+    { "speaker": "Divya", "text": "It's changed for the resellable end. Nobody's reselling a four-pound top, they're binning it.", "gap": -0.12 },
+    { "speaker": "Divya", "text": "So second hand thrives on exactly the clothes that weren't the problem." },
+    { "speaker": "Nate", "text": "That's a good point. The charity shops are drowning in the cheap stuff." },
+    { "speaker": "Cara", "text": "Where it does shift is when the cost lands on the producer. France put a levy on each item and it moved the numbers more than a decade of campaigns did." },
+    { "speaker": "Nate", "text": "Because a company responds to a price and a person responds to a mood." },
+    { "speaker": "Divya", "text": "I'd put it less cynically, but yes." },
+    { "speaker": "Cara", "text": "The uncomfortable part is that this industry employs millions of people who need it to keep selling." }
+  ],
+  "points": [
+    "The average garment is worn about seven times before disposal.",
+    "Cara argues very low prices make repair and attachment irrational.",
+    "Divya and Nate reject the advice to buy better and buy less as unaffordable for many.",
+    "Divya argues second-hand markets only work for resellable clothing, not the cheapest items, which are binned and overwhelm charity shops.",
+    "Cara cites a French levy on each item as more effective than a decade of consumer campaigns, because firms respond to prices.",
+    "Cara notes the unresolved difficulty that millions of jobs depend on the industry continuing to sell."
+  ]
+}

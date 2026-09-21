@@ -162,10 +162,23 @@ export function isAccepted(question, given) {
   return question.accept.some((a) => normalise(a) === g);
 }
 
-/** The learner's record for one module, created on demand. */
-export function grammarState(progress, moduleId) {
-  progress.grammar ||= {};
-  const m = (progress.grammar[moduleId] ||= { answers: {}, lastAt: null });
+/* --------------------------------------------------- right/wrong tallies
+
+   Two subjects now keep a tally of typed answers in progress.json - the
+   grammar syllabus under `grammar`, and the listening drill under
+   `listening` - and they keep it the same way, because it is the same fact:
+   how many times this question was got right and how many times wrong.
+
+   So the rule lives once and takes the store as an argument. The grammar
+   names below are kept as they were, because every call site already uses
+   them and a rename buys nothing; what is NOT kept is a second copy of the
+   counting, which is how the two would eventually disagree about what an
+   attempt means. */
+
+/** The learner's record for one set in one store, created on demand. */
+export function answerState(progress, store, setId) {
+  progress[store] ||= {};
+  const m = (progress[store][setId] ||= { answers: {}, lastAt: null });
   if (!m.answers || typeof m.answers !== 'object') m.answers = {};
   return m;
 }
@@ -175,8 +188,8 @@ export function grammarState(progress, moduleId) {
  * difference between a rule that was guessed once and one that is actually
  * held, which a single boolean would hide.
  */
-export function recordAnswer(progress, moduleId, questionId, correct) {
-  const m = grammarState(progress, moduleId);
+export function recordIn(progress, store, setId, questionId, correct) {
+  const m = answerState(progress, store, setId);
   const a = (m.answers[questionId] ||= { right: 0, wrong: 0, last: null });
   if (correct) a.right += 1; else a.wrong += 1;
   a.last = correct ? 'right' : 'wrong';
@@ -185,10 +198,23 @@ export function recordAnswer(progress, moduleId, questionId, correct) {
 }
 
 /** Answers only - the content itself is on disk and never changes. */
-export function grammarProgress(progress) {
+export function progressOf(progress, store) {
   const out = {};
-  for (const [id, m] of Object.entries(progress.grammar || {})) {
+  for (const [id, m] of Object.entries(progress[store] || {})) {
     out[id] = { answers: m.answers || {}, lastAt: m.lastAt || null };
   }
   return out;
+}
+
+/** The learner's record for one grammar module, created on demand. */
+export function grammarState(progress, moduleId) {
+  return answerState(progress, 'grammar', moduleId);
+}
+
+export function recordAnswer(progress, moduleId, questionId, correct) {
+  return recordIn(progress, 'grammar', moduleId, questionId, correct);
+}
+
+export function grammarProgress(progress) {
+  return progressOf(progress, 'grammar');
 }

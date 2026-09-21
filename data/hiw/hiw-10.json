@@ -1,0 +1,67 @@
+{
+  "id": "hiw-10",
+  "title": "Set 10",
+  "summary": "Enzymes, vitamin D, wind turbines, early clocks, nudges, hybrid work, impostor feelings, social mobility, the cloud and accents.",
+  "items": [
+    {
+      "id": "h10-01",
+      "title": "Enzymes",
+      "text": "Enzymes are proteins that speed up chemical reactions in living cells, often by a factor of {{millions|hundreds}} or more. Each enzyme has an active site, a pocket whose shape fits only a particular molecule, which is why enzymes are so {{specific|efficient}}. Because they depend on that shape, enzymes are {{sensitive|resistant}} to their conditions. If the temperature climbs too high, the protein unfolds, and we say the enzyme has been denatured. Most human enzymes work best at around body temperature, although those in the stomach are adapted to strongly {{acidic|alkaline}} conditions.",
+      "note": "Specific and efficient share a rhythm and both praise enzymes, so this is the one most often missed. Acidic and alkaline both begin with a, and only a reader who remembers stomach acid will be suspicious."
+    },
+    {
+      "id": "h10-02",
+      "title": "Vitamin D and sunlight",
+      "text": "Vitamin D is unusual among vitamins, because our bodies can make it {{ourselves|naturally}}. When ultraviolet light from the sun strikes the skin, it converts a form of cholesterol into vitamin D. Its best-known role is helping the gut to {{absorb|store}} calcium, which is essential for strong bones. A {{severe|mild}} deficiency in childhood causes rickets, a condition in which the bones soften and bend. In countries far from the equator, the winter sun is too {{weak|low}} for the skin to make much, which is why health authorities in the United Kingdom recommend a supplement in the {{autumn|spring}} and winter.",
+      "note": "Weak and low are both one syllable and both describe a winter sun, so it slips by easily. Autumn and spring are both plausible before and winter."
+    },
+    {
+      "id": "h10-03",
+      "title": "Wind power",
+      "text": "A wind turbine turns the {{kinetic|thermal}} energy of moving air into electricity. The wind pushes the blades round, the blades turn a shaft, and a generator in the housing at the top does the rest. The power available rises very {{steeply|slowly}} with wind speed: double the speed and you get eight times the energy. That is why turbines keep getting {{taller|lighter}}, since the wind is stronger and steadier higher up, and why so many are now built {{offshore|together}}. The great challenge is that output is {{variable|limited}}, so wind needs storage or backup for calm days.",
+      "note": "Steeply and slowly are opposites that both end in ly, and the page does not say which way the relationship runs until later. Variable and limited are both fair criticisms of wind power."
+    },
+    {
+      "id": "h10-04",
+      "title": "Mechanical clocks",
+      "text": "The first mechanical clocks appeared in European monasteries and town towers in the late thirteenth century. The key invention was the escapement, a device that lets a {{falling|swinging}} weight drive the gears in small, regular steps rather than all at once. Early clocks were {{inaccurate|unreliable}} by modern standards, often gaining or losing a quarter of an hour a day, and many had no minute hand at all. Accuracy improved {{dramatically|slightly}} in sixteen fifty-six, when Christiaan Huygens built the first {{pendulum|spring}} clock. Historians have argued that clocks changed how people thought about work, as the day came to be measured in hours rather than by the {{sun|seasons}}.",
+      "note": "Inaccurate and unreliable are near-synonyms with a similar length, so only the sound separates them. Falling and swinging both describe a weight in a clock."
+    },
+    {
+      "id": "h10-05",
+      "title": "Nudges",
+      "text": "In two thousand and eight, the economist Richard Thaler and the legal scholar Cass Sunstein published a book called Nudge. Their argument was that small changes in how choices are {{presented|explained}} can shift behaviour without banning anything or changing prices. The classic example is the default option. When employees are enrolled in a pension {{automatically|immediately}} and have to opt out, far more of them end up saving than when they have to opt in. Putting fruit at eye level in a canteen is another. Critics call this {{manipulation|interference}}, but Thaler and Sunstein reply that there is no {{neutral|perfect}} way to present a choice: someone has to decide what goes first.",
+      "note": "Automatically and immediately are both long words ending in ly, and either could describe enrolment. Neutral and perfect both fit the argument that some design is unavoidable."
+    },
+    {
+      "id": "h10-06",
+      "title": "Working from home",
+      "text": "In the spring of twenty twenty, millions of office workers were sent home almost {{overnight|reluctantly}}, and many firms discovered that the work still got done. Since then, most have settled on a {{hybrid|flexible}} arrangement, with a few days a week in the office. The benefits for employees are clear: no {{commuting|meetings}}, and more control over their day. Managers worry more about the {{erosion|cost}} of informal learning, especially for junior staff who once picked things up simply by sitting near {{experienced|senior}} colleagues.",
+      "note": "Hybrid and flexible both describe the new arrangement, so reading gives no clue. Experienced and senior are both natural opposites of junior."
+    },
+    {
+      "id": "h10-07",
+      "title": "The impostor phenomenon",
+      "text": "In nineteen seventy-eight, the psychologists Pauline Clance and Suzanne Imes described what they called the impostor phenomenon. They had interviewed {{high-achieving|young}} women who, despite degrees and promotions, believed they were not really {{intelligent|qualified}} and had fooled everyone around them. These women tended to put their success down to {{luck|effort}}, or to charm, and lived in fear of being found out. Later research showed the feeling is {{widespread|unusual}} among men as well. It is not a clinical diagnosis, and, perhaps reassuringly, it is often found among people who are {{genuinely|highly}} competent.",
+      "note": "Luck is a single short word and effort also sounds like a way to explain success, so it is easy to miss. Genuinely and highly both intensify competent."
+    },
+    {
+      "id": "h10-08",
+      "title": "Social mobility",
+      "text": "Social mobility describes how easily people can move between social or economic positions, and sociologists distinguish two kinds. {{Absolute|Upward}} mobility asks whether people are better off than their parents were, which can rise simply because the whole economy {{grows|changes}}. Relative mobility asks something harder: whether a child from a poor family has the same {{chance|right}} as a child from a rich one of reaching the top. A country can have plenty of the first kind and very little of the second. Studies comparing nations tend to find that where income {{inequality|growth}} is high, relative mobility is {{lower|greater}}.",
+      "note": "Upward is a real kind of mobility, so a reader will not question it, but the speaker says absolute, to pair with relative. Chance and right are both one syllable and both fit."
+    },
+    {
+      "id": "h10-09",
+      "title": "Cloud computing",
+      "text": "When we say that files are stored in the cloud, we really mean they are stored on someone else's computers, in large {{data|server}} centres owned by companies such as Amazon, Microsoft and Google. Instead of buying and maintaining their own servers, businesses {{rent|share}} computing power and storage, and pay only for what they use. This makes it easy to grow {{quickly|cheaply}}, because a start-up can handle a sudden surge in customers without buying new hardware. The concerns are dependence on a single provider, and the question of who can {{access|delete}} your data, especially when it is held in a {{foreign|distant}} country.",
+      "note": "Rent and share are both one syllable and both describe using someone else's machines. Foreign and distant both fit the worry about where data is kept."
+    },
+    {
+      "id": "h10-10",
+      "title": "Accent and dialect",
+      "text": "Linguists draw a careful distinction between accent and dialect. An accent is only about {{pronunciation|intonation}}: how the vowels and consonants sound. A dialect covers much more, including {{grammar|spelling}} and vocabulary. So two people can speak the same dialect with different accents. Standard English, for example, is spoken with many regional accents across Britain. Linguists also stress that no dialect is {{linguistically|socially}} inferior to another. Every variety has regular rules of its own; the ones we {{stigmatise|dislike}} simply belong to groups with less {{power|money}}.",
+      "note": "Pronunciation and intonation both end in ation and both concern sound, so the start of the word decides it. Linguistically and socially both end in ally and are easy to confuse at speed."
+    }
+  ]
+}

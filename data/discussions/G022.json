@@ -1,0 +1,33 @@
+{
+  "id": "G022",
+  "title": "Should university be free?",
+  "field": "Education and policy",
+  "speakers": [
+    { "name": "Elena", "voice": "bf_emma", "speed": 1.02 },
+    { "name": "Kwame", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Ruby", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Ruby", "text": "The manifesto has free tuition in it again. No fees, funded from general taxation." },
+    { "speaker": "Kwame", "text": "Which sounds progressive and mostly isn't, and that's the bit that always gets skipped." },
+    { "speaker": "Ruby", "text": "Go on." },
+    { "speaker": "Kwame", "text": "Graduates earn more than average. Funding them from everyone's taxes means a warehouse worker pays for a dentist's training." },
+    { "speaker": "Elena", "text": "That holds if the tax system is flat. It isn't, so the dentist pays more of it back anyway." },
+    { "speaker": "Kwame", "text": "Some of it. Not most." },
+    { "speaker": "Elena", "text": "The stronger case for me is what fees do to choices. People pick subjects by expected salary rather than by what they're good at, and that's a real cost you don't see on any balance sheet." },
+    { "speaker": "Ruby", "text": "Scotland's free and the participation gap between rich and poor didn't close, though. That's the finding that stopped me." },
+    { "speaker": "Elena", "text": "Because the barrier was never the tuition. It's living costs and school attainment at sixteen.", "gap": -0.13 },
+    { "speaker": "Elena", "text": "Abolishing fees without maintenance grants helps the people who were coming anyway." },
+    { "speaker": "Kwame", "text": "So we agree the money should go somewhere, we just disagree about where." },
+    { "speaker": "Ruby", "text": "Grants over fees, then. Which is much less popular as a slogan." },
+    { "speaker": "Elena", "text": "Almost everything correct is." }
+  ],
+  "points": [
+    "A manifesto proposes abolishing tuition fees, funded from general taxation.",
+    "Kwame argues this is less progressive than it sounds, since graduates earn above average and non-graduates would fund them.",
+    "Elena counters that progressive taxation recovers some of this, though Kwame says not most.",
+    "Elena's stronger argument is that fees distort subject choice towards expected salary.",
+    "Ruby cites Scotland, where free tuition did not close the participation gap between rich and poor.",
+    "Elena explains that the real barriers are living costs and attainment at sixteen, so maintenance grants matter more than abolishing fees."
+  ]
+}

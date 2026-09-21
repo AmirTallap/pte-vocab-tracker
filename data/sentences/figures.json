@@ -1,0 +1,27 @@
+{
+  "id": "figures",
+  "title": "Numbers and names",
+  "summary": "Figures, dates and proper nouns. The details that slip out first under pressure.",
+  "sentences": [
+    { "id": "fg-01", "text": "The lecture begins at quarter past nine in theatre four." },
+    { "id": "fg-02", "text": "Roughly sixty per cent of applicants withdrew before the interview." },
+    { "id": "fg-03", "text": "Professor Hargreaves will cover the Tuesday session this week." },
+    { "id": "fg-04", "text": "The building was completed in nineteen sixty-eight." },
+    { "id": "fg-05", "text": "Submit two printed copies and one electronic version by Friday." },
+    { "id": "fg-06", "text": "The sample included eight hundred and forty participants." },
+    { "id": "fg-07", "text": "The temperature rose by three degrees over the following decade." },
+    { "id": "fg-08", "text": "Doctor Mensah published the first paper on this in two thousand and nine." },
+    { "id": "fg-09", "text": "Only twelve of the ninety-six responses were usable." },
+    { "id": "fg-10", "text": "The fieldwork took place in Kenya and northern Tanzania." },
+    { "id": "fg-11", "text": "Registration closes on the thirty-first of October." },
+    { "id": "fg-12", "text": "The grant is worth one hundred and fifty thousand pounds." },
+    { "id": "fg-13", "text": "The third and fourth chapters were written by different authors." },
+    { "id": "fg-14", "text": "Around one in seven students changes course in the first year." },
+    { "id": "fg-15", "text": "The seminar runs from two until half past four." },
+    { "id": "fg-16", "text": "The Edinburgh conference attracted delegates from twenty-two countries." },
+    { "id": "fg-17", "text": "Her thesis was examined by two professors from Manchester." },
+    { "id": "fg-18", "text": "The error rate fell from nine per cent to under two." },
+    { "id": "fg-19", "text": "The archive covers the years eighteen fifty to nineteen hundred." },
+    { "id": "fg-20", "text": "Four of the seven trials were stopped early for safety reasons." }
+  ]
+}

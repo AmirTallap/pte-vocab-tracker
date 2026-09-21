@@ -1,0 +1,33 @@
+{
+  "id": "G087",
+  "title": "Should tourists pay more to visit?",
+  "field": "Travel and economics",
+  "speakers": [
+    { "name": "Paolo", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Greta", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Yasmin", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Yasmin", "text": "Venice charges day visitors now, and three other cities have announced something similar since." },
+    { "speaker": "Paolo", "text": "Five euros isn't going to deter anyone who flew there. It's a gesture." },
+    { "speaker": "Greta", "text": "It's a gesture that raises money, mind you. And the stated aim was never really deterrence, it was funding the cleaning and the crowd management." },
+    { "speaker": "Yasmin", "text": "Although day visitors are the ones who spend least and cost most, so charging them specifically makes sense." },
+    { "speaker": "Paolo", "text": "The cruise passenger who eats on the ship and uses the square for four hours." },
+    { "speaker": "Greta", "text": "Exactly that. The economics of a cruise call are genuinely bad for a small city.", "gap": -0.12 },
+    { "speaker": "Yasmin", "text": "The deeper problem is housing, though, and a day charge does nothing about it." },
+    { "speaker": "Greta", "text": "Short-term lets, yes. That's what actually empties a centre of residents, and it's a separate policy entirely." },
+    { "speaker": "Paolo", "text": "Barcelona went at that directly rather than charging visitors. Phasing out tourist flat licences altogether." },
+    { "speaker": "Yasmin", "text": "Which is far more aggressive and much more likely to work." },
+    { "speaker": "Greta", "text": "There's an equity objection worth taking seriously, though. A charge prices out the backpacker and not the cruise line." },
+    { "speaker": "Paolo", "text": "So charge per visit but scale it to what the visit costs the city." },
+    { "speaker": "Yasmin", "text": "Which would land hardest on cruises, and that is exactly why it won't happen." }
+  ],
+  "points": [
+    "Venice and other cities have introduced charges for day visitors.",
+    "Paolo argues small charges do not deter anyone; Greta notes the aim is funding cleaning and crowd management rather than deterrence.",
+    "Day visitors, particularly cruise passengers, spend least while imposing the highest costs.",
+    "Yasmin argues the deeper problem is housing, which visitor charges do not address.",
+    "Barcelona instead targeted short-term lets by phasing out tourist flat licences, which they consider more effective.",
+    "Greta raises an equity objection, since flat charges affect budget travellers more than cruise lines, and Yasmin notes cost-based charging is unlikely for that reason."
+  ]
+}

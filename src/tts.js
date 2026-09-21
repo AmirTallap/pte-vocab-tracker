@@ -120,6 +120,35 @@ function checkVoices(tts) {
   }
 }
 
+/* ------------------------------------------------- throttling a batch render
+
+   A rendering run takes every core this machine has, for as long as it runs.
+   That is right for the drill - one word is 2.5 seconds against an otherwise
+   idle machine - and wrong for a batch of a hundred, which pins all four for
+   an hour and spins the fans while somebody is trying to work.
+
+   THREE THINGS THAT DO NOT WORK, all measured here rather than assumed, so
+   that nobody spends the afternoon on them again:
+
+     - `nice -n 19`. Priority only decides who yields when two things want the
+       same core. With the other cores idle the renderer still takes them all,
+       and the heat is identical. It was running at 270% at nice 19.
+     - `taskset -c 0,1`. onnxruntime sets per-thread affinity itself and walks
+       straight out of the mask: pinned to CPUs 0 and 1, its worker threads
+       were found running on 2 and 3.
+     - `session_options: { intraOpNumThreads: 1 }` through
+       `KokoroTTS.from_pretrained`. kokoro-js does not pass it down to the
+       session, so the option is simply ignored - four busy threads either way.
+
+   What DOES work is not running it while the machine is in use. Every render
+   tool here skips what is already on disk, so stopping one costs nothing and
+   resuming it is the same command again. A cgroup quota
+   (`systemd-run --user -p CPUQuota=100%`) is enforced by the kernel and
+   cannot be escaped, but the transient unit did not inherit enough of the
+   environment to find the audio cache, so that route needs work before it is
+   worth recommending.
+*/
+
 /** One load, kept for the life of the process. */
 function loadTTS() {
   if (!ttsPromise) {
@@ -219,6 +248,151 @@ function wav(samples, rate) {
   return buf;
 }
 
+/* --------------------------------------------------------------- long text
+
+   Kokoro's context is about 510 phoneme tokens, and `generate()` does not say
+   when it runs out: it renders what fits, returns, and looks exactly like a
+   success. Measured on this machine with af_heart - 60 words came back as
+   21.35s at a natural 169wpm, and 100, 140 and 209 words ALL came back as
+   *exactly* 26.95s. Every Re-tell lecture was therefore playing its first
+   eighty-odd words and stopping mid-sentence, and the truncated rendering was
+   then written to the cache, so the replay was wrong instantly and for ever.
+   Nothing anywhere reported it, because nothing had been told to look.
+
+   So text is cut into chunks here and the samples are joined back up. Only
+   the headwords are short enough for this never to have mattered, which is
+   why it survived until a lecture was read aloud.
+*/
+
+/* Far under what actually fits. The ceiling is in PHONEMES, so the same word
+   count crosses it or not depending on the words - "through" and "aluminium"
+   are one word each and nothing alike - and there is no signal when it does.
+   A chunk boundary costs a breath; a truncation costs the second half of the
+   lecture. */
+const CHUNK_WORDS = 40;
+
+/* The backstop, and it is the half that actually guarantees this. A chunk is
+   rejected when what came back is too short to be the words that went in.
+   260wpm sits far above every Kokoro voice - the A-graded ones read at about
+   170 - and far below the 465 that the truncated 209-word lecture measured,
+   so it cannot fire on honest audio and cannot miss a cut one. A rejected
+   chunk is split and re-rendered rather than reported: the split IS the fix,
+   and a budget that needs hand-tuning per voice is a budget that will be
+   wrong again. */
+const MAX_WPM = 260;
+
+const countWords = (t) => String(t).trim().split(/\s+/).filter(Boolean).length;
+
+/** Sentences, keeping the terminator that ended each one. */
+function sentences(text) {
+  return String(text).trim().split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Boolean);
+}
+
+/**
+ * One over-long sentence, broken where a reader would draw breath: at a
+ * clause boundary first, and only between bare words when there is no clause
+ * boundary to use.
+ */
+function splitLong(sentence, budget) {
+  const clauses = sentence.split(/(?<=[,;:])\s+/).map((c) => c.trim()).filter(Boolean);
+  const out = [];
+  let cur = [], n = 0;
+  for (const clause of clauses) {
+    const w = countWords(clause);
+    if (n && n + w > budget) { out.push(cur.join(' ')); cur = []; n = 0; }
+    if (w > budget) {
+      // No punctuation left to break on. Split between words, which is
+      // audible - but it is a seam in a sentence rather than the end of one.
+      const ws = clause.split(/\s+/);
+      for (let i = 0; i < ws.length; i += budget) out.push(ws.slice(i, i + budget).join(' '));
+      continue;
+    }
+    cur.push(clause); n += w;
+  }
+  if (cur.length) out.push(cur.join(' '));
+  return out;
+}
+
+/** The text as chunks that will each fit, packed whole sentences first. */
+function chunk(text, budget = CHUNK_WORDS) {
+  const out = [];
+  let cur = [], n = 0;
+  for (const s of sentences(text)) {
+    const w = countWords(s);
+    if (w > budget) {
+      if (cur.length) { out.push(cur.join(' ')); cur = []; n = 0; }
+      for (const piece of splitLong(s, budget)) out.push(piece);
+      continue;
+    }
+    if (n && n + w > budget) { out.push(cur.join(' ')); cur = []; n = 0; }
+    cur.push(s); n += w;
+  }
+  if (cur.length) out.push(cur.join(' '));
+  return out.length ? out : [String(text).trim()];
+}
+
+/**
+ * One chunk, rendered - and checked against the clock. Anything that comes
+ * back faster than a human being could say it was cut off, so it is halved
+ * and each half rendered instead. The depth limit is there so a genuinely
+ * strange input cannot recurse for ever; by then the halves are a few words
+ * each and whatever is wrong is not truncation.
+ */
+async function render(tts, text, voice, rate, depth = 0) {
+  const audio = await tts.generate(text, { voice, speed: rate });
+  const seconds = audio.audio.length / audio.sampling_rate;
+  const words = countWords(text);
+  const wpm = seconds > 0 ? words / (seconds / 60) : Infinity;
+
+  if (wpm > MAX_WPM * rate && words > 6 && depth < 5) {
+    const ws = text.trim().split(/\s+/);
+    const half = Math.ceil(ws.length / 2);
+    const a = await render(tts, ws.slice(0, half).join(' '), voice, rate, depth + 1);
+    const b = await render(tts, ws.slice(half).join(' '), voice, rate, depth + 1);
+    return { rate: a.rate, parts: a.parts.concat(b.parts) };
+  }
+  return { rate: audio.sampling_rate, parts: [audio.audio] };
+}
+
+/**
+ * The chunks back into one clip, with a breath between them. Kokoro leaves
+ * very little room at the edges of what it renders, so butting two chunks
+ * straight together runs the sentences into each other.
+ */
+function join(parts, rate, gapSeconds = 0.09) {
+  const gap = Math.max(0, Math.round(rate * gapSeconds));
+  const total = parts.reduce((n, p) => n + p.length, 0) + gap * (parts.length - 1);
+  const out = new Float32Array(total);
+  let at = 0;
+  for (let i = 0; i < parts.length; i++) {
+    out.set(parts[i], at);
+    at += parts[i].length + (i < parts.length - 1 ? gap : 0);
+  }
+  return out;
+}
+
+/**
+ * The samples back out of a WAV this file wrote.
+ *
+ * It lives beside wav() on purpose: it is the same format description read in
+ * the other direction, and the one thing that must never happen is for the
+ * writer and the reader of it to be edited apart. Only for buffers from say()
+ * - 16-bit mono PCM with a 44-byte header - not a general WAV parser.
+ *
+ * It exists for the group discussions, which are built by rendering each turn
+ * in that speaker's own voice and laying them out on one timeline, with real
+ * conversational gaps and the occasional overlap. That needs samples, not a
+ * file per sentence.
+ */
+export function decodeWav(buffer) {
+  const rate = buffer.readUInt32LE(24);
+  const bytes = buffer.readUInt32LE(40);
+  const n = Math.floor(Math.min(bytes, buffer.length - 44) / 2);
+  const out = new Float32Array(n);
+  for (let i = 0; i < n; i++) out[i] = buffer.readInt16LE(44 + i * 2) / 32768;
+  return { samples: out, rate };
+}
+
 /**
  * One rendering, in flight. The page prefetches the card it is showing and then
  * asks for the same audio again on the reveal; both wait on the one synthesis
@@ -230,26 +404,51 @@ const inFlight = new Map();
  * Say `text` in `voice`, as a WAV buffer. Served from disk when it has been
  * said before - the common case after one pass through a batch, and the reason
  * the model is usually never loaded at all on a restart.
+ *
+ * `cache:false` renders without reading or writing that cache, for a caller
+ * that is keeping the audio itself. A lecture is 78 seconds - about 3.8MB of
+ * WAV against a headword's 60KB - so pre-rendering the hundred through the
+ * cache would spend its whole 400MB budget on clips already saved as MP3 and
+ * evict, oldest first, exactly the 491 headwords that make the drill's reveal
+ * instant.
  */
-export async function say(text, voice, { speed = 1 } = {}) {
+export async function say(text, voice, { speed = 1, cache = true } = {}) {
   const words = String(text || '').trim();
   if (!words) throw new Error('nothing to say');
   if (!isVoiceId(voice)) throw new Error(`unknown voice: ${voice}`);
 
   // Speed changes the rendering, so it is part of the key.
   const rate = Math.max(0.5, Math.min(2, Number(speed) || 1));
-  const file = cachePath(voice, rate === 1 ? words : `${words}@${rate}`);
 
-  try { return { buffer: fs.readFileSync(file), cached: true }; }
-  catch { /* not rendered yet */ }
+  // Chunking is a pure text operation, so the key is decided without loading
+  // the model. Text that still fits in ONE chunk keys exactly as it always
+  // did: those renderings were never truncated and their cache entries are
+  // still good, so a fix to the lectures does not cost a re-render of all 491
+  // headwords. Multi-chunk text gets a distinct key, which strands every
+  // truncated WAV rendered before this rather than serving it again for ever.
+  const pieces = chunk(words);
+  const key = pieces.length > 1 ? `${words}\n#chunked` : words;
+  const file = cachePath(voice, rate === 1 ? key : `${key}@${rate}`);
+
+  if (cache) {
+    try { return { buffer: fs.readFileSync(file), cached: true }; }
+    catch { /* not rendered yet */ }
+  }
 
   const running = inFlight.get(file);
   if (running) return { buffer: await running, cached: false };
 
   const job = (async () => {
     const tts = await loadTTS();
-    const audio = await tts.generate(words, { voice, speed: rate });
-    const buf = wav(audio.audio, audio.sampling_rate);
+    const parts = [];
+    let sampleRate = 24000;
+    for (const piece of pieces) {
+      const done = await render(tts, piece, voice, rate);
+      sampleRate = done.rate;
+      for (const part of done.parts) parts.push(part);
+    }
+    const buf = wav(parts.length === 1 ? parts[0] : join(parts, sampleRate), sampleRate);
+    if (!cache) return buf;
     try {
       fs.mkdirSync(path.dirname(file), { recursive: true });
       // Written under a temp name and renamed: a killed process must not be
@@ -264,6 +463,12 @@ export async function say(text, voice, { speed = 1 } = {}) {
     }
     return buf;
   })();
+
+  // The in-flight map is keyed on the cache file, so an uncached render has
+  // no key to share and does not belong in it. Nothing asks for the same
+  // uncached clip twice: the one caller that passes cache:false is writing
+  // the result to its own file and checking for that file first.
+  if (!cache) return { buffer: await job, cached: false };
 
   inFlight.set(file, job);
   try {

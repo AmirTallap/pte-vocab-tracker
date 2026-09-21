@@ -1,0 +1,155 @@
+{
+  "id": "mcq-single-1",
+  "task": "mcq-single",
+  "title": "Set 1",
+  "summary": "Ten passages, one answer each: main idea, detail, inference, purpose, attitude and vocabulary.",
+  "items": [
+    {
+      "id": "ms1-01",
+      "title": "Echolocation in bats",
+      "passage": "Many bats find their way and hunt in complete darkness by means of echolocation. The animal emits a rapid series of high-pitched calls, most of them far above the range of human hearing, and listens for the echoes that bounce back from objects around it. By analysing how long each echo takes to return, the bat can judge the distance of an obstacle or an insect with remarkable precision.\nThe system is more sophisticated than simple distance measurement, however. As a bat closes in on its prey, it increases the rate of its calls sharply, producing what researchers call a 'feeding buzz' that gives it rapidly updated information in the final moments of the chase. Differences in the timing and loudness of the echo reaching each ear help it to work out direction, while subtle changes in the echo's pitch can reveal whether the target is moving towards or away from it.\nNot all bats rely on this ability to the same degree. Many large fruit bats navigate chiefly by sight and smell, and only a few of them use a simple form of echolocation based on clicks. For the insect-eating species, by contrast, echolocation is essential, allowing them to hunt successfully at night.",
+      "question": "Which of the following best expresses the main idea of the passage?",
+      "options": [
+        "Bats are able to see in the dark more effectively than birds.",
+        "Echolocation is a sophisticated sensory system on which many bats, especially insect-eaters, depend to navigate and hunt.",
+        "The feeding buzz is the most important stage of a bat's hunt.",
+        "Fruit bats have lost the ability to echolocate because they rely on smell."
+      ],
+      "answer": [1],
+      "note": "The passage explains how echolocation works, stresses that it is 'more sophisticated than simple distance measurement', and ends by saying it is 'essential' for insect-eating species, which the correct option sums up. The feeding buzz is one detail among several, not the point of the passage, and nothing says fruit bats 'lost' the ability or links that to smell."
+    },
+    {
+      "id": "ms1-02",
+      "title": "The Bauhaus",
+      "passage": "The Bauhaus, founded by the architect Walter Gropius in Weimar in 1919, was one of the most influential schools of art and design of the twentieth century. Its central ambition was to close the gap between the fine arts and the crafts, which Gropius believed had been separated to the detriment of both. Students therefore began with a preliminary course exploring materials, form and colour before entering workshops devoted to particular crafts such as metalwork, weaving and furniture-making.\nOver time the school's emphasis shifted towards design for industrial production. Rather than producing unique handmade objects for wealthy patrons, Bauhaus designers increasingly aimed to create well-made, affordable prototypes that factories could manufacture in large numbers.\nThe school moved to Dessau in 1925 and then to Berlin, where it closed in 1933 under pressure from the Nazi government, which regarded it as politically suspect. Its influence did not end there, however. Many of its teachers emigrated, several of them to the United States, where they taught a new generation of architects and designers and helped to spread the clean, functional style now associated with the Bauhaus name.",
+      "question": "According to the passage, why did Gropius want to bring the fine arts and the crafts together?",
+      "options": [
+        "He thought factories needed artists to design their machines.",
+        "He wanted to produce unique objects for wealthy patrons.",
+        "He was responding to demands from the government.",
+        "He believed their separation had been harmful to both.",
+        "He considered the crafts more important than the fine arts."
+      ],
+      "answer": [3],
+      "note": "The passage says the two had been separated 'to the detriment of both', which means to the harm of both. The industrial emphasis came later ('Over time') and concerned products, not machines, and unique objects for patrons is the opposite of what the school moved towards. The government is mentioned only as the power that closed the school."
+    },
+    {
+      "id": "ms1-03",
+      "title": "Automatic enrolment in pensions",
+      "passage": "When employees must actively choose to join a workplace pension scheme, many never do so, even when they say they intend to save for retirement. Behavioural economists attribute this gap between intention and action partly to inertia: completing a form is a small cost, but one that is easily postponed indefinitely.\nSeveral governments have responded by changing the default. Under automatic enrolment, which the United Kingdom introduced in stages from 2012, eligible workers are placed in a scheme unless they deliberately opt out. Nobody is compelled to save, and leaving remains straightforward, yet participation has risen substantially, because the same inertia that once kept people out now keeps them in.\nCritics point out that a default is not neutral. If the standard contribution rate is set low, people who would otherwise have chosen to save more may simply accept it, so that the policy increases the number of savers while leaving many of them with modest pensions. Supporters reply that every scheme must have some default, and that it is better to choose one deliberately than to leave it to chance.",
+      "question": "What can be inferred from the passage about automatic enrolment?",
+      "options": [
+        "It forces employees to save a fixed proportion of their income.",
+        "It has ensured that most workers will receive generous pensions.",
+        "Its success depends on the same tendency that previously discouraged saving.",
+        "It was introduced because workers did not want to save for retirement."
+      ],
+      "answer": [2],
+      "note": "The passage says participation rose 'because the same inertia that once kept people out now keeps them in', so the policy works through the very tendency that used to stop people saving. 'Nobody is compelled to save' rules out the first option, the critics' point about 'modest pensions' rules out the second, and the fourth is contradicted by the opening: people 'say they intend to save'."
+    },
+    {
+      "id": "ms1-04",
+      "title": "Crowdfunding",
+      "passage": "Crowdfunding allows a person or organisation to raise money for a project by collecting small sums from a large number of people, usually through an online platform. On reward-based platforms, backers receive a product or other perk if the project succeeds; on equity platforms, they receive a small share in the business itself.\nFor entrepreneurs, the attractions are clear. Crowdfunding can supply capital that banks and professional investors have declined to provide, and a successful campaign also serves as evidence that there is real demand for a product before it is manufactured.\nBackers, however, should understand what they are paying for. A pledge on a reward-based platform is not a purchase in the ordinary sense: if the project fails, there may be no product and no refund. Equity investors face a different risk, since most young businesses fail, and shares in a small private company can be very difficult to sell. None of this means that crowdfunding should be avoided, but it does mean that enthusiasm for an appealing idea is no substitute for reading the terms.",
+      "question": "What is the author's main purpose in the passage?",
+      "options": [
+        "To persuade readers never to back crowdfunded projects.",
+        "To compare the profitability of reward-based and equity crowdfunding.",
+        "To argue that banks should lend more money to entrepreneurs.",
+        "To describe the history of online fundraising platforms.",
+        "To explain how crowdfunding works and to caution backers about its risks."
+      ],
+      "answer": [4],
+      "note": "The first paragraph explains the two main types, the second gives the benefits for entrepreneurs and the third warns backers about what can go wrong, which is what the correct option describes. The first option is the most tempting, but the author says explicitly that 'None of this means that crowdfunding should be avoided'. Profitability, bank policy and history are not discussed."
+    },
+    {
+      "id": "ms1-05",
+      "title": "GPS and relativity",
+      "passage": "The Global Positioning System depends on a constellation of satellites, each carrying extremely accurate atomic clocks. A receiver on the ground determines its position by comparing the times at which signals from several satellites were sent, and because radio signals travel at the speed of light, even a tiny timing error translates into a large error in distance.\nThis is where Einstein's theories of relativity become a practical matter. According to special relativity, clocks moving at high speed run slightly slow relative to clocks on the ground, and the satellites travel at several kilometres per second. According to general relativity, however, clocks in a weaker gravitational field run faster, and the satellites orbit roughly twenty thousand kilometres above the Earth's surface, where gravity is considerably weaker.\nThe two effects therefore pull in opposite directions, but they are not equal. The gravitational effect is the larger, so that, overall, the satellite clocks gain around thirty-eight microseconds a day compared with clocks on the ground. That sounds trivial, yet left uncorrected it would cause position estimates to drift by several kilometres each day. The clocks are therefore adjusted to compensate, which makes GPS one of the most familiar everyday applications of relativity.",
+      "question": "According to the passage, why do the satellite clocks gain time overall?",
+      "options": [
+        "Because the effect of weaker gravity outweighs the effect of their speed.",
+        "Because they move faster than clocks on the ground.",
+        "Because radio signals travel at the speed of light.",
+        "Because they are deliberately set to run fast before launch.",
+        "Because atomic clocks are less accurate in orbit."
+      ],
+      "answer": [0],
+      "note": "The passage says the two effects pull in opposite directions and 'The gravitational effect is the larger', so the clocks gain overall. Their speed is the tempting wrong answer, but the passage says speed makes clocks 'run slightly slow', the opposite of gaining. The adjustment mentioned is made to compensate for the gain, not to cause it."
+    },
+    {
+      "id": "ms1-06",
+      "title": "Oral history",
+      "passage": "Oral history is the collection and study of historical information through recorded interviews with people who witnessed or took part in past events. Its advocates argue that it gives a voice to groups whose experiences are poorly represented in written archives, such as factory workers, migrants and women working in the home, whose lives were rarely documented by the officials and institutions that produced most surviving records.\nThe method is not without its difficulties. Memory is reconstructive rather than photographic: people recall events through the lens of everything that has happened since, and they may unconsciously smooth over details that no longer fit the story they tell about themselves. Interviewers, too, can shape the account through the questions they choose to ask.\nOral historians do not regard these features as reasons to dismiss the evidence. Rather, they treat testimony as a distinctive kind of source, one that is less reliable for establishing precise dates, perhaps, but uniquely revealing about how people understood and gave meaning to their experiences. A careful historian will corroborate factual claims against documents where possible while treating the interview itself as evidence of perception and memory.",
+      "question": "In the passage, the word 'corroborate' is closest in meaning to",
+      "options": [
+        "invent",
+        "summarise",
+        "withdraw",
+        "confirm",
+        "publish"
+      ],
+      "answer": [3],
+      "note": "To corroborate a claim is to confirm or support it with further evidence, here by finding documents that agree with what the interviewee said. The context makes this clear: memory is unreliable for facts, so a careful historian checks factual claims against written records to confirm them. None of the other words fits a sentence about testing claims against documents."
+    },
+    {
+      "id": "ms1-07",
+      "title": "Dunbar's number",
+      "passage": "In the 1990s the British anthropologist Robin Dunbar proposed that humans can maintain stable social relationships with only around 150 people. He based this figure on a correlation among primates between the size of the neocortex and the typical size of social groups, extrapolating from other species to our own.\nThe idea has proved remarkably popular. It has been cited in discussions of everything from military unit sizes to the design of online social networks, and some companies have reportedly organised their workplaces around it.\nIts popularity, however, has outrun its evidence. The correlation on which it rests is looser than the neat figure suggests, and a recent statistical re-analysis using updated primate data produced estimates so uncertain that they were compatible with group sizes far smaller or far larger than 150. Moreover, the number of relationships a person sustains appears to vary greatly with personality, culture and circumstance. None of this shows that there is no limit on human sociability; it would be surprising if there were none. But a single number presented as a law of nature invites more confidence than the data can support.",
+      "question": "Which of the following best describes the author's attitude towards Dunbar's number?",
+      "options": [
+        "Enthusiastic: it is a well-established law of human behaviour.",
+        "Sceptical: some limit probably exists, but the precise figure is poorly supported.",
+        "Dismissive: human sociability has no natural limit.",
+        "Neutral: the author reports the theory without evaluating it.",
+        "Hostile: the author condemns companies that have adopted it."
+      ],
+      "answer": [1],
+      "note": "The author says the idea's 'popularity ... has outrun its evidence' yet also that 'it would be surprising if there were' no limit at all, which is scepticism about the figure rather than rejection of the idea. The 'Dismissive' option is the tempting one, but it is directly contradicted by that sentence. The companies are mentioned only as an example of the idea's popularity, without criticism."
+    },
+    {
+      "id": "ms1-08",
+      "title": "Desalination",
+      "passage": "Desalination, the removal of salt from seawater or brackish groundwater, has become an important source of drinking water in some of the world's driest regions, particularly around the Persian Gulf. The most widely used modern method is reverse osmosis, in which water is forced at high pressure through membranes that allow water molecules to pass but hold back most of the dissolved salts.\nAlthough the technology has become considerably more efficient over recent decades, it remains energy-intensive, and the cost of the water it produces depends heavily on the price of that energy. For this reason, desalinated water is generally more expensive than water drawn from rivers or underground reserves where such sources are available.\nThe process also creates a by-product. For every litre of fresh water produced, a quantity of concentrated brine is left over, and it is commonly discharged back into the sea. Where it is released into shallow or enclosed waters with little circulation, the extra salt and any chemicals used in treatment may harm marine life on the seabed nearby. Careful siting of outlets and dilution of the discharge can reduce these effects, but they add to the cost of an already expensive process.",
+      "question": "Which of the following can be inferred from the passage?",
+      "options": [
+        "Desalinated water is now cheaper than river water in most places.",
+        "Reverse osmosis removes every dissolved substance from seawater.",
+        "Brine discharge harms marine life wherever it is released.",
+        "A fall in energy prices would be likely to make desalinated water cheaper."
+      ],
+      "answer": [3],
+      "note": "The passage says the cost of desalinated water 'depends heavily on the price of that energy', so cheaper energy would be expected to mean cheaper water. The brine option is the tempting one, but the passage limits the harm to 'shallow or enclosed waters with little circulation' and says only that it 'may' occur. The membranes hold back 'most', not all, of the salts, and desalinated water is said to be more expensive than river water."
+    },
+    {
+      "id": "ms1-09",
+      "title": "Planned obsolescence",
+      "passage": "The term 'planned obsolescence' describes the practice of designing products so that they will need replacing sooner than necessary. The most frequently cited example is the Phoebus cartel, an agreement formed in the 1920s by leading light-bulb manufacturers, who agreed to limit the life of their bulbs to around 1,000 hours and to penalise members whose products lasted longer.\nFew modern cases are so clear-cut. A smartphone whose battery cannot easily be replaced may have been designed that way to save space or to improve water resistance rather than to shorten its life. Similarly, a new model may make an older one seem outdated simply because it offers genuine improvements that consumers want. Distinguishing deliberate sabotage from ordinary design trade-offs and innovation is therefore difficult.\nWhat is less disputed is that short product lives carry environmental costs, from the resources used in manufacture to the growing volume of electronic waste. For this reason, some policymakers have shifted their attention away from proving intent and towards requiring durability directly. The European Union, for instance, has introduced rules intended to make certain products easier to repair, regardless of whether manufacturers ever meant them to fail.",
+      "question": "Which of the following best summarises the passage?",
+      "options": [
+        "Because deliberate obsolescence is hard to prove, some policymakers now focus on durability and repair instead.",
+        "Manufacturers routinely design products to fail, as the Phoebus cartel shows.",
+        "Smartphone makers have been proven to shorten battery life deliberately.",
+        "Electronic waste is the most serious environmental problem today.",
+        "Innovation is harmful because it makes older products seem outdated."
+      ],
+      "answer": [0],
+      "note": "The passage moves from a clear historical case, to the difficulty of proving intent today, to policymakers 'requiring durability directly', which the correct option captures. The second option overgeneralises: the author says 'Few modern cases are so clear-cut'. The smartphone example is offered as a case that may have an innocent explanation, and the passage treats genuine improvements as something 'consumers want', not as harmful."
+    },
+    {
+      "id": "ms1-10",
+      "title": "Octopus intelligence",
+      "passage": "Octopuses are often described as the most intelligent invertebrates. In laboratory studies they have learned to open screw-top jars, to navigate simple mazes and to distinguish between shapes, and some have been observed escaping from their tanks. In the wild, the veined octopus has been filmed carrying coconut shell halves across the seabed and assembling them into a shelter, behaviour that many researchers regard as a form of tool use.\nWhat makes such abilities intriguing is that octopus intelligence evolved quite independently of our own. The last common ancestor of octopuses and vertebrates was probably a simple worm-like animal that lived more than 500 million years ago, so the octopus's complex nervous system represents a separate evolutionary experiment. Its organisation is strikingly different, too: a large proportion of its neurons lie not in the brain but in the arms, which can respond to touch and taste with a considerable degree of autonomy.\nThis distributed arrangement makes octopuses a valuable point of comparison for scientists who study cognition. If intelligence can arise from such a different starting point and take such a different form, then features that seem essential to thinking in vertebrates may turn out to be only one solution among several.",
+      "question": "The word 'autonomy' in the passage is closest in meaning to",
+      "options": [
+        "sensitivity",
+        "strength",
+        "speed",
+        "coordination",
+        "independence"
+      ],
+      "answer": [4],
+      "note": "Autonomy means the ability to act independently, and the context supports this: many neurons lie 'not in the brain but in the arms', so the arms can respond without waiting for the brain. 'Sensitivity' is the tempting distractor because the sentence mentions touch and taste, but the phrase describes how the arms respond, not how much they can sense."
+    }
+  ]
+}

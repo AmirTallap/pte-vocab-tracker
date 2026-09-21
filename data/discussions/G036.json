@@ -1,0 +1,33 @@
+{
+  "id": "G036",
+  "title": "Should sport be funded from public money?",
+  "field": "Sport and policy",
+  "speakers": [
+    { "name": "Ronan", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Yara", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Steph", "voice": "bf_emma", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Yara", "text": "The elite programme's had its funding renewed and the community pools are still closing. Same department, same budget line." },
+    { "speaker": "Steph", "text": "Because medals are countable and a swimming lesson isn't." },
+    { "speaker": "Ronan", "text": "That's not entirely fair. The argument is that medals inspire participation, and if that worked it would justify itself." },
+    { "speaker": "Yara", "text": "Except it's been measured repeatedly and the effect is small and short. A few weeks after a games, and then back." },
+    { "speaker": "Ronan", "text": "Small and short, or hard to measure? Those aren't the same." },
+    { "speaker": "Yara", "text": "Fair challenge. But the countries with the highest adult participation aren't the ones topping medal tables. They're the ones with a pool within a mile." },
+    { "speaker": "Steph", "text": "Which is the whole argument in one sentence.", "gap": -0.13 },
+    { "speaker": "Steph", "text": "Facilities beat inspiration. You can't be inspired into a building that closed." },
+    { "speaker": "Ronan", "text": "I'd still defend some elite funding. There's a national thing that isn't about participation at all, and pretending it's only instrumental is dishonest." },
+    { "speaker": "Yara", "text": "Then argue for it on those grounds, rather than on a participation claim that doesn't hold." },
+    { "speaker": "Ronan", "text": "That I'll accept." },
+    { "speaker": "Steph", "text": "The health case for the pools is the strongest thing on the table and it's the one nobody makes, because the savings land on a different department." },
+    { "speaker": "Yara", "text": "Ten years later, and after the person who closed it has moved on." }
+  ],
+  "points": [
+    "Elite sport funding was renewed while community pools close from the same budget.",
+    "Ronan presents the standard justification, that medals inspire participation.",
+    "Yara says measured inspiration effects are small and short-lived, lasting weeks after a games.",
+    "She adds that countries with the highest adult participation have local facilities rather than the most medals.",
+    "Ronan concedes the participation argument but defends elite funding on national rather than instrumental grounds, which Yara accepts as the honest case.",
+    "Steph argues the health savings from community pools are the strongest argument and go unmade because they accrue to another department years later."
+  ]
+}

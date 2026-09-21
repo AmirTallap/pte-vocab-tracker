@@ -1,0 +1,33 @@
+{
+  "id": "G015",
+  "title": "Students using AI to write essays",
+  "field": "Education and technology",
+  "speakers": [
+    { "name": "Marta", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Josh", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Ayo", "voice": "af_nicole", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Josh", "text": "Two thirds of the class admitted using it on the last essay. Anonymously, but two thirds." },
+    { "speaker": "Ayo", "text": "Used it how, though? Because there's a gap between asking it to explain a concept and asking it to write your conclusion." },
+    { "speaker": "Josh", "text": "The survey didn't separate them, which I think was a mistake." },
+    { "speaker": "Marta", "text": "It's the whole question. If a student argues with it for an hour and comes out understanding the material, that's a tutor. If they paste the question in, that's not." },
+    { "speaker": "Ayo", "text": "And the detectors don't work, before anyone suggests them. They flag non-native speakers at about twice the rate." },
+    { "speaker": "Marta", "text": "Yes, and a false accusation is so much worse than a missed one that the tool is useless even at ninety per cent." },
+    { "speaker": "Josh", "text": "So what, we stop setting essays?" },
+    { "speaker": "Marta", "text": "We stop setting essays that a machine can answer. Which, honestly, were never very good questions.", "gap": -0.13 },
+    { "speaker": "Marta", "text": "Discuss the causes of the First World War is a prompt with a Wikipedia-shaped answer. It always was." },
+    { "speaker": "Ayo", "text": "Whereas something built on this term's seminar, or on data you collected yourself, is much harder to fake." },
+    { "speaker": "Josh", "text": "That's more work to mark, though. Every one of those is different." },
+    { "speaker": "Marta", "text": "It is. I'd rather mark thirty different essays than three hundred identical ones, mind you." },
+    { "speaker": "Ayo", "text": "Nobody's asked the students, either. Half of them would rather be examined in a way that meant something." }
+  ],
+  "points": [
+    "Two thirds of a class anonymously admitted using AI on their last essay, without distinguishing how.",
+    "Ayo and Marta argue the distinction matters: using it to understand material is tutoring, using it to produce the answer is not.",
+    "Detectors are rejected because they flag non-native speakers at roughly twice the rate, and a false accusation is far more damaging than a missed case.",
+    "Marta's proposal is to stop setting questions a machine can answer, arguing such prompts were always weak.",
+    "Better assessment ties work to a specific seminar or to data the student collected, which is harder to fake but more work to mark.",
+    "Ayo notes students have not been consulted and many would prefer assessment that meant something."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G044",
+  "title": "Gig work: flexibility or just no rights?",
+  "field": "Work and law",
+  "speakers": [
+    { "name": "Aziz", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Holly", "voice": "bf_emma", "speed": 1.02 },
+    { "name": "Nour", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Holly", "text": "The tribunal ruled they're workers, not contractors. Holiday pay, minimum wage, the lot." },
+    { "speaker": "Aziz", "text": "My cousin drives for them and he's genuinely not pleased about it. He likes picking his hours." },
+    { "speaker": "Nour", "text": "Those two things were never actually in tension, though. That's the framing the companies built and everyone accepted." },
+    { "speaker": "Holly", "text": "Meaning you can have flexible hours and holiday pay." },
+    { "speaker": "Nour", "text": "Plenty of countries do exactly that. The law just never had a category for it, so it got forced into one of two boxes." },
+    { "speaker": "Aziz", "text": "The thing he'd say is that the algorithm decides what he's offered, when, and at what price, and he can't negotiate any of it." },
+    { "speaker": "Holly", "text": "Which is the definition of not being your own boss.", "gap": -0.12 },
+    { "speaker": "Holly", "text": "A contractor sets a rate. He gets shown one." },
+    { "speaker": "Nour", "text": "And the earnings figures the platforms quote are before fuel, insurance, the vehicle and the waiting time." },
+    { "speaker": "Aziz", "text": "The waiting is the part people miss. Logged on, available, not being paid." },
+    { "speaker": "Holly", "text": "Which is why the ruling counts time from logging on rather than from accepting a job." },
+    { "speaker": "Nour", "text": "The risk is they respond by cutting the fleet and only keeping the busiest people." },
+    { "speaker": "Aziz", "text": "Which is what happened in Spain, more or less. Fewer riders, better paid, and the ones who left were furious." }
+  ],
+  "points": [
+    "A tribunal reclassified platform drivers as workers, granting holiday pay and minimum wage.",
+    "Some drivers object, valuing flexible hours.",
+    "Nour argues flexibility and employment rights were never genuinely in conflict, and other countries combine them.",
+    "Holly argues the algorithm setting prices and offers means drivers are not independent contractors, who would set their own rates.",
+    "Quoted earnings exclude fuel, insurance, vehicle costs and unpaid waiting time, which the ruling addresses by counting time from logging on.",
+    "They note the likely response is a smaller, better-paid fleet, as happened in Spain, which displaced riders resented."
+  ]
+}

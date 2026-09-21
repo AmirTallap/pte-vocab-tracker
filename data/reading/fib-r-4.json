@@ -1,0 +1,128 @@
+{
+  "id": "fib-r-4",
+  "task": "fib-r",
+  "title": "Set 4",
+  "summary": "From glowing sea creatures and pulsars to cholera, habeas corpus and the licence fee.",
+  "items": [
+    {
+      "id": "r4-01",
+      "title": "Living light",
+      "text": "Bioluminescence is the production of light by living organisms, and it is especially {{widespread}} in the deep ocean, where sunlight never reaches. The light results from a chemical reaction in which an enzyme called luciferase acts on a molecule known as luciferin, releasing energy as a cold glow rather than as heat. Animals use this ability for a remarkable {{variety}} of purposes. Some anglerfish dangle a glowing lure to draw prey towards their jaws, while certain squid emit light from their undersides so that their silhouette {{disappears}} against the faint light from above. Fireflies, by contrast, flash in distinctive patterns {{to}} attract mates of their own species.",
+      "distractors": ["widely", "vanish", "for"],
+      "why": [
+        "After \"is especially\" an adjective is needed, so \"widespread\"; \"widely\" is an adverb and leaves the sentence without a complement.",
+        "After \"a remarkable\" a noun is needed, and \"a variety of\" is the set phrase.",
+        "The singular subject \"silhouette\" needs \"disappears\"; \"vanish\" is the plural or base form.",
+        "Purpose before a base-form verb is expressed with \"to\"; \"for attract\" is ungrammatical."
+      ]
+    },
+    {
+      "id": "r4-02",
+      "title": "Tsunamis",
+      "text": "A tsunami is a series of ocean waves {{generated}} by a sudden displacement of a large volume of water, most often by an undersea earthquake. In the open ocean the waves may be less than a metre high and can pass beneath ships almost unnoticed, yet they travel at speeds comparable to those of a jet aircraft. As they {{approach}} shallower water near the coast, they slow down and their height increases dramatically. One common warning sign is that the sea suddenly retreats, exposing the seabed, {{shortly}} before the first wave arrives. The Indian Ocean tsunami of 2004 killed more than 200,000 people and led to the {{establishment}} of a regional warning system.",
+      "distractors": ["producing", "brief", "establish"],
+      "why": [
+        "A passive participle is needed, since the waves are caused by the displacement, so \"generated\"; \"producing by\" is ungrammatical.",
+        "Waves \"approach\" shallower water as they move towards the coast; the other verbs in the box are the wrong form or meaning.",
+        "An adverb must modify \"before\", so \"shortly\"; \"brief\" is an adjective.",
+        "After \"the\" a noun is needed, so \"establishment\"; \"establish\" is a verb."
+      ]
+    },
+    {
+      "id": "r4-03",
+      "title": "The Broad Street pump",
+      "text": "In 1854 a severe outbreak of cholera struck the Soho district of London, killing more than 500 people in a matter of weeks. At the time, most doctors {{attributed}} the disease to a miasma, or poisonous air rising from rotting matter. The physician John Snow suspected instead that cholera was spread through contaminated water. By marking each death on a map, he showed that the cases were {{concentrated}} around a single public water pump in Broad Street. He persuaded the local authorities to remove the pump's handle, and the outbreak, which was already declining, soon came to an end. Snow's work is now regarded as a founding moment in epidemiology, {{although}} his theory was not widely accepted until {{after}} his death in 1858.",
+      "distractors": ["accused", "central", "despite"],
+      "why": [
+        "The pattern is \"attribute something to a cause\"; one accuses a person \"of\" something, not a disease \"to\" a cause.",
+        "\"Concentrated around\" describes cases clustered in one place; \"central around\" is not English.",
+        "A full clause follows, so the conjunction \"although\" is needed; \"despite\" must be followed by a noun phrase.",
+        "\"Until after his death\" places the acceptance later than 1858; no other box word can follow \"until\" here."
+      ]
+    },
+    {
+      "id": "r4-04",
+      "title": "The discovery of pulsars",
+      "text": "In 1967 Jocelyn Bell, a postgraduate student at Cambridge, noticed a strange signal in the data from a radio telescope she had helped to build. It consisted of pulses {{repeated}} roughly every 1.3 seconds with extraordinary regularity, so precise that the team briefly considered whether it might {{come}} from an alien civilisation. The source was soon identified as a pulsar, a rapidly rotating neutron star. Such stars are the collapsed {{remains}} of massive stars, holding more mass than the Sun within a sphere perhaps twenty kilometres across. A pulsar emits beams of radiation from its magnetic poles, and these sweep {{across}} the Earth like the light from a lighthouse. The discovery was recognised with a Nobel Prize in 1974, awarded to her supervisor Antony Hewish and to Martin Ryle rather than to Bell herself.",
+      "distractors": ["arrival", "among", "regularly"],
+      "why": [
+        "A participle describing the pulses is needed, so \"repeated\"; \"regularly\" is an adverb and leaves the pulses without a verb.",
+        "\"Come from\" states where a signal originates; \"might\" needs a base-form verb, and none of the other words is one.",
+        "What is left after a star collapses is its \"remains\"; \"the collapsed arrival\" is meaningless.",
+        "Beams \"sweep across\" a surface; \"sweep among\" needs a plural object and does not describe a passing beam."
+      ]
+    },
+    {
+      "id": "r4-05",
+      "title": "The Domesday Book",
+      "text": "In 1085, nearly twenty years after the Norman Conquest, William the Conqueror ordered a detailed survey of the land he now ruled. Commissioners travelled throughout most of England, recording who {{held}} each estate, how many people lived and worked on it, and how much livestock and woodland it contained. The results were {{compiled}} into what became known as the Domesday Book, completed in 1086. Its main purpose was financial: it allowed the king to establish how much tax he could expect to {{collect}} from his new kingdom. The name, first recorded about a century later, reflected the belief that its verdicts could no more be challenged than those of the Day of Judgement. Today it is an {{invaluable}} source for historians studying medieval society.",
+      "distractors": ["holding", "valuable", "collection"],
+      "why": [
+        "The clause \"who ... each estate\" needs a finite verb, so \"held\"; \"holding\" is not finite.",
+        "Results are \"compiled into\" a book; \"were collect\" is the wrong form.",
+        "\"Expect to\" needs a base-form verb, and tax is collected; \"collection\" is a noun.",
+        "The article \"an\" requires a word beginning with a vowel sound, so \"invaluable\"; \"an valuable\" is ungrammatical."
+      ]
+    },
+    {
+      "id": "r4-06",
+      "title": "The potlatch",
+      "text": "Among the Indigenous peoples of the Pacific Northwest coast of North America, the potlatch was a ceremonial feast at which a host distributed large quantities of goods to invited guests. It {{marked}} important events such as births, marriages and the transfer of hereditary titles, and a chief's status {{depended}} less on what he accumulated than on what he gave away. Early European observers regarded this generosity as wasteful, and in 1884 the Canadian government {{banned}} the practice, a prohibition that remained in law until 1951. Anthropologists have since argued that the potlatch served to redistribute wealth and to confirm social rank publicly, in {{front}} of witnesses who could later testify to what they had seen.",
+      "distractors": ["dependent", "banning", "openly"],
+      "why": [
+        "The feast \"marked\" these occasions; the other words cannot act as the main verb of the sentence.",
+        "\"Depended less on\" needs a finite verb; \"dependent\" is an adjective and leaves the clause without one.",
+        "The government \"banned\" the practice, which is why a prohibition follows; \"banning\" is not a finite verb.",
+        "\"In front of witnesses\" is the fixed phrase; \"in openly of\" is not English."
+      ]
+    },
+    {
+      "id": "r4-07",
+      "title": "The filibuster",
+      "text": "In the United States Senate, a filibuster is a tactic in which senators keep a debate going in order to delay or prevent a vote on a bill. Because the Senate's rules place few {{limits}} on how long a member may speak, a single senator can in principle hold the floor for hours. In 1957 Strom Thurmond spoke for more than twenty-four hours without a break in an attempt to {{obstruct}} a civil rights bill. Since 1975, ending a filibuster has {{required}} the votes of three-fifths of senators, normally sixty, in a procedure known as cloture. Critics argue that the practice allows a determined minority to frustrate the will of the majority, {{whereas}} its defenders see it as a vital protection for minority views.",
+      "distractors": ["obstruction", "requirement", "because"],
+      "why": [
+        "\"Few\" needs a plural noun, so \"limits\"; \"obstruction\" and \"requirement\" are singular.",
+        "\"In an attempt to\" needs a base-form verb, so \"obstruct\"; \"obstruction\" is a noun.",
+        "\"Has\" needs a past participle to form the present perfect, so \"required\"; \"requirement\" is a noun.",
+        "The sentence sets two opposing views side by side, so \"whereas\"; \"because\" would make the defenders' view the reason for the critics' one."
+      ]
+    },
+    {
+      "id": "r4-08",
+      "title": "Habeas corpus",
+      "text": "Habeas corpus, Latin for 'you shall have the body', is one of the oldest safeguards of individual liberty in English law. It is a court order that {{requires}} a person holding someone in custody to bring the prisoner before a judge and to justify the detention. If no lawful basis can be shown, the prisoner must be {{released}}. The principle was strengthened by the Habeas Corpus Act of 1679, which set out procedures to prevent the authorities from {{evading}} the writ, for instance by moving prisoners beyond the reach of the courts. Because it protects against imprisonment without trial, it has been {{suspended}} only in times of grave emergency, and such suspensions have often proved controversial.",
+      "distractors": ["release", "evasion", "suspension"],
+      "why": [
+        "The singular subject \"order\" needs \"requires\", and \"require someone to do\" is the pattern.",
+        "\"Must be\" needs a past participle, so \"released\"; \"release\" is the base form.",
+        "\"Prevent someone from\" is followed by an -ing form, so \"evading\"; \"evasion\" is a noun and cannot take \"the writ\" as an object.",
+        "\"Has been\" needs a past participle here, and the protection is set aside only in emergencies, so \"suspended\"; \"suspension\" is a noun."
+      ]
+    },
+    {
+      "id": "r4-09",
+      "title": "Opportunity cost",
+      "text": "Economists define the opportunity cost of a choice as the value of the best alternative that is {{given}} up when the choice is made. The idea reflects a basic fact of economic life: resources such as time, money and land are limited, so using them for one purpose means they cannot be used for another. A student who spends an evening working in a café, for instance, earns a wage but {{sacrifices}} the time that could have been spent revising for an examination. The concept is useful because it draws attention to costs that do not {{appear}} in any financial account. A project may look profitable on paper and still be a poor {{decision}} if the same resources would have produced more value elsewhere.",
+      "distractors": ["sacrificing", "appearance", "decisive"],
+      "why": [
+        "\"Given up\" is the phrasal verb for something surrendered, and \"is given up\" is passive.",
+        "The verb must match \"earns\" in the same clause, so \"sacrifices\"; \"sacrificing\" breaks the parallel.",
+        "\"Do not\" needs a base-form verb, so \"appear\"; \"appearance\" is a noun.",
+        "After \"a poor\" a noun is needed, so \"decision\"; \"decisive\" is an adjective."
+      ]
+    },
+    {
+      "id": "r4-10",
+      "title": "Public service broadcasting",
+      "text": "The British Broadcasting Corporation was established by royal charter in 1927, taking over from a private company that had begun radio transmissions five years earlier. Its first director-general, John Reith, believed that broadcasting should {{inform}}, educate and entertain, and that it ought to serve the whole nation rather than simply give audiences what was most popular. To protect it from commercial pressure, the BBC was {{funded}} by a licence fee paid by households that owned a receiver, rather than by advertising. It was also expected to remain {{independent}} of the government of the day, a principle that has been tested repeatedly since. The model was later {{adopted}}, in various forms, by many other countries.",
+      "distractors": ["information", "funding", "independence"],
+      "why": [
+        "\"Should\" needs a base-form verb to match \"educate and entertain\", so \"inform\"; \"information\" is a noun.",
+        "\"Was\" plus a past participle forms the passive, so \"funded\"; \"was funding by\" is ungrammatical.",
+        "\"Remain\" is followed by an adjective, and \"independent of\" is the collocation; \"independence\" is a noun.",
+        "Other countries took up the model, so \"adopted\"; the remaining box words are nouns."
+      ]
+    }
+  ]
+}

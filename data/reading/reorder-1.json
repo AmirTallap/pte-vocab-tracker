@@ -1,0 +1,123 @@
+{
+  "id": "reorder-1",
+  "task": "reorder",
+  "title": "Set 1",
+  "summary": "Ten short texts across science, history, business and technology to put back in order.",
+  "items": [
+    {
+      "id": "o1-01",
+      "title": "Radiocarbon dating",
+      "paragraphs": [
+        "Radiocarbon dating, developed by the American chemist Willard Libby in the late 1940s, allows scientists to estimate the age of material that was once alive.",
+        "The method relies on the fact that living organisms continually absorb carbon, including a small proportion of the radioactive isotope carbon-14, for as long as they are alive.",
+        "Once an organism dies, however, this intake stops, and the carbon-14 already present begins to decay at a steady and well-established rate.",
+        "By measuring how much of the isotope remains in a sample, researchers can therefore calculate roughly how long ago death occurred, up to a limit of around fifty thousand years."
+      ],
+      "note": "Only the first sentence names and introduces radiocarbon dating; every other one leans on it. 'The method' points back to that introduction, 'this intake' in the third refers to the absorbing of carbon in the second, and the last needs both 'the isotope' and the death introduced in the third, with 'therefore' drawing the conclusion."
+    },
+    {
+      "id": "o1-02",
+      "title": "The Dewey Decimal system",
+      "paragraphs": [
+        "In 1876 Melvil Dewey, a young American librarian, published a scheme for arranging library books by subject rather than by the order in which they had been acquired.",
+        "Before this, many libraries had shelved each new volume in a fixed position, so that finding every book on a particular subject could mean searching the entire collection.",
+        "Dewey's solution to this problem was to divide all knowledge into ten main classes, each identified by a range of numbers from 000 to 999.",
+        "Each of these classes could then be subdivided further by adding digits after a decimal point, allowing ever more specific topics to be accommodated.",
+        "It is this flexibility that explains why the system, although revised many times, remains in use in tens of thousands of libraries worldwide."
+      ],
+      "note": "The dated sentence naming Dewey and his scheme is the only opener; 'Before this' in the second needs something to come before. 'This problem' in the third refers to the searching described in the second, 'these classes' refers to the ten main classes, and 'this flexibility' sums up the subdivision just described, so the conclusion comes last."
+    },
+    {
+      "id": "o1-03",
+      "title": "Double-entry bookkeeping",
+      "paragraphs": [
+        "Double-entry bookkeeping, the foundation of modern accounting, was first described in print by the Italian mathematician Luca Pacioli in 1494.",
+        "Pacioli did not invent the system, however; he was recording a practice that Italian merchants had already been using for some time.",
+        "What these merchants had developed rested on a simple principle: every transaction is entered twice, once as a debit in one account and once as a matching credit in another.",
+        "Because the two sides must always balance, an error in either entry is quickly revealed when the totals are compared."
+      ],
+      "note": "The first sentence defines the term and introduces Pacioli, so it must open. The second repeats his name and uses 'however' to correct the impression the first gives, 'these merchants' in the third can only refer to the Italian merchants of the second, which also stops the second being moved to the end, and 'the two sides' in the last refers to the debit and credit just explained."
+    },
+    {
+      "id": "o1-04",
+      "title": "The shipping container",
+      "paragraphs": [
+        "For most of history, cargo was loaded onto ships piece by piece, in sacks, barrels and crates of every conceivable size.",
+        "This work was slow and labour-intensive, and a vessel could spend longer being loaded and unloaded in port than it spent at sea.",
+        "In 1956 the American trucking entrepreneur Malcolm McLean set out to eliminate these delays by sending a ship carrying fifty-eight standard metal boxes from Newark to Houston.",
+        "These containers could be lifted directly from a lorry onto the ship and off again at the other end, without their contents ever being handled.",
+        "As a result, the cost of moving goods across oceans fell dramatically, a change that many economists regard as a major driver of later globalisation."
+      ],
+      "note": "The first sentence sets the scene with no back-reference ('For most of history'). 'This work' in the second refers to the loading piece by piece, 'these delays' in the third refers to the time spent in port, 'These containers' refers to McLean's standard metal boxes, and 'As a result' draws the consequence of handling-free loading, so it closes."
+    },
+    {
+      "id": "o1-05",
+      "title": "The Hawthorne effect",
+      "paragraphs": [
+        "Between 1924 and 1932, researchers studied workers at the Hawthorne Works, an electrical equipment factory near Chicago, to discover how working conditions affected productivity.",
+        "In one well-known series of experiments, they altered the level of lighting in the workshop, expecting output to rise with brighter illumination.",
+        "Puzzlingly, however, productivity appeared to improve whether the lights were made brighter or, in some trials, dimmer.",
+        "Later writers suggested that the workers were responding not to the lighting itself but to the attention of being observed, a phenomenon now known as the Hawthorne effect."
+      ],
+      "note": "Only the first sentence introduces the researchers, the factory and the dates. 'They' in the second refers to those researchers, 'however' in the third contrasts the result with the expectation just stated, and the fourth explains that puzzling result and names it, which can only happen once the result has been reported."
+    },
+    {
+      "id": "o1-06",
+      "title": "What causes the tides",
+      "paragraphs": [
+        "The regular rise and fall of the sea along coastlines, known as the tide, is caused mainly by the gravitational pull of the Moon.",
+        "Because this pull is strongest on the side of the Earth facing the Moon, the ocean there bulges slightly towards it.",
+        "A second bulge forms on the opposite side of the planet, where the Moon's attraction is weakest and the water is, in effect, left behind.",
+        "As the Earth rotates through both of these bulges each day, most coastlines experience two high tides and two low tides roughly every twenty-four hours and fifty minutes.",
+        "In addition to these daily cycles, the Sun exerts a similar but smaller influence, and when it lines up with the Moon, the combined effect produces the especially large tides known as spring tides."
+      ],
+      "note": "The first sentence defines the tide and names its cause, so it opens. 'This pull' refers to the Moon's gravity, 'A second bulge' only makes sense after the first bulge, 'both of these bulges' needs the two already described, and 'these daily cycles' in the last refers back to the two high and two low tides a day."
+    },
+    {
+      "id": "o1-07",
+      "title": "Esperanto",
+      "paragraphs": [
+        "Esperanto is an artificial language created in 1887 by Ludwik Zamenhof, an eye doctor from what is now Poland.",
+        "Zamenhof hoped that a shared second language, belonging to no single nation, would reduce the misunderstandings that he believed fuelled conflict between peoples.",
+        "To serve this purpose, he designed it to be easy to learn, giving it a highly regular grammar in which, for example, every noun ends in -o and every adjective in -a.",
+        "Despite these advantages, the language never achieved the global adoption he had envisaged, although it is still spoken by an active international community."
+      ],
+      "note": "The definition of Esperanto with its creator and date is the only possible opener. 'This purpose' in the third refers to Zamenhof's hope in the second, 'these advantages' in the last refers to the easy, regular grammar in the third, and 'Despite' marks the disappointing outcome that closes the story."
+    },
+    {
+      "id": "o1-08",
+      "title": "The QR code",
+      "paragraphs": [
+        "The QR code was developed in 1994 by Denso Wave, a Japanese company, to track vehicle parts as they moved through car factories.",
+        "Engineers there needed something that could hold more information than a conventional barcode, which stores data along a single line.",
+        "Their answer was a square grid of black and white modules that stores data both horizontally and vertically.",
+        "Because the pattern also includes three distinctive squares in its corners, a scanner can locate and read it quickly from almost any angle.",
+        "These features made it practical far beyond the factory, and because Denso Wave chose not to enforce its patent, the format spread freely into advertising, ticketing and payments."
+      ],
+      "note": "The first sentence names the QR code, its maker and its date, so it opens. 'Engineers there' refers to Denso Wave, 'Their answer' replies to the need the engineers had, 'the pattern also includes' adds to the grid just described, and 'These features' gathers up the grid and the corner squares before the story leaves the factory."
+    },
+    {
+      "id": "o1-09",
+      "title": "Microfinance",
+      "paragraphs": [
+        "Microfinance refers to the provision of small loans and other financial services to people who have no access to conventional banks.",
+        "Such people are usually excluded because they lack collateral, the property or savings that a lender can claim if a loan is not repaid.",
+        "One influential response to this obstacle was pioneered in Bangladesh by the economist Muhammad Yunus, whose Grameen Bank lent to small groups of borrowers rather than to individuals.",
+        "Within each group, members shared responsibility for repayment, so that peer pressure and mutual support took the place of the collateral that the borrowers could not provide."
+      ],
+      "note": "The definition opens because nothing else introduces the topic. 'Such people' refers to those without access to banks, 'this obstacle' refers to the lack of collateral, and 'Within each group' needs the small groups of borrowers introduced with Grameen Bank, with 'the collateral' closing the loop back to the second sentence."
+    },
+    {
+      "id": "o1-10",
+      "title": "The honeybee's waggle dance",
+      "paragraphs": [
+        "When a honeybee worker finds a good source of nectar, she returns to the hive and communicates its location to her nestmates through a pattern of movement.",
+        "This behaviour, known as the waggle dance, was decoded by the Austrian scientist Karl von Frisch, who later shared a Nobel Prize for his work.",
+        "In the dance, the bee runs in a straight line while vibrating her abdomen, then circles back to repeat the run.",
+        "The angle of this straight run relative to vertical indicates the direction of the food in relation to the sun.",
+        "While the angle conveys direction, the duration of the run signals distance, with longer runs indicating that the food lies further from the hive."
+      ],
+      "note": "The first sentence introduces the bee and the behaviour without naming it, so it opens. 'This behaviour' names it, 'the dance' needs that name, 'this straight run' refers to the run just described, and 'While the angle conveys direction' explicitly picks up the previous sentence before adding distance."
+    }
+  ]
+}

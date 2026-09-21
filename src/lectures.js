@@ -38,6 +38,21 @@ const words = (text) => {
   return t ? t.split(/\s+/).length : 0;
 };
 
+/**
+ * The audio file for a lecture, or null when it has not been made yet.
+ *
+ * Name only - never a path from the data - so a crafted `audio` field cannot
+ * reach outside the audio directory.
+ */
+function audioFor(id, named, dir) {
+  const name = path.basename(String(named || `${id}.mp3`));
+  try {
+    return fs.statSync(path.join(dir, 'audio', name)).isFile() ? name : null;
+  } catch {
+    return null;
+  }
+}
+
 export function loadLectures(dir = LECTURES_DIR) {
   const problems = [];
   let files = [];
@@ -85,9 +100,17 @@ export function loadLectures(dir = LECTURES_DIR) {
       words: n,
       points: (Array.isArray(raw.points) ? raw.points : [])
         .map((p) => String(p).trim()).filter(Boolean),
-      // A real recording, if there is one. Written ones are spoken by Kokoro;
-      // these are a person in a lecture hall and are played as a file.
-      audio: raw.audio ? String(raw.audio) : null,
+      // The audio file, if it has been made. EVERY lecture is a file now:
+      // the Yale excerpts as fetched, the written hundred as rendered by
+      // tools/render-lectures.js.
+      //
+      // It is DISCOVERED on disk rather than recorded in the JSON, and that is
+      // deliberate: writing an `audio` field into a hundred authored files is
+      // a bulk script over authored content, which is the one thing this
+      // directory's rule forbids. The Yale files name theirs because the
+      // fetcher wrote the whole file in one go; a written lecture's is simply
+      // <id>.mp3 beside it.
+      audio: audioFor(id, raw.audio, dir),
       source: raw.source || null,
     });
   }
@@ -100,10 +123,22 @@ export function loadLectures(dir = LECTURES_DIR) {
 export function lectureIndex(lectures) {
   return lectures.map((l) => ({
     id: l.id, title: l.title, field: l.field, words: l.words,
-    // Whether it is a real recording. The page needs this before it takes a
-    // lecture so it can say what the wait will be: a file is instant, a
-    // synthesised one is most of a minute the first time.
-    real: !!l.audio,
+    // Whether it is a person in a lecture hall or a voice made on this
+    // machine. It used to be `!!l.audio` - whether a file existed - which was
+    // the same question only for as long as the written hundred had no files.
+    // They all have files now, so that test would call every one of them real.
+    // The credit is the thing that actually distinguishes them: a recording
+    // someone else made under a licence has one, and nothing this machine
+    // synthesised ever can.
+    //
+    // The page filters on it. PTE plays real lecturers, so practising against
+    // only the real ones is a reasonable way to work, and it must not be
+    // possible for a synthetic voice to answer to that setting.
+    real: !!(l.source && l.source.credit),
+    // Whether the audio has been made yet. A written lecture with no file is
+    // still takeable - the page falls back to synthesising it - but it is the
+    // slow path, and the page says so rather than appearing to hang.
+    audio: !!l.audio,
     credit: l.source && l.source.credit ? l.source.credit : null,
   }));
 }

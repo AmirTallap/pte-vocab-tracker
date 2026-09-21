@@ -1,0 +1,33 @@
+{
+  "id": "G068",
+  "title": "Coastal erosion and when to stop defending",
+  "field": "Environment and policy",
+  "speakers": [
+    { "name": "Wendy", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Arjun", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Tess", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Arjun", "text": "The village lost another nine metres over the winter. The council's plan now says managed realignment, which means no more defences." },
+    { "speaker": "Tess", "text": "Which means the houses go, and the people in them get nothing, because you can't insure against this." },
+    { "speaker": "Wendy", "text": "There's no compensation scheme at all, that's right. If the sea takes your house you simply lose it." },
+    { "speaker": "Arjun", "text": "The engineering case for stopping is reasonably clear, mind you. Defending a soft cliff moves the erosion down the coast rather than stopping it." },
+    { "speaker": "Tess", "text": "So the sea wall at the town is part of why the village is going." },
+    { "speaker": "Arjun", "text": "Partly. That's the uncomfortable arithmetic nobody puts in a leaflet.", "gap": -0.12 },
+    { "speaker": "Wendy", "text": "And the cost-benefit test counts properties protected, so a town always beats a village. The method guarantees the outcome." },
+    { "speaker": "Tess", "text": "It isn't obviously wrong, though. You can't defend everything." },
+    { "speaker": "Wendy", "text": "No, but you can be honest that it's a choice rather than a natural process." },
+    { "speaker": "Arjun", "text": "The Welsh approach of buying out and relocating a whole village is the only humane version I've seen." },
+    { "speaker": "Tess", "text": "Expensive." },
+    { "speaker": "Arjun", "text": "Cheaper than the defences would have been, in that case. Which is the argument that finally moved it." },
+    { "speaker": "Wendy", "text": "It usually takes money to make a moral case land, unfortunately." }
+  ],
+  "points": [
+    "A village lost nine metres of coast in one winter, and the council will stop defending it.",
+    "Residents receive no compensation, as such losses are uninsurable.",
+    "Arjun explains defending soft cliffs displaces erosion along the coast rather than stopping it, so the town's sea wall contributes to the village's loss.",
+    "Wendy notes cost-benefit tests count properties protected, which structurally favours towns over villages.",
+    "Tess accepts not everything can be defended; Wendy asks that it be acknowledged as a choice rather than a natural process.",
+    "They cite a Welsh buy-out and relocation as the humane model, which succeeded because it cost less than the defences."
+  ]
+}

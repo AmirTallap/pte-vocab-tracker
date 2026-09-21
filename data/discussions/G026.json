@@ -1,0 +1,33 @@
+{
+  "id": "G026",
+  "title": "Space budgets and problems at home",
+  "field": "Science and policy",
+  "speakers": [
+    { "name": "Vic", "voice": "am_fenrir", "speed": 0.99 },
+    { "name": "Leila", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Ash", "voice": "af_nicole", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Ash", "text": "Somebody at the meeting said the moon budget would fix the housing waiting list, and the room just nodded." },
+    { "speaker": "Vic", "text": "It wouldn't, though. It's a rounding error against housing. That comparison always flatters the wrong side." },
+    { "speaker": "Leila", "text": "How much are we actually talking about?" },
+    { "speaker": "Vic", "text": "Space is well under one per cent of the budget. Health is around a fifth. You could delete space entirely and nobody would notice it in a hospital." },
+    { "speaker": "Ash", "text": "That's a fair correction, but it's also an argument that would protect any small programme from any scrutiny." },
+    { "speaker": "Vic", "text": "True. So judge it on its own merits rather than against housing." },
+    { "speaker": "Leila", "text": "On its merits, the weather satellites alone probably justify the whole thing. Hurricane warnings went from hours to days." },
+    { "speaker": "Ash", "text": "That's satellites, though. Not people on the moon.", "gap": -0.13 },
+    { "speaker": "Ash", "text": "The robotic case is easy. The crewed case is the one that costs ten times as much and returns less science." },
+    { "speaker": "Leila", "text": "Which even a lot of space scientists say quietly." },
+    { "speaker": "Vic", "text": "The honest defence of crewed flight isn't scientific. It's that it's the only thing that makes anyone care, and the funding for the robots rides along behind it." },
+    { "speaker": "Ash", "text": "That's more persuasive than the science argument, actually." },
+    { "speaker": "Leila", "text": "It's also unmeasurable, which is why nobody puts it in the business case." }
+  ],
+  "points": [
+    "A claim that space spending could fix the housing waiting list is challenged as a misleading comparison.",
+    "Vic notes space is well under one per cent of the budget against roughly a fifth for health.",
+    "Ash accepts the correction but warns it would shield any small programme from scrutiny.",
+    "Leila argues weather satellites alone justify the spending, since hurricane warnings improved from hours to days.",
+    "Ash distinguishes robotic missions, which are easy to justify, from crewed flight, which costs far more and returns less science.",
+    "Vic's defence of crewed missions is that they sustain public interest and carry robotic funding with them, which Ash finds more persuasive though unmeasurable."
+  ]
+}

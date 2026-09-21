@@ -1,0 +1,33 @@
+{
+  "id": "G069",
+  "title": "Performance reviews and what they measure",
+  "field": "Work and management",
+  "speakers": [
+    { "name": "Pia", "voice": "af_aoede", "speed": 1.03 },
+    { "name": "Doug", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Marcus", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Doug", "text": "We're dropping the annual review and the rating scale with it. Quarterly conversations instead, no number attached." },
+    { "speaker": "Marcus", "text": "Which sounds lovely until pay day, when somebody still has to decide who gets what." },
+    { "speaker": "Pia", "text": "That's the honest problem with abolishing ratings. The judgement doesn't disappear, it just stops being written down." },
+    { "speaker": "Doug", "text": "Is that worse? At least nobody carries a three around for a year." },
+    { "speaker": "Pia", "text": "It's worse for anyone who wants to challenge it. You can appeal a rating. You can't appeal a vibe.", "gap": -0.13 },
+    { "speaker": "Marcus", "text": "And the bias research points the same way. Unstructured judgement is where it flourishes." },
+    { "speaker": "Doug", "text": "The forced distribution version was indefensible, though. Ten per cent must be underperforming, by decree." },
+    { "speaker": "Pia", "text": "Completely, and several large firms dropped it after finding it destroyed exactly the collaboration they said they wanted." },
+    { "speaker": "Marcus", "text": "Because helping a colleague moves them up your own curve." },
+    { "speaker": "Doug", "text": "So structured but not ranked." },
+    { "speaker": "Pia", "text": "Roughly. Specific criteria, written evidence, more than one assessor, and no quota." },
+    { "speaker": "Marcus", "text": "The part nobody fixes is that most of it measures whether your manager saw the work rather than whether the work was good." },
+    { "speaker": "Doug", "text": "Which is why the people who present well keep doing extremely well." }
+  ],
+  "points": [
+    "A company is replacing annual reviews and ratings with quarterly conversations.",
+    "Pia warns that removing ratings does not remove judgement, only the record of it.",
+    "This disadvantages anyone wishing to challenge a decision, since an unwritten judgement cannot be appealed.",
+    "Bias research indicates unstructured judgement increases bias.",
+    "Forced distribution systems are rejected as destroying collaboration, since helping colleagues harms one's own ranking.",
+    "They favour structured but unranked assessment, while noting reviews largely measure managerial visibility rather than work quality."
+  ]
+}

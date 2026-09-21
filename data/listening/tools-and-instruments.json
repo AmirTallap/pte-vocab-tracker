@@ -1,0 +1,71 @@
+{
+  "id": "tools-and-instruments",
+  "title": "Tools and instruments",
+  "summary": "Things built to do one job, and the words for them.",
+  "questions": [
+    {
+      "id": "tool-01",
+      "clue": "You look through this instrument to see things that are far too small for the naked eye.",
+      "answer": "microscope",
+      "note": "Micro means small and scope means to look at. A telescope does the opposite job, for things too far away."
+    },
+    {
+      "id": "tool-02",
+      "clue": "This instrument has a magnetised needle that always settles pointing north.",
+      "answer": "compass",
+      "note": "The same word also means the hinged instrument for drawing circles, which is why the clue mentions the needle and the north."
+    },
+    {
+      "id": "tool-03",
+      "clue": "This is a tool for gripping and turning a nut or a bolt.",
+      "answer": "spanner",
+      "accept": ["wrench"],
+      "note": "Spanner is British and wrench is American. Both are accepted."
+    },
+    {
+      "id": "tool-04",
+      "clue": "This is a cone-shaped tube used to pour liquid into a container with a narrow opening.",
+      "answer": "funnel",
+      "note": "The same word describes anything narrowing to a point, which is why a tornado is sometimes called a funnel cloud."
+    },
+    {
+      "id": "tool-05",
+      "clue": "This piece of metal attracts iron and steel towards itself without touching them.",
+      "answer": "magnet",
+      "note": "The word comes from Magnesia, a region in ancient Greece where naturally magnetic rock was found."
+    },
+    {
+      "id": "tool-06",
+      "clue": "This is a machine that makes holes by spinning a sharp bit round at speed.",
+      "answer": "drill",
+      "note": "The same word is used for the practice of a routine, as in a fire drill, from the idea of repeated boring motion."
+    },
+    {
+      "id": "tool-07",
+      "clue": "This has two rungs joined by steps and you climb it to reach something high.",
+      "answer": "ladder",
+      "note": "A ladder leans; a stepladder stands on its own with a hinge. The clue describes the ordinary leaning kind."
+    },
+    {
+      "id": "tool-08",
+      "clue": "This instrument weighs things by comparing them, or by showing a number on a dial.",
+      "answer": "scales",
+      "accept": ["scale", "balance"],
+      "note": "British English usually says a pair of scales; American English says a scale. A balance is the older two-pan version."
+    },
+    {
+      "id": "tool-09",
+      "clue": "This tool is a flat blade on a long handle, used for digging into soil.",
+      "answer": "spade",
+      "accept": ["shovel"],
+      "note": "Strictly a spade cuts into ground and a shovel lifts loose material, but most speakers use the two words for each other."
+    },
+    {
+      "id": "tool-10",
+      "clue": "This is the instrument a builder uses to check that a surface is perfectly horizontal.",
+      "answer": "level",
+      "accept": ["spirit level"],
+      "note": "A bubble sits in a tube of liquid and rests in the centre only when the surface is flat, which is why it is called a spirit level."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G057",
+  "title": "Food delivery apps and the restaurants on them",
+  "field": "Business and food",
+  "speakers": [
+    { "name": "Nia", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Patrick", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Sol", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Sol", "text": "The place on the corner has come off all the apps. The owner said the commission was around thirty per cent." },
+    { "speaker": "Patrick", "text": "Thirty per cent of a meal with maybe a ten per cent margin. That's not a partnership, that's the whole profit and more." },
+    { "speaker": "Nia", "text": "The defence is that it's incremental orders they wouldn't have had. Which is true at first and stops being true." },
+    { "speaker": "Sol", "text": "Stops how?" },
+    { "speaker": "Nia", "text": "Once enough people order by app, the walk-in customer becomes an app customer. You're paying commission on the person who used to come in." },
+    { "speaker": "Patrick", "text": "And you can't leave, because your competitor is still on it and the app owns the habit." },
+    { "speaker": "Nia", "text": "That's the trap precisely. It isn't a channel any more, it's the market.", "gap": -0.12 },
+    { "speaker": "Sol", "text": "Some places just raise app prices to cover it." },
+    { "speaker": "Patrick", "text": "Most contracts forbid that, or did until regulators started looking." },
+    { "speaker": "Nia", "text": "The riders are the other half and they're paid per delivery, so the waiting isn't paid at all." },
+    { "speaker": "Sol", "text": "Is there a version of this that works for anyone but the app?" },
+    { "speaker": "Patrick", "text": "The co-operative ones in a few cities charge maybe five per cent and hand the rest over. They stay small because they can't fund the discounts." },
+    { "speaker": "Nia", "text": "Which is the pattern everywhere. The better model loses on marketing spend rather than on merit." }
+  ],
+  "points": [
+    "A restaurant left delivery apps over commission of around thirty per cent, against margins near ten per cent.",
+    "Nia explains the incremental-orders defence holds initially but fails as walk-in customers convert to app customers.",
+    "Restaurants cannot leave because competitors remain and the app owns customer habit, making it the market rather than a channel.",
+    "Contracts have typically prevented charging higher prices on apps, until regulatory attention.",
+    "Riders are paid per delivery, so waiting time is unpaid.",
+    "Co-operative alternatives charging around five per cent exist but stay small because they cannot fund discounts, so the better model loses on marketing rather than merit."
+  ]
+}

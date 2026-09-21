@@ -18,3 +18,4 @@ worker/grammar-key.json
 # Lecture excerpts are someone else's recording under a share-alike licence.
 # The recipe is committed in data/lectures/*.json; the audio stays local.
 data/lectures/audio/
+data/discussions/audio/

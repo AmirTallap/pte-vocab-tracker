@@ -1,0 +1,33 @@
+{
+  "id": "G088",
+  "title": "Job interviews and whether they predict anything",
+  "field": "Work and psychology",
+  "speakers": [
+    { "name": "Dermot", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Aya", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Ross", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Ross", "text": "Seven interviews for one role. Seven. And the last one was a chat about whether he'd fit the team." },
+    { "speaker": "Aya", "text": "Which is the stage with the worst predictive record of anything they did." },
+    { "speaker": "Dermot", "text": "How bad is unstructured interviewing, actually? I've heard it's poor but not the number." },
+    { "speaker": "Aya", "text": "It correlates with later performance at somewhere around point two. A work sample test is roughly double that." },
+    { "speaker": "Ross", "text": "So the cheapest and most popular method is the least useful." },
+    { "speaker": "Aya", "text": "And the confidence people have in their own judgement is completely uncorrelated with their accuracy, which is the genuinely uncomfortable finding.", "gap": -0.13 },
+    { "speaker": "Dermot", "text": "Fit is the part I'd challenge hardest. It usually means somebody the panel would enjoy having lunch with." },
+    { "speaker": "Ross", "text": "Which reliably produces a team of the same kind of person." },
+    { "speaker": "Aya", "text": "Structured interviews do much better. Same questions, same order, scored against agreed criteria, and interviewers who don't confer first." },
+    { "speaker": "Dermot", "text": "Nobody likes doing them, though. They feel robotic." },
+    { "speaker": "Aya", "text": "They feel worse and work better, which is true of most debiasing." },
+    { "speaker": "Ross", "text": "The seven rounds are their own problem regardless. The good candidates take another offer by round four." },
+    { "speaker": "Dermot", "text": "So a long process selects for whoever had no alternatives." }
+  ],
+  "points": [
+    "A hiring process used seven interviews, ending with an unstructured discussion about team fit.",
+    "Unstructured interviews correlate with later performance at around 0.2, roughly half the predictive value of work sample tests.",
+    "Interviewer confidence is uncorrelated with accuracy.",
+    "Dermot argues fit usually means social similarity, producing homogeneous teams.",
+    "Structured interviews with identical questions, agreed criteria and independent scoring perform substantially better despite feeling mechanical.",
+    "Ross notes long processes lose strong candidates to other offers, so they select for those without alternatives."
+  ]
+}

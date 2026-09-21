@@ -1,0 +1,33 @@
+{
+  "id": "G051",
+  "title": "Should organ donation be opt-out?",
+  "field": "Medicine and ethics",
+  "speakers": [
+    { "name": "Lorna", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Hamed", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Bea", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Bea", "text": "Opt-out came in three years ago and the transplant numbers have barely moved. I'd assumed they'd jump." },
+    { "speaker": "Hamed", "text": "Everyone assumed that. The countries held up as proof, like Spain, changed the law decades before the numbers rose." },
+    { "speaker": "Lorna", "text": "So what did move them?" },
+    { "speaker": "Hamed", "text": "Specialist coordinators in every hospital. Someone trained whose actual job is that conversation with a family at the worst hour of their life." },
+    { "speaker": "Bea", "text": "Because in practice the family is still asked, opt-out or not." },
+    { "speaker": "Lorna", "text": "Which is the thing nobody says out loud when the law passes. No surgeon is going to proceed over a grieving family's objection.", "gap": -0.12 },
+    { "speaker": "Lorna", "text": "So the legal default matters far less than how that conversation goes." },
+    { "speaker": "Hamed", "text": "Although the default does help the conversation. It shifts it from asking permission to confirming a decision already made." },
+    { "speaker": "Bea", "text": "That's a real difference in a room like that." },
+    { "speaker": "Lorna", "text": "The objection I take seriously is consent. Silence is being read as agreement, and some people never heard about the change at all." },
+    { "speaker": "Hamed", "text": "The register answers that partly. You can record a refusal and it's binding." },
+    { "speaker": "Bea", "text": "If you know it exists." },
+    { "speaker": "Lorna", "text": "Which is the whole objection in four words, really." }
+  ],
+  "points": [
+    "Three years after opt-out donation was introduced, transplant numbers have barely changed.",
+    "Hamed notes countries cited as successes changed their law decades before donation rates rose.",
+    "The decisive factor was specialist coordinators in hospitals trained to hold conversations with bereaved families.",
+    "Families are still consulted regardless of the legal default, since surgeons will not override objections.",
+    "Hamed argues the default still helps by reframing the conversation from seeking permission to confirming an existing decision.",
+    "Lorna's remaining objection is that silence is treated as consent when many people never learned of the change, which the refusal register only partly answers."
+  ]
+}

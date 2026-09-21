@@ -1,0 +1,33 @@
+{
+  "id": "G063",
+  "title": "E-scooters on the pavement",
+  "field": "Transport and cities",
+  "speakers": [
+    { "name": "Meg", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Tobi", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Lena", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Lena", "text": "The trial's being extended another year. Nine hundred scooters, and the complaints are almost entirely about parking rather than riding." },
+    { "speaker": "Tobi", "text": "Because a scooter left across a pavement is a wall if you can't see it." },
+    { "speaker": "Meg", "text": "That's the point the blind charities made and it took a long time for anyone to act on it." },
+    { "speaker": "Lena", "text": "Docking bays fix most of it, and the cities that mandated them saw complaints fall sharply." },
+    { "speaker": "Tobi", "text": "At the cost of the thing that made them useful, which is leaving it where you finished." },
+    { "speaker": "Meg", "text": "Some cost is fine, though. Convenience for one person against passability for another isn't a close call.", "gap": -0.13 },
+    { "speaker": "Lena", "text": "The injury data is the bit I find genuinely hard to read. Head injuries are high, helmet use is almost nil." },
+    { "speaker": "Tobi", "text": "Compared to cycling?" },
+    { "speaker": "Lena", "text": "Worse per mile, on most of the studies. Small wheels and a standing posture are unforgiving of a pothole." },
+    { "speaker": "Meg", "text": "Although a lot of those miles replaced a car journey, which has its own risk that nobody attributes to anyone." },
+    { "speaker": "Tobi", "text": "Did they replace car journeys, though? The surveys I've seen say mostly walking and buses." },
+    { "speaker": "Lena", "text": "That's right, and it's the finding that undercuts the environmental case almost completely." },
+    { "speaker": "Meg", "text": "So it's a convenience product with a climate story attached to it afterwards." }
+  ],
+  "points": [
+    "An e-scooter trial is extended, with complaints centring on parking rather than riding.",
+    "Scooters left across pavements obstruct blind and partially sighted people, a concern raised early by charities.",
+    "Mandatory docking bays sharply reduce complaints at the cost of convenience, which Meg considers an acceptable trade.",
+    "Injury data shows high head injuries with negligible helmet use, and worse rates per mile than cycling due to small wheels and standing posture.",
+    "Surveys indicate most journeys replaced walking and bus trips rather than car journeys.",
+    "Meg concludes the environmental case was attached afterwards to what is essentially a convenience product."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G033",
+  "title": "Tipping, and whether it should exist",
+  "field": "Work and society",
+  "speakers": [
+    { "name": "Rosie", "voice": "af_nicole", "speed": 1.04 },
+    { "name": "Duncan", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Kel", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Kel", "text": "The card machine asked me for twenty-five per cent at a counter where I carried my own coffee to the table." },
+    { "speaker": "Duncan", "text": "Tip creep. It's moved from table service to absolutely everything in about five years." },
+    { "speaker": "Rosie", "text": "Because the screen is turned towards you while somebody watches. That's not a request, it's an audience." },
+    { "speaker": "Kel", "text": "So abolish it and pay people properly. Some restaurants tried that." },
+    { "speaker": "Duncan", "text": "And a lot of them went back, because the good servers left. Under tipping a strong server earns more than a flat wage pays." },
+    { "speaker": "Rosie", "text": "Which is the honest defence of it, and it's also the reason it survives." },
+    { "speaker": "Kel", "text": "The research on who gets tipped is pretty grim though. Attractiveness, hair colour, race. It's measurable and it's large.", "gap": -0.12 },
+    { "speaker": "Kel", "text": "So it's a wage system with discrimination built into the payment method." },
+    { "speaker": "Duncan", "text": "That lands. Although a manager setting wages isn't free of that either." },
+    { "speaker": "Rosie", "text": "No, but a manager can be held to an account. Four hundred customers can't." },
+    { "speaker": "Duncan", "text": "Fair. The kitchen is the other thing. The person who cooked it usually gets nothing." },
+    { "speaker": "Rosie", "text": "Which service charges were supposed to fix, and then the pooling rules turned out to be whatever the owner decided." },
+    { "speaker": "Kel", "text": "That's the part that actually needs legislating, rather than the tipping itself." }
+  ],
+  "points": [
+    "Tipping prompts have spread from table service to counter service, with high default percentages.",
+    "Rosie argues the prompt works through social pressure rather than choice.",
+    "Duncan explains attempts to abolish tipping often failed because strong servers earn more under tips than on flat wages.",
+    "Kel cites research showing tips vary measurably by attractiveness, hair colour and race, making discrimination part of the payment method.",
+    "Rosie distinguishes a manager, who can be held accountable, from hundreds of customers, who cannot.",
+    "They agree the clearest target for legislation is how service charges are pooled and whether kitchen staff share, rather than tipping itself."
+  ]
+}

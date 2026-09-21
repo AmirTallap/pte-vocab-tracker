@@ -1,0 +1,71 @@
+{
+  "id": "money-and-business",
+  "title": "Money and business",
+  "summary": "The vocabulary of earning, owing and trading.",
+  "questions": [
+    {
+      "id": "money-01",
+      "clue": "This is the long-term loan taken out to buy a house, with the house itself as security.",
+      "answer": "mortgage",
+      "note": "The t is silent. From Old French words meaning dead pledge, because the arrangement dies when the debt is paid."
+    },
+    {
+      "id": "money-02",
+      "clue": "This is the general rise in prices over time, which makes money buy less than it did.",
+      "answer": "inflation",
+      "note": "The opposite is deflation. Prices rising more slowly than before is disinflation, which is not the same as falling."
+    },
+    {
+      "id": "money-03",
+      "clue": "This is the document a business sends listing what is owed and asking to be paid.",
+      "answer": "invoice",
+      "accept": ["bill"],
+      "note": "A receipt is the opposite: proof that payment has already been made."
+    },
+    {
+      "id": "money-04",
+      "clue": "This word describes a person or company officially declared unable to pay their debts.",
+      "answer": "bankrupt",
+      "accept": ["insolvent"],
+      "note": "Insolvent describes the financial state; bankrupt is the legal status that follows a court process."
+    },
+    {
+      "id": "money-05",
+      "clue": "This is the plan setting out how much money is available and what it will be spent on.",
+      "answer": "budget",
+      "note": "From a word for a small leather bag, which is what a chancellor once carried the accounts in."
+    },
+    {
+      "id": "money-06",
+      "clue": "This is the share of a company's profit paid out to the people who own its shares.",
+      "answer": "dividend",
+      "note": "Profit kept in the business rather than paid out is called retained earnings."
+    },
+    {
+      "id": "money-07",
+      "clue": "This is a period of several months during which a country's economy shrinks rather than grows.",
+      "answer": "recession",
+      "accept": ["slump", "downturn"],
+      "note": "The common working definition is two consecutive quarters of falling output. A very deep and long one is a depression."
+    },
+    {
+      "id": "money-08",
+      "clue": "This word describes selling goods in large quantities to shops rather than to the public.",
+      "answer": "wholesale",
+      "note": "Selling to the public is retail. Wholesale also means on a large scale, as in wholesale changes."
+    },
+    {
+      "id": "money-09",
+      "clue": "This is the sum paid up front as part of a larger price, or left as security on a rented flat.",
+      "answer": "deposit",
+      "note": "The same word means money put into a bank account, and the material left behind by a river."
+    },
+    {
+      "id": "money-10",
+      "clue": "This is money given back to you when you return goods or were charged too much.",
+      "answer": "refund",
+      "accept": ["reimbursement", "rebate"],
+      "note": "A reimbursement pays back what you spent on somebody else's behalf; a rebate returns part of a price already paid."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G099",
+  "title": "Should algorithms decide who gets seen first?",
+  "field": "Technology and public services",
+  "speakers": [
+    { "name": "Noa", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Ewan", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Tariq", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Tariq", "text": "The trust is using a model to prioritise the surgical waiting list. Clinical need, waiting time, deterioration risk." },
+    { "speaker": "Noa", "text": "Which is what a consultant does already, only inconsistently and at eleven at night." },
+    { "speaker": "Ewan", "text": "That's the strongest argument for it, honestly. The comparison isn't a perfect decision, it's a tired human one." },
+    { "speaker": "Tariq", "text": "The worry is what goes into it. If the training data reflects who got treated quickly before, it learns the old bias." },
+    { "speaker": "Noa", "text": "There's a well-known case where an algorithm used past spending as a proxy for need, and less had been spent on some patients historically.", "gap": -0.12 },
+    { "speaker": "Noa", "text": "So it concluded they were healthier, when it had really measured who had been neglected." },
+    { "speaker": "Ewan", "text": "Which is a data problem rather than an algorithm problem, though the effect is the same." },
+    { "speaker": "Tariq", "text": "The difference from a biased consultant is scale. One consultant is wrong in one hospital." },
+    { "speaker": "Ewan", "text": "And consistency cuts both ways. A consistent system is auditable, which a hundred individual judgements are not." },
+    { "speaker": "Noa", "text": "That's the part I'd hold onto. You can test a model for disparate outcomes. You cannot test a memory." },
+    { "speaker": "Tariq", "text": "Provided somebody is required to run that test and publish it." },
+    { "speaker": "Ewan", "text": "Which is the whole governance question and it's always the underfunded bit." },
+    { "speaker": "Noa", "text": "An override matters too, with a written reason, so the clinician stays accountable rather than deferring." }
+  ],
+  "points": [
+    "A hospital trust is using a model to prioritise surgical waiting lists.",
+    "Ewan argues the fair comparison is not a perfect decision but an inconsistent, tired human one.",
+    "Tariq warns training data can encode historical bias.",
+    "Noa cites a case where past spending was used as a proxy for need, so under-treated patients were classified as healthier.",
+    "Scale distinguishes algorithmic from individual bias, though consistency also makes systems auditable in ways human judgement is not.",
+    "They conclude governance is decisive: mandatory published testing for disparate outcomes, plus a clinician override requiring a written reason."
+  ]
+}

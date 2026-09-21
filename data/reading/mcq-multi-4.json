@@ -1,0 +1,173 @@
+{
+  "id": "mcq-multi-4",
+  "task": "mcq-multi",
+  "title": "Set 4",
+  "summary": "Ten passages from physics to philosophy: the number of correct answers is never given, so choose only what you can point to.",
+  "items": [
+    {
+      "id": "mm4-01",
+      "title": "Superconductivity",
+      "passage": "In 1911 the Dutch physicist Heike Kamerlingh Onnes, who had recently succeeded in liquefying helium, used it to cool a sample of mercury to about four degrees above absolute zero. To his surprise, the electrical resistance of the mercury did not merely fall gradually but vanished abruptly below a certain temperature. He named the phenomenon superconductivity.\nA superconductor carries an electric current without any loss of energy as heat, so a current set flowing in a closed loop of superconducting wire can continue for years without a power source. Superconductors also expel magnetic fields from their interior, an effect discovered in 1933 by Walther Meissner and Robert Ochsenfeld. This is what allows a small magnet to float above a cooled superconductor, a popular demonstration. A satisfactory theory of the phenomenon in conventional materials was not published until 1957, by John Bardeen, Leon Cooper and John Schrieffer, more than four decades after the original discovery.\nThe great practical obstacle has been temperature. For many years all known superconductors had to be cooled with liquid helium, which is expensive and difficult to handle. In 1986 Georg Bednorz and Alex Müller discovered a class of ceramic materials that became superconducting at considerably higher temperatures, and within a year related compounds had been found that worked above the boiling point of liquid nitrogen, a far cheaper coolant. These materials are still very cold by everyday standards, however, and the mechanism behind them is not fully understood. Today superconducting magnets are used in hospital MRI scanners and in particle accelerators, but a material that superconducts at room temperature and ordinary pressure has not been convincingly demonstrated.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The resistance of the mercury fell gradually as it was cooled.",
+        "Onnes's experiment depended on his earlier success in liquefying helium.",
+        "A theory explaining conventional superconductivity followed soon after Onnes's discovery.",
+        "Some ceramic superconductors can be cooled with a cheaper coolant than liquid helium.",
+        "MRI scanners use materials that superconduct at room temperature.",
+        "Superconductors expel magnetic fields from their interior.",
+        "Scientists fully understand how the high-temperature superconductors work."
+      ],
+      "answer": [1, 3, 5],
+      "note": "Onnes 'had recently succeeded in liquefying helium' and 'used it' to cool the mercury; related compounds worked 'above the boiling point of liquid nitrogen, a far cheaper coolant'; and superconductors 'expel magnetic fields from their interior'. The resistance 'did not merely fall gradually but vanished abruptly', and the theory came 'more than four decades after'. No room-temperature superconductor 'has been convincingly demonstrated', and the mechanism of the ceramics 'is not fully understood'."
+    },
+    {
+      "id": "mm4-02",
+      "title": "Iodine in the diet",
+      "passage": "Iodine is needed in small amounts to make thyroid hormones, which regulate metabolism and are essential for normal growth and brain development. The body cannot make iodine, so it must come from food. In many inland and mountainous regions, including the Alps, the Himalayas and parts of the American Midwest, soils are poor in iodine, and so are the crops and animals raised on them.\nThe most visible sign of deficiency is goitre, a swelling of the thyroid gland in the neck, which was once common in such regions. Far more serious, however, is the effect on unborn children. Severe deficiency during pregnancy can cause lasting intellectual impairment, and even mild deficiency is associated with lower average cognitive ability in children. Because the damage occurs early and cannot be reversed, public health experts regard iodine deficiency as a leading preventable cause of intellectual disability worldwide.\nThe solution adopted in the twentieth century was remarkably cheap. Switzerland began adding iodine to table salt in the 1920s, and iodised salt went on sale in the United States in 1924. Salt was chosen because almost everyone eats it in fairly constant amounts throughout the year, and because adding iodine costs very little and does not noticeably change the taste. Goitre rates in iodine-poor areas subsequently fell dramatically.\nSince the 1990s, international campaigns have promoted universal salt iodisation, and a large majority of households worldwide now have access to iodised salt. Deficiency has not disappeared, however, and some experts have raised concern that efforts to reduce salt intake, desirable for other reasons, could lower iodine intake unless other sources are found.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Crops grown on iodine-poor soils tend to be low in iodine.",
+        "Goitre is the most serious consequence of iodine deficiency.",
+        "Salt was chosen partly because people eat it in fairly steady amounts all year.",
+        "Iodine deficiency has now been eliminated worldwide.",
+        "Damage caused by deficiency before birth can be reversed with later supplements.",
+        "Adding iodine gives salt a noticeably different taste."
+      ],
+      "answer": [0, 2],
+      "note": "Where soils are poor in iodine, 'so are the crops and animals raised on them', and salt was chosen 'because almost everyone eats it in fairly constant amounts throughout the year'. Goitre is the most 'visible' sign, but the effect on unborn children is 'far more serious'. 'Deficiency has not disappeared', the early damage 'cannot be reversed', and iodine 'does not noticeably change the taste'."
+    },
+    {
+      "id": "mm4-03",
+      "title": "The shrinking Aral Sea",
+      "passage": "Until the 1960s the Aral Sea, on the border between what are now Kazakhstan and Uzbekistan, was one of the four largest lakes in the world. It was fed by two great rivers, the Amu Darya and the Syr Darya, which flow from the mountains of Central Asia. Having no outlet, the sea lost water only through evaporation, and its level had remained broadly stable because the inflow balanced that loss.\nIn the 1960s Soviet planners began diverting large quantities of water from both rivers to irrigate the surrounding desert, chiefly for growing cotton. Much of the water was lost on the way, because many of the canals were unlined and leaked into the sand. With far less water reaching it, the sea began to shrink rapidly. By the early twenty-first century it had split into separate bodies of water and lost most of its former area.\nThe consequences were severe. As the water became saltier, most native fish species disappeared, and a fishing industry that had once employed tens of thousands of people collapsed, leaving ships stranded on dry land far from the shore. Winds lifted salt and dust, contaminated with agricultural chemicals, from the exposed seabed and carried them over the surrounding region, where they have been linked to health problems. The local climate also became more extreme, with hotter summers and colder winters.\nNot all of the story is one of loss. In 2005 Kazakhstan completed a dam separating the northern part of the sea from the rest, and with the help of improvements to the Syr Darya, water levels there have risen and some fisheries have revived. The larger southern part, however, has continued to shrink.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The sea shrank mainly because of a natural change in the region's climate.",
+        "Leaking canals meant that much of the diverted water never reached the fields.",
+        "The sea's level had been stable because the inflow matched the loss to evaporation.",
+        "The northern part of the sea has partly recovered since a dam was completed.",
+        "The dam has restored the southern part of the sea to its former size.",
+        "The dust blown from the exposed seabed was free of agricultural chemicals.",
+        "As the sea shrank, the local climate became milder."
+      ],
+      "answer": [1, 2, 3],
+      "note": "Much of the diverted water 'was lost on the way' through unlined canals, the level was stable 'because the inflow balanced that loss', and in the north 'water levels there have risen and some fisheries have revived'. The shrinking followed the Soviet diversion of the rivers, not a natural climate shift; the climate change the passage mentions was a consequence, and it made the climate 'more extreme'. The southern part 'has continued to shrink', and the dust was 'contaminated with agricultural chemicals'."
+    },
+    {
+      "id": "mm4-04",
+      "title": "The Code of Hammurabi",
+      "passage": "The Code of Hammurabi, issued by the Babylonian king Hammurabi, who reigned in the eighteenth century BC, is one of the best-preserved legal texts from the ancient world. Its best-known copy is inscribed on a tall stone pillar, or stele, now in the Louvre in Paris, which was discovered in 1901 at Susa in Iran, where it had been carried as plunder centuries after it was made. At the top of the stele, a carved relief shows the king standing before a seated god, often identified as Shamash, the god of justice.\nThe text contains around 280 provisions covering matters such as trade, wages, property, marriage, inheritance and injury. Many take the form of conditional cases: if a person does a certain thing, then a certain consequence follows. Some punishments follow the principle of retaliation, an eye for an eye, but the code applied it unequally. The penalty for an injury often depended on the social rank of both the offender and the victim, so that harming a free man was treated more seriously than harming a slave.\nHammurabi's code was once described as the oldest law code in existence, but earlier collections have since been found, including one associated with Ur-Nammu of Ur, several centuries older. Scholars also debate what kind of document the code was. Surviving court records from the period rarely cite it, which has led some to argue that it was less a body of law to be applied by judges than a statement of the king's justice, intended to display his fitness to rule.",
+      "question": "According to the passage, which of the following are true of the Code of Hammurabi?",
+      "options": [
+        "The stele was found in the city where it was originally set up.",
+        "Penalties could depend on the social rank of the people involved.",
+        "It is the oldest law code ever discovered.",
+        "Surviving court records from the period frequently quote it.",
+        "Some scholars doubt that judges applied it directly when deciding cases.",
+        "It applied the principle of retaliation equally to everyone."
+      ],
+      "answer": [1, 4],
+      "note": "'The penalty for an injury often depended on the social rank of both the offender and the victim', and because court records 'rarely cite it', some argue it was 'less a body of law to be applied by judges' than a statement of the king's justice. The stele had been 'carried as plunder' to Susa, older codes such as Ur-Nammu's 'have since been found', and the code 'applied it unequally'."
+    },
+    {
+      "id": "mm4-05",
+      "title": "The market for lemons",
+      "passage": "In 1970 the economist George Akerlof published a short paper about the market for used cars that became one of the most influential in modern economics. His starting point was that sellers of second-hand cars know much more about the quality of their vehicles than buyers do. A buyer cannot easily tell a reliable car from a defective one, known in American slang as a lemon, and so is willing to pay only a price reflecting the average quality of cars on the market.\nAkerlof showed that this can cause the market to unravel. At a price based on average quality, owners of good cars are offered less than their cars are worth, so many decline to sell. As they withdraw, the average quality of cars on offer falls, buyers lower the price they are prepared to pay, and still more good cars are withdrawn. In an extreme case only lemons remain. The problem is not dishonesty as such, but the imbalance of information between the two sides, which economists call asymmetric information.\nThe same reasoning applies to many other markets, including insurance, where the people most eager to buy cover may be those who know they are most at risk, and lending, where borrowers know more than lenders about their own reliability. Akerlof also pointed out that markets develop institutions to counteract the problem: warranties, brand names and dealers who depend on their reputation all give buyers some assurance of quality. In 2001 Akerlof shared the Nobel Prize in economics with Michael Spence and Joseph Stiglitz for work on markets with asymmetric information. The paper was reportedly rejected by several journals before it was published, partly because reviewers considered it trivial.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Buyers are willing to pay only a price reflecting the average quality of the cars on offer.",
+        "Akerlof located the problem chiefly in the dishonesty of used-car sellers.",
+        "Owners of good cars may decide not to sell them.",
+        "Warranties and brand names can help to counteract the problem.",
+        "Akerlof's paper was accepted by the first journal to which he sent it.",
+        "Asymmetric information arises only in the market for used cars.",
+        "Akerlof received the Nobel Prize on his own."
+      ],
+      "answer": [0, 2, 3],
+      "note": "The buyer 'is willing to pay only a price reflecting the average quality', owners of good cars are offered too little 'so many decline to sell', and warranties and brand names 'give buyers some assurance of quality'. 'The problem is not dishonesty as such' but the imbalance of information. The paper was 'rejected by several journals', the reasoning 'applies to many other markets', and he 'shared' the prize with Spence and Stiglitz."
+    },
+    {
+      "id": "mm4-06",
+      "title": "Pumped storage",
+      "passage": "Electricity is difficult to store in large quantities, yet demand for it varies greatly over the course of a day. The oldest large-scale solution to this problem is pumped-storage hydroelectricity, which was first used in Europe in the late nineteenth century and still accounts for most of the world's grid energy storage capacity.\nA pumped-storage plant consists of two reservoirs at different heights, connected by tunnels or pipes. When electricity is plentiful and cheap, typically at night, it is used to pump water from the lower reservoir to the upper one. When demand is high, the water is released back down through turbines, generating electricity. The system does not produce energy; it consumes more electricity in pumping than it generates when the water is released, typically recovering around three quarters of it. Its value lies in shifting energy from times when it is least needed to times when it is most needed, and in its ability to respond quickly. Dinorwig, built inside a mountain in North Wales, can reach full output in a matter of seconds when its turbines are already spinning.\nInterest in pumped storage has grown with the expansion of wind and solar power, whose output depends on the weather rather than on demand. Storage allows surplus generation on a windy night or a sunny afternoon to be used later. The technology has clear limitations, however. It requires particular geography, with suitable sites for two reservoirs at a significant difference in height, and new schemes can take many years to plan and build, with considerable effects on the landscape. For these reasons, batteries are increasingly used alongside it for shorter-term storage.",
+      "question": "According to the passage, which of the following are true of pumped storage?",
+      "options": [
+        "It generates more electricity than it uses.",
+        "The growth of wind and solar power has increased interest in it.",
+        "It can be built wherever there is a river.",
+        "Batteries have now replaced it entirely.",
+        "Water is typically pumped uphill when electricity is cheap.",
+        "New schemes can be planned and built quickly."
+      ],
+      "answer": [1, 4],
+      "note": "Water is pumped up 'When electricity is plentiful and cheap, typically at night', and 'Interest in pumped storage has grown with the expansion of wind and solar power'. It 'consumes more electricity in pumping than it generates'. It needs 'particular geography' with two reservoirs at different heights, batteries are used 'alongside it', and new schemes 'can take many years to plan and build'."
+    },
+    {
+      "id": "mm4-07",
+      "title": "Weber on bureaucracy",
+      "passage": "The German sociologist Max Weber, writing in the early twentieth century, regarded bureaucracy as the characteristic form of organisation of the modern world. He did not use the word in its everyday, disparaging sense. For Weber, bureaucracy was an ideal type, a simplified model that picks out the essential features of a phenomenon, rather than a description of any actual organisation.\nAmong its features were a clear hierarchy of offices, each with defined responsibilities; decisions made according to written rules rather than personal preference; records kept in files; and officials appointed on the basis of qualifications, often tested by examination, rather than through family connections or patronage. Officials were paid a salary, did not own the resources they managed, and followed a career with promotion by seniority or merit. Weber argued that this form of organisation was technically superior to earlier forms, such as administration by the personal servants of a ruler, because it was faster, more precise and more predictable.\nWeber was far from an uncritical admirer, however. He feared that the spread of rationalisation, of which bureaucracy was a central part, would enclose modern life in what has been translated into English as an 'iron cage', in which efficiency and calculation displaced other values and individual freedom was steadily constrained. Later sociologists added further criticisms, pointing out that rigid adherence to rules could become an end in itself, so that officials followed procedures even when doing so defeated the purpose the rules were meant to serve. Despite such criticisms, Weber's model remains a standard starting point for the study of organisations.",
+      "question": "Which of the following does the passage attribute to Weber?",
+      "options": [
+        "He used the word 'bureaucracy' as a term of disapproval.",
+        "In his model, officials are appointed on the basis of qualifications.",
+        "He intended his ideal type as an exact description of one particular organisation.",
+        "He considered bureaucracy more efficient than administration by a ruler's personal servants.",
+        "He was concerned about the effect of rationalisation on individual freedom.",
+        "He held that officials should own the resources they manage.",
+        "He showed that officials followed rules so rigidly that procedures defeated their purpose."
+      ],
+      "answer": [1, 3, 4],
+      "note": "Officials were 'appointed on the basis of qualifications', bureaucracy was 'technically superior to ... administration by the personal servants of a ruler', and he feared individual freedom would be 'steadily constrained'. He 'did not use the word in its everyday, disparaging sense', the ideal type is not 'a description of any actual organisation', and officials 'did not own the resources they managed'. The point about rigid rules defeating their purpose is credited to 'Later sociologists', not to Weber."
+    },
+    {
+      "id": "mm4-08",
+      "title": "Grimm's law",
+      "passage": "Anyone who compares Latin with English will notice some curious regularities. Latin pater corresponds to English father, piscis to fish and pes, pedis to foot. Where Latin has a p at the start of a word, English very often has an f. Similar patterns link other sounds: Latin tres and English three, Latin cornu and English horn.\nIn 1822 the German scholar Jacob Grimm, better known today for the collection of folk tales he published with his brother Wilhelm, set out a systematic account of these correspondences, although the Danish linguist Rasmus Rask had described many of them a few years earlier. The pattern came to be known as Grimm's law. It holds that, at some point in prehistory, the ancestor of the Germanic languages, which include English, German and Dutch, underwent a series of sound changes that set it apart from related languages such as Latin, Greek and Sanskrit. Latin and Greek largely preserved the older consonants, while Germanic shifted them, so p became f, t became th and k became h, among other changes.\nIt is important to understand what the law does not claim. It does not mean that English words came from Latin: father and pater are both descended from a common ancestor, and English words borrowed from Latin much later, such as paternal, show no such change. Grimm's law also had exceptions, some of which were explained in the 1870s by Karl Verner. The demonstration that sound change followed regular rules helped to establish historical linguistics as a rigorous discipline, since it allowed scholars to test claims about the relationships between languages rather than relying on superficial resemblances.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The English word father is derived from Latin pater.",
+        "Rask described many of the correspondences before Grimm did.",
+        "Latin preserved older consonants that changed in the Germanic languages.",
+        "English words borrowed from Latin at a later date show the same sound shift.",
+        "Grimm's law had no exceptions.",
+        "Regular sound laws allowed claims about relationships between languages to be tested."
+      ],
+      "answer": [1, 2, 5],
+      "note": "Rask 'had described many of them a few years earlier', 'Latin and Greek largely preserved the older consonants, while Germanic shifted them', and regular sound change 'allowed scholars to test claims about the relationships between languages'. Father and pater 'are both descended from a common ancestor', which is exactly what the first option gets wrong. Later borrowings such as paternal 'show no such change', and the law 'had exceptions'."
+    },
+    {
+      "id": "mm4-09",
+      "title": "Pictures of the floating world",
+      "passage": "Ukiyo-e, meaning pictures of the floating world, flourished in Japan from the late seventeenth to the nineteenth century. The floating world was the urban pleasure quarters of cities such as Edo, now Tokyo, with their theatres, teahouses and entertainers, and early prints depicted actors of the kabuki theatre and fashionable courtesans. Later artists broadened the range of subjects to include landscapes, birds and flowers, and scenes from history and legend.\nThe prints were collaborative products. A publisher commissioned the work and sold the finished prints; an artist supplied the design; a carver cut it into blocks of cherry wood; and a printer applied ink to the blocks and pressed paper onto them by hand. From the 1760s, full-colour prints became possible, with a separate block carved for each colour and marks cut into the blocks to keep the paper in exactly the right position. Because many impressions could be taken from a single set of blocks, the prints were relatively cheap, and they were bought by ordinary townspeople rather than only by the wealthy.\nIn the nineteenth century, the landscape series of Katsushika Hokusai and Utagawa Hiroshige, including Hokusai's Thirty-six Views of Mount Fuji, brought the form to a new height. After Japan opened to foreign trade in the 1850s, prints reached Europe in large numbers, and artists such as Claude Monet and Vincent van Gogh collected and admired them. Their flat areas of colour, bold outlines and unusual viewpoints contributed to a fashion for Japanese art known as Japonisme. In Japan itself, however, the form declined in the later nineteenth century, as photography and new printing methods took its place.",
+      "question": "According to the passage, which of the following are true of ukiyo-e?",
+      "options": [
+        "A single artist carried out every stage of making a print.",
+        "Early prints often depicted actors of the kabuki theatre.",
+        "The prints were affordable only for the very wealthy.",
+        "The form became more popular in Japan after photography arrived.",
+        "European artists showed little interest in the prints.",
+        "Carving a separate block for each colour made full-colour prints possible."
+      ],
+      "answer": [1, 5],
+      "note": "Early prints 'depicted actors of the kabuki theatre', and full-colour prints were made 'with a separate block carved for each colour'. Publisher, artist, carver and printer each had a part, prints were bought 'by ordinary townspeople rather than only by the wealthy', the form 'declined' as photography took its place, and Monet and van Gogh 'collected and admired them'."
+    },
+    {
+      "id": "mm4-10",
+      "title": "Hume and induction",
+      "passage": "Much of what we believe about the world rests on induction: reasoning from what we have observed to what we have not. We have seen the sun rise every morning, so we expect it to rise tomorrow; bread has always nourished us, so we expect the next loaf to do the same. In the eighteenth century the Scottish philosopher David Hume asked what justifies such inferences, and his answer was unsettling.\nHume pointed out that induction cannot be justified by pure logic. There is no contradiction in supposing that the sun will not rise tomorrow, so its rising does not follow from past observations in the way that a conclusion follows from the premises of a valid deductive argument. Nor, he argued, can induction be justified by experience, for the obvious argument, that induction has worked well in the past and will therefore work in the future, is itself an inductive argument. Using induction to justify induction assumes exactly what was to be proved.\nHume did not conclude that we should stop reasoning inductively. He thought that we cannot help doing so: expectations about the future are formed by custom or habit, a feature of human nature rather than a product of reasoning. His point concerned justification, not practice.\nLater philosophers have responded in various ways. Karl Popper argued that science does not in fact rely on induction, since theories are never proved by observations, only tested and potentially refuted by them. Others have argued that the demand for a non-circular justification is unreasonable. Most would agree, however, that the problem has never been solved to general satisfaction.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Hume argued that people should stop reasoning inductively.",
+        "For Hume, there is no contradiction in supposing that the sun will not rise tomorrow.",
+        "Hume believed our expectations about the future are the product of careful reasoning.",
+        "Popper claimed that observations can prove scientific theories true.",
+        "Most philosophers consider the problem of induction to have been solved.",
+        "Hume maintained that induction can be justified by pure logic.",
+        "Hume held that justifying induction by its past success is circular."
+      ],
+      "answer": [1, 6],
+      "note": "'There is no contradiction in supposing that the sun will not rise tomorrow', and the argument from past success 'is itself an inductive argument', so it 'assumes exactly what was to be proved'. Hume 'did not conclude that we should stop', and he traced expectations to 'custom or habit ... rather than a product of reasoning'. Popper said theories 'are never proved by observations', most agree the problem 'has never been solved', and Hume argued that induction 'cannot be justified by pure logic'."
+    }
+  ]
+}

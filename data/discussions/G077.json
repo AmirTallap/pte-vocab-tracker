@@ -1,0 +1,33 @@
+{
+  "id": "G077",
+  "title": "Zoos: conservation or entertainment?",
+  "field": "Animals and ethics",
+  "speakers": [
+    { "name": "Kelda", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Amit", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Rosa", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Amit", "text": "They're closing the elephant enclosure and not replacing it. The keepers pushed for it, apparently." },
+    { "speaker": "Rosa", "text": "Good. Elephants are the clearest case. Home ranges of hundreds of square kilometres, and measurable welfare problems in captivity." },
+    { "speaker": "Kelda", "text": "Shorter lifespans than in the wild, which is remarkable when you think about the veterinary care." },
+    { "speaker": "Amit", "text": "The conservation argument is the one I keep hearing. Breeding programmes, species saved." },
+    { "speaker": "Rosa", "text": "Which is true for a small number of species and is used to justify the whole industry. A handful have genuinely been saved by captive breeding." },
+    { "speaker": "Kelda", "text": "The Arabian oryx, the California condor. Real successes, and a tiny fraction of what's in the collections.", "gap": -0.12 },
+    { "speaker": "Kelda", "text": "Almost nothing in a city zoo is ever going back anywhere." },
+    { "speaker": "Amit", "text": "Then there's the education claim, which I find genuinely hard to assess." },
+    { "speaker": "Rosa", "text": "The studies are weak. Short-term knowledge gains, not much evidence of changed behaviour later." },
+    { "speaker": "Kelda", "text": "Although I'd guess most conservation biologists were taken to a zoo at seven." },
+    { "speaker": "Rosa", "text": "Probably, and that's an anecdote doing the work of evidence." },
+    { "speaker": "Amit", "text": "Where the money genuinely matters is the field programmes zoos fund, which are substantial." },
+    { "speaker": "Kelda", "text": "So the defensible version is a funding body with a visitor attraction attached, rather than the other way round." }
+  ],
+  "points": [
+    "A zoo is closing its elephant enclosure at keepers' urging.",
+    "Elephants show clear welfare problems in captivity, including shorter lifespans than in the wild despite veterinary care.",
+    "Captive breeding has genuinely saved a small number of species, such as the Arabian oryx and California condor, but almost nothing in a city collection will be released.",
+    "Education claims rest on weak evidence, showing short-term knowledge gains without demonstrated behaviour change.",
+    "Kelda's anecdotal point about childhood visits is acknowledged as not being evidence.",
+    "They conclude the defensible model is a conservation funder with a visitor attraction attached rather than the reverse."
+  ]
+}

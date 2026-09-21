@@ -1,0 +1,33 @@
+{
+  "id": "G092",
+  "title": "Is the office Christmas party worth defending?",
+  "field": "Work and culture",
+  "speakers": [
+    { "name": "Fay", "voice": "af_kore", "speed": 1.03 },
+    { "name": "Brendan", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Ola", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Brendan", "text": "They've replaced the party with a voucher. Forty pounds each and no evening." },
+    { "speaker": "Ola", "text": "Most people I know would take the voucher without hesitating." },
+    { "speaker": "Fay", "text": "Which tells you what the party was actually worth to them, doesn't it." },
+    { "speaker": "Brendan", "text": "It tells you what it was worth compared to forty pounds, which isn't quite the same thing." },
+    { "speaker": "Ola", "text": "The case for it is the weak ties. You end up talking to someone from a floor you never visit, and six months later that's who you ask for a favour." },
+    { "speaker": "Fay", "text": "That's real and it's also the bit an evening of enforced drinking does badly.", "gap": -0.13 },
+    { "speaker": "Fay", "text": "If you don't drink, or you've got childcare at six, you're excluded from the thing that's supposed to include you." },
+    { "speaker": "Brendan", "text": "Which describes a fairly large share of any workforce." },
+    { "speaker": "Ola", "text": "So a lunch instead. Same mixing, inside working hours, nobody has to arrange anything." },
+    { "speaker": "Brendan", "text": "Less fun, though. I'd rather be honest that something is being traded." },
+    { "speaker": "Fay", "text": "Fun for the people the evening was already built around." },
+    { "speaker": "Ola", "text": "That's fair. Although a lunch that everyone attends resentfully isn't obviously better than an evening some people love." },
+    { "speaker": "Brendan", "text": "The voucher avoids the whole argument, which is presumably why they chose it." }
+  ],
+  "points": [
+    "An office party has been replaced with a forty-pound voucher per employee.",
+    "Ola argues parties build weak ties across departments that prove useful later.",
+    "Fay counters that evening drinking events exclude non-drinkers and those with caring responsibilities, who are a large share of any workforce.",
+    "A working-hours lunch is proposed as achieving the same mixing more inclusively.",
+    "Brendan acknowledges a trade-off in enjoyment; Fay notes the enjoyment favoured those the evening was designed around.",
+    "Ola concedes a resented lunch may not be better, and Brendan observes the voucher sidesteps the argument entirely."
+  ]
+}

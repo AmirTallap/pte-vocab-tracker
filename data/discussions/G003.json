@@ -1,0 +1,33 @@
+{
+  "id": "G003",
+  "title": "Are online degrees taken seriously?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Ravi", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Claire", "voice": "bf_isabella", "speed": 1.02 },
+    { "name": "Nina", "voice": "af_nicole", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Nina", "text": "I'm thinking about doing the master's online. Same university, same certificate, half the cost, and I don't have to leave my job." },
+    { "speaker": "Claire", "text": "Does the certificate actually say online on it?" },
+    { "speaker": "Nina", "text": "No. That's the point. It's identical." },
+    { "speaker": "Ravi", "text": "Then honestly, for hiring, I don't think anyone can tell and I don't think anyone asks. I've sat on panels. Nobody has ever said where the lectures were watched." },
+    { "speaker": "Claire", "text": "I'd push back a bit there. It's not the paper, it's what you come out with. Half of what I got from mine was three years of arguing with people in a corridor after the seminar." },
+    { "speaker": "Nina", "text": "There are discussion boards for that." },
+    { "speaker": "Claire", "text": "There are, and they're not the same and you know they're not the same.", "gap": 0.08 },
+    { "speaker": "Ravi", "text": "That's a real difference, I'll give you that. Although a lot of campus students skip the seminars anyway and just watch the recordings." },
+    { "speaker": "Claire", "text": "Which is its own problem, yes." },
+    { "speaker": "Nina", "text": "The honest answer for me is that the alternative isn't a campus degree. It's no degree, because I can't afford to stop earning for two years." },
+    { "speaker": "Ravi", "text": "Right, and that's the comparison that actually matters. Not online versus ideal. Online versus nothing." },
+    { "speaker": "Claire", "text": "Fine, that lands. I'd still make sure it's a real university with real supervisors, though, not a login and a video library." },
+    { "speaker": "Nina", "text": "That I'll check." }
+  ],
+  "points": [
+    "Nina is considering an online master's from the same university: identical certificate, about half the cost, and she keeps her job.",
+    "Ravi, who has sat on hiring panels, says employers cannot tell and do not ask whether a degree was taken online.",
+    "Claire argues the value is not the certificate but the experience, citing arguments with peers after seminars, which discussion boards do not replicate.",
+    "Ravi concedes the point but notes many campus students skip seminars and watch recordings anyway.",
+    "Nina reframes the comparison: her real alternative is no degree at all, because she cannot stop earning for two years.",
+    "Claire accepts that, but advises checking it is a genuine university with real supervision rather than only a video library."
+  ]
+}

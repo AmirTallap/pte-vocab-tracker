@@ -1,0 +1,73 @@
+{
+  "id": "people-and-their-work",
+  "title": "People and their work",
+  "summary": "The person who does the job, not the job itself.",
+  "questions": [
+    {
+      "id": "work-01",
+      "clue": "This person designs buildings and draws the plans that builders work from.",
+      "answer": "architect",
+      "note": "The ch is pronounced like a k. The person who does the actual construction is a builder or a contractor."
+    },
+    {
+      "id": "work-02",
+      "clue": "You call this person when a pipe bursts or a tap will not stop dripping.",
+      "answer": "plumber",
+      "note": "The b is silent. It comes from the Latin for lead, because water pipes were once made of it."
+    },
+    {
+      "id": "work-03",
+      "clue": "This scientist studies the atmosphere and forecasts what the weather will do.",
+      "answer": "meteorologist",
+      "accept": ["forecaster", "weatherman"],
+      "note": "Nothing to do with meteors. The word comes from a Greek term for things high in the air."
+    },
+    {
+      "id": "work-04",
+      "clue": "This person digs up and studies the physical remains of ancient human life.",
+      "answer": "archaeologist",
+      "accept": ["archeologist"],
+      "note": "Both spellings are correct, the shorter one being American. A palaeontologist studies fossils of animals rather than human remains."
+    },
+    {
+      "id": "work-05",
+      "clue": "This person turns written text from one language into another.",
+      "answer": "translator",
+      "note": "A translator works with writing and has time to think. Somebody converting speech as it happens is an interpreter, which is why that word is not accepted here."
+    },
+    {
+      "id": "work-06",
+      "clue": "This is the doctor who treats animals rather than people.",
+      "answer": "vet",
+      "accept": ["veterinarian", "veterinary surgeon"],
+      "note": "Vet is the everyday word and is accepted, along with the full forms used on a sign or a certificate."
+    },
+    {
+      "id": "work-07",
+      "clue": "This person makes and repairs things out of wood.",
+      "answer": "carpenter",
+      "accept": ["joiner"],
+      "note": "A joiner traditionally makes the finer fitted work such as doors and staircases, but the two words overlap in ordinary use."
+    },
+    {
+      "id": "work-08",
+      "clue": "This person gathers information and writes reports for newspapers or broadcasters.",
+      "answer": "journalist",
+      "accept": ["reporter", "correspondent"],
+      "note": "A reporter gathers the news, a correspondent usually covers one region or subject, and journalist covers both."
+    },
+    {
+      "id": "work-09",
+      "clue": "This person keeps and checks the financial records of a person or a company.",
+      "answer": "accountant",
+      "note": "An accountant prepares and interprets the accounts. A bookkeeper records the day to day transactions that an accountant then works from."
+    },
+    {
+      "id": "work-10",
+      "clue": "This person is learning a skilled trade by working alongside somebody who already has it.",
+      "answer": "apprentice",
+      "accept": ["trainee"],
+      "note": "An apprenticeship is a formal arrangement with an agreed length, which is what distinguishes it from simply being new."
+    }
+  ]
+}

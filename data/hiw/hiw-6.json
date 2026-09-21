@@ -1,0 +1,67 @@
+{
+  "id": "hiw-6",
+  "title": "Set 6",
+  "summary": "Floating ice, the first stethoscope, acid rain, the Great Fire, elasticity, marketing, self-consciousness, mindsets, touchscreens and the string quartet.",
+  "items": [
+    {
+      "id": "h6-01",
+      "title": "Why ice floats",
+      "text": "Today I want to explain one of the strangest properties of water. Almost every substance becomes {{denser|lighter}} when it freezes, but water does the opposite. As it cools towards zero degrees, its molecules lock into an open, {{hexagonal|triangular}} lattice held together by hydrogen bonds, and that lattice takes up more space than the liquid. So ice is roughly nine per cent less dense than water, and it floats. This matters {{enormously|greatly}} for life. Because lakes freeze from the top down, the ice acts as an insulating {{layer|shield}}, and the water beneath it can stay liquid all winter.",
+      "note": "Lighter sounds right on the page, because everyone knows ice floats, but the speaker says denser. Enormously and greatly mean the same thing, so only the extra syllables give it away."
+    },
+    {
+      "id": "h6-02",
+      "title": "The first stethoscope",
+      "text": "In eighteen sixteen, a French physician called René Laennec was examining a young woman with heart symptoms. Placing his ear directly on a patient's chest was considered {{improper|unhelpful}}, so he rolled a sheet of paper into a tube and listened through it. To his surprise, the heartbeat sounded {{clearer|louder}} than it ever had before. He went on to build a wooden cylinder, and he spent three years {{matching|comparing}} the sounds he heard with what he later found at autopsy. The modern instrument with two earpieces came decades later, but the {{principle|design}} was his.",
+      "note": "Clearer and louder are both things a tube might do to a heartbeat, so the ear has to catch the opening sound. Principle and design both fit the last sentence equally well."
+    },
+    {
+      "id": "h6-03",
+      "title": "Acid rain",
+      "text": "When coal is burned in power stations, it releases sulphur dioxide and nitrogen oxides into the air. These gases react with water in the atmosphere to form {{acids|salts}}, which then fall as rain, snow or even fog. In the nineteen seventies and eighties, scientists linked acid rain to dying forests in central Europe and to {{lakes|rivers}} in Scandinavia where fish could no longer survive. The response is a genuine success story. Governments required power stations to fit {{scrubbers|filters}}, and international agreements cut sulphur emissions {{dramatically|gradually}}. In much of Europe and North America, the problem has largely eased.",
+      "note": "Filters is a perfectly sensible thing to fit to a chimney, so scrubbers has to be heard. Dramatically and gradually share their ending; the first stressed syllable is where they part."
+    },
+    {
+      "id": "h6-04",
+      "title": "The Great Fire of London",
+      "text": "The Great Fire of London began in the early hours of the second of September, sixteen sixty-six, in a baker's shop on Pudding Lane. A strong {{easterly|westerly}} wind drove the flames across a city built largely of timber, and the fire burned for {{four|several}} days. It destroyed more than thirteen thousand houses and nearly ninety parish churches, including the old Saint Paul's Cathedral. Surprisingly, the recorded death toll was {{very|fairly}} small, though historians now suspect that many deaths went unrecorded. The rebuilding gave Christopher Wren the chance to {{design|restore}} fifty-one new churches.",
+      "note": "Easterly and westerly differ only in their first sound, and a reader has no way to know the wind direction. Very and fairly are both short, so listen closely in the middle of the talk."
+    },
+    {
+      "id": "h6-05",
+      "title": "Price elasticity",
+      "text": "Today I want to introduce price elasticity of demand. It measures how {{strongly|quickly}} the quantity people buy responds to a change in price. If the price of one particular brand of cereal rises, many shoppers simply switch to another brand, so demand is {{elastic|stable}}. But think about petrol, or medicine. People need these goods and there are few {{substitutes|suppliers}}, so even a large price rise barely changes how much they buy. We call that inelastic demand. This is why governments often tax goods like tobacco: the revenue is {{reliable|limited}}, because consumption falls only a little.",
+      "note": "Substitutes and suppliers begin with the same sound and both explain why people keep buying, so the rest of the word must be heard. Strongly and quickly are both natural after measures how."
+    },
+    {
+      "id": "h6-06",
+      "title": "The four Ps of marketing",
+      "text": "In nineteen sixty, the American marketing professor Jerome McCarthy proposed a simple framework that is still {{taught|used}} in business schools today: the four Ps. They are product, price, place and promotion. Product is what you are actually selling, and price is what customers are {{willing|able}} to pay. Place means distribution, how the product reaches the buyer, and promotion covers advertising and other forms of {{communication|persuasion}}. Critics argue that the model looks at the market from the seller's side rather than the customer's, and later writers {{expanded|replaced}} it with extra Ps for services.",
+      "note": "Taught and used are both one syllable and both fit, so it is the easiest to let slip. Willing and able is a stock phrase, which makes either half sound right on the page."
+    },
+    {
+      "id": "h6-07",
+      "title": "The spotlight effect",
+      "text": "Have you ever worn something embarrassing and felt that everyone was staring at you? Psychologists call this the spotlight effect. In a well-known study, students were asked to walk into a room full of {{peers|strangers}} while wearing a T-shirt with a picture of the singer Barry Manilow. Afterwards, they estimated that about {{half|most}} of the observers had noticed the shirt. In reality, only around a {{quarter|third}} had. The lesson is that we {{overestimate|underestimate}} how much attention others pay to us, because we are so {{absorbed|interested}} in our own experience.",
+      "note": "Overestimate and underestimate differ only in their first syllable, and a reader who skims will not notice the logic has flipped. Quarter and third are both plausible fractions, so the number has to be heard."
+    },
+    {
+      "id": "h6-08",
+      "title": "Growth mindset",
+      "text": "The psychologist Carol Dweck has argued that students hold one of two broad beliefs about ability. Those with a fixed mindset see intelligence as something you either have or you don't, so a {{failure|mistake}} feels like proof of a limit. Those with a growth mindset see ability as something that {{develops|improves}} with effort and good strategies. In her studies, praising children for their effort rather than their intelligence made them more {{willing|likely}} to attempt harder problems. I should add that large {{replications|evaluations}} have found the classroom effects to be smaller than early reports suggested.",
+      "note": "Develops and improves are near-synonyms and both follow naturally, so this one depends entirely on the ear. Replications and evaluations share a rhythm and an ending."
+    },
+    {
+      "id": "h6-09",
+      "title": "How touchscreens work",
+      "text": "Most of the touchscreens we use today are capacitive. The screen is covered with a {{transparent|protective}} grid of conducting material that holds a small electrical charge. Your finger also conducts electricity, so when it touches the glass, it {{disturbs|absorbs}} the field at that point, and the device calculates the position from the change. This is why an ordinary glove does not work: the fabric {{insulates|separates}} your skin from the screen. Older resistive screens worked by pressure instead, which made them {{cheaper|slower}} but less responsive to light touches and unable to register several fingers at once.",
+      "note": "Transparent and protective both describe a screen coating and both have three syllables, so it is easy to accept the one on the page. Cheaper and slower are both believable drawbacks of old technology."
+    },
+    {
+      "id": "h6-10",
+      "title": "The string quartet",
+      "text": "The string quartet is made up of two violins, a viola and a cello. It was Joseph Haydn, in the second half of the eighteenth century, who did most to {{establish|popularise}} the form, and the writer Goethe later described a quartet as four rational people {{conversing|arguing}} among themselves. What makes the quartet so {{demanding|rewarding}} is that there is no conductor and nowhere to hide: each player carries an {{equal|separate}} line. Beethoven's late quartets, written when he was completely {{deaf|unwell}}, are still regarded as some of the most profound music ever composed.",
+      "note": "Demanding and rewarding end the same way and both suit chamber music, so listen for the start of the word. Equal and separate both describe four parts, and it comes quickly after the colon."
+    }
+  ]
+}

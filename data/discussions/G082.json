@@ -1,0 +1,33 @@
+{
+  "id": "G082",
+  "title": "Is there any point to public broadcasting now?",
+  "field": "Media and policy",
+  "speakers": [
+    { "name": "Fergal", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Hana", "voice": "af_sarah", "speed": 1.03 },
+    { "name": "Zeke", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Zeke", "text": "The licence fee is frozen again, which is a cut, and the argument is that nobody under thirty watches it anyway." },
+    { "speaker": "Hana", "text": "Watches the channel, maybe. They use the apps and the news site constantly without noticing whose they are." },
+    { "speaker": "Fergal", "text": "Which is a real measurement problem. The brand is invisible when the content arrives through somewhere else." },
+    { "speaker": "Zeke", "text": "So how do you justify a compulsory payment for something people don't know they're using?" },
+    { "speaker": "Hana", "text": "The market failure case is the strongest one. Nobody funds local reporting commercially any more, because it never paid for itself." },
+    { "speaker": "Fergal", "text": "Council meetings, courts, planning committees. There are places with no reporter in the room at all now.", "gap": -0.13 },
+    { "speaker": "Fergal", "text": "And you find out what that costs about four years later." },
+    { "speaker": "Zeke", "text": "The flat fee is regressive though, and it's enforced with criminal penalties in some places, which is extraordinary for a television." },
+    { "speaker": "Hana", "text": "That's the part I'd change rather than the institution. Fund it from general taxation." },
+    { "speaker": "Fergal", "text": "Which makes it dependent on a minister's goodwill every year." },
+    { "speaker": "Hana", "text": "Unless the settlement is fixed for a long period by statute, which is how the better systems do it." },
+    { "speaker": "Zeke", "text": "The impartiality obligation is the other thing worth keeping. Everything else in the market is funded by attention." },
+    { "speaker": "Fergal", "text": "And attention rewards heat rather than accuracy, reliably." }
+  ],
+  "points": [
+    "A frozen licence fee amounts to a cut, justified by low viewing among under-thirties.",
+    "Hana argues younger audiences use the apps and news site without recognising the provider, creating a measurement problem.",
+    "The strongest justification is market failure, particularly in local reporting of councils, courts and planning, which never paid commercially.",
+    "Zeke objects that a flat fee is regressive and criminally enforced in some jurisdictions.",
+    "Hana would fund it from general taxation with a long statutory settlement to avoid annual political dependence.",
+    "They value the impartiality obligation, since attention-funded media rewards heat over accuracy."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G056",
+  "title": "Phones banned in schools",
+  "field": "Education and technology",
+  "speakers": [
+    { "name": "Rhodri", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Keisha", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Ollie", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Keisha", "text": "Phones go in a pouch at the gate from September. Locked, handed back at three." },
+    { "speaker": "Ollie", "text": "Parents will hate it more than the students, I'd guess." },
+    { "speaker": "Rhodri", "text": "They do, consistently. The objection is always contacting their child in an emergency." },
+    { "speaker": "Keisha", "text": "Which is understandable and also the thing schools handled for a century with an office telephone." },
+    { "speaker": "Ollie", "text": "What does it actually change, though? I'd want to see something better than teachers saying it feels calmer." },
+    { "speaker": "Rhodri", "text": "The attainment evidence is mixed and modest. Where it's clearest is for lower-attaining students, who gain most.", "gap": 0.1 },
+    { "speaker": "Keisha", "text": "That pattern turns up everywhere in education research." },
+    { "speaker": "Ollie", "text": "So the average effect being small hides a real effect on the people who need it." },
+    { "speaker": "Rhodri", "text": "The bigger change reported isn't lessons at all. It's break time. The corridors get loud again." },
+    { "speaker": "Keisha", "text": "That's the part I find most convincing, honestly. Not the maths results, the fact that they talk to each other." },
+    { "speaker": "Ollie", "text": "The counter-argument is that it's a life skill. They'll have phones at eighteen with nobody confiscating anything." },
+    { "speaker": "Rhodri", "text": "True, but you teach swimming in a pool, not by pushing someone into a river." },
+    { "speaker": "Keisha", "text": "I'd want an explicit lesson on it rather than pretending the ban teaches it by itself." }
+  ],
+  "points": [
+    "A school will lock phones in pouches during the day from September.",
+    "Parental objections centre on emergency contact, which Keisha notes was handled historically by the school office.",
+    "Attainment evidence is mixed and modest overall, with the clearest gains among lower-attaining students.",
+    "Ollie observes a small average effect can conceal a meaningful effect for those who need it most.",
+    "The most reported change is social rather than academic, with break times becoming noisier and more interactive.",
+    "Ollie raises the life-skill objection; Rhodri answers that skills are taught in controlled settings, and Keisha wants explicit teaching rather than relying on the ban."
+  ]
+}

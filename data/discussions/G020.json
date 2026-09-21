@@ -1,0 +1,32 @@
+{
+  "id": "G020",
+  "title": "Going cashless, and who gets left out",
+  "field": "Money and society",
+  "speakers": [
+    { "name": "Beth", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Tomas", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Zara", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Tomas", "text": "Three places on my street now refuse cash outright. Not prefer card. Refuse." },
+    { "speaker": "Zara", "text": "It's cheaper for them. Counting it, banking it, the risk of holding it, all of that goes away." },
+    { "speaker": "Beth", "text": "And the people it shuts out are exactly who you'd expect. The very old, people without an address, anyone whose bank closed their account." },
+    { "speaker": "Tomas", "text": "How many is that, realistically? Because it feels like a shrinking problem." },
+    { "speaker": "Beth", "text": "Around one adult in fifty relies on cash for most of what they buy. It is shrinking. It isn't nothing." },
+    { "speaker": "Zara", "text": "The bit that worries me more is resilience. When the card network went down last winter, the cash shops kept trading and the others shut." },
+    { "speaker": "Tomas", "text": "That's a good point and it's not the one people usually make." },
+    { "speaker": "Beth", "text": "There's a budgeting argument too. Physical money is visibly finite in a way a contactless card isn't, and the people who most need that are the ones being pushed off it.", "gap": -0.13 },
+    { "speaker": "Zara", "text": "Which is measurable, I think. People do spend more on card for the same basket." },
+    { "speaker": "Tomas", "text": "So what's the actual ask? You can't force a coffee shop to take coins." },
+    { "speaker": "Beth", "text": "Sweden decided you can, roughly. Essential services have to accept it. Not every shop, but the pharmacy and the bus." },
+    { "speaker": "Zara", "text": "That seems proportionate. It's the difference between inconvenience and exclusion." }
+  ],
+  "points": [
+    "Several local businesses now refuse cash entirely, because handling it costs them money.",
+    "Beth notes the excluded groups: the very old, people without an address, and those refused bank accounts, about one adult in fifty.",
+    "Zara raises resilience, since cash-accepting shops kept trading during a card network outage.",
+    "Beth adds a budgeting argument, that physical money is visibly finite in a way contactless payment is not, and people spend more on card for the same basket.",
+    "Tomas questions what can be required of a private business.",
+    "They settle on the Swedish approach of obliging essential services such as pharmacies and buses to accept cash, distinguishing inconvenience from exclusion."
+  ]
+}

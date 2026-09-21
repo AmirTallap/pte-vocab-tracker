@@ -1,0 +1,33 @@
+{
+  "id": "G071",
+  "title": "Should we still teach handwriting?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Fern", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Bram", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Naomi", "voice": "bf_emma", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Bram", "text": "Cursive is coming off the curriculum. Printing stays, joined-up writing goes." },
+    { "speaker": "Naomi", "text": "Which will upset a generation who were made to practise loops for years." },
+    { "speaker": "Fern", "text": "The defence people reach for is the note-taking research. Students writing by hand recall more than students typing." },
+    { "speaker": "Bram", "text": "That one's been complicated lately, hasn't it." },
+    { "speaker": "Fern", "text": "Considerably. The original effect was small and some replications didn't find it, and the mechanism was never really about the hand." },
+    { "speaker": "Naomi", "text": "It was about speed. You can't type-and-transcribe if you're slower, so you're forced to summarise." },
+    { "speaker": "Fern", "text": "Which means a typist told to summarise gets most of the same benefit.", "gap": -0.12 },
+    { "speaker": "Bram", "text": "So the argument is for a note-taking lesson rather than for cursive." },
+    { "speaker": "Naomi", "text": "The motor skill argument is separate and stronger for young children. Forming letters by hand does help letter recognition." },
+    { "speaker": "Fern", "text": "That's printing, though, and nobody's proposing to drop that." },
+    { "speaker": "Bram", "text": "What is cursive actually for now? Honest question. I sign things and that's it." },
+    { "speaker": "Naomi", "text": "Speed, historically. It was faster than lifting the pen, in a world where writing by hand was the only option." },
+    { "speaker": "Fern", "text": "Which is a solved problem that we kept teaching the solution to for fifty years." }
+  ],
+  "points": [
+    "Cursive is being removed from the curriculum while printing is retained.",
+    "The note-taking research, showing handwriting aids recall, has weakened under replication and had small effects.",
+    "Naomi explains the mechanism was writing speed forcing summarisation rather than handwriting itself.",
+    "Fern concludes typists instructed to summarise gain most of the same benefit, so the case supports teaching note-taking.",
+    "The motor skill argument for young children supports printing, which is not being removed.",
+    "They conclude cursive existed for speed in a handwriting-only world, a problem since solved."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G073",
+  "title": "Universal basic income, after the trials",
+  "field": "Economics and policy",
+  "speakers": [
+    { "name": "Bruno", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Aiko", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Ella", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Aiko", "text": "The Finnish results came out years ago and people still quote them as though they proved whichever thing they wanted." },
+    { "speaker": "Bruno", "text": "What did they actually find?" },
+    { "speaker": "Aiko", "text": "Employment effects were roughly neutral, very slightly positive. Wellbeing improved noticeably. Both sides declared victory." },
+    { "speaker": "Ella", "text": "The trials all share a problem, though, which is that a two-year payment to two thousand people is not a basic income." },
+    { "speaker": "Bruno", "text": "Because you'd behave differently if it were permanent and universal." },
+    { "speaker": "Ella", "text": "Completely differently. You don't leave a job for a payment that ends in eighteen months, and nobody's employer knows either.", "gap": -0.12 },
+    { "speaker": "Ella", "text": "The whole-economy effects are exactly what a pilot cannot measure." },
+    { "speaker": "Aiko", "text": "The cost is the part that ends most conversations. Paying everyone a liveable amount is a very large share of national income." },
+    { "speaker": "Bruno", "text": "Though you'd claw it back through tax from anyone who doesn't need it." },
+    { "speaker": "Aiko", "text": "Which makes it a negative income tax with extra steps, and that's the version most economists actually prefer." },
+    { "speaker": "Ella", "text": "The strongest argument for me isn't the money, it's the administration. Means testing is expensive, humiliating and misses people." },
+    { "speaker": "Bruno", "text": "And the errors fall on the people least able to appeal." },
+    { "speaker": "Ella", "text": "Which is the case for unconditionality, whatever you call the scheme." }
+  ],
+  "points": [
+    "Finnish trial results showed roughly neutral employment effects and clear wellbeing improvements, which both sides claimed as vindication.",
+    "Ella argues time-limited trials on small groups cannot test a permanent universal scheme, since behaviour and employer responses would differ.",
+    "Whole-economy effects cannot be captured by a pilot.",
+    "Cost is the central objection, though clawback through taxation makes the scheme close to a negative income tax, which many economists prefer.",
+    "Ella's strongest argument concerns administration: means testing is costly, humiliating and misses eligible people.",
+    "Errors fall hardest on those least able to appeal, which is the case for unconditionality."
+  ]
+}

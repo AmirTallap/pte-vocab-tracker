@@ -1,0 +1,27 @@
+{
+  "id": "long",
+  "title": "Long",
+  "summary": "Thirteen to eighteen words. Past what most people can hold on one hearing.",
+  "sentences": [
+    { "id": "lg-01", "text": "The committee concluded that the existing evidence was too weak to support any firm recommendation." },
+    { "id": "lg-02", "text": "Students are expected to read the assigned chapter before attending the seminar on Thursday morning." },
+    { "id": "lg-03", "text": "Although the results were promising, the researchers were careful not to overstate what they meant." },
+    { "id": "lg-04", "text": "The building was originally designed as a hospital and was converted into a library much later." },
+    { "id": "lg-05", "text": "Anyone wishing to change their module choices must do so before the end of this week." },
+    { "id": "lg-06", "text": "The lecturer explained that the theory had been abandoned long before the new data appeared." },
+    { "id": "lg-07", "text": "It is difficult to separate the effects of the treatment from those of the environment." },
+    { "id": "lg-08", "text": "The department is reviewing how coursework is assessed after complaints from several external examiners." },
+    { "id": "lg-09", "text": "Most of the increase can be explained by changes in how the figures are collected." },
+    { "id": "lg-10", "text": "Participants were asked to keep a written record of everything they ate for two weeks." },
+    { "id": "lg-11", "text": "The author argues that the industrial revolution began far earlier than is usually assumed." },
+    { "id": "lg-12", "text": "Your dissertation proposal should identify a question that can actually be answered in the time available." },
+    { "id": "lg-13", "text": "The experiment was repeated three times, and on each occasion the outcome was slightly different." },
+    { "id": "lg-14", "text": "Funding decisions are made by a panel that includes members from outside the university." },
+    { "id": "lg-15", "text": "The evidence suggests that early intervention produces better outcomes than treatment later in life." },
+    { "id": "lg-16", "text": "Students often underestimate how long it takes to gather the material for a literature review." },
+    { "id": "lg-17", "text": "The two studies reached opposite conclusions despite using almost identical methods and sample sizes." },
+    { "id": "lg-18", "text": "Nothing in the paper explains why the second group behaved so differently from the first." },
+    { "id": "lg-19", "text": "The archive holds several thousand letters, most of which have never been properly catalogued." },
+    { "id": "lg-20", "text": "A conclusion that restates the introduction without adding anything will not earn you any marks." }
+  ]
+}

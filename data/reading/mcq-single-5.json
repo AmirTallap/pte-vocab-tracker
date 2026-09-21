@@ -1,0 +1,154 @@
+{
+  "id": "mcq-single-5",
+  "task": "mcq-single",
+  "title": "Set 5",
+  "summary": "Ten more passages, one answer each: the trade winds to the commedia dell'arte.",
+  "items": [
+    {
+      "id": "ms5-01",
+      "title": "The trade winds",
+      "passage": "Sailors in the age of sail relied on the trade winds, steady winds that blow towards the equator from the north-east in the Northern Hemisphere and from the south-east in the Southern. Their regularity made them the highways of ocean commerce, and the reason for them lies in the uneven heating of the Earth.\nThe Sun heats the equatorial regions most strongly. Warm, moist air there rises, cools as it climbs, and releases much of its moisture as heavy rain, which is one reason the tropics near the equator include some of the wettest places on Earth. At high altitude the air spreads out towards the poles, then sinks again at around thirty degrees of latitude. Having lost its moisture, the sinking air is dry, and it warms as it descends, which helps to explain why many of the world's great hot deserts, such as the Sahara, lie near these latitudes. Near the surface, the air then flows back towards the equator to replace the air that is rising, completing a loop known as a Hadley cell, after the eighteenth-century English scientist George Hadley.\nThe winds do not blow directly towards the equator, however, because of the Earth's rotation. Its effect, known as the Coriolis effect, deflects moving air to the right in the Northern Hemisphere and to the left in the Southern, turning what would be northerly and southerly winds into the north-easterly and south-easterly trades.",
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "The trade winds blow from west to east in both hemispheres.",
+        "Without the Earth's rotation, there would be no winds near the surface at all.",
+        "The Sahara is dry mainly because it is far from the sea.",
+        "Air near the equator sinks because it has been cooled by rain.",
+        "If the Earth did not rotate, the surface winds of the Hadley cell would blow more directly towards the equator."
+      ],
+      "answer": [4],
+      "note": "The passage says the winds 'do not blow directly towards the equator' because of the Earth's rotation, which turns 'what would be northerly and southerly winds' into the trades; without rotation they would be closer to plain northerlies and southerlies. The surface flow itself comes from the heating, so it would not disappear. The trades blow from the north-east and south-east, the Sahara's dryness is linked to sinking dry air, and equatorial air rises rather than sinks."
+    },
+    {
+      "id": "ms5-02",
+      "title": "The gut microbiome",
+      "passage": "The human digestive tract is home to trillions of microorganisms, most of them bacteria living in the large intestine. Together with their genes, they are known as the gut microbiome. For a long time these organisms attracted attention mainly as potential causes of infection, but research over the past two decades has shown that many of them perform functions the body depends on.\nGut bacteria break down certain components of plant foods, such as some kinds of fibre, that human enzymes cannot digest, producing short-chain fatty acids that nourish the cells lining the colon. Some bacteria produce vitamins, including vitamin K. A settled community of microbes also makes it harder for harmful species to establish themselves, and the microbiome appears to play a part in training the immune system in early life.\nResearchers have found associations between the composition of the microbiome and a range of conditions, including inflammatory bowel disease, obesity and type 2 diabetes. Associations of this kind are easy to overstate, however. In many cases it is not yet clear whether differences in the microbiome help to cause a disease, result from it, or simply reflect other factors such as diet and medication. Some findings in mice have not been reproduced in humans, and the effects of commercial probiotic products are, for many uses, unproven. The field is promising, but many of its most striking claims remain to be established.",
+      "question": "Which of the following best expresses the main idea of the passage?",
+      "options": [
+        "Gut bacteria are the main cause of obesity and type 2 diabetes.",
+        "Commercial probiotic products have been proved to improve health in most people.",
+        "The gut microbiome performs important functions, but many claims about its role in disease have not yet been established.",
+        "Most bacteria in the digestive tract are harmful and should be removed."
+      ],
+      "answer": [2],
+      "note": "The passage first lists functions 'the body depends on' and then warns that associations with disease 'are easy to overstate', ending that many striking claims 'remain to be established'. It says only that associations with obesity and diabetes exist and that cause and effect are unclear, so the first option overstates it. Probiotics are called 'unproven' for many uses, and the passage stresses the useful work of gut bacteria."
+    },
+    {
+      "id": "ms5-03",
+      "title": "Rewilding",
+      "passage": "Rewilding has become one of the most discussed ideas in conservation. In broad terms, it means restoring natural processes and allowing ecosystems to run themselves to a greater extent, rather than managing them intensively for particular species or landscapes. Projects range from reintroducing missing animals, such as large herbivores or predators, to removing drainage, allowing rivers to meander, and letting farmland revert to scrub and woodland.\nThe appeal is understandable. Much traditional conservation has involved costly, continuous intervention to hold habitats in a fixed state, often one created by past farming. Rewilding offers the prospect of landscapes that are more self-sustaining, richer in wildlife and better able to adapt to a changing climate.\nYet the term is used so loosely that it can conceal real disagreements. There is rarely a clear baseline to return to, since landscapes have been shaped by people for thousands of years, and the choice of which point in the past to aim for is a matter of judgement, not science alone. Projects in the countryside also affect people who live and work there, and schemes imposed without consultation have provoked understandable resentment among farmers and rural communities. None of this is an argument against rewilding. It is an argument for being clear about what a given project is trying to achieve, and for involving the people whose livelihoods it will change.",
+      "question": "Which of the following best describes the author's attitude towards rewilding?",
+      "options": [
+        "Hostile, because the author regards it as unscientific.",
+        "Broadly supportive, but concerned that vague aims and a lack of consultation can cause problems.",
+        "Uncritically enthusiastic, seeing it as the answer to every conservation problem.",
+        "Indifferent, since the author expresses no view about it.",
+        "Opposed, because the author believes it ignores the needs of wildlife."
+      ],
+      "answer": [1],
+      "note": "The author calls its appeal 'understandable' and says plainly that 'None of this is an argument against rewilding', while criticising loose use of the term and schemes 'imposed without consultation'. That is support with reservations, not hostility or opposition. The reservations themselves rule out 'uncritically enthusiastic', and the author clearly does express a view."
+    },
+    {
+      "id": "ms5-04",
+      "title": "The Grand Canal of China",
+      "passage": "The Grand Canal of China is the longest artificial waterway in the world. In its best-known form it runs for well over a thousand miles from Beijing in the north to Hangzhou in the south, linking the Yellow and Yangtze river systems, which, like most of China's great rivers, flow broadly from west to east.\nSections of canal had been dug in earlier centuries, but the first great unified system was created under the Sui dynasty in the early seventh century, when existing waterways were connected and extended at enormous human cost. Its purpose was above all to move grain. The fertile lands of the Yangtze valley produced large surpluses of rice, while the political and military centres of the empire lay in the north. The canal allowed tax grain to be shipped northwards to feed the capital and the armies on the frontier.\nLater dynasties rebuilt and realigned it, most notably when the Yuan dynasty moved the capital to what is now Beijing and a more direct northern route was cut. Engineers faced the problem of carrying the canal over rising ground, and in 984 an official is recorded as having introduced a pound lock, with a gate at each end, an early form of the lock still used on canals today. The canal remained a vital artery for centuries, until coastal shipping and railways reduced its importance, and in 2014 it was added to UNESCO's World Heritage List.",
+      "question": "According to the passage, what was the main purpose of the canal system created under the Sui dynasty?",
+      "options": [
+        "To carry grain from the productive south to the political and military centres of the north.",
+        "To connect Beijing with the sea for foreign trade.",
+        "To replace the Yellow and Yangtze rivers as routes from west to east.",
+        "To allow the Yuan dynasty to move its capital."
+      ],
+      "answer": [0],
+      "note": "The passage says 'Its purpose was above all to move grain', shipping the Yangtze valley's surplus northwards 'to feed the capital and the armies on the frontier'. The canal links the two rivers, which run west to east, by running north to south, so it did not replace them. The Yuan dynasty came centuries later and realigned an existing canal, and foreign trade is never mentioned."
+    },
+    {
+      "id": "ms5-05",
+      "title": "Anchoring",
+      "passage": "When people estimate a quantity they are unsure of, they are often influenced by a number they encountered just beforehand, even when that number is plainly irrelevant. Psychologists call this anchoring. In a well-known experiment reported by Amos Tversky and Daniel Kahneman in 1974, participants watched a wheel of fortune that had been fixed to stop at either 10 or 65, and were then asked to estimate the percentage of African countries in the United Nations. Those who had seen the higher number gave noticeably higher estimates.\nRetailers and marketers make extensive use of the effect. A product displayed with a high 'original' price crossed out next to a lower sale price seems more of a bargain than the same item shown at the sale price alone. A restaurant may place a very expensive dish at the top of its menu, not necessarily expecting to sell many, but because it makes the other dishes appear moderately priced by comparison. In negotiations, the first figure proposed tends to pull the final agreement towards it, which is why negotiators are often advised to consider making the opening offer.\nKnowing about anchoring does not make a person immune to it; experiments have found the effect even among experts making judgements within their own field. One of the more reliable defences is to consider actively why the anchor might be wrong, and to generate reasons for a very different figure before settling on an estimate.",
+      "question": "In the passage, the phrase 'pull the final agreement towards it' means that the first figure proposed",
+      "options": [
+        "causes the negotiation to end sooner than expected",
+        "is usually accepted without any change",
+        "is normally rejected by the other side",
+        "tends to draw the final price closer to itself than it would otherwise have been",
+        "makes the other side withdraw from the negotiation"
+      ],
+      "answer": [3],
+      "note": "In a passage about anchoring, the first figure acts as an anchor: it does not settle the price, but the final agreement ends up nearer to it. That is why negotiators are advised to consider making the opening offer. Being pulled 'towards' a figure is not the same as reaching it, so 'accepted without any change' goes too far, and nothing is said about speed or withdrawal."
+    },
+    {
+      "id": "ms5-06",
+      "title": "Bouba and kiki",
+      "passage": "For much of the twentieth century, linguists treated the link between the sound of a word and its meaning as essentially arbitrary. There is nothing about the sounds of the English word 'tree', the French 'arbre' or the German 'Baum' that resembles a tree, and this arbitrariness, stressed by the Swiss linguist Ferdinand de Saussure, was regarded as a basic property of language.\nA simple demonstration suggests that the picture is incomplete. Shown two shapes, one with rounded curves and one with sharp, jagged points, and asked which is called 'bouba' and which 'kiki', a large majority of people choose 'bouba' for the rounded shape and 'kiki' for the spiky one. The effect was first reported by the psychologist Wolfgang Köhler in the 1920s, using other invented words, and it has since been found among speakers of many different languages and writing systems, though not with equal strength in all of them.\nSuch findings are grouped under the term sound symbolism. Other examples include a tendency, in a number of languages, for words denoting smallness to contain the vowel sound heard in 'teeny', and the obvious case of words that imitate sounds, such as 'buzz' or 'crash'. None of this overturns Saussure's principle; the vast majority of words remain arbitrary. What it shows is that arbitrariness is a strong tendency rather than an absolute rule, and that some associations between sound and meaning may be shared widely across human languages.",
+      "question": "Why does the author describe the 'bouba' and 'kiki' experiment?",
+      "options": [
+        "To prove that the meaning of every word can be predicted from its sounds.",
+        "To show that Saussure was wrong to say that most words are arbitrary.",
+        "To argue that English, French and German share a common origin.",
+        "To explain how young children learn the names of shapes.",
+        "To provide evidence that the connection between sound and meaning is not always arbitrary."
+      ],
+      "answer": [4],
+      "note": "The experiment is introduced as a demonstration that 'the picture is incomplete', and the passage concludes that arbitrariness is 'a strong tendency rather than an absolute rule'. The author says directly that 'None of this overturns Saussure's principle' and that 'the vast majority of words remain arbitrary', which rules out both the first and second options. The three words for 'tree' illustrate arbitrariness, not a shared origin, and children are not mentioned."
+    },
+    {
+      "id": "ms5-07",
+      "title": "The Socratic method",
+      "passage": "The Socratic method takes its name from the Athenian philosopher Socrates, who, as he is portrayed in the dialogues of his pupil Plato, taught not by lecturing but by asking questions. A typical dialogue begins with someone confidently offering a definition of a virtue such as courage or justice. Socrates then asks a series of questions that lead the speaker to admit consequences inconsistent with the original definition, which must therefore be revised or abandoned. Many dialogues end without any agreed answer, the participants having discovered only that they understood less than they had believed.\nThis outcome was the point. Socrates is presented as holding that recognising one's own ignorance is the beginning of wisdom, and his questioning was intended to expose unexamined assumptions rather than to transmit a set of conclusions.\nVersions of the method are used in education today. In law schools, particularly in the United States, instructors have long questioned students about cases to test the reasoning behind a legal rule. Teachers of younger pupils use open questions to encourage them to justify their views and consider objections. Critics note that the method can intimidate students when it is used as a public test rather than a shared inquiry, and that it is less suited to teaching basic facts than to examining ideas. Used well, however, it treats students as capable of reasoning for themselves rather than as containers to be filled.",
+      "question": "Which of the following is the most suitable title for the passage?",
+      "options": [
+        "The Trial and Death of Socrates",
+        "Teaching by Questioning: The Socratic Method Then and Now",
+        "Why Law Schools Should Abandon the Socratic Method",
+        "Plato's Theory of Justice"
+      ],
+      "answer": [1],
+      "note": "The passage explains how Socrates taught through questions in Plato's dialogues and then how versions of the method are used in education today, which the correct title captures. Law schools are one example of its current use, and the author's closing sentence defends the method, so the third title reverses the passage. Socrates' trial is never mentioned, and justice appears only as an example of a virtue under discussion."
+    },
+    {
+      "id": "ms5-08",
+      "title": "Gerrymandering",
+      "passage": "In electoral systems where representatives are elected from single-member districts, the drawing of district boundaries can influence results as much as the votes themselves. The deliberate manipulation of those boundaries for political advantage is known as gerrymandering. The word comes from Elbridge Gerry, governor of Massachusetts, who in 1812 signed a bill creating a state senate district so contorted that a newspaper cartoon likened it to a salamander.\nTwo techniques are commonly described. In 'packing', the supporters of a rival party are concentrated into a small number of districts, which that party wins by overwhelming margins, wasting many of its votes. In 'cracking', they are spread thinly across many districts, so that they fall short of a majority in each. Used together, these methods can allow a party with a minority of the total vote to win a majority of the seats.\nResponses vary between countries. In the United Kingdom, Canada and Australia, boundaries are drawn by independent commissions that are required to follow criteria such as roughly equal populations and respect for local communities. In the United States, district lines for Congress have traditionally been drawn by state legislatures, although a number of states have transferred the task to independent or bipartisan commissions. The use of computer mapping and detailed voter data has made partisan boundary-drawing more precise, which has increased pressure for such reforms.",
+      "question": "According to the passage, what is 'packing'?",
+      "options": [
+        "Spreading a rival party's supporters thinly across many districts.",
+        "Drawing districts so that each has a roughly equal population.",
+        "Transferring the drawing of boundaries to an independent commission.",
+        "Concentrating a rival party's supporters in a few districts, which it then wins by large margins.",
+        "Drawing a district in an unusual shape that resembles an animal."
+      ],
+      "answer": [3],
+      "note": "The passage defines packing as concentrating a rival party's supporters 'into a small number of districts, which that party wins by overwhelming margins, wasting many of its votes'. Spreading supporters thinly is the other technique, 'cracking'. Equal populations and independent commissions are safeguards against gerrymandering, and the salamander shape explains the origin of the word, not packing."
+    },
+    {
+      "id": "ms5-09",
+      "title": "The informal economy",
+      "passage": "In many low- and middle-income countries, a large share of workers earn their living in what economists and sociologists call the informal economy: street vendors, domestic workers, day labourers, small workshops and market traders whose activities are not registered, taxed or regulated by the state. The International Labour Organization estimates that around two billion people, a majority of the world's employed population, work informally.\nThe informal economy was once widely expected to disappear as countries industrialised and formal jobs expanded. In many places it has not done so, and views of it have shifted. Some researchers see it as a source of resilience, providing livelihoods that formal employers do not, and as a sign of the enterprise of people excluded from other opportunities. Others emphasise its costs to the workers themselves: informal workers typically have no written contract, no protection against dismissal, no sick pay and no pension, and they are often exposed to harassment by officials.\nGovernments face a genuine dilemma. Bringing informal businesses into the formal system could extend legal protection to their workers and widen the tax base. Yet registration can be costly and slow, and for a very small business the taxes and regulations that come with formality may outweigh any benefit. Heavy-handed attempts to clear street traders from city centres, for example, have often destroyed livelihoods without creating alternatives. Many policy experts now favour making formal status easier and more attractive rather than simply penalising informality.",
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "For some small businesses, remaining informal may be a rational choice.",
+        "The informal economy has disappeared in most industrialised countries.",
+        "Informal workers usually enjoy the same legal protections as formal workers.",
+        "Clearing street traders from city centres has generally created new formal jobs."
+      ],
+      "answer": [0],
+      "note": "The passage says that 'for a very small business the taxes and regulations that come with formality may outweigh any benefit', so staying informal can make sense for such a business. It says only that the informal economy was once expected to disappear and 'in many places it has not', and says nothing about most industrialised countries. Informal workers typically lack contracts and protection, and clearances 'destroyed livelihoods without creating alternatives'."
+    },
+    {
+      "id": "ms5-10",
+      "title": "The commedia dell'arte",
+      "passage": "The commedia dell'arte was a form of popular theatre that flourished in Italy from the mid-sixteenth century and spread across Europe over the following two hundred years. Its companies of professional actors, among the first in Europe to include women on stage, travelled from town to town and performed in public squares as well as at court.\nUnlike most drama of the time, the commedia did not rely on a fully written script. A company worked from a scenario, a brief outline of the plot posted backstage, and the actors improvised the dialogue within it. This was less spontaneous than it might sound. Each performer usually specialised in one stock character for much of a career, and built up a repertoire of speeches, jokes and pieces of comic business, known as lazzi, that could be inserted wherever the action allowed.\nThe characters were instantly recognisable, partly because many wore distinctive leather half-masks. They included the pair of young lovers, who were unmasked; Pantalone, the elderly and miserly Venetian merchant; the pompous Doctor; and the servants, or zanni, among them the quick-witted but perpetually hungry Arlecchino. Audiences did not come to find out what would happen, since the plots followed familiar patterns, but to see how well the actors would play them.\nThe tradition's influence was considerable. Molière learnt from Italian players in Paris, and figures descended from its characters survive in the English Harlequin and in the puppet Punch.",
+      "question": "In the passage, the sentence 'This was less spontaneous than it might sound' suggests that",
+      "options": [
+        "the actors did not in fact improvise any of the dialogue",
+        "audiences were not aware that the actors were improvising",
+        "much of the apparent improvisation drew on material the actors had prepared and practised over time",
+        "the scenarios were long, detailed scripts that the actors learnt by heart",
+        "performances were usually rehearsed at court before being shown in public"
+      ],
+      "answer": [2],
+      "note": "The following sentence explains it: each actor played one character for years and built up 'a repertoire of speeches, jokes and pieces of comic business' to insert where the action allowed. The actors still 'improvised the dialogue', so saying they improvised none of it goes too far. A scenario is described as 'a brief outline of the plot', not a detailed script, and nothing is said about audiences' awareness or rehearsals at court."
+    }
+  ]
+}

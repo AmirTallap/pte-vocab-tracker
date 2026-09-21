@@ -1,0 +1,33 @@
+{
+  "id": "G053",
+  "title": "Wind farms and the people who see them",
+  "field": "Energy and community",
+  "speakers": [
+    { "name": "Moira", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Deshi", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Ana", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Deshi", "text": "The offshore extension got approved in about nine months. The onshore one up the valley has been in planning for six years." },
+    { "speaker": "Ana", "text": "Offshore nobody lives next to, which is most of the explanation." },
+    { "speaker": "Moira", "text": "It's also three times the price per unit, and that gets left out when people say offshore solved it." },
+    { "speaker": "Deshi", "text": "Three times?" },
+    { "speaker": "Moira", "text": "It's narrowing, but onshore wind is still the cheapest thing you can build in this country by some distance." },
+    { "speaker": "Ana", "text": "The objections aren't irrational, though. Someone's view does change, and telling them the planet needs it doesn't address what they actually said." },
+    { "speaker": "Deshi", "text": "The Danish approach is the one that interests me. Local people are offered a share in the thing, so it becomes an income rather than an imposition.", "gap": -0.12 },
+    { "speaker": "Deshi", "text": "Opposition drops dramatically when the turbine pays your community's bills." },
+    { "speaker": "Moira", "text": "Which sounds like a bribe to a certain kind of objector." },
+    { "speaker": "Ana", "text": "Or like compensation, which is a normal feature of infrastructure everywhere else." },
+    { "speaker": "Moira", "text": "That's the better framing, yes. A motorway pays for noise barriers and nobody calls that a bribe." },
+    { "speaker": "Deshi", "text": "The bird argument keeps coming up too, and the numbers are worth knowing. Cats kill orders of magnitude more." },
+    { "speaker": "Ana", "text": "Although siting matters. A turbine on a migration route is a different case from one in a field." }
+  ],
+  "points": [
+    "An offshore wind extension was approved in nine months while an onshore scheme has taken six years.",
+    "Ana attributes the difference to proximity to residents.",
+    "Moira notes offshore costs around three times as much per unit, and onshore remains the cheapest generation available.",
+    "Ana argues objections about changed views are reasonable and not answered by appeals to climate need.",
+    "Deshi cites the Danish model of local ownership, which sharply reduces opposition by turning the project into income.",
+    "They agree compensation is normal infrastructure practice, and note bird deaths are far lower than from cats, though siting on migration routes matters."
+  ]
+}

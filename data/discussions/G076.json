@@ -1,0 +1,33 @@
+{
+  "id": "G076",
+  "title": "Does foreign aid work?",
+  "field": "Development and politics",
+  "speakers": [
+    { "name": "Yohan", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Priti", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Ciara", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Ciara", "text": "The budget's been cut again and the argument in the paper was the usual one. Decades of aid and nothing to show for it." },
+    { "speaker": "Priti", "text": "Which is wrong in a specific way. Health aid has an enormous record. Vaccination, malaria nets, the antiretroviral programmes." },
+    { "speaker": "Yohan", "text": "Those are the easy cases, though. Deliverable, measurable, technically simple." },
+    { "speaker": "Priti", "text": "They are, and they saved an extraordinary number of lives, so I'd rather not dismiss them as easy." },
+    { "speaker": "Yohan", "text": "Fair. My point is that the disappointing record is in the governance and institution-building part, which is most of the money." },
+    { "speaker": "Ciara", "text": "Because you're trying to build something from outside that only works if it's owned inside." },
+    { "speaker": "Yohan", "text": "Exactly. And a lot of it returns home anyway, through consultants and contractors from the donor country.", "gap": -0.13 },
+    { "speaker": "Priti", "text": "Tied aid, which has been criticised for forty years and hasn't gone away." },
+    { "speaker": "Ciara", "text": "The direct cash transfer evidence is the most interesting development, honestly. Give people money and they mostly use it sensibly." },
+    { "speaker": "Yohan", "text": "Which upsets everyone. Donors want a project with a photograph." },
+    { "speaker": "Priti", "text": "The other comparison nobody makes is against trade rules. Agricultural tariffs cost poorer countries more than aid gives them." },
+    { "speaker": "Ciara", "text": "So the same government takes with one hand and photographs the other." },
+    { "speaker": "Yohan", "text": "That's uncharitable and roughly accurate." }
+  ],
+  "points": [
+    "Aid budgets are being cut on the argument that decades of aid achieved little.",
+    "Priti counters that health aid has a strong record in vaccination, malaria and antiretroviral programmes.",
+    "Yohan argues the disappointing record is in governance and institution-building, which absorbs most funding and cannot be built from outside.",
+    "Tied aid returns much spending to donor countries through consultants and contractors.",
+    "Direct cash transfers show good evidence but are unpopular with donors wanting visible projects.",
+    "Priti notes agricultural tariffs cost poorer countries more than aid provides, so donor governments take with one hand while giving with the other."
+  ]
+}

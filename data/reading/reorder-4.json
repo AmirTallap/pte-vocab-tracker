@@ -1,0 +1,122 @@
+{
+  "id": "reorder-4",
+  "task": "reorder",
+  "title": "Set 4",
+  "summary": "Ten short texts on computing, medieval art, company law, ecology, medicine, poetry, weather and cities to put back in order.",
+  "items": [
+    {
+      "id": "o4-01",
+      "title": "Moore's law",
+      "paragraphs": [
+        "In 1965 Gordon Moore, who later co-founded the chip maker Intel, observed that the number of components on an integrated circuit was doubling roughly every year.",
+        "A decade later he revised this estimate to a doubling about every two years, and in that form the prediction became known as Moore's law.",
+        "Strictly speaking, the 'law' is not a law of nature at all but an observation, which the semiconductor industry then treated as a target to plan its research around.",
+        "Meeting that target has become steadily harder as transistors approach the size of a few atoms, and many engineers now believe the trend is slowing."
+      ],
+      "note": "The first sentence introduces Moore and his observation. 'This estimate' refers to the yearly doubling, 'the law' in quotation marks picks up the name just given, and 'that target' refers to the industry's use of the observation."
+    },
+    {
+      "id": "o4-02",
+      "title": "The Bayeux Tapestry",
+      "paragraphs": [
+        "The Bayeux Tapestry is a strip of embroidered linen nearly seventy metres long that tells the story of the Norman conquest of England in 1066.",
+        "Despite its name, it is not strictly a tapestry at all, since its images were stitched onto the cloth with coloured wool rather than woven into it.",
+        "These stitched scenes follow events from Harold Godwinson's journey to Normandy to his death at the Battle of Hastings, with brief Latin captions explaining the action.",
+        "Because this account presents Harold as having broken an oath to William, historians generally believe it was made for the Norman side, probably commissioned by Bishop Odo, William's half-brother.",
+        "Odo was also Bishop of Bayeux, which may explain why the work was kept in the town's cathedral and how it came to bear the town's name."
+      ],
+      "note": "The opener names and describes the object. 'Despite its name' refers to the word tapestry, 'These stitched scenes' needs the stitching just explained, 'this account' refers to the story told in those scenes, and the last sentence continues from Bishop Odo."
+    },
+    {
+      "id": "o4-03",
+      "title": "Limited liability",
+      "paragraphs": [
+        "Before the mid-nineteenth century, most investors in British businesses faced unlimited liability, meaning that they could lose their personal property if the firm could not pay its debts.",
+        "This risk discouraged people of modest means from investing, since a small stake in a failing company might cost them their house and their savings.",
+        "To address the problem, Parliament passed the Limited Liability Act in 1855, which capped a shareholder's potential loss at the amount they had put into the company.",
+        "With that protection in place, investment in joint-stock companies became far less dangerous, and the limited company soon became the standard form of British business."
+      ],
+      "note": "The first sentence sets out the situation before the reform and points back to nothing. 'This risk' refers to losing personal property, 'the problem' to the discouraged investors, and 'that protection' to the cap on losses under the 1855 Act."
+    },
+    {
+      "id": "o4-04",
+      "title": "Wolves return to Yellowstone",
+      "paragraphs": [
+        "Grey wolves had been eliminated from Yellowstone National Park by the 1920s, largely through deliberate hunting and trapping carried out to protect livestock and game.",
+        "In their absence, elk numbers grew, and the animals grazed heavily on young willow and aspen trees, particularly along the banks of rivers and streams.",
+        "This situation began to change in 1995, when wolves captured in Canada were released into the park as part of a reintroduction programme.",
+        "Some researchers argue that the returning predators made elk more wary of lingering in exposed valleys, allowing the trees there to recover.",
+        "The strength of this effect remains disputed, however, since drought, human hunting and bears also influence elk behaviour, and the park's recovery cannot be credited to wolves alone."
+      ],
+      "note": "The loss of the wolves must come first. 'In their absence' refers to it, 'This situation' to the heavy grazing, 'the returning predators' to the released wolves, and 'this effect' to the recovery of the trees that the researchers claim."
+    },
+    {
+      "id": "o4-05",
+      "title": "Scurvy at sea",
+      "paragraphs": [
+        "For centuries scurvy, a disease causing bleeding gums, weakness and eventually death, was a major killer of sailors on long ocean voyages.",
+        "In 1747 the Scottish naval surgeon James Lind tested several proposed remedies on sailors suffering from the disease, and found that those given oranges and lemons recovered fastest.",
+        "Lind's findings were not acted upon at once, however, and it was not until 1795 that the Royal Navy began issuing lemon juice routinely to its crews.",
+        "Even after the practice was adopted, the reason it worked remained a mystery until the twentieth century, when scurvy was shown to be caused by a lack of vitamin C."
+      ],
+      "note": "The opener defines scurvy and its toll, so nothing can precede it. 'The disease' in the second refers to scurvy, 'Lind's findings' to the trial, and 'the practice' to the Navy's issuing of lemon juice, which is why the explanation comes last."
+    },
+    {
+      "id": "o4-06",
+      "title": "The haiku",
+      "paragraphs": [
+        "The haiku is a short form of Japanese poetry which traditionally consists of seventeen sound units arranged in three phrases of five, seven and five.",
+        "It developed from the opening verse of a longer collaborative poem called renga, which groups of poets composed together, taking it in turns to add lines.",
+        "In the seventeenth century Matsuo Bashō raised this opening verse to an art in its own right, and he remains the most celebrated master of the form.",
+        "Like much of the tradition he shaped, Bashō's work observes a central convention of the form: a seasonal word, or kigo, that places the scene at a particular time of year."
+      ],
+      "note": "The definition comes first. 'It' in the second can only mean the haiku, 'this opening verse' refers to the first verse of the renga, and the last sentence continues from Bashō, who is introduced in the third."
+    },
+    {
+      "id": "o4-07",
+      "title": "The jet stream",
+      "paragraphs": [
+        "Jet streams are narrow bands of very strong wind that flow from west to east high in the atmosphere, near the height at which long-distance aircraft cruise.",
+        "Although these winds were measured in the 1920s by the Japanese meteorologist Wasaburo Oishi, his findings were published in Esperanto and went largely unnoticed abroad.",
+        "It was only during the Second World War that their importance became widely appreciated, when American bomber crews flying towards Japan met headwinds strong enough to slow them dramatically.",
+        "Japan itself made use of the same winds late in the war, launching thousands of balloons carrying incendiary bombs to drift across the Pacific towards North America.",
+        "Today airlines exploit them more peacefully, planning eastbound routes to ride the jet stream, which is why a flight from New York to London is usually shorter than the return."
+      ],
+      "note": "The definition opens. 'These winds' refers to the jet streams, 'It was only' contrasts with Oishi's work going unnoticed, 'Japan itself' and 'the same winds' continue the wartime story, and 'more peacefully' contrasts with the balloon bombs."
+    },
+    {
+      "id": "o4-08",
+      "title": "The Erie Canal",
+      "paragraphs": [
+        "The Erie Canal, completed in 1825, linked the Hudson River at Albany with Lake Erie at Buffalo, a distance of more than five hundred kilometres across New York State.",
+        "Before it opened, moving goods from the Great Lakes region to the Atlantic coast meant slow and costly journeys overland by wagon.",
+        "The canal cut the cost of this transport dramatically, and farmers in the expanding western territories could now send their grain east to profitable markets.",
+        "Much of that trade passed through New York City at the mouth of the Hudson, helping it to overtake its rivals and become the country's leading port."
+      ],
+      "note": "Only the first sentence names the canal. 'Before it opened' needs the canal already introduced, 'this transport' refers to moving goods from the Great Lakes, and 'that trade' to the grain sent east."
+    },
+    {
+      "id": "o4-09",
+      "title": "Participatory budgeting",
+      "paragraphs": [
+        "Participatory budgeting is a process in which ordinary residents, rather than elected officials alone, decide how part of a public budget should be spent.",
+        "The practice originated in 1989 in the Brazilian city of Porto Alegre, where the newly elected Workers' Party administration invited citizens to neighbourhood assemblies to set spending priorities.",
+        "At these assemblies, residents debated local needs such as paving, sanitation and health clinics, and elected delegates to represent their proposals at city level.",
+        "This combination of open neighbourhood debate and elected delegates attracted international attention, and versions of it have since been adopted by thousands of local governments around the world."
+      ],
+      "note": "The definition must open. 'The practice' refers to participatory budgeting, 'these assemblies' to the neighbourhood assemblies in Porto Alegre, and 'This combination' sums up the debate and the delegates just described."
+    },
+    {
+      "id": "o4-10",
+      "title": "Optical fibres",
+      "paragraphs": [
+        "An optical fibre is a strand of glass thinner than a human hair that can carry information over long distances in the form of pulses of light.",
+        "The light stays inside the fibre because of total internal reflection: whenever it strikes the boundary of the glass at a shallow angle, it is reflected back into the core rather than escaping.",
+        "Early glass fibres were too impure to exploit this effect for communication, however, since they absorbed most of the light within a few metres.",
+        "In 1966 Charles Kao showed that these losses were caused by impurities rather than by the glass itself, and argued that purer fibres could carry signals for kilometres.",
+        "His prediction was confirmed within a few years when manufacturers produced sufficiently pure glass, and in 2009 Kao was awarded a share of the Nobel Prize in Physics."
+      ],
+      "note": "The definition opens. 'The light' and 'the fibre' refer back to it, 'this effect' to total internal reflection, 'these losses' to the light absorbed by early fibres, and 'His prediction' to Kao's argument about purer glass."
+    }
+  ]
+}

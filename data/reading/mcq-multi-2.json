@@ -1,0 +1,172 @@
+{
+  "id": "mcq-multi-2",
+  "task": "mcq-multi",
+  "title": "Set 2",
+  "summary": "Ten more passages with two or three correct answers: choose only what the passage supports.",
+  "items": [
+    {
+      "id": "mm2-01",
+      "title": "Hydrothermal vents",
+      "passage": "In 1977, scientists aboard the submersible Alvin, exploring the Galápagos Rift in the eastern Pacific, came upon something that biology textbooks had not anticipated. Around cracks in the sea floor where volcanically heated water was escaping, at depths of about 2,500 metres, they found dense communities of clams, mussels and tube worms. Sunlight cannot penetrate to such depths, and until then it had been widely assumed that almost all life ultimately depended on photosynthesis.\nThe explanation proved to lie in chemistry. The water emerging from the vents is rich in dissolved minerals, including hydrogen sulphide, a compound that is poisonous to most animals. Certain bacteria, however, can obtain energy by oxidising it, and they use that energy to convert carbon dioxide into organic matter, a process known as chemosynthesis. These bacteria form the base of the vent food web. The giant tube worm has no mouth or digestive system as an adult; instead it houses vast numbers of such bacteria inside its body and lives on the compounds they produce.\nThe discovery has had consequences well beyond marine biology. Some researchers have proposed that life on Earth may have originated in environments of this kind, although the idea remains contested. Vents have also shaped the search for life elsewhere, since moons such as Jupiter's Europa are thought to have liquid oceans beneath their icy surfaces, where comparable chemical energy might be available.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The vent communities were found in an environment that sunlight does not reach.",
+        "Hydrogen sulphide is harmless to most marine animals.",
+        "Adult giant tube worms depend on bacteria living inside them for nourishment.",
+        "Scientists have established that life on Earth began at hydrothermal vents.",
+        "Life has been detected in the ocean beneath the surface of Europa.",
+        "The Alvin expedition was organised specifically to study vent animals.",
+        "Before 1977 it was widely believed that nearly all life relied ultimately on photosynthesis."
+      ],
+      "answer": [0, 2, 6],
+      "note": "'Sunlight cannot penetrate to such depths', the adult tube worm 'lives on the compounds' its bacteria produce, and 'until then it had been widely assumed that almost all life ultimately depended on photosynthesis'. The origin of life at vents is a proposal that 'remains contested', not an established fact, and Europa is only 'thought to have' an ocean where energy 'might be available'. The scientists 'came upon' the communities, which rules out an expedition planned to study them."
+    },
+    {
+      "id": "mm2-02",
+      "title": "Prions",
+      "passage": "For most of the twentieth century, it was taken for granted that any infectious disease must be transmitted by an agent carrying genetic material, whether a bacterium, a virus or a parasite. A group of rare, fatal brain disorders challenged that assumption. Among them are scrapie in sheep, bovine spongiform encephalopathy (BSE) in cattle and Creutzfeldt-Jakob disease in humans, all of which leave the brain riddled with microscopic holes.\nIn 1982 the American neurologist Stanley Prusiner proposed that these diseases were caused by an infectious protein, which he named a prion. According to his hypothesis, the prion is a misfolded version of a protein that occurs normally in the body. When it comes into contact with the correctly folded form, it causes that protein to adopt the abnormal shape as well, so that the misfolding spreads in a kind of chain reaction. The abnormal proteins clump together and damage nerve cells.\nThe idea was received with considerable scepticism, since it appeared to contradict the principle that replication requires DNA or RNA. Over the following years, however, the evidence accumulated, and Prusiner was awarded the Nobel Prize in Physiology or Medicine in 1997. Prions are also unusually hard to destroy: they survive many standard sterilisation methods, including some that reliably kill bacteria and viruses. This resistance became a matter of public concern during the BSE crisis in Britain in the 1980s and 1990s, when a variant form of Creutzfeldt-Jakob disease was linked to eating contaminated beef.",
+      "question": "According to the passage, which of the following are true of prions?",
+      "options": [
+        "Prusiner's hypothesis was widely accepted as soon as he proposed it.",
+        "A prion can cause normal proteins to take on its own abnormal shape.",
+        "Prions contain a small amount of DNA that allows them to replicate.",
+        "Some sterilisation methods that kill viruses do not reliably destroy prions.",
+        "Prion diseases have been found only in humans and cattle.",
+        "The BSE crisis in Britain was the reason Prusiner received the Nobel Prize."
+      ],
+      "answer": [1, 3],
+      "note": "The prion 'causes that protein to adopt the abnormal shape as well', and prions 'survive many standard sterilisation methods, including some that reliably kill bacteria and viruses'. The idea met 'considerable scepticism' at first, and it was controversial precisely because prions have no DNA or RNA. Scrapie affects sheep, and the passage links the Nobel Prize to accumulating evidence, not to the BSE crisis."
+    },
+    {
+      "id": "mm2-03",
+      "title": "Zebra mussels",
+      "passage": "The zebra mussel, a small freshwater mollusc native to the region around the Black and Caspian Seas, was first recorded in North America in 1988, in Lake St Clair, which lies between Lake Huron and Lake Erie. It is widely believed to have arrived in the ballast water of ships crossing the Atlantic: vessels take on water in one port to keep themselves stable and discharge it in another, releasing whatever organisms it happens to contain.\nThe mussel spread with remarkable speed through the Great Lakes and into connected rivers. Each female can release very large numbers of eggs, and the free-swimming larvae are carried easily by currents. The adults attach themselves to almost any hard surface, and dense colonies have clogged the intake pipes of power stations and water treatment plants, which have had to spend heavily on removing them.\nThe ecological effects are more complicated than a simple story of damage. Zebra mussels feed by filtering tiny organisms from the water, and in areas where they are abundant the water has become noticeably clearer. Clearer water allows sunlight to reach greater depths, which has encouraged the growth of some aquatic plants. However, by consuming so much plankton the mussels reduce the food available to other species, and native mussels have declined sharply where the invaders settle on their shells. Regulations now require many ships to exchange or treat their ballast water before entering the lakes.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Zebra mussels are native to the Great Lakes region.",
+        "In some areas the water has become clearer as a result of the mussels' feeding.",
+        "Ballast water is thought to have been the route by which the mussel reached North America.",
+        "The mussels have benefited every native species that feeds on plankton.",
+        "Zebra mussels have imposed costs on power stations and water treatment plants.",
+        "Ships are now banned from carrying any ballast water into the lakes.",
+        "The mussel spread slowly because its larvae cannot move far."
+      ],
+      "answer": [1, 2, 4],
+      "note": "The mussels feed by filtering, and 'where they are abundant the water has become noticeably clearer'; they are 'widely believed to have arrived in the ballast water'; and the plants whose pipes they clog 'have had to spend heavily on removing them'. They reduce the food available to other plankton feeders, which is the opposite of benefiting them. Ships must 'exchange or treat' ballast water, which is not a ban, and the larvae are 'carried easily by currents', so the spread was rapid."
+    },
+    {
+      "id": "mm2-04",
+      "title": "The Venetian Arsenal",
+      "passage": "From the twelfth century onwards, the Republic of Venice built and maintained its fleets at the Arsenal, a walled complex of shipyards, workshops and storehouses on the eastern side of the city. At the height of its activity, in the sixteenth century, it employed several thousand workers, and it has often been described as one of the largest industrial enterprises in Europe before the Industrial Revolution.\nWhat made the Arsenal remarkable was less its size than its organisation. Ships were not built one at a time by a single team of craftsmen. Instead, the work was divided among specialised groups, including carpenters, caulkers, who sealed the hulls against water, and makers of oars and rope. Many components were standardised, so that parts made for one galley would fit another. The Venetian government also kept a reserve of hulls in store, which could be fitted out rapidly when war threatened. Visitors reported that a fully equipped galley could be completed and launched within a single day, although such feats seem to have been staged for important guests rather than representing normal practice.\nThe Arsenal was run directly by the state rather than by private merchants, and its workers, known as arsenalotti, enjoyed privileges such as guaranteed employment in return for their loyalty. Its importance declined along with Venetian naval power, and after the fall of the Republic in 1797 it passed to other hands. Parts of the complex are now used as exhibition spaces for the Venice Biennale.",
+      "question": "According to the passage, which of the following are true of the Venetian Arsenal?",
+      "options": [
+        "Work was divided among groups of specialised workers.",
+        "It was owned and run by a group of private merchants.",
+        "Standardised parts meant that components could be used on more than one ship.",
+        "Galleys were routinely built from start to finish in a single day.",
+        "The decline of the Arsenal caused the fall of the Republic in 1797.",
+        "Its workers were hired afresh for each new ship and then dismissed."
+      ],
+      "answer": [0, 2],
+      "note": "'The work was divided among specialised groups', and components were standardised 'so that parts made for one galley would fit another'. The Arsenal was 'run directly by the state rather than by private merchants'. The one-day galley was a feat 'staged for important guests rather than representing normal practice', and the arsenalotti had 'guaranteed employment'. The passage says the Arsenal declined along with Venetian naval power but never says its decline caused the Republic's fall."
+    },
+    {
+      "id": "mm2-05",
+      "title": "The Bretton Woods system",
+      "passage": "In July 1944, while the Second World War was still being fought, delegates from 44 Allied nations met at Bretton Woods in New Hampshire to design a framework for the post-war international economy. Many of them believed that the economic chaos of the 1930s, when countries had devalued their currencies and raised trade barriers in an attempt to protect themselves at their neighbours' expense, had helped to deepen the Depression and create the conditions for war.\nThe system they agreed on was based on fixed but adjustable exchange rates. Participating countries pegged their currencies to the US dollar, and the United States undertook to convert dollars held by foreign governments into gold at a fixed price of 35 dollars an ounce. A country could change its exchange rate, but only to correct what was termed a fundamental disequilibrium in its balance of payments. The conference also created two institutions: the International Monetary Fund, to lend to countries facing temporary payment difficulties, and the International Bank for Reconstruction and Development, which later became part of the World Bank.\nThe arrangement came under strain in the 1960s. As dollars accumulated abroad, foreign holdings of dollars came to exceed the gold reserves of the United States, and doubts grew about whether the promise of conversion could be honoured. In August 1971 President Nixon suspended the convertibility of the dollar into gold, and by 1973 the major currencies were floating against one another. The two institutions created in 1944, however, survived the collapse of the system they were designed to support.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The delegates believed that competitive devaluations had worsened the economic problems of the 1930s.",
+        "Under the system, exchange rates could never be altered.",
+        "The United States promised to exchange dollars held by foreign governments for gold.",
+        "The IMF and the World Bank were abolished when the system collapsed.",
+        "The system broke down because US gold reserves grew faster than foreign holdings of dollars.",
+        "The Bretton Woods conference took place after the Second World War had ended."
+      ],
+      "answer": [0, 2],
+      "note": "Delegates believed that devaluing currencies 'at their neighbours' expense' had 'helped to deepen the Depression', and the United States 'undertook to convert dollars held by foreign governments into gold'. Rates were 'fixed but adjustable', and the two institutions 'survived the collapse'. The strain came because foreign dollar holdings came to exceed US gold reserves, the reverse of the fifth option, and the conference met 'while the Second World War was still being fought'."
+    },
+    {
+      "id": "mm2-06",
+      "title": "Mumbai's dabbawalas",
+      "passage": "Every working day in Mumbai, a network of around five thousand delivery workers known as dabbawalas collects home-cooked lunches from households, delivers them to offices across the city, and returns the empty containers in the afternoon. The service dates back to the late nineteenth century and is often said to handle around two hundred thousand lunches a day.\nWhat has attracted the attention of management researchers is that the system achieves a very high level of reliability with remarkably simple means. Most of the workers have had limited formal education, and for much of its history the service used no computers at all. Each container is marked with a short code of letters, numbers and colours indicating where it was collected, the railway station it must pass through and its final destination. Lunches are sorted and handed from one worker to another at several points along the route, using the city's suburban trains to cover long distances and bicycles and handcarts for the last part of the journey.\nSeveral features are often credited for the system's success. Workers are organised in small groups that are responsible for particular areas, and the members of each group can cover for one another when someone is absent. Many regard themselves as partners in the enterprise rather than simply as employees. The demanding timetable is also fixed by the trains, which leaves little room for delay. Commentators have occasionally claimed that the error rate is as low as one in several million deliveries, although the basis for that figure is unclear.",
+      "question": "According to the passage, which of the following are true of the dabbawala system?",
+      "options": [
+        "It depends heavily on advanced computer technology.",
+        "A container usually passes through the hands of more than one worker.",
+        "The code on each container shows where the lunch is to be delivered.",
+        "Its error rate of one in several million has been independently verified.",
+        "Members of a group can do the work of a colleague who is absent.",
+        "Most of its workers are highly educated specialists in logistics."
+      ],
+      "answer": [1, 2, 4],
+      "note": "Lunches are 'handed from one worker to another at several points along the route', the code indicates the container's 'final destination', and group members 'can cover for one another when someone is absent'. For much of its history the service 'used no computers at all', and most workers 'have had limited formal education'. The error rate is something commentators have 'claimed', and 'the basis for that figure is unclear', so it has not been verified."
+    },
+    {
+      "id": "mm2-07",
+      "title": "Learned helplessness",
+      "passage": "In the late 1960s, the American psychologists Martin Seligman and Steven Maier conducted a series of experiments on dogs that led to one of the best-known concepts in psychology. In one condition, dogs were given mild electric shocks that they could stop by pressing a panel. In another, the dogs received identical shocks but had no means of controlling them. Later, the animals were placed in a box where they could escape the shocks simply by jumping over a low barrier. Most of the dogs that had earlier been able to control the shocks quickly learned to escape. Many of those that had had no control, by contrast, made little attempt to do so and passively endured the shocks.\nSeligman described this as learned helplessness: having learned that their actions made no difference, the animals appeared to stop trying even when escape became possible. The idea was soon applied to humans and was proposed as a model for some forms of depression. Later researchers refined it, arguing that what matters in people is not only the experience of lack of control but how they explain it to themselves. A person who attributes a setback to causes that are permanent and general is more likely to give up than one who sees the causes as temporary and specific.\nDecades later, Maier and Seligman revisited the theory in the light of neuroscience. They argued that passivity in the face of prolonged shock is in fact the default response, and that what animals learn from being able to control events is that they can act effectively. On this view, it is control that is learned, rather than helplessness.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "In the first stage, dogs in both conditions received the same shocks.",
+        "Every dog that had lacked control failed to escape in the later test.",
+        "How people explain their setbacks can affect whether they give up.",
+        "Maier and Seligman later concluded that their original results had been recorded wrongly.",
+        "The later reinterpretation holds that animals learn that they have control, rather than learning helplessness.",
+        "The concept was first developed through studies of patients with depression.",
+        "Seeing a setback as having temporary causes makes a person more likely to give up."
+      ],
+      "answer": [0, 2, 4],
+      "note": "The second group 'received identical shocks', people's persistence depends on 'how they explain it to themselves', and the later view is that 'it is control that is learned, rather than helplessness'. Only 'many' of the dogs without control failed to escape, not every one. The reinterpretation changed the explanation, not the recorded results, and the idea began with dogs and was only later applied to depression. Permanent and general causes, not temporary ones, make people more likely to give up."
+    },
+    {
+      "id": "mm2-08",
+      "title": "Grouping pupils by ability",
+      "passage": "Schools in many countries sort pupils by attainment, although they do so in different ways. In streaming, sometimes called tracking, pupils are placed in a single class according to their general ability and stay in it for most subjects. In setting, they are grouped separately for each subject, so that a pupil may be in the top group for mathematics and a lower one for English. A third approach, often found in primary schools, is to form small ability groups within a single mixed class.\nThe case for grouping seems intuitive: teachers can pitch lessons at the right level, and able pupils are not held back while others struggle. Research has generally found, however, that the overall effect on attainment is small. More worrying to many researchers is the finding that pupils in lower groups often make less progress than similar pupils taught in mixed classes, so that grouping may widen the gap between the highest and lowest attainers. Several explanations have been offered. Lower groups are sometimes assigned less experienced teachers, expectations of them may be lower, and pupils may come to see themselves in terms of the label they have been given.\nA further concern is that placement is not always accurate or fair. Studies in England have found that pupils from disadvantaged backgrounds are more likely to be placed in lower groups than their prior attainment would predict, and that once placed, pupils rarely move between groups. Supporters of grouping reply that these problems stem from the way it is implemented rather than from the principle itself.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Under setting, a pupil can be in different groups for different subjects.",
+        "Research has found that grouping greatly raises attainment for all pupils.",
+        "Streaming is the approach most often found in primary schools.",
+        "Pupils frequently move between groups once they have been placed.",
+        "Critics argue that grouping benefits disadvantaged pupils most.",
+        "Pupils in lower groups often progress less than comparable pupils in mixed classes."
+      ],
+      "answer": [0, 5],
+      "note": "In setting 'a pupil may be in the top group for mathematics and a lower one for English', and pupils in lower groups 'often make less progress than similar pupils taught in mixed classes'. The overall effect on attainment 'is small'. It is groups within a mixed class, not streaming, that are 'often found in primary schools', pupils 'rarely move between groups', and disadvantaged pupils are described as being placed too low, not as benefiting."
+    },
+    {
+      "id": "mm2-09",
+      "title": "The Jacquard loom",
+      "passage": "Weaving a patterned fabric such as brocade was, for centuries, slow and labour-intensive work. On a drawloom, the weaver needed an assistant, often a child, who sat above the loom and raised the correct warp threads by hand for every pass of the shuttle, following the design line by line. Errors were easy to make and hard to correct.\nIn 1804 the French weaver Joseph-Marie Jacquard demonstrated a mechanism that automated this task. It built on earlier devices by Basile Bouchon and Jacques Vaucanson, among others, but combined their ideas into a practical system. The pattern was encoded in a chain of stiff cards punched with holes, one card for each pass of the shuttle. Where a card had a hole, a hooked rod could pass through and lift the corresponding thread; where there was none, the rod was blocked and the thread stayed down. Changing the design meant changing the cards rather than rebuilding the machine.\nThe invention was not universally welcomed. Silk weavers in Lyon, fearing for their livelihoods, are reported to have destroyed some of the new looms. Nevertheless, it spread widely during the nineteenth century and greatly increased the speed at which complex patterns could be produced.\nIts influence reached far beyond textiles. Charles Babbage planned to use punched cards to supply instructions and numbers to his Analytical Engine, and in the 1880s Herman Hollerith developed punched-card machines that were used to process the 1890 United States census, a development that led eventually to the company that became IBM. The idea that a machine's behaviour could be controlled by a replaceable set of instructions anticipated a central principle of computing.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Jacquard's mechanism owed nothing to the work of earlier inventors.",
+        "A new pattern could be woven without rebuilding the loom.",
+        "Where a card had a hole, the corresponding thread was lifted.",
+        "The silk weavers of Lyon welcomed the new loom.",
+        "Babbage built and operated an Analytical Engine controlled by punched cards.",
+        "The mechanism did the work previously done by an assistant raising threads by hand.",
+        "Hollerith founded IBM in order to manufacture Jacquard looms."
+      ],
+      "answer": [1, 2, 5],
+      "note": "'Changing the design meant changing the cards rather than rebuilding the machine', a hole let the rod 'lift the corresponding thread', and the mechanism 'automated this task', the task being the assistant's raising of threads by hand. It 'built on earlier devices by Basile Bouchon and Jacques Vaucanson'. The Lyon weavers 'are reported to have destroyed some of the new looms', Babbage only 'planned' to use cards, and Hollerith's work concerned the census and led 'eventually' to IBM."
+    },
+    {
+      "id": "mm2-10",
+      "title": "Occam's razor",
+      "passage": "The principle known as Occam's razor is usually attributed to William of Ockham, an English Franciscan friar and philosopher of the fourteenth century, although similar ideas had been expressed earlier, by Aristotle among others, and the familiar formulation 'entities should not be multiplied beyond necessity' does not actually appear in his surviving writings. In its general form, the principle advises that when two explanations account for the evidence equally well, we should prefer the one that makes fewer assumptions.\nThe razor has become a guiding rule in science. When Copernicus argued that the Earth moves around the Sun, one attraction of his system for some later astronomers was that it seemed to explain the observed motions of the planets more economically than the elaborate Earth-centred models it replaced. In medicine, a version of the principle encourages doctors to look for a single diagnosis that explains all of a patient's symptoms before assuming several separate conditions.\nIt is important, however, to be clear about what the razor does not claim. It is a guide to choosing between hypotheses, not a proof that the simpler one is true, and the world is under no obligation to be simple. Medicine also has a well-known counter-principle, Hickam's dictum, which reminds doctors that a patient can have as many diseases as they please. Moreover, deciding which of two theories is actually simpler is often a matter of dispute, since one theory may postulate fewer kinds of entity while another requires fewer laws. Used carefully, the razor is a heuristic, a rule of thumb for directing inquiry, rather than a law of nature.",
+      "question": "Which statements reflect the writer's view or the information in the passage?",
+      "options": [
+        "The best-known wording of the razor is not found in Ockham's surviving works.",
+        "The razor proves that the simplest explanation is always the true one.",
+        "Ockham was the first thinker to express the idea behind the razor.",
+        "Hickam's dictum reminds doctors that a patient may have more than one disease.",
+        "Scientists generally agree about which of two theories is the simpler.",
+        "The razor should be regarded as a law of nature."
+      ],
+      "answer": [0, 3],
+      "note": "The familiar formulation 'does not actually appear in his surviving writings', and Hickam's dictum says 'a patient can have as many diseases as they please'. The razor is 'not a proof that the simpler one is true', similar ideas were expressed 'earlier, by Aristotle among others', and which theory is simpler 'is often a matter of dispute'. The writer calls the razor 'a heuristic ... rather than a law of nature'."
+    }
+  ]
+}

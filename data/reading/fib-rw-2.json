@@ -1,0 +1,119 @@
+{
+  "id": "fib-rw-2",
+  "task": "fib-rw",
+  "title": "Set 2",
+  "summary": "History, society, economics and education: from the printing press and the Black Death to inflation and the flipped classroom.",
+  "items": [
+    {
+      "id": "rw2-01",
+      "title": "The printing press",
+      "text": "Johannes Gutenberg's development of a printing press with movable metal type in the mid-fifteenth century {{transformed|transformation|transforming|transformative}} the way knowledge spread across Europe. Before this, books were copied by hand, a slow and costly process that made them {{available|availability|avail|availably}} only to the wealthy and to religious institutions. Within a few decades, printing shops had been {{established|establishing|establishment|establish}} in hundreds of towns, and millions of books were in circulation. Cheaper books encouraged literacy, allowed scholars to compare and correct texts, and helped new ideas to reach a wide audience. For these reasons, historians often {{credit|credits|credible|creditable}} the press with playing a significant part in both the Protestant Reformation and the Scientific Revolution.",
+      "why": [
+        "The long subject 'Gutenberg's development ...' needs a main verb in the past tense, 'transformed'; 'transforming' leaves the sentence without a finite verb.",
+        "'Made them ...' needs an adjective as the complement, 'available'; 'availability' is a noun and 'avail' does not fit the pattern.",
+        "'Had been ... in' is passive and needs the past participle 'established'; 'establishing' would make it active and 'establishment' is a noun.",
+        "The plural subject 'historians' needs the plural verb 'credit', in the pattern 'credit something with'; 'credits' breaks agreement."
+      ]
+    },
+    {
+      "id": "rw2-02",
+      "title": "The Industrial Revolution",
+      "text": "The Industrial Revolution began in Britain in the late eighteenth century and {{gradually|gradual|gradualism|graduate}} spread to continental Europe and North America. Several factors made Britain a natural starting point, including plentiful {{supplies|supplying|supplied|supplier}} of coal and iron, a growing network of canals, and merchants with capital to invest. Steam engines, first used to pump water out of mines, were later {{adapted|adapting|adaptation|adaptable}} to power factories, locomotives and ships. The consequences for ordinary people were mixed. Factory work offered regular wages, and cheap manufactured goods became available to many more households. However, hours were long, conditions were often dangerous, and child labour was {{widespread|widely|widen|wideness}} until a series of Factory Acts began to regulate it in the nineteenth century.",
+      "why": [
+        "An adverb is needed to modify the verb 'spread', so 'gradually'; 'gradual' is an adjective.",
+        "After the adjective 'plentiful' a noun is needed, and 'supplies of coal' is the collocation; the singular 'supplier' means a person or firm, which does not fit 'plentiful'.",
+        "'Were later ... to power' is passive and needs the past participle 'adapted'; 'adapting' would make the engines do the adapting.",
+        "After 'was' an adjective is needed, 'widespread'; 'widely' is an adverb and 'widen' is a verb."
+      ]
+    },
+    {
+      "id": "rw2-03",
+      "title": "Inflation and interest rates",
+      "text": "Inflation is a general rise in prices across an economy, which {{reduces|reduce|reduction|reducing}} the purchasing power of money: each unit of currency buys a little less than it did before. A modest and {{predictable|predict|predictably|prediction}} rate of inflation is generally considered healthy, and many central banks aim to keep it at around two per cent a year. Problems arise when prices climb rapidly, because savings lose their value and businesses find it difficult to plan {{ahead|advance|before|front}}. To bring inflation under control, a central bank will usually {{raise|rise|arise|rose}} interest rates. This makes borrowing more expensive, discourages spending and investment, and so eases the pressure on prices, although it can also slow economic growth and increase unemployment.",
+      "why": [
+        "The relative clause refers to the whole rise in prices and needs a singular verb, 'reduces'; 'reduce' breaks agreement and 'reducing' leaves the clause without a verb.",
+        "It is coordinated with the adjective 'modest' before 'rate', so the adjective 'predictable'; 'predictably' is an adverb.",
+        "The fixed phrase is 'plan ahead'; 'plan advance' is ungrammatical (it would be 'plan in advance').",
+        "'Raise' is transitive and takes the object 'interest rates'; 'rise' and 'arise' are intransitive, and 'rose' cannot follow 'will'."
+      ]
+    },
+    {
+      "id": "rw2-04",
+      "title": "The Silk Road",
+      "text": "The Silk Road was not a single road but a vast network of trade routes that {{connected|connective|connection|connecting}} China with Central Asia, the Middle East and the Mediterranean world. Although it takes its name from Chinese silk, which was highly {{prized|prizes|prize|prizing}} in Rome, the routes carried a wide variety of goods, including spices, glass, paper and precious metals. Few merchants ever travelled the entire distance; instead, goods passed {{through|thorough|throughout|threw}} the hands of many traders, each covering one stage of the journey. Just as important as the goods were the ideas that {{accompanied|accompanies|accompaniment|accompanying}} them. Buddhism spread from India into China along these routes, and technologies such as papermaking gradually travelled westwards.",
+      "why": [
+        "The relative clause needs a past-tense verb, 'connected'; 'connecting' leaves 'that' without a verb and 'connective' is an adjective.",
+        "'Was highly ...' needs a past participle, and 'highly prized' means greatly valued; 'prizes' and 'prize' cannot follow 'was'.",
+        "The phrase is 'pass through the hands of'; 'thorough' is an adjective and 'throughout' means in every part of.",
+        "The plural 'ideas' in a past-tense passage needs 'accompanied'; 'accompanies' is singular present and 'accompanying' leaves 'that' without a verb."
+      ]
+    },
+    {
+      "id": "rw2-05",
+      "title": "Ageing populations",
+      "text": "In many countries, people are living longer while having fewer children, and as a {{result|resulted|resulting|resultant}}, populations are ageing. This demographic shift places considerable {{pressure|pressing|pressed|pressurise}} on pension systems and health services, because a shrinking working-age population must support a growing number of retirees. Governments have {{responded|responding|response|responsive}} in a variety of ways. Some have raised the age at which people can claim a state pension, while others encourage immigration in order to {{compensate|compensation|compensating|compensated}} for shortages of labour. It would be a mistake, however, to see older people simply as a burden. Many continue to work, care for grandchildren or volunteer, and they make valuable contributions to the communities in which they live.",
+      "why": [
+        "The fixed phrase is 'as a result'; 'resulted' and 'resulting' are verb forms and 'resultant' is an adjective.",
+        "The collocation is 'place pressure on', which needs a noun; 'pressing' and 'pressed' are verb forms and 'pressurise' is a verb.",
+        "'Have ...' forms the present perfect and needs the past participle 'responded'; 'response' is a noun and 'responding' would need 'been'.",
+        "'In order to' is followed by the bare infinitive, 'compensate'; 'compensated' and 'compensating' cannot follow 'to' here."
+      ]
+    },
+    {
+      "id": "rw2-06",
+      "title": "Comparative advantage",
+      "text": "The theory of comparative advantage, {{developed|developing|development|develops}} by the economist David Ricardo in the early nineteenth century, explains why countries gain from trading with one another. Ricardo showed that even if one country can produce every good more efficiently than another, both can still benefit {{from|of|at|on}} specialisation. Each country should concentrate on the goods it produces at the lowest opportunity cost, {{relative|relatively|relativity|relation}} to other nations, and import the rest. The idea remains central to economic arguments in favour {{of|for|to|with}} free trade, although critics point out that the gains are often unevenly {{distributed|distributing|distribution|distributive}} within countries, so that some workers and regions lose out even when the nation as a whole becomes richer.",
+      "why": [
+        "A past participle is needed to introduce the reduced passive clause 'developed by Ricardo'; 'developing' would mean the theory did the developing.",
+        "The collocation is 'benefit from'; 'benefit of' is a noun pattern, and 'at' or 'on' do not follow the verb.",
+        "The fixed phrase is 'relative to'; 'relatively' is an adverb and needs an adjective after it, and 'relativity' is a physics term.",
+        "The fixed phrase is 'in favour of'; 'in favour for' and 'in favour to' are common errors.",
+        "'Are unevenly ...' is passive and needs the past participle 'distributed'; 'distribution' is a noun and 'distributing' would make the gains the ones distributing."
+      ]
+    },
+    {
+      "id": "rw2-07",
+      "title": "The flipped classroom",
+      "text": "In a traditional classroom, the teacher presents new material during the lesson and students practise at home. The flipped classroom {{reverses|reverse|reversal|reversible}} this arrangement. Students watch recorded lectures or read {{assigned|assign|assigning|assigns}} texts before class, and lesson time is devoted to discussion, problem solving and group work, with the teacher on hand to {{guide|guidance|guiding|guided}} anyone who is struggling. Supporters argue that this makes far better use of the limited time teachers and students spend together. Critics, {{however|although|despite|whereas}}, note that the model depends on students completing the preparation, which cannot always be assumed, and on every student having reliable internet access at home.",
+      "why": [
+        "The singular subject 'The flipped classroom' needs 'reverses'; 'reverse' breaks agreement and 'reversal' is a noun.",
+        "An adjective-like past participle is needed before 'texts', so 'assigned' (texts that have been set); 'assign', 'assigning' and 'assigns' are not used this way.",
+        "'On hand to' is followed by the bare infinitive, 'guide'; 'guidance' is a noun and 'guided' cannot follow 'to'.",
+        "An adverb set off by commas is needed to show contrast, 'however'; 'although' and 'whereas' are conjunctions that need a clause, and 'despite' needs a noun."
+      ]
+    },
+    {
+      "id": "rw2-08",
+      "title": "The Black Death",
+      "text": "The Black Death, a pandemic of bubonic plague, swept across Europe between 1347 and 1351 and killed an estimated third or more of the population. Medieval physicians had no understanding of its true cause, and many people {{attributed|contributed|distributed|tributed}} it to divine punishment or to poisonous air. The sudden loss of so many workers had {{profound|profoundly|profundity|profounder}} economic consequences. With labour in short {{supply|supplies|supplied|supplying}}, surviving peasants were able to demand higher wages and better conditions from landowners who desperately needed them. Rulers attempted to fix wages at their old levels by law, but such measures proved hard to enforce, and in parts of western Europe the old feudal system began to {{weaken|weakness|weakly|weakened}}.",
+      "why": [
+        "'Attribute something to a cause' means regard it as caused by it; 'contribute' and 'distribute' mean something else and 'tributed' is not a word.",
+        "An adjective is needed before 'economic consequences', so 'profound'; 'profoundly' is an adverb and 'profounder' is not the form used.",
+        "The fixed phrase is 'in short supply', always singular; 'supplies' breaks the idiom.",
+        "'Began to' is followed by the bare infinitive, 'weaken'; 'weakness' is a noun and 'weakened' cannot follow 'to'."
+      ]
+    },
+    {
+      "id": "rw2-09",
+      "title": "Early childhood education",
+      "text": "A growing body of research suggests that the years before a child starts school are {{crucial|crucially|crux|crucible}} for later development. During this period the brain forms new connections at a remarkable rate, and everyday experiences such as being read to, playing with others and talking with adults help to {{lay|lie|laid|lain}} the foundations for language and social skills. Long-term studies of high-quality preschool programmes in the United States have found that participants were more likely to finish school and less likely to be {{involved|involving|involvement|involve}} in crime as adults. For this reason, many economists regard investment in early education as one of the most cost-effective {{policies|policy|politics|polices}} a government can adopt.",
+      "why": [
+        "After 'are' an adjective is needed, 'crucial for'; 'crucially' is an adverb and 'crux' is a noun.",
+        "'Lay the foundations' is the collocation and 'lay' is transitive; 'lie' is intransitive and cannot take 'the foundations' as an object.",
+        "The fixed pattern is 'be involved in crime', with a past participle; 'involving' would mean the participants were the ones including crime.",
+        "'One of the most' needs a plural noun, 'policies'; 'policy' is singular, 'politics' means the activity of governing and 'polices' is a verb."
+      ]
+    },
+    {
+      "id": "rw2-10",
+      "title": "Urbanisation",
+      "text": "For most of human history, the great majority of people lived in the countryside. Around 2007, however, the number of people living in urban areas {{exceeded|exceeding|excessive|excess}} the rural population for the first time. The movement of people from villages to cities is {{driven|drove|drive|driving}} largely by the search for work, education and better services. Rapid urbanisation can bring considerable economic benefits, but when cities expand faster than their infrastructure, many new residents end up in informal settlements {{lacking|lack|lacked|lacks}} clean water and proper sanitation. Planners {{therefore|although|whereas|despite}} face the difficult challenge of providing housing, transport and public services quickly enough to keep pace with growth.",
+      "why": [
+        "The subject 'the number of people' needs a finite past-tense verb, 'exceeded'; 'exceeding' leaves the sentence without a verb and 'excessive' is an adjective.",
+        "'Is ... by' is passive and needs the past participle 'driven'; 'driving' would make the movement the one doing the driving.",
+        "A present participle is needed to describe the settlements, 'lacking'; 'lacked' and 'lacks' would be a second finite verb with no subject.",
+        "An adverb of consequence fits between subject and verb, 'therefore'; 'although' and 'whereas' are conjunctions and 'despite' is a preposition."
+      ]
+    }
+  ]
+}

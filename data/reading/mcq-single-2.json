@@ -1,0 +1,153 @@
+{
+  "id": "mcq-single-2",
+  "task": "mcq-single",
+  "title": "Set 2",
+  "summary": "Ten more passages, one answer each: cuckoos to the Turing test.",
+  "items": [
+    {
+      "id": "ms2-01",
+      "title": "Cuckoos and their hosts",
+      "passage": "The common cuckoo is among the best-known brood parasites: rather than building a nest and raising its own young, the female lays her eggs in the nests of other species, such as reed warblers and meadow pipits, and leaves the hosts to do the work. She typically lays a single egg in each host nest, often removing one of the host's eggs as she does so, and the whole visit may last only a few seconds.\nThe cuckoo chick usually hatches before the host's own young. Within hours, while still blind and featherless, it instinctively pushes the other eggs or chicks over the rim of the nest, leaving itself as the sole object of its foster parents' care. It then grows rapidly, and its loud, rapid begging call has been shown to resemble the sound of a whole brood of host chicks, which appears to encourage the adults to bring food at a correspondingly high rate.\nThe hosts are not defenceless. Many species learn to recognise and reject eggs that differ from their own, and this has driven an evolutionary contest over time. Female cuckoos belong to distinct lineages that specialise in particular hosts, and the eggs of each lineage often closely match the colour and markings of their chosen host's eggs. Where host defences are strong, the mimicry tends to be more precise, suggesting that each side's adaptations have shaped the other's.",
+      "question": "Which of the following best expresses the main idea of the passage?",
+      "options": [
+        "Cuckoo chicks are larger than the chicks of the species that raise them.",
+        "Reed warblers and meadow pipits are unable to recognise eggs that are not their own.",
+        "The cuckoo exploits other species to raise its young, and this has produced an evolutionary contest between parasite and host.",
+        "Female cuckoos remove all of the host's eggs before laying their own.",
+        "The begging call of the cuckoo chick is the main reason for its survival."
+      ],
+      "answer": [2],
+      "note": "The passage describes how the cuckoo gets other birds to raise its young and ends on the 'evolutionary contest' between host defences and cuckoo egg mimicry. The begging call is one detail among several, not the point of the passage, and the female removes 'one of the host's eggs', not all of them. The passage says many hosts do learn to recognise foreign eggs, the opposite of the second option."
+    },
+    {
+      "id": "ms2-02",
+      "title": "Oral rehydration therapy",
+      "passage": "Diarrhoeal diseases such as cholera kill mainly through dehydration. The body loses water and salts faster than it can replace them, and for a long time the standard hospital treatment was to give fluids directly into a vein. Intravenous therapy is effective, but it requires sterile equipment, trained staff and a steady supply of fluid, all of which are scarce in the places where these diseases strike hardest.\nThe alternative, developed and tested in the 1960s and early 1970s, rested on a physiological discovery. Researchers found that the gut's ability to absorb sodium is linked to its absorption of glucose: when the two are present together, the intestine takes up both, and water follows. This mechanism continues to work even when the intestine is losing fluid rapidly through infection. A carefully balanced solution of salt, sugar and water, drunk by mouth, could therefore replace much of what the illness was taking away.\nThe treatment proved its value during the refugee crisis that accompanied the 1971 war of independence in Bangladesh, where intravenous supplies ran out and oral solution was used on a large scale with considerably lower death rates than had been feared. It has since been adopted around the world, and the medical journal The Lancet described it in 1978 as potentially the most important medical advance of the century. Its strength lies precisely in its simplicity: it is cheap, portable and can be given by parents at home.",
+      "question": "According to the passage, why does a solution of salt, sugar and water help a patient with cholera?",
+      "options": [
+        "Glucose and sodium are absorbed together by the intestine, and water is drawn in with them.",
+        "The sugar kills the bacteria that cause the infection.",
+        "It stops the intestine from losing fluid.",
+        "It is absorbed more quickly than fluid given directly into a vein."
+      ],
+      "answer": [0],
+      "note": "The passage says that when sodium and glucose are present together 'the intestine takes up both, and water follows'. The most tempting wrong option says the solution stops fluid loss, but the passage says the mechanism works 'even when the intestine is losing fluid': it replaces what is lost rather than preventing the loss. Nothing is said about killing bacteria or about speed compared with intravenous fluid."
+    },
+    {
+      "id": "ms2-03",
+      "title": "Light pollution",
+      "passage": "For most of human history, the night sky was dark enough for the Milky Way to be seen from almost anywhere. Today a large share of the world's population, and a clear majority of people in Europe and North America, live under skies so brightened by artificial light that it is no longer visible from home. Astronomers were the first to complain, but the effects of light at night extend well beyond the loss of a view.\nMany organisms rely on the daily cycle of light and dark to regulate their behaviour. Newly hatched sea turtles find the sea by moving towards the brighter horizon, which on an undeveloped coast is the one over the water; where hotels and roads are lit, hatchlings may crawl inland instead. Migrating birds that fly at night can be drawn off course by illuminated buildings, sometimes fatally. Insects gather around street lamps in great numbers, where many die from exhaustion or are eaten, and some researchers suspect this contributes to local declines in insect populations.\nUnlike most forms of pollution, however, light does not linger once its source is removed. Shielding lamps so that they shine downwards, dimming or switching them off late at night, and choosing warmer colours of light can reduce much of the harm without leaving streets unlit.",
+      "question": "What can be inferred from the passage about light pollution?",
+      "options": [
+        "It is more harmful to human health than air pollution.",
+        "It was first identified as a problem by biologists studying sea turtles.",
+        "It can be ended only by turning off all outdoor lighting.",
+        "Its effects on insects have been proved to cause worldwide population declines.",
+        "Its harmful effects could be reduced relatively quickly, because the problem ends when the light does."
+      ],
+      "answer": [4],
+      "note": "The passage says that light 'does not linger once its source is removed', so changing or dimming lamps would take effect at once. Astronomers, not biologists, were 'the first to complain', and the passage says the harm can be reduced 'without leaving streets unlit'. On insects it says only that 'some researchers suspect' a contribution to 'local' declines, which is far from proof of worldwide ones."
+    },
+    {
+      "id": "ms2-04",
+      "title": "The Luddites",
+      "passage": "The word 'Luddite' is now used loosely for anyone who dislikes new technology, but the original Luddites deserve a more careful hearing. They were textile workers in the English Midlands and North who, between 1811 and 1816, broke into workshops and smashed machinery, taking their name from a probably mythical leader called Ned Ludd.\nIt is tempting to dismiss them as people who simply failed to understand progress. Yet many were skilled craftsmen, such as framework knitters and croppers, who understood the machines very well. Their objection was less to machinery as such than to the way it was being used: to replace trained workers with cheaper, less skilled labour, to produce goods of lower quality, and to cut wages at a time when food prices were high and the war with France had disrupted trade. Some of the machines they attacked were not even new; what had changed was the way employers were using them.\nThe government's response was severe. Machine-breaking was made a capital offence in 1812, thousands of soldiers were deployed in the affected counties, and a number of Luddites were hanged or transported. The movement was suppressed, but the questions it raised, about who should share in the gains from new technology and who should bear its costs, have hardly gone away.",
+      "question": "What is the author's attitude towards the original Luddites?",
+      "options": [
+        "Contemptuous, because they tried to stop economic progress.",
+        "Sympathetic, arguing that their protest was more reasonable than their modern reputation suggests.",
+        "Neutral, since the author gives no view on whether their concerns were justified.",
+        "Admiring, because the author believes their methods were justified and effective."
+      ],
+      "answer": [1],
+      "note": "The author says they 'deserve a more careful hearing', rejects the idea that they 'failed to understand progress', and says the questions they raised 'have hardly gone away', which is a sympathetic view. It is not neutral, because the author clearly takes their concerns seriously. Nor does the author praise machine-breaking or call it effective: the movement 'was suppressed'."
+    },
+    {
+      "id": "ms2-05",
+      "title": "Network effects",
+      "passage": "A product is said to have network effects when its value to each user rises as more people use it. The telephone is the classic example: a single telephone is useless, two allow one conversation, and every additional subscriber adds new people whom all the existing subscribers can call. Social media platforms, messaging services and online marketplaces work in a similar way, since a buyer is drawn to the marketplace with the most sellers and a seller to the one with the most buyers.\nThese effects can make a market tip. Once one product gains a clear lead, its growing size makes it more attractive still, and customers may converge on it even if a rival is in some respects better. Switching becomes costly, not because the alternative is expensive, but because leaving means losing access to everyone who stayed behind. For this reason, markets with strong network effects often end up dominated by one or two firms, and competition authorities have taken a close interest in them.\nThe advantage is not unassailable, however. Network effects protect a leader only for as long as users continue to value the network more than the product's shortcomings. When a service becomes unreliable, or when a new product offers something that existing users care about enough to move together, a seemingly secure position can erode surprisingly fast.",
+      "question": "In the passage, the phrase 'make a market tip' most nearly means",
+      "options": [
+        "make prices in the market fall sharply",
+        "encourage customers to leave a generous payment",
+        "cause firms to share their customers with rivals",
+        "push the market decisively towards one leading product",
+        "make the market collapse entirely"
+      ],
+      "answer": [3],
+      "note": "The sentences that follow explain the phrase: once one product leads, it becomes 'more attractive still' and customers 'converge on it', so the market swings towards a single winner. 'Tip' here is the sense of tipping a balance, not a payment to a waiter. Nothing suggests prices falling or the market collapsing; it ends up 'dominated by one or two firms'."
+    },
+    {
+      "id": "ms2-06",
+      "title": "Groupthink",
+      "passage": "The term 'groupthink' was popularised by the psychologist Irving Janis in the early 1970s to describe a pattern he found in a number of disastrous foreign-policy decisions, among them the failed Bay of Pigs invasion of Cuba in 1961. His argument was that highly cohesive groups of capable people can reach worse decisions than their members would reach alone, because the desire for agreement comes to outweigh the careful assessment of alternatives.\nJanis identified several warning signs. Members of such groups tend to believe their group is invulnerable and morally in the right; they explain away information that challenges their plans; they censor their own doubts; and some members take it upon themselves to shield the leader from unwelcome views. Silence is read as agreement, so the group comes to believe it is unanimous when it is not.\nJanis also proposed remedies. A leader can hold back from stating a preference at the start of a discussion, invite outside experts to challenge the group, and assign one member the task of arguing against the favoured option. Later researchers have questioned how well the full model fits the evidence, and some of the cases Janis analysed have been reinterpreted. Nonetheless, his central warning, that agreement reached too comfortably should itself be treated as a cause for concern, remains widely taught in management and public administration.",
+      "question": "What is the main purpose of the passage?",
+      "options": [
+        "To explain the concept of groupthink, its warning signs and suggested remedies, while noting that it has been questioned.",
+        "To argue that the Bay of Pigs invasion failed solely because of groupthink.",
+        "To show that groups always make worse decisions than individuals.",
+        "To criticise Janis for relying on inaccurate historical cases."
+      ],
+      "answer": [0],
+      "note": "The three paragraphs cover the concept, its warning signs and its remedies, and the last one notes later doubts before concluding that the central warning 'remains widely taught'. The criticism is mentioned in one sentence and then set aside with 'Nonetheless', so it is not the purpose. The passage says cohesive groups 'can' decide worse, not that groups 'always' do, and never says the Bay of Pigs failed 'solely' because of groupthink."
+    },
+    {
+      "id": "ms2-07",
+      "title": "Learning by retrieval",
+      "passage": "Most students revise by rereading their notes or textbooks, often several times. It feels productive: the material becomes familiar, and familiarity is easily mistaken for knowledge. A substantial body of research in cognitive psychology suggests, however, that a different activity is considerably more effective for long-term retention, namely trying to recall information from memory.\nIn a typical experiment, students read a passage and then either read it again or take a test on it without looking back. On a test given a few minutes later, those who reread may perform as well or even slightly better. When the final test is delayed by days or a week, however, the students who practised recall usually remember considerably more. The act of retrieval appears to strengthen the memory itself and make it easier to reach again, rather than merely measuring what is already there.\nThe finding has practical consequences. Low-stakes quizzes, flashcards and the simple habit of closing the book and writing down everything one can remember all put it to use. The benefit appears even when learners get some answers wrong, especially if they are then shown the correct answer. Ironically, students often rate retrieval practice as less effective than rereading, precisely because it feels harder and exposes what they do not yet know.",
+      "question": "Which of the following would be the best title for the passage?",
+      "options": [
+        "Why Rereading Is Useless",
+        "The Dangers of Low-Stakes Quizzes",
+        "How Students Rate Their Own Revision",
+        "Memory Tests in the Classroom: A History",
+        "Remembering by Recalling: Why Testing Yourself Works"
+      ],
+      "answer": [4],
+      "note": "The whole passage argues that trying to recall information strengthens long-term memory, and the last paragraph shows how to use it. 'Why Rereading Is Useless' overstates the case: the passage says rereaders may do as well or better on an immediate test, only worse after a delay. How students rate their revision is one closing remark, and quizzes are recommended, not presented as dangerous."
+    },
+    {
+      "id": "ms2-08",
+      "title": "Code-switching",
+      "passage": "Code-switching is the practice of alternating between two or more languages, or between varieties of one language, within a single conversation or even a single sentence. It is extremely common wherever bilingual speakers meet, and for much of the twentieth century it was widely regarded as a sign of poor command of both languages, a kind of linguistic confusion.\nResearch since the 1970s has largely overturned that view. Linguists studying bilingual communities have found that switches do not occur at random. They tend to fall at points where the grammar of both languages is respected, so that a switch rarely produces a sentence that would be ungrammatical in either. Fluent bilinguals, moreover, are often the most skilled code-switchers, since switching smoothly requires a sound knowledge of both systems.\nSwitches also do social work. A speaker may change language to quote someone, to signal a change of topic, to mark a remark as a joke or an aside, or to express solidarity with a listener who shares the same background. The choice of language can itself carry meaning, as when a parent switches to the more formal language of the household to show that a request is serious. Seen in this light, code-switching is less a failure to keep two languages apart than an additional resource available only to those who command both.",
+      "question": "According to the passage, what have linguists found about where switches between languages occur?",
+      "options": [
+        "They occur randomly, whenever a speaker forgets a word.",
+        "They usually happen at the start of a new conversation.",
+        "They tend to occur at points where the rules of both languages are respected.",
+        "They occur most often in the speech of people with a poor command of both languages."
+      ],
+      "answer": [2],
+      "note": "The passage says switches 'tend to fall at points where the grammar of both languages is respected'. It states directly that they 'do not occur at random', and the idea that switching reflects poor command of both languages is the older view that research 'has largely overturned'. Nothing is said about switches clustering at the start of conversations."
+    },
+    {
+      "id": "ms2-09",
+      "title": "Judicial precedent",
+      "passage": "In common-law systems such as those of England, Australia and the United States, the decisions of judges are a source of law in their own right. Under the doctrine known as stare decisis, Latin for 'to stand by things decided', a court is generally bound to follow the earlier decisions of higher courts in the same hierarchy when a case raises the same legal question. What binds is not everything the earlier judge said but the reasoning essential to the decision, known as the ratio decidendi; remarks made in passing, called obiter dicta, may be persuasive but are not binding.\nThe doctrine serves several purposes. It makes the law more predictable, allowing people and their lawyers to anticipate how a dispute is likely to be resolved. It promotes fairness, in the sense that like cases are treated alike, and it spares courts from reopening settled questions in every new case.\nPrecedent is not, however, a rigid chain. A court may distinguish an earlier case by pointing to a material difference in the facts, and the highest courts can, in certain circumstances, depart from their own previous decisions. The House of Lords in England, for example, announced in 1966 that it would no longer regard itself as absolutely bound by its own past rulings. The system thus tries to balance certainty against the need for the law to develop.",
+      "question": "Which of the following can be inferred from the passage?",
+      "options": [
+        "Judges in common-law systems are not permitted to make remarks beyond what is needed to decide a case.",
+        "Before 1966, lower courts in England were free to ignore decisions of the House of Lords.",
+        "Precedent makes it impossible for the law to change over time.",
+        "A court facing a case with materially different facts may avoid following an earlier decision.",
+        "Obiter dicta are generally ignored by later courts."
+      ],
+      "answer": [3],
+      "note": "The passage says a court 'may distinguish an earlier case by pointing to a material difference in the facts', which means it need not follow that case. Obiter dicta exist and 'may be persuasive', so judges do make such remarks and later courts do not simply ignore them. The 1966 statement concerned the House of Lords and its own past rulings, not lower courts, and the last paragraph describes how the law can 'develop'."
+    },
+    {
+      "id": "ms2-10",
+      "title": "The Turing test",
+      "passage": "In a paper published in 1950, the mathematician Alan Turing set aside the question 'Can machines think?', which he considered too vague to be answered, and replaced it with a practical test he called the imitation game. A human interrogator holds typed conversations with two hidden participants, one a person and the other a machine, and must decide which is which. If the interrogator cannot reliably tell them apart, Turing suggested, we would have little reason to deny that the machine was thinking.\nThe proposal was attractive partly because it avoided arguments about what thinking really is. It judged a machine by its behaviour, just as, in everyday life, we judge other people to have minds from what they say and do.\nCritics have long argued that this is exactly its weakness. The philosopher John Searle offered a thought experiment, known as the Chinese Room, in which a person who understands no Chinese follows a rulebook for manipulating Chinese symbols and so produces replies indistinguishable from a native speaker's. The replies, Searle argued, would satisfy any observer, yet nobody in the room would understand a word. On this view, passing the test would show only that a system could imitate understanding, not that it possessed it. The debate has taken on new urgency now that computer programs can produce fluent text on almost any subject.",
+      "question": "Why does the author mention the Chinese Room?",
+      "options": [
+        "To show that Turing's test was originally designed for Chinese speakers.",
+        "To illustrate the objection that convincing behaviour may not demonstrate real understanding.",
+        "To prove that computers will never be able to think.",
+        "To explain how modern computer programs produce fluent text."
+      ],
+      "answer": [1],
+      "note": "The Chinese Room follows 'Critics have long argued that this is exactly its weakness', and its point is that replies could satisfy any observer while nobody understood a word. The author reports Searle's argument ('Searle argued', 'On this view') rather than presenting it as proof that machines can never think. Chinese is only the language in the thought experiment, and modern programs are mentioned only to say the debate matters more now."
+    }
+  ]
+}

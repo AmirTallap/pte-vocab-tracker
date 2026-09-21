@@ -1,0 +1,74 @@
+{
+  "id": "places-and-buildings",
+  "title": "Places and buildings",
+  "summary": "Rooms, structures and the parts of a town.",
+  "questions": [
+    {
+      "id": "place-01",
+      "clue": "This is the room below ground level, often used for storing wine or coal.",
+      "answer": "cellar",
+      "accept": ["basement"],
+      "note": "A basement is usually a habitable floor and a cellar is for storage, but both answer the clue."
+    },
+    {
+      "id": "place-02",
+      "clue": "This is a large building where goods are kept before they are sold or sent on.",
+      "answer": "warehouse",
+      "note": "The word joins ware, meaning goods for sale, to house. The same root gives us hardware and software."
+    },
+    {
+      "id": "place-03",
+      "clue": "This is the room where scientists carry out experiments.",
+      "answer": "laboratory",
+      "accept": ["lab"],
+      "note": "British English stresses the second syllable and American English the first, which makes it a useful word to hear both ways."
+    },
+    {
+      "id": "place-04",
+      "clue": "This is the sheltered stretch of water where boats can tie up safely.",
+      "answer": "harbour",
+      "accept": ["harbor", "port"],
+      "note": "Harbour is the water itself and a port is the harbour plus everything built around it. Both spellings are accepted."
+    },
+    {
+      "id": "place-05",
+      "clue": "This is the long narrow passage inside a building with rooms opening off it.",
+      "answer": "corridor",
+      "accept": ["hallway", "passage"],
+      "note": "Corridor and hallway are the ordinary British and American choices respectively."
+    },
+    {
+      "id": "place-06",
+      "clue": "This is the residential area on the outer edge of a city, mostly housing.",
+      "answer": "suburb",
+      "note": "From Latin words meaning under or near the city. The adjective is suburban."
+    },
+    {
+      "id": "place-07",
+      "clue": "This is the building where university students live, with many small rooms.",
+      "answer": "dormitory",
+      "accept": ["dorm", "halls"],
+      "note": "Dormitory is the American term and halls of residence the British one. From the Latin for sleep."
+    },
+    {
+      "id": "place-08",
+      "clue": "This is the solid base, built below ground, on which the rest of a building stands.",
+      "answer": "foundation",
+      "accept": ["foundations"],
+      "note": "Usually plural when talking about a building. The singular is the one used for an organisation or a principle."
+    },
+    {
+      "id": "place-09",
+      "clue": "This is the very large church that is the seat of a bishop.",
+      "answer": "cathedral",
+      "note": "From cathedra, the Latin for the bishop's chair. Size is not what makes it one; the bishop is."
+    },
+    {
+      "id": "place-10",
+      "clue": "This is the large open enclosure with tiered seating where sporting events are held.",
+      "answer": "stadium",
+      "accept": ["arena"],
+      "note": "The plural is stadiums or stadia. An arena is usually roofed and smaller, but it answers the clue."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G089",
+  "title": "Plastic bans and what replaces the plastic",
+  "field": "Environment",
+  "speakers": [
+    { "name": "Lowri", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Sanjay", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Elke", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Elke", "text": "Single-use cutlery, plates and stirrers are gone from next month. Paper or wood instead." },
+    { "speaker": "Sanjay", "text": "The wooden forks are genuinely unpleasant, which I accept is not an environmental argument." },
+    { "speaker": "Lowri", "text": "It's not nothing, though. If the replacement is bad enough people take two, you've lost some of the gain." },
+    { "speaker": "Elke", "text": "The bag data is the cautionary one. A cotton tote has to be reused a couple of thousand times to beat a thin plastic bag on carbon." },
+    { "speaker": "Sanjay", "text": "A couple of thousand?" },
+    { "speaker": "Elke", "text": "On some analyses, yes. Cotton is extremely thirsty and the bag is heavy. Paper is somewhere in between." },
+    { "speaker": "Lowri", "text": "Which sounds like an argument for plastic and isn't, because carbon isn't the only axis.", "gap": -0.12 },
+    { "speaker": "Lowri", "text": "A cotton bag that ends up in a hedge is a cotton bag in a hedge for a year. A plastic one is there for centuries." },
+    { "speaker": "Sanjay", "text": "So the right measure depends on which harm you're actually trying to stop." },
+    { "speaker": "Elke", "text": "And for cutlery it's litter and marine debris rather than carbon, so wood wins even if it's worse on emissions." },
+    { "speaker": "Lowri", "text": "The item-by-item bans do feel like theatre, mind you. It's a tiny share of plastic by weight." },
+    { "speaker": "Sanjay", "text": "Packaging is the real mass and nobody's touching it, because every supermarket depends on it." },
+    { "speaker": "Elke", "text": "Straws were always the easy thing to be seen doing." }
+  ],
+  "points": [
+    "Single-use plastic cutlery and plates are being banned in favour of paper and wood.",
+    "Elke cites bag analyses where a cotton tote must be reused thousands of times to beat thin plastic on carbon.",
+    "Lowri argues carbon is not the only measure, since plastic persists for centuries as litter while cotton degrades.",
+    "The appropriate measure depends on which harm is targeted, so wood wins for cutlery because litter and marine debris matter more than emissions.",
+    "Lowri notes item-by-item bans address a tiny share of plastic by weight.",
+    "Packaging represents the real mass and is untouched because retail depends on it."
+  ]
+}

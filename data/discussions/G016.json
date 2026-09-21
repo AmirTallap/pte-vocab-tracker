@@ -1,0 +1,33 @@
+{
+  "id": "G016",
+  "title": "Does a sugar tax actually work?",
+  "field": "Health and policy",
+  "speakers": [
+    { "name": "Ruth", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Andre", "voice": "am_michael", "speed": 0.97 },
+    { "name": "Lily", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Lily", "text": "The five-year figures are out. Sugar in soft drinks down about a third, and most of it happened before the tax even started." },
+    { "speaker": "Andre", "text": "Before? How does that work?" },
+    { "speaker": "Lily", "text": "It was announced two years ahead. The manufacturers reformulated to get under the threshold rather than pay it." },
+    { "speaker": "Ruth", "text": "So the tax barely collected anything, which everyone reported as a failure at the time." },
+    { "speaker": "Andre", "text": "That's genuinely clever policy design, then. You wanted the behaviour, not the money." },
+    { "speaker": "Ruth", "text": "The part I'd question is whether it moved anything that matters. Less sugar in one category isn't less sugar." },
+    { "speaker": "Lily", "text": "Total household sugar did fall. Not by as much as the drinks did, which suggests some of it came back as something else." },
+    { "speaker": "Andre", "text": "Chocolate, probably. It usually is." },
+    { "speaker": "Ruth", "text": "And it's regressive, which the objectors were right about. Poorer households spend a larger share on the taxed thing." },
+    { "speaker": "Lily", "text": "They also carry more of the disease it causes, though, so they gain more from it working.", "gap": -0.12 },
+    { "speaker": "Lily", "text": "You can't call a policy regressive on the cost side and ignore who collects the benefit." },
+    { "speaker": "Andre", "text": "That's fair. Although that argument would justify a lot of things people would hate." },
+    { "speaker": "Ruth", "text": "It would. Which is why I'd keep it to the cases where reformulation is actually possible." }
+  ],
+  "points": [
+    "Five years on, sugar in soft drinks fell by about a third, mostly before the tax took effect.",
+    "The two-year notice led manufacturers to reformulate below the threshold rather than pay, so little revenue was collected.",
+    "Andre reads that as good design, since the aim was the behaviour rather than the money.",
+    "Total household sugar fell less than drink sugar, suggesting partial substitution into other products.",
+    "Ruth accepts the regressive criticism, that poorer households spend a larger share on the taxed item.",
+    "Lily answers that those households also carry more of the related disease, so they gain more when it works; Ruth would limit such taxes to cases where reformulation is possible."
+  ]
+}

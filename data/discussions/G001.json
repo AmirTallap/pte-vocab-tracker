@@ -1,0 +1,32 @@
+{
+  "id": "G001",
+  "title": "Is the four-day week worth it?",
+  "field": "Work and business",
+  "speakers": [
+    { "name": "Hannah", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Marcus", "voice": "am_michael", "speed": 0.96 },
+    { "name": "Priya", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Hannah", "text": "So my company finished its four-day week trial last month, and they're keeping it. Same pay, Fridays off." },
+    { "speaker": "Marcus", "text": "Same pay? Okay, that surprises me. How did anyone sell that upstairs?", "gap": 0.1 },
+    { "speaker": "Hannah", "text": "Output didn't drop. That was the whole argument, really. They tracked it for six months and it came out more or less flat, and sick days fell by about a third." },
+    { "speaker": "Priya", "text": "Flat output while everybody knows they're being measured, though. That's not nothing, but it isn't proof either. People try harder when they're being watched." },
+    { "speaker": "Hannah", "text": "Sure, but six months is a long time to keep that up." },
+    { "speaker": "Marcus", "text": "What I want to know is what actually changed in the week. Because if it's the same work squashed into four days, that's not a shorter week, that's a longer day with better marketing." },
+    { "speaker": "Hannah", "text": "Meetings, mostly. We killed about half of them. Turns out a lot of what we were doing was updating each other about updating each other." },
+    { "speaker": "Priya", "text": "Right, and that's the bit I'd believe.", "gap": -0.15 },
+    { "speaker": "Priya", "text": "But it only works if your job is that kind of job. My sister's a nurse. You can't take a third off her ward and tell her to run fewer meetings." },
+    { "speaker": "Marcus", "text": "That's fair. It probably does land differently depending on the sector." },
+    { "speaker": "Hannah", "text": "Nobody's claiming it works everywhere. The point is it works somewhere, and most offices assumed it worked nowhere." },
+    { "speaker": "Priya", "text": "I'd just want to see it after three years, when the novelty's gone and nobody's writing a report about it." }
+  ],
+  "points": [
+    "Hannah's company kept the four-day week after a six-month trial, on the same pay, because measured output stayed roughly flat and sick days fell by about a third.",
+    "Priya questions the evidence: people work harder while they know they are being measured, so flat output during a trial is not proof.",
+    "Marcus's test is whether the work itself changed, or whether the same work was simply compressed into longer days.",
+    "Hannah says the saving came mostly from cutting about half the meetings.",
+    "Priya argues it only transfers to certain jobs, using nursing as a case where staffing cannot simply be reduced.",
+    "They end unresolved, with Priya wanting evidence from three years in, once the novelty and the scrutiny have gone."
+  ]
+}

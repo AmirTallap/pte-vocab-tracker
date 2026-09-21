@@ -1,0 +1,33 @@
+{
+  "id": "G025",
+  "title": "Are open-plan offices a mistake?",
+  "field": "Work and business",
+  "speakers": [
+    { "name": "Ana", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Will", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Jonah", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Will", "text": "They're knocking the partitions out on our floor. Open plan, hot desks, collaboration, the whole vocabulary." },
+    { "speaker": "Jonah", "text": "There's that study where two firms went open plan and face-to-face conversation dropped by about seventy per cent." },
+    { "speaker": "Ana", "text": "Dropped? Not rose?" },
+    { "speaker": "Jonah", "text": "Dropped. Email and messaging went up instead. People put headphones on and built a wall out of software." },
+    { "speaker": "Will", "text": "That matches everything I've watched happen. You don't start a conversation when nine people can hear it." },
+    { "speaker": "Ana", "text": "I'd say it depends enormously on the work, though. A design team genuinely does better overhearing each other. Anyone writing anything doesn't." },
+    { "speaker": "Jonah", "text": "So the failure is treating one layout as correct for every kind of task." },
+    { "speaker": "Ana", "text": "And the real reason is usually the floor plan costs less per head. Collaboration is the word you put on the slide afterwards.", "gap": -0.14 },
+    { "speaker": "Will", "text": "Which is fine. I'd just rather someone said it." },
+    { "speaker": "Jonah", "text": "The hot desking part is separate and I think it's worse. You lose the small things, knowing who sits where, noticing somebody's had a bad week." },
+    { "speaker": "Ana", "text": "That's the invisible cost. It doesn't show up anywhere until people start leaving." },
+    { "speaker": "Will", "text": "The compromise everyone lands on is zones. Quiet floor, loud floor, rooms you can actually book." },
+    { "speaker": "Ana", "text": "Which costs more than the open plan it replaced, so it tends to arrive after the damage." }
+  ],
+  "points": [
+    "A workplace is moving to open plan with hot desking.",
+    "Jonah cites research where face-to-face conversation fell by about seventy per cent after the change, replaced by email and messaging.",
+    "Will agrees people avoid conversations others can overhear.",
+    "Ana argues suitability depends on the work, helping design teams and harming anyone writing.",
+    "She adds that the real driver is cost per head, with collaboration used as justification afterwards.",
+    "Jonah separates hot desking as a further harm, losing incidental social knowledge; they agree zoned offices work but cost more and usually arrive too late."
+  ]
+}

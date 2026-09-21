@@ -1,0 +1,33 @@
+{
+  "id": "G034",
+  "title": "Rewilding and the farmers next door",
+  "field": "Environment and land",
+  "speakers": [
+    { "name": "Eve", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Callan", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Suki", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Suki", "text": "The estate's taking three thousand acres out of sheep and letting it go. Beavers in the river next spring." },
+    { "speaker": "Callan", "text": "The beaver part will be the fight. It always is." },
+    { "speaker": "Eve", "text": "For good reason, sometimes. They flood things. The difference is whether the people downstream were asked or told." },
+    { "speaker": "Suki", "text": "And the flooding is largely the point. A beaver wetland holds water back during heavy rain, so the town below floods less." },
+    { "speaker": "Callan", "text": "Which is a benefit to the town and a cost to the farmer whose bottom field is now a pond." },
+    { "speaker": "Eve", "text": "That's the whole thing in one sentence, really. Nobody's disputing the ecology. They're disputing who pays.", "gap": -0.13 },
+    { "speaker": "Suki", "text": "Payment for those services is meant to fix that, and it mostly hasn't arrived." },
+    { "speaker": "Callan", "text": "There's a cultural objection underneath it too, which gets dismissed as sentiment. Those hills have been grazed for eight hundred years. That landscape is also a human thing." },
+    { "speaker": "Eve", "text": "And rewilding tends to be bought by people from elsewhere, which doesn't help the argument." },
+    { "speaker": "Suki", "text": "No. Though the sheep economy up there survives on subsidy, so the choice isn't between wild land and a working farm." },
+    { "speaker": "Callan", "text": "That's true and nobody local likes hearing it." },
+    { "speaker": "Eve", "text": "It's the sort of fact that's correct and useless in a village hall." },
+    { "speaker": "Suki", "text": "Which is why the schemes that work start with the neighbours rather than the ecology." }
+  ],
+  "points": [
+    "An estate is taking three thousand acres out of sheep farming and reintroducing beavers.",
+    "Suki explains beaver wetlands hold back water during heavy rain, reducing flooding downstream.",
+    "Callan notes the benefit falls on the town while the cost falls on the farmer whose land floods.",
+    "Eve frames the dispute as being about who pays rather than about ecology, with payment for ecosystem services largely absent.",
+    "Callan raises a cultural objection, that centuries of grazing made the landscape a human creation, worsened by rewilding often being funded by outsiders.",
+    "Suki counters that upland sheep farming depends on subsidy, which Callan concedes is true but unwelcome locally."
+  ]
+}

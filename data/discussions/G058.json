@@ -1,0 +1,33 @@
+{
+  "id": "G058",
+  "title": "Should national service come back?",
+  "field": "Society and politics",
+  "speakers": [
+    { "name": "Elsie", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Raj", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Tor", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Raj", "text": "It's in the manifesto again. A year at eighteen, military or civic, and you choose which." },
+    { "speaker": "Tor", "text": "The military half is the bit the army itself doesn't want. Conscripts cost more to train and leave the moment they can." },
+    { "speaker": "Elsie", "text": "That's usually the killer argument and it's made by the people you'd expect to support it." },
+    { "speaker": "Raj", "text": "The civic version is more interesting, though. A year in care homes, conservation, that sort of thing." },
+    { "speaker": "Tor", "text": "Which is a real need. The worry is it becomes cheap labour propping up services that should be properly staffed.", "gap": -0.13 },
+    { "speaker": "Tor", "text": "You don't fix a care sector by handing it eighteen-year-olds for a year at a time." },
+    { "speaker": "Elsie", "text": "The social mixing argument is the one I find genuinely attractive. Most people now go through life meeting nobody from outside their own bracket." },
+    { "speaker": "Raj", "text": "Although that only works if it's universal. The moment there's an exemption, it's the same people again." },
+    { "speaker": "Elsie", "text": "And there's always an exemption." },
+    { "speaker": "Tor", "text": "The countries that kept it tend to have small, broadly equal populations, which is doing a lot of the work people attribute to the policy." },
+    { "speaker": "Raj", "text": "So the thing being copied might be the society rather than the scheme." },
+    { "speaker": "Elsie", "text": "You could get most of the benefit voluntarily and paid, mind you. That exists and it's chronically underfunded." },
+    { "speaker": "Tor", "text": "Which is less satisfying than compelling people, politically speaking." }
+  ],
+  "points": [
+    "A proposal would require a year of military or civic service at eighteen.",
+    "Tor notes the armed forces themselves resist conscription, as conscripts cost more to train and leave quickly.",
+    "The civic option meets real needs but risks becoming cheap labour substituting for proper staffing.",
+    "Elsie finds the social mixing argument attractive, since people rarely meet others outside their own bracket.",
+    "Raj argues this requires universality, and exemptions always emerge.",
+    "Tor suggests countries with successful schemes are small and equal societies, so the society rather than the policy may explain the outcome; Elsie notes voluntary paid schemes already exist but are underfunded."
+  ]
+}

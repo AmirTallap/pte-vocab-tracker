@@ -1,0 +1,33 @@
+{
+  "id": "G062",
+  "title": "Is peer review doing its job?",
+  "field": "Science and publishing",
+  "speakers": [
+    { "name": "Anders", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Rina", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Paulo", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Rina", "text": "Fourteen months from submission to acceptance. Two reviewers, one of whom clearly read the abstract and stopped." },
+    { "speaker": "Paulo", "text": "And it's unpaid, which is the fact that surprises people outside it." },
+    { "speaker": "Anders", "text": "Unpaid, done at midnight, by someone with their own deadlines. The wonder is that it works at all." },
+    { "speaker": "Rina", "text": "Does it, though? It very rarely catches fraud, because a reviewer sees a manuscript, not the underlying data." },
+    { "speaker": "Anders", "text": "It was never designed to catch fraud. It's meant to catch confusion and overreach, and it's reasonable at that.", "gap": -0.12 },
+    { "speaker": "Anders", "text": "The trouble is everyone outside treats publication as a stamp of truth rather than as a filter for obvious problems." },
+    { "speaker": "Paulo", "text": "Which journalists then report as fact, and the qualification never survives the headline." },
+    { "speaker": "Rina", "text": "Preprints are interesting here. Everything appears immediately and the reviewing happens in public afterwards." },
+    { "speaker": "Paulo", "text": "That worked well in some fields and badly during the pandemic, when the public was reading them." },
+    { "speaker": "Anders", "text": "The failure mode is different, not worse. Slow and hidden versus fast and messy." },
+    { "speaker": "Rina", "text": "Paying reviewers is the obvious fix nobody does." },
+    { "speaker": "Paulo", "text": "The publishers make enormous margins on work donated by the same academics who then buy it back." },
+    { "speaker": "Anders", "text": "Which is the part of the system that genuinely cannot be defended on any grounds." }
+  ],
+  "points": [
+    "Peer review is slow, with a fourteen-month example, and reviewing quality is uneven.",
+    "Reviewers are unpaid and work alongside their own commitments.",
+    "Rina notes it rarely catches fraud, since reviewers see manuscripts rather than data.",
+    "Anders argues it was designed to catch confusion and overreach, and the problem is outsiders treating publication as proof of truth.",
+    "Preprints reverse the order, publishing immediately with public review, which worked in some fields and poorly during the pandemic.",
+    "They agree publisher margins on donated academic labour, sold back to universities, are the least defensible part of the system."
+  ]
+}

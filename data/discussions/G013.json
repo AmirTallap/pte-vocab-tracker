@@ -1,0 +1,33 @@
+{
+  "id": "G013",
+  "title": "Should unpaid internships be banned?",
+  "field": "Work and business",
+  "speakers": [
+    { "name": "Dev", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Orla", "voice": "bf_emma", "speed": 1.03 },
+    { "name": "Kim", "voice": "af_bella", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Orla", "text": "The committee's recommending a straight ban. Any internship over four weeks has to be paid at least the minimum wage." },
+    { "speaker": "Dev", "text": "I got my entire career from an unpaid one. Three months, no money, and it's the only reason anyone would see me." },
+    { "speaker": "Kim", "text": "Which is sort of the argument against it, though. You could afford three months without pay. Most people can't." },
+    { "speaker": "Dev", "text": "I lived with my parents twenty minutes away. Yes, I know." },
+    { "speaker": "Orla", "text": "That's the whole finding, really. They looked at who takes them, and it's overwhelmingly people whose families are already in the city with a spare room." },
+    { "speaker": "Kim", "text": "So the profession recruits from the profession, generation after generation, and calls it merit." },
+    { "speaker": "Dev", "text": "Fine, but what actually happens if you ban them? Do those places create paid roles, or do they just stop offering anything at all?" },
+    { "speaker": "Orla", "text": "Mixed, from the countries that did it. Some cut the numbers. Overall the paid intake went up." },
+    { "speaker": "Dev", "text": "Up by how much? Because fewer, better positions still means fewer.", "gap": 0.1 },
+    { "speaker": "Kim", "text": "Fewer positions that more people can actually reach, though.", "gap": -0.14 },
+    { "speaker": "Kim", "text": "Ten paid places open to everybody beats forty free ones open to people with a spare room." },
+    { "speaker": "Orla", "text": "And small charities do get hurt by it. That part of the objection is real and nobody's answered it properly." },
+    { "speaker": "Dev", "text": "Alright. I think I'm arguing for the ladder I climbed rather than for the ladder." }
+  ],
+  "points": [
+    "A committee recommends banning unpaid internships longer than four weeks.",
+    "Dev credits an unpaid internship for his career, but concedes he could only do it because he lived near his parents.",
+    "Orla cites evidence that intakes are dominated by people whose families already live in the city.",
+    "Kim argues this makes professions recruit from themselves while calling it merit.",
+    "Where bans exist, some employers cut places but paid intake rose overall.",
+    "Kim's position is that fewer accessible places beat more inaccessible ones; they agree small charities are genuinely harmed and that objection is unanswered."
+  ]
+}

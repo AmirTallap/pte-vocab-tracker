@@ -1,0 +1,123 @@
+{
+  "id": "reorder-2",
+  "task": "reorder",
+  "title": "Set 2",
+  "summary": "Ten more texts to reorder, from railway time to public-key cryptography.",
+  "items": [
+    {
+      "id": "o2-01",
+      "title": "Railway time",
+      "paragraphs": [
+        "Until the middle of the nineteenth century, most towns in Britain kept their own local time, set by the position of the sun overhead.",
+        "Under this arrangement, clocks in Bristol ran roughly ten minutes behind those in London, a difference that mattered little while travel was slow.",
+        "Fast railway travel changed this, because timetables that listed a different local time at each station were confusing and potentially dangerous.",
+        "To solve the problem, railway companies gradually adopted a single standard based on Greenwich Mean Time, which became known as railway time.",
+        "It was not until 1880, however, that Greenwich Mean Time was made the legal time throughout Great Britain."
+      ],
+      "note": "The first sentence describes the situation with no back-reference, so it opens. 'This arrangement' refers to local time, 'Fast railway travel changed this' answers 'while travel was slow', 'the problem' is the confusing timetables, and 'however' in the last contrasts the legal change of 1880 with the railways' earlier informal adoption."
+    },
+    {
+      "id": "o2-02",
+      "title": "Lichens",
+      "paragraphs": [
+        "A lichen, although it often looks like a single plant, is in fact a partnership between a fungus and an organism capable of photosynthesis, usually an alga or a cyanobacterium.",
+        "In this partnership, the photosynthetic partner produces sugars from sunlight, some of which it passes to the fungus.",
+        "The fungus, in return, provides a protective structure that shields its partner from drying out and from intense light.",
+        "This mutual arrangement allows lichens to colonise bare rock, tree bark and other harsh surfaces where neither partner could survive easily on its own."
+      ],
+      "note": "Only the first sentence says what a lichen is. 'This partnership' refers back to it, 'in return' in the third only works after the fungus has received something in the second, and 'This mutual arrangement' needs both directions of the exchange before it can draw the conclusion."
+    },
+    {
+      "id": "o2-03",
+      "title": "Franchising",
+      "paragraphs": [
+        "Franchising is a business model in which a company allows independent operators to trade under its name in exchange for fees.",
+        "The company granting these rights, known as the franchisor, typically supplies its brand, its methods and often its products or ingredients.",
+        "The franchisee, in turn, provides the capital to open and run each outlet and keeps a share of the profits it generates.",
+        "For the franchisor, this division of costs makes it possible to expand far more rapidly than it could by funding every new branch itself.",
+        "The price of that speed, however, is a loss of direct control, since the quality of service depends on many separate owners."
+      ],
+      "note": "The definition opens. 'These rights' refers to the permission to trade under the company's name, 'in turn' makes the franchisee's role a reply to the franchisor's, 'this division of costs' needs both roles described, and 'that speed' refers to the rapid expansion, with 'however' introducing the drawback."
+    },
+    {
+      "id": "o2-04",
+      "title": "The Oxford English Dictionary",
+      "paragraphs": [
+        "In 1857 members of the Philological Society of London called for a new dictionary that would record the history of every English word.",
+        "The project they launched relied heavily on volunteers, who read books from every period and sent in slips of paper showing how words had been used.",
+        "Among the most prolific of these contributors was William Chester Minor, an American former army surgeon who was confined to an asylum at the time.",
+        "Even with helpers as dedicated as Minor, progress was so slow that the final volume of what became the Oxford English Dictionary did not appear until 1928."
+      ],
+      "note": "The dated call for a new dictionary opens, since 'The project they launched' needs a 'they' and a project. 'These contributors' refers to the volunteers, and 'helpers as dedicated as Minor' in the last can only follow the paragraph that introduces him."
+    },
+    {
+      "id": "o2-05",
+      "title": "Lithium-ion batteries",
+      "paragraphs": [
+        "Lithium-ion batteries power most of today's portable electronics, from mobile phones to laptops, as well as a growing number of electric vehicles.",
+        "Their popularity stems largely from lithium itself, which is the lightest of all metals and readily gives up electrons.",
+        "When such a battery discharges, lithium ions travel through an electrolyte from the negative electrode to the positive one, releasing energy that powers the device.",
+        "Charging reverses this movement, pushing the ions back to the negative electrode so that the cycle can begin again.",
+        "The ability to repeat this cycle hundreds of times made the batteries commercially viable, and their development earned three scientists the Nobel Prize in Chemistry in 2019."
+      ],
+      "note": "The first sentence names the batteries and so opens. 'Their popularity' refers to that widespread use, 'such a battery' needs the battery already introduced, 'Charging reverses this movement' can only follow the discharge just described, and 'this cycle' in the last refers to the charge and discharge together."
+    },
+    {
+      "id": "o2-06",
+      "title": "Broken windows theory",
+      "paragraphs": [
+        "The 'broken windows' theory was proposed in 1982 by the social scientists James Q. Wilson and George Kelling in an article in The Atlantic Monthly.",
+        "They argued that visible signs of disorder, such as a broken window left unrepaired, signal that nobody is in control of an area.",
+        "According to the theory, this impression encourages further vandalism and, eventually, more serious crime in the neighbourhood.",
+        "Although the idea strongly influenced policing in New York during the 1990s, researchers still disagree about how much of the city's subsequent fall in crime it can explain."
+      ],
+      "note": "The first sentence names the theory and its authors, so it opens. 'They' refers to Wilson and Kelling, 'this impression' refers to the sense that nobody is in control, and the last, which evaluates the idea's influence, needs the full argument set out first."
+    },
+    {
+      "id": "o2-07",
+      "title": "U-shaped valleys",
+      "paragraphs": [
+        "Many mountain valleys in regions such as the Alps and the Scottish Highlands have a distinctive U-shaped cross-section, with steep sides and a broad, flat floor.",
+        "This shape is evidence that the valleys were once occupied by glaciers, which were far more extensive during the last ice age.",
+        "Before the ice arrived, most of these valleys had been cut by rivers, which tend to produce a narrower V-shaped profile.",
+        "As a glacier moved slowly downhill, rock fragments frozen into its base scraped against the valley floor and walls, widening and deepening the river's original channel.",
+        "When the ice finally melted, it left behind the broad trough that is visible today, often with smaller tributary valleys hanging high above its floor."
+      ],
+      "note": "The description of the valleys opens. 'This shape' refers to the U-shape, 'Before the ice arrived' needs the glaciers introduced in the second, 'the river's original channel' needs the rivers of the third, and 'When the ice finally melted' ends the sequence of arrival, erosion and retreat."
+    },
+    {
+      "id": "o2-08",
+      "title": "Tulip mania",
+      "paragraphs": [
+        "In the 1630s, tulips, which had been introduced to Europe from the Ottoman Empire only decades earlier, became highly fashionable among wealthy collectors in the Dutch Republic.",
+        "Demand was greatest for rare varieties with streaked, flame-like petals, an effect now known to have been caused by a virus.",
+        "Because these bulbs were so scarce, traders began buying contracts for future delivery in the hope of reselling them at a profit, and prices rose sharply.",
+        "In February 1637, however, buyers suddenly failed to appear at a sale in Haarlem, and the market collapsed within days."
+      ],
+      "note": "The first sentence introduces tulips and the setting, so it opens. 'Demand' presupposes the fashion just described, 'these bulbs' refers to the rare streaked varieties, and 'however' in the last reverses the rising prices, with its date following the 1630s."
+    },
+    {
+      "id": "o2-09",
+      "title": "Public-key cryptography",
+      "paragraphs": [
+        "For centuries, anyone who wanted to send a secret message faced the same difficulty: sender and receiver first had to share a secret key.",
+        "Exchanging that key securely was itself a problem, since anyone who intercepted it could read every message that followed.",
+        "In 1976 Whitfield Diffie and Martin Hellman proposed a way around this obstacle: public-key cryptography, which uses pairs of mathematically linked keys.",
+        "One key in each pair can be made public and used by anyone to encrypt a message, while the other is kept private by its owner.",
+        "Only this private key can decrypt what the public one has locked, so the two parties never need to meet or exchange a secret in advance."
+      ],
+      "note": "The first sentence states the long-standing difficulty and opens. 'That key' refers to the shared secret key, 'this obstacle' is the problem of exchanging it, 'each pair' needs the pairs of keys just introduced, and 'this private key' refers to the one kept by its owner."
+    },
+    {
+      "id": "o2-10",
+      "title": "The modern Olympic Games",
+      "paragraphs": [
+        "The ancient Olympic Games, held at Olympia in honour of Zeus, came to an end in the late fourth century AD.",
+        "Some fifteen centuries later, the French educator Pierre de Coubertin campaigned to revive them as an international competition.",
+        "His efforts led to the first modern Games, which were held, fittingly, in Athens in 1896.",
+        "Since then the event has grown from a few hundred athletes to many thousands, although it has been cancelled on three occasions because of world wars."
+      ],
+      "note": "The ancient Games open, since 'Some fifteen centuries later' and 'revive them' need them already mentioned. 'His efforts' refers to Coubertin, and 'Since then' needs the 1896 Games as its starting point."
+    }
+  ]
+}

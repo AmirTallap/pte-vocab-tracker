@@ -1,0 +1,33 @@
+{
+  "id": "G086",
+  "title": "Are we over-diagnosing everything?",
+  "field": "Medicine and society",
+  "speakers": [
+    { "name": "Susan", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Ravi", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Elif", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Ravi", "text": "Adult referrals have gone up about eightfold in a decade. Somebody at the meeting called it a fashion." },
+    { "speaker": "Elif", "text": "Which is the word that ends the conversation rather than starting one." },
+    { "speaker": "Susan", "text": "The rise is real and so is the previous undercount. Both can be true, and mostly people argue as if only one can." },
+    { "speaker": "Ravi", "text": "Who was missed before?" },
+    { "speaker": "Susan", "text": "Girls, overwhelmingly. The diagnostic criteria were built on studies of boys, so a quieter presentation simply didn't register." },
+    { "speaker": "Elif", "text": "So a lot of what looks like a surge is a backlog of forty-year-olds finally getting an explanation.", "gap": -0.13 },
+    { "speaker": "Ravi", "text": "That's persuasive for the adult figures. It's less obviously true for the children." },
+    { "speaker": "Susan", "text": "Agreed, and there the threshold question is genuine. The line between a trait and a disorder is drawn by committee and it has moved." },
+    { "speaker": "Elif", "text": "The functional criterion is meant to hold that, though. It's a disorder if it impairs your life." },
+    { "speaker": "Ravi", "text": "Which depends on what your life demands. The same person is impaired in one job and fine in another." },
+    { "speaker": "Susan", "text": "That's the honest complexity. It's partly a fact about a person and partly about the environment they're in." },
+    { "speaker": "Elif", "text": "The waiting lists are the immediate problem anyway. Five years for an assessment makes the debate academic." },
+    { "speaker": "Ravi", "text": "And pushes people to private services with an obvious incentive." }
+  ],
+  "points": [
+    "Adult referrals have risen roughly eightfold in a decade, dismissed by some as fashion.",
+    "Susan argues both a genuine rise and a previous undercount can be true simultaneously.",
+    "Diagnostic criteria built on studies of boys meant quieter presentations, particularly in girls, went unrecognised.",
+    "Elif suggests much of the adult increase reflects a backlog of belated diagnoses.",
+    "For children, the threshold between trait and disorder is set by committee and has shifted, with the functional criterion depending on environmental demands.",
+    "Five-year waiting lists make the debate academic and push people towards private services with obvious incentives."
+  ]
+}

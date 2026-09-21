@@ -1,0 +1,33 @@
+{
+  "id": "G010",
+  "title": "Do electric cars actually help?",
+  "field": "Environment and technology",
+  "speakers": [
+    { "name": "Ian", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Maya", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Chris", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Chris", "text": "My brother-in-law keeps telling me the electric car is worse for the planet because of the battery. Every single time I see him." },
+    { "speaker": "Maya", "text": "It's worse to build. That part's true. Making the battery puts you in debt before you've driven anywhere." },
+    { "speaker": "Ian", "text": "How far before you're even?" },
+    { "speaker": "Maya", "text": "Depends almost entirely on the grid you charge from. Somewhere with a lot of coal, maybe fifty or sixty thousand miles. Somewhere mostly renewable, it can be under fifteen." },
+    { "speaker": "Chris", "text": "That's a big range." },
+    { "speaker": "Maya", "text": "It is, and it's the whole argument. People quote whichever end suits them." },
+    { "speaker": "Ian", "text": "There's a second thing that bothers me, which is that it's still a car. Two tonnes of metal to move one person to work. We're solving the fuel and keeping the traffic." },
+    { "speaker": "Chris", "text": "And the tyre dust, apparently. Which is worse, because they're heavier." },
+    { "speaker": "Maya", "text": "That's right, and it's the part nobody legislates because it doesn't come out of a pipe." },
+    { "speaker": "Ian", "text": "So the honest position is, better than petrol, nowhere near as good as not driving.", "gap": -0.12 },
+    { "speaker": "Maya", "text": "Yes. Exactly that." },
+    { "speaker": "Chris", "text": "I'm going to say that to him and he's going to hear the first half only." },
+    { "speaker": "Ian", "text": "Everyone does. That's why the argument never ends." }
+  ],
+  "points": [
+    "Building an electric car has a higher carbon cost than a petrol one, chiefly because of the battery.",
+    "The break-even distance depends mainly on the electricity grid: roughly fifty to sixty thousand miles on a coal-heavy grid, under fifteen thousand on a largely renewable one.",
+    "Maya notes the wide range is why both sides can quote a figure that suits them.",
+    "Ian's second objection is that an electric car is still a car, so congestion and the mass moved per person are unchanged.",
+    "Heavier vehicles produce more tyre particulates, which are not regulated because they are not tailpipe emissions.",
+    "Their agreed position is that electric cars are better than petrol but far worse than not driving."
+  ]
+}

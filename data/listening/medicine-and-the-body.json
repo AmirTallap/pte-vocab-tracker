@@ -1,0 +1,72 @@
+{
+  "id": "medicine-and-the-body",
+  "title": "Medicine and the body",
+  "summary": "Instruments, conditions and the people who treat them.",
+  "questions": [
+    {
+      "id": "med-01",
+      "clue": "A doctor uses this instrument to listen to your heart and your lungs.",
+      "answer": "stethoscope",
+      "note": "From the Greek for chest and examine. It is the object hanging round the neck in every photograph of a doctor."
+    },
+    {
+      "id": "med-02",
+      "clue": "This is a doctor who is trained to perform operations.",
+      "answer": "surgeon",
+      "note": "A physician treats illness with medicine; a surgeon operates. In British hospitals a senior surgeon is called Mister rather than Doctor."
+    },
+    {
+      "id": "med-03",
+      "clue": "This is the shop where you hand in a prescription and collect your medicine.",
+      "answer": "pharmacy",
+      "accept": ["chemist", "chemist's", "drugstore"],
+      "note": "Chemist is the usual British word and drugstore the American one, so all three are accepted."
+    },
+    {
+      "id": "med-04",
+      "clue": "This is a strip of soft cloth wrapped around a wound to protect it while it heals.",
+      "answer": "bandage",
+      "accept": ["dressing"],
+      "note": "A dressing is the pad placed directly on the wound and a bandage holds it there, but the words are used interchangeably in ordinary speech."
+    },
+    {
+      "id": "med-05",
+      "clue": "This is an injection that teaches your body to resist a disease before you ever catch it.",
+      "answer": "vaccine",
+      "accept": ["vaccination", "jab"],
+      "note": "The vaccine is the substance and the vaccination is the act of giving it. Jab is informal British English for the same thing."
+    },
+    {
+      "id": "med-06",
+      "clue": "This is a sign in your body that suggests you are ill, such as a headache or a rash.",
+      "answer": "symptom",
+      "note": "A symptom is what the patient notices. What the doctor observes and measures is called a sign."
+    },
+    {
+      "id": "med-07",
+      "clue": "This is the complete framework of bones that supports your body.",
+      "answer": "skeleton",
+      "note": "An adult human skeleton has two hundred and six bones. A baby is born with about three hundred, and many of them fuse together."
+    },
+    {
+      "id": "med-08",
+      "clue": "This is a harmful reaction your body has to something that is usually harmless, like pollen or nuts.",
+      "answer": "allergy",
+      "note": "The immune system treats a safe substance as a threat. The substance itself is called an allergen."
+    },
+    {
+      "id": "med-09",
+      "clue": "This is the drug given before an operation so that the patient feels no pain.",
+      "answer": "anaesthetic",
+      "accept": ["anesthetic", "anaesthesia", "anesthesia"],
+      "note": "British English keeps the a before the e; American English drops it. Both spellings are accepted here."
+    },
+    {
+      "id": "med-10",
+      "clue": "This is the medical word for the regular beating of your heart, counted in beats per minute.",
+      "answer": "pulse",
+      "accept": ["heartbeat"],
+      "note": "Strictly the pulse is the wave you can feel in an artery, produced by each heartbeat, but either word answers the clue."
+    }
+  ]
+}

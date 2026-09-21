@@ -1,0 +1,33 @@
+{
+  "id": "G066",
+  "title": "Vertical farming and the electricity bill",
+  "field": "Agriculture and technology",
+  "speakers": [
+    { "name": "Sunita", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Ward", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Elsa", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Ward", "text": "Another one went under last month. Third big vertical farm in two years." },
+    { "speaker": "Elsa", "text": "They were all built when electricity was cheap and money was free. Both of those stopped at once." },
+    { "speaker": "Sunita", "text": "That's the core of it. You're replacing sunlight, which is free, with electricity, which is not." },
+    { "speaker": "Ward", "text": "The pitch was always water and land savings, though, and those are genuine." },
+    { "speaker": "Sunita", "text": "They are. Ninety-odd per cent less water, a fraction of the land, no pesticide. None of which matters if the lighting cost exceeds the crop's value." },
+    { "speaker": "Elsa", "text": "Which is why it's all salad leaves and herbs. High value, low energy, short cycle.", "gap": -0.12 },
+    { "speaker": "Elsa", "text": "Nobody is growing wheat in a tower and nobody sensible ever claimed they would." },
+    { "speaker": "Ward", "text": "The claim was made quite a lot in the funding rounds, actually." },
+    { "speaker": "Sunita", "text": "By people raising money rather than by agronomists, which is a distinction worth keeping." },
+    { "speaker": "Elsa", "text": "Where it does work is somewhere with cheap power and expensive imports. Iceland, the Gulf, remote islands." },
+    { "speaker": "Ward", "text": "So it's a niche technology that was sold as a replacement for farming." },
+    { "speaker": "Sunita", "text": "And the backlash now overshoots the other way, which is a shame, because the niche is real." },
+    { "speaker": "Elsa", "text": "That's the usual arc. Oversold, dismissed, then quietly useful." }
+  ],
+  "points": [
+    "Several large vertical farms have failed, built when electricity and capital were cheap.",
+    "Sunita identifies the core problem as replacing free sunlight with purchased electricity.",
+    "Water, land and pesticide savings are genuine but irrelevant if lighting costs exceed crop value.",
+    "This restricts viable crops to high-value, low-energy salad leaves and herbs rather than staples.",
+    "Elsa notes viability where power is cheap and imports expensive, such as Iceland, the Gulf and remote islands.",
+    "They conclude the technology was oversold as a replacement for farming and is now dismissed too readily, though the niche is real."
+  ]
+}

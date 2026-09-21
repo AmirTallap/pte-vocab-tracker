@@ -1,0 +1,33 @@
+{
+  "id": "G090",
+  "title": "Teaching university courses in English",
+  "field": "Education and language",
+  "speakers": [
+    { "name": "Ilse", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Hakim", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Noor", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Noor", "text": "Two thirds of the master's programmes here are taught in English now, in a country where that isn't the language." },
+    { "speaker": "Hakim", "text": "Which brings in international students and the fees that come with them." },
+    { "speaker": "Ilse", "text": "And makes the research readable by everyone, which genuinely matters in a small language." },
+    { "speaker": "Noor", "text": "The cost is that the subject stops existing in the local language. Nobody's writing new terminology for it." },
+    { "speaker": "Ilse", "text": "That's the long-term worry. A language that can't discuss immunology in its own words has lost something it won't get back easily.", "gap": -0.13 },
+    { "speaker": "Hakim", "text": "Is there evidence about the learning itself?" },
+    { "speaker": "Noor", "text": "There is, and it's mixed. Students in a second language ask fewer questions and take worse notes, at least early on." },
+    { "speaker": "Ilse", "text": "And the lecturer is often in their second language too, which nobody mentions." },
+    { "speaker": "Hakim", "text": "That's the part I'd fix first. A brilliant researcher teaching badly in English is worse than teaching well in anything." },
+    { "speaker": "Noor", "text": "The Dutch pushed back on this and capped the proportion, largely on access grounds rather than culture." },
+    { "speaker": "Ilse", "text": "Because local students were being priced and taught out of their own universities." },
+    { "speaker": "Hakim", "text": "A split seems reasonable. Undergraduate in the local language, postgraduate in English." },
+    { "speaker": "Noor", "text": "Which is roughly where most systems end up after arguing about it for a decade." }
+  ],
+  "points": [
+    "Two thirds of master's programmes are taught in English in a non-English-speaking country, attracting international fees.",
+    "Ilse notes the benefit of research being widely readable, important for a small language.",
+    "The cost is that academic subjects cease to exist in the local language, with no new terminology being developed.",
+    "Evidence on learning is mixed, with second-language students asking fewer questions and taking poorer notes early on.",
+    "Lecturers are often also working in a second language, which Hakim would address first.",
+    "The Dutch capped English-taught provision on access grounds, and they conclude a split between local-language undergraduate and English postgraduate teaching is the common outcome."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "mcq-single-4",
+  "task": "mcq-single",
+  "title": "Set 4",
+  "summary": "Ten more passages, one answer each: tree rings to the trolley problem.",
+  "items": [
+    {
+      "id": "ms4-01",
+      "title": "Reading tree rings",
+      "passage": "In regions with a distinct growing season, a tree adds a new layer of wood each year. Wood formed early in the season, when growth is rapid, tends to be pale and open, while wood formed later is denser and darker, so that each year appears in a cut trunk as a visible ring. Counting the rings gives the age of the tree, but the rings record more than time. In a favourable year a tree typically lays down a wide ring, and in a year of drought or cold a narrow one.\nBecause trees of the same species growing in the same region respond to the same weather, they share a recognisable pattern of wide and narrow rings. This is the basis of dendrochronology, the scientific dating of wood. By matching the overlapping patterns of living trees, old timbers from buildings, and wood preserved in bogs, researchers have built continuous chronologies stretching back thousands of years. A beam from a medieval barn can then be dated, often to the exact year in which the tree was felled, by finding where its sequence of rings fits into the master record.\nTree rings have also become an important source of evidence about past climate. Since ring width and wood density reflect growing conditions, long chronologies can be used to reconstruct rainfall and temperature for centuries before instruments were available. They have also been used to check and refine radiocarbon dating, which depends on knowing how the amount of carbon-14 in the atmosphere has varied over time.",
+      "question": "According to the passage, how can the year in which the tree for a timber was felled be determined?",
+      "options": [
+        "By counting the rings from the centre of the beam outwards.",
+        "By matching the pattern of its rings to a long master record built from many samples.",
+        "By measuring the amount of carbon-14 in the beam's outer ring.",
+        "By comparing the colour of its early and late wood."
+      ],
+      "answer": [1],
+      "note": "The passage says a beam 'can then be dated, often to the exact year in which the tree was felled, by finding where its sequence of rings fits into the master record'. Counting rings gives only the tree's age, not the calendar year. Tree rings are said to check radiocarbon dating, not the other way round, and the colours of early and late wood are what make each ring visible, not a way of dating it."
+    },
+    {
+      "id": "ms4-02",
+      "title": "Herd immunity",
+      "passage": "When enough people in a population are immune to an infectious disease, whether through vaccination or previous infection, the disease has difficulty spreading, because an infected person is unlikely to meet someone who can catch it. This indirect protection is called herd immunity, or community immunity, and it benefits people who cannot be vaccinated themselves, such as very young babies and some people with weakened immune systems.\nThe proportion of immune people needed to reach this point is not the same for every disease. It depends largely on how contagious the disease is, which epidemiologists express as the average number of people one case would infect in a population with no immunity. For a highly contagious disease such as measles, where a single case can infect a large number of others, the threshold is very high, and public health agencies generally aim for around 95 per cent of the population to be immune. For less contagious diseases, it is lower.\nThe threshold also explains why small declines in vaccination can matter. A population can sit comfortably above the threshold for years, but if coverage slips, particularly within particular communities or schools, clusters of susceptible people may form, and outbreaks can then occur even though the national vaccination rate still looks high. Herd immunity is also less relevant for diseases such as tetanus, which is caught from the environment rather than passed from person to person.",
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "Herd immunity can be achieved only through vaccination.",
+        "Once a country reaches the threshold nationally, outbreaks can no longer occur.",
+        "The threshold for measles is lower than for most other diseases.",
+        "Vaccinating other people against tetanus protects an unvaccinated person from the disease.",
+        "A high national vaccination rate can hide local gaps in which a disease is able to spread."
+      ],
+      "answer": [4],
+      "note": "The passage says clusters of susceptible people may form in particular communities or schools, and 'outbreaks can then occur even though the national vaccination rate still looks high'. That same sentence contradicts the claim that reaching the threshold ends outbreaks. Immunity can come 'through vaccination or previous infection', the measles threshold is 'very high', and tetanus is caught from the environment, so other people's vaccination does not shield anyone from it."
+    },
+    {
+      "id": "ms4-03",
+      "title": "The Svalbard seed vault",
+      "passage": "Deep inside a mountain on the Norwegian island of Spitsbergen, far north of the Arctic Circle, lies the Svalbard Global Seed Vault. Opened in 2008, it stores duplicate samples of seeds held by gene banks around the world, kept at about minus eighteen degrees Celsius. The vault is often described as a doomsday store, but its everyday purpose is more modest. It is a back-up, rather like a copy of important files kept in a safe elsewhere, for collections that may be lost to accident, underfunding, natural disaster or war.\nThat function is not merely hypothetical. During the conflict in Syria, an international agricultural research centre based near Aleppo was forced to relocate. Because it had deposited copies of its collection in Svalbard, it was able to withdraw seeds, beginning in 2015, and rebuild its working collections in Lebanon and Morocco. This was the first withdrawal in the vault's history.\nWhy should such collections matter? Many of the samples are traditional crop varieties and wild relatives of crops, which may carry genes for resistance to drought, heat, pests or disease. As the climate changes and new pests spread, plant breeders may need exactly these traits. Yet the variety of crops grown by farmers has narrowed considerably as a few high-yielding varieties have replaced many local ones, so seeds that are no longer planted anywhere may survive only in collections of this kind.",
+      "question": "Why does the author mention the research centre near Aleppo?",
+      "options": [
+        "To show that the vault's role as a back-up has already been put to practical use.",
+        "To argue that seed collections should not be located in areas of conflict.",
+        "To explain why the vault was built north of the Arctic Circle.",
+        "To show that the vault has been used many times to restore lost collections."
+      ],
+      "answer": [0],
+      "note": "The example is introduced with 'That function is not merely hypothetical': it shows the back-up actually being used when a collection was threatened by war. The passage calls it 'the first withdrawal in the vault's history', so it does not show many uses. It gives no advice about where collections should be kept and no reason for the vault's location."
+    },
+    {
+      "id": "ms4-04",
+      "title": "The Columbian exchange",
+      "passage": "After Columbus's voyages of 1492 onwards, plants, animals, people and diseases began to cross the Atlantic in both directions on a scale never seen before. The historian Alfred Crosby called this the Columbian exchange, and he argued that its consequences were among the most important in human history.\nSome of the effects were catastrophic. Smallpox, measles and other diseases from Europe and Africa, against which the peoples of the Americas had no acquired immunity, spread through their populations with devastating results, and historians generally agree that disease was a major cause of the sharp decline in the indigenous population in the following century. The transatlantic slave trade, which forcibly transported millions of Africans to work on plantations, was itself bound up with crops such as sugar that flourished in the new setting.\nOther effects transformed diets across the world. Maize, potatoes, tomatoes, cassava and chilli peppers, all native to the Americas, were taken up elsewhere. The potato became a staple in much of northern Europe, maize and sweet potatoes were widely adopted in China, and cassava became important in parts of Africa. In the other direction, wheat, rice, sugar cane, coffee, cattle, pigs and horses were brought to the Americas, where horses reshaped the way of life of several peoples of the Great Plains.\nThe exchange thus had no single character. It enriched the food supply of much of the world while also bringing death, enslavement and dispossession on an immense scale.",
+      "question": "Which of the following best expresses the main idea of the passage?",
+      "options": [
+        "The Columbian exchange was mainly beneficial, since it improved diets around the world.",
+        "Diseases carried from the Americas caused a sharp fall in the population of Europe.",
+        "The potato was the most important crop to cross the Atlantic.",
+        "The transfer of living things across the Atlantic after 1492 had far-reaching effects that were both beneficial and devastating.",
+        "Horses were the only animals taken from Europe to the Americas."
+      ],
+      "answer": [3],
+      "note": "The passage sets catastrophic effects against beneficial ones and concludes that the exchange 'had no single character', enriching food supplies while bringing 'death, enslavement and dispossession'. Calling it 'mainly beneficial' ignores half of that. The second option reverses the direction of the diseases, the potato is one crop among many, and cattle and pigs were also taken to the Americas."
+    },
+    {
+      "id": "ms4-05",
+      "title": "Is it best to be first?",
+      "passage": "Business writing often assumes that the first company to enter a new market enjoys a decisive advantage. The pioneer, the argument goes, can build a reputation before rivals appear, secure scarce resources such as the best locations or suppliers, and lock customers in before they have alternatives. There are certainly cases where this seems to have happened.\nThe evidence, however, is far less tidy than the popular idea suggests. Studies of large numbers of markets have found that early entrants frequently fail, and that many markets are eventually led by companies that arrived later. Many people assume that the leading brand in a category invented it, but the first internet search engines, the first handheld personal organisers and the first social networking sites were not the ones that came to dominate.\nBeing first carries real costs. The pioneer must educate customers about a product they have never seen, bear the expense of trial and error, and often guess at what buyers want. A later entrant can observe these mistakes, adopt the technology once it has matured, and aim at a market whose size has already been demonstrated. None of this means that timing is irrelevant; in markets with strong network effects, for instance, an early lead can be difficult to overturn. But the claim that being first is in itself a recipe for success deserves considerably more scepticism than it usually receives.",
+      "question": "What is the author's attitude towards the idea of first-mover advantage?",
+      "options": [
+        "Enthusiastic, because early entry almost always leads to market leadership.",
+        "Dismissive, because the author believes timing never matters in business.",
+        "Sceptical, arguing that the popular belief overstates the benefits of entering a market first.",
+        "Indifferent, since the author presents both sides without reaching a conclusion."
+      ],
+      "answer": [2],
+      "note": "The author says the evidence is 'far less tidy than the popular idea suggests' and ends that the claim 'deserves considerably more scepticism than it usually receives'. It is not total dismissal, because the author says 'None of this means that timing is irrelevant' and allows that an early lead can matter. The author does reach a clear conclusion, so 'indifferent' is wrong."
+    },
+    {
+      "id": "ms4-06",
+      "title": "Chunking",
+      "passage": "In a widely cited paper of 1956, the psychologist George Miller observed that people can hold only a limited number of separate items in short-term memory, famously suggesting a figure of around seven, give or take two. Later research has generally put the limit lower, at perhaps four meaningful units. What makes the limit less restrictive than it first appears is a process known as chunking.\nA chunk is a unit of information that is treated as a single item. The letter string F B I C I A B B C is hard to remember as nine separate letters, but it becomes easy once it is recognised as three familiar abbreviations. The amount of raw information has not changed; what has changed is how it is grouped. Telephone numbers are commonly written in blocks of three or four digits for the same reason.\nChunking also helps to explain the abilities of experts. In classic studies of chess, strong players shown a position from a real game for a few seconds could reconstruct it far more accurately than novices. When the pieces were placed at random, however, much of the experts' advantage disappeared. Their superior memory was not a general gift. It depended on a large store of familiar patterns built up through years of play, which allowed them to take in a whole cluster of pieces at a glance as a single meaningful unit.",
+      "question": "In the passage, the statement that the chess experts' superior memory 'was not a general gift' means that it",
+      "options": [
+        "was not an inborn ability that would work equally well with any kind of information",
+        "was not shared by all of the strong players who were tested",
+        "had not been taught to them by their instructors",
+        "did not help them to win games",
+        "disappeared as they grew older"
+      ],
+      "answer": [0],
+      "note": "The evidence is that the advantage largely vanished when the pieces were placed at random, and the next sentence says it 'depended on a large store of familiar patterns built up through years of play'. So it was specific to meaningful chess positions, not a general talent for remembering anything. 'Gift' here means a natural talent, not something given by teachers, and nothing is said about winning games or ageing."
+    },
+    {
+      "id": "ms4-07",
+      "title": "Peer tutoring",
+      "passage": "Peer tutoring, in which students teach one another, is sometimes treated as a cheap substitute for teaching by adults. Research suggests that this undervalues it. Well-organised schemes, in which pupils are trained for the role and given structured materials, have been found to benefit not only the pupils being tutored but also, in many studies, the tutors themselves.\nThe benefit to tutors has several possible explanations. Preparing to explain something forces a learner to organise their own knowledge and to notice gaps in it that passive study can conceal. Answering a partner's unexpected questions requires them to think about the material from another angle. Some researchers describe a 'protégé effect': students who expect to teach material tend to study it more carefully than those who expect only to be tested on it.\nTutees, for their part, may find it easier to ask a fellow student a question they would hesitate to put to a teacher, and a tutor who learnt the material recently may remember which parts were difficult. In cross-age schemes, where older pupils tutor younger ones, the older pupils often gain in confidence as well as knowledge.\nThe approach is not without conditions, however. Schemes work best when sessions are regular, tasks are clearly structured and teachers monitor progress. Pairing students and simply telling them to help each other tends to produce much weaker results.",
+      "question": "According to the passage, what is the 'protégé effect'?",
+      "options": [
+        "The tendency of younger pupils to gain confidence when tutored by older ones.",
+        "The benefit tutees gain from asking questions they would not put to a teacher.",
+        "The tendency of tutors to forget which parts of the material were difficult.",
+        "The tendency of students who expect to teach material to study it more carefully."
+      ],
+      "answer": [3],
+      "note": "The passage defines it directly: 'students who expect to teach material tend to study it more carefully than those who expect only to be tested on it'. In cross-age schemes it is the older pupils, the tutors, who gain confidence, and asking questions more freely is a benefit to tutees described separately. The passage says a recent learner may remember which parts were difficult, the opposite of forgetting."
+    },
+    {
+      "id": "ms4-08",
+      "title": "How audio compression works",
+      "passage": "A few minutes of music recorded at the quality of a compact disc occupies tens of megabytes. Formats such as MP3, developed largely at the Fraunhofer Institute in Germany during the late 1980s and early 1990s, typically reduce that to around a tenth of the size, and they do so by discarding information permanently. For this reason they are described as lossy, in contrast with lossless formats, which shrink a file in a way that allows the original to be reconstructed exactly.\nThe key to lossy audio compression is that not all of the information in a recording is audible. Research in psychoacoustics, the study of how humans perceive sound, has shown that a loud sound can make a quieter sound at a nearby frequency inaudible, an effect known as masking. A quiet sound occurring just before or after a loud one may also go unheard. An encoder analyses the music in short segments, estimates which components a listener would not perceive, and spends fewer bits, or none at all, on those parts.\nThe approach works well when the compression is moderate, and at typical settings many listeners cannot reliably distinguish the result from the original. At low bit rates, however, the encoder has to discard more than it can hide, and faults such as a watery or smeared quality in cymbals and applause become noticeable. Repeatedly converting a file from one lossy format to another also degrades it, because each conversion throws away a further share of the information.",
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "Lossy formats produce files that sound identical to the original at every setting.",
+        "A file compressed in a lossy format cannot be restored to its exact original form.",
+        "Lossless formats produce smaller files than lossy formats.",
+        "Masking occurs only when two sounds are heard at exactly the same moment.",
+        "MP3 was designed mainly to improve the sound quality of compact discs."
+      ],
+      "answer": [1],
+      "note": "Lossy formats discard information 'permanently', in contrast with lossless ones that allow 'the original to be reconstructed exactly', so a lossy file cannot be restored exactly. The third paragraph says faults become noticeable at low bit rates, which rules out 'identical at every setting'. A quiet sound 'just before or after' a loud one may also be masked, and MP3's purpose is to shrink files, not to improve CDs."
+    },
+    {
+      "id": "ms4-09",
+      "title": "A flowering in Harlem",
+      "passage": "In the years after the First World War, the Harlem district of New York became the centre of an extraordinary flowering of African American literature, music and art that later came to be called the Harlem Renaissance. Its background was the Great Migration, in which large numbers of Black Americans left the rural South for the cities of the North, seeking work and escaping the segregation and violence of the Jim Crow laws. Harlem drew writers, musicians and intellectuals not only from the South but from the Caribbean as well.\nThe movement's writers included the poet Langston Hughes, who drew on the rhythms of blues and jazz, and the novelist and folklorist Zora Neale Hurston, who recorded the speech and stories of Black communities in the South. In 1925 the philosopher Alain Locke edited an anthology, The New Negro, which presented this work as the expression of a new confidence and self-definition.\nThe participants did not always agree. Some believed that art should present a dignified image that would challenge racist stereotypes; others insisted on the right to portray working-class life frankly, including aspects that respectable opinion preferred to ignore. The economic hardship of the Great Depression in the 1930s brought much of the activity to an end, but the movement's influence on later American writing, and on the civil rights era that followed, was lasting.",
+      "question": "Which of the following would be the most suitable title for the passage?",
+      "options": [
+        "The Great Migration and the Growth of Northern Industry",
+        "Langston Hughes: A Life in Poetry",
+        "Why the Great Depression Ended American Art",
+        "Jazz Clubs of New York in the 1920s",
+        "The Harlem Renaissance: Origins, Voices and Debates"
+      ],
+      "answer": [4],
+      "note": "The passage covers the movement's background in the Great Migration, its leading writers, the disagreements among its participants and its lasting influence, which the correct title names. The Great Migration and Langston Hughes are each only part of the account, and jazz is mentioned only as an influence on Hughes. The Depression ended 'much of the activity' in Harlem, not American art."
+    },
+    {
+      "id": "ms4-10",
+      "title": "The trolley problem",
+      "passage": "A runaway tram is heading towards five people who will be killed if it continues. You can pull a lever to divert it onto a side track, where it will kill one person instead. Most people asked about this case, first posed by the philosopher Philippa Foot in 1967 and later developed by Judith Jarvis Thomson, say that pulling the lever is permissible.\nNow change the scenario. You are standing on a bridge over the track beside a very heavy person, and the only way to stop the tram is to push that person off the bridge into its path. Again one person dies and five are saved. Yet most people judge that pushing is wrong.\nThe interest of the pair lies in explaining that difference, since the arithmetic is the same in both. One proposal draws on an old principle known as the doctrine of double effect: in the first case the death is a foreseen side effect of diverting the tram, whereas in the second the person is used as the means of stopping it. Another points to the difference between redirecting an existing threat and doing violence to someone directly. Psychologists have added a further angle, suggesting that the physical, personal nature of the second act provokes a stronger emotional reaction. The cases are deliberately artificial, but the questions they raise are not. Designers of automated vehicles and those who draw up policies for allocating scarce medical resources have had to consider related questions.",
+      "question": "What is the main purpose of the second scenario in the passage?",
+      "options": [
+        "To show that most people are unwilling to save lives in an emergency.",
+        "To prove that the doctrine of double effect is mistaken.",
+        "To present a case with the same outcome as the first but a different moral verdict, which then needs explaining.",
+        "To demonstrate that the first scenario was unrealistic."
+      ],
+      "answer": [2],
+      "note": "The passage stresses that in the second case 'Again one person dies and five are saved', yet most people judge differently, and 'The interest of the pair lies in explaining that difference'. The doctrine of double effect is offered as one possible explanation, not refuted. Most people are happy to pull the lever and save five, and both cases are described as 'deliberately artificial', not just the first."
+    }
+  ]
+}

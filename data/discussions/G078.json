@@ -1,0 +1,33 @@
+{
+  "id": "G078",
+  "title": "Who should pay for climate adaptation?",
+  "field": "Environment and politics",
+  "speakers": [
+    { "name": "Nkechi", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Lukas", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Bess", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Lukas", "text": "The adaptation fund was agreed three years ago and about a tenth of the promised money has actually appeared." },
+    { "speaker": "Nkechi", "text": "Which is roughly the record of every climate finance pledge. The announcement is the deliverable." },
+    { "speaker": "Bess", "text": "And a lot of what does arrive is counted twice. Existing aid relabelled, or loans presented as contributions." },
+    { "speaker": "Lukas", "text": "Loans are the part I find hardest to defend. You're lending a country money to cope with a problem you caused." },
+    { "speaker": "Nkechi", "text": "Which then shows up in its debt figures and raises its borrowing cost, so it pays twice.", "gap": -0.13 },
+    { "speaker": "Bess", "text": "The counter-argument is capacity rather than willingness. Money moves slowly because there aren't enough prepared projects." },
+    { "speaker": "Nkechi", "text": "That's partly true and it's also circular. You don't build capacity without predictable funding." },
+    { "speaker": "Lukas", "text": "The historical responsibility calculation is fairly stark, mind you. Cumulative emissions concentrate in very few countries." },
+    { "speaker": "Bess", "text": "Though emitting now is a different set of countries, which is what makes the negotiation impossible." },
+    { "speaker": "Nkechi", "text": "Adaptation is the cheapest part of all of it, though. Early warning systems cost almost nothing and save enormous numbers of lives." },
+    { "speaker": "Lukas", "text": "Why is it the least funded, then?" },
+    { "speaker": "Nkechi", "text": "Because mitigation has a market and adaptation doesn't. Nobody sells a sea wall to a shareholder." },
+    { "speaker": "Bess", "text": "Which is an argument for public money doing what markets won't." }
+  ],
+  "points": [
+    "About a tenth of the promised adaptation fund has materialised three years after agreement.",
+    "Bess notes much of what arrives is double-counted relabelled aid or loans presented as contributions.",
+    "Nkechi argues loans make affected countries pay twice, through repayment and higher borrowing costs.",
+    "The capacity argument for slow disbursement is partly true but circular, since capacity requires predictable funding.",
+    "Historical responsibility concentrates in few countries while current emissions come from others, complicating negotiation.",
+    "Adaptation is cheap and effective, particularly early warning systems, but least funded because mitigation has a market and adaptation does not."
+  ]
+}

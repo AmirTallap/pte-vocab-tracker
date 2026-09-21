@@ -1,0 +1,33 @@
+{
+  "id": "G074",
+  "title": "Noise in cities and who has to hear it",
+  "field": "Health and cities",
+  "speakers": [
+    { "name": "Liv", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Hector", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Reem", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Hector", "text": "There's a noise map for the city now and you can look up your own street. Mine is well over the level they call harmful." },
+    { "speaker": "Reem", "text": "Harmful is doing real work in that sentence. It isn't annoyance, it's cardiovascular." },
+    { "speaker": "Liv", "text": "That's the part people don't believe. Long-term traffic noise tracks with raised blood pressure and heart disease even in people who say it doesn't bother them." },
+    { "speaker": "Hector", "text": "Even when they're used to it?" },
+    { "speaker": "Liv", "text": "That's the finding. You habituate consciously. The stress response doesn't habituate, particularly during sleep." },
+    { "speaker": "Reem", "text": "And it maps onto income almost perfectly. The quiet streets are the expensive ones, everywhere, without exception." },
+    { "speaker": "Hector", "text": "So it's an environmental inequality that nobody protests about, because you can't see it.", "gap": -0.13 },
+    { "speaker": "Liv", "text": "The cheapest fix is the road surface, oddly. Quieter asphalt takes several decibels off, which is a large change." },
+    { "speaker": "Reem", "text": "And speed. Noise rises steeply with speed, so twenty limits do more than people expect." },
+    { "speaker": "Hector", "text": "The electric car point gets overstated, mind you. Above about thirty, it's tyres on road, not the engine." },
+    { "speaker": "Liv", "text": "Right, so electrification helps in the streets and not on the motorway that the noisiest housing sits beside." },
+    { "speaker": "Reem", "text": "Which is where barriers would work and almost never get funded." },
+    { "speaker": "Hector", "text": "Because nobody wins an election on a wall beside a motorway." }
+  ],
+  "points": [
+    "A city noise map shows many streets above levels classified as harmful.",
+    "Long-term traffic noise is linked to raised blood pressure and heart disease, including among people who report not being bothered.",
+    "Conscious habituation occurs but the physiological stress response does not, especially during sleep.",
+    "Noise exposure maps closely onto income, making it an invisible environmental inequality.",
+    "Practical measures include quieter road surfaces and lower speed limits, since noise rises steeply with speed.",
+    "Electric vehicles help only below about thirty, as tyre noise dominates above that, leaving motorway-adjacent housing dependent on barriers that are rarely funded."
+  ]
+}

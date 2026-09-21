@@ -1,0 +1,33 @@
+{
+  "id": "G021",
+  "title": "Is recycling doing what we think?",
+  "field": "Environment",
+  "speakers": [
+    { "name": "Nick", "voice": "am_puck", "speed": 1.0 },
+    { "name": "Amira", "voice": "af_heart", "speed": 1.04 },
+    { "name": "Rob", "voice": "bm_fable", "speed": 0.97 }
+  ],
+  "turns": [
+    { "speaker": "Amira", "text": "The council's audit says about a fifth of what goes in the recycling bin ends up incinerated anyway. Contamination, mostly." },
+    { "speaker": "Rob", "text": "A fifth. And people are washing yoghurt pots for that." },
+    { "speaker": "Nick", "text": "Washing them in hot water, which has its own footprint. There's a point where the effort costs more than it saves." },
+    { "speaker": "Amira", "text": "For plastic, honestly, a lot of it never worked. Glass, paper, aluminium, those genuinely recycle. Aluminium is the one that actually pays for itself." },
+    { "speaker": "Rob", "text": "Because melting it is a fraction of the energy of making it new." },
+    { "speaker": "Amira", "text": "About five per cent. Which is why it's the only one with a real market behind it." },
+    { "speaker": "Nick", "text": "The uncomfortable part is that recycling was promoted hardest by the people selling the packaging." },
+    { "speaker": "Rob", "text": "That's a bit conspiratorial." },
+    { "speaker": "Nick", "text": "It's documented, though. If the container is recyclable then the problem is your sorting, not their product.", "gap": -0.12 },
+    { "speaker": "Nick", "text": "It moves the responsibility one step down, to you, at the kitchen bin." },
+    { "speaker": "Amira", "text": "Which is why deposit return works better than kerbside. Same bottle, but suddenly it's worth something." },
+    { "speaker": "Rob", "text": "Ninety per cent return rates in the countries that do it, isn't it." },
+    { "speaker": "Amira", "text": "Roughly, yes. It turns out people respond to money more reliably than to guilt." }
+  ],
+  "points": [
+    "A council audit found about a fifth of recycling is incinerated due to contamination.",
+    "Nick notes washing containers in hot water has its own footprint, so effort can exceed benefit.",
+    "Amira distinguishes materials: glass, paper and aluminium recycle genuinely, while much plastic never did.",
+    "Aluminium pays for itself because remelting uses roughly five per cent of the energy of new production.",
+    "Nick argues recycling was promoted by packaging producers because it shifts responsibility to the household.",
+    "They agree deposit return schemes outperform kerbside collection, achieving around ninety per cent returns, because people respond to money more reliably than to guilt."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "fib-r-5",
+  "task": "fib-r",
+  "title": "Set 5",
+  "summary": "From the Stroop test and tone languages to the telegraph, smallpox and the Inca quipu.",
+  "items": [
+    {
+      "id": "r5-01",
+      "title": "The Stroop effect",
+      "text": "In 1935 the American psychologist John Ridley Stroop published a simple experiment that has since been {{replicated}} thousands of times. Participants are shown the names of colours printed in ink of a different colour, such as the word 'red' printed in blue, and asked to name the colour of the ink {{while}} ignoring the word itself. People are consistently slower and make more errors in this condition than when the word and the ink match. The effect arises because reading is so highly practised that it happens {{automatically}}, and the meaning of the word interferes with the task. The test is now widely used to {{assess}} attention and the ability to suppress unwanted responses.",
+      "distractors": ["automatic", "during", "assessment"],
+      "why": [
+        "\"Has been\" needs a past participle, and an experiment is \"replicated\" when others repeat it.",
+        "\"While\" can introduce an -ing clause of simultaneous action; \"during\" must be followed by a noun, not \"ignoring the word\".",
+        "An adverb must modify \"happens\", so \"automatically\"; \"automatic\" is an adjective.",
+        "\"Used to\" needs a base-form verb, so \"assess\"; \"assessment\" is a noun."
+      ]
+    },
+    {
+      "id": "r5-02",
+      "title": "Steel frames and safe lifts",
+      "text": "The skyscraper depended on two nineteenth-century innovations. The first was the steel frame, which {{carried}} the weight of the building so that the outer walls no longer had to support the floors above them. Before this, a tall masonry building needed walls so thick at the base that the lower storeys were dark and cramped. The second was the safety lift. In 1854 Elisha Otis demonstrated a brake that {{prevented}} a lift from falling if its cable snapped, ordering the rope to be cut while he stood on the platform. The upper floors of a building became as desirable as the lower ones {{once}} people trusted lifts, and developers now had every {{incentive}} to build higher.",
+      "distractors": ["carrying", "prevention", "despite"],
+      "why": [
+        "The relative clause \"which ...\" needs a finite verb, so \"carried\"; \"carrying\" is not finite.",
+        "\"Prevent something from doing\" is the pattern, so \"prevented\"; \"prevention\" is a noun.",
+        "A clause follows, so a conjunction of time is needed, and \"once\" means as soon as; \"despite\" must be followed by a noun phrase.",
+        "\"Every incentive to\" means every reason to act; none of the other box words is a noun that fits."
+      ]
+    },
+    {
+      "id": "r5-03",
+      "title": "Writing music down",
+      "text": "Before the eleventh century, the chants sung in European monasteries were learned by ear, and a singer might need years to {{memorise}} the full repertoire. Written signs called neumes existed, but they indicated only the general shape of a melody and could not show {{exact}} pitch. The Italian monk Guido of Arezzo is credited with a system that changed this. He placed notes on a set of horizontal lines, so that the {{height}} of each note on the page showed precisely how high it should be sung. He also taught singers to link each note with a syllable, an idea from which the familiar 'do, re, mi' later developed. His methods allowed a trained singer to read a melody {{accurately}} without ever having heard it before.",
+      "distractors": ["memory", "high", "accuracy"],
+      "why": [
+        "\"Need years to\" requires a base-form verb, so \"memorise\"; \"memory\" is a noun.",
+        "An adjective is needed before the noun \"pitch\", so \"exact\"; \"accuracy\" is a noun.",
+        "After \"the\" a noun is needed, so \"height\"; \"high\" is an adjective.",
+        "An adverb must describe how the melody is read, so \"accurately\"; \"accuracy\" is a noun."
+      ]
+    },
+    {
+      "id": "r5-04",
+      "title": "Tone languages",
+      "text": "In a tone language, the pitch at which a syllable is spoken can change the meaning of a word entirely. Mandarin Chinese, for example, {{distinguishes}} four main tones, so that the syllable 'ma' can mean 'mother', 'hemp', 'horse' or 'scold' depending on whether the voice stays level, rises, dips or falls. English speakers also use pitch, but mainly to convey attitude or to {{signal}} a question rather than to separate one word from another. Tone languages are far from rare: they are {{spoken}} across much of East and Southeast Asia and sub-Saharan Africa. Some research suggests that native speakers of such languages may be more {{likely}} to possess absolute pitch.",
+      "distractors": ["distinction", "speech", "probable"],
+      "why": [
+        "The singular subject \"Mandarin Chinese\" needs a finite verb, so \"distinguishes\"; \"distinction\" is a noun.",
+        "\"To\" here needs a base-form verb, so \"signal\"; \"speech\" is a noun.",
+        "\"Are\" plus a past participle forms the passive: languages are \"spoken\".",
+        "\"More likely to\" is the pattern with a person as subject; \"probable\" cannot be followed by a to-infinitive in this way."
+      ]
+    },
+    {
+      "id": "r5-05",
+      "title": "The electric telegraph",
+      "text": "Before the electric telegraph, a message could travel no faster than the horse, ship or train that carried it. In the 1830s and 1840s, inventors in Britain and the United States developed systems that sent signals along wires almost instantaneously. Samuel Morse and Alfred Vail devised a code in which letters were {{represented}} by combinations of short and long pulses, and in 1844 Morse sent the message 'What hath God wrought' from Washington to Baltimore. Within a few decades, telegraph lines {{stretched}} across entire continents, and in 1866 a durable cable was laid {{beneath}} the Atlantic. The consequences were profound: financial markets, newspapers and governments could now {{respond}} to distant events within hours rather than weeks.",
+      "distractors": ["representative", "among", "response"],
+      "why": [
+        "\"Were\" plus a past participle forms the passive: letters were \"represented by\" pulses; \"representative\" is an adjective.",
+        "Lines \"stretched across\" continents; the clause needs a finite verb and no other box word is one.",
+        "A cable is laid \"beneath\" the ocean; \"among the Atlantic\" is meaningless with a single ocean.",
+        "\"Could\" needs a base-form verb, and \"respond to\" is the collocation; \"response\" is a noun."
+      ]
+    },
+    {
+      "id": "r5-06",
+      "title": "Circadian rhythms",
+      "text": "Almost every living organism, from bacteria to human beings, has an internal clock that runs on a cycle of roughly twenty-four hours. These circadian rhythms {{regulate}} sleep, body temperature, hormone release and many other functions. Remarkably, they persist even when external cues are removed: people living in caves without daylight or clocks continue to follow a cycle close to a day in {{length}}. In mammals, the master clock is located in a small region of the brain that receives signals {{directly}} from the eyes, allowing light to reset it each morning. When the internal clock falls out of step with the environment, as in jet lag or shift work, the {{consequences}} can include fatigue, poor concentration and a higher risk of illness.",
+      "distractors": ["regulation", "long", "consequential"],
+      "why": [
+        "The plural subject \"rhythms\" needs a finite verb, so \"regulate\"; \"regulation\" is a noun.",
+        "\"In length\" needs a noun; \"in long\" is not English.",
+        "An adverb must describe how the signals are received, so \"directly\".",
+        "After \"the\" a noun is needed as the subject of \"can include\", so \"consequences\"; \"consequential\" is an adjective."
+      ]
+    },
+    {
+      "id": "r5-07",
+      "title": "Karst landscapes",
+      "text": "Karst is a type of landscape formed on soluble rock, most commonly limestone. Rainwater absorbs carbon dioxide from the air and the soil, becoming a weak acid that slowly {{dissolves}} the rock as it seeps through cracks and joints. Over thousands of years, these cracks widen into underground channels and caves, and rivers may {{vanish}} into the ground altogether, flowing for long distances before emerging elsewhere. Where the roof of a cave collapses, a steep hollow known as a sinkhole can open at the surface, sometimes with little {{warning}}. Because water drains so rapidly through the rock, surface water in karst regions is often {{scarce}}, even where rainfall is high.",
+      "distractors": ["solution", "vanished", "scarcely"],
+      "why": [
+        "The singular subject \"acid\" needs a finite verb with \"the rock\" as its object, so \"dissolves\".",
+        "\"May\" needs a base-form verb, so \"vanish\"; \"vanished\" is the past form.",
+        "\"With little warning\" is the set phrase for something sudden; \"little\" here needs an uncountable noun.",
+        "After \"is often\" an adjective is needed, so \"scarce\"; \"scarcely\" is an adverb."
+      ]
+    },
+    {
+      "id": "r5-08",
+      "title": "The end of smallpox",
+      "text": "Smallpox, a viral disease that killed roughly three in ten of those it {{infected}}, was once one of the most feared illnesses in the world. Vaccination against it had been practised since Edward Jenner's experiments in 1796, but the disease remained common in many regions until the middle of the twentieth century. In 1967 the World Health Organization launched an intensified campaign to {{eliminate}} it. Rather than attempting to vaccinate entire populations, teams increasingly relied on surveillance and containment: whenever a case was {{reported}}, they vaccinated everyone who might have been exposed, creating a ring of immunity around the patient. The last natural case occurred in Somalia in 1977, and in 1980 the WHO formally declared the world {{free}} of smallpox.",
+      "distractors": ["infection", "eliminating", "freedom"],
+      "why": [
+        "The relative clause \"those it ...\" needs a past-tense verb, so \"infected\"; \"infection\" is a noun.",
+        "\"Campaign to\" needs a base-form verb, and the aim was to end the disease, so \"eliminate\"; \"eliminating\" cannot follow \"to\" here.",
+        "Teams responded when a case was \"reported\" to them; the other box words are not past participles.",
+        "\"Declare something free of\" takes an adjective; \"freedom\" is a noun."
+      ]
+    },
+    {
+      "id": "r5-09",
+      "title": "Why the seasons change",
+      "text": "A common misconception holds that summer occurs when the Earth is closest to the Sun. In fact, the Earth's orbit is almost circular, and the planet is nearest the Sun in early January, {{during}} winter in the Northern Hemisphere. The seasons are caused instead by the tilt of the Earth's axis, which is inclined at about 23.5 degrees. As the planet orbits, each hemisphere is tilted towards the Sun for part of the year and away from it for the rest. When a hemisphere leans towards the Sun, sunlight strikes it more {{directly}} and days are longer, so the ground receives more energy. This also {{explains}} why Australians celebrate Christmas in the middle of summer: the seasons in the Southern Hemisphere are {{reversed}}.",
+      "distractors": ["whereas", "directness", "explanation"],
+      "why": [
+        "A noun phrase follows, so the preposition \"during\" is needed; \"whereas\" must introduce a clause.",
+        "An adverb must modify \"strikes\", so \"directly\"; \"directness\" is a noun.",
+        "The subject \"This\" needs a finite verb, so \"explains\"; \"explanation\" is a noun.",
+        "\"Are\" plus a past participle says the seasons are the other way round, so \"reversed\"."
+      ]
+    },
+    {
+      "id": "r5-10",
+      "title": "The Inca quipu",
+      "text": "The Inca Empire, which at its height in the early sixteenth century stretched along much of western South America, had no system of writing in the conventional sense. Instead, officials kept records using the quipu, a {{bundle}} of knotted cords hanging from a main cord. The type and position of the knots recorded numbers in a decimal system, and the colour of the cords may have {{indicated}} what was being counted, such as livestock, harvests or people. Specialists were trained to create and interpret them, and the Spanish {{chroniclers}} who arrived after 1532 recorded that the devices were used to track tribute and census data. Whether some quipus also encoded narrative information, {{rather}} than numbers alone, remains an open question.",
+      "distractors": ["bundled", "indication", "instead"],
+      "why": [
+        "After \"a\" a noun is needed, so \"bundle\"; \"bundled\" is a participle.",
+        "\"May have\" needs a past participle, so \"indicated\"; \"indication\" is a noun.",
+        "\"Who arrived\" and \"recorded\" need people as the subject, so \"chroniclers\".",
+        "\"Rather than\" is the fixed pair; \"instead\" takes \"of\", never \"than\"."
+      ]
+    }
+  ]
+}

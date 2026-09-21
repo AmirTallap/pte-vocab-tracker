@@ -1,0 +1,33 @@
+{
+  "id": "G041",
+  "title": "Keeping old buildings, or building new ones",
+  "field": "Architecture and cities",
+  "speakers": [
+    { "name": "Imogen", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Dario", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Nell", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Dario", "text": "They want to demolish the sixties library and put up something six storeys taller. The listing application went in yesterday." },
+    { "speaker": "Nell", "text": "People will fight for that building now purely because someone wants it gone. Nobody liked it in 2005." },
+    { "speaker": "Imogen", "text": "That's true of almost every period. Victorian buildings were being knocked down as eyesores within living memory." },
+    { "speaker": "Dario", "text": "So the rule is wait forty years and see?" },
+    { "speaker": "Imogen", "text": "Roughly, yes. Taste has a cycle and demolition doesn't reverse." },
+    { "speaker": "Nell", "text": "The carbon argument is the stronger one now anyway. About a third of a building's whole lifetime emissions are in the construction itself." },
+    { "speaker": "Dario", "text": "A third?" },
+    { "speaker": "Nell", "text": "Roughly, for a modern one. So knocking down a sound building to put up an efficient one can take fifty years to break even.", "gap": -0.12 },
+    { "speaker": "Imogen", "text": "By which point the new one is due for replacement." },
+    { "speaker": "Dario", "text": "The counter is density. Six more storeys is housing for people who currently live forty miles away and drive in." },
+    { "speaker": "Nell", "text": "That's real, and it's the argument that should be made rather than the efficiency one." },
+    { "speaker": "Imogen", "text": "Retrofit usually beats both, and it's unglamorous, so it loses to whoever has a rendering." },
+    { "speaker": "Dario", "text": "Nobody ever won a council vote with a picture of new insulation." }
+  ],
+  "points": [
+    "A 1960s library faces demolition for a taller replacement, prompting a listing application.",
+    "Nell and Imogen note taste runs in cycles, with Victorian buildings once demolished as eyesores, so delay is prudent because demolition is irreversible.",
+    "Nell cites embodied carbon: roughly a third of a modern building's lifetime emissions come from construction.",
+    "Replacing a sound building with an efficient one can therefore take around fifty years to break even.",
+    "Dario's strongest argument is density, housing people who currently commute long distances.",
+    "They agree retrofit usually outperforms both options but loses politically because it is unglamorous."
+  ]
+}

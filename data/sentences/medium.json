@@ -1,0 +1,27 @@
+{
+  "id": "medium",
+  "title": "Medium",
+  "summary": "Ten to twelve words. The band most exam sentences sit in.",
+  "sentences": [
+    { "id": "md-01", "text": "The professor argued that the evidence had been badly misinterpreted." },
+    { "id": "md-02", "text": "Students who miss the deadline will not be marked at all." },
+    { "id": "md-03", "text": "The new building was designed to use half the energy." },
+    { "id": "md-04", "text": "Nobody in the department had seen results quite like these." },
+    { "id": "md-05", "text": "You will need to register before you can borrow anything." },
+    { "id": "md-06", "text": "The research was funded entirely by a private foundation." },
+    { "id": "md-07", "text": "Her lecture on climate policy was moved to the main hall." },
+    { "id": "md-08", "text": "The committee rejected the proposal without giving any reasons." },
+    { "id": "md-09", "text": "Most of the participants dropped out before the second week." },
+    { "id": "md-10", "text": "The essay should compare two theories rather than describe one." },
+    { "id": "md-11", "text": "Laboratory sessions run on Tuesday afternoons throughout the term." },
+    { "id": "md-12", "text": "The library has extended its opening hours during the examinations." },
+    { "id": "md-13", "text": "A small change in temperature altered the outcome completely." },
+    { "id": "md-14", "text": "Applicants are assessed on their written work and an interview." },
+    { "id": "md-15", "text": "The author revised the entire chapter after the review." },
+    { "id": "md-16", "text": "Very few of these species survive outside their native range." },
+    { "id": "md-17", "text": "The tutor asked everyone to prepare a short presentation." },
+    { "id": "md-18", "text": "Funding for the project runs out at the end of March." },
+    { "id": "md-19", "text": "The study followed the same group of children for a decade." },
+    { "id": "md-20", "text": "Reading the summary is not a substitute for the paper." }
+  ]
+}

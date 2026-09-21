@@ -1,0 +1,67 @@
+{
+  "id": "hiw-5",
+  "title": "Set 5",
+  "summary": "Thunder, insulin, wolves, the Silk Road, hyperinflation, flow, Vygotsky, public keys, talking pictures and endangered languages.",
+  "items": [
+    {
+      "id": "h5-01",
+      "title": "Lightning and thunder",
+      "text": "We see lightning before we hear thunder because light travels about a million times {{faster|further}} than sound. Sound in air covers roughly one kilometre every {{three|five}} seconds. So if you count the seconds between the flash and the {{rumble|sound}}, and divide by three, you get a {{rough|fair}} estimate of the distance in kilometres. In water, sound moves more than four times as fast, which is one reason whales can communicate over such great distances.",
+      "note": "Faster and further begin with the same sound and both work after travels. The five seconds contradicts the later divide by three, but only if you notice the link."
+    },
+    {
+      "id": "h5-02",
+      "title": "The discovery of insulin",
+      "text": "Before nineteen twenty-one, a diagnosis of type one diabetes was effectively a death sentence. That year, Frederick Banting and Charles Best, working in Toronto, managed to {{extract|isolate}} insulin from the pancreas of dogs. Within months, a teenage boy named Leonard Thompson became the first person to receive an injection of it, and his condition improved {{dramatically|slowly}} once a purer extract was used. The discovery was so {{significant|sudden}} that a Nobel Prize followed in nineteen twenty-three.",
+      "note": "Extract and isolate are near-synonyms in chemistry, so reading cannot decide between them. Significant and sudden both begin with an s sound."
+    },
+    {
+      "id": "h5-03",
+      "title": "Wolves in Yellowstone",
+      "text": "In nineteen ninety-five, grey wolves were reintroduced to Yellowstone National Park after an absence of about {{seventy|seventeen}} years. The wolves reduced the number of elk, and just as importantly, changed where the elk {{grazed|rested}}. Some researchers argue that this allowed willows and aspens along the rivers to {{recover|spread}}, although others think the effect has been {{exaggerated|overlooked}}. This chain of effects is known as a trophic {{cascade|collapse}}.",
+      "note": "Seventy and seventeen are the classic number trap. Cascade and collapse both begin with a hard c and both suggest something falling."
+    },
+    {
+      "id": "h5-04",
+      "title": "The Silk Road",
+      "text": "The Silk Road was never a single road. It was a {{network|series}} of routes linking China with the Mediterranean, used for more than a {{thousand|hundred}} years. Silk was only one of many goods, and merchants also carried spices, {{paper|porcelain}} and precious metals. Just as important were the ideas that travelled with them. Buddhism spread along these routes, and so, {{tragically|eventually}}, did the plague.",
+      "note": "Paper and porcelain both begin with p and both really were carried east and west, so the page cannot help. Tragically and eventually end with the same sound."
+    },
+    {
+      "id": "h5-05",
+      "title": "German hyperinflation",
+      "text": "In nineteen twenty-three, prices in Germany rose so {{fast|high}} that workers were paid twice a day. By November, a single loaf of bread cost around two hundred {{billion|million}} marks. Famous photographs show children {{playing|building}} with bundles of worthless notes. Savings built up over a lifetime were wiped out in a matter of months. The crisis was ended by a new currency, and its memory still shapes Germany's {{cautious|strict}} attitude to inflation today.",
+      "note": "Billion and million differ only in the first sound, and both are absurd prices for bread. Fast and high both describe rising prices."
+    },
+    {
+      "id": "h5-06",
+      "title": "Flow",
+      "text": "The psychologist Mihaly Csikszentmihalyi used the word flow to describe a state of complete {{absorption|attention}} in an activity. He found that it tends to occur when the challenge of a task roughly {{matches|meets}} a person's skill. Too easy, and we become bored, too hard, and we become {{anxious|frustrated}}. The best moments in our lives, he argued, are usually not passive ones but times when we are stretched to our limits.",
+      "note": "Matches and meets are both short words beginning with m, so this is the hardest to hear. Frustrated is what most people would say about a hard task, so it reads naturally."
+    },
+    {
+      "id": "h5-07",
+      "title": "Vygotsky's zone of proximal development",
+      "text": "Lev Vygotsky, a Soviet psychologist who died in nineteen thirty-four at the age of only {{thirty-seven|forty-seven}}, had a lasting {{influence|effect}} on education. His best known idea is the zone of proximal development: the gap between what a learner can do {{alone|already}} and what they can do with {{support|practice}} from someone more skilled. Teachers apply it by pitching tasks just beyond what students can manage independently, and then gradually withdrawing their help.",
+      "note": "Thirty-seven and forty-seven share the second half, so the whole difference is in the first word. Alone and already both begin with al."
+    },
+    {
+      "id": "h5-08",
+      "title": "Public key cryptography",
+      "text": "Until the nineteen seventies, two people who wanted to exchange secret messages first had to share a secret key, which was {{risky|costly}} and slow. Public key cryptography solved this problem. Each person has two keys: a public one, which can be shared {{freely|safely}}, and a private one, which is never {{revealed|changed}}. A message locked with the public key can only be {{unlocked|read}} with the matching private key. The security depends on mathematical problems, such as factoring very large numbers, that are extremely {{difficult|slow}} to solve.",
+      "note": "Risky and costly rhyme, which makes the first swap easy to let through. Freely and safely also end alike."
+    },
+    {
+      "id": "h5-09",
+      "title": "The first talking picture",
+      "text": "The Jazz Singer, released in nineteen twenty-seven, is usually remembered as the first feature film with {{synchronised|recorded}} dialogue, although most of it is still silent. Within a few years, sound had become {{standard|popular}} across the industry. The change ended the careers of some silent stars whose voices did not suit the new medium, and it forced studios to {{rebuild|redesign}} their stages to keep out noise.",
+      "note": "Rebuild and redesign both begin with re, so listen to the second syllable. Popular is a natural thing to say about a new technology."
+    },
+    {
+      "id": "h5-10",
+      "title": "Endangered languages",
+      "text": "There are roughly seven thousand languages spoken in the world today, but they are very {{unevenly|widely}} distributed. Just {{twenty-three|thirty-three}} languages are spoken by more than half the world's population. Linguists estimate that around {{forty|fourteen}} per cent of all languages are endangered, often because children are no longer {{learning|using}} them at home. When the last speaker of a language dies, a whole way of describing the world can disappear with it.",
+      "note": "Forty and fourteen are the classic number trap, and both sound like a reasonable estimate. Twenty-three and thirty-three share the second half."
+    }
+  ]
+}

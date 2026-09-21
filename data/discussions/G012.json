@@ -1,0 +1,34 @@
+{
+  "id": "G012",
+  "title": "Should sport be compulsory at university?",
+  "field": "Health and education",
+  "speakers": [
+    { "name": "Adam", "voice": "am_fenrir", "speed": 0.99 },
+    { "name": "Ines", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Rachel", "voice": "bf_emma", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Adam", "text": "The proposal is two hours of timetabled sport a week, for everyone, first year onwards. Non-negotiable, like a lab." },
+    { "speaker": "Rachel", "text": "I can see why they want it. Half our first years barely leave the building." },
+    { "speaker": "Ines", "text": "Then fix the building. Compulsory sport at school is the reason a lot of people never go near it again, and I'd include myself in that." },
+    { "speaker": "Adam", "text": "That's a strong claim. Is that actually true or is it just how it felt?" },
+    { "speaker": "Ines", "text": "It's reasonably well documented, yes. Forced participation without any choice of activity tends to reduce activity later on." },
+    { "speaker": "Rachel", "text": "Although that's usually studied on team sport in front of your classmates, which is a specific kind of misery. It isn't the same as booking a swim." },
+    { "speaker": "Ines", "text": "True. The mechanism is humiliation more than compulsion." },
+    { "speaker": "Adam", "text": "So make it compulsory to do something, and let them pick what. Walking group, climbing, whatever." },
+    { "speaker": "Rachel", "text": "Then it's really a compulsory two hours away from a desk, and I'd support that.", "gap": -0.14 },
+    { "speaker": "Rachel", "text": "The health argument was never about being good at netball." },
+    { "speaker": "Ines", "text": "I'd still want an opt-out that doesn't require a doctor's note. Some people have reasons they don't want to explain to an administrator." },
+    { "speaker": "Adam", "text": "That seems reasonable." },
+    { "speaker": "Rachel", "text": "Which leaves it barely compulsory at all, mind you." },
+    { "speaker": "Ines", "text": "Good. That's usually where these things should end up." }
+  ],
+  "points": [
+    "The proposal is two compulsory timetabled hours of sport per week from first year.",
+    "Ines objects that compulsory school sport is a documented cause of people avoiding exercise later.",
+    "Rachel narrows the finding: the research largely concerns team sport performed in front of classmates, so the mechanism is humiliation rather than compulsion itself.",
+    "Adam proposes compulsory participation with free choice of activity, such as walking or climbing.",
+    "Rachel supports this, noting the health argument was about time away from a desk rather than sporting ability.",
+    "Ines wants an opt-out not requiring a doctor's note, which the others accept, leaving the policy only nominally compulsory."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G024",
+  "title": "Who should pay for the ageing population?",
+  "field": "Society and policy",
+  "speakers": [
+    { "name": "Gwen", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Idris", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Mei", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Mei", "text": "The ratio is the thing that gets me. Four working-age people per pensioner now, and about two by the middle of the century." },
+    { "speaker": "Idris", "text": "And the pension is paid out of today's taxes, not out of anything anyone saved." },
+    { "speaker": "Gwen", "text": "Which people genuinely don't know. They think there's a pot with their name on it." },
+    { "speaker": "Mei", "text": "So the options are the usual three. Work longer, pay more, or get less." },
+    { "speaker": "Idris", "text": "Work longer is the one that sounds painless and isn't. Life expectancy went up, but healthy life expectancy barely moved, and it's very uneven." },
+    { "speaker": "Gwen", "text": "Meaning a manual worker gets a shorter retirement and a worse one." },
+    { "speaker": "Idris", "text": "Considerably. Raising the age by a year takes more from them than from an accountant.", "gap": -0.12 },
+    { "speaker": "Mei", "text": "You could vary it by career length rather than by age, which a few countries have tried." },
+    { "speaker": "Gwen", "text": "Immigration is the other lever and nobody wants to say it out loud in a manifesto." },
+    { "speaker": "Idris", "text": "It buys time rather than solving it. Migrants also get old." },
+    { "speaker": "Gwen", "text": "True, but time is exactly what you need to adjust the rest of it gradually." },
+    { "speaker": "Mei", "text": "The part I find honest is admitting none of this is a crisis that arrived. We've known the numbers for forty years." },
+    { "speaker": "Idris", "text": "Which makes it a choice rather than a shock." }
+  ],
+  "points": [
+    "The ratio of working-age people to pensioners falls from about four to about two by mid-century.",
+    "Pensions are funded from current taxation rather than individual savings, which many people misunderstand.",
+    "The three options are working longer, paying more, or receiving less.",
+    "Idris argues raising the pension age is regressive, since healthy life expectancy has barely risen and varies sharply by occupation.",
+    "Mei suggests varying entitlement by career length rather than age.",
+    "Immigration is acknowledged as a lever that buys time rather than solving the problem, and they conclude the situation is a long-known choice rather than a sudden crisis."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "academic",
+  "title": "Academic register",
+  "summary": "Dense wording and abstract nouns. Harder to hold because the words carry less picture.",
+  "sentences": [
+    { "id": "ac-01", "text": "The correlation was statistically significant but substantively trivial." },
+    { "id": "ac-02", "text": "These findings are consistent with the hypothesis but do not confirm it." },
+    { "id": "ac-03", "text": "The methodology section omits any account of how participants were selected." },
+    { "id": "ac-04", "text": "Subsequent replication attempts yielded considerably weaker effects." },
+    { "id": "ac-05", "text": "The distinction between correlation and causation is routinely ignored in reporting." },
+    { "id": "ac-06", "text": "Peer review is intended to catch confusion rather than deliberate fraud." },
+    { "id": "ac-07", "text": "The sample was drawn exclusively from undergraduate volunteers." },
+    { "id": "ac-08", "text": "Her interpretation depends on an assumption the data cannot test." },
+    { "id": "ac-09", "text": "The literature offers no consensus on how the term should be defined." },
+    { "id": "ac-10", "text": "Quantitative methods dominate the field for largely historical reasons." },
+    { "id": "ac-11", "text": "The variables were controlled for age, income and prior education." },
+    { "id": "ac-12", "text": "Publication bias makes the published literature unrepresentative of the research conducted." },
+    { "id": "ac-13", "text": "The theoretical framework was borrowed almost unchanged from an adjacent discipline." },
+    { "id": "ac-14", "text": "Longitudinal data would resolve the ambiguity, but none exists." },
+    { "id": "ac-15", "text": "The authors acknowledge that their sample size limits any generalisation." },
+    { "id": "ac-16", "text": "Empirical support for the model remains largely indirect." },
+    { "id": "ac-17", "text": "The paper conflates two distinct phenomena throughout its argument." },
+    { "id": "ac-18", "text": "Qualitative interviews revealed motivations the survey had entirely missed." },
+    { "id": "ac-19", "text": "The proposed mechanism is plausible but has never been directly observed." },
+    { "id": "ac-20", "text": "Reviewers raised concerns about the reliability of the coding procedure." }
+  ]
+}

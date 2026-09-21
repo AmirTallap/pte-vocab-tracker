@@ -1,0 +1,27 @@
+{
+  "id": "short",
+  "title": "Short",
+  "summary": "Six to nine words. Get these exact before adding length.",
+  "sentences": [
+    { "id": "sh-01", "text": "The library closes at six on Fridays." },
+    { "id": "sh-02", "text": "Your seminar has been moved to room twelve." },
+    { "id": "sh-03", "text": "Most of the reading is available online." },
+    { "id": "sh-04", "text": "The deadline for applications is next Monday." },
+    { "id": "sh-05", "text": "She published her findings in a medical journal." },
+    { "id": "sh-06", "text": "Attendance at the first lecture is compulsory." },
+    { "id": "sh-07", "text": "The results were far better than expected." },
+    { "id": "sh-08", "text": "Please submit your work through the portal." },
+    { "id": "sh-09", "text": "The experiment failed for a very simple reason." },
+    { "id": "sh-10", "text": "Several students asked for an extension." },
+    { "id": "sh-11", "text": "The department has hired two new lecturers." },
+    { "id": "sh-12", "text": "Bring your student card to the examination." },
+    { "id": "sh-13", "text": "His argument rests on a single assumption." },
+    { "id": "sh-14", "text": "The survey covered four thousand households." },
+    { "id": "sh-15", "text": "We meet in the same room every week." },
+    { "id": "sh-16", "text": "The tutorial groups are deliberately kept small." },
+    { "id": "sh-17", "text": "Nobody expected the theory to hold up." },
+    { "id": "sh-18", "text": "The laboratory is closed for maintenance today." },
+    { "id": "sh-19", "text": "Her supervisor suggested a different approach entirely." },
+    { "id": "sh-20", "text": "The conference takes place every second year." }
+  ]
+}

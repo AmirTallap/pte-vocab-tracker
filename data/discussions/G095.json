@@ -1,0 +1,33 @@
+{
+  "id": "G095",
+  "title": "Are we running out of sand?",
+  "field": "Resources and construction",
+  "speakers": [
+    { "name": "Ingrid", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Tavi", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Nour", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Nour", "text": "Somebody told me sand is the second most extracted material on earth after water, and I assumed it was nonsense." },
+    { "speaker": "Tavi", "text": "It isn't. Concrete is mostly sand and gravel, and we pour an extraordinary amount of concrete." },
+    { "speaker": "Ingrid", "text": "The counterintuitive part is that desert sand is useless for it. Wind erosion makes the grains too round to lock together." },
+    { "speaker": "Nour", "text": "So countries surrounded by sand import it." },
+    { "speaker": "Ingrid", "text": "Routinely, yes. It's one of those facts that sounds invented." },
+    { "speaker": "Tavi", "text": "The extraction is where the damage is. River sand is dredged, and taking it out drops the riverbed, which takes the water table with it.", "gap": -0.12 },
+    { "speaker": "Tavi", "text": "Wells fail, bridges get undermined, and deltas stop being replenished so the coast erodes." },
+    { "speaker": "Nour", "text": "Is it actually scarce, though, or just badly managed?" },
+    { "speaker": "Ingrid", "text": "Badly managed, mostly. It's abundant in absolute terms and locally exhausted, because it's heavy and not worth transporting far." },
+    { "speaker": "Tavi", "text": "Which is why illegal extraction is such a large business in some countries. The value is entirely in being nearby." },
+    { "speaker": "Nour", "text": "What replaces it?" },
+    { "speaker": "Ingrid", "text": "Crushed rock works and costs more. Recycled demolition concrete works for some uses and is barely used." },
+    { "speaker": "Tavi", "text": "Because the raw material is still cheap enough that nobody has to bother." }
+  ],
+  "points": [
+    "Sand is the second most extracted material after water, driven by concrete production.",
+    "Desert sand is unusable because wind-rounded grains do not interlock, so desert countries import sand.",
+    "River dredging lowers riverbeds and water tables, causing well failure, bridge undermining and coastal erosion through reduced delta replenishment.",
+    "Ingrid argues the problem is management rather than absolute scarcity, since sand is abundant but locally exhausted and uneconomic to transport.",
+    "Proximity value drives large-scale illegal extraction.",
+    "Crushed rock and recycled demolition concrete are viable substitutes but remain unused because raw sand is still cheap."
+  ]
+}

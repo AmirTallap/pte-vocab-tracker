@@ -1,0 +1,33 @@
+{
+  "id": "G031",
+  "title": "Lab-grown meat and the wall it keeps hitting",
+  "field": "Food and technology",
+  "speakers": [
+    { "name": "Bea", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Lars", "voice": "bm_fable", "speed": 0.97 },
+    { "name": "Nikhil", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Nikhil", "text": "The first approved product went on sale at one restaurant, one day a week, and that's it. Two years later, still one restaurant." },
+    { "speaker": "Lars", "text": "That tells you it's a demonstration rather than a business." },
+    { "speaker": "Bea", "text": "The problem is the growth medium. It used to need serum from calf blood, which rather defeats the point, and the replacements are pharmaceutical grade and priced accordingly." },
+    { "speaker": "Nikhil", "text": "How far off is it, in cost terms?" },
+    { "speaker": "Bea", "text": "Orders of magnitude, still. Not a few per cent." },
+    { "speaker": "Lars", "text": "And scaling isn't a matter of building a bigger tank. Cells need oxygen through the middle of the mass and they don't have a bloodstream to do it." },
+    { "speaker": "Nikhil", "text": "So mince before steak, presumably." },
+    { "speaker": "Lars", "text": "Mince for a very long time. Structured meat is a much harder problem than anyone said at the start.", "gap": 0.1 },
+    { "speaker": "Bea", "text": "What I'd question is whether it's even the right target. Plant protein is here, it's cheap, and it's improving faster." },
+    { "speaker": "Nikhil", "text": "But it hasn't converted the people who actually eat a lot of meat, and those are the ones who matter." },
+    { "speaker": "Bea", "text": "That's true, and it's the one argument for cultured meat I can't answer." },
+    { "speaker": "Lars", "text": "The regulatory politics are turning against it too. Two countries have banned it outright before it existed at scale." },
+    { "speaker": "Nikhil", "text": "Which is quite the achievement, banning something nobody can buy." }
+  ],
+  "points": [
+    "Cultured meat has been on sale at a single restaurant one day a week for two years, suggesting a demonstration rather than a business.",
+    "Bea explains the growth medium is the core cost problem, with alternatives to calf serum priced at pharmaceutical grade.",
+    "Costs remain orders of magnitude too high.",
+    "Lars notes scaling is limited because cells need oxygen delivered through the tissue without a bloodstream, so structured cuts are far harder than mince.",
+    "Bea questions whether plant protein is the better target, being cheaper and improving faster.",
+    "Nikhil's unanswered point is that plant protein has not converted heavy meat eaters; they also note some countries banned cultured meat before it reached scale."
+  ]
+}

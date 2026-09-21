@@ -1,0 +1,33 @@
+{
+  "id": "G009",
+  "title": "Making supermarkets give away unsold food",
+  "field": "Environment and policy",
+  "speakers": [
+    { "name": "Noor", "voice": "af_nicole", "speed": 1.02 },
+    { "name": "Callum", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Rosa", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Rosa", "text": "France made it illegal for big supermarkets to bin unsold food. They have to have an agreement with a charity. That was two thousand sixteen." },
+    { "speaker": "Callum", "text": "And did it work? Because a law can pass and change almost nothing." },
+    { "speaker": "Rosa", "text": "Donations went up a lot. The tonnage roughly doubled in the first few years." },
+    { "speaker": "Noor", "text": "Doubled in weight, though. That's the number I'd look at twice. If what you double is bread and bruised fruit, the food banks now have a logistics problem instead of an empty shelf." },
+    { "speaker": "Callum", "text": "Yes, somebody has to collect it, chill it and move it the same day." },
+    { "speaker": "Noor", "text": "And that somebody is usually a volunteer with a car." },
+    { "speaker": "Rosa", "text": "The French law did fund some of that, to be fair. Not all of it." },
+    { "speaker": "Callum", "text": "The thing I keep coming back to is that it treats the symptom. You're at the end of the chain, moving surplus around. Nobody's asking why the surplus is that size." },
+    { "speaker": "Rosa", "text": "Because forecasting a supermarket is hard and empty shelves cost them more than waste does." },
+    { "speaker": "Callum", "text": "Right, so the incentive is to over-order. Until that changes, you're just deciding where the excess goes.", "gap": 0.1 },
+    { "speaker": "Noor", "text": "Which is still better than a skip." },
+    { "speaker": "Callum", "text": "Oh, much better. I'm not arguing against it. I'm arguing against calling it a solution." },
+    { "speaker": "Rosa", "text": "That's a distinction I can live with." }
+  ],
+  "points": [
+    "France banned large supermarkets from binning unsold food in 2016, requiring agreements with charities.",
+    "Donations roughly doubled by weight in the first few years.",
+    "Noor questions the weight measure: doubling low-value items creates a logistics burden for food banks rather than solving hunger.",
+    "Collection, chilling and same-day transport typically fall on volunteers, though the French law funded some of it.",
+    "Callum's main objection is that the law treats a symptom at the end of the chain without addressing why the surplus exists.",
+    "Rosa explains the incentive: empty shelves cost supermarkets more than waste, so they over-order. They agree the policy is better than landfill but should not be called a solution."
+  ]
+}

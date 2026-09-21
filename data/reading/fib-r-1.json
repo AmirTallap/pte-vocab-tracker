@@ -1,0 +1,128 @@
+{
+  "id": "fib-r-1",
+  "task": "fib-r",
+  "title": "Set 1",
+  "summary": "The natural sciences: living things, the Earth, medicine and the sky.",
+  "items": [
+    {
+      "id": "r1-01",
+      "title": "Tardigrades",
+      "text": "Tardigrades are microscopic animals, rarely longer than a millimetre, that {{thrive}} in mosses, lichens and ocean sediments across the globe. They are famous for surviving conditions that would kill almost any other organism. When their surroundings dry out, they enter a state known as cryptobiosis, {{during}} which their metabolism slows to an almost undetectable level. In this form they can endure extreme cold, intense radiation and even the vacuum of space. Researchers believe that special proteins {{protect}} their cells by forming a glass-like matrix that holds delicate structures in place. Understanding this mechanism may prove {{valuable}} in medicine, for example in developing ways to store drugs without refrigeration.",
+      "distractors": ["inhabits", "while", "usefully"],
+      "why": [
+        "\"Thrive in\" fits the plural subject; \"inhabits\" is singular and takes a direct object, not \"in\".",
+        "\"During which\" introduces the period of cryptobiosis; \"while\" is a conjunction and cannot be followed by \"which\".",
+        "The plural subject \"proteins\" needs a base-form verb with an object, and only \"protect\" makes sense with \"their cells\".",
+        "\"Prove\" is followed here by an adjective, so \"valuable\" fits; the adverb \"usefully\" cannot complete it."
+      ]
+    },
+    {
+      "id": "r1-02",
+      "title": "Volcanoes and climate",
+      "text": "Large volcanic eruptions can have a measurable {{impact}} on the global climate for several years. The effect comes not from the ash, which falls out of the atmosphere within weeks, but from sulphur dioxide. When this gas is injected into the stratosphere, it reacts with water vapour to form tiny droplets of sulphuric acid. These droplets {{reflect}} a portion of incoming sunlight back into space, cooling the surface below. The eruption of Mount Pinatubo in the Philippines in 1991, {{for}} example, lowered average global temperatures by roughly half a degree Celsius over the following year. Such events are of great interest to scientists, since they offer a natural experiment that can be used to {{evaluate}} climate models.",
+      "distractors": ["reflects", "since", "influential"],
+      "why": [
+        "After \"a measurable\" a noun is needed, and \"impact on\" is the standard collocation; \"influential\" is an adjective.",
+        "The plural subject \"droplets\" needs \"reflect\"; \"reflects\" is the singular form.",
+        "The fixed phrase is \"for example\"; \"since example\" is not English.",
+        "\"Used to\" needs a base-form verb, and models are evaluated; \"reflects\" and \"influential\" are the wrong forms."
+      ]
+    },
+    {
+      "id": "r1-03",
+      "title": "The arrival of anaesthesia",
+      "text": "Before the middle of the nineteenth century, surgery was an ordeal that patients endured fully conscious, and surgeons were valued chiefly {{for}} their speed. This changed in 1846, when the dentist William Morton publicly demonstrated the use of ether during an operation at Massachusetts General Hospital in Boston. Within a year, chloroform had also been {{introduced}}, and it became widely accepted after Queen Victoria received it during childbirth in 1853. Anaesthesia made longer and more complex operations possible, yet it did not immediately make them safer. Because surgeons did not yet understand how infection spread, many patients who {{survived}} the operation itself later died of sepsis. It was only when antiseptic methods were adopted that the {{benefits}} of anaesthesia could be fully realised.",
+      "distractors": ["at", "introduce", "benefited"],
+      "why": [
+        "People are \"valued for\" a quality; \"valued at\" refers to a price.",
+        "\"Had been\" needs a past participle, so \"introduced\", not the base form \"introduce\".",
+        "The patients lived through the operation, so \"survived\"; \"benefited\" would need \"from\".",
+        "After \"the\" a noun is needed, so \"benefits\"; \"benefited\" is a verb."
+      ]
+    },
+    {
+      "id": "r1-04",
+      "title": "Finding planets by their shadows",
+      "text": "Since the 1990s, astronomers have confirmed the existence of thousands of planets orbiting stars other than the Sun. Most of these exoplanets are far too faint to be seen directly, so their presence has to be {{inferred}} from their effects on the star they orbit. The most productive technique is the transit method. When a planet passes in front of its star, as seen from Earth, it blocks a tiny fraction of the star's light, {{causing}} a slight but regular dip in brightness. The size of the dip reveals the planet's diameter, while the time between dips indicates how {{long}} a single orbit takes. NASA's Kepler space telescope, launched in 2009, found thousands of planets in this way and showed that they are {{common}} rather than rare in our galaxy.",
+      "distractors": ["deduce", "leading", "far"],
+      "why": [
+        "\"Has to be\" needs a past participle, so \"inferred\"; \"deduce\" is the base form.",
+        "\"Causing\" takes the dip as its object; \"leading\" would need \"to\".",
+        "\"How long\" asks about duration, which is what an orbit takes; \"how far\" asks about distance.",
+        "\"Common rather than rare\" is the natural contrast; \"far\" cannot be set against \"rare\"."
+      ]
+    },
+    {
+      "id": "r1-05",
+      "title": "How birds find their way",
+      "text": "Every autumn, billions of birds leave their breeding grounds and travel south, some {{covering}} thousands of kilometres in a single journey. How they find their way has long puzzled biologists. Experiments suggest that migrating birds rely on several cues at once. Many species use the position of the sun during the day and the pattern of the stars at night, and there is strong evidence that birds can also {{detect}} the Earth's magnetic field. One leading hypothesis holds that this magnetic sense depends on light-sensitive proteins in the eye, {{although}} the precise mechanism remains uncertain. Young birds of some species make their first journey alone, which suggests that the route is at least partly {{inherited}} rather than learned.",
+      "distractors": ["despite", "acquire", "genetically"],
+      "why": [
+        "A distance is \"covered\"; \"acquire\" makes no sense with kilometres and is the wrong form here.",
+        "Birds \"detect\" a magnetic field; to \"acquire\" the Earth's field is meaningless.",
+        "A full clause follows, so the conjunction \"although\" is needed; \"despite\" must be followed by a noun phrase.",
+        "\"Inherited\" pairs with \"learned\" as a participle; \"genetically\" is an adverb and leaves the sentence incomplete."
+      ]
+    },
+    {
+      "id": "r1-06",
+      "title": "Reading the past in ice",
+      "text": "Ice sheets in Antarctica and Greenland contain a detailed record of the Earth's past climate. As snow accumulates year after year, it is gradually compressed into ice, trapping small bubbles of air {{between}} the grains. By drilling cores several kilometres long and analysing these bubbles, scientists can measure how much carbon dioxide the atmosphere contained at the time the ice was {{laid}} down. The ratio of different oxygen isotopes in the ice itself provides an estimate of past temperatures. The oldest continuous core, from East Antarctica, {{extends}} back roughly 800,000 years. It shows that carbon dioxide and temperature have risen and fallen together through repeated ice ages, and that current concentrations are {{considerably}} higher than at any point in that period.",
+      "distractors": ["reaching", "considerable", "despite"],
+      "why": [
+        "Air is trapped in the spaces \"between\" the grains; \"despite the grains\" makes no sense.",
+        "The phrasal verb is \"laid down\"; \"was reaching down\" does not describe how ice forms.",
+        "The sentence needs a finite verb for \"core\", so \"extends\"; \"reaching\" would leave it without one.",
+        "An adverb must modify \"higher\", so \"considerably\"; \"considerable\" is an adjective."
+      ]
+    },
+    {
+      "id": "r1-07",
+      "title": "The placebo effect",
+      "text": "A placebo is a treatment with no active ingredient, such as a sugar pill or a saline injection. Surprisingly, a {{substantial}} proportion of patients who receive one report a genuine improvement in their symptoms, particularly for conditions such as pain, nausea and fatigue. This placebo effect is thought to arise partly from expectation: believing that a treatment will work can {{trigger}} the release of the brain's own pain-relieving chemicals. For this reason, new drugs are usually tested in randomised controlled trials, {{in}} which one group receives the drug and another receives a placebo. Only if the drug performs significantly better than the placebo can it be {{regarded}} as effective. Some studies suggest that placebos can work even when patients know they are taking one.",
+      "distractors": ["abundant", "regard", "with"],
+      "why": [
+        "\"A substantial proportion\" is the standard collocation; a proportion is not \"abundant\".",
+        "Belief can \"trigger\" a release of chemicals; \"regard the release\" is meaningless.",
+        "Events happen \"in\" a trial, so \"in which\"; \"with which\" does not fit this clause.",
+        "\"Can it be\" needs a past participle, and \"regarded as\" is the set phrase; \"regard\" is the base form."
+      ]
+    },
+    {
+      "id": "r1-08",
+      "title": "Black holes",
+      "text": "A black hole is a region of space where matter is packed so densely that nothing, not even light, can escape its gravitational pull. Many are {{thought}} to form when a massive star exhausts its nuclear fuel and its core collapses under its own weight. The boundary beyond which escape is impossible is called the event horizon. Because black holes emit no light of their own, astronomers study them {{indirectly}}, by observing their influence on nearby stars and gas. In 2019, the Event Horizon Telescope, a network of radio telescopes spread across several continents, produced the first image of a black hole, {{located}} at the centre of the galaxy M87. The image showed a bright ring of glowing gas surrounding a dark {{shadow}}.",
+      "distractors": ["believe", "indirect", "positioning"],
+      "why": [
+        "\"Are thought to\" is a passive reporting structure; \"are believe to\" is ungrammatical.",
+        "An adverb must describe how they are studied, so \"indirectly\", not the adjective \"indirect\".",
+        "A passive participle describes the black hole's position, so \"located\"; \"positioning\" would mean it was placing something.",
+        "After \"a dark\" a noun is needed, and \"shadow\" is the only noun in the box."
+      ]
+    },
+    {
+      "id": "r1-09",
+      "title": "Where mitochondria came from",
+      "text": "Mitochondria, the structures that supply most of the energy in animal and plant cells, have an unusual {{origin}}. According to the endosymbiotic theory, they were once free-living bacteria that were engulfed by a larger cell roughly two billion years ago. Instead of being digested, the bacteria survived inside their host, and the two came to {{depend}} on each other. Several lines of evidence support this idea. Mitochondria have their own DNA, which is circular like that of bacteria, and they divide by a process {{similar}} to bacterial division rather than being built by the cell from scratch. The theory, championed by the biologist Lynn Margulis from the 1960s onwards, was {{initially}} met with scepticism but is now widely accepted.",
+      "distractors": ["originate", "alike", "initial"],
+      "why": [
+        "After \"an unusual\" a noun is needed, so \"origin\"; \"originate\" is a verb.",
+        "\"Came to depend on\" is the pattern; \"originate on each other\" is meaningless.",
+        "\"Similar to\" is the correct collocation; \"alike\" cannot take \"to\" before a noun.",
+        "An adverb must modify \"met\", so \"initially\"; \"initial\" is an adjective."
+      ]
+    },
+    {
+      "id": "r1-10",
+      "title": "Water under our feet",
+      "text": "Beneath much of the Earth's surface lie aquifers, layers of porous rock, sand or gravel that hold water in the spaces between their grains. They are {{replenished}} slowly, as rain and melting snow seep down through the soil, a process that can take anywhere from days to thousands of years. Aquifers supply drinking water to a large share of the world's population and are {{essential}} for irrigation in dry regions. However, when water is pumped out faster than it is replaced, the water table falls, wells must be dug ever deeper, and in some areas the ground itself begins to {{subside}}. Near coasts, excessive pumping can also allow seawater to {{enter}} the aquifer, making the water too salty to use.",
+      "distractors": ["necessity", "crucially", "gradual"],
+      "why": [
+        "\"Are\" plus a past participle forms the passive: aquifers are refilled, so \"replenished\".",
+        "After \"are\" an adjective is needed, so \"essential\"; \"crucially\" is an adverb and \"necessity\" would need an article.",
+        "Ground that sinks \"subsides\", and the verb takes no object; \"gradual\" is an adjective.",
+        "\"Enter\" takes \"the aquifer\" as its object; \"subside\" cannot take an object."
+      ]
+    }
+  ]
+}

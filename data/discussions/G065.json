@@ -1,0 +1,33 @@
+{
+  "id": "G065",
+  "title": "Digital ID and what it would be used for",
+  "field": "Technology and government",
+  "speakers": [
+    { "name": "Gemma", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Idris", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Ken", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Ken", "text": "The digital ID proposal is back. One credential on your phone for tax, health, right to work, the lot." },
+    { "speaker": "Gemma", "text": "Estonia's run something like that for twenty years and it's genuinely popular there." },
+    { "speaker": "Idris", "text": "Estonia also built it alongside a law that logs every official access and lets you see who looked at your record." },
+    { "speaker": "Ken", "text": "That's the part that never makes it into the copy." },
+    { "speaker": "Idris", "text": "It's the whole thing, though. The card isn't the policy. The accountability around it is the policy." },
+    { "speaker": "Gemma", "text": "The convenience case is real, mind you. Proving who you are currently means a utility bill and a passport photocopy, which is absurd in itself and also easy to forge." },
+    { "speaker": "Ken", "text": "And it's worst for people who move often or have no bank account." },
+    { "speaker": "Gemma", "text": "Which is the group usually invoked against it and is arguably helped most by it.", "gap": -0.12 },
+    { "speaker": "Idris", "text": "My objection isn't the database, it's function creep. It arrives for tax and within a decade you need it to rent a flat." },
+    { "speaker": "Ken", "text": "That has happened elsewhere, to be fair." },
+    { "speaker": "Idris", "text": "Repeatedly. Nobody ever announces it. Each extension is small and sensible." },
+    { "speaker": "Gemma", "text": "So legislate the list of uses and require a vote to add one." },
+    { "speaker": "Idris", "text": "That I could support. What I won't support is trusting a promise that it stays narrow." }
+  ],
+  "points": [
+    "A digital ID proposal would combine tax, health and right-to-work credentials.",
+    "Gemma cites Estonia's long-running and popular system.",
+    "Idris notes Estonia paired it with laws logging every official access and letting citizens see who viewed their record, which he considers the substance of the policy.",
+    "The convenience case is strong, since current identity checks rely on forgeable documents and disadvantage people who move often or lack bank accounts.",
+    "Idris's main objection is function creep, where narrow uses expand incrementally without announcement.",
+    "They agree a legislated list of permitted uses, requiring a vote to extend, would address the concern better than assurances."
+  ]
+}

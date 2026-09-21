@@ -1,0 +1,33 @@
+{
+  "id": "G075",
+  "title": "Should employers see your social media?",
+  "field": "Work and privacy",
+  "speakers": [
+    { "name": "Dina", "voice": "af_kore", "speed": 1.03 },
+    { "name": "Stefan", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Ray", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Ray", "text": "The recruiter admitted they search every shortlisted candidate. Not the professional profile. Everything." },
+    { "speaker": "Stefan", "text": "Which is legal almost everywhere, and that surprises people more than it should." },
+    { "speaker": "Dina", "text": "The defence is that it's public. Which is true and completely beside the point." },
+    { "speaker": "Ray", "text": "Go on." },
+    { "speaker": "Dina", "text": "Public to your friends isn't public to a hiring committee. Something posted at nineteen to forty people is being read at thirty-two by a stranger deciding your income." },
+    { "speaker": "Stefan", "text": "Context collapse. It's the thing these platforms are worst at." },
+    { "speaker": "Ray", "text": "The practical problem is that you can't prove it happened. Nobody writes down that they didn't like your holiday photographs.", "gap": -0.12 },
+    { "speaker": "Stefan", "text": "Which makes discrimination law almost useless here. You learn things you're not allowed to ask about in an interview, and then you can't unknow them." },
+    { "speaker": "Dina", "text": "Religion, pregnancy, health, politics. All illegal to ask, all visible in ten minutes." },
+    { "speaker": "Ray", "text": "Germany drafted something limiting it to professional networks only, didn't they." },
+    { "speaker": "Stefan", "text": "They did, and enforcement is the obvious weakness. You can't police curiosity." },
+    { "speaker": "Dina", "text": "You can make the search a documented stage, though. Recorded, disclosed, same for every candidate." },
+    { "speaker": "Ray", "text": "Which most recruiters would hate, and that tells you it would work." }
+  ],
+  "points": [
+    "Recruiters commonly search all social media of shortlisted candidates, which is broadly legal.",
+    "Dina argues the public nature of posts is beside the point, because content shared with friends at nineteen is later read by strangers deciding employment.",
+    "Stefan identifies context collapse as the underlying problem.",
+    "Discrimination law is ineffective here because the influence cannot be proven and information cannot be unlearned.",
+    "Characteristics illegal to ask about, such as religion, pregnancy, health and politics, are visible within minutes.",
+    "Germany has drafted limits to professional networks, though enforcement is weak; Dina proposes making searches a documented, disclosed and uniform stage."
+  ]
+}

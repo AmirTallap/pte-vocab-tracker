@@ -1,0 +1,71 @@
+{
+  "id": "feelings-and-character",
+  "title": "Feelings and character",
+  "summary": "Words for what people feel and what they are like.",
+  "questions": [
+    {
+      "id": "feel-01",
+      "clue": "This is the warm, slightly sad longing you feel for a time in the past.",
+      "answer": "nostalgia",
+      "note": "Originally a medical diagnosis meaning acute homesickness, from Greek words for return and pain."
+    },
+    {
+      "id": "feel-02",
+      "clue": "This is the unhappy feeling you get when somebody else has the thing you want.",
+      "answer": "envy",
+      "accept": ["jealousy"],
+      "note": "Strictly envy is wanting what another has, and jealousy is fearing to lose what you already have, but the two are used for each other constantly."
+    },
+    {
+      "id": "feel-03",
+      "clue": "This word describes somebody who refuses to change their mind however good your argument is.",
+      "answer": "stubborn",
+      "accept": ["obstinate", "pigheaded"],
+      "note": "Obstinate is the more formal word and carries the same meaning. Determined is the version you use when you approve."
+    },
+    {
+      "id": "feel-04",
+      "clue": "This is a feeling of worry about something that has not happened yet and may never happen.",
+      "answer": "anxiety",
+      "note": "Fear has an object in front of you. Anxiety is directed at the future, which is why it has nothing to resolve it."
+    },
+    {
+      "id": "feel-05",
+      "clue": "This word describes somebody who believes they are far more important than they are.",
+      "answer": "arrogant",
+      "accept": ["conceited", "pompous"],
+      "note": "Confident is the neutral word. Arrogant and conceited both add the judgement that the confidence is not earned."
+    },
+    {
+      "id": "feel-06",
+      "clue": "This is the ability to understand and share what another person is feeling.",
+      "answer": "empathy",
+      "note": "Sympathy is feeling for somebody. Empathy is feeling with them, which is the harder and more useful thing."
+    },
+    {
+      "id": "feel-07",
+      "clue": "This word describes somebody who does a thing although they would rather not.",
+      "answer": "reluctant",
+      "accept": ["unwilling", "hesitant"],
+      "note": "Reluctant still does it. Unwilling can mean refusing outright, which is why the clue says they do it anyway."
+    },
+    {
+      "id": "feel-08",
+      "clue": "This is the deep sorrow felt after somebody close to you has died.",
+      "answer": "grief",
+      "note": "Grief is the feeling; mourning is how it is expressed; bereavement is the fact of the loss."
+    },
+    {
+      "id": "feel-09",
+      "clue": "This is the strong wish to know or learn something, which makes children ask why.",
+      "answer": "curiosity",
+      "note": "The adjective is curious, which also means strange, as in a curious noise."
+    },
+    {
+      "id": "feel-10",
+      "clue": "This word describes somebody willing to give more of their time or money than they need to.",
+      "answer": "generous",
+      "note": "The noun is generosity. The opposite is mean in British English and stingy in both."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "mcq-multi-5",
+  "task": "mcq-multi",
+  "title": "Set 5",
+  "summary": "Ten passages from microbes to the law: pick every supported option and nothing that merely sounds plausible.",
+  "items": [
+    {
+      "id": "mm5-01",
+      "title": "Bacteria that count",
+      "passage": "Bacteria were long thought of as solitary cells, each acting independently. Research since the 1970s has shown that many species can in fact coordinate their behaviour through a process known as quorum sensing. Each cell releases small signalling molecules into its surroundings. When few bacteria are present, the molecules drift away and remain at low concentration; as the population grows, they accumulate. Once the concentration passes a threshold, it triggers changes in the activity of particular genes throughout the population, so that the bacteria switch their behaviour more or less together.\nThe phenomenon was first studied in Vibrio fischeri, a marine bacterium that produces light. Living freely in the sea, where the cells are thinly spread, it does not glow. Inside the light organ of the Hawaiian bobtail squid, however, it reaches very high densities and emits light, which the squid is thought to use to cancel out its own shadow when seen from below by predators on moonlit nights. Producing light costs energy, and it would be of little use to a single cell, which is why it makes sense only when the population is large.\nMany disease-causing bacteria also use quorum sensing, for example to delay releasing toxins until they are numerous enough to overwhelm the host's defences, or to form biofilms, protective layers that are difficult for antibiotics to penetrate. This has prompted interest in treatments that interfere with the signals rather than killing the bacteria outright. Researchers hope such treatments might create less pressure for resistance to evolve, though whether that hope will be borne out remains uncertain.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Signalling molecules build up as the bacterial population grows.",
+        "Vibrio fischeri glows most brightly when living freely in the sea.",
+        "Each bacterium changes its behaviour independently of how many others are present.",
+        "Some harmful bacteria may hold back their toxins until their numbers are large.",
+        "Treatments that block the signals have been shown to prevent resistance.",
+        "The bobtail squid produces its light without any help from bacteria."
+      ],
+      "answer": [0, 3],
+      "note": "'As the population grows, they accumulate', and disease-causing bacteria may 'delay releasing toxins until they are numerous enough'. The bacterium 'does not glow' when living freely, the whole point of quorum sensing is that behaviour switches with population size, and the squid's light comes from the bacteria in its light organ. Whether signal-blocking treatments reduce resistance 'remains uncertain'."
+    },
+    {
+      "id": "mm5-02",
+      "title": "The cause of stomach ulcers",
+      "passage": "For most of the twentieth century, stomach ulcers were thought to be caused chiefly by stress, spicy food and excess stomach acid. The stomach was considered too acidic for bacteria to survive in, and treatment focused on reducing acid, sometimes with surgery. Ulcers frequently returned when treatment stopped.\nIn the early 1980s the Australian pathologist Robin Warren noticed curved bacteria in samples taken from the stomachs of patients with inflammation, and together with the physician Barry Marshall he investigated whether they might be responsible for ulcers. Their suggestion was met with considerable scepticism. Marshall's attempts to infect pigs with the bacteria failed, and in 1984, frustrated, he drank a culture of the organism himself. Within days he developed symptoms of gastritis, inflammation of the stomach lining, and the bacteria were found in his stomach. He did not develop an ulcer, but the experiment helped to show that the bacterium could colonise a healthy stomach and cause disease.\nThe bacterium, later named Helicobacter pylori, survives in the stomach partly by producing an enzyme that neutralises acid in its immediate surroundings. Further studies showed that treating infected patients with antibiotics cured most ulcers and greatly reduced the chance of their returning. It is now also recognised as a major risk factor for stomach cancer. Nevertheless, most people who carry the bacterium never develop an ulcer, and stress and some medicines, notably certain painkillers, can contribute to ulcers too. In 2005 Warren and Marshall were awarded the Nobel Prize in Physiology or Medicine.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Marshall developed a stomach ulcer after drinking the bacteria.",
+        "It was once believed that bacteria could not survive in the stomach.",
+        "Everyone infected with Helicobacter pylori eventually develops an ulcer.",
+        "Antibiotic treatment made ulcers much less likely to return.",
+        "Warren and Marshall's idea was accepted as soon as they proposed it.",
+        "The writer suggests that stress plays no part in any ulcer.",
+        "Marshall first demonstrated the link by successfully infecting pigs."
+      ],
+      "answer": [1, 3],
+      "note": "The stomach 'was considered too acidic for bacteria to survive in', and antibiotics 'greatly reduced the chance of their returning'. Marshall developed gastritis but 'did not develop an ulcer', and 'most people who carry the bacterium never develop an ulcer'. The idea 'was met with considerable scepticism', stress 'can contribute to ulcers too', and the pig experiments 'failed'."
+    },
+    {
+      "id": "mm5-03",
+      "title": "Forests that need fire",
+      "passage": "Fire is often seen purely as a destructive force, but in many ecosystems it is a natural and even necessary part of the cycle of life. Grasslands, savannahs and some types of forest have burned at fairly regular intervals for thousands of years, and many of their plants have evolved to survive fire or to depend on it.\nAdaptations take several forms. Some trees, such as certain pines, have thick bark that insulates the living tissue beneath. Many Australian eucalypts can sprout new shoots from buds hidden beneath the bark after a fire has burned away their leaves. Other plants rely on fire to reproduce. The cones of the lodgepole pine in North America are often sealed with a resin that melts only at high temperatures, so that the seeds are released onto ground that the fire has cleared of competing vegetation and enriched with ash. The seeds of some species germinate in response to chemicals found in smoke.\nDuring much of the twentieth century, land managers in the United States and elsewhere pursued a policy of putting out almost all wildfires as quickly as possible. In fire-adapted forests, this had unintended consequences. Without regular low-intensity fires, dead wood and dense undergrowth built up, so that when fires did occur they were often larger and more intense than before, sometimes killing trees that would have survived smaller fires. Many agencies now use prescribed burning, deliberately setting controlled fires under suitable conditions, to reduce fuel. Such fires carry their own risks, and the task is complicated by the spread of housing into fire-prone areas and, in many regions, by hotter and drier conditions.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Some plants depend on fire in order to reproduce.",
+        "The heat of a fire can cause the cones of certain pines to release their seeds.",
+        "Putting out all fires reduced the risk of intense fires in fire-adapted forests.",
+        "Prescribed burning carries no risk.",
+        "Some eucalypts can regrow from buds protected beneath their bark.",
+        "Fire is harmful to every kind of forest."
+      ],
+      "answer": [0, 1, 4],
+      "note": "'Other plants rely on fire to reproduce', lodgepole cones are sealed with a resin 'that melts only at high temperatures' so that seeds are released after a fire, and eucalypts sprout 'from buds hidden beneath the bark'. Suppression let fuel build up so that fires became 'larger and more intense', the reverse of the third option. Prescribed fires 'carry their own risks', and some forests are fire-adapted rather than harmed by fire."
+    },
+    {
+      "id": "mm5-04",
+      "title": "The Great Exhibition of 1851",
+      "passage": "In 1851 London hosted the Great Exhibition of the Works of Industry of All Nations, the first of a series of international fairs that continued into the following century. The idea was promoted by Henry Cole, a civil servant, and by Prince Albert, the husband of Queen Victoria, who hoped to demonstrate the benefits of industry and free trade and to encourage improvements in British design.\nThe exhibition was housed in a vast building of iron and glass in Hyde Park, designed by Joseph Paxton, a gardener who had earlier built large glasshouses. It was nicknamed the Crystal Palace. Because it was assembled from standardised, prefabricated parts, it was erected in a matter of months, and it could be taken down afterwards; it was indeed moved to south London, where it stood until it was destroyed by fire in 1936.\nMore than six million visits were recorded between May and October. Ticket prices were reduced on certain days to a shilling, so that working people could attend, and many arrived on cheap excursion trains organised by railway companies and by the travel agent Thomas Cook. Around half of the exhibitors came from Britain and its colonies, and the display was intended in part to celebrate British industrial leadership. Some observers, however, were struck by the quality of certain foreign exhibits, particularly American machinery, and critics complained that many British manufactured goods were overdecorated.\nThe exhibition made a considerable profit, which was used to buy land in South Kensington for institutions devoted to science, art and education. The Victoria and Albert Museum, the Science Museum and Imperial College all stand on it today.",
+      "question": "According to the passage, which of the following are true of the Great Exhibition?",
+      "options": [
+        "The Crystal Palace was built as a permanent structure that could not be moved.",
+        "Cheaper tickets on certain days were meant to allow working people to attend.",
+        "All of the exhibitors came from Britain and its colonies.",
+        "Some observers were impressed by exhibits from other countries.",
+        "Its profit paid for land for institutions of science, art and education.",
+        "The Crystal Palace remained in Hyde Park until 1936.",
+        "Paxton was a professional architect who had never built with glass."
+      ],
+      "answer": [1, 3, 4],
+      "note": "Prices were reduced 'so that working people could attend', observers 'were struck by the quality of certain foreign exhibits', and the profit bought 'land in South Kensington for institutions devoted to science, art and education'. The building 'could be taken down afterwards' and was moved to south London, where it stood until 1936. Only 'around half' of the exhibitors were British or colonial, and Paxton was 'a gardener who had earlier built large glasshouses'."
+    },
+    {
+      "id": "mm5-05",
+      "title": "Goodhart's law",
+      "passage": "In 1975 the British economist Charles Goodhart observed that statistical relationships which the Bank of England had relied upon in managing the money supply tended to break down once the Bank began using them as targets. His observation has since been generalised, most famously in the paraphrase by the anthropologist Marilyn Strathern: when a measure becomes a target, it ceases to be a good measure.\nThe reasoning is straightforward. A measure is useful because it tends to move with something we care about but cannot observe directly. Once people are rewarded or punished according to the measure, however, they have an incentive to improve the number itself, and there are usually ways of doing so that do not improve, or even damage, the underlying reality. The link between the two then weakens.\nExamples are easy to find. When hospitals are judged on how long patients wait in emergency departments, there have been reports of patients being kept in ambulances outside, so that the waiting time does not officially begin. When schools are judged mainly on examination results, teachers may concentrate on the tested material at the expense of a broader education. A frequently repeated story, possibly apocryphal, tells of a colonial government that paid a reward for dead cobras, only for people to begin breeding them.\nGoodhart's law is not an argument against measurement. Organisations cannot be managed without some information about performance. It is rather a warning about the way measures are used. Common suggestions include using several measures rather than one, changing them from time to time, and combining numbers with human judgement.",
+      "question": "Which statements reflect the writer's view or the information in the passage?",
+      "options": [
+        "Goodhart's original observation concerned the management of the money supply.",
+        "Organisations should stop measuring performance altogether.",
+        "Rewarding people according to a measure can weaken its link with what it was meant to indicate.",
+        "The story of the cobras is a well-documented historical fact.",
+        "Strathern first formulated the law while working at the Bank of England.",
+        "Relying on a single measure is the best way to avoid the problem."
+      ],
+      "answer": [0, 2],
+      "note": "Goodhart's observation was about relationships the Bank had relied on 'in managing the money supply', and once people are rewarded by a measure 'The link between the two then weakens'. The law 'is not an argument against measurement', the cobra story is 'possibly apocryphal', and Strathern, an anthropologist, is credited only with the later paraphrase. The suggested remedy is 'several measures rather than one'."
+    },
+    {
+      "id": "mm5-06",
+      "title": "The Mondragon cooperatives",
+      "passage": "The Mondragon Corporation, based in the Basque Country of northern Spain, is often cited as the largest group of worker cooperatives in the world. Its origins lie in a small technical school founded in the town of Mondragón in 1943 by a Catholic priest, José María Arizmendiarrieta, and in a company making paraffin stoves that five of the school's former students set up in 1956.\nIn a worker cooperative, the business is owned by those who work in it. At Mondragon, members make a capital contribution when they join and each has one vote in the general assembly, regardless of the size of their stake or their position. The assembly elects a governing council, which appoints the managers. For many years the ratio between the highest and lowest pay was deliberately kept narrow; it has been widened since, partly in order to attract and keep skilled managers, but it remains far smaller than in most large companies. The cooperatives also established their own bank and social security system, and they have supported one another by moving workers from struggling cooperatives to those with vacancies.\nThe model has faced serious tests. In 2013 Fagor Electrodomésticos, a household appliance maker and one of the group's oldest and best-known cooperatives, went bankrupt, and not all of its members could be relocated. The group has also expanded abroad, and many of the people working in its overseas subsidiaries are employees rather than members, which some critics regard as a departure from its founding principles. Supporters respond that competing in global markets has required compromises, and that the cooperatives have survived several economic downturns better than many conventional firms.",
+      "question": "According to the passage, which of the following are true of Mondragon?",
+      "options": [
+        "Each member has one vote in the general assembly, whatever the size of their stake.",
+        "Everyone working in its overseas subsidiaries is a member of the cooperatives.",
+        "All of Fagor's members were found new jobs elsewhere in the group.",
+        "Managers are elected directly by the whole membership.",
+        "It was founded by a group of bankers.",
+        "The pay ratio has been widened partly in order to keep skilled managers."
+      ],
+      "answer": [0, 5],
+      "note": "Each member 'has one vote in the general assembly, regardless of the size of their stake', and the pay ratio was widened 'partly in order to attract and keep skilled managers'. Many overseas workers 'are employees rather than members', and 'not all of its members could be relocated'. The assembly elects a council 'which appoints the managers', so they are not elected directly, and the origins lie in a priest's school and a stove company, with the bank set up later by the cooperatives."
+    },
+    {
+      "id": "mm5-07",
+      "title": "The mere exposure effect",
+      "passage": "People tend to develop a preference for things simply because they are familiar with them. This tendency, known as the mere exposure effect, was demonstrated systematically in the 1960s by the psychologist Robert Zajonc. In one series of experiments, participants were shown unfamiliar stimuli, such as Chinese characters shown to people who did not read Chinese, or nonsense words, different numbers of times. When later asked to guess the meaning of the characters or words, they tended to rate those they had seen more often as having more positive meanings.\nLater studies found that the effect can occur even when people are not aware of having seen the stimulus. When images were flashed too briefly to be consciously recognised, participants still tended to prefer the ones they had been shown over new ones, although they could not say which they had seen before. This finding suggested that liking does not necessarily depend on conscious recognition.\nSeveral explanations have been proposed. One is that a familiar stimulus is easier to process, and that this ease is experienced as a mild positive feeling, which people attribute to the stimulus itself. Another, drawing on evolution, suggests that something encountered repeatedly without harm is likely to be safe.\nThe effect has clear limits. It is generally strongest for stimuli that are initially neutral, and repeated exposure to something disliked from the outset may not increase liking and can even intensify the dislike. Beyond a certain point, repetition may also lead to boredom. These limits matter to advertisers, who rely on repetition but risk irritating the audience they are trying to win over.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Participants tended to rate more favourably the stimuli they had seen more often.",
+        "The effect occurs only when people consciously remember seeing the stimulus.",
+        "Repeated exposure increases liking however the stimulus was first regarded.",
+        "One explanation links the effect to the ease of processing familiar things.",
+        "Advertisers should never repeat an advertisement.",
+        "Zajonc's participants could read the Chinese characters they were shown.",
+        "Too much repetition can lead to boredom."
+      ],
+      "answer": [0, 3, 6],
+      "note": "Participants 'rate those they had seen more often as having more positive meanings', one explanation is that 'a familiar stimulus is easier to process', and 'repetition may also lead to boredom'. The effect occurred with images 'too briefly to be consciously recognised', and exposure to something disliked 'can even intensify the dislike'. Advertisers are said to 'rely on repetition', not to avoid it, and the characters were shown to 'people who did not read Chinese'."
+    },
+    {
+      "id": "mm5-08",
+      "title": "Learning in the mother tongue",
+      "passage": "In many countries, children begin school in a language that they do not speak at home. This is common in parts of Africa and Asia, where the language of instruction is often a former colonial language such as English or French, or a national language that differs from the local one. UNESCO has warned that a substantial proportion of the world's children are taught in a language they do not fully understand.\nA considerable body of research suggests that children learn to read more easily in a language they already speak. Learning to read involves connecting written symbols to sounds and meanings, and when the words on the page are already familiar, children can concentrate on decoding them. When they are not, pupils may learn to recognise and repeat text without understanding it. Researchers also argue that skills developed in the first language, such as reading comprehension, transfer to a second language learnt later, so that time spent in the mother tongue is not time lost.\nFor these reasons, many specialists recommend beginning with the mother tongue and introducing the second language gradually, continuing to use both for several years rather than switching abruptly. Such programmes face practical obstacles, however. Some countries have dozens or even hundreds of languages, many of which have few written materials or trained teachers. Parents themselves sometimes resist mother-tongue education, believing that early exposure to an international language offers their children the best chance of economic success. Advocates respond that a child who does not understand the lessons is unlikely to learn the international language well either.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Researchers argue that reading skills learnt in the first language carry over to a second language.",
+        "Specialists recommend switching abruptly from the mother tongue to the second language.",
+        "Parents always welcome mother-tongue education.",
+        "Most languages in highly multilingual countries have plentiful written materials.",
+        "Children taught in an unfamiliar language may learn to repeat text without understanding it.",
+        "Former colonial languages are no longer used as languages of instruction."
+      ],
+      "answer": [0, 4],
+      "note": "Pupils 'may learn to recognise and repeat text without understanding it', and skills from the first language 'transfer to a second language learnt later'. Specialists recommend introducing the second language 'gradually ... rather than switching abruptly', and parents 'sometimes resist'. Many of those languages 'have few written materials', and the language of instruction 'is often a former colonial language'."
+    },
+    {
+      "id": "mm5-09",
+      "title": "The Matthew effect",
+      "passage": "In 1968 the American sociologist Robert K. Merton described what he called the Matthew effect in science, taking the name from a verse in the Gospel of Matthew: 'For unto every one that hath shall be given.' Merton argued that eminent scientists tend to receive disproportionate credit for their contributions, while lesser-known researchers receive less than they deserve. When a famous and an unknown scientist make the same discovery independently, or publish a paper together, it is usually the famous name that is remembered.\nMerton drew partly on interviews with Nobel laureates conducted by the sociologist Harriet Zuckerman, several of whom described how their prizes had brought them attention that their collaborators did not share. He argued that the effect had consequences beyond individual injustice. Recognition brings resources, such as funding, students and access to facilities, which make further success more likely, so small early differences can grow into large inequalities over a career.\nMerton also saw a function in the process. Scientists cannot read everything that is published, and the name of a well-known author helps a paper to be noticed. In this sense, reputation helps to direct attention within an overloaded communication system, even if it does so unfairly.\nLater research has lent some support to the idea. One study of grant funding found that researchers who narrowly succeeded in an early application went on to receive more funding than those who narrowly missed, even though their initial proposals had been rated almost equally. The concept has since been extended to education and economics, where it describes cumulative advantage more generally.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Merton took the name of the effect from a verse in the Bible.",
+        "According to Merton, lesser-known scientists tend to receive more credit than they deserve.",
+        "Merton argued that recognition brings resources that make further success more likely.",
+        "Merton saw no useful function in the effect.",
+        "Researchers who narrowly missed early funding later received more funding than those who narrowly succeeded.",
+        "Merton believed that a well-known name helps a paper to attract attention.",
+        "The concept has been applied only to the natural sciences."
+      ],
+      "answer": [0, 2, 5],
+      "note": "The name comes from 'a verse in the Gospel of Matthew', recognition brings resources 'which make further success more likely', and 'the name of a well-known author helps a paper to be noticed'. Lesser-known researchers 'receive less than they deserve', and Merton 'also saw a function in the process'. The grant study found the reverse of the fifth option, and the concept 'has since been extended to education and economics'."
+    },
+    {
+      "id": "mm5-10",
+      "title": "Time limits in law",
+      "passage": "Most legal systems set time limits within which legal proceedings must be brought. These rules, known as limitation periods or statutes of limitations, mean that once a certain period has passed after an event, a claim based on it can no longer be pursued, however strong it may be.\nSeveral justifications are offered. Evidence deteriorates over time: witnesses die or forget, and documents are lost, so a trial held many years later risks reaching an unreliable verdict. Limitation periods also give potential defendants a degree of certainty, allowing people and businesses to arrange their affairs without the indefinite threat of old claims. And they encourage claimants to act promptly rather than delaying.\nIn England and Wales, most civil claims are subject to limitation. A claim for breach of contract must generally be brought within six years, and a claim for personal injury within three years. The criminal law is different. Serious crimes can be prosecuted however long ago they were committed, and time limits apply mainly to minor offences tried in the magistrates' courts. Other countries take different approaches, and some apply limitation periods to serious crimes as well, although murder is commonly excluded.\nRigid time limits can produce injustice, particularly where a person did not know, or could not have known, that they had a claim. Many systems therefore allow the period to start from the date on which the claimant discovered, or could reasonably have discovered, the relevant facts, and courts in England and Wales have a discretion to extend the period in some personal injury cases. Special rules often apply to children, for whom the period may not begin to run until they reach adulthood.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "In England and Wales, time limits apply to all criminal offences.",
+        "One justification for time limits is that evidence becomes less reliable with time.",
+        "In England and Wales, the limit for personal injury claims is generally longer than for contract claims.",
+        "In many systems, the period can start from when the claimant discovered the relevant facts.",
+        "Courts in England and Wales can never extend a limitation period.",
+        "For children, the period may not begin until they become adults."
+      ],
+      "answer": [1, 3, 5],
+      "note": "'Evidence deteriorates over time' so a late trial 'risks reaching an unreliable verdict'; 'Many systems' let the period run from when the claimant 'discovered, or could reasonably have discovered, the relevant facts'; and for children 'the period may not begin to run until they reach adulthood'. Serious crimes 'can be prosecuted however long ago they were committed'. Personal injury has three years against contract's six, and courts 'have a discretion to extend the period in some personal injury cases'."
+    }
+  ]
+}

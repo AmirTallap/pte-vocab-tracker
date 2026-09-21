@@ -1,0 +1,122 @@
+{
+  "id": "reorder-3",
+  "task": "reorder",
+  "title": "Set 3",
+  "summary": "Ten more short texts across physics, history, business, art, health and the environment to put back in order.",
+  "items": [
+    {
+      "id": "o3-01",
+      "title": "The Doppler effect",
+      "paragraphs": [
+        "In 1842 the Austrian physicist Christian Doppler proposed that the observed frequency of a wave depends on whether its source is moving towards or away from the observer.",
+        "His idea was tested in the Netherlands three years later, when trumpeters playing a sustained note were carried on a train past a group of musicians standing beside the track.",
+        "These listeners reported that the note sounded higher as the train approached and lower once it had passed, just as Doppler had predicted.",
+        "The same principle is now applied far beyond acoustics: astronomers use the shift in the light of distant galaxies to show that they are moving away from us."
+      ],
+      "note": "Only the first sentence names Doppler and states the idea, so it must open. 'His idea' in the second needs Doppler, 'These listeners' needs the musicians beside the track, and 'The same principle' generalises from the confirmed prediction, which is why it closes."
+    },
+    {
+      "id": "o3-02",
+      "title": "The Antikythera mechanism",
+      "paragraphs": [
+        "In 1901 sponge divers exploring a Roman-era shipwreck off the Greek island of Antikythera recovered a corroded lump of bronze that was at first largely ignored.",
+        "In 1902, however, an archaeologist examining the object noticed that it contained a precisely cut gearwheel, something no one expected to find in an ancient artefact.",
+        "Decades of study followed that discovery, but the mechanism's full complexity was revealed only in the 2000s, when X-ray computed tomography allowed researchers to see inside the fragments.",
+        "These scans showed that its gears modelled the movements of the Sun and Moon, predicted eclipses and even tracked the four-year cycle of the ancient Greek games.",
+        "For this reason the device is often described as the earliest known analogue computer, as nothing of comparable mechanical sophistication survives from the following thousand years."
+      ],
+      "note": "The first sentence introduces the shipwreck and the bronze lump; 'however' and 'the object' in the second contrast with it being ignored. 'That discovery' refers to the gearwheel, 'These scans' to the X-ray tomography, and 'For this reason' draws the conclusion from what the scans revealed."
+    },
+    {
+      "id": "o3-03",
+      "title": "The Dutch East India Company",
+      "paragraphs": [
+        "The Dutch East India Company, founded in 1602, is often regarded as the first company to offer shares to the general public on a permanent basis.",
+        "Earlier trading ventures had usually been wound up after a single voyage, with investors dividing the profits once the ships returned; the Company, by contrast, kept its capital indefinitely.",
+        "Because this capital was locked in, investors who wanted their money back had to sell their shares to someone else, and a market for such trades soon developed in Amsterdam.",
+        "That market is frequently cited as the world's first modern stock exchange, and it helped to make Amsterdam the financial centre of seventeenth-century Europe."
+      ],
+      "note": "The opener names the Company in full and dates it; the second then refers to it as 'the Company, by contrast'. 'This capital' picks up the capital kept indefinitely, and 'That market' refers to the market for share trades just described."
+    },
+    {
+      "id": "o3-04",
+      "title": "Painting in fresco",
+      "paragraphs": [
+        "Fresco is a technique of mural painting in which pigments mixed with water are applied to a layer of fresh lime plaster, the word itself meaning 'fresh' in Italian.",
+        "As the plaster dries, a chemical reaction with carbon dioxide in the air binds the pigment into the wall, making the colour part of the surface rather than a coating on it.",
+        "This process imposes a strict discipline, however, since an artist can paint only as much plaster as can be finished before it sets, usually about one day's work.",
+        "These daily sections, known as giornate, can still be traced on famous works such as Michelangelo's Sistine Chapel ceiling, where the joins between them are faintly visible."
+      ],
+      "note": "The definition of fresco has to come first. 'The plaster' in the second refers back to the fresh lime plaster, 'This process' to the drying and binding, and 'These daily sections' to the one day's work mentioned immediately before."
+    },
+    {
+      "id": "o3-05",
+      "title": "Mending the ozone layer",
+      "paragraphs": [
+        "In 1985 British scientists working in Antarctica reported that the ozone layer above the continent was thinning dramatically each spring.",
+        "The cause of this thinning was soon traced to chlorofluorocarbons, or CFCs, synthetic chemicals then widely used in refrigerators, aerosol sprays and foam packaging.",
+        "Once released, these compounds drift up into the stratosphere, where ultraviolet light breaks them apart and frees chlorine atoms that destroy ozone molecules.",
+        "Alarmed by the damage these chlorine atoms could do, governments signed the Montreal Protocol in 1987, committing themselves to phasing out the production of CFCs and related substances.",
+        "The agreement has since been ratified by every member of the United Nations, and scientists expect the ozone layer to return to its earlier state during this century."
+      ],
+      "note": "The report from Antarctica opens because nothing in it points back. 'This thinning' refers to that report, 'these compounds' to the CFCs, 'these chlorine atoms' to the atoms freed in the stratosphere, and 'The agreement' to the Montreal Protocol."
+    },
+    {
+      "id": "o3-06",
+      "title": "The barcode",
+      "paragraphs": [
+        "The barcode was patented in 1952 by two American engineers, Norman Joseph Woodland and Bernard Silver, who wanted a way to record product information automatically at supermarket checkouts.",
+        "Their invention was ahead of its time, however, because the equipment needed to read the codes quickly and cheaply did not yet exist.",
+        "Only after affordable lasers and computers appeared did the idea become practical, and in 1974 a packet of chewing gum became the first product scanned at a shop till using the Universal Product Code.",
+        "From that single purchase the system spread rapidly through the retail trade, transforming stock control as well as speeding up the queues at checkouts."
+      ],
+      "note": "The patent sentence introduces the barcode and its inventors, so it opens. 'Their invention' needs the two engineers, 'Only after' answers the missing equipment, and 'that single purchase' refers to the packet of chewing gum."
+    },
+    {
+      "id": "o3-07",
+      "title": "Washing hands in Vienna",
+      "paragraphs": [
+        "In the 1840s the Hungarian doctor Ignaz Semmelweis noticed that far more women died of childbed fever in one maternity ward of a Vienna hospital than in the other.",
+        "The ward with the higher death rate was staffed by doctors and medical students, whereas the other was run by midwives.",
+        "Many of these doctors came straight from dissecting corpses, and Semmelweis suspected that they were carrying some deadly material from the mortuary on their hands.",
+        "He therefore required staff to wash their hands in a chlorinated lime solution before examining patients, after which the death rate on his ward fell sharply.",
+        "Despite this success, his conclusions were widely rejected by the medical establishment, and they were vindicated only after his death, when germ theory explained why washing had worked."
+      ],
+      "note": "The first sentence introduces Semmelweis and the two wards. 'The ward with the higher death rate' refers back to them, 'these doctors' to the staff of that ward, 'therefore' acts on the suspicion about their hands, and 'this success' is the fall in deaths."
+    },
+    {
+      "id": "o3-08",
+      "title": "The sonnet",
+      "paragraphs": [
+        "The sonnet, a poem of fourteen lines, emerged in thirteenth-century Sicily and was later made famous by the Italian poet Petrarch.",
+        "His sonnets divide into an octave of eight lines, which sets out a problem or situation, and a sestet of six, which responds to it.",
+        "When the form reached England in the sixteenth century, poets adapted this structure, since English has fewer rhyming words than Italian and the strict pattern was hard to sustain.",
+        "The result was the so-called English sonnet, used by Shakespeare, which consists of three quatrains followed by a closing couplet that often delivers a final twist."
+      ],
+      "note": "Only the first sentence defines the sonnet. 'His sonnets' needs Petrarch, 'this structure' refers to the octave and sestet, and 'The result' names what the English adaptation produced."
+    },
+    {
+      "id": "o3-09",
+      "title": "The discovery of penicillin",
+      "paragraphs": [
+        "In 1928 the Scottish bacteriologist Alexander Fleming returned from holiday to find mould growing on one of the culture plates he had left in his laboratory.",
+        "Around this mould was a clear ring where the bacteria had been killed, and Fleming identified the active substance, which he named penicillin.",
+        "He was unable to purify the substance in useful quantities, however, and for about a decade it attracted little further attention.",
+        "That changed at the end of the 1930s, when a team at Oxford led by Howard Florey and Ernst Chain succeeded in extracting it and testing it on infected mice and then on patients.",
+        "Their work was followed by mass production during the Second World War, and in 1945 Fleming, Florey and Chain shared the Nobel Prize in Physiology or Medicine."
+      ],
+      "note": "The dated scene in the laboratory opens. 'This mould' refers to the mould on the plate, 'the substance' to penicillin, 'That changed' to the decade of neglect, and 'Their work' to the Oxford team of Florey and Chain."
+    },
+    {
+      "id": "o3-10",
+      "title": "Charging to drive",
+      "paragraphs": [
+        "In February 2003 London introduced a congestion charge, requiring most drivers entering a defined zone of the city centre on weekdays to pay a daily fee.",
+        "The reasoning behind this charge was familiar to economists: road space is a scarce resource, and making motorists pay for it should discourage journeys that are not really necessary.",
+        "Put into practice, this reasoning soon showed results, as traffic in the zone fell noticeably and the money raised had by law to be spent on improving the capital's transport.",
+        "Encouraged by this example, Stockholm introduced a similar scheme after a trial and a referendum in 2006, and other cities have since considered following suit."
+      ],
+      "note": "The opener names the charge and dates it. 'This charge' in the second refers to it, 'Put into practice, this reasoning' picks up the economic argument just given, and 'this example' refers to London's results, so Stockholm comes last."
+    }
+  ]
+}

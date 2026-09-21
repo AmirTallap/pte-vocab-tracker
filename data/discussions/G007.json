@@ -1,0 +1,33 @@
+{
+  "id": "G007",
+  "title": "Why learn a language if the app can do it?",
+  "field": "Language and technology",
+  "speakers": [
+    { "name": "Mateo", "voice": "am_fenrir", "speed": 0.99 },
+    { "name": "Freya", "voice": "bf_emma", "speed": 1.02 },
+    { "name": "Jess", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "turns": [
+    { "speaker": "Jess", "text": "My nephew's dropped German. He held up his phone and said the earpiece does it in real time now, so what exactly is he studying for." },
+    { "speaker": "Mateo", "text": "I mean, he's not wrong about the technology. It's genuinely good now." },
+    { "speaker": "Freya", "text": "It's good at transactions. Buying a train ticket, reading a menu, getting the gist of an email. Nobody's arguing with that." },
+    { "speaker": "Jess", "text": "So what's it bad at?" },
+    { "speaker": "Freya", "text": "Being liked. You can't be funny through a translation app. You can't be gently rude, you can't flirt, you can't say the thing that shows you understood the joke about the neighbour." },
+    { "speaker": "Mateo", "text": "That's true, although most people don't learn a language well enough to be funny in it anyway." },
+    { "speaker": "Freya", "text": "Fair.", "gap": -0.1 },
+    { "speaker": "Mateo", "text": "What persuades me more is the delay. Even a second of lag kills a conversation. You end up taking turns at a device instead of talking." },
+    { "speaker": "Jess", "text": "And there's the trust thing. Would you sign something you'd only read through a translation?" },
+    { "speaker": "Mateo", "text": "No. No, I wouldn't." },
+    { "speaker": "Freya", "text": "There's also what it does to you rather than for you. Learning one properly rearranges how you hear your own language. That's not a service you can buy." },
+    { "speaker": "Jess", "text": "I'm not sure that'll persuade a fifteen-year-old." },
+    { "speaker": "Freya", "text": "No. Almost nothing does at fifteen." }
+  ],
+  "points": [
+    "Jess's nephew has dropped German because real-time translation earpieces exist.",
+    "Freya concedes the technology handles transactions well: tickets, menus, the gist of an email.",
+    "Her objection is social: humour, teasing, flirting and shared jokes do not survive translation.",
+    "Mateo counters that most learners never reach the level needed to be funny anyway, but is persuaded by latency, since even a second of lag turns a conversation into taking turns at a device.",
+    "Jess raises trust, asking whether anyone would sign a document read only through translation.",
+    "Freya's final argument is about the effect on the learner rather than the task: learning a language changes how you hear your own, which cannot be bought as a service."
+  ]
+}

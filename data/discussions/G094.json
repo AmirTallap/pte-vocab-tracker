@@ -1,0 +1,33 @@
+{
+  "id": "G094",
+  "title": "Should charities publish what their staff earn?",
+  "field": "Society and governance",
+  "speakers": [
+    { "name": "Gwyn", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Amara", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Ross", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Ross", "text": "The story ran on the chief executive's salary again. A hundred and thirty thousand, and a lot of very angry letters." },
+    { "speaker": "Amara", "text": "For an organisation with two thousand staff and a quarter of a billion turnover. That's low for the job, objectively." },
+    { "speaker": "Gwyn", "text": "The public doesn't compare it to a company that size, though. They compare it to their own wage and to the word charity." },
+    { "speaker": "Ross", "text": "Which isn't stupid. Donors give assuming the money goes to the cause." },
+    { "speaker": "Amara", "text": "And it does, through people who are competent enough to spend it well. Paying badly costs more than it saves in this sector.", "gap": -0.13 },
+    { "speaker": "Amara", "text": "A bad procurement decision on a fifty million pound programme wipes out the entire salary saving many times over." },
+    { "speaker": "Gwyn", "text": "The overhead ratio obsession is the underlying problem. Judging a charity by how little it spends on staff rewards starving itself." },
+    { "speaker": "Ross", "text": "And the ones that publish the lowest overheads are often just accounting it differently." },
+    { "speaker": "Gwyn", "text": "Frequently. It's the easiest number in the sector to move without changing anything." },
+    { "speaker": "Amara", "text": "So the transparency should be about outcomes rather than about inputs." },
+    { "speaker": "Ross", "text": "Which is much harder to measure and much less satisfying to read." },
+    { "speaker": "Gwyn", "text": "I'd still publish the salaries, mind you. Not because the number is damning, but because refusing looks worse than any figure would." },
+    { "speaker": "Amara", "text": "That I'd accept. Publish it and then actually defend it." }
+  ],
+  "points": [
+    "A charity chief executive's salary of £130,000 prompted public anger despite the organisation's scale.",
+    "Amara argues the figure is low for comparable responsibility and that competent management protects funds.",
+    "Poor decisions on large programmes can cost far more than any salary saving.",
+    "Gwyn identifies the overhead ratio obsession as the underlying problem, rewarding charities that underinvest in staff.",
+    "Overhead figures are easily manipulated through accounting rather than actual change.",
+    "They agree transparency should focus on outcomes, while still publishing salaries because refusing looks worse than any figure."
+  ]
+}

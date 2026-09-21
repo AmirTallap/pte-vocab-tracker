@@ -1,0 +1,118 @@
+{
+  "id": "fib-rw-5",
+  "task": "fib-rw",
+  "title": "Set 5",
+  "summary": "Stem cells, malaria and peat bogs; the Meiji era, gentrification and the minimum wage; tests, transistors, self-control and sign languages.",
+  "items": [
+    {
+      "id": "rw5-01",
+      "title": "Stem cells",
+      "text": "Stem cells are unspecialised cells that can divide repeatedly and give {{rise|raise|arise|risen}} to more specialised types, such as muscle, blood or nerve cells. Those taken from early embryos are especially versatile, because they are capable of {{developing|develop|developed|developer}} into almost any tissue in the body. Their use in research has been controversial, however, since obtaining them involves destroying the embryo. In 2006 the Japanese scientist Shinya Yamanaka showed that mature cells from mice could be reprogrammed to behave like embryonic ones by switching on a small number of genes, and a year later the same was achieved with human cells. These induced cells {{avoid|avoids|avoidance|avoiding}} many of the ethical objections, and they can be made from a patient's own tissue. Yamanaka shared the Nobel Prize in 2012, and researchers are now testing treatments {{for|at|by|on}} conditions such as Parkinson's disease.",
+      "why": [
+        "'Give rise to' is a fixed phrase meaning 'produce'; 'raise' needs its own object, 'arise' does not follow 'give', and 'risen' is a participle that cannot follow 'can ... give'.",
+        "'Capable of' is followed by an -ing form, 'developing'; 'develop' and 'developed' do not follow a preposition here, and 'developer' is a noun for a person.",
+        "The plural subject 'these induced cells' needs the present verb 'avoid'; 'avoids' is singular, 'avoidance' is a noun and 'avoiding' is not finite.",
+        "A treatment is 'for' a condition; 'treatments at', 'by' and 'on' a condition are not used."
+      ]
+    },
+    {
+      "id": "rw5-02",
+      "title": "Malaria",
+      "text": "Malaria is caused by a parasite that is transmitted to humans through the bite of infected female mosquitoes. Once inside the body, the parasite travels to the liver, where it multiplies, before {{invading|invade|invaded|invasion}} red blood cells and causing the fevers that are typical of the disease. For centuries it was believed that malaria was caused by bad air, which is what its Italian name literally {{means|mean|meaning|meanings}}. In 1897 the British doctor Ronald Ross found the parasite inside a mosquito, a discovery that opened new ways of controlling the disease. Today prevention {{relies|rely|reliant|reliance}} heavily on insecticide-treated bed nets, while the most effective drugs are based on artemisinin, a compound {{derived|derive|derivation|derivative}} from sweet wormwood. The Chinese scientist who identified it, Tu Youyou, was awarded the Nobel Prize in 2015.",
+      "why": [
+        "After the preposition 'before' an -ing form is needed, and it is parallel with 'causing', so 'invading'; 'invade' and 'invaded' cannot follow a preposition, and 'invasion' would leave 'red blood cells' without a link.",
+        "The singular subject 'its Italian name' needs the present verb 'means'; 'mean' breaks agreement, 'meaning' is not finite, and 'meanings' is a noun.",
+        "The singular noun 'prevention' needs 'relies'; 'rely' breaks agreement, 'reliant' would need 'is', and 'reliance' is a noun.",
+        "'A compound derived from' is a reduced passive meaning 'which is obtained from'; 'derive' cannot follow the noun, and 'derivation' and 'derivative' are nouns."
+      ]
+    },
+    {
+      "id": "rw5-03",
+      "title": "Peatlands",
+      "text": "Peatlands are wetlands in which waterlogged conditions prevent dead plant material from {{decomposing|decompose|decomposed|decomposition}} fully. Over thousands of years, this material builds up as a thick layer of peat, locking away the carbon that the plants absorbed while they were alive. Although peatlands cover only a small fraction of the world's land surface, they are estimated to store more carbon than all of its forests {{combined|combining|combine|combines}}. When they are drained for agriculture, forestry or fuel, however, the peat is exposed to oxygen and begins to break down, releasing carbon dioxide into the atmosphere. Drained peat is also highly {{flammable|flame|flammability|flaming}}, and fires in such areas can smoulder for months. As a result, many countries are now trying to restore damaged sites by blocking drainage ditches and allowing the water table to {{rise|raise|arise|rose}} again.",
+      "why": [
+        "'Prevent something from' is followed by an -ing form, 'decomposing'; 'decompose' and 'decomposed' cannot follow 'from', and 'decomposition fully' puts an adverb after a noun.",
+        "'Combined' after a list or group means 'added together'; 'combining', 'combine' and 'combines' would need an object or a subject and do not fit here.",
+        "After 'highly' an adjective meaning 'easily set alight' is needed, 'flammable'; 'flame' and 'flammability' are nouns, and 'flaming' means already burning and does not follow 'highly'.",
+        "'Allow something to' takes a bare infinitive, and a water table goes up by itself, so intransitive 'rise'; 'raise' needs an object, 'arise' means 'come into being', and 'rose' is a past tense."
+      ]
+    },
+    {
+      "id": "rw5-04",
+      "title": "The Meiji Restoration",
+      "text": "In 1868 a group of reformers in Japan overthrew the Tokugawa shogunate, which had ruled the country for more than two and a half centuries, and restored political authority {{to|at|on|into}} the emperor. The period that followed, known as the Meiji era, saw one of the most rapid transformations of any society in modern history. Fearing that Japan would be {{dominated|dominating|dominate|domination}} by Western powers, the new government sent officials abroad to study foreign institutions and technology. It abolished the old feudal domains, introduced compulsory education and built a national army based on conscription, {{which|who|whom|whose}} ended the samurai's monopoly on military service. Railways, factories and a modern banking system followed within a few decades. By the early twentieth century, Japan had become an industrial power {{capable|able|capacity|capably}} of defeating Russia in war.",
+      "why": [
+        "Authority is restored 'to' the person who receives it; 'at', 'on' and 'into' cannot express that.",
+        "'Would be ... by Western powers' is a passive and needs the past participle 'dominated'; 'dominating by' is ungrammatical, 'dominate' cannot follow 'be', and 'domination' is a noun.",
+        "A relative pronoun for a thing or a whole clause is needed, 'which'; 'who' and 'whom' refer to people, and 'whose' would need a noun after it.",
+        "'Capable of' is the fixed pattern with an -ing form; 'able' takes 'to', 'capacity' is a noun, and 'capably' is an adverb."
+      ]
+    },
+    {
+      "id": "rw5-05",
+      "title": "Gentrification",
+      "text": "The term gentrification was {{coined|coin|coining|coins}} by the sociologist Ruth Glass in 1964 to describe the arrival of middle-class households in working-class districts of London. Such newcomers are often attracted by low property prices and by the character of older buildings, which they renovate. Over time, their presence tends to bring new shops, cafes and investment, and property values rise {{accordingly|according|accordance|accorded}}. Supporters point out that these changes can make neighbourhoods safer and improve local services. Critics, however, argue that rising rents force long-standing residents to move away, often to areas with fewer jobs and poorer transport links, so that the benefits are {{enjoyed|enjoy|enjoying|enjoyment}} mainly by those who arrived last. Many cities now try to manage the process {{through|thorough|throughout|though}} measures such as rent controls and requirements for affordable housing.",
+      "why": [
+        "'Was ... by the sociologist' is a passive and needs the past participle 'coined', the verb used for inventing a word; 'coin', 'coining' and 'coins' cannot follow 'was' in a passive.",
+        "An adverb meaning 'as a result' is needed after 'rise', so 'accordingly'; 'according' needs 'to', 'accordance' is a noun, and 'accorded' is a verb form.",
+        "'Are ... by those' is a passive and needs the past participle 'enjoyed'; 'enjoying' would make the benefits do the enjoying, 'enjoy' cannot follow 'are', and 'enjoyment' is a noun.",
+        "'Through' means 'by means of' before 'measures'; 'thorough' is an adjective, 'though' a conjunction, and 'throughout' means 'across the whole of', which makes no sense here."
+      ]
+    },
+    {
+      "id": "rw5-06",
+      "title": "The minimum wage",
+      "text": "A minimum wage is the lowest hourly rate that employers are legally {{permitted|permit|permission|permissible}} to pay their workers. Standard economic theory predicts that setting wages above the level the market would produce should reduce employment, because labour becomes more expensive for firms. In 1994, however, the economists David Card and Alan Krueger published a study of fast-food restaurants in New Jersey and neighbouring Pennsylvania which found no evidence that a rise in the minimum wage had {{led|lead|leading|leads}} to job losses. Their findings prompted decades of further research. Many economists now {{accept|accepts|acceptance|acceptable}} that moderate increases have only small effects on employment, partly because higher pay can reduce staff turnover and make workers more productive. There is less agreement, though, about how {{high|highly|height|higher}} a minimum can be set before these benefits are outweighed.",
+      "why": [
+        "People are 'permitted to' do something, a passive after 'are'; 'permissible' describes an action rather than a person, so 'employers are permissible' is wrong, and 'permit' and 'permission' cannot follow 'are legally' here.",
+        "After 'had' the past participle is needed, 'led'; 'lead' is the present form (or the metal), 'leading' needs 'been', and 'leads' is present tense.",
+        "The plural subject 'many economists' needs the present verb 'accept'; 'accepts' is singular, and 'acceptance' and 'acceptable' are not verbs.",
+        "'How high' asks about a level, and the adjective is needed with 'set'; 'highly' means 'very' or 'favourably', 'height' is a noun, and 'how higher' is ungrammatical."
+      ]
+    },
+    {
+      "id": "rw5-07",
+      "title": "Standardised testing",
+      "text": "Standardised tests present every candidate with the same questions under the same conditions and mark them in a consistent way. Their main {{advantage|advantages|advantageous|advantaged}} is that results can be compared fairly across schools, regions and years, which helps governments to identify where extra support is needed. However, when test scores are used to judge teachers or to rank schools, the pressure to perform well can {{distort|distorts|distorted|distortion}} what happens in the classroom. Teachers may spend more time on the topics most likely to be examined and less on those that are harder to measure, such as creativity or discussion. Critics describe this practice as teaching to the test. The social scientist Donald Campbell warned that the more heavily any quantitative indicator is used {{for|at|by|on}} decision-making, the more likely it is to be corrupted. Many educators therefore argue that tests should be one source of evidence {{among|beside|within|along}} several.",
+      "why": [
+        "A singular noun is needed to agree with 'is', so 'advantage'; 'advantages is' breaks agreement, and 'advantageous' and 'advantaged' are adjectives that cannot follow 'their main' without a noun.",
+        "After the modal 'can' a bare infinitive is needed, 'distort'; 'distorts' and 'distorted' cannot follow a modal, and 'distortion' is a noun.",
+        "Something is used 'for' a purpose; 'used by decision-making' would make the decision-making the user, and 'at' and 'on' do not express purpose.",
+        "'One of several' is expressed as 'one ... among several'; 'beside', 'within' and 'along' do not select one member of a group."
+      ]
+    },
+    {
+      "id": "rw5-08",
+      "title": "The transistor",
+      "text": "The transistor, invented at Bell Laboratories in 1947 by John Bardeen, Walter Brattain and William Shockley, is a small semiconductor device that can amplify an electrical signal or switch it on and off. Before its invention, electronic equipment {{depended|depending|dependent|depends}} on vacuum tubes, which were bulky, fragile and consumed large amounts of power. Transistors were smaller, more reliable and far more {{efficient|efficiency|efficiently|efficacy}}, and they quickly replaced tubes in radios and early computers. From the late 1950s, engineers learnt to place many transistors on a single chip of silicon, creating the integrated circuit. In 1965 Gordon Moore observed that the number of components on a chip was doubling at a regular rate, a trend that continued for decades and made modern computing {{possible|possibly|possibility|possibilities}}. A smartphone today contains billions of transistors, each far too small to be {{seen|see|saw|seeing}} with the naked eye.",
+      "why": [
+        "'Before its invention' needs a past-tense main verb, 'depended'; 'depends' is present, 'depending' is not finite, and 'dependent' would need 'was'.",
+        "The word is coordinated with the adjectives 'smaller' and 'more reliable', so the adjective 'efficient'; 'efficiency' and 'efficacy' are nouns and 'efficiently' is an adverb.",
+        "'Make something possible' needs an adjective after the object; 'possibly' is an adverb, and 'possibility' and 'possibilities' are nouns.",
+        "'Too small to be' needs a passive past participle, 'seen'; 'saw' is a past tense, and 'see' and 'seeing' cannot follow 'be' here."
+      ]
+    },
+    {
+      "id": "rw5-09",
+      "title": "Waiting for a second treat",
+      "text": "In a series of experiments at Stanford University from the late 1960s, the psychologist Walter Mischel offered young children a choice: they could eat one small treat immediately, or wait alone for several minutes and {{receive|received|receiving|receipt}} two. Some children ate the treat at once, while others {{managed|manage|managing|management}} to wait by covering their eyes or distracting themselves. Follow-up studies years later reported that the children who had waited longer tended to achieve better results at school. These findings were widely {{interpreted|interpret|interpreting|interpretation}} as evidence that self-control in early childhood predicts later success. However, a larger replication published in 2018 found that the link became much weaker once factors such as family background were taken {{into|in|on|at}} account. This suggests that the ability to wait may partly reflect a child's circumstances rather than character alone.",
+      "why": [
+        "The verb is governed by 'could' and parallel with 'eat' and 'wait', so the bare infinitive 'receive'; 'received' and 'receiving' break the parallel, and 'receipt' is a noun.",
+        "The clause is past tense, parallel with 'ate', so 'managed'; 'manage' is present, 'managing' is not finite, and 'management' is a noun.",
+        "'Were ... as evidence' is a passive and needs the past participle 'interpreted'; 'interpret' and 'interpreting' cannot follow 'were widely' here, and 'interpretation' is a noun.",
+        "'Take something into account' is a fixed phrase; 'in', 'on' and 'at account' are not used."
+      ]
+    },
+    {
+      "id": "rw5-10",
+      "title": "Sign languages",
+      "text": "Sign languages are complete natural languages, with their own vocabulary and grammar, rather than gestures that simply {{represent|represents|representation|representative}} spoken words. They use the hands, but also facial expressions and the position of the body, to express meaning. A raised eyebrow, for example, can {{mark|marks|marked|marking}} a question in the way that rising intonation does in speech. Sign languages are not universal. British Sign Language and American Sign Language are mutually unintelligible, even though the two countries share a spoken language, whereas American Sign Language is historically related {{to|with|from|by}} French Sign Language. When deaf children grow up without access to a sign language, they sometimes invent systems of their own, and linguists have studied these cases closely because they offer rare {{insight|insightful|insightfully|inside}} into how languages emerge.",
+      "why": [
+        "The relative clause refers to the plural 'gestures', so 'represent'; 'represents' breaks agreement, and 'representation' and 'representative' are not verbs.",
+        "After the modal 'can' a bare infinitive is needed, 'mark'; 'marks', 'marked' and 'marking' cannot follow a modal.",
+        "'Related to' is the standard preposition for a family connection between languages; 'related with', 'from' and 'by' are not used in formal English here.",
+        "After the adjective 'rare' a noun is needed, and 'insight into' is the collocation; 'insightful' is an adjective, 'insightfully' an adverb and 'inside' a preposition."
+      ]
+    }
+  ]
+}

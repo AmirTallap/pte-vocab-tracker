@@ -1,0 +1,33 @@
+{
+  "id": "G011",
+  "title": "A minimum age for social media",
+  "field": "Society and technology",
+  "speakers": [
+    { "name": "Priya", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Stewart", "voice": "bm_fable", "speed": 0.97 },
+    { "name": "Zoe", "voice": "bf_isabella", "speed": 1.01 }
+  ],
+  "turns": [
+    { "speaker": "Zoe", "text": "So the under-sixteen ban is going ahead. Platforms have to verify age or they get fined." },
+    { "speaker": "Stewart", "text": "Verify age how, though? That's never the part anyone explains." },
+    { "speaker": "Zoe", "text": "Document upload, or face estimation from the camera." },
+    { "speaker": "Priya", "text": "So to protect children's privacy, everyone hands a photograph of their passport to a social media company." },
+    { "speaker": "Stewart", "text": "That did occur to me, yes." },
+    { "speaker": "Zoe", "text": "There are third-party checkers that don't pass the document on. It's not quite as bad as it sounds." },
+    { "speaker": "Priya", "text": "It's a database either way, and databases leak. But the bit I actually object to is that it treats sixteen like a switch. Nothing changes on that birthday." },
+    { "speaker": "Stewart", "text": "You could say that about drinking, driving, voting. We draw the line somewhere and it's always slightly arbitrary." },
+    { "speaker": "Priya", "text": "Fair enough.", "gap": -0.1 },
+    { "speaker": "Priya", "text": "Although with driving there's a test. Here there's just a date." },
+    { "speaker": "Zoe", "text": "The strongest version of the case isn't really about harm to any one child. It's that as long as everyone's on it, no individual family can opt out. A ban makes the decision collectively." },
+    { "speaker": "Stewart", "text": "That's the only argument that's moved me at all, actually. It's a coordination problem, not a safety one." },
+    { "speaker": "Priya", "text": "I still think they'll all be on it within a month through somebody's older cousin." }
+  ],
+  "points": [
+    "A ban on social media for under-sixteens is proceeding, with fines for platforms that fail to verify age.",
+    "Verification means document upload or facial age estimation, which Priya argues undermines privacy for everyone.",
+    "Zoe notes third-party checkers exist that do not pass documents to the platform; Priya replies that any database can leak.",
+    "Priya's substantive objection is that sixteen is treated as a switch although nothing changes on that birthday.",
+    "Stewart compares it to drinking, driving and voting, where arbitrary lines are normal, though Priya notes driving at least requires a test.",
+    "Zoe gives the strongest case: while everyone is on the platform no single family can opt out, so a ban solves a coordination problem rather than a safety one."
+  ]
+}

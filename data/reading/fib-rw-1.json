@@ -1,0 +1,119 @@
+{
+  "id": "fib-rw-1",
+  "task": "fib-rw",
+  "title": "Set 1",
+  "summary": "Science, the environment and health: from photosynthesis and plate tectonics to vaccines and sleep.",
+  "items": [
+    {
+      "id": "rw1-01",
+      "title": "Photosynthesis",
+      "text": "Photosynthesis is the process by which green plants, algae and some bacteria capture the energy of sunlight and store it in chemical form. Inside the chloroplasts, a pigment called chlorophyll {{absorbs|absorption|absorbing|absorbent}} light mainly in the red and blue parts of the spectrum, which explains why most leaves appear green. The captured energy is used to split water molecules, and oxygen is released into the atmosphere as a {{by-product|by-products|produce|productive}}. In a second stage, carbon dioxide taken from the air is {{combined|combine|combines|combination}} with hydrogen to build sugars such as glucose. These sugars provide the plant with energy and with the raw material for growth. Because almost every food chain begins with organisms that photosynthesise, the process is {{fundamental|fundamentally|fundamentals|fundamentalism}} to nearly all life on Earth.",
+      "why": [
+        "The sentence needs a main verb in the present tense agreeing with 'chlorophyll', so 'absorbs'; 'absorbing' leaves the clause with no verb at all.",
+        "After 'as a' a singular countable noun is needed, and 'by-product' is the fixed term; 'by-products' breaks agreement with 'a', and 'produce' is an uncountable noun meaning farm goods.",
+        "'Is ... with' needs a passive past participle, 'combined'; 'combine' and 'combines' cannot follow 'is', and 'combination' is a noun.",
+        "After 'is' an adjective is needed, and 'fundamental to' is the collocation; 'fundamentally' is an adverb with nothing to modify here."
+      ]
+    },
+    {
+      "id": "rw1-02",
+      "title": "Antibiotic resistance",
+      "text": "Antibiotics transformed medicine in the twentieth century, turning once deadly infections into conditions that could often be cured within days. However, bacteria reproduce rapidly, and random mutations occasionally allow a few cells to {{survive|survival|surviving|survived}} a course of treatment. These resistant cells then multiply and pass on the genes that protected them, so that the drug gradually loses its power. The problem becomes worse when antibiotics are prescribed {{unnecessarily|unnecessary|necessity|necessitate}}, for example against colds and other viral infections, on which they have no effect at all. Health authorities now regard resistance as one of the most serious {{threats|threat|threaten|threatening}} to public health, and many experts {{urge|insist|suggest|demand}} doctors to prescribe these drugs only when a bacterial infection is likely.",
+      "why": [
+        "'Allow somebody to do something' takes the bare infinitive, 'survive'; 'surviving' and 'survived' cannot follow 'to' here.",
+        "An adverb is needed to modify the verb 'prescribed', so 'unnecessarily'; 'unnecessary' is the adjective form.",
+        "'One of the most serious' must be followed by a plural noun, 'threats'; the singular 'threat' is the tempting error.",
+        "Only 'urge' fits the pattern 'verb + object + to-infinitive'; 'insist', 'suggest' and 'demand' cannot be followed by 'doctors to prescribe'."
+      ]
+    },
+    {
+      "id": "rw1-03",
+      "title": "Coral bleaching",
+      "text": "Coral reefs cover less than one per cent of the ocean floor, yet they {{support|supports|supporting|supportive}} roughly a quarter of all known marine species. Most reef-building corals depend on a close partnership with tiny algae that live {{inside|inward|internal|interior}} their tissues and supply them with food through photosynthesis. When sea temperatures rise even slightly above the normal summer maximum, the corals {{expel|expelling|expulsion|expelled}} these algae and turn white, a process known as bleaching. Bleached corals are not dead, but they are severely weakened and {{vulnerable|vulnerability|vulnerably|vulnerableness}} to disease. If unusually high water temperatures {{persist|persistent|persistence|persistently}} for several weeks, many of them starve, and the complex communities of fish and invertebrates that shelter among them begin to decline.",
+      "why": [
+        "The plural subject 'they' needs the plural present verb 'support'; 'supports' breaks agreement.",
+        "A preposition is needed before 'their tissues', so 'inside'; 'internal' and 'interior' are adjectives and 'inward' does not take an object.",
+        "The clause is in the present tense after 'When sea temperatures rise', so 'expel'; the past form 'expelled' clashes with 'turn' later in the same clause.",
+        "It is coordinated with the adjective 'weakened' after 'are', and 'vulnerable to disease' is the collocation; 'vulnerability' is a noun.",
+        "The 'if' clause needs a verb, 'persist'; 'persistent' is an adjective and would leave the clause without a verb."
+      ]
+    },
+    {
+      "id": "rw1-04",
+      "title": "Sleep and memory",
+      "text": "Sleep is far from a passive state. During the night the brain cycles through several stages, and research suggests that each {{plays|makes|does|takes}} a distinct role in processing the experiences of the day. Deep, slow-wave sleep appears to be particularly important for {{consolidating|consolidate|consolidated|consolidation}} factual memories, transferring them from temporary storage into more lasting networks. Rapid eye movement sleep, when most vivid dreaming occurs, has been {{linked|link|linking|links}} to emotional processing and creative problem solving. Studies in which volunteers are deprived of sleep after learning a task consistently find that their performance the following day is {{worse|worst|badly|worsen}} than that of participants who slept normally. Such findings suggest that a good night's sleep is an essential part of effective study rather than time taken away from it.",
+      "why": [
+        "The fixed collocation is 'play a role'; one does not 'make', 'do' or 'take' a role.",
+        "After the preposition 'for' a gerund taking the object 'factual memories' is needed, so 'consolidating'; 'consolidation' is a noun and cannot take a direct object.",
+        "'Has been ... to' needs the past participle of the passive, 'linked'; 'linking' would make it active and 'link' cannot follow 'been'.",
+        "'Than' signals a comparative adjective after 'is', so 'worse'; 'worst' is the superlative and 'badly' is an adverb."
+      ]
+    },
+    {
+      "id": "rw1-05",
+      "title": "Plate tectonics",
+      "text": "The theory of plate tectonics holds that the Earth's outer shell is {{divided|dividing|division|divides}} into large rigid plates that move slowly over the hotter, softer layer beneath them. The idea grew out of Alfred Wegener's proposal of continental drift in the early twentieth century, which was widely {{rejected|rejecting|rejection|rejects}} at the time because he could not explain what force moved the continents. Evidence gathered from the ocean floor in the 1950s and 1960s, including patterns of magnetism recorded in volcanic rock, finally {{provided|provision|providing|provident}} the missing mechanism: new crust forms at mid-ocean ridges and spreads outwards. Today most earthquakes and volcanoes are understood to be {{concentrated|concentrating|concentration|concentrate}} along plate boundaries, where plates collide, separate or slide past one another.",
+      "why": [
+        "'Is ... into' needs a passive past participle, 'divided'; 'dividing' would mean the shell itself is doing the dividing.",
+        "'Was widely ...' needs a passive past participle, 'rejected'; 'rejection' is a noun and 'rejects' cannot follow 'was'.",
+        "The subject 'Evidence' needs a main verb in the past tense, 'provided'; 'providing' leaves the sentence without a finite verb.",
+        "'To be ... along' needs a past participle, 'concentrated'; 'concentrating' would wrongly make earthquakes the ones doing the concentrating."
+      ]
+    },
+    {
+      "id": "rw1-06",
+      "title": "The urban heat island",
+      "text": "Cities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island {{effect|affect|effective|effectively}}. Concrete, asphalt and brick absorb heat during the day and release it slowly at night, so urban areas cool down far less {{than|then|as|that}} rural ones. Tall buildings also trap warm air and reduce wind, while the heat given off by vehicles and air conditioners adds to the problem. The consequences can be serious: during heatwaves, high night-time temperatures {{prevent|avoid|disable|resist}} the body from recovering, and death rates among elderly people rise. Planting trees, creating parks and using {{reflective|reflection|reflect|reflectively}} roofing materials are among the most effective ways of lowering temperatures in densely built areas.",
+      "why": [
+        "A noun is needed to name the phenomenon, and 'effect' is the noun; 'affect' is normally a verb, the classic confusion.",
+        "'Less' is completed by 'than'; 'then' is a time word and 'as' completes 'as ... as', not a comparative.",
+        "Only 'prevent' fits 'prevent somebody from doing something'; 'avoid' and 'resist' do not take this pattern and 'disable' does not take 'from recovering'.",
+        "An adjective is needed before the noun phrase 'roofing materials', so 'reflective'; 'reflection' is a noun and 'reflectively' an adverb."
+      ]
+    },
+    {
+      "id": "rw1-07",
+      "title": "How vaccines work",
+      "text": "Vaccines work by training the immune system to recognise a particular pathogen without the person having to {{catch|catching|caught|catches}} the disease itself. A vaccine typically contains a weakened or inactivated form of the microbe, or a harmless part of it, which prompts the body to {{produce|product|production|productive}} antibodies against it. If the real pathogen is encountered later, the immune system can respond quickly and {{effectively|effective|effectiveness|effect}}, often before any symptoms appear. When a large enough proportion of a population is immune, the disease struggles to spread from person to person, and even those who cannot be vaccinated, such as newborn babies, are indirectly {{protected|protecting|protection|protects}}. This is known as herd immunity, and it is the reason why high vaccination rates benefit the whole community.",
+      "why": [
+        "'Having to' is followed by the bare infinitive, 'catch'; 'catching' and 'caught' cannot follow 'to'.",
+        "'Prompt somebody to do something' needs a verb, 'produce'; 'product' and 'production' are nouns.",
+        "It is coordinated with the adverb 'quickly' and modifies 'respond', so the adverb 'effectively'; 'effective' is an adjective.",
+        "'Are indirectly ...' needs a passive past participle, 'protected'; 'protects' cannot follow 'are', and 'protection' is a noun."
+      ]
+    },
+    {
+      "id": "rw1-08",
+      "title": "Natural selection",
+      "text": "In 1859 Charles Darwin published On the Origin of Species, in which he argued that living things change gradually over many generations. His central idea, natural selection, {{rests|rest|resting|restful}} on a few simple observations. Individuals within a species vary, much of this variation is inherited, and more offspring are born than can possibly survive. Those individuals whose traits are better {{suited|suiting|suitable|suit}} to their environment are more likely to survive and reproduce, and so their characteristics become more {{common|commonly|commonness|commoner}} in later generations. Darwin was not the only person to {{arrive|reach|come|get}} at this idea: the naturalist Alfred Russel Wallace had reached very similar conclusions independently, and their work was first presented together in 1858.",
+      "why": [
+        "The singular subject 'His central idea' needs 'rests'; 'rest' breaks agreement and 'resting' leaves the sentence without a verb.",
+        "The fixed pattern is 'better suited to'; 'better suitable' is ungrammatical (it would be 'more suitable for').",
+        "'More' already forms the comparative, so the plain adjective 'common'; 'more commoner' is a double comparative and 'commonly' is an adverb.",
+        "The collocation is 'arrive at an idea'; 'reach' takes no 'at', and 'come at' or 'get at' mean something else."
+      ]
+    },
+    {
+      "id": "rw1-09",
+      "title": "Tropical deforestation",
+      "text": "Tropical rainforests are among the most biologically diverse places on the planet, yet they are being cleared at an alarming {{rate|ratio|range|rank}}. In South America and South-East Asia, the main {{drivers|drives|driven|driving}} of this loss are cattle ranching, the cultivation of crops such as soya and oil palm, and logging, both legal and illegal. When forest is cut down or burned, the carbon stored in the trees is released into the atmosphere, which {{contributes|contribute|contribution|contributing}} to climate change. Deforestation also destroys the habitats of countless plants and animals, many of which have not yet been {{described|describing|description|describe}} by scientists. Once the forest has gone, heavy rain can quickly wash away the thin soil, which makes it very difficult for the land to recover.",
+      "why": [
+        "The collocation is 'at an alarming rate', describing speed of change; a 'ratio', 'range' or 'rank' is not something clearing happens at.",
+        "After 'The main' a plural noun meaning causes is needed, 'drivers'; 'drives' means journeys or urges, and 'driven' is a participle.",
+        "The relative clause needs a singular present verb referring to the whole event, 'contributes'; 'contribute' breaks agreement and 'contributing' leaves the clause without a verb.",
+        "'Have not yet been ... by scientists' is passive and needs the past participle 'described'; 'describing' would make it active."
+      ]
+    },
+    {
+      "id": "rw1-10",
+      "title": "Exercise and health",
+      "text": "Regular physical activity is one of the most effective ways of {{reducing|reduce|reduced|reduction}} the risk of chronic disease. Exercise strengthens the heart, lowers blood pressure and helps the body to regulate blood sugar, which is why active people are less {{susceptible|susceptibility|susceptibly|suspected}} to heart disease and type 2 diabetes. Its benefits are not only physical. Studies have consistently shown that moderate exercise can {{alleviate|alleviation|alleviating|alleviated}} the symptoms of mild depression and anxiety, and it is associated with better sleep. Most health guidelines recommend at least 150 minutes of moderate activity a week, such as brisk walking or cycling, yet surveys suggest that many adults {{fall|falls|fallen|failing}} short of this target, particularly in wealthy countries where much work is done sitting down.",
+      "why": [
+        "After the preposition 'of' a gerund taking the object 'the risk' is needed, so 'reducing'; 'reduction' is a noun and would need 'of'.",
+        "After 'less' an adjective is needed and 'susceptible to disease' is the collocation; 'suspected to' does not mean at risk of.",
+        "After the modal 'can' the bare infinitive is needed, 'alleviate'; 'alleviated' and 'alleviating' cannot follow a modal.",
+        "The plural subject 'many adults' takes 'fall', in the fixed phrase 'fall short of'; 'falls' breaks agreement."
+      ]
+    }
+  ]
+}

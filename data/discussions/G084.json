@@ -1,0 +1,33 @@
+{
+  "id": "G084",
+  "title": "Should degrees be shorter?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Lorcan", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Mimi", "voice": "af_kore", "speed": 1.03 },
+    { "name": "Gus", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Gus", "text": "They're piloting two-year degrees. Same content, three terms a year instead of two, no long summer." },
+    { "speaker": "Mimi", "text": "Which saves a year of living costs, and that's the real expense rather than the fees." },
+    { "speaker": "Lorcan", "text": "It does. My worry is what gets lost, and it isn't teaching hours." },
+    { "speaker": "Gus", "text": "The summer, presumably." },
+    { "speaker": "Lorcan", "text": "The internship, the job that pays for next year, the research placement. Those all live in the summer and they're a large part of what a degree is for." },
+    { "speaker": "Mimi", "text": "That's a fair point and it lands differently by subject. A law student loses a vacation scheme. A maths student loses less.", "gap": -0.13 },
+    { "speaker": "Gus", "text": "There's also a maturing argument, which sounds soft and probably isn't nothing." },
+    { "speaker": "Lorcan", "text": "Three years of being eighteen to twenty-one somewhere unfamiliar does something that two years does less of." },
+    { "speaker": "Mimi", "text": "Although that argument is much easier to make if nobody in your family is waiting for you to start earning." },
+    { "speaker": "Gus", "text": "Which is the whole pattern with this. The objections are all real and all come from comfortable places." },
+    { "speaker": "Lorcan", "text": "I'd accept that. My preference would be offering both rather than replacing one with the other." },
+    { "speaker": "Mimi", "text": "The risk there is that the two-year version becomes the one poorer students take, and employers learn to read it." },
+    { "speaker": "Gus", "text": "A two-tier system nobody announced." }
+  ],
+  "points": [
+    "Two-year degrees are being piloted using three terms a year rather than two.",
+    "Mimi notes this saves a year of living costs, which exceed fees as the real expense.",
+    "Lorcan argues the loss is summer opportunities such as internships, paid work and research placements, which vary in importance by subject.",
+    "A maturing argument favours three years, though Mimi observes it is easier to make when family finances allow it.",
+    "Gus notes the objections are genuine but tend to come from comfortable positions.",
+    "Lorcan would offer both; Mimi warns the shorter version could become the poorer students' route and be read as inferior by employers."
+  ]
+}

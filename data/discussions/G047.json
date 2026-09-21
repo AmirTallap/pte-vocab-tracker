@@ -1,0 +1,33 @@
+{
+  "id": "G047",
+  "title": "Minimum wage and the jobs argument",
+  "field": "Economics",
+  "speakers": [
+    { "name": "Rowan", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Camila", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Josh", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Camila", "text": "It goes up eight per cent in April and the usual letters have started. Job losses, small businesses, the whole script." },
+    { "speaker": "Josh", "text": "The script's been running for thirty years and the job losses haven't really shown up, which is the awkward part." },
+    { "speaker": "Rowan", "text": "That's fair up to a point. The evidence is that moderate rises don't cost jobs. Nobody has evidence about a rise that goes far past the local median." },
+    { "speaker": "Camila", "text": "So the finding is bounded rather than unlimited." },
+    { "speaker": "Rowan", "text": "Exactly, and both sides quote it as if it were unlimited in their direction." },
+    { "speaker": "Josh", "text": "Why doesn't it cost jobs, though? The textbook is fairly clear." },
+    { "speaker": "Rowan", "text": "Because the textbook assumes a worker can move to a competing employer easily, and in a small town with two large employers that simply isn't true.", "gap": -0.13 },
+    { "speaker": "Rowan", "text": "Where the employer has that power, wages sit below what the work produces, so raising them doesn't automatically cut hiring." },
+    { "speaker": "Camila", "text": "And the adjustment tends to come as prices rather than redundancies." },
+    { "speaker": "Josh", "text": "Which hits the same people who got the rise." },
+    { "speaker": "Camila", "text": "Some of it. The effect measured is small, though, and they still come out ahead." },
+    { "speaker": "Rowan", "text": "The part I'd watch is hours. Employers cut shifts before they cut staff, and that never appears in an employment figure." },
+    { "speaker": "Josh", "text": "So the headline says nothing changed while people are earning less." }
+  ],
+  "points": [
+    "An eight per cent minimum wage rise prompted the usual warnings about job losses.",
+    "Josh notes predicted job losses have largely failed to appear over thirty years.",
+    "Rowan qualifies this: evidence supports moderate rises, but not increases far above the local median, and both sides overstate the finding.",
+    "The textbook prediction fails because workers often cannot move employers easily, so wages sit below the value produced.",
+    "Adjustment tends to come through prices rather than redundancies, though the measured effect is small and workers still gain.",
+    "Rowan warns hours are cut before staff, which does not show in employment statistics."
+  ]
+}

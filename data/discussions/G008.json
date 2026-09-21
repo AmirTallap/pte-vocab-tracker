@@ -1,0 +1,33 @@
+{
+  "id": "G008",
+  "title": "Group projects and the person who does nothing",
+  "field": "Education",
+  "speakers": [
+    { "name": "Tariq", "voice": "am_puck", "speed": 1.0 },
+    { "name": "Lucy", "voice": "af_heart", "speed": 1.04 },
+    { "name": "Henry", "voice": "bm_george", "speed": 0.96 }
+  ],
+  "turns": [
+    { "speaker": "Lucy", "text": "Four of us did that report. One of them wrote nothing, came to no meetings, and we all got the same mark. I'm still annoyed about it a year later." },
+    { "speaker": "Tariq", "text": "Did you tell anyone at the time?" },
+    { "speaker": "Lucy", "text": "We mentioned it. We were told to sort it out within the group, which is a lovely way of saying it isn't my problem." },
+    { "speaker": "Henry", "text": "To be fair to the department, once you start splitting marks inside a group you've created a small court, and somebody has to run it." },
+    { "speaker": "Tariq", "text": "There's peer assessment though. Everyone rates everyone, it scales the mark." },
+    { "speaker": "Henry", "text": "And three friends rate each other highly and the outsider carries it. I've watched that happen twice." },
+    { "speaker": "Lucy", "text": "Okay, that's real." },
+    { "speaker": "Tariq", "text": "So what, we give up and keep pretending it's fine?" },
+    { "speaker": "Henry", "text": "No. You make the work visible as it happens. Shared document, individual sections with names on them, supervisor looks twice during the term rather than once at the end." },
+    { "speaker": "Lucy", "text": "That would have caught ours in about a week.", "gap": -0.13 },
+    { "speaker": "Lucy", "text": "The problem wasn't judging it afterwards. The problem was that nobody looked until it was finished." },
+    { "speaker": "Tariq", "text": "And the defence of group work is that this is exactly what the workplace is like, which, honestly, is also the best argument against doing it this way." },
+    { "speaker": "Henry", "text": "Quite. In a job, somebody would have noticed in March." }
+  ],
+  "points": [
+    "Lucy's group of four received identical marks although one member contributed nothing.",
+    "Raising it produced no action: the department told them to resolve it within the group.",
+    "Henry defends that position, arguing that splitting marks inside a group requires someone to adjudicate.",
+    "Tariq proposes peer assessment; Henry objects that friends rate each other highly and an outsider absorbs the cost.",
+    "Henry's alternative is making work visible during the term: named sections in a shared document and a supervisor checking more than once.",
+    "They note the usual defence of group work is that it resembles the workplace, which is also the argument against running it this way, since at work the problem would have been noticed months earlier."
+  ]
+}

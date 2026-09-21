@@ -1,0 +1,67 @@
+{
+  "id": "hiw-3",
+  "title": "Set 3",
+  "summary": "The double helix, placebos, the Amazon, the Rosetta Stone, loss aversion, obedience, phonics, just-in-time production, jazz and creoles.",
+  "items": [
+    {
+      "id": "h3-01",
+      "title": "The double helix",
+      "text": "In nineteen fifty-three, James Watson and Francis Crick proposed that DNA has the shape of a double helix. Their model depended {{heavily|partly}} on an X-ray image produced in the laboratory of Rosalind Franklin and Raymond Gosling. The structure immediately {{suggested|proved}} how genetic information might be copied: the two strands separate, and each one serves as a {{template|pattern}} for a new partner. The bases always pair in the same way, adenine with thymine and guanine with {{cytosine|uracil}}. Watson, Crick and Maurice Wilkins received the Nobel Prize nine years {{later|afterwards}}.",
+      "note": "Later and afterwards mean the same, and it comes at the very end when attention drops. Uracil is a real base, so the chemistry swap only fails for someone who knows DNA uses thymine and cytosine."
+    },
+    {
+      "id": "h3-02",
+      "title": "The placebo effect",
+      "text": "A placebo is a treatment with no active {{ingredient|effect}}, such as a sugar pill. Yet patients who receive one often report genuine {{improvement|relief}}, particularly for symptoms like pain and nausea. This is why new drugs are tested in {{randomised|controlled}} trials, where neither the patients nor the doctors know who is receiving the real medicine. A drug is only considered effective if it performs {{better|faster}} than the placebo. Interestingly, some studies suggest the effect can occur even when patients are told they are taking a placebo.",
+      "note": "Randomised and controlled usually appear together, so the shown word feels completely at home. Relief fits pain and nausea exactly, which makes improvement easy to miss."
+    },
+    {
+      "id": "h3-03",
+      "title": "The Amazon and oxygen",
+      "text": "The Amazon rainforest is often described as the lungs of the planet, but that phrase is somewhat misleading. A mature forest {{consumes|produces}} roughly as much oxygen through respiration and decay as it generates through photosynthesis. Its real importance lies elsewhere: it stores vast amounts of carbon and drives rainfall across much of South America. Scientists warn that if clearing continues, parts of the forest could {{shift|turn}} into dry savanna, a change that may be very difficult to {{reverse|prevent}}.",
+      "note": "Produces is what most people believe a forest does, so the shown word agrees with the common idea the speaker is correcting. Shift and turn are both short and both natural before into."
+    },
+    {
+      "id": "h3-04",
+      "title": "The Rosetta Stone",
+      "text": "The Rosetta Stone was discovered by French soldiers in Egypt in seventeen ninety-nine. Its value lay in the fact that it carried the same decree in {{three|several}} different scripts, one of them ancient Greek, which scholars could already read. Even so, it took more than {{twenty|thirty}} years to {{decipher|translate}} the hieroglyphs. The breakthrough is credited to Jean-François Champollion, who announced his results in eighteen twenty-two. Crucially, he realised that hieroglyphs could represent {{sounds|objects}} as well as ideas.",
+      "note": "Twenty and thirty sit in the same phrase as decipher and translate, only two words apart, so one can distract from the other. Several is vague enough never to look wrong."
+    },
+    {
+      "id": "h3-05",
+      "title": "Loss aversion",
+      "text": "Classical economics assumed that people make {{rational|careful}} decisions, weighing costs and benefits. Daniel Kahneman and Amos Tversky challenged that assumption. One of their best known {{findings|results}} is loss aversion: losing a sum of money feels roughly {{twice|half}} as painful as gaining the same amount feels pleasant. This helps to explain why investors often {{cling|hold}} on to failing shares for too long. Kahneman was later awarded the Nobel Prize in economics, although he was trained as a {{psychologist|statistician}}, not an economist.",
+      "note": "Twice and half are opposite quantities, and half as painful is grammatical, so only the ear catches it. Cling and hold on are near-synonyms."
+    },
+    {
+      "id": "h3-06",
+      "title": "Milgram's obedience studies",
+      "text": "In the early nineteen sixties, Stanley Milgram at Yale asked volunteers to give what they believed were electric shocks to another person whenever he answered {{incorrectly|slowly}}. The shocks were fake, and the learner was an actor. In the best known version, about {{sixty-five|forty-five}} per cent of participants continued all the way to the highest level. The study raised serious {{ethical|practical}} questions, and it could not be carried out in the same way today.",
+      "note": "Sixty-five and forty-five share the second half, so the swap is all in the first word. Ethical and practical end in the same sound."
+    },
+    {
+      "id": "h3-07",
+      "title": "Synthetic phonics",
+      "text": "Synthetic phonics teaches children to read by linking letters to the sounds they {{represent|make}}, and then blending those sounds together to form words. In England it has been the {{recommended|required}} approach in primary schools since the Rose Review of two thousand and six. Supporters point to improved {{decoding|spelling}} skills among young readers. Critics, however, argue that decoding is only part of reading, and that {{comprehension|vocabulary}} needs just as much attention.",
+      "note": "Recommended and required both begin with re, and a policy could plausibly be either. Spelling is a skill teachers do link to phonics, so it reads naturally."
+    },
+    {
+      "id": "h3-08",
+      "title": "Just-in-time production",
+      "text": "Just-in-time production is most closely associated with Toyota, which developed it in the decades after the Second World War. The principle is that parts arrive at the factory only when they are {{needed|ordered}}, rather than sitting in large and expensive {{warehouses|stockpiles}}. This reduces waste and exposes problems {{quickly|clearly}}. The weakness became obvious during the pandemic, however, when disrupted supply chains left many manufacturers with no {{buffer|backup}} at all.",
+      "note": "Buffer and backup both begin with a b and mean nearly the same thing here. Quickly and clearly end alike, so listen to the first sound."
+    },
+    {
+      "id": "h3-09",
+      "title": "The birth of jazz",
+      "text": "Jazz emerged in New Orleans in the early twentieth century, drawing on blues, ragtime and the brass band tradition. The city's {{mixture|history}} of African American, Caribbean and European cultures created the conditions for something new. Its defining feature is {{improvisation|syncopation}}, where musicians compose melodies on the spot rather than playing only what is {{written|rehearsed}}. The first jazz recordings appeared in nineteen {{seventeen|seventy}}, and within a decade the music had spread to Chicago and New York, becoming {{hugely|equally}} popular across the country.",
+      "note": "Seventeen and seventy differ only in the ending, and a synthetic voice may not stress the teen strongly. Syncopation is a real feature of jazz, so it looks right on the page."
+    },
+    {
+      "id": "h3-10",
+      "title": "Pidgins and creoles",
+      "text": "A pidgin is a simplified language that develops when groups with no common language need to {{communicate|trade}}. It has no native speakers and a very limited grammar. When children grow up speaking a pidgin as their {{first|only}} language, it tends to become far more complex, and at that point linguists call it a creole. Tok Pisin, in Papua New Guinea, is a well known example, and it is now one of the country's {{official|national}} languages.",
+      "note": "Trade is historically where many pidgins began, so the shown word is a reasonable thing to say. Official and national both describe a language's status."
+    }
+  ]
+}

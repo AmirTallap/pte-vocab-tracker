@@ -1,0 +1,67 @@
+{
+  "id": "hiw-7",
+  "title": "Set 7",
+  "summary": "Twinkling stars, X-rays, microplastics, a lost library, start-up funding, first impressions, online inequality, juries, animal sounds and deltas.",
+  "items": [
+    {
+      "id": "h7-01",
+      "title": "Why stars twinkle",
+      "text": "Stars twinkle, but planets usually don't, and the reason has nothing to do with the stars themselves. Starlight has to pass through our {{turbulent|transparent}} atmosphere, where pockets of warmer and cooler air bend it in slightly different directions. Because a star is so distant, it appears as a single {{point|source}} of light, and those tiny shifts make it flicker in brightness and even in colour. A planet is much {{closer|brighter}}, so it shows a small disc, and the flickering from different parts of that disc {{averages|evens}} out. This is also why astronomers put their telescopes on high mountains or in space.",
+      "note": "Transparent and turbulent both start with a t and have three syllables, and a transparent atmosphere sounds reasonable. Closer and brighter are both true of planets, so reading gives no hint."
+    },
+    {
+      "id": "h7-02",
+      "title": "The discovery of X-rays",
+      "text": "In November eighteen ninety-five, the German physicist Wilhelm Röntgen was experimenting with a cathode ray tube when he noticed a screen across the room begin to {{glow|shine}}. The tube was covered in black card, so some invisible radiation must have been {{penetrating|escaping}} it. Within weeks he had produced an image of his wife's hand, showing her bones and her {{wedding|diamond}} ring. The discovery spread with remarkable {{speed|excitement}}, and within a year X-rays were being used in hospitals to locate bullets and set fractures. Röntgen received the very first Nobel Prize in Physics, in nineteen oh one.",
+      "note": "Glow and shine are close in meaning and both short, so it goes by fast. Wedding and diamond are both natural before ring, and the listener has to hear the first syllable."
+    },
+    {
+      "id": "h7-03",
+      "title": "Microplastics",
+      "text": "Microplastics are pieces of plastic smaller than five millimetres. Some are made that small on purpose, such as the beads once added to face scrubs, but most come from larger items slowly {{breaking|wearing}} down in sunlight and waves. Washing synthetic clothes also releases {{fibres|threads}}, and car tyres shed particles as they wear. They have now been found almost everywhere scientists have looked, from Arctic {{ice|snow}} to the deepest ocean trenches, and even in human blood. What we do not yet know is how {{harmful|common}} they are to health, which is exactly why this is such an active field of research.",
+      "note": "Ice and snow are both one syllable and both are found in the Arctic, so it is easy to accept. Fibres and threads describe the same thing from clothes."
+    },
+    {
+      "id": "h7-04",
+      "title": "The Library of Alexandria",
+      "text": "The Library of Alexandria was founded in the third century BC under the Ptolemies, the Greek dynasty that ruled Egypt after Alexander the Great. Its ambition was to collect a copy of every {{important|surviving}} book in the known world. Ships arriving in the harbour were reportedly searched, and any scrolls found on board were {{copied|seized}}, with the owners sometimes given the copy rather than the {{original|translation}}. The popular image of the library destroyed in a single {{catastrophic|accidental}} fire is misleading. Historians now think it declined gradually, through lost funding and political upheaval, over several centuries.",
+      "note": "Copied and seized both describe what might happen to a scroll, and seized is short enough to slip by. Catastrophic and accidental both suit a fire, so only the sound separates them."
+    },
+    {
+      "id": "h7-05",
+      "title": "Venture capital",
+      "text": "Venture capital is a way of funding young companies that are too risky for an ordinary bank loan. Investors put money into a start-up in exchange for part {{ownership|control}} of the business. They know that most of these companies will {{fail|struggle}}, and they are betting that one or two {{spectacular|profitable}} successes will pay for all the losses. That is why venture capitalists look for firms that can grow very {{rapidly|steadily}}, rather than ones that will produce a {{modest|reliable}} profit for decades. The model took shape in the United States after the Second World War.",
+      "note": "Rapidly and steadily share their ending and both describe growth, so listen to the stressed first syllable. Modest and reliable both suit a dull, safe profit."
+    },
+    {
+      "id": "h7-06",
+      "title": "The halo effect",
+      "text": "The halo effect is our tendency to let one positive impression {{colour|shape}} our judgement of everything else about a person. The term was coined by the psychologist Edward Thorndike in nineteen twenty, after he noticed that army officers who rated a soldier highly on {{physique|discipline}} also tended to rate him highly on intelligence and loyalty. Later research has shown that people who are considered {{attractive|confident}} are often assumed to be kinder and more competent. It matters in {{recruitment|advertising}}, and in the courtroom too, where it can quietly influence decisions that should rest only on evidence.",
+      "note": "Colour and shape are both common verbs for influencing a judgement, so the first swap is the one most often missed. Attractive and confident both sound like reasonable first impressions."
+    },
+    {
+      "id": "h7-07",
+      "title": "The digital divide",
+      "text": "The digital divide refers to the gap between people who have reliable access to the internet and those who do not. At first the debate was mainly about {{hardware|coverage}}: who owned a computer, and who lived within reach of a broadband connection. Today researchers talk about a second level of the divide, which concerns {{skills|habits}}. Two people with the same smartphone may use it very {{differently|rarely}}, one to apply for jobs and study, the other mostly for entertainment. During the pandemic, when schools moved online, these {{inequalities|problems}} became impossible to ignore.",
+      "note": "Skills and habits both describe how people use technology, and skills is a single short syllable. Differently and rarely both end in ly, so the beginning must be heard."
+    },
+    {
+      "id": "h7-08",
+      "title": "Trial by jury",
+      "text": "In a jury trial, the question of guilt is decided not by a judge but by ordinary citizens. In England and Wales, a criminal jury has {{twelve|eleven}} members, chosen at random from the electoral register. The judge decides questions of {{law|procedure}}, while the jury decides questions of fact. Jurors are not allowed to discuss the case with anyone outside the jury room, and what is said during their {{deliberations|discussions}} must remain secret. The jury is often defended as a {{safeguard|symbol}} of democracy, because it places the power to convict in the hands of the community rather than the state.",
+      "note": "Deliberations and discussions mean almost the same and share a rhythm, so this is the easiest to miss. Twelve and eleven are both jury-sized numbers to a reader who does not know the rule."
+    },
+    {
+      "id": "h7-09",
+      "title": "Onomatopoeia",
+      "text": "Onomatopoeia describes words that imitate the sounds they refer to, like buzz, splash or hiss. You might expect these words to be {{identical|similar}} across languages, since a dog sounds much the same everywhere. But they are not. An English dog says woof, while in Japanese it says wan wan, and in Korean it says mung mung. The reason is that each language can only imitate sounds using its own {{inventory|alphabet}} of consonants and vowels, and it follows its own {{conventions|patterns}} about which words are possible. So onomatopoeia is not {{purely|entirely}} natural. It is partly learned.",
+      "note": "Identical and similar both make sense before the word but, so the page cannot help. Purely and entirely are near-synonyms and come late, when attention is flagging."
+    },
+    {
+      "id": "h7-10",
+      "title": "River deltas",
+      "text": "A delta forms where a river flows into a {{slower|deeper}} body of water, usually a sea or a lake. As the current loses speed, it can no longer carry its load of sediment, so it {{deposits|scatters}} sand, silt and clay near the mouth. Over thousands of years, these layers build up into a broad, {{fertile|level}} plain, crossed by channels that divide and rejoin. That is why deltas have fed large populations since ancient times. The name comes from the Greek letter delta, because the Nile delta has a {{triangular|similar}} shape when you look at it from above.",
+      "note": "Slower and deeper both describe a sea compared with a river, and both have two syllables ending in er. Fertile and level both describe a plain."
+    }
+  ]
+}

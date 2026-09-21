@@ -1,0 +1,33 @@
+{
+  "id": "G052",
+  "title": "Grade inflation, or better teaching?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Priyanka", "voice": "af_kore", "speed": 1.03 },
+    { "name": "Struan", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Nate", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Struan", "text": "A third of the cohort got a first this year. When I graduated it was about seven per cent." },
+    { "speaker": "Nate", "text": "The obvious reply is that teaching improved and students work harder because they're paying." },
+    { "speaker": "Priyanka", "text": "Some of that is real. Contact hours and feedback genuinely are better than they were in the eighties." },
+    { "speaker": "Struan", "text": "But not five times better." },
+    { "speaker": "Priyanka", "text": "No. And the entry qualifications of the same cohort didn't rise anywhere near proportionally, which is the comparison that matters." },
+    { "speaker": "Nate", "text": "The mechanism isn't dishonesty, though. It's a thousand reasonable decisions. Round up a borderline case, drop the worst module, mark the coursework generously." },
+    { "speaker": "Struan", "text": "And every one of those is defensible on its own.", "gap": -0.13 },
+    { "speaker": "Struan", "text": "It's only the aggregate over twenty years that looks absurd." },
+    { "speaker": "Priyanka", "text": "There's a league table effect too. Good degree outcomes are a ranking metric, so the institution benefits from its own generosity." },
+    { "speaker": "Nate", "text": "Who's actually harmed? That's the question I keep coming back to." },
+    { "speaker": "Priyanka", "text": "The strong students, mostly. If a third have the top grade it stops telling an employer anything, so employers fall back on which university you went to." },
+    { "speaker": "Struan", "text": "Which advantages exactly the people who were already advantaged." },
+    { "speaker": "Nate", "text": "So the inflation is egalitarian in appearance and the opposite in effect." }
+  ],
+  "points": [
+    "A third of a cohort achieved first-class degrees, against about seven per cent a generation ago.",
+    "Priyanka accepts teaching and feedback genuinely improved, but not proportionally, and entry qualifications did not rise comparably.",
+    "Nate describes the mechanism as an accumulation of individually defensible decisions rather than dishonesty.",
+    "League tables reward good degree outcomes, so institutions benefit from their own generosity.",
+    "Priyanka argues strong students are harmed, because a common top grade stops signalling anything.",
+    "Employers then fall back on institutional reputation, which advantages those already advantaged, making the effect the opposite of egalitarian."
+  ]
+}

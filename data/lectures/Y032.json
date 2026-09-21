@@ -1,0 +1,17 @@
+{
+  "id": "Y032",
+  "title": "Physical Units and Significant Digits",
+  "field": "Astronomy and space",
+  "text": "Before going on, let me make a couple general remarks about equations. First thing to say about equations is there's this idea that equations, mathematics, is some terribly different language, not at all. This is an English sentence. The sentence reads A cubed is equal to P squared times M , period. If you wrote this down in a textbook you'd actually see they put the period in there. It's got a verb, is equal to, it's got a subject, it's got an object. All this is is a different way of writing stuff down. So, it's not a different language; it's just a different writing system, that's all. So, don't freak out, that's the first thing. It's just ordinary English. The second thing to say is that this is a physics equation and not a math equation, and that's actually a subtler point. You will recall back in eighth-grade algebra when they started writing down X is equal to whatever X was equal to. And they said, you know, the amazingly cool thing about algebra is that X could be anything. That's why it's so powerful, and so you can solve whole classes of problems all at once just by letting X equal something unknown. That's math; physics--it isn't true. It is not",
+  "points": [],
+  "audio": "Y032.mp3",
+  "source": {
+    "page": "https://oyc.yale.edu/astronomy/astr-160/lecture-2",
+    "mp3": "https://oyc.yale.edu/sites/default/files/courses/spring07/astr160/mp3/astr160_02_011807.mp3",
+    "start": 776,
+    "seconds": 85,
+    "chapter": "3. Physical Units and Significant Digits",
+    "credit": "Open Yale Courses, Yale University",
+    "licence": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+  }
+}

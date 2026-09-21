@@ -1,0 +1,71 @@
+{
+  "id": "language-and-writing",
+  "title": "Language and writing",
+  "summary": "Words for the things words do.",
+  "questions": [
+    {
+      "id": "lang-01",
+      "clue": "This is a word that means the opposite of another word.",
+      "answer": "antonym",
+      "note": "Hot and cold are antonyms. A word meaning the same thing is a synonym, and one that sounds the same is a homophone."
+    },
+    {
+      "id": "lang-02",
+      "clue": "This is a shortened form of a word or phrase, such as writing three letters instead of United Nations.",
+      "answer": "abbreviation",
+      "accept": ["acronym", "initialism"],
+      "note": "An acronym is pronounced as a word, like NATO; an initialism is spelled out, like BBC. Abbreviation covers both."
+    },
+    {
+      "id": "lang-03",
+      "clue": "This is the written account of somebody's life, told by another person.",
+      "answer": "biography",
+      "note": "Written by the person themselves it is an autobiography. Bio means life and graphy means writing."
+    },
+    {
+      "id": "lang-04",
+      "clue": "This is the act of presenting somebody else's words or ideas as if they were your own.",
+      "answer": "plagiarism",
+      "note": "From the Latin for kidnapper. In an academic context it is treated as misconduct even when it is accidental."
+    },
+    {
+      "id": "lang-05",
+      "clue": "This is a short well-known saying that states a general truth, such as too many cooks spoil the broth.",
+      "answer": "proverb",
+      "accept": ["saying", "adage"],
+      "note": "An idiom is different: its meaning cannot be worked out from the words, but it does not state a truth."
+    },
+    {
+      "id": "lang-06",
+      "clue": "This word describes somebody able to speak two languages fluently.",
+      "answer": "bilingual",
+      "accept": ["bilinguals"],
+      "note": "Three is trilingual and many is multilingual. Monolingual describes somebody with only one."
+    },
+    {
+      "id": "lang-07",
+      "clue": "This is the original handwritten or typed text of a book before it is published.",
+      "answer": "manuscript",
+      "note": "Literally written by hand, from Latin. Publishers still use the word for a typed document."
+    },
+    {
+      "id": "lang-08",
+      "clue": "This is a section of writing dealing with one idea, beginning on a new line.",
+      "answer": "paragraph",
+      "note": "In an exam essay each one should carry a single point, which is the whole reason the division exists."
+    },
+    {
+      "id": "lang-09",
+      "clue": "This is the list of books and articles an author consulted, printed at the end of a piece of work.",
+      "answer": "bibliography",
+      "accept": ["references"],
+      "note": "A bibliography may list everything read; a reference list contains only what was actually cited."
+    },
+    {
+      "id": "lang-10",
+      "clue": "This is a word or phrase that softens something unpleasant, such as saying passed away instead of died.",
+      "answer": "euphemism",
+      "note": "From Greek words meaning to speak well. The opposite, deliberately making something sound worse, is a dysphemism."
+    }
+  ]
+}

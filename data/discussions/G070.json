@@ -1,0 +1,33 @@
+{
+  "id": "G070",
+  "title": "Are festivals worth what they cost a town?",
+  "field": "Culture and economics",
+  "speakers": [
+    { "name": "Shona", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Emeka", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Jules", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Jules", "text": "The festival brought eighty thousand people and the economic impact report says fourteen million." },
+    { "speaker": "Emeka", "text": "Those reports are almost always written by someone the festival paid." },
+    { "speaker": "Shona", "text": "And they tend to count every pound spent in town as new money, which it isn't. Some of it would have been spent anyway." },
+    { "speaker": "Jules", "text": "Displacement." },
+    { "speaker": "Shona", "text": "That, and leakage. If the food traders and the security firm all drive in from elsewhere, most of the money leaves with them on Monday." },
+    { "speaker": "Emeka", "text": "Meanwhile the residents get the road closures and the litter, and those are real costs that appear in nobody's total." },
+    { "speaker": "Jules", "text": "So is your position that it isn't worth it?" },
+    { "speaker": "Emeka", "text": "No. My position is that the number is fiction and the case is better without it.", "gap": -0.12 },
+    { "speaker": "Emeka", "text": "People had a good weekend. The town looked alive. That's worth something and it doesn't need a spurious fourteen million attached." },
+    { "speaker": "Shona", "text": "Culture always ends up defending itself in an economic language it borrowed from somewhere else." },
+    { "speaker": "Jules", "text": "Because the council committee asks for a return on investment, not for a description of joy." },
+    { "speaker": "Shona", "text": "What does hold up is the year-round effect. Places with a strong festival tend to keep venues, technicians, suppliers." },
+    { "speaker": "Emeka", "text": "That I'd fund. The infrastructure rather than the weekend." }
+  ],
+  "points": [
+    "A festival claims fourteen million in economic impact from eighty thousand visitors.",
+    "Emeka notes such reports are usually commissioned by the festival itself.",
+    "Shona identifies displacement, where spending would have occurred anyway, and leakage, where external traders take money away afterwards.",
+    "Residents bear uncounted costs such as road closures and litter.",
+    "Emeka argues the figure is fiction and the cultural case is stronger without it, though councils demand economic justification.",
+    "Shona notes the durable benefit is year-round infrastructure, venues, technicians and suppliers, which Emeka would fund rather than the event."
+  ]
+}

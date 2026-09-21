@@ -1,0 +1,33 @@
+{
+  "id": "G061",
+  "title": "Gambling advertising and sport",
+  "field": "Media and policy",
+  "speakers": [
+    { "name": "Saoirse", "voice": "bf_emma", "speed": 1.01 },
+    { "name": "Dom", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Kiri", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Dom", "text": "I counted the betting adverts during one match. Between the shirts, the boards and the breaks, it was over sixty separate exposures." },
+    { "speaker": "Kiri", "text": "For a sport a lot of eight-year-olds watch with a parent." },
+    { "speaker": "Saoirse", "text": "The industry line is that advertising only moves market share between firms rather than creating new gamblers." },
+    { "speaker": "Dom", "text": "Which would be a remarkable thing for an industry to spend that much on." },
+    { "speaker": "Saoirse", "text": "It's not a stupid argument in a mature market, to be fair. It's just not supported by what happens to people already in trouble.", "gap": 0.1 },
+    { "speaker": "Kiri", "text": "That's the finding that matters. Exposure has little effect on most people and a large one on the minority who are struggling." },
+    { "speaker": "Dom", "text": "So the average effect is small and the harm is concentrated." },
+    { "speaker": "Kiri", "text": "Which is how almost everything addictive works, and why averages are the wrong tool." },
+    { "speaker": "Saoirse", "text": "The Italian ban is the natural experiment. Total prohibition on gambling advertising, several years ago." },
+    { "speaker": "Dom", "text": "And?" },
+    { "speaker": "Saoirse", "text": "Mixed. Overall spending didn't fall much, but the clubs lost significant revenue, which is the part they talk about loudest." },
+    { "speaker": "Kiri", "text": "The free bet offers are what I'd target first anyway. That's not advertising, that's acquisition aimed at people who wouldn't otherwise start." },
+    { "speaker": "Saoirse", "text": "Narrower, more defensible, and much less satisfying as a headline." }
+  ],
+  "points": [
+    "A single match contained over sixty separate gambling advertising exposures, in a sport watched by children.",
+    "The industry argues advertising shifts market share rather than creating gamblers, which Saoirse concedes is not unreasonable in a mature market.",
+    "Kiri notes exposure has little effect on most people but a large effect on those already struggling, so averages are the wrong measure.",
+    "Italy's total advertising ban produced mixed results, with little change in overall spending but significant revenue losses for clubs.",
+    "Kiri would target free bet offers first, as acquisition tools aimed at people who would not otherwise start.",
+    "Saoirse agrees this is narrower and more defensible, though less appealing politically."
+  ]
+}

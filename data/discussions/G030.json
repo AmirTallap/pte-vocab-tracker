@@ -1,0 +1,33 @@
+{
+  "id": "G030",
+  "title": "Homework: how much is any use?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Fiona", "voice": "bf_emma", "speed": 1.02 },
+    { "name": "Omar", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Tess", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Tess", "text": "The primary school's dropped homework entirely. Reading together, and that's it." },
+    { "speaker": "Omar", "text": "Half the parents will be furious and half will be quietly relieved." },
+    { "speaker": "Fiona", "text": "The evidence at primary age is genuinely weak, though. The correlation with attainment is close to nothing until about thirteen." },
+    { "speaker": "Tess", "text": "And then it turns positive?" },
+    { "speaker": "Fiona", "text": "In secondary, yes, up to a point. Somewhere past ninety minutes a night it goes flat and then negative." },
+    { "speaker": "Omar", "text": "What worries me isn't the average, it's the spread. Homework is the part of school that happens at home, so it measures the home." },
+    { "speaker": "Tess", "text": "A quiet room, a desk, a parent who can explain a fraction." },
+    { "speaker": "Omar", "text": "Exactly. Two children do the same worksheet in completely different conditions and we grade it as if it were the same task.", "gap": -0.13 },
+    { "speaker": "Fiona", "text": "Which is the argument for homework clubs rather than for abolition." },
+    { "speaker": "Omar", "text": "Agreed, although those need staff who are already doing too much." },
+    { "speaker": "Tess", "text": "There's a defence nobody's made yet, which is that it teaches you to work when nobody's watching. That's a real skill." },
+    { "speaker": "Fiona", "text": "It is, and you could teach it deliberately in twenty minutes a week rather than as a side effect of four hours of it." },
+    { "speaker": "Tess", "text": "That would require admitting what it was for, mind you." }
+  ],
+  "points": [
+    "A primary school has abolished homework except shared reading.",
+    "Fiona says evidence for homework at primary age is weak, with little correlation to attainment before about thirteen.",
+    "In secondary school the effect is positive up to roughly ninety minutes a night, then flattens and reverses.",
+    "Omar's objection concerns inequality: homework happens at home, so it measures home conditions rather than the pupil.",
+    "Fiona argues this supports homework clubs rather than abolition, though staffing is a constraint.",
+    "Tess defends homework as teaching independent work, which Fiona says could be taught deliberately in far less time."
+  ]
+}

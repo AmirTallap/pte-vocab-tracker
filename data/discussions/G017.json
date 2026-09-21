@@ -1,0 +1,33 @@
+{
+  "id": "G017",
+  "title": "Facial recognition in public places",
+  "field": "Technology and society",
+  "speakers": [
+    { "name": "Nadia", "voice": "af_nicole", "speed": 1.02 },
+    { "name": "Hugo", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Sam", "voice": "am_puck", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Hugo", "text": "The cameras at the station are running live facial recognition now. There's a sign, in fairness, but it's about this big." },
+    { "speaker": "Sam", "text": "And matching against what? That's the thing nobody says." },
+    { "speaker": "Hugo", "text": "A watchlist. Which is compiled by them and isn't published." },
+    { "speaker": "Nadia", "text": "The accuracy figures are the part I'd push on. They quote ninety-nine per cent, but that's on a small list under good lighting." },
+    { "speaker": "Sam", "text": "Ninety-nine sounds fine until you multiply it by fifty thousand people a day." },
+    { "speaker": "Nadia", "text": "Exactly. One per cent of fifty thousand is five hundred false matches before lunch." },
+    { "speaker": "Hugo", "text": "Which in practice means being stopped, and in practice that falls on the same faces every time. The error rates aren't even across skin tone and everyone testing it has found that." },
+    { "speaker": "Sam", "text": "The argument for it is the ten people it does catch, though. That's not nothing either." },
+    { "speaker": "Nadia", "text": "No, and I don't want to pretend it is. The question is whether we'd accept the same trade if it were done by hand.", "gap": -0.14 },
+    { "speaker": "Nadia", "text": "Stopping five hundred people a day to find ten would be a scandal. Automating it doesn't change the arithmetic, it just hides it." },
+    { "speaker": "Hugo", "text": "That's the clearest way I've heard it put." },
+    { "speaker": "Sam", "text": "I'd still want it at a stadium on a match day. Different situation, consented entry, known risk." },
+    { "speaker": "Nadia", "text": "Agreed, actually. It's the walking through a station without choosing anything that I object to." }
+  ],
+  "points": [
+    "Live facial recognition is running at a station, signposted only minimally, matching against an unpublished watchlist.",
+    "Nadia notes the quoted 99 per cent accuracy comes from small lists in good lighting.",
+    "At fifty thousand passengers a day, one per cent error means around five hundred false matches, which in practice means being stopped.",
+    "Hugo adds that error rates are uneven across skin tone, so the burden falls repeatedly on the same people.",
+    "Nadia's central argument is that stopping five hundred people to find ten would be a scandal if done manually, and automation hides the arithmetic rather than changing it.",
+    "They agree the case differs where entry is consented and the risk is known, such as a stadium, as against walking through a station."
+  ]
+}

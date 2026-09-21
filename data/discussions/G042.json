@@ -1,0 +1,33 @@
+{
+  "id": "G042",
+  "title": "Four-year-olds starting school",
+  "field": "Education",
+  "speakers": [
+    { "name": "Sinead", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Ben", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Wen", "voice": "af_nicole", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Wen", "text": "My daughter starts formal lessons at four and a half. In Finland she wouldn't start until seven." },
+    { "speaker": "Ben", "text": "And Finland does extremely well, which is the argument everyone reaches for." },
+    { "speaker": "Sinead", "text": "It's a weak argument on its own, though. Finland also has a different teaching profession, different inequality, different everything." },
+    { "speaker": "Wen", "text": "Sure, but the early starters don't hold their lead either. The gap between starting at four and starting at seven has gone by about eleven." },
+    { "speaker": "Ben", "text": "Gone entirely?" },
+    { "speaker": "Wen", "text": "Close to it in reading. And the late starters tend to report enjoying it more, which matters over thirteen years." },
+    { "speaker": "Sinead", "text": "The part I find hardest to defend is the summer-born effect. A child born in August is nearly a year younger than one born in September and they're taught as if they're the same.", "gap": -0.13 },
+    { "speaker": "Sinead", "text": "That's a quarter of a lifetime's difference at that age, and it follows them for years." },
+    { "speaker": "Ben", "text": "Measurable into secondary, isn't it?" },
+    { "speaker": "Wen", "text": "Measurable into university entry in some studies." },
+    { "speaker": "Ben", "text": "The honest counter is childcare. A later start means two more years of paying for somewhere for a four-year-old to be." },
+    { "speaker": "Sinead", "text": "Which is the actual reason the age is where it is, and nobody says so in an education white paper." },
+    { "speaker": "Wen", "text": "It would be a better debate if they did." }
+  ],
+  "points": [
+    "Formal schooling begins at four and a half locally, against seven in Finland.",
+    "Sinead warns the Finland comparison is weak in isolation because many other factors differ.",
+    "Wen notes early starters' advantage disappears by about age eleven, particularly in reading, and later starters report enjoying school more.",
+    "Sinead highlights the summer-born effect, where a child nearly a year younger is taught as an equal, with consequences measurable into secondary school and beyond.",
+    "Ben raises childcare cost as the honest counter-argument to a later start.",
+    "They agree childcare is the real driver of the current age, though it is absent from education policy documents."
+  ]
+}

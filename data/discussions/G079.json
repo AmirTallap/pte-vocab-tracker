@@ -1,0 +1,33 @@
+{
+  "id": "G079",
+  "title": "Should we still learn mental arithmetic?",
+  "field": "Education",
+  "speakers": [
+    { "name": "Tariq", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Josie", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Erin", "voice": "bf_emma", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Josie", "text": "My nephew can't do fourteen times six without reaching for a phone, and I can't decide whether that matters." },
+    { "speaker": "Tariq", "text": "It matters for estimation, which is the thing nobody teaches explicitly. Knowing roughly what an answer should be." },
+    { "speaker": "Erin", "text": "That's the actual skill, yes. Not the calculation, the sense that a number is wrong." },
+    { "speaker": "Josie", "text": "You can have that without knowing tables, surely." },
+    { "speaker": "Erin", "text": "Less easily than you'd think. If fourteen sixes isn't somewhere near instant, you can't feel that eight hundred is absurd." },
+    { "speaker": "Tariq", "text": "There's a working memory argument too. If the arithmetic takes all your attention, there's nothing left for the actual problem." },
+    { "speaker": "Josie", "text": "That one I find persuasive. It's why reading fluency matters even though you could sound out every word.", "gap": -0.12 },
+    { "speaker": "Erin", "text": "That's a good parallel, actually." },
+    { "speaker": "Tariq", "text": "The counter is time. Every hour on tables is an hour not spent on reasoning or statistics, and statistics is what most adults actually need." },
+    { "speaker": "Josie", "text": "Massively more useful and barely taught." },
+    { "speaker": "Erin", "text": "Although you can't do statistics without number sense either, so it's not a clean trade." },
+    { "speaker": "Tariq", "text": "So the answer is fluency to a point, and then stop, rather than drilling for four years." },
+    { "speaker": "Erin", "text": "Which is roughly what the evidence says and almost nowhere does." }
+  ],
+  "points": [
+    "The discussion concerns whether mental arithmetic still matters when calculators are available.",
+    "Tariq and Erin argue its value lies in estimation, the ability to sense that an answer is wrong.",
+    "Erin contends this requires near-instant recall of basic facts.",
+    "A working memory argument holds that slow arithmetic consumes attention needed for the actual problem, paralleling reading fluency.",
+    "Tariq notes the opportunity cost, since statistics is more useful for most adults and barely taught.",
+    "Erin replies statistics also requires number sense, and they conclude fluency should be developed to a point rather than drilled for years."
+  ]
+}

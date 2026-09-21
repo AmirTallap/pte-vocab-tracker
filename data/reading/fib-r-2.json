@@ -1,0 +1,128 @@
+{
+  "id": "fib-r-2",
+  "task": "fib-r",
+  "title": "Set 2",
+  "summary": "Societies past and present: history, anthropology, politics, law and the planning of cities.",
+  "items": [
+    {
+      "id": "r2-01",
+      "title": "The Rosetta Stone",
+      "text": "The Rosetta Stone, discovered by French soldiers in Egypt in 1799, {{proved}} to be the key to reading Egyptian hieroglyphs. The stone carries the same decree, issued in 196 BC, written in three scripts: hieroglyphic, demotic and ancient Greek. Because scholars could already read Greek, they were able to {{compare}} it with the other two versions. Progress was nonetheless slow, as many had assumed that hieroglyphs represented ideas rather than sounds. The breakthrough came in 1822, when Jean-François Champollion showed that the script combined phonetic signs with symbols standing for whole words. His work {{enabled}} historians to read thousands of inscriptions that had been silent for centuries, and the stone has been displayed {{in}} the British Museum since 1802.",
+      "distractors": ["comparison", "on", "prevented"],
+      "why": [
+        "\"Proved to be\" means turned out to be; \"prevented to be\" is ungrammatical.",
+        "\"Able to\" needs a base-form verb, so \"compare\"; \"comparison\" is a noun.",
+        "\"Enabled historians to read\" is the correct pattern; \"prevented\" would need \"from reading\" and reverses the meaning.",
+        "Objects are displayed \"in\" a museum; \"on the British Museum\" would mean on its roof."
+      ]
+    },
+    {
+      "id": "r2-02",
+      "title": "Magna Carta",
+      "text": "Magna Carta was sealed by King John of England in 1215, after a group of rebellious barons {{forced}} him to negotiate at Runnymede, near Windsor. The charter was largely concerned with the grievances of the barons, such as excessive taxation, and most of its clauses were of little {{relevance}} to ordinary people. Within months, the Pope had declared it invalid and civil war had broken out. Nevertheless, the document was reissued several times {{under}} later monarchs, and over the centuries it came to symbolise a powerful principle: that the ruler is subject to the law, not above it. One clause, which {{declares}} that no free man shall be imprisoned except by the lawful judgement of his peers or by the law of the land, remains in force today.",
+      "distractors": ["made", "relevant", "during"],
+      "why": [
+        "\"Forced him to negotiate\" is correct; \"made\" is followed by the bare infinitive, so \"made him to negotiate\" is ungrammatical.",
+        "\"Of little\" needs a noun, so \"relevance\"; \"relevant\" is an adjective.",
+        "Things happen \"under\" a monarch, meaning during that reign; \"during\" needs a period of time, not a person.",
+        "A clause \"declares that\" something is so; \"made that\" is not English."
+      ]
+    },
+    {
+      "id": "r2-03",
+      "title": "The kula ring",
+      "text": "In the early twentieth century, the anthropologist Bronisław Malinowski {{documented}} a remarkable system of exchange among the Trobriand Islanders of Papua New Guinea. Known as the kula, it involved the ceremonial circulation of shell necklaces and armbands between islands spread over hundreds of kilometres. Necklaces travelled in one direction around the ring and armbands in the {{opposite}} direction. The objects had no practical use and were never kept permanently; their value lay in the prestige they conferred and the relationships they {{cemented}}. Malinowski's account challenged the assumption that so-called primitive economies were driven purely by {{material}} need, and it became a foundational text in the study of gift exchange.",
+      "distractors": ["documentary", "materially", "opposition"],
+      "why": [
+        "The sentence needs a past-tense verb, so \"documented\"; \"documentary\" is a noun or adjective.",
+        "\"The opposite direction\" is the set phrase; \"opposition\" is a noun and cannot modify \"direction\" here.",
+        "Relationships are \"cemented\", made strong, by exchange; no other word in the box is a past-tense verb that fits.",
+        "An adjective must modify \"need\", so \"material\"; \"materially\" is an adverb."
+      ]
+    },
+    {
+      "id": "r2-04",
+      "title": "The separation of powers",
+      "text": "The idea that political power should be divided among separate branches of government is most closely {{associated}} with the French philosopher Montesquieu. In The Spirit of the Laws, published in 1748, he argued that liberty is safest when the power to make laws, the power to enforce them and the power to judge disputes are held by different bodies. If any two of these were {{concentrated}} in the same hands, he warned, tyranny would be the likely result. His ideas had a profound influence on the authors of the United States Constitution, which assigns these functions to Congress, the President and the courts {{respectively}}. Each branch is given means to check the others, so that no single institution can {{dominate}} the rest.",
+      "distractors": ["association", "respective", "dominant"],
+      "why": [
+        "\"Is associated with\" is a passive participle; \"association\" is a noun.",
+        "Power is \"concentrated in\" the same hands; no other box word can follow \"were\" with \"in the same hands\".",
+        "\"Respectively\" at the end of a list matches each item to each function; \"respective\" is an adjective and must come before a noun.",
+        "\"Can\" needs a base-form verb, so \"dominate\"; \"dominant\" is an adjective."
+      ]
+    },
+    {
+      "id": "r2-05",
+      "title": "The garden city",
+      "text": "At the end of the nineteenth century, many British cities were overcrowded, polluted and unhealthy. In response, the reformer Ebenezer Howard put {{forward}} a new kind of settlement, which he called the garden city. Described in his book of 1898, it was intended to combine the economic opportunities of the town {{with}} the fresh air and open space of the countryside. Each garden city would be limited in size, surrounded by a permanent belt of agricultural land, and owned collectively so that rising land values would benefit the {{community}} as a whole. Letchworth, begun in 1903, and Welwyn Garden City were built on these principles, and Howard's ideas later {{shaped}} the planning of new towns across Britain and beyond.",
+      "distractors": ["to", "communal", "shape"],
+      "why": [
+        "\"Put forward\" means proposed; \"put to a new kind of settlement\" is not the phrasal verb.",
+        "The pattern is \"combine X with Y\"; \"combine X to Y\" is ungrammatical.",
+        "After \"the\" a noun is needed, so \"community\"; \"communal\" is an adjective.",
+        "The past tense is needed after \"later\", so \"shaped\"; \"shape\" is present."
+      ]
+    },
+    {
+      "id": "r2-06",
+      "title": "The first farmers",
+      "text": "Around twelve thousand years ago, people in the Fertile Crescent of south-west Asia began to cultivate wheat and barley and to {{domesticate}} animals such as sheep and goats. Similar transitions later took place independently in several other regions, including China, Mesoamerica and the Andes. Farming allowed communities to settle in one place and to store surplus food, which in turn {{supported}} larger populations and more complex social structures. Yet the change was not an unambiguous improvement. Skeletons from early farming villages often show signs of poorer nutrition and more disease than {{those}} of hunter-gatherers, since diets became narrower and people lived closer together. Some scholars have therefore questioned {{whether}} agriculture initially made human lives better at all.",
+      "distractors": ["domestic", "what", "supporting"],
+      "why": [
+        "\"To\" needs a base-form verb, so \"domesticate\"; \"domestic\" is an adjective.",
+        "\"Which\" needs a finite verb, so \"supported\"; \"supporting\" cannot stand alone as a verb.",
+        "\"Those\" stands for the plural \"skeletons\"; \"what of hunter-gatherers\" is not English.",
+        "\"Questioned whether\" introduces a yes-or-no doubt; \"questioned what agriculture made human lives better\" is ungrammatical."
+      ]
+    },
+    {
+      "id": "r2-07",
+      "title": "Innocent until proven guilty",
+      "text": "One of the central principles of criminal law in many countries is the presumption of innocence: a person accused of a crime is treated as innocent until {{proven}} guilty. It follows that the burden of proof lies with the prosecution rather than the defence. The accused has no {{obligation}} to demonstrate innocence; instead, the state must establish guilt, in English law beyond reasonable doubt. The principle has ancient roots, and it is now {{enshrined}} in the Universal Declaration of Human Rights, adopted in 1948. Its justification is often expressed through a maxim associated with William Blackstone, who wrote that it is better that ten guilty persons escape {{than}} that one innocent suffer.",
+      "distractors": ["obliged", "rather", "innocently"],
+      "why": [
+        "The set phrase is \"until proven guilty\"; \"obliged guilty\" and \"innocently guilty\" are meaningless.",
+        "\"Has no\" needs a noun, so \"obligation\"; \"obliged\" is a participle.",
+        "Principles are \"enshrined in\" founding documents; \"obliged in\" is not English.",
+        "\"Better that ... than that\" is the comparison; \"rather\" alone would need \"than\" after it."
+      ]
+    },
+    {
+      "id": "r2-08",
+      "title": "Votes into seats",
+      "text": "Electoral systems differ in how they turn votes into seats. Under first-past-the-post, used for elections to the UK House of Commons, the country is divided into constituencies, and the candidate with the most votes in each one wins, {{regardless}} of whether that amounts to a majority. As a result, a party's share of seats can differ sharply from its share of the national vote. Proportional representation {{attempts}} to close this gap by allocating seats in line with each party's overall support. Critics argue that such systems rarely {{produce}} a single-party majority, making coalition government the norm. Supporters reply that coalitions force parties to {{negotiate}} and that the resulting policies reflect the preferences of a broader range of voters.",
+      "distractors": ["regarding", "aiming", "production"],
+      "why": [
+        "\"Regardless of whether\" is the fixed phrase; \"regarding of\" is not English.",
+        "The singular subject needs a finite verb, so \"attempts\"; \"aiming\" leaves the sentence without one.",
+        "Systems \"produce\" a result; \"production\" is a noun and cannot follow \"rarely\" as a verb.",
+        "Parties are forced to \"negotiate\" with one another; \"produce\" would need an object and \"production\" is a noun."
+      ]
+    },
+    {
+      "id": "r2-09",
+      "title": "The aqueducts of Rome",
+      "text": "The city of Rome was supplied with water by a network of eleven aqueducts, the first of which was built in 312 BC. Contrary to popular belief, most of their length ran {{underground}}, through channels cut into the rock or buried beneath the surface. The famous arched bridges were needed only where a channel had to {{cross}} a valley. The entire system relied on gravity alone, so engineers had to maintain a gentle and remarkably consistent gradient over distances that could {{exceed}} ninety kilometres. The water flowed continuously into public fountains, baths and a smaller number of private houses, and the surplus was used to flush the city's sewers. Several aqueducts remained in {{use}} long after the fall of the Western Roman Empire.",
+      "distractors": ["useful", "excess", "crossing"],
+      "why": [
+        "The channels were cut into rock or buried, so the aqueducts ran \"underground\"; no other box word describes where they ran.",
+        "\"Had to\" needs a base-form verb, so \"cross\"; \"crossing\" is the wrong form.",
+        "Distances \"exceed\" a figure; \"excess\" is a noun, not a verb.",
+        "\"Remained in use\" is the set phrase; \"in useful\" is ungrammatical."
+      ]
+    },
+    {
+      "id": "r2-10",
+      "title": "Eyes on the street",
+      "text": "In The Death and Life of Great American Cities, published in 1961, the writer and activist Jane Jacobs mounted a fierce attack on the planning orthodoxy of her day. Planners {{at}} the time favoured clearing old neighbourhoods and replacing them with large housing blocks and fast roads. Jacobs argued that this destroyed precisely what made city life work. She {{praised}} busy streets with a mixture of homes, shops and workplaces, where people came and went at all hours. Such streets, she wrote, were kept safe not mainly by the police but by the constant presence of residents and passers-by, {{whose}} 'eyes on the street' deterred crime. Her ideas were dismissed by many professionals at first, but they have since become highly {{influential}}.",
+      "distractors": ["in", "praising", "who"],
+      "why": [
+        "\"At the time\" is the fixed phrase; \"in the time\" is not used this way.",
+        "The sentence needs a past-tense verb, so \"praised\"; \"praising\" leaves it without one.",
+        "The eyes belong to the residents, so the possessive \"whose\"; \"who\" cannot come before a noun.",
+        "\"Highly\" modifies an adjective, so \"influential\" completes \"become highly\"."
+      ]
+    }
+  ]
+}

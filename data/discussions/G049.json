@@ -1,0 +1,33 @@
+{
+  "id": "G049",
+  "title": "Water shortages in a rainy country",
+  "field": "Environment and infrastructure",
+  "speakers": [
+    { "name": "Fintan", "voice": "bm_lewis", "speed": 0.98 },
+    { "name": "Asha", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Milo", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Asha", "text": "Hosepipe ban again, in a region that had above-average rainfall last winter. That's the bit I can't square." },
+    { "speaker": "Milo", "text": "Rainfall isn't the constraint. Storage is, and we haven't built a major reservoir in about thirty years." },
+    { "speaker": "Fintan", "text": "And the leaks. Something like a fifth of treated water never reaches a tap." },
+    { "speaker": "Asha", "text": "A fifth?" },
+    { "speaker": "Fintan", "text": "Roughly, and it's been roughly that for a long time. Fixing the last of it costs more than it saves, which is the honest reason it persists." },
+    { "speaker": "Milo", "text": "Except the comparison should be against building a reservoir, not against nothing. Leaks are the cheapest water there is." },
+    { "speaker": "Fintan", "text": "That's a fair reframing." },
+    { "speaker": "Asha", "text": "Household use gets all the attention and it's about a fifth of the total. Agriculture and industry are the rest.", "gap": -0.12 },
+    { "speaker": "Asha", "text": "So we're told to take shorter showers while a field of thirsty crops is irrigated in August." },
+    { "speaker": "Milo", "text": "Metering does shift household use, to be fair. About a tenth, consistently." },
+    { "speaker": "Fintan", "text": "And it hits large families hardest, which is the objection that stopped it here." },
+    { "speaker": "Asha", "text": "You can price the first block low and the rest higher. That's solvable." },
+    { "speaker": "Milo", "text": "It is. It's just less popular than telling people to take shorter showers." }
+  ],
+  "points": [
+    "Hosepipe bans follow a winter of above-average rainfall, indicating storage rather than rainfall is the constraint.",
+    "No major reservoir has been built in about thirty years.",
+    "Roughly a fifth of treated water is lost to leaks, justified on cost grounds, though Milo argues the comparison should be against building new storage.",
+    "Household use is about a fifth of total consumption, with agriculture and industry accounting for the rest.",
+    "Metering reduces household use by around a tenth but is objected to as unfair on large families.",
+    "Asha notes tiered pricing solves that objection, though it is less politically appealing than asking for shorter showers."
+  ]
+}

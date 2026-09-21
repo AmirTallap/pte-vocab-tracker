@@ -1,0 +1,33 @@
+{
+  "id": "G014",
+  "title": "Is nuclear power part of the answer?",
+  "field": "Energy and environment",
+  "speakers": [
+    { "name": "Felix", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Saira", "voice": "af_heart", "speed": 1.04 },
+    { "name": "Owen", "voice": "am_puck", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Saira", "text": "They're extending the two old reactors by another decade rather than building anything new. Which tells you something." },
+    { "speaker": "Owen", "text": "It tells you new build is expensive. It doesn't tell you it's wrong." },
+    { "speaker": "Felix", "text": "It's not just expensive, it's late. Every one of the recent European projects came in years behind and billions over. That's not bad luck three times running, that's the technology." },
+    { "speaker": "Saira", "text": "Or it's having built nothing for thirty years and losing everyone who knew how." },
+    { "speaker": "Felix", "text": "Possibly. South Korea did build them on time and on budget, to be fair." },
+    { "speaker": "Owen", "text": "The reason I keep coming back to it is that wind and solar need something underneath them. On a still, dark February week you need power that doesn't care about the weather." },
+    { "speaker": "Saira", "text": "Storage, though." },
+    { "speaker": "Owen", "text": "Storage for a week, for a whole country. That's not a battery problem, that's a different civilisation.", "gap": 0.09 },
+    { "speaker": "Felix", "text": "Gas does that job today and nobody pretends it's clean, so the honest comparison isn't nuclear against renewables. It's nuclear against gas." },
+    { "speaker": "Saira", "text": "That reframing helps me, actually. I'd been comparing it to the wrong thing." },
+    { "speaker": "Owen", "text": "The waste still bothers me, mind you. Not technically. Politically. Somebody has to keep a promise for ten thousand years." },
+    { "speaker": "Felix", "text": "Finland's building exactly that and it's the least discussed part of the whole debate." },
+    { "speaker": "Saira", "text": "Which is probably because nobody can picture ten thousand years." }
+  ],
+  "points": [
+    "Two old reactors are being extended rather than replaced with new build.",
+    "Felix argues recent European projects were consistently years late and billions over budget, suggesting a problem with the technology rather than bad luck.",
+    "Saira counters that the delays reflect lost expertise after thirty years without building; Felix concedes South Korea delivered on time and budget.",
+    "Owen's case is that wind and solar need firm backup for still, dark periods, and week-long national storage is not a battery problem.",
+    "Felix reframes the comparison as nuclear against gas rather than nuclear against renewables, which Saira accepts.",
+    "Owen's remaining objection to waste is political rather than technical: it requires a promise kept for ten thousand years."
+  ]
+}

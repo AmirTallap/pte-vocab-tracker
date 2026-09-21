@@ -1,0 +1,124 @@
+{
+  "id": "reorder-5",
+  "task": "reorder",
+  "title": "Set 5",
+  "summary": "Ten short texts on engineering, climate policy, medicine, computing, craft, social history, botany and business to put back in order.",
+  "items": [
+    {
+      "id": "o5-01",
+      "title": "The Leaning Tower of Pisa",
+      "paragraphs": [
+        "Construction of the bell tower of Pisa Cathedral began in 1173, but the building had reached only its third storey when it started to lean.",
+        "The cause of this tilt was the ground beneath it, a soft mixture of clay, sand and shell that could not support the weight evenly.",
+        "Building on such unstable ground was then halted for almost a century by wars, and the pause probably saved the tower, as it gave the soil time to compact.",
+        "When construction finally resumed, the builders tried to compensate for the tilt by making the upper storeys slightly taller on one side, which gave the tower a subtle curve.",
+        "That curve is still visible today, although the lean itself was reduced by engineers between 1990 and 2001, when soil was carefully removed from beneath the higher side."
+      ],
+      "note": "The first sentence introduces the tower and its lean. 'This tilt' refers to the lean, 'such unstable ground' to the soft soil, 'finally resumed' to the century-long halt, and 'That curve' to the curve the later builders created."
+    },
+    {
+      "id": "o5-02",
+      "title": "Cap and trade",
+      "paragraphs": [
+        "Emissions trading, sometimes called cap and trade, is a policy that limits pollution by setting an overall ceiling on how much a group of polluters may emit.",
+        "Within this ceiling, the authorities issue permits, each allowing a certain quantity of emissions, and companies must hold enough permits to cover what they release.",
+        "Firms that can cut their pollution cheaply may then sell their spare permits to those for whom reductions would be more expensive.",
+        "In this way the overall target is met at the lowest total cost, an approach first applied on a large scale to sulphur dioxide in the United States in the 1990s."
+      ],
+      "note": "The definition opens. 'This ceiling' refers to the cap, 'their spare permits' needs the permits just introduced, and 'In this way' sums up the selling of permits between firms."
+    },
+    {
+      "id": "o5-03",
+      "title": "Blood groups",
+      "paragraphs": [
+        "At the start of the twentieth century, blood transfusions were dangerous and unpredictable, since some patients recovered after receiving blood while others suffered fatal reactions.",
+        "In 1901 the Austrian physician Karl Landsteiner explained this puzzle by showing that human blood falls into distinct types, the groups now known as A, B and O.",
+        "Mixing blood from incompatible groups causes the red cells to clump together, and this clumping accounted for the reactions that had made earlier transfusions so hazardous.",
+        "With the cause of these reactions understood, doctors began matching donors to recipients by group, and transfusion became far safer, and Landsteiner received the Nobel Prize for his discovery in 1930."
+      ],
+      "note": "The problem is set out first and points back to nothing. 'This puzzle' refers to the unpredictable outcomes, 'incompatible groups' needs the groups Landsteiner identified, and the matching in the last sentence is the practical answer to the clumping just explained."
+    },
+    {
+      "id": "o5-04",
+      "title": "Deep Blue",
+      "paragraphs": [
+        "In 1996 the reigning world chess champion Garry Kasparov played a six-game match against Deep Blue, a computer built by the American company IBM.",
+        "Kasparov won that first encounter, but IBM's engineers upgraded the machine, and a rematch was arranged for the following year in New York.",
+        "In the 1997 rematch Deep Blue won by three and a half points to two and a half, becoming the first computer to defeat a reigning world champion in a match under standard tournament conditions.",
+        "The victory was widely reported as a triumph of artificial intelligence, yet the machine owed its strength less to anything resembling human understanding than to brute calculation.",
+        "It could evaluate some two hundred million positions per second, a capacity that allowed it to look many moves ahead without any grasp of why a move was good."
+      ],
+      "note": "The first sentence introduces both players. 'That first encounter' refers to the 1996 match, 'the 1997 rematch' to the one just arranged, 'The victory' to Deep Blue's win, and 'It' in the last explains the 'brute calculation' mentioned immediately before."
+    },
+    {
+      "id": "o5-05",
+      "title": "Kintsugi",
+      "paragraphs": [
+        "Kintsugi is a Japanese method of repairing broken pottery in which the cracks are joined with lacquer mixed or dusted with powdered gold.",
+        "Rather than hiding the damage, this technique draws attention to it, so that the golden seams become the most striking feature of the repaired object.",
+        "Treating a flaw as something to display in this way reflects an aesthetic outlook associated with Zen Buddhism and the tea ceremony, which finds beauty in imperfection, age and impermanence.",
+        "Such thinking has given kintsugi a significance beyond craft, and the practice is now often cited as a metaphor for recovering from hardship without denying it."
+      ],
+      "note": "The definition opens. 'This technique' refers to the gold repair, 'Treating a flaw as something to display in this way' picks up the drawing of attention to the damage, and 'Such thinking' refers to the aesthetic outlook."
+    },
+    {
+      "id": "o5-06",
+      "title": "London's coffee houses",
+      "paragraphs": [
+        "The first coffee house in London opened in 1652, and within a few decades the city had hundreds of them, crowded with customers from every rank of society.",
+        "These establishments were valued less for their drink than for their conversation, since for the price of a cup a man could sit, read the newspapers and debate the news.",
+        "Because they offered such cheap access to learning, they were nicknamed 'penny universities', and many became associated with particular trades or professions.",
+        "One of these, run by Edward Lloyd from the late 1680s, was frequented by merchants and shipowners and became the place to arrange insurance for voyages.",
+        "From those gatherings grew Lloyd's of London, which remains one of the world's leading insurance markets more than three centuries later."
+      ],
+      "note": "The dated opening introduces the coffee houses. 'These establishments' refers to them, 'such cheap access to learning' to the reading and debate for the price of a cup, 'One of these' to the houses tied to particular trades, and 'those gatherings' to the merchants at Lloyd's."
+    },
+    {
+      "id": "o5-07",
+      "title": "The Venus flytrap",
+      "paragraphs": [
+        "The Venus flytrap is a carnivorous plant native to a small coastal region of North and South Carolina in the United States.",
+        "It grows in boggy soils that contain very little nitrogen, and it makes up for this shortage by catching and digesting insects.",
+        "The insects are caught in hinged leaves lined with sensitive hairs, which snap shut only if two of the hairs are touched in quick succession.",
+        "This requirement for a second touch prevents the plant from wasting energy on raindrops or falling debris, which rarely strike twice in the same place so quickly."
+      ],
+      "note": "Only the first sentence names the plant. 'It' in the second refers to the flytrap, 'The insects' to those it catches, and 'This requirement for a second touch' to the two hairs touched in quick succession."
+    },
+    {
+      "id": "o5-08",
+      "title": "The South Asian monsoon",
+      "paragraphs": [
+        "A monsoon is a seasonal reversal of the prevailing winds, and in South Asia it brings the heavy summer rains on which much of the region's agriculture depends.",
+        "It is driven by the different rates at which land and sea warm up: in early summer the land heats far faster than the Indian Ocean beside it.",
+        "The hot air above the land rises, lowering the pressure there, and moist air from the ocean is drawn inland to replace it.",
+        "As this moist air is forced upwards, especially against the Himalayas and the Western Ghats, it cools and releases its water as torrential rain.",
+        "Because so much depends on this rainfall, a monsoon that arrives late or proves weak can damage harvests and drive up food prices across the subcontinent."
+      ],
+      "note": "The definition opens. 'It' refers to the monsoon, 'The hot air above the land' follows from the land heating faster, 'this moist air' refers to the air drawn in from the ocean, and 'this rainfall' to the torrential rain it releases."
+    },
+    {
+      "id": "o5-09",
+      "title": "The penny post",
+      "paragraphs": [
+        "Before 1840, postage in Britain was expensive and complicated, with charges calculated according to distance and the number of sheets, and usually paid by the person receiving the letter.",
+        "The reformer Rowland Hill argued that this system was wasteful, since much of the cost lay in the elaborate process of calculating and collecting each charge.",
+        "He proposed instead a single low rate for any letter within the country, paid in advance by the sender, whatever the distance involved.",
+        "To show that payment had been made, the sender would attach a small printed label, and in May 1840 the Penny Black became the world's first adhesive postage stamp.",
+        "The new stamp was an immediate success, and the number of letters sent in Britain rose sharply as ordinary people could at last afford to correspond."
+      ],
+      "note": "The old system is described first. 'This system' refers to it, 'He' and 'instead' need Hill's criticism, 'payment' refers to the advance payment by the sender, and 'The new stamp' is the Penny Black."
+    },
+    {
+      "id": "o5-10",
+      "title": "Loss leaders",
+      "paragraphs": [
+        "A loss leader is a product that a shop deliberately sells at or below cost in order to attract customers into the store.",
+        "The retailer accepts a loss on this item in the expectation that shoppers, once inside, will also buy other goods on which the profit margin is higher.",
+        "For this reason, loss leaders are usually everyday items such as milk or bread, whose prices shoppers know well and can easily compare between competitors.",
+        "The strategy carries a risk, however, as some customers buy only the discounted goods and leave, a practice that retailers call cherry-picking.",
+        "To limit such losses, shops often restrict the number of discounted items that each customer may buy."
+      ],
+      "note": "The definition opens. 'This item' refers to the loss leader, 'For this reason' follows from the aim of attracting shoppers, 'however' introduces the downside of the strategy, and 'such losses' refers to the cherry-picking just named."
+    }
+  ]
+}

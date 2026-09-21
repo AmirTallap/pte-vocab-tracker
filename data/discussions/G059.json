@@ -1,0 +1,33 @@
+{
+  "id": "G059",
+  "title": "GM crops, twenty-five years on",
+  "field": "Agriculture and science",
+  "speakers": [
+    { "name": "Ingrid", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Femi", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Cass", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Cass", "text": "The new rules split gene editing from transgenics. Editing gets treated like conventional breeding, more or less." },
+    { "speaker": "Femi", "text": "Which is scientifically defensible. Editing changes a gene the plant already has. It's what breeders have done slowly for ten thousand years." },
+    { "speaker": "Ingrid", "text": "The safety case was never really the sticking point though, was it. Twenty-five years of eating it and nothing has shown up." },
+    { "speaker": "Cass", "text": "No. The objection that stuck was about ownership." },
+    { "speaker": "Femi", "text": "Patented seed, contracts forbidding saving it, and a handful of companies controlling the whole chain." },
+    { "speaker": "Ingrid", "text": "Which is a real objection and it was consistently answered as if people were worried about their health.", "gap": -0.12 },
+    { "speaker": "Ingrid", "text": "So the debate talked past itself for two decades." },
+    { "speaker": "Cass", "text": "The herbicide point matters too. A lot of the first generation was engineered to survive spraying, so usage went up rather than down." },
+    { "speaker": "Femi", "text": "Fair, although the insect-resistant varieties cut insecticide substantially. It depends entirely which trait you mean." },
+    { "speaker": "Cass", "text": "Which is why arguing about GM as one thing never worked." },
+    { "speaker": "Ingrid", "text": "Does editing change the ownership problem at all?" },
+    { "speaker": "Femi", "text": "In principle yes, because it's cheap enough for a university or a national programme to do. In practice the patents are already being filed." },
+    { "speaker": "Cass", "text": "So the technology got democratic and the law didn't." }
+  ],
+  "points": [
+    "New rules treat gene editing differently from transgenic modification, closer to conventional breeding.",
+    "Femi defends this scientifically, since editing alters genes the plant already has.",
+    "Ingrid notes safety was never the real objection, with no harm found after twenty-five years.",
+    "The durable objection concerns ownership: patented seed, contracts against saving it, and concentrated corporate control.",
+    "Cass notes herbicide-tolerant crops increased spraying, while Femi points out insect-resistant varieties cut insecticide, so the trait matters more than the category.",
+    "Femi expects editing to be cheap enough for public institutions, but patents are already being filed, so the technology became accessible while the law did not."
+  ]
+}

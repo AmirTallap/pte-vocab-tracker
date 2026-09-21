@@ -1,0 +1,172 @@
+{
+  "id": "mcq-multi-3",
+  "task": "mcq-multi",
+  "title": "Set 3",
+  "summary": "Ten passages across science, history, economics and law: every correct option is in the text, and every wrong one costs a mark.",
+  "items": [
+    {
+      "id": "mm3-01",
+      "title": "Fixing nitrogen",
+      "passage": "Nitrogen is essential to all living things, since it is a component of proteins and of DNA, yet most organisms cannot use the nitrogen that makes up about 78 per cent of the atmosphere. The two atoms in a nitrogen molecule are held together by a triple bond, one of the strongest in chemistry, and breaking it requires a great deal of energy. Before plants and animals can use nitrogen, it must be converted into more reactive compounds such as ammonia, a process called fixation.\nIn nature, most fixation is carried out by certain bacteria and related microbes. Some live freely in the soil, while others form partnerships with plants. The best-known partnership is with legumes, such as peas, beans and clover, whose roots develop small swellings called nodules in which the bacteria live. The plant supplies the bacteria with sugars, and in return the bacteria supply the plant with fixed nitrogen. Farmers long made use of this relationship, without understanding it, by rotating legumes with other crops to restore the fertility of their fields. Lightning also fixes a small amount of nitrogen by providing the energy to combine it with oxygen.\nIn the early twentieth century the German chemists Fritz Haber and Carl Bosch developed an industrial process for making ammonia from atmospheric nitrogen and hydrogen, at high temperature and pressure. The fertilisers produced this way have greatly increased crop yields. The benefit has come at a cost, however: the process consumes large amounts of energy, and fertiliser that runs off fields into rivers can cause harmful growths of algae.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Most organisms cannot make direct use of the nitrogen in the atmosphere.",
+        "Legumes fix nitrogen without the help of any microorganisms.",
+        "The strength of the bond between nitrogen atoms is why fixation needs so much energy.",
+        "Farmers who rotated their crops with legumes understood the role of bacteria.",
+        "Lightning is the main natural source of fixed nitrogen.",
+        "The Haber-Bosch process uses relatively little energy.",
+        "Fertiliser washed off fields can harm rivers."
+      ],
+      "answer": [0, 2, 6],
+      "note": "'Most organisms cannot use the nitrogen' in the air; the triple bond is 'one of the strongest in chemistry, and breaking it requires a great deal of energy'; and run-off 'can cause harmful growths of algae' in rivers. Legumes rely on bacteria living in their nodules, and farmers used rotation 'without understanding it'. Most natural fixation is done by bacteria, while lightning fixes only 'a small amount', and the industrial process 'consumes large amounts of energy'."
+    },
+    {
+      "id": "mm3-02",
+      "title": "Florence Nightingale's diagrams",
+      "passage": "Florence Nightingale is remembered above all as the nurse who reformed conditions in the military hospitals at Scutari during the Crimean War, but her most lasting influence may have come from her work with numbers. After returning to Britain in 1856, she set about analysing the records of soldiers' deaths in the war, working with the statistician William Farr.\nTheir conclusions were striking. Far more soldiers had died from diseases such as cholera, typhus and dysentery than from wounds received in battle, and many of those deaths, Nightingale argued, had been caused by overcrowding, poor drainage and inadequate ventilation, and could have been prevented. To make this case to politicians and officials, who she suspected would not read tables of figures, she presented the data in diagrams. The best known is a form of circular chart, sometimes called a rose or coxcomb diagram, in which each month is represented by a wedge, with areas shaded to show deaths from different causes. It made the scale of preventable death visible at a glance.\nNightingale did not invent statistical graphics, and her diagrams were not always the clearest way to present the figures. Her achievement lay rather in using them as instruments of persuasion. Her campaigning contributed to the establishment of a Royal Commission on the health of the army and to later reforms in military and civilian hospitals. In 1858 she became the first woman elected a Fellow of the Royal Statistical Society.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "More soldiers died of disease in the war than of wounds received in battle.",
+        "Nightingale invented the use of diagrams to present statistics.",
+        "Nightingale believed that many of the deaths in the war could have been prevented.",
+        "She used diagrams because she expected officials to be reluctant to read tables of figures.",
+        "She carried out her statistical analysis while still working at Scutari.",
+        "The writer considers her diagrams the clearest possible way of presenting the data."
+      ],
+      "answer": [0, 2, 3],
+      "note": "'Far more soldiers had died from diseases ... than from wounds', many deaths 'could have been prevented', and she drew diagrams for officials 'who she suspected would not read tables of figures'. She 'did not invent statistical graphics', and the analysis began 'After returning to Britain in 1856'. The writer says her diagrams 'were not always the clearest way to present the figures'."
+    },
+    {
+      "id": "mm3-03",
+      "title": "Otters, urchins and kelp",
+      "passage": "Along the Pacific coast of North America, kelp, a large brown seaweed, forms dense underwater forests that provide food and shelter for many kinds of fish and invertebrates. Sea urchins graze on kelp, and when their numbers are unchecked they can strip an area almost bare, leaving what ecologists call an urchin barren.\nSea otters are among the most important predators of urchins. During the eighteenth and nineteenth centuries, otters were hunted almost to extinction for their dense fur. In the 1970s, the ecologist James Estes and his colleagues compared islands in the Aleutian chain where otters had recovered with islands where they were still absent. Where otters were present, urchins were small and scarce, and kelp was abundant; where they were absent, urchins were plentiful and kelp was sparse. The findings became a classic example of a trophic cascade, in which a predator influences plants indirectly through its effect on the animals that eat them. Species with an influence of this kind, out of proportion to their numbers, are often described as keystone species.\nThe story did not end there. In the 1990s, otter numbers in parts of the Aleutians fell sharply, and Estes and his colleagues suggested that killer whales had begun to prey on them, possibly because the whales' usual prey had declined. As otters disappeared, urchin numbers rose and the kelp forests retreated again. The explanation for the whales' change in diet remains debated, but the episode showed how events far up a food chain can reshape an ecosystem.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Sea otters feed mainly on kelp.",
+        "Otters affect kelp indirectly, through their effect on urchins.",
+        "The reason the killer whales changed their diet has been firmly established.",
+        "A keystone species is one that is the most numerous in its ecosystem.",
+        "Estes's 1970s study compared the same islands before and after otters returned.",
+        "Urchin barrens are created when otters overgraze kelp.",
+        "Kelp was more abundant on islands where otters were present."
+      ],
+      "answer": [1, 6],
+      "note": "'Where otters were present ... kelp was abundant', and a trophic cascade is one in which a predator 'influences plants indirectly through its effect on the animals that eat them'. Otters eat urchins, and urchins, not otters, create barrens. The whales' change of diet 'remains debated', and a keystone species has influence 'out of proportion to their numbers'. The study compared different islands, some with otters and some without, not one set of islands over time."
+    },
+    {
+      "id": "mm3-04",
+      "title": "The Great Stink",
+      "passage": "In the summer of 1858, an unusually hot spell turned the River Thames in London into what one newspaper called a stinking sewer. For decades, the growing city had been discharging human waste into the river, and the introduction of flushing toilets, which fed into sewers that emptied straight into the Thames, had made matters worse. The smell became so overpowering that the curtains of the Houses of Parliament, which stand beside the river, were reportedly soaked in chloride of lime in an attempt to make the building usable.\nAt the time, many doctors and officials believed that diseases such as cholera were spread by miasma, or foul air. Although this theory was mistaken, it gave politicians a powerful motive to act, because they feared that the smell itself was dangerous. Within weeks, Parliament passed legislation enabling the Metropolitan Board of Works to raise money for a new system of sewers.\nThe chief engineer, Joseph Bazalgette, designed a network of intercepting sewers running parallel to the river, which collected waste before it could reach the Thames and carried it further downstream, to the east of the city. Part of the system was built into new embankments along the river, which also provided space for roads and, later, an underground railway. Bazalgette deliberately made many of the sewers larger than the population of the day required, anticipating future growth, and much of his network is still in use. London suffered its last major cholera epidemic in 1866, in an eastern district that had not yet been connected to the new system.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Parliament acted because it accepted that cholera was spread through contaminated water.",
+        "Bazalgette made many sewers larger than was needed at the time.",
+        "The new sewers discharged the city's waste into the Thames in central London.",
+        "The 1866 epidemic broke out in a district already served by the new sewers.",
+        "The embankments were built chiefly in order to carry an underground railway.",
+        "Flushing toilets added to the pollution of the Thames."
+      ],
+      "answer": [1, 5],
+      "note": "Flushing toilets fed sewers that emptied into the Thames and 'had made matters worse', and Bazalgette made sewers 'larger than the population of the day required'. Politicians acted on the mistaken miasma theory, fearing 'the smell itself', not contaminated water. The intercepting sewers carried waste 'further downstream, to the east of the city', the 1866 district 'had not yet been connected', and the railway came 'later' as one of the embankments' extra uses."
+    },
+    {
+      "id": "mm3-05",
+      "title": "Moral hazard",
+      "passage": "Moral hazard is a term economists use for a situation in which a person or organisation takes greater risks because someone else will bear some of the cost if things go wrong. The term originated in the insurance industry. A household that has insured its property against theft may, for example, be a little less careful about locking doors, since the loss would be covered. The insurer cannot observe the household's behaviour directly and so cannot simply charge more for carelessness.\nInsurers have developed several ways of reducing the problem. An excess, the portion of any claim that the policyholder must pay personally, ensures that the insured person still has something to lose. Discounts for installing alarms or for a record without claims reward careful behaviour. None of these measures removes moral hazard entirely, but they narrow the gap between the interests of the two parties.\nThe concept is not limited to insurance. It became prominent in public debate after the financial crisis of 2008, when governments rescued several large banks whose collapse was thought likely to damage the wider economy. Critics argued that such rescues encourage banks to take excessive risks in future, since they can expect to be saved if their bets fail; the phrase 'too big to fail' captured this worry. Defenders of the rescues replied that allowing the banks to collapse would have imposed far greater costs on people who bore no responsibility for the crisis. Economists continue to disagree about how large the effect is. Moral hazard should also be distinguished from adverse selection, which concerns who chooses to buy insurance in the first place rather than how people behave once they have it.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Discounts for installing alarms can remove moral hazard completely.",
+        "Critics of the 2008 bank rescues feared they would encourage risk-taking in future.",
+        "Moral hazard and adverse selection are two names for the same problem.",
+        "Economists agree about how large the effect of bank rescues on risk-taking is.",
+        "An excess gives policyholders a reason to avoid losses.",
+        "The term was first used in debates about the 2008 financial crisis."
+      ],
+      "answer": [1, 4],
+      "note": "An excess 'ensures that the insured person still has something to lose', and critics argued that rescues 'encourage banks to take excessive risks in future'. 'None of these measures removes moral hazard entirely', and adverse selection is a different problem that the passage says moral hazard 'should also be distinguished from'. Economists 'continue to disagree' about the size of the effect, and the term 'originated in the insurance industry', becoming prominent in public debate only after 2008."
+    },
+    {
+      "id": "mm3-06",
+      "title": "Dynamic pricing",
+      "passage": "Dynamic pricing is the practice of changing the price of a product or service frequently in response to demand, time and other conditions. It is not new: airlines have long charged different fares for seats on the same flight depending on when they are booked, and hotels raise their rates during festivals and holidays. What has changed is its scale and speed. Online retailers can now adjust thousands of prices several times a day using software that monitors competitors, stock levels and the behaviour of customers.\nFor businesses, the attraction is that prices can be matched more closely to what customers are willing to pay at a particular moment. Economists also point out a potential benefit to the wider public. When a ride-hailing company raises fares during a period of high demand, the higher price may persuade more drivers to start working, increasing the supply of rides, while discouraging passengers whose journeys are less urgent.\nConsumers, however, often regard such practices as unfair, particularly when prices rise sharply at moments of need, such as during a storm or an emergency. Research on perceptions of fairness suggests that people tend to accept price increases that reflect higher costs to the seller more readily than increases that simply exploit higher demand. Companies have sometimes faced a public backlash, and in several places regulators have introduced rules against excessive price rises during declared emergencies. A further concern is that sophisticated systems might use personal data to charge different individuals different prices for the same item, a practice that is harder to detect.",
+      "question": "According to the passage, which of the following are true of dynamic pricing?",
+      "options": [
+        "It was invented by online retailers.",
+        "Higher fares at busy times may increase the number of drivers working.",
+        "People tend to find price rises caused by higher costs more acceptable than those driven by demand.",
+        "Regulators in several places have banned it entirely.",
+        "Charging individuals different prices using personal data is easy for customers to detect.",
+        "Airlines charge the same fare for every seat on a flight.",
+        "Software now allows retailers to change prices more often than was possible before."
+      ],
+      "answer": [1, 2, 6],
+      "note": "Higher fares 'may persuade more drivers to start working', people 'accept price increases that reflect higher costs to the seller more readily', and what has changed is 'scale and speed', with prices adjusted 'several times a day'. The practice 'is not new', and airlines 'have long charged different fares for seats on the same flight'. Regulators have made rules against excessive rises 'during declared emergencies', not a general ban, and personalised pricing is 'harder to detect'."
+    },
+    {
+      "id": "mm3-07",
+      "title": "First and last in a list",
+      "passage": "If people are asked to listen to a list of unrelated words and then recall as many as they can in any order, a consistent pattern appears. Words at the beginning of the list and words at the end are remembered better than those in the middle. This is known as the serial position effect, and its two parts are called the primacy effect and the recency effect.\nPsychologists have offered different explanations for the two parts. The primacy effect is usually attributed to rehearsal: the first few words can be repeated mentally several times before the list becomes long, which helps to transfer them into long-term memory. Words later in the list must compete for rehearsal with all those that came before. The recency effect, by contrast, is thought to reflect the fact that the last few words are still held in short-term memory at the moment recall begins.\nExperiments have supported this distinction. When participants are asked to count backwards for thirty seconds before recalling the list, the recency effect largely disappears, since the delay pushes the final words out of short-term memory, while the primacy effect remains. When the words are presented more slowly, allowing more time for rehearsal, recall of the earlier items improves but the recency effect is little changed.\nThe effect has implications beyond the laboratory. It has been suggested, for example, that the order in which candidates are interviewed, or in which products are presented, may influence how well they are remembered. Such applications should be treated with caution, however, since real decisions involve many other influences.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Words in the middle of a list are recalled less well than those at either end.",
+        "Words later in a list are rehearsed more often than earlier ones.",
+        "Counting backwards before recall mainly removes the primacy effect.",
+        "Presenting the words more slowly greatly strengthens the recency effect.",
+        "The recency effect is attributed to words still being held in short-term memory.",
+        "The writer argues that the effect determines the outcome of job interviews."
+      ],
+      "answer": [0, 4],
+      "note": "Words at the beginning and end 'are remembered better than those in the middle', and the recency effect reflects words 'still held in short-term memory'. Later words 'must compete for rehearsal' and so are rehearsed less, not more. Counting backwards removes the recency effect 'while the primacy effect remains', and slower presentation leaves the recency effect 'little changed'. The writer says interview applications 'should be treated with caution'."
+    },
+    {
+      "id": "mm3-08",
+      "title": "The monitorial school",
+      "passage": "In the early nineteenth century, two Englishmen, Andrew Bell and Joseph Lancaster, promoted rival versions of a method for educating large numbers of poor children at very low cost. Bell had developed his approach while working in Madras in India, and Lancaster opened a school in Southwark, London, at the end of the 1790s. Their disputes were partly religious: Bell was an Anglican clergyman, while Lancaster was a Quaker whose schools offered non-denominational religious teaching, and each system was backed by a different national society.\nThe method, known as the monitorial system, rested on a simple idea. A single master taught the older and more able pupils, called monitors, who then passed the lesson on to small groups of younger children. In this way one teacher could supervise hundreds of pupils in a single large hall. Lessons were broken into small, repetitive steps, and children often wrote letters in trays of sand to save the cost of paper and slates. Discipline was maintained through an elaborate system of rewards and ranks and, in Lancaster's schools, unusual punishments designed to shame rather than to injure.\nThe system spread rapidly, in Britain and abroad, largely because it was cheap. Its limitations soon became apparent, however. Monitors were children themselves and could transmit little beyond what they had memorised, and the emphasis on drill left little room for understanding. By the middle of the century it was giving way to the pupil-teacher system, under which promising older pupils were apprenticed to teachers and trained over several years. Historians nevertheless credit the monitorial schools with bringing basic literacy to many children who would otherwise have received no schooling at all.",
+      "question": "According to the passage, which of the following are true of the monitorial system?",
+      "options": [
+        "Monitors were older pupils who passed on to younger children what the master had taught them.",
+        "It was valued mainly for the depth of understanding it produced.",
+        "Bell and Lancaster agreed about the religious teaching their schools should give.",
+        "It was replaced by a system that sent monitors to university.",
+        "Lancaster's punishments were intended to cause physical injury.",
+        "Its low cost was a major reason for its spread."
+      ],
+      "answer": [0, 5],
+      "note": "The master taught the monitors, 'who then passed the lesson on to small groups of younger children', and the system spread 'largely because it was cheap'. Its drill 'left little room for understanding', and the founders' disputes 'were partly religious'. The pupil-teacher system apprenticed older pupils to teachers, with no mention of universities, and Lancaster's punishments were 'designed to shame rather than to injure'."
+    },
+    {
+      "id": "mm3-09",
+      "title": "Seurat's dots",
+      "passage": "In the mid-1880s the French painter Georges Seurat began to build up his pictures from countless small dots and dabs of unmixed colour placed side by side on the canvas. The technique, later called pointillism, is most famously displayed in his large painting A Sunday Afternoon on the Island of La Grande Jatte, which he worked on for about two years.\nSeurat was strongly interested in the scientific writing on colour and perception of his day, including the work of the chemist Michel-Eugène Chevreul, who had studied how colours placed next to one another affect each other's appearance. Rather than mixing pigments on the palette, which tends to make colours duller, Seurat hoped that the eye of the viewer would combine the separate dots, producing effects more luminous than mixed paint could achieve. His followers, including Paul Signac, developed the approach into a movement often known as Neo-Impressionism.\nWhether the method works as Seurat intended is open to question. At a normal viewing distance, the dots in many of his paintings do not fully merge; instead, the surface appears to shimmer or vibrate slightly, and some critics have argued that this, rather than true optical mixing, is the source of the paintings' distinctive quality. Contemporaries were also divided about the results. Some admired the order and calm of Seurat's compositions, while others found his figures stiff and doll-like. The method was also extremely slow, and Seurat completed relatively few large paintings before his death in 1891 at the age of thirty-one.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Seurat mixed his colours thoroughly on the palette before applying them.",
+        "Seurat was influenced by scientific writing about colour.",
+        "The dots in Seurat's paintings always blend completely in the viewer's eye.",
+        "Seurat's contemporaries were unanimous in admiring his figures.",
+        "The slowness of the method helps to explain why Seurat finished relatively few large paintings.",
+        "Paul Signac invented pointillism before Seurat took it up.",
+        "Seurat hoped that optical mixing would produce more luminous effects than mixing paint."
+      ],
+      "answer": [1, 4, 6],
+      "note": "Seurat 'was strongly interested in the scientific writing on colour', the method 'was also extremely slow, and Seurat completed relatively few large paintings', and he hoped the eye would combine the dots 'producing effects more luminous than mixed paint could achieve'. He used 'unmixed colour' rather than mixing on the palette. The dots 'do not fully merge' at a normal distance, contemporaries 'were also divided', and Signac was one of Seurat's followers, not the inventor."
+    },
+    {
+      "id": "mm3-10",
+      "title": "Strict liability",
+      "passage": "In most areas of criminal law, a person cannot be convicted simply for having done something prohibited; the prosecution must also show a guilty mind, known by the Latin term mens rea. Depending on the offence, this may mean proving that the defendant acted intentionally, knowingly or recklessly. The requirement reflects a widely held view that criminal punishment should be reserved for those who are morally blameworthy.\nStrict liability offences are an exception. For these, it is enough to prove that the defendant performed the prohibited act, and it is no defence to show that they did not know, or could not reasonably have known, the relevant facts. In England and Wales, many such offences are regulatory in nature, concerning matters such as food safety, pollution and road traffic. A company whose factory discharges polluting matter into a river, for example, may be convicted even if it did not know that the discharge was taking place.\nSupporters of strict liability argue that it encourages the highest standards of care in activities that pose risks to the public, and that requiring proof of a guilty mind in thousands of routine cases would make regulation almost impossible to enforce. Most such offences carry relatively modest penalties, often a fine, and courts have traditionally been reluctant to treat serious offences as strict liability unless Parliament has clearly indicated that intention. Critics respond that it is unjust to label someone a criminal when they have taken every reasonable precaution. Some legal systems have therefore adopted a middle position, allowing defendants to escape conviction if they can prove that they exercised due diligence.",
+      "question": "According to the passage, which of the following are true?",
+      "options": [
+        "Most criminal offences require proof of a guilty mind.",
+        "For a strict liability offence, not knowing the relevant facts is no defence.",
+        "Strict liability offences typically carry the heaviest penalties in criminal law.",
+        "Supporters argue that strict liability makes regulation easier to enforce.",
+        "Every legal system allows defendants a defence of due diligence.",
+        "Courts readily treat serious crimes as offences of strict liability."
+      ],
+      "answer": [0, 1, 3],
+      "note": "'In most areas of criminal law' the prosecution 'must also show a guilty mind'; for strict liability 'it is no defence to show that they did not know'; and supporters say proving a guilty mind in routine cases 'would make regulation almost impossible to enforce'. Such offences 'carry relatively modest penalties', only 'some legal systems' allow due diligence, and courts 'have traditionally been reluctant' to treat serious offences this way."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G091",
+  "title": "Should supermarkets stop selling loss leaders?",
+  "field": "Business and food",
+  "speakers": [
+    { "name": "Trish", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Ola", "voice": "af_bella", "speed": 1.04 },
+    { "name": "Vince", "voice": "am_michael", "speed": 0.98 }
+  ],
+  "turns": [
+    { "speaker": "Ola", "text": "Milk is cheaper than bottled water again. Below what it costs to produce, on most estimates." },
+    { "speaker": "Vince", "text": "Which is deliberate. Milk and bread bring you through the door and the margin is made on everything else in the basket." },
+    { "speaker": "Trish", "text": "The cost lands on the farmer, though, because the supermarket doesn't absorb it. It pushes it back up the chain." },
+    { "speaker": "Ola", "text": "And a dairy farmer can't hold milk back for a better price. It's produced daily whether anyone wants it or not." },
+    { "speaker": "Vince", "text": "So the perishability is what removes their bargaining power entirely.", "gap": -0.12 },
+    { "speaker": "Trish", "text": "France banned selling below cost, and prices on those items rose, which is exactly what it was meant to do." },
+    { "speaker": "Ola", "text": "Did the farmers actually see it?" },
+    { "speaker": "Trish", "text": "Partially. Some of it stayed in the middle of the chain, which is the usual outcome." },
+    { "speaker": "Vince", "text": "And meanwhile cheap milk is not a trivial thing for a household counting pennies." },
+    { "speaker": "Ola", "text": "That's the honest tension. The people helped by the ban and the people hurt by it are both poor." },
+    { "speaker": "Trish", "text": "Which is why the answer is probably a contract rule rather than a price rule. Guarantee the farmer a cost-plus price and let the shop price how it likes." },
+    { "speaker": "Vince", "text": "The dairy code does roughly that and it's been slow to bite." },
+    { "speaker": "Ola", "text": "Slow, but at least it targets the part that's actually broken." }
+  ],
+  "points": [
+    "Milk is sold below production cost as a loss leader to attract customers.",
+    "Supermarkets push the cost up the supply chain rather than absorbing it.",
+    "Dairy farmers lack bargaining power because milk is perishable and produced daily.",
+    "France's ban on below-cost selling raised prices, though only part of the gain reached farmers.",
+    "Ola identifies the tension that cheap milk benefits poor households while low prices harm farmers.",
+    "Trish argues contract rules guaranteeing cost-plus prices are better targeted than price rules, as the dairy code attempts."
+  ]
+}

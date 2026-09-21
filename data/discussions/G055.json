@@ -1,0 +1,33 @@
+{
+  "id": "G055",
+  "title": "High-speed rail and what it is for",
+  "field": "Transport and economics",
+  "speakers": [
+    { "name": "Teo", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Bronwen", "voice": "bf_emma", "speed": 1.02 },
+    { "name": "Iyla", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Bronwen", "text": "The northern leg's been cancelled, again, and the case was always sold on journey time. Twenty minutes saved." },
+    { "speaker": "Teo", "text": "Which was a terrible way to sell it. Nobody rearranges their life for twenty minutes." },
+    { "speaker": "Iyla", "text": "The real case is capacity. The line is full, and you can't run more freight or more local stopping services on a track that's already at its limit." },
+    { "speaker": "Bronwen", "text": "So building a fast line frees the old one for everything else." },
+    { "speaker": "Iyla", "text": "That's the whole point, and it's almost never the headline." },
+    { "speaker": "Teo", "text": "Because capacity doesn't photograph well and a fast train does." },
+    { "speaker": "Bronwen", "text": "The cost is genuinely hard to defend, mind you. Per mile, this is among the most expensive railway ever built anywhere.", "gap": 0.1 },
+    { "speaker": "Iyla", "text": "A lot of that is tunnelling to keep it out of sight of people who objected." },
+    { "speaker": "Teo", "text": "So the objections made it expensive, and the expense became the argument against it." },
+    { "speaker": "Bronwen", "text": "That circularity is real, though it isn't the whole story. The procurement was poor by any standard." },
+    { "speaker": "Iyla", "text": "There's also a serious question about which direction the benefit flows. Fast links to a capital can drain a smaller city rather than feed it." },
+    { "speaker": "Teo", "text": "Depends whether the smaller city has something the capital wants." },
+    { "speaker": "Bronwen", "text": "Which is not a question a railway can answer on its own." }
+  ],
+  "points": [
+    "A high-speed rail leg has been cancelled, having been justified mainly by journey time savings.",
+    "Teo argues time savings were a poor justification, as twenty minutes changes little.",
+    "Iyla identifies capacity as the real case, since a full line cannot carry more freight or local services.",
+    "Costs per mile are among the highest anywhere, partly due to tunnelling demanded by objectors, creating a circular argument.",
+    "Bronwen notes procurement was also poor by any standard.",
+    "Iyla raises the risk that fast links to a capital can drain smaller cities rather than strengthen them, which the railway alone cannot determine."
+  ]
+}

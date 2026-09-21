@@ -1,0 +1,33 @@
+{
+  "id": "G039",
+  "title": "Housing: build more, or something else?",
+  "field": "Cities and policy",
+  "speakers": [
+    { "name": "Marcus", "voice": "am_puck", "speed": 0.99 },
+    { "name": "Devi", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Ruth", "voice": "bf_emma", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Devi", "text": "Rents are up another nine per cent and the council's answer is a target of twelve thousand new homes." },
+    { "speaker": "Ruth", "text": "Targets aren't the problem. We've missed every target for fifteen years and nobody's been sacked for it." },
+    { "speaker": "Marcus", "text": "The supply argument is basically right though. Where cities built, rents rose more slowly. That's about as settled as this stuff gets." },
+    { "speaker": "Devi", "text": "More slowly, not down. Which is a hard sell to somebody paying two thirds of their wage." },
+    { "speaker": "Marcus", "text": "Agreed, and overpromising is how the argument loses. Building doesn't make housing cheap, it stops it getting worse faster." },
+    { "speaker": "Ruth", "text": "What frustrates me is treating it as one market. A luxury tower and a social flat aren't substitutes for the same person." },
+    { "speaker": "Marcus", "text": "There's filtering, though. Someone moves into the new tower and leaves a flat behind.", "gap": 0.1 },
+    { "speaker": "Ruth", "text": "Over about twenty years, on the studies I've seen. That's a generation." },
+    { "speaker": "Devi", "text": "Which is why social housing is the part that actually moves quickly, and it's the part we stopped building." },
+    { "speaker": "Marcus", "text": "I'd accept that. My objection is to people who say build nothing and fix it with rent control." },
+    { "speaker": "Devi", "text": "Rent control protects whoever's already inside and does nothing for anyone arriving." },
+    { "speaker": "Ruth", "text": "Which is most of the people in this conversation, so it polls extremely well." },
+    { "speaker": "Marcus", "text": "That's housing policy in one line, really." }
+  ],
+  "points": [
+    "Rents rose nine per cent and the council responded with a target of twelve thousand homes.",
+    "Ruth notes targets have been missed for fifteen years without consequence.",
+    "Marcus argues supply is broadly right: cities that built saw rents rise more slowly, though not fall.",
+    "Ruth objects that luxury and social housing are not substitutes; Marcus cites filtering, which Devi notes takes about twenty years.",
+    "Devi argues social housing moves fastest and is what stopped being built.",
+    "They agree rent control protects existing tenants while doing nothing for new arrivals, which is why it polls well."
+  ]
+}

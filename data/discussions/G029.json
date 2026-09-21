@@ -1,0 +1,33 @@
+{
+  "id": "G029",
+  "title": "Self-driving cars and the last five per cent",
+  "field": "Technology and transport",
+  "speakers": [
+    { "name": "Theo", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Rina", "voice": "af_nicole", "speed": 1.03 },
+    { "name": "Max", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Rina", "text": "The trial fleet's been running downtown for eight months now with no driver at all. Not even someone in the passenger seat." },
+    { "speaker": "Max", "text": "Downtown is the easy part, though. Slow, mapped to the centimetre, no snow." },
+    { "speaker": "Theo", "text": "That's the whole story of this technology. Ninety-five per cent of driving was solved years ago and the last five per cent has taken a decade." },
+    { "speaker": "Rina", "text": "The safety numbers are good, to be fair. Fewer collisions per mile than human drivers in the same area." },
+    { "speaker": "Max", "text": "Fewer, but different. They fail in ways a person wouldn't, and that's what people can't stomach." },
+    { "speaker": "Theo", "text": "Stopping dead in an intersection because a plastic bag blew past." },
+    { "speaker": "Max", "text": "Exactly. A human makes a bad judgement. The machine makes no judgement, which reads as worse even when it hurts fewer people.", "gap": -0.12 },
+    { "speaker": "Rina", "text": "I think that's the real obstacle and it isn't technical at all." },
+    { "speaker": "Theo", "text": "There's a liability question underneath it too. When it does go wrong, who is actually in the dock?" },
+    { "speaker": "Rina", "text": "The manufacturer, in the frameworks being drafted. Which they've accepted, surprisingly." },
+    { "speaker": "Max", "text": "They've accepted it because they think the numbers will be on their side." },
+    { "speaker": "Theo", "text": "And they might be. The thing nobody mentions is what happens to two million people who drive for a living." },
+    { "speaker": "Rina", "text": "No, that gets left for later, which is how it always goes." }
+  ],
+  "points": [
+    "A driverless fleet has run downtown for eight months, in conditions Max calls the easy case: slow, precisely mapped and snow-free.",
+    "Theo characterises the technology as having solved ninety-five per cent of driving quickly and spent a decade on the rest.",
+    "Safety data shows fewer collisions per mile than human drivers in the same area.",
+    "Max argues the obstacle is that machines fail differently, making no judgement rather than a poor one, which people find harder to accept.",
+    "Liability frameworks place responsibility on manufacturers, which they have accepted, in Max's view because they expect the statistics to favour them.",
+    "Theo raises the unaddressed employment consequences for people who drive for a living."
+  ]
+}

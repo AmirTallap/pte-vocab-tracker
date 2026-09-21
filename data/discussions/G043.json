@@ -1,0 +1,33 @@
+{
+  "id": "G043",
+  "title": "Antibiotic resistance and the missing pipeline",
+  "field": "Medicine",
+  "speakers": [
+    { "name": "Yusra", "voice": "af_bella", "speed": 1.03 },
+    { "name": "Colin", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Drew", "voice": "am_michael", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Colin", "text": "There hasn't been a genuinely new class of antibiotic approved since the eighties. Not a variation. A new class." },
+    { "speaker": "Drew", "text": "That can't be for lack of trying." },
+    { "speaker": "Yusra", "text": "It's partly the science getting harder and mostly the economics being upside down. You develop a drug, and if it works the correct thing to do is not use it." },
+    { "speaker": "Colin", "text": "Keep it in reserve for the cases nothing else touches." },
+    { "speaker": "Yusra", "text": "Which means no sales. Every other drug rewards volume and this one punishes it." },
+    { "speaker": "Drew", "text": "So the companies left the field." },
+    { "speaker": "Yusra", "text": "Almost entirely. Several that did get one approved went bankrupt afterwards, which is not a story that attracts investors." },
+    { "speaker": "Colin", "text": "There are subscription models being tried. A health service pays a flat annual fee for access whether it prescribes any or not.", "gap": 0.1 },
+    { "speaker": "Drew", "text": "Paying for availability rather than by the box." },
+    { "speaker": "Colin", "text": "Exactly, and early results look reasonable, though the sums involved are small so far." },
+    { "speaker": "Yusra", "text": "The other half is agriculture. A large share of all antibiotics used go to livestock, often not to treat anything." },
+    { "speaker": "Drew", "text": "That seems easier to fix than inventing a drug class." },
+    { "speaker": "Colin", "text": "Easier technically. It's a farming cost, so it's a political problem instead." }
+  ],
+  "points": [
+    "No genuinely new class of antibiotic has been approved since the 1980s.",
+    "Yusra explains the economics are inverted: an effective new antibiotic should be held in reserve, so it generates no sales.",
+    "Companies have largely left the field, and several that gained approval went bankrupt afterwards.",
+    "Subscription models pay a flat fee for availability rather than per prescription, with modest early results.",
+    "A large share of antibiotics goes to livestock, often not to treat illness.",
+    "Colin notes agricultural use is technically easier to address but politically harder because it raises farming costs."
+  ]
+}

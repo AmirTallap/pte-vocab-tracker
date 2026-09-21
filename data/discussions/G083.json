@@ -1,0 +1,33 @@
+{
+  "id": "G083",
+  "title": "Standing desks and the sitting panic",
+  "field": "Health and work",
+  "speakers": [
+    { "name": "Rhian", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Tobias", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Nell", "voice": "af_bella", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Nell", "text": "Everyone got a standing desk in the refit and about three people still use them." },
+    { "speaker": "Tobias", "text": "That's the finding everywhere. Enthusiasm lasts about six weeks." },
+    { "speaker": "Rhian", "text": "Sitting is the new smoking was always a ridiculous line, mind you. It compared a behaviour to something that kills half its users." },
+    { "speaker": "Nell", "text": "But the studies did find something, didn't they?" },
+    { "speaker": "Rhian", "text": "They found that prolonged sitting is associated with worse outcomes, and then most of the effect turned out to be explained by total activity." },
+    { "speaker": "Tobias", "text": "Meaning if you exercise enough, the sitting matters much less." },
+    { "speaker": "Rhian", "text": "Substantially less. The people at genuine risk were sedentary all day and also inactive outside work.", "gap": -0.12 },
+    { "speaker": "Nell", "text": "So a standing desk doesn't fix much because standing still isn't activity either." },
+    { "speaker": "Tobias", "text": "It's barely more energy than sitting, and it has its own problems. Varicose veins, back pain if you stand badly." },
+    { "speaker": "Rhian", "text": "What does show up is breaking it up. Getting up every half hour beats either posture held for eight hours." },
+    { "speaker": "Nell", "text": "Which is free and requires no furniture." },
+    { "speaker": "Tobias", "text": "And is therefore much harder to sell to a facilities budget." },
+    { "speaker": "Rhian", "text": "That's most of workplace wellbeing in one observation." }
+  ],
+  "points": [
+    "Standing desks installed in an office are largely unused after a few weeks, which is the general pattern.",
+    "Rhian rejects the comparison between sitting and smoking as disproportionate.",
+    "Research associating prolonged sitting with worse outcomes was largely explained by total physical activity.",
+    "People at genuine risk were sedentary at work and inactive outside it.",
+    "Standing consumes barely more energy than sitting and carries its own problems such as varicose veins and back pain.",
+    "The effective intervention is breaking up sitting every half hour, which is free and therefore harder to justify as a purchase."
+  ]
+}

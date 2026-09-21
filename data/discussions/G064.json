@@ -1,0 +1,33 @@
+{
+  "id": "G064",
+  "title": "Reading for pleasure, and whether it is dying",
+  "field": "Culture and education",
+  "speakers": [
+    { "name": "Aoife", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Zane", "voice": "am_fenrir", "speed": 0.98 },
+    { "name": "Mira", "voice": "af_kore", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Zane", "text": "The survey says a quarter of adults read no books at all last year. Not one." },
+    { "speaker": "Mira", "text": "Books, though. That's a format, not an activity. People read enormous amounts of text all day." },
+    { "speaker": "Aoife", "text": "Not the same kind of reading, mind you. Sustained attention over three hundred pages is a different skill from scrolling." },
+    { "speaker": "Mira", "text": "Agreed, but the surveys measure the object rather than the skill, and then we panic about the wrong number." },
+    { "speaker": "Zane", "text": "Audiobooks have grown enormously too, and half the arguments about whether that counts are just snobbery." },
+    { "speaker": "Aoife", "text": "The comprehension research says it's broadly equivalent for narrative and worse for dense material you'd reread." },
+    { "speaker": "Zane", "text": "Which matches how people actually use it. Novels on a commute, not a textbook.", "gap": 0.1 },
+    { "speaker": "Mira", "text": "The children's figures are the ones I'd worry about. Enjoyment of reading drops sharply around eleven and keeps falling." },
+    { "speaker": "Aoife", "text": "Which is exactly when it becomes something you are assessed on." },
+    { "speaker": "Zane", "text": "That's a strong correlation and a convenient story. Is there anything behind it?" },
+    { "speaker": "Aoife", "text": "Schools that protect free choice reading time do hold enjoyment better. It isn't proof, but it points the same way." },
+    { "speaker": "Mira", "text": "The simplest intervention is letting them read something you personally consider rubbish." },
+    { "speaker": "Zane", "text": "Which every librarian has been saying for about forty years." }
+  ],
+  "points": [
+    "A quarter of adults read no books in a year, though Mira argues books are a format rather than the activity.",
+    "Aoife maintains sustained reading is a distinct skill from scrolling, and surveys measure the object rather than the skill.",
+    "Audiobook comprehension is broadly equivalent for narrative but weaker for dense material, matching how people use them.",
+    "Enjoyment of reading among children falls sharply from about age eleven.",
+    "Aoife links this to reading becoming an assessed activity, noting schools protecting free choice reading retain enjoyment better.",
+    "Mira's proposed intervention is allowing children to read material adults consider worthless."
+  ]
+}

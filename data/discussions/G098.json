@@ -1,0 +1,33 @@
+{
+  "id": "G098",
+  "title": "Does a national curriculum help or hurt?",
+  "field": "Education and policy",
+  "speakers": [
+    { "name": "Liv", "voice": "af_sarah", "speed": 1.02 },
+    { "name": "Padraig", "voice": "bm_fable", "speed": 0.98 },
+    { "name": "Kem", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Kem", "text": "The review's out and it wants a slimmer core with much more school discretion around it." },
+    { "speaker": "Padraig", "text": "Which is what the last review said, and the one before that added everything back." },
+    { "speaker": "Liv", "text": "It does cycle. Somebody notices the curriculum is overloaded, trims it, and then each subject lobbies its way back in." },
+    { "speaker": "Kem", "text": "What's the actual case for having one at all? Finland's is famously loose." },
+    { "speaker": "Liv", "text": "Mobility, mostly. A child who moves school in March shouldn't arrive in a completely different syllabus." },
+    { "speaker": "Padraig", "text": "And it protects the subjects a struggling school would otherwise quietly drop. Music and languages go first, every time.", "gap": -0.13 },
+    { "speaker": "Padraig", "text": "Without a mandate, the schools under most pressure narrow fastest, and those serve the poorest intakes." },
+    { "speaker": "Kem", "text": "So flexibility is enjoyed mainly by schools that can afford it." },
+    { "speaker": "Liv", "text": "That's the pattern, yes. Autonomy tends to reward the already comfortable." },
+    { "speaker": "Kem", "text": "The counter is that a prescribed curriculum plus high-stakes testing produces teaching to the test, which is its own narrowing." },
+    { "speaker": "Padraig", "text": "True, though that's the testing rather than the curriculum. You could keep one and change the other." },
+    { "speaker": "Liv", "text": "Which nobody does, because the test is how anyone knows whether the curriculum happened." },
+    { "speaker": "Kem", "text": "So the accountability eats the content it was meant to protect." }
+  ],
+  "points": [
+    "A review recommends a slimmer core curriculum with greater school discretion, repeating a recurring cycle.",
+    "Liv notes curricula become overloaded as subjects lobby for inclusion after each trimming.",
+    "The case for a national curriculum rests on pupil mobility between schools.",
+    "Padraig argues it protects subjects like music and languages that pressured schools drop first, which disproportionately affects poorer intakes.",
+    "Autonomy therefore benefits schools that can already afford it.",
+    "Kem notes prescribed curricula with high-stakes testing cause teaching to the test, and they conclude accountability erodes the content it was meant to protect."
+  ]
+}

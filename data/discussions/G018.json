@@ -1,0 +1,33 @@
+{
+  "id": "G018",
+  "title": "Cycling lanes and the shops that hate them",
+  "field": "Cities and transport",
+  "speakers": [
+    { "name": "Greg", "voice": "bm_george", "speed": 0.98 },
+    { "name": "Tasha", "voice": "af_heart", "speed": 1.03 },
+    { "name": "Iris", "voice": "bf_isabella", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Tasha", "text": "The high street lane goes in next month and about forty businesses have signed a letter against it." },
+    { "speaker": "Iris", "text": "They always do. And then the surveys afterwards find the traders overestimated how many customers arrive by car by roughly four times." },
+    { "speaker": "Greg", "text": "Four times?" },
+    { "speaker": "Iris", "text": "It's one of the most replicated findings in transport research. Shopkeepers think two thirds drive. It's usually closer to a sixth." },
+    { "speaker": "Tasha", "text": "Because the shopkeeper drives, and so do the ones they talk to." },
+    { "speaker": "Greg", "text": "I'd still be careful with that. It holds for a city centre. A hardware shop selling bags of cement is a different business." },
+    { "speaker": "Iris", "text": "That's true, and the good schemes keep loading bays. The bad ones remove everything and call it pedestrianisation." },
+    { "speaker": "Tasha", "text": "What actually changes the numbers is whether the lane is any good. A painted line beside moving traffic doesn't get anyone new on a bike.", "gap": 0.1 },
+    { "speaker": "Greg", "text": "Which is most of what gets built." },
+    { "speaker": "Iris", "text": "It is, and then the low usage gets quoted as proof that nobody wants to cycle here." },
+    { "speaker": "Greg", "text": "Alright, but there's a reasonable objection about who this is for. It tends to arrive in the neighbourhoods that were already doing well." },
+    { "speaker": "Iris", "text": "That's the criticism I think actually lands. The outer estates get the traffic and the centre gets the lane." },
+    { "speaker": "Tasha", "text": "So build it there first and see if the argument survives." }
+  ],
+  "points": [
+    "Around forty businesses signed a letter opposing a new high street cycle lane.",
+    "Iris cites replicated research that traders overestimate the share of customers arriving by car, often thinking two thirds when it is nearer a sixth.",
+    "Greg qualifies this, noting it holds for city centres but not for businesses selling heavy goods, and good schemes retain loading bays.",
+    "Tasha argues quality decides usage: a painted line beside moving traffic attracts no new cyclists.",
+    "Low usage of poor lanes is then cited as proof of no demand.",
+    "Greg's strongest objection is distributional, since lanes tend to arrive in already prosperous areas while outer estates absorb the traffic."
+  ]
+}

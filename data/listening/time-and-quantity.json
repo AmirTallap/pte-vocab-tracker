@@ -1,0 +1,72 @@
+{
+  "id": "time-and-quantity",
+  "title": "Time and quantity",
+  "summary": "How long, how many, and how much.",
+  "questions": [
+    {
+      "id": "time-01",
+      "clue": "This is a period of ten years.",
+      "answer": "decade",
+      "note": "A hundred years is a century and a thousand is a millennium. Decade is stressed on the first syllable."
+    },
+    {
+      "id": "time-02",
+      "clue": "This is a period of two weeks.",
+      "answer": "fortnight",
+      "note": "A contraction of fourteen nights. It is common in British English and almost unknown in American English."
+    },
+    {
+      "id": "time-03",
+      "clue": "This is the word for a group of twelve.",
+      "answer": "dozen",
+      "note": "Thirteen is a baker's dozen, from the practice of adding one loaf so as not to be caught selling short weight."
+    },
+    {
+      "id": "time-04",
+      "clue": "This is the fixed time by which a piece of work has to be finished.",
+      "answer": "deadline",
+      "note": "It originally meant a line around a prison camp that prisoners were shot for crossing, which explains the grimness of the word."
+    },
+    {
+      "id": "time-05",
+      "clue": "This is the larger part of a group, more than half of it.",
+      "answer": "majority",
+      "note": "The smaller part is the minority. A vast majority is more than half by a wide margin, not a separate quantity."
+    },
+    {
+      "id": "time-06",
+      "clue": "This word describes something that happens once every year.",
+      "answer": "annual",
+      "accept": ["yearly"],
+      "note": "Biannual is famously ambiguous, meaning either twice a year or once every two years, so careful writers avoid it."
+    },
+    {
+      "id": "time-07",
+      "clue": "This is the amount that is left over after everything needed has been used.",
+      "answer": "surplus",
+      "accept": ["excess"],
+      "note": "The opposite is a deficit or a shortfall. Surplus is the neutral word and excess often suggests too much."
+    },
+    {
+      "id": "time-08",
+      "clue": "This word describes two things happening at exactly the same moment.",
+      "answer": "simultaneous",
+      "accept": ["concurrent"],
+      "note": "The adverb is simultaneously. Concurrent is more common for events that merely overlap rather than coincide exactly."
+    },
+    {
+      "id": "time-09",
+      "clue": "This is the word for something that happens again and again at regular intervals.",
+      "answer": "periodic",
+      "accept": ["recurrent", "recurring"],
+      "note": "Periodic carries the sense of a fixed interval. Occasional means now and then with no pattern at all."
+    },
+    {
+      "id": "time-10",
+      "clue": "This word describes something that lasts for only a very short time.",
+      "answer": "temporary",
+      "accept": ["brief", "fleeting", "transient"],
+      "note": "The opposite is permanent. Fleeting and transient are the more literary choices and both answer the clue."
+    }
+  ]
+}

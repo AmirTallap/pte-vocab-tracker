@@ -1,0 +1,33 @@
+{
+  "id": "G005",
+  "title": "Should museums return what they hold?",
+  "field": "History and culture",
+  "speakers": [
+    { "name": "Grace", "voice": "bf_emma", "speed": 1.0 },
+    { "name": "Leo", "voice": "am_puck", "speed": 0.98 },
+    { "name": "Amara", "voice": "af_heart", "speed": 1.03 }
+  ],
+  "turns": [
+    { "speaker": "Leo", "text": "The museum's returning the bronzes. It was on the news this morning. All of them, not a loan, actual transfer of ownership." },
+    { "speaker": "Grace", "text": "Good. It took long enough." },
+    { "speaker": "Amara", "text": "I agree with the decision, but I want to be careful about the argument, because the one people usually make is the weak one." },
+    { "speaker": "Leo", "text": "Which one's the weak one?" },
+    { "speaker": "Amara", "text": "That they were stolen, so they go back. It's true here, but it stops working the moment something was bought, or given, or dug up by a joint team. And most of the collection is that." },
+    { "speaker": "Grace", "text": "So what's the stronger version?" },
+    { "speaker": "Amara", "text": "That an object means more where it came from. A mask in a glass case in a European capital is an artefact. In the place it was made it's still part of something ongoing." },
+    { "speaker": "Leo", "text": "The counter-argument is access, though, isn't it. Six million people a year walk past those bronzes here." },
+    { "speaker": "Grace", "text": "Walk past being the operative phrase.", "gap": -0.15 },
+    { "speaker": "Grace", "text": "Nobody's choosing between seeing them here and seeing them there. They're choosing between seeing them and not thinking about it at all." },
+    { "speaker": "Leo", "text": "That's a bit unfair on the general public." },
+    { "speaker": "Amara", "text": "Maybe, but the access argument does assume that the people with the strongest claim are the ones least able to travel, and then uses that against them." },
+    { "speaker": "Leo", "text": "Okay. Yes. I hadn't heard it put that way." }
+  ],
+  "points": [
+    "A museum is transferring ownership of bronzes rather than lending them.",
+    "Amara supports the decision but rejects the common argument from theft, because it fails for objects that were bought, given or jointly excavated, which is most collections.",
+    "Her stronger argument is contextual meaning: an object in its place of origin remains part of a living culture rather than only an artefact.",
+    "Leo raises access, noting six million visitors a year see the objects where they currently are.",
+    "Grace replies that the real comparison is not seeing them elsewhere but not engaging at all.",
+    "Amara points out the access argument assumes those with the strongest claim are least able to travel, and then uses that fact against them."
+  ]
+}

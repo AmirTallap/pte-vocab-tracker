@@ -1,0 +1,33 @@
+{
+  "id": "G080",
+  "title": "Open source and who actually maintains it",
+  "field": "Technology",
+  "speakers": [
+    { "name": "Nils", "voice": "bm_george", "speed": 0.97 },
+    { "name": "Priya", "voice": "af_heart", "speed": 1.04 },
+    { "name": "Devon", "voice": "am_fenrir", "speed": 1.0 }
+  ],
+  "turns": [
+    { "speaker": "Devon", "text": "That library had a security hole for nine years. It's in something like a third of all server software." },
+    { "speaker": "Priya", "text": "And it's maintained by one person in their evenings, unpaid, who's been asking for help since about twenty sixteen." },
+    { "speaker": "Nils", "text": "That's the pattern rather than the exception, which is the part people find hard to believe." },
+    { "speaker": "Devon", "text": "How does that happen? Enormous companies depend on it." },
+    { "speaker": "Nils", "text": "Because it's free, so it never appears on a budget line. Nobody has to justify a dependency that costs nothing." },
+    { "speaker": "Priya", "text": "And the maintainer gets the obligations of a supplier with none of the revenue. Bug reports, demands, abuse when something breaks.", "gap": -0.13 },
+    { "speaker": "Priya", "text": "The burnout rate is entirely predictable." },
+    { "speaker": "Devon", "text": "Some funds exist now, don't they." },
+    { "speaker": "Nils", "text": "Several, and they've helped. The amounts are small against what the dependency is worth to the companies using it." },
+    { "speaker": "Priya", "text": "The awkward truth is that the licences say no warranty and everyone relies on it anyway." },
+    { "speaker": "Devon", "text": "Which is legally clear and practically absurd." },
+    { "speaker": "Nils", "text": "The European rules do start putting liability on whoever ships the product rather than on the volunteer, which is the right direction." },
+    { "speaker": "Priya", "text": "Assuming it doesn't make people afraid to publish anything at all." }
+  ],
+  "points": [
+    "A widely used library had a security flaw for nine years and is maintained by one unpaid volunteer.",
+    "Nils explains this is typical, because free software never appears on a budget and requires no justification.",
+    "Maintainers carry supplier obligations without revenue, leading to predictable burnout.",
+    "Funding initiatives exist but are small relative to the value companies derive.",
+    "Licences disclaim warranty while everyone relies on the software regardless.",
+    "European rules placing liability on those shipping products rather than volunteers are welcomed, with a caution that they may deter publishing."
+  ]
+}

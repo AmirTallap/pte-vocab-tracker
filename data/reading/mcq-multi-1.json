@@ -1,0 +1,173 @@
+{
+  "id": "mcq-multi-1",
+  "task": "mcq-multi",
+  "title": "Set 1",
+  "summary": "Ten passages with more than one correct answer: choose every option the passage supports.",
+  "items": [
+    {
+      "id": "mm1-01",
+      "title": "The Dust Bowl",
+      "passage": "During the 1930s, a series of severe droughts struck the southern Great Plains of the United States, a region that had been rapidly converted from grassland to wheat farming in the preceding decades. The native prairie grasses had deep root systems that held the soil in place and retained moisture, even in dry years. Once they had been ploughed under, however, the exposed topsoil had little protection.\nWhen the rains failed, crops withered and the dry soil was lifted by strong winds into enormous dust storms, some of which carried dust as far as the Atlantic coast. Farming families already struggling with the low crop prices of the Great Depression lost their harvests, and many abandoned their land and migrated west, particularly to California.\nThe disaster prompted a significant change in government policy. In 1935 Congress established the Soil Conservation Service, which encouraged farmers to adopt practices such as contour ploughing, crop rotation and the planting of trees as windbreaks. Historians still debate how far the catastrophe was natural and how far it was the result of human decisions, but most agree that drought alone would not have produced erosion on such a scale.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Removing the native grasses made the soil more vulnerable to wind erosion.",
+        "The droughts of the 1930s were caused by the conversion of grassland to farmland.",
+        "Economic hardship made the disaster worse for many farming families.",
+        "Historians agree that the Dust Bowl was an entirely natural event.",
+        "The Soil Conservation Service required all farmers to plant trees.",
+        "Most farming families in the region moved to California."
+      ],
+      "answer": [0, 2],
+      "note": "Once the grasses 'had been ploughed under ... the exposed topsoil had little protection', and families were 'already struggling with the low crop prices of the Great Depression' when they lost their harvests. The droughts option reverses the relationship: the passage blames farming for the scale of the erosion, not for the lack of rain. The service 'encouraged' rather than required, and 'many' left, not most."
+    },
+    {
+      "id": "mm1-02",
+      "title": "The Hanseatic League",
+      "passage": "The Hanseatic League was a commercial and defensive association of merchant guilds and market towns that dominated trade in northern Europe from roughly the thirteenth to the fifteenth century. At its height it linked dozens of cities, with Lübeck as its leading member, and maintained major trading posts, known as Kontore, in London, Bruges, Bergen and Novgorod.\nThe League had no permanent army, no single ruler and, for much of its history, no formal membership list. Its power rested instead on the shared interests of its merchants, who secured trading privileges from foreign rulers and could enforce their collective will through economic pressure. When a city or kingdom acted against Hanseatic interests, member towns might impose a trade embargo, a weapon that was often more effective than military force. On occasion, however, the League did go to war, most notably against Denmark in the fourteenth century, a conflict that ended in 1370 with a treaty confirming its privileges.\nIts decline from the fifteenth century onwards had several causes. Territorial states grew stronger and less willing to tolerate foreign merchants' privileges, Dutch and English traders became formidable competitors, and the shift of major trade routes towards the Atlantic reduced the importance of the Baltic.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The League was governed by a king based in Lübeck.",
+        "Economic pressure was one of the League's principal means of influence.",
+        "The League avoided armed conflict throughout its history.",
+        "The growing strength of territorial states contributed to the League's decline.",
+        "The League maintained trading posts in cities abroad.",
+        "The League was founded in order to fight Denmark.",
+        "The move of trade routes towards the Atlantic increased the importance of the Baltic."
+      ],
+      "answer": [1, 3, 4],
+      "note": "The merchants 'could enforce their collective will through economic pressure', 'Territorial states grew stronger' is the first cause of decline listed, and the Kontore were in London, Bruges, Bergen and Novgorod. Lübeck was the leading member, but the League had 'no single ruler'. It 'did go to war' against Denmark, which rules out the third option without making war the reason it was founded, and the Atlantic shift 'reduced' the Baltic's importance."
+    },
+    {
+      "id": "mm1-03",
+      "title": "The gig economy",
+      "passage": "The term 'gig economy' refers to labour markets in which work is organised as a series of short, separate tasks rather than as ongoing employment. Digital platforms for ride-hailing, food delivery and freelance services have made this arrangement far more visible over the past fifteen years, matching workers with customers through an app and taking a commission on each transaction.\nSupporters emphasise flexibility. Workers can, in principle, choose when and how much to work, which suits students, carers and people seeking to supplement another income. For platforms, treating workers as independent contractors rather than employees keeps costs low, since contractors are generally not entitled to benefits such as holiday pay or a minimum wage.\nCritics argue that this flexibility is often more limited than it appears. Platforms may use ratings and algorithms that effectively penalise workers who decline jobs, and income can be unpredictable. Whether gig workers should be classified as employees has consequently become the subject of legal disputes in several countries. In 2021, for example, the UK Supreme Court ruled that a group of Uber drivers were 'workers', a category entitled to certain protections, rather than self-employed contractors.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Gig work did not exist before digital platforms were developed.",
+        "Classifying workers as contractors reduces costs for platforms.",
+        "All gig workers in the UK are now legally classified as employees.",
+        "The choice that gig workers actually have may be restricted by the way platforms operate.",
+        "Most gig workers are students or carers.",
+        "Platforms earn money by charging workers a monthly subscription."
+      ],
+      "answer": [1, 3],
+      "note": "Treating workers as contractors 'keeps costs low', and ratings and algorithms 'effectively penalise workers who decline jobs', which limits their choice. Platforms made the arrangement 'far more visible', implying it existed before them. The 2021 ruling concerned 'a group of Uber drivers' and placed them in the 'workers' category, not all gig workers as employees, and platforms take 'a commission on each transaction'."
+    },
+    {
+      "id": "mm1-04",
+      "title": "Nuclear fusion",
+      "passage": "Nuclear fusion, the process that powers the Sun, occurs when light atomic nuclei combine to form a heavier nucleus, releasing a large amount of energy. On Earth, researchers have concentrated on fusing two forms of hydrogen, deuterium and tritium, because this reaction occurs at lower temperatures than the alternatives, although those temperatures still exceed 100 million degrees Celsius.\nThe attraction of fusion as an energy source is considerable. Deuterium can be extracted from seawater, the reaction produces no carbon dioxide, and a fusion reactor cannot undergo a runaway chain reaction of the kind that is possible in a fission plant, because the process stops almost immediately if conditions are disturbed.\nThe difficulty lies in containing the fuel. At such temperatures matter exists as plasma, which would instantly cool on contact with any material wall. The most developed approach, the tokamak, uses powerful magnetic fields to hold the plasma in a doughnut-shaped chamber. In 2022 researchers at the National Ignition Facility in the United States, using a different method based on lasers, reported for the first time a fusion reaction that released more energy than the lasers delivered to the fuel. However, the facility as a whole consumed far more energy than was produced, and a commercial fusion power station remains a distant prospect.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Fusion reactions on Earth can take place without extremely high temperatures.",
+        "A disturbance in a fusion reactor tends to halt the reaction rather than intensify it.",
+        "Plasma cannot simply be held against the walls of an ordinary container.",
+        "The 2022 experiment produced more energy than the whole facility used.",
+        "Tokamaks rely on magnetic fields to confine the fuel.",
+        "Deuterium and tritium are both extracted from seawater.",
+        "Fusion reactors produce more carbon dioxide than fission plants."
+      ],
+      "answer": [1, 2, 4],
+      "note": "The process 'stops almost immediately if conditions are disturbed', plasma 'would instantly cool on contact with any material wall', and the tokamak 'uses powerful magnetic fields to hold the plasma'. The 2022 option is the tempting one, but the passage says the facility 'consumed far more energy than was produced'. Only deuterium is said to come from seawater, and fusion 'produces no carbon dioxide'."
+    },
+    {
+      "id": "mm1-05",
+      "title": "Deciphering Linear B",
+      "passage": "Linear B is a script used in Bronze Age Greece, preserved chiefly on clay tablets found at palace sites such as Knossos on Crete and Pylos on the Greek mainland. The tablets survived largely by accident: they were ordinary records written on unbaked clay, and many were hardened when the palaces that housed them were destroyed by fire.\nFor half a century after the first tablets were excavated in 1900, the script resisted decipherment. Many scholars assumed that it recorded a language unrelated to Greek. The American classicist Alice Kober made crucial progress in the 1940s by analysing how certain words changed their endings, showing that the language was inflected, though she died in 1950 before the script was deciphered.\nBuilding partly on her work, the architect Michael Ventris announced in 1952 that Linear B recorded an early form of Greek, a conclusion that surprised him as much as anyone. He was soon joined by the philologist John Chadwick, and the decipherment was confirmed when a newly read tablet from Pylos was found to spell the word for tripods beside pictures of tripods.\nThe content of the tablets proved disappointing to some: they contain no literature or history, only inventories, lists of personnel and records of goods. Yet these administrative texts reveal a great deal about how the Mycenaean palaces organised their economies.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Most scholars had expected Linear B to record Greek.",
+        "Destruction by fire helped to preserve many of the tablets.",
+        "Kober's analysis of word endings contributed to the eventual decipherment.",
+        "Ventris deciphered the script without drawing on anyone else's work.",
+        "The tablets contain valuable literary texts from the Bronze Age.",
+        "The tablets are a useful source for understanding the economies of the Mycenaean palaces.",
+        "Kober and Ventris worked together at Knossos."
+      ],
+      "answer": [1, 2, 5],
+      "note": "Many tablets 'were hardened when the palaces ... were destroyed by fire', Ventris was 'Building partly on her work', and the texts 'reveal a great deal about how the Mycenaean palaces organised their economies'. Scholars assumed a language 'unrelated to Greek', and Ventris himself was surprised. The tablets contain 'no literature', and nothing says Kober and Ventris worked together; she died before his announcement."
+    },
+    {
+      "id": "mm1-06",
+      "title": "Supermarket layout",
+      "passage": "The layout of a typical supermarket is rarely accidental. Staple goods that most customers need, such as milk and bread, are often placed towards the back of the store, so that shoppers must walk past many other products to reach them. The longer the route, retailers reason, the more opportunities there are for unplanned purchases.\nThe position of products on the shelves is also carefully considered. Items at eye level tend to attract the most attention, and manufacturers may pay retailers for these prominent positions. Products aimed at children are sometimes placed lower down, within their line of sight. The ends of aisles, which shoppers pass repeatedly, are commonly used for promotions, although a product displayed there is not necessarily cheaper than it would be elsewhere in the store.\nNear the checkouts, where customers often have to wait, stores have traditionally stocked small, inexpensive items such as sweets and snacks that can be picked up on impulse. This practice has attracted criticism from public health campaigners, and in England regulations introduced in 2022 now restrict the placement of many foods high in fat, sugar or salt at checkouts and store entrances in larger shops.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Placing essential items at the back of the store is intended to increase unplanned spending.",
+        "Products at the ends of aisles are always sold at a discount.",
+        "Manufacturers are sometimes willing to pay for their products to be displayed at eye level.",
+        "Sweets have been banned from the checkouts of all shops in England.",
+        "Time spent waiting at the checkout gives stores an opportunity to encourage impulse purchases.",
+        "Products aimed at children are usually placed on the highest shelves.",
+        "Store layouts are designed mainly to reduce the time customers spend shopping."
+      ],
+      "answer": [0, 2, 4],
+      "note": "A longer route to the staples means 'more opportunities ... for unplanned purchases', manufacturers 'may pay retailers for these prominent positions', and the checkout, 'where customers often have to wait', is stocked with items 'picked up on impulse'. End-of-aisle products are 'not necessarily cheaper', and the English rules apply to 'larger shops' and 'many foods high in fat, sugar or salt', not every sweet in every shop. Children's products go 'lower down'."
+    },
+    {
+      "id": "mm1-07",
+      "title": "Mangrove forests",
+      "passage": "Mangroves are trees and shrubs that grow in the intertidal zones of tropical and subtropical coastlines, where their roots are regularly submerged by salt water. Few plants can tolerate such conditions. Some mangrove species exclude much of the salt at their roots, while others excrete it through glands in their leaves, and many have specialised roots that project above the mud, allowing them to take in air in waterlogged, oxygen-poor soil.\nMangrove forests provide a range of benefits. Their dense tangles of roots slow the movement of water, trapping sediment and reducing coastal erosion, and they can lessen the force of waves during storms. The sheltered waters among the roots also serve as nurseries for many species of fish and crustaceans, including some that are later caught commercially offshore.\nMangroves are also efficient stores of carbon, much of which accumulates in the waterlogged soil beneath them, where low oxygen levels slow decomposition. When mangroves are cleared, for example to make way for aquaculture ponds or coastal development, much of this stored carbon can be released.\nDespite these benefits, large areas of mangrove forest have been lost in recent decades, although restoration projects in a number of countries have sought to replant them.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Mangroves are the only plants that can grow in salt water.",
+        "Low oxygen levels in the soil help mangrove areas to retain carbon.",
+        "All mangrove species excrete salt through their leaves.",
+        "Clearing mangroves may affect fisheries beyond the forest itself.",
+        "Mangrove roots increase the speed at which water moves along the coast.",
+        "Restoration projects have now reversed the worldwide loss of mangrove forests."
+      ],
+      "answer": [1, 3],
+      "note": "Carbon accumulates in the soil 'where low oxygen levels slow decomposition', and the roots shelter young fish and crustaceans 'including some that are later caught commercially offshore', so losing them could affect those fisheries. 'Few plants' is not 'only', and 'Some' species exclude salt at the roots while 'others' excrete it. The roots 'slow' water, and restoration projects have only 'sought to' replant."
+    },
+    {
+      "id": "mm1-08",
+      "title": "The Marshall Plan",
+      "passage": "The European Recovery Program, better known as the Marshall Plan after the US Secretary of State George C. Marshall, who proposed it in a speech at Harvard University in 1947, provided substantial American aid to Western European countries in the years after the Second World War. Over roughly four years, the United States transferred more than 13 billion dollars in grants and loans, much of it in the form of food, fuel, raw materials and machinery.\nThe plan's motives were both humanitarian and strategic. Much of Europe faced severe shortages, and American policymakers feared that economic hardship would strengthen support for communist parties. A prosperous Western Europe would also be a valuable market for American exports. The Soviet Union was invited to take part but refused, and it prevented the countries of Eastern Europe under its influence from accepting aid.\nThe plan also required recipient countries to cooperate with one another in planning how the aid would be used, an arrangement that led to the creation of the Organisation for European Economic Co-operation. Historians continue to debate how much the plan itself contributed to Europe's rapid recovery, since several economies were already growing before the aid arrived, but few doubt its political significance in the early years of the Cold War.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Eastern European countries declined the aid because they did not need it.",
+        "The plan was intended partly to benefit the American economy.",
+        "Historians agree that the plan was the sole cause of Europe's recovery.",
+        "Receiving aid obliged countries to coordinate with one another.",
+        "The aid was provided only as loans that had to be repaid.",
+        "The plan was proposed by the US President in a speech at Harvard."
+      ],
+      "answer": [1, 3],
+      "note": "A prosperous Western Europe 'would also be a valuable market for American exports', and the plan 'required recipient countries to cooperate with one another'. Eastern Europe was 'prevented' by the Soviet Union from accepting, not uninterested, and historians 'continue to debate' the plan's contribution. The aid came as 'grants and loans', and it was proposed by Marshall as Secretary of State."
+    },
+    {
+      "id": "mm1-09",
+      "title": "Open-source software",
+      "passage": "Open-source software is software whose source code, the human-readable instructions from which a program is built, is made publicly available under a licence that allows anyone to use, study, modify and redistribute it. This distinguishes it from proprietary software, whose code is usually kept secret by the company that owns it.\nMuch of the digital infrastructure in daily use relies on open-source components. The Linux operating system, first released by Linus Torvalds in 1991, runs a large share of the world's web servers and forms the basis of Android, while open-source libraries are embedded in countless commercial products.\nOpen source does not necessarily mean non-commercial. Many companies pay employees to contribute to open-source projects, and some build profitable businesses by selling support, hosting or additional features around freely available code. Nor does it mean that contributors are unpaid: a significant share of contributions to major projects now comes from people doing so as part of their jobs.\nThe model has weaknesses, however. Some widely used components are maintained by a handful of volunteers with limited time and funding. The discovery in 2014 of the Heartbleed flaw in OpenSSL, an encryption library used by a large proportion of secure websites, drew attention to how much of the internet depended on software maintained by very few people.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "Open-source licences allow users to change the code and share their modified versions.",
+        "Open-source software cannot be used in commercial products.",
+        "Some companies make money from open-source software by selling services around it.",
+        "All contributors to open-source projects are unpaid volunteers.",
+        "Heartbleed showed that proprietary software is more secure than open-source software.",
+        "Important software can depend on a very small number of maintainers.",
+        "Linux was originally developed as part of the Android project."
+      ],
+      "answer": [0, 2, 5],
+      "note": "The licence 'allows anyone to use, study, modify and redistribute' the code, companies sell 'support, hosting or additional features around freely available code', and Heartbleed exposed dependence on 'software maintained by very few people'. Open-source libraries 'are embedded in countless commercial products', many contributors are paid, the passage makes no comparison with proprietary security, and Linux (1991) is the basis of Android, not the other way round."
+    },
+    {
+      "id": "mm1-10",
+      "title": "Cane toads in Australia",
+      "passage": "In 1935 around a hundred cane toads were brought from Hawaii to Queensland, in north-eastern Australia, in the hope that they would control beetles that were damaging sugar cane crops. The toads were bred and released in large numbers, but there is little evidence that they had any significant effect on the beetles, which live high on the cane stalks, out of reach of a ground-dwelling toad.\nInstead, the toads flourished. With few natural predators in Australia, they have spread across much of the tropical north of the country, and the leading edge of the invasion has moved westwards over the decades. Researchers have found that toads at the front of this expansion tend to have longer legs than those in long-established populations, which may help them to travel further and faster.\nThe cane toad is toxic at all stages of its life cycle, and native predators such as quolls, goannas and some snakes, which have not evolved alongside it, can die after attempting to eat one. Conservation efforts have included 'taste aversion' training, in which predators are given small, non-lethal toad baits that make them ill, teaching them to avoid the animals in future.",
+      "question": "Which of the following are stated or implied in the passage?",
+      "options": [
+        "The cane toads successfully reduced the number of beetles in the sugar cane fields.",
+        "Where the beetles live helps to explain why the toads failed to control them.",
+        "Cane toads are poisonous only as adults.",
+        "Native Australian predators are vulnerable partly because they did not evolve alongside the toad.",
+        "Having longer legs causes toads to remain in long-established populations.",
+        "Taste aversion training involves killing toads before predators can reach them."
+      ],
+      "answer": [1, 3],
+      "note": "The beetles 'live high on the cane stalks, out of reach of a ground-dwelling toad', and the predators at risk are those 'which have not evolved alongside it'. There is 'little evidence' the toads affected the beetles, and they are toxic 'at all stages of its life cycle'. The legs option reverses the finding: longer legs are found at the front of the expansion, and the training uses 'non-lethal toad baits'."
+    }
+  ]
+}

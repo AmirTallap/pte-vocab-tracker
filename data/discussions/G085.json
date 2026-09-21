@@ -1,0 +1,33 @@
+{
+  "id": "G085",
+  "title": "Night buses and who the city runs for",
+  "field": "Transport and society",
+  "speakers": [
+    { "name": "Ines", "voice": "bf_isabella", "speed": 1.01 },
+    { "name": "Kofi", "voice": "am_michael", "speed": 0.98 },
+    { "name": "Dara", "voice": "af_heart", "speed": 1.04 }
+  ],
+  "turns": [
+    { "speaker": "Dara", "text": "They're cutting the last two night routes. The consultation says low ridership after one in the morning." },
+    { "speaker": "Kofi", "text": "Low compared to rush hour, which is not the comparison that matters for a service like that." },
+    { "speaker": "Ines", "text": "Everything after midnight will look bad against a Tuesday commute. You'd cut every rural route on that logic too." },
+    { "speaker": "Dara", "text": "Who actually uses them? Because the assumption in the room is drinkers." },
+    { "speaker": "Kofi", "text": "Cleaners, mostly. Hospital shifts, hotel staff, security, bakers. The people whose work makes the morning possible." },
+    { "speaker": "Ines", "text": "And overwhelmingly people who can't afford a taxi, which is the alternative being implicitly offered.", "gap": -0.12 },
+    { "speaker": "Ines", "text": "Cutting the bus isn't removing a journey. It's moving its cost onto the lowest-paid shift workers in the city." },
+    { "speaker": "Dara", "text": "There's a safety dimension too. Walking home at three is not the same risk for everyone." },
+    { "speaker": "Kofi", "text": "Which doesn't appear in a transport appraisal anywhere." },
+    { "speaker": "Dara", "text": "What would you actually do? The buses genuinely do run near empty some nights." },
+    { "speaker": "Kofi", "text": "Smaller vehicles, fewer routes, but keep something. A reduced service is a different thing from none." },
+    { "speaker": "Ines", "text": "And on-demand minibuses have worked in a few places, at a cost somewhere between a bus and a taxi." },
+    { "speaker": "Dara", "text": "That's at least an answer rather than a saving pretending to be one." }
+  ],
+  "points": [
+    "Night bus routes face closure on grounds of low ridership after 1am.",
+    "Kofi and Ines argue comparison with rush hour is inappropriate and would justify cutting rural services too.",
+    "Users are predominantly shift workers such as cleaners, hospital and hotel staff, rather than drinkers.",
+    "Ines argues cutting the service transfers costs to the lowest-paid workers, since taxis are the implicit alternative.",
+    "Walking home at night carries unequal safety risks that transport appraisals do not capture.",
+    "They propose smaller vehicles, reduced routes or on-demand minibuses rather than complete withdrawal."
+  ]
+}
