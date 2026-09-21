@@ -747,6 +747,12 @@ Added 21 Sep 2026, as a sixth Speaking task at `/speaking/pronunciation`.
 - **Words, never audio.** `progress.pronounce.words[key] = { word, heard[], misses,
   tries, clear, first, last }`, through `scheduleProgressWrite()`. The recording
   itself is still held for one request and written nowhere.
+- **Script and transcript are compared as SOUNDS, apostrophes stripped** (`sounds()`
+  in `src/speech.js`, used by `readDiff()`). `toddler's`/`toddlers`/`toddlers'` and
+  `it's`/`its` are one sound, and which spelling Whisper writes is a coin toss; until
+  21 Sep 2026 each toss was a "misread", filed here as a word to practise and
+  reported to the learner as a pronunciation fault they did not make. Three such
+  entries were removed from `progress.json` by hand that day.
 - **Precision over recall**: nothing is filed from a take under 50% accuracy (the
   alignment is noise by then), and no word under three letters.
 - **The task walks the list one word at a time**: Hear it (the voicebar's voice),

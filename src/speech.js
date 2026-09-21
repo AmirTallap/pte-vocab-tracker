@@ -28,6 +28,16 @@ export function norm(w) {
 
 const tokens = (words) => words.map((w) => norm(w.text)).filter(Boolean);
 
+/**
+ * A word as it SOUNDS, for comparing the script against the transcript: the
+ * apostrophes gone. `toddler's`, `toddlers` and `toddlers'` are one sound,
+ * and so are `it's`/`its` - the transcriber cannot hear an apostrophe, so
+ * which spelling it writes is a coin toss, and marking the reader down for
+ * the toss was reporting a mispronunciation that never happened. It also
+ * swallows a closing quote left on a word, `'once'` in a script.
+ */
+export const sounds = (w) => norm(w).replace(/'/g, '');
+
 /* ------------------------------------------------------------ the pauses */
 
 /*
@@ -683,6 +693,7 @@ export function readDiff(script, words) {
   const want = String(script || '').split(/\s+/).map(norm).filter(Boolean);
   const got = tokens(words);
   if (!want.length) return null;
+  const same = (a, b) => sounds(a) === sounds(b);
 
   const m = want.length, n = got.length;
   const d = Array.from({ length: m + 1 }, () => new Int32Array(n + 1));
@@ -690,7 +701,7 @@ export function readDiff(script, words) {
   for (let j = 0; j <= n; j++) d[0][j] = j;
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {
-      d[i][j] = want[i - 1] === got[j - 1]
+      d[i][j] = same(want[i - 1], got[j - 1])
         ? d[i - 1][j - 1]
         : 1 + Math.min(d[i - 1][j - 1], d[i - 1][j], d[i][j - 1]);
     }
@@ -699,7 +710,7 @@ export function readDiff(script, words) {
   const ops = [];
   let i = m, j = n;
   while (i > 0 || j > 0) {
-    if (i > 0 && j > 0 && want[i - 1] === got[j - 1]) {
+    if (i > 0 && j > 0 && same(want[i - 1], got[j - 1])) {
       ops.push({ op: 'ok', want: want[i - 1], got: got[j - 1] }); i--; j--;
     } else if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + 1) {
       ops.push({ op: 'misread', want: want[i - 1], got: got[j - 1] }); i--; j--;
