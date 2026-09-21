@@ -29,14 +29,53 @@ export function norm(w) {
 const tokens = (words) => words.map((w) => norm(w.text)).filter(Boolean);
 
 /**
- * A word as it SOUNDS, for comparing the script against the transcript: the
- * apostrophes gone. `toddler's`, `toddlers` and `toddlers'` are one sound,
- * and so are `it's`/`its` - the transcriber cannot hear an apostrophe, so
- * which spelling it writes is a coin toss, and marking the reader down for
- * the toss was reporting a mispronunciation that never happened. It also
- * swallows a closing quote left on a word, `'once'` in a script.
+ * A word as it SOUNDS, for comparing the script against the transcript.
+ *
+ * Whatever is written differently but said the same is folded together,
+ * because the transcriber cannot hear the difference and which way it
+ * writes it is not evidence about the reader. Marking the reader down for it
+ * reported mispronunciations that never happened, and filed them on the
+ * Pronunciation list to be practised for ever:
+ *
+ * - apostrophes: `toddler's`, `toddlers`, `toddlers'`; `it's`/`its`; and a
+ *   closing quote left on a word, `'once'` in a script;
+ * - hyphens: `large-scale` is `largescale` here, and readDiff() lets it
+ *   match the two words `large scale`;
+ * - British spelling. Whisper writes American almost regardless of what it
+ *   heard (see dialect()), and the scripts are British, so `neighbourhoods`
+ *   against `neighborhoods` was a "misread" every single time.
+ *
+ * Both sides go through the same fold, so a rule can only ever do harm by
+ * making two genuinely different spoken words collide - and each rule below
+ * needs a few letters of stem before it fires for exactly that reason
+ * (`our` alone is not `or`, and `filled` is not `filed`).
  */
-export const sounds = (w) => norm(w).replace(/'/g, '');
+const UK_US = {
+  grey: 'gray', greys: 'grays', programme: 'program', programmes: 'programs',
+  cheque: 'check', cheques: 'checks', tyre: 'tire', tyres: 'tires',
+  kerb: 'curb', aluminium: 'aluminum', plough: 'plow', mould: 'mold',
+  defence: 'defense', licence: 'license', offence: 'offense', pretence: 'pretense',
+  practise: 'practice', practised: 'practiced', practises: 'practices', practising: 'practicing',
+  storey: 'story', storeys: 'stories', jewellery: 'jewelry', draught: 'draft',
+  sceptic: 'skeptic', sceptical: 'skeptical', scepticism: 'skepticism',
+  enrol: 'enroll', enrols: 'enrolls', enrolment: 'enrollment',
+  fulfil: 'fulfill', fulfils: 'fulfills', fulfilment: 'fulfillment',
+  skilful: 'skillful', wilful: 'willful', instalment: 'installment',
+  ageing: 'aging', judgement: 'judgment', acknowledgement: 'acknowledgment',
+  manoeuvre: 'maneuver', manoeuvres: 'maneuvers', foetus: 'fetus', oestrogen: 'estrogen',
+};
+export function sounds(w) {
+  let s = norm(w).replace(/['‐-—-]/g, '');
+  s = UK_US[s] || s;
+  return s
+    .replace(/([a-z]{2})our/g, '$1or')                                 // neighbour, colour, odour
+    .replace(/([a-z]{3})is(e|ed|es|ing|ation|ations|er|ers)$/, '$1iz$2') // organise, organisation
+    .replace(/ys(e|ed|es|ing)$/, 'yz$1')                               // analyse, paralysed
+    .replace(/([bcdfgkmnptv])re(s|d)?$/, (m, c, t) => c + 'er' + (t === 'd' ? 'ed' : t || '')) // centre, centred, metres
+    .replace(/([a-z]{3})ll(ed|ing|er|ers|or|ors)$/, '$1l$2')           // travelled, counsellor
+    .replace(/ogue(s)?$/, 'og$1')                                      // catalogue, dialogue
+    .replace(/([^aeiou])ae([^aeiou]|$)/g, '$1e$2');                    // anaesthetic, paediatric
+}
 
 /* ------------------------------------------------------------ the pauses */
 
@@ -694,6 +733,14 @@ export function readDiff(script, words) {
   const got = tokens(words);
   if (!want.length) return null;
   const same = (a, b) => sounds(a) === sounds(b);
+  // One word written as two, or two as one: `large-scale` / `large scale`,
+  // `textbooks` / `text books`. Whisper splits and joins compounds as it
+  // likes, and without these two moves every such word cost a "misread" and
+  // an "added" for something said perfectly. The op records how many words
+  // it spanned on each side - `m` of the script's, `n` of the recording's -
+  // because the page walks the ops to index both.
+  const joinGot = (i, j) => j >= 2 && sounds(got[j - 2] + got[j - 1]) === sounds(want[i - 1]);
+  const joinWant = (i, j) => i >= 2 && sounds(want[i - 2] + want[i - 1]) === sounds(got[j - 1]);
 
   const m = want.length, n = got.length;
   const d = Array.from({ length: m + 1 }, () => new Int32Array(n + 1));
@@ -701,17 +748,24 @@ export function readDiff(script, words) {
   for (let j = 0; j <= n; j++) d[0][j] = j;
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {
-      d[i][j] = same(want[i - 1], got[j - 1])
+      let v = same(want[i - 1], got[j - 1])
         ? d[i - 1][j - 1]
         : 1 + Math.min(d[i - 1][j - 1], d[i - 1][j], d[i][j - 1]);
+      if (joinGot(i, j)) v = Math.min(v, d[i - 1][j - 2]);
+      if (joinWant(i, j)) v = Math.min(v, d[i - 2][j - 1]);
+      d[i][j] = v;
     }
   }
 
   const ops = [];
   let i = m, j = n;
   while (i > 0 || j > 0) {
-    if (i > 0 && j > 0 && same(want[i - 1], got[j - 1])) {
+    if (i > 0 && j > 0 && same(want[i - 1], got[j - 1]) && d[i][j] === d[i - 1][j - 1]) {
       ops.push({ op: 'ok', want: want[i - 1], got: got[j - 1] }); i--; j--;
+    } else if (i > 0 && joinGot(i, j) && d[i][j] === d[i - 1][j - 2]) {
+      ops.push({ op: 'ok', want: want[i - 1], got: `${got[j - 2]} ${got[j - 1]}`, n: 2 }); i--; j -= 2;
+    } else if (j > 0 && joinWant(i, j) && d[i][j] === d[i - 2][j - 1]) {
+      ops.push({ op: 'ok', want: `${want[i - 2]} ${want[i - 1]}`, got: got[j - 1], m: 2 }); i -= 2; j--;
     } else if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + 1) {
       ops.push({ op: 'misread', want: want[i - 1], got: got[j - 1] }); i--; j--;
     } else if (i > 0 && d[i][j] === d[i - 1][j] + 1) {
@@ -725,12 +779,13 @@ export function readDiff(script, words) {
   const missed = ops.filter((o) => o.op === 'missed').length;
   const misread = ops.filter((o) => o.op === 'misread').length;
   const added = ops.filter((o) => o.op === 'added').length;
+  const right = ops.reduce((t, o) => t + (o.op === 'ok' ? (o.m || 1) : 0), 0);
   return {
     ops,
     missed,
     misread,
     added,
-    accuracy: Math.round((ops.filter((o) => o.op === 'ok').length / m) * 100),
+    accuracy: Math.round((right / m) * 100),
   };
 }
 

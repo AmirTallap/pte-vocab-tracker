@@ -122,8 +122,12 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    takes `&practice=1`: the Speaking tab's Pronunciation list. A change of
  *    meaning as well as an addition - an older server ignores `practice` and
  *    would file a one-word practice take as a Read Aloud.
+ * 19 /api/speech/analyse: a `read.ops` entry can now span two words - `n` of
+ *    the recording's (`large scale` for `large-scale`) or `m` of the script's.
+ *    A change of meaning: a page that counts one word per op would slide
+ *    every mark after a compound onto the wrong word.
  */
-const API_VERSION = 18;
+const API_VERSION = 19;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the

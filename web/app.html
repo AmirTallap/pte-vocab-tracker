@@ -2338,7 +2338,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 18;
+  var API_VERSION = 19;
   var stale = false;
 
   function goStale(theirs) {
@@ -6573,8 +6573,10 @@
     var gi = 0;
     rep.read.ops.forEach(function (o) {
       if (o.op === "missed") return;            // never spoken, consumes no word
-      if (o.op === "ok") ok[gi] = true;
-      gi++;
+      // An op can span two recorded words (`large scale` for `large-scale`);
+      // `n` says how many, and every one of them was right.
+      for (var k = 0; k < (o.n || 1); k++) if (o.op === "ok") ok[gi + k] = true;
+      gi += o.n || 1;
     });
     return ok;
   }
@@ -6629,7 +6631,7 @@
       rep.read.ops.forEach(function (o) {
         if (o.op === "missed") return;
         if (o.op === "misread" || o.op === "added") bad[gi] = true;
-        gi++;
+        gi += o.n || 1;
       });
     }
 
@@ -6705,7 +6707,7 @@
         return;                                   // consumed no recorded word
       }
       if (o.op === "misread") rows.push({ want: o.want, got: o.got, at: gi });
-      gi++;
+      gi += o.n || 1;
     });
     if (!rows.length) return "";
 
@@ -6745,7 +6747,7 @@
         out += '<span class="swap"' + stamp + title + ">" + esc(o.got) +
                " <i>(" + esc(o.want) + ")</i></span> ";
       }
-      gi++;
+      gi += o.n || 1;
     });
     return '<div class="stext sdiff">' + out + "</div>";
   }
@@ -7032,7 +7034,11 @@
    * you hear the difference.
    *
    * The ops are aligned to the script's words: everything except `added`
-   * consumes one, so walking them in order indexes the script exactly.
+   * consumes `m` of them (one, or two for `well known` heard as
+   * `well-known`), so walking them in order indexes the script exactly - as
+   * long as both sides agree on what a word is. The server drops a token with
+   * no letter or digit in it (a lone dash between spaces); so must this, or
+   * every mark after one lands on the word before its own.
    */
   function annotateScript(rep) {
     if (!rep.read || !mic.script) return;
@@ -7040,11 +7046,13 @@
     var marks = [], wi = 0;
     rep.read.ops.forEach(function (o) {
       if (o.op === "added") return;            // heard, but not in the script
-      marks[wi++] = o;
+      for (var k = 0; k < (o.m || 1); k++) marks[wi++] = o;
     });
+    var at = [], n = 0;                         // script word -> index into marks
+    want.forEach(function (word, i) { at[i] = /[a-z0-9']/i.test(word) ? n++ : -1; });
 
     speakEl("speakPrompt").innerHTML = want.map(function (word, i) {
-      var m = marks[i];
+      var m = at[i] < 0 ? null : marks[at[i]];
       if (m && m.op === "missed") {
         return '<span class="w gone" title="not heard at all">' + esc(word) + "</span>";
       }
