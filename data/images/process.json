@@ -1,0 +1,220 @@
+{
+  "id": "process",
+  "title": "Processes and cycles",
+  "items": [
+    {
+      "id": "process-01",
+      "type": "process",
+      "title": "The water cycle",
+      "cycle": true,
+      "steps": [
+        { "label": "Evaporation", "detail": "the sun heats water in oceans and lakes" },
+        { "label": "Condensation", "detail": "water vapour cools and forms clouds" },
+        { "label": "Precipitation", "detail": "water falls as rain, snow or hail" },
+        { "label": "Runoff", "detail": "water flows over land into rivers" },
+        { "label": "Collection", "detail": "water gathers in oceans, lakes and underground" }
+      ],
+      "points": [
+        "The diagram shows the water cycle, a continuous natural process with five stages.",
+        "First, the sun heats water in oceans and lakes, and it evaporates into the air as vapour.",
+        "Then the vapour cools and condenses into clouds, after which the water falls back to earth as rain, snow or hail.",
+        "After that, the water runs off the land into rivers and finally collects in oceans, lakes and underground, where it evaporates again.",
+        "Overall, the same water moves endlessly between the land, the sea and the sky."
+      ]
+    },
+    {
+      "id": "process-02",
+      "type": "process",
+      "title": "The life cycle of a frog",
+      "cycle": true,
+      "steps": [
+        { "label": "Frogspawn", "detail": "the female lays clusters of eggs in water" },
+        { "label": "Tadpole", "detail": "larvae hatch and breathe through gills" },
+        { "label": "Tadpole with legs", "detail": "back legs grow, then front legs" },
+        { "label": "Froglet", "detail": "the tail shrinks and lungs develop" },
+        { "label": "Adult frog", "detail": "the frog lives on land and breeds" }
+      ],
+      "points": [
+        "The diagram illustrates the life cycle of a frog, which has five main stages.",
+        "It begins when the female lays frogspawn, clusters of eggs, in water.",
+        "Then tadpoles hatch and breathe through gills, and after that they grow back legs followed by front legs.",
+        "Next, the young animal becomes a froglet as its tail shrinks and lungs develop, and finally it becomes an adult frog, which lays eggs and starts the cycle again.",
+        "In conclusion, the frog changes dramatically in form as it moves from life in water to life on land."
+      ]
+    },
+    {
+      "id": "process-03",
+      "type": "process",
+      "title": "Recycling plastic bottles",
+      "cycle": true,
+      "steps": [
+        { "label": "Collection", "detail": "used bottles are gathered from recycling bins" },
+        { "label": "Sorting", "detail": "bottles are separated by type of plastic" },
+        { "label": "Washing", "detail": "labels and dirt are removed" },
+        { "label": "Shredding", "detail": "bottles are cut into small flakes" },
+        { "label": "Melting", "detail": "flakes are melted and formed into pellets" },
+        { "label": "Manufacturing", "detail": "pellets are made into new bottles" },
+        { "label": "Use", "detail": "consumers buy and use the new bottles" }
+      ],
+      "points": [
+        "The diagram shows how plastic bottles are recycled in a loop of seven stages.",
+        "First, used bottles are collected from recycling bins and sorted according to the type of plastic.",
+        "Then they are washed to remove labels and dirt, shredded into small flakes, and melted to form pellets.",
+        "After that, the pellets are used to manufacture new bottles, which consumers buy and use, and finally these are collected again, so the process returns to the start.",
+        "Overall, the process turns waste back into new products instead of sending it to landfill."
+      ]
+    },
+    {
+      "id": "process-04",
+      "type": "process",
+      "title": "The carbon cycle",
+      "cycle": true,
+      "steps": [
+        { "label": "Atmosphere", "detail": "carbon dioxide is held in the air" },
+        { "label": "Photosynthesis", "detail": "plants absorb carbon dioxide to make food" },
+        { "label": "Feeding", "detail": "animals eat plants and take in carbon" },
+        { "label": "Death and decay", "detail": "decomposers break down dead plants and animals" },
+        { "label": "Respiration and burning", "detail": "carbon dioxide is released back into the air" }
+      ],
+      "points": [
+        "The diagram shows the carbon cycle, which is made up of five connected stages.",
+        "It begins with carbon dioxide in the atmosphere, which plants absorb during photosynthesis to make their food.",
+        "Then animals take in this carbon by eating the plants, and when plants and animals die, decomposers break them down.",
+        "Finally, respiration and the burning of fuels release carbon dioxide back into the air, completing the cycle.",
+        "In short, carbon constantly moves between the atmosphere and living things."
+      ]
+    },
+    {
+      "id": "process-05",
+      "type": "process",
+      "title": "How chocolate is made",
+      "cycle": false,
+      "steps": [
+        { "label": "Harvesting", "detail": "ripe cocoa pods are cut from the trees" },
+        { "label": "Fermentation", "detail": "beans are left to ferment for several days" },
+        { "label": "Drying", "detail": "beans are spread out to dry in the sun" },
+        { "label": "Roasting", "detail": "beans are roasted to develop their flavour" },
+        { "label": "Grinding", "detail": "shells are removed and nibs ground into paste" },
+        { "label": "Mixing", "detail": "sugar and milk are added and mixed" },
+        { "label": "Moulding", "detail": "chocolate is tempered, poured into moulds and cooled" }
+      ],
+      "points": [
+        "The diagram illustrates how chocolate is produced, in seven stages from the farm to the finished bar.",
+        "First, ripe cocoa pods are harvested, and the beans are fermented for several days and then dried in the sun.",
+        "After that, the beans are roasted to develop their flavour, their shells are removed, and the inner nibs are ground into a paste.",
+        "Next, sugar and milk are mixed in, and finally the chocolate is tempered, poured into moulds and cooled into bars.",
+        "Overall, it is a long process that turns a raw agricultural crop into a manufactured food."
+      ]
+    },
+    {
+      "id": "process-06",
+      "type": "process",
+      "title": "How a bill becomes law",
+      "cycle": false,
+      "steps": [
+        { "label": "Drafting", "detail": "a proposed law is written as a bill" },
+        { "label": "First reading", "detail": "the bill is formally introduced in parliament" },
+        { "label": "Second reading", "detail": "members debate the main principles of the bill" },
+        { "label": "Committee stage", "detail": "the bill is examined in detail and amended" },
+        { "label": "Third reading", "detail": "a final debate and vote take place" },
+        { "label": "Second chamber", "detail": "the other house reviews the bill" },
+        { "label": "Assent", "detail": "the head of state signs it into law" }
+      ],
+      "points": [
+        "The diagram shows the seven stages through which a bill becomes law in a typical parliament.",
+        "First, the proposed law is drafted as a bill and then formally introduced at the first reading.",
+        "Then members debate its main principles at the second reading, after which a committee examines it in detail and makes amendments.",
+        "Next, there is a final vote at the third reading, the second chamber reviews the bill, and finally the head of state gives assent, so it becomes law.",
+        "In conclusion, a bill is checked and debated several times before it can become law."
+      ]
+    },
+    {
+      "id": "process-07",
+      "type": "process",
+      "title": "Making bricks",
+      "cycle": false,
+      "steps": [
+        { "label": "Digging", "detail": "clay is dug from the ground" },
+        { "label": "Mixing", "detail": "clay is mixed with sand and water" },
+        { "label": "Moulding", "detail": "the mixture is shaped in moulds or cut" },
+        { "label": "Drying", "detail": "bricks are dried to remove moisture" },
+        { "label": "Firing", "detail": "bricks are baked at high temperature in a kiln" },
+        { "label": "Cooling", "detail": "bricks are left to cool slowly" },
+        { "label": "Delivery", "detail": "bricks are packaged and sent to customers" }
+      ],
+      "points": [
+        "The diagram shows how bricks are manufactured, in seven stages.",
+        "First, clay is dug from the ground and then mixed with sand and water.",
+        "After that, the mixture is shaped in moulds or cut into blocks, and the bricks are dried to remove moisture.",
+        "Next, they are fired at a high temperature in a kiln and cooled slowly, and finally they are packaged and delivered to customers.",
+        "Overall, the process turns a raw natural material into a finished building product."
+      ]
+    },
+    {
+      "id": "process-08",
+      "type": "process",
+      "title": "Generating electricity from coal",
+      "cycle": false,
+      "steps": [
+        { "label": "Coal delivery", "detail": "mined coal arrives at the power station" },
+        { "label": "Pulverising", "detail": "coal is crushed into a fine powder" },
+        { "label": "Boiler", "detail": "burning coal boils water into steam" },
+        { "label": "Turbine", "detail": "high pressure steam spins a turbine" },
+        { "label": "Generator", "detail": "the turbine drives a generator to produce electricity" },
+        { "label": "Transformer", "detail": "the voltage is increased for transmission" },
+        { "label": "Power grid", "detail": "electricity reaches homes and businesses" }
+      ],
+      "points": [
+        "The diagram illustrates how electricity is generated in a coal-fired power station, in seven stages.",
+        "First, mined coal is delivered to the station and crushed into a fine powder.",
+        "Then the coal is burnt in a boiler, which turns water into high pressure steam, and this steam spins a turbine connected to a generator.",
+        "After that, a transformer increases the voltage, and finally the electricity is carried through the grid to homes and businesses.",
+        "In short, the chemical energy in coal is converted into heat, then movement, and finally electricity."
+      ]
+    },
+    {
+      "id": "process-09",
+      "type": "process",
+      "title": "Publishing academic research",
+      "cycle": false,
+      "steps": [
+        { "label": "Research", "detail": "a study is carried out and analysed" },
+        { "label": "Writing", "detail": "the researchers write up their findings" },
+        { "label": "Submission", "detail": "the paper is sent to a journal" },
+        { "label": "Peer review", "detail": "experts assess the quality of the work" },
+        { "label": "Revision", "detail": "authors respond to the reviewers' comments" },
+        { "label": "Acceptance", "detail": "the editor accepts the revised paper" },
+        { "label": "Publication", "detail": "the article appears in print or online" }
+      ],
+      "points": [
+        "The diagram shows the seven stages involved in publishing academic research.",
+        "First, researchers carry out a study, analyse the results and write up their findings as a paper.",
+        "Then the paper is submitted to a journal, where it goes through peer review by experts in the field.",
+        "After that, the authors revise the paper in response to the comments, the editor accepts it, and finally it is published in print or online.",
+        "Overall, the process includes several quality checks before research reaches its readers."
+      ]
+    },
+    {
+      "id": "process-10",
+      "type": "process",
+      "title": "Treating drinking water",
+      "cycle": false,
+      "steps": [
+        { "label": "Intake", "detail": "water is drawn from a river or reservoir" },
+        { "label": "Screening", "detail": "large debris such as leaves is removed" },
+        { "label": "Coagulation", "detail": "chemicals make small particles clump together" },
+        { "label": "Sedimentation", "detail": "heavy clumps settle to the bottom" },
+        { "label": "Filtration", "detail": "water passes through layers of sand and gravel" },
+        { "label": "Disinfection", "detail": "chlorine is added to kill harmful microorganisms" },
+        { "label": "Distribution", "detail": "clean water is piped to homes" }
+      ],
+      "points": [
+        "The diagram illustrates how water is treated to make it safe to drink, in seven stages.",
+        "First, water is drawn from a river or reservoir and screened to remove large debris such as leaves.",
+        "Then chemicals are added so that small particles clump together, and these heavy clumps settle to the bottom during sedimentation.",
+        "After that, the water is filtered through sand and gravel and disinfected with chlorine, and finally it is piped to homes.",
+        "In conclusion, the water is cleaned in several stages, each removing smaller impurities than the last."
+      ]
+    }
+  ]
+}

@@ -27,6 +27,10 @@
     --text:       #1B1F24;
     --muted:      #59616C;
     --faint:      #838C97;
+    /* Chart series, in fixed order - Describe Image. Validated for colour-
+       blind separation on both surfaces; three light slots are under 3:1, so
+       every chart carries visible labels. */
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
     --btn:        #1B5E96;
     --btn-hover:  #17507F;
     --correct:    #15703F;
@@ -51,6 +55,7 @@
       --text:       #E6E9ED;
       --muted:      #99A2AE;
       --faint:      #6D7784;
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
       --btn:        #2C7BBF;
       --btn-hover:  #3A8AD0;
       --correct:    #5FC08A;
@@ -75,6 +80,7 @@
     --text:       #E6E9ED;
     --muted:      #99A2AE;
     --faint:      #6D7784;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
     --btn:        #2C7BBF;
     --btn-hover:  #3A8AD0;
     --correct:    #5FC08A;
@@ -1436,7 +1442,36 @@
   .stext.sread [data-word] { cursor: pointer; }
   .slegend i.lg-plain { background: var(--panel); border-color: var(--text); }
   .slegend .lg-under { color: var(--wrong); font-weight: 600; }
-  /* Which sound a click on a word makes. */
+  /* Describe Image. The chart is drawn from data, so it is exact and it
+     themes with the page: ink in text tokens, marks in the series tokens. */
+  .simg { margin: 12px 0 4px; padding: 14px 16px 10px; border: 1px solid var(--border);
+          border-radius: 10px; background: var(--panel); }
+  .simg .simgtitle { font-weight: 700; font-size: 15px; margin: 0 0 8px; color: var(--text); }
+  .simg svg { display: block; width: 100%; height: auto; max-width: 760px; }
+  .simg svg text { fill: var(--muted); font-size: 12px; font-family: inherit; }
+  .simg svg .ink { fill: var(--text); }
+  .simg svg .grid { stroke: var(--border); stroke-width: 1; }
+  .simg svg .axis { stroke: var(--muted); stroke-width: 1; }
+  .simg .simglegend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 6px 0 0;
+                      font-size: 13px; color: var(--text); }
+  .simg .simglegend span { display: inline-flex; align-items: center; gap: 6px; }
+  .simg .simglegend i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .simg .simgtable { overflow-x: auto; }
+  .simg table { border-collapse: collapse; font-size: 14px; color: var(--text); }
+  .simg th, .simg td { border: 1px solid var(--border); padding: 5px 12px; text-align: right; }
+  .simg th { background: var(--panel-2); font-weight: 700; }
+  .simg th:first-child, .simg td:first-child { text-align: left; }
+  .simg .simgsteps { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px 4px; }
+  .simg .simgstep { border: 2px solid var(--s1); border-radius: 8px; padding: 8px 10px;
+                    width: 150px; background: var(--panel); color: var(--text); }
+  .simg .simgstep b { display: block; font-size: 14px; margin-bottom: 3px; }
+  .simg .simgstep small { color: var(--muted); font-size: 12px; line-height: 1.3; display: block; }
+  .simg .simgstep .n { color: var(--muted); font-weight: 700; font-size: 12px; }
+  .simg .simgarrow { align-self: center; color: var(--muted); font-size: 20px; padding: 0 2px; }
+  .simg .simgcycle { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+  .simg .simgnote { margin: 8px 0 0; color: var(--faint); font-size: 12px; }
+
+  /* Which sound a click on a word plays. */
   .sclick { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center;
             margin: 0 0 10px; font-size: 14px; color: var(--muted); }
   .sclick label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; color: var(--text); }
@@ -1966,6 +2001,7 @@
     <button data-mode="retell">Re-tell lecture</button>
     <button data-mode="discuss">Group discussion</button>
     <button data-mode="repeat">Repeat sentence</button>
+    <button data-mode="image">Describe image</button>
     <button data-mode="pron">Pronunciation</button>
   </div>
 
@@ -2019,6 +2055,22 @@
         <span class="espacer"></span>
         <span class="smodes slecsrc" id="speakSayBand" role="group" aria-label="Length"></span>
       </div>
+    </div>
+    <!-- Describe Image: a chart drawn from data, on screen the whole time as
+         in the exam. Built by renderImageTask(). -->
+    <div class="slec" id="speakImg" hidden>
+      <div class="slecmeta">
+        <span class="slecfield">DESCRIBE IMAGE</span>
+        <span class="espacer"></span>
+        <span class="slecnum" id="speakImgNum"></span>
+      </div>
+      <div class="erow">
+        <button class="btn small" id="speakImgNext">Next image</button>
+        <button class="btn small" id="speakImgRandom">Random</button>
+        <span class="espacer"></span>
+        <span class="smodes slecsrc" id="speakImgKind" role="group" aria-label="Which charts"></span>
+      </div>
+      <figure class="simg" id="speakImgFig"></figure>
     </div>
     <!-- Pronunciation: the words a Read Aloud came out wrong on, one at a
          time. Built by renderPronTask(); the word itself goes in speakPrompt
@@ -2314,7 +2366,8 @@
       // recording, the transcript and the report are all deliberately
       // unsaved - see the speaking block for why - so there is nothing else
       // here that would survive a reload even if it wanted to.
-      speaking: { mode: "free", lecture: null, source: "all", click: "mine" },
+      speaking: { mode: "free", lecture: null, source: "all", click: "mine",
+                  image: null, imgKind: "all" },
       // The Essays tab: which prompt, the countdown, and the draft. The draft
       // is here because the server keeps no essays (see src/essays.js), and
       // finding that out by losing twenty minutes to a stray reload would be
@@ -2372,7 +2425,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 19;
+  var API_VERSION = 20;
   var stale = false;
 
   function goStale(theirs) {
@@ -5136,6 +5189,10 @@
        length, never its words, which the page is not given until the report.
        See src/sentences.js. */
     bands: [], band: 0, sayAt: 0, say: null, sayHeard: false,
+    /* Describe Image: every chart, whole - the picture is the data and hides
+       nothing. `imgAt` indexes the pool imgPool() draws under the kind
+       filter, so the count, Next and Random can never disagree. */
+    images: [], imgTimes: null, imgAt: 0,
     recording: false, busy: false, report: null,
     session: [],
     media: null, rec: null, chunks: [], startedAt: 0, tick: null,
@@ -5233,11 +5290,13 @@
     speakEl("speakLec").hidden = !listening();
     speakEl("speakSay").hidden = mic.mode !== "repeat";
     speakEl("speakPron").hidden = mic.mode !== "pron";
+    speakEl("speakImg").hidden = mic.mode !== "image";
     speakEl("speakNew").hidden = !read;
 
     if (mic.mode === "pron") return renderPronTask();
     if (listening()) return renderLectureTask();
     if (mic.mode === "repeat") return renderSayTask();
+    if (mic.mode === "image") return renderImageTask();
 
     if (read) {
       if (!mic.script) newScript();
@@ -5795,6 +5854,7 @@
     // sentence and the microphone is already open. One second is the beat
     // between the two, not a chance to prepare.
     if (mic.mode === "repeat") return 1;
+    if (mic.mode === "image") return (mic.imgTimes && mic.imgTimes.prepare) || 25;
     if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].prepare) || 10;
     return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55)));
   }
@@ -5808,6 +5868,7 @@
       return Math.max(8, Math.min(15, Math.round((sm ? sm.words : 10) * 0.9)));
     }
     if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].speak) || 40;
+    if (mic.mode === "image") return (mic.imgTimes && mic.imgTimes.speak) || 40;
     return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70)));
   }
 
@@ -5815,6 +5876,7 @@
     if (mic.mode === "read" && !mic.script) return;
     if (listening() && !mic.heard) return;
     if (mic.mode === "repeat" && !mic.sayHeard) return;
+    if (mic.mode === "image" && !imgItem()) return;
     mic.phase = "prep";
     mic.prepEnds = Date.now() + prepSeconds() * 1000;
     clearInterval(mic.tick);
@@ -5961,7 +6023,7 @@
     // One word needs a few seconds, and stopping by itself is what lets
     // you keep your eyes on the word rather than on the button.
     mic.limit = mic.mode === "pron" ? PRON_SECONDS
-      : (mic.mode === "read" || listening() || mic.mode === "repeat")
+      : (mic.mode === "read" || listening() || mic.mode === "repeat" || mic.mode === "image")
       ? recSeconds() : 0;
     clearInterval(mic.tick);
     mic.tick = setInterval(speakTick, 200);
@@ -6488,7 +6550,7 @@
 
   function renderSpeakBar() {
     var go = speakEl("speakGo");
-    var read = mic.mode === "read";
+    var read = mic.mode === "read" || mic.mode === "image";
     var retell = listening() || mic.mode === "repeat";
     var busyish = mic.recording || mic.phase === "prep" || mic.busy;
 
@@ -6501,6 +6563,7 @@
     // two listening tasks.
     go.disabled = mic.busy || (listening() && !mic.heard) ||
       (mic.mode === "repeat" && !mic.sayHeard) ||
+      (mic.mode === "image" && !imgItem()) ||
       (mic.mode === "pron" && !pronWord());
     // ...and then there is nothing for it to do. The lecture ending starts
     // the preparation itself, the way the exam does, so a Start button in a
@@ -6529,8 +6592,12 @@
       b.disabled = locked;
     });
     speakEl("speakNew").disabled = locked;
-    speakEl("speakNew").hidden = !read;
-    ["speakLecPlay", "speakLecNext", "speakLecRandom", "speakLecPick"].forEach(function (id) {
+    speakEl("speakNew").hidden = mic.mode !== "read";
+    [].slice.call(document.querySelectorAll("#speakImgKind [data-imgkind]")).forEach(function (b) {
+      b.disabled = locked;
+    });
+    ["speakLecPlay", "speakLecNext", "speakLecRandom", "speakLecPick",
+     "speakImgNext", "speakImgRandom"].forEach(function (id) {
       var el2 = speakEl(id);
       if (el2) el2.disabled = locked;
     });
@@ -7129,6 +7196,16 @@
 
     // The prompt last, because it is the thing you take away once you have
     // looked at everything above it.
+    if (mic.mode === "image" && imgItem()) {
+      html += sec("Ask a model for feedback",
+        '<textarea class="sprompt" id="retellPrompt" readonly spellcheck="false">' +
+        esc(imagePrompt(rep, imgItem())) + "</textarea>" +
+        '<div class="splayrow"><button class="sctl model" id="retellCopy">Copy the prompt</button>' +
+        '<span class="scopied" id="retellCopied" hidden>Copied</span></div>',
+        "A model cannot see the chart you described, so the prompt writes it out &mdash; every " +
+        "figure behind the picture &mdash; beside what you said with the silences left in. That " +
+        "is what lets it check your numbers rather than just your grammar. Paste it into Claude.");
+    }
     if (listening() && mic.item) {
       var noun = mic.item.turns ? "discussion" : "lecture";
       html += sec("Ask a model for feedback",
@@ -7323,6 +7400,371 @@
     return L.join("\n");
   }
 
+  /* ------------------------------------------------- describe image
+
+     A chart on screen, 25 seconds to study it, 40 to describe it - PTE's own
+     allowances, fixed. The charts are DATA (src/images.js), drawn here as SVG,
+     so they are exact, they theme with the page, and the numbers behind them
+     go into the prompt for a model that cannot see the picture. */
+
+  var IMG_KINDS = [
+    ["all", "All"], ["bar", "Bar"], ["line", "Line"], ["pie", "Pie"],
+    ["table", "Table"], ["process", "Process"]
+  ];
+  var IMG_NAMES = { bar: "bar chart", line: "line graph", pie: "pie chart",
+                    table: "table", process: "process diagram" };
+
+  function loadImages() {
+    return api("/api/images").then(function (d) {
+      mic.images = d.items || [];
+      mic.imgTimes = d.times || null;
+      var pool = imgPool(), saved = settings.speaking.image;
+      var at = -1;
+      for (var i = 0; i < pool.length; i++) if (pool[i].id === saved) at = i;
+      mic.imgAt = at >= 0 ? at : Math.floor(Math.random() * Math.max(1, pool.length));
+    })["catch"](function () { mic.images = []; });
+  }
+
+  /** The charts the kind filter allows - what Next, Random and the count read. */
+  function imgPool() {
+    var k = settings.speaking.imgKind || "all";
+    return mic.images.filter(function (it) { return k === "all" || it.type === k; });
+  }
+  function imgItem() {
+    var pool = imgPool();
+    return pool.length ? pool[mic.imgAt % pool.length] : null;
+  }
+  function imgGo(at) {
+    var pool = imgPool();
+    if (!pool.length) return;
+    mic.imgAt = ((at % pool.length) + pool.length) % pool.length;
+    settings.speaking.image = pool[mic.imgAt].id;
+    saveSettings();
+    freshTask();
+  }
+
+  /* A number as a chart prints it: thousands grouped, no trailing zeros. */
+  function fmtNum(v) {
+    if (typeof v !== "number") return String(v);
+    return v.toLocaleString("en-GB", { maximumFractionDigits: 2 });
+  }
+  /* 1, 2, 2.5 or 5 times a power of ten - the steps a person would draw. */
+  function niceStep(raw) {
+    var p = Math.pow(10, Math.floor(Math.log10(raw || 1)));
+    var f = raw / p;
+    return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p;
+  }
+  function niceScale(lo, hi) {
+    var step = niceStep((hi - lo) / 5 || 1);
+    return { lo: Math.floor(lo / step) * step, hi: Math.ceil(hi / step) * step, step: step };
+  }
+  /* A label that will not fit under a bar goes onto two lines, at a space. */
+  function svgLabel(x, y, text, cls) {
+    var t = String(text), lines = [t];
+    if (t.length > 12 && t.indexOf(" ") > 0) {
+      var mid = Math.round(t.length / 2), best = -1;
+      for (var i = 0; i < t.length; i++) {
+        if (t[i] === " " && (best < 0 || Math.abs(i - mid) < Math.abs(best - mid))) best = i;
+      }
+      lines = [t.slice(0, best), t.slice(best + 1)];
+    }
+    return '<text x="' + x + '" y="' + y + '" text-anchor="middle"' + (cls ? ' class="' + cls + '"' : "") + ">" +
+      lines.map(function (l, i) {
+        return '<tspan x="' + x + '" dy="' + (i ? 14 : 0) + '">' + esc(l) + "</tspan>";
+      }).join("") + "</text>";
+  }
+  function seriesColor(i) { return "var(--s" + (i % 6 + 1) + ")"; }
+  function legendOf(names) {
+    if (names.length < 2) return "";
+    return '<div class="simglegend">' + names.map(function (n, i) {
+      return '<span><i style="background:' + seriesColor(i) + '"></i>' + esc(n) + "</span>";
+    }).join("") + "</div>";
+  }
+  function yAxis(sc, y, L, R, unit, label, H) {
+    var out = "";
+    for (var v = sc.lo; v <= sc.hi + sc.step / 2; v += sc.step) {
+      var yy = y(v).toFixed(1);
+      out += '<line class="grid" x1="' + L + '" x2="' + R + '" y1="' + yy + '" y2="' + yy + '"/>' +
+        '<text x="' + (L - 8) + '" y="' + yy + '" dy="4" text-anchor="end">' +
+        esc(fmtNum(+v.toFixed(6))) + "</text>";
+    }
+    if (label) {
+      out += '<text transform="translate(14,' + (H / 2) + ') rotate(-90)" text-anchor="middle">' +
+        esc(label) + "</text>";
+    }
+    return out;
+  }
+
+  function barSvg(it) {
+    var W = 720, H = 380, L = 70, R = W - 16, T = 18, B = H - 58;
+    var all = [];
+    it.series.forEach(function (s) { all = all.concat(s.values); });
+    var sc = niceScale(0, Math.max.apply(null, all));
+    var y = function (v) { return B - (v - sc.lo) / (sc.hi - sc.lo) * (B - T); };
+    var n = it.categories.length, k = it.series.length;
+    var gw = (R - L) / n, bw = Math.min(46, (gw * 0.78) / k);
+    var labelled = n * k <= 18;
+    var out = yAxis(sc, y, L, R, it.unit, it.yLabel, H);
+    it.categories.forEach(function (c, ci) {
+      var x0 = L + gw * ci + (gw - bw * k) / 2;
+      it.series.forEach(function (s, si) {
+        var v = s.values[ci], x = x0 + si * bw + 1, w = bw - 2, top = y(v), h = B - top;
+        var r = Math.min(4, h / 2, w / 2);
+        // Rounded at the data end only, square on the baseline.
+        out += '<path fill="' + seriesColor(si) + '" d="M' + x + "," + B + "V" + (top + r) +
+          "Q" + x + "," + top + " " + (x + r) + "," + top + "H" + (x + w - r) +
+          "Q" + (x + w) + "," + top + " " + (x + w) + "," + (top + r) + "V" + B + 'Z">' +
+          "<title>" + esc((k > 1 ? s.name + " · " : "") + c + ": " + fmtNum(v) + " " + (it.unit || "")) +
+          "</title></path>";
+        if (labelled) {
+          out += '<text class="ink" x="' + (x + w / 2) + '" y="' + (top - 5) +
+            '" text-anchor="middle" font-size="11">' + esc(fmtNum(v)) + "</text>";
+        }
+      });
+      out += svgLabel(L + gw * ci + gw / 2, B + 18, c);
+    });
+    out += '<line class="axis" x1="' + L + '" x2="' + R + '" y1="' + B + '" y2="' + B + '"/>';
+    return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(it.title) + '">' +
+      out + "</svg>" + legendOf(it.series.map(function (s) { return s.name; }));
+  }
+
+  function lineSvg(it) {
+    var W = 720, H = 360, L = 70, R = W - 130, T = 18, B = H - 40;
+    var all = [];
+    it.series.forEach(function (s) { all = all.concat(s.values); });
+    var lo = Math.min.apply(null, all), hi = Math.max.apply(null, all);
+    // Zero when zero is near enough to matter; otherwise a baseline at zero
+    // would flatten a life expectancy moving between 60 and 80 into a line.
+    var sc = niceScale(lo > 0 && lo < hi * 0.5 ? 0 : lo, hi);
+    var y = function (v) { return B - (v - sc.lo) / (sc.hi - sc.lo) * (B - T); };
+    var n = it.x.length, x = function (i) { return L + 12 + i * (R - L - 24) / (n - 1); };
+    var out = yAxis(sc, y, L, R, it.unit, it.yLabel, H);
+    it.x.forEach(function (lab, i) {
+      out += '<text x="' + x(i) + '" y="' + (B + 18) + '" text-anchor="middle"' +
+        (n > 9 ? ' font-size="11"' : "") + ">" + esc(String(lab)) + "</text>";
+    });
+    out += '<line class="axis" x1="' + L + '" x2="' + R + '" y1="' + B + '" y2="' + B + '"/>';
+    var ends = [];
+    it.series.forEach(function (s, si) {
+      var col = seriesColor(si);
+      out += '<polyline fill="none" stroke="' + col + '" stroke-width="2" stroke-linejoin="round" points="' +
+        s.values.map(function (v, i) { return x(i).toFixed(1) + "," + y(v).toFixed(1); }).join(" ") + '"/>';
+      s.values.forEach(function (v, i) {
+        out += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="4" fill="' + col +
+          '" stroke="var(--panel)" stroke-width="2"><title>' +
+          esc((it.series.length > 1 ? s.name + " · " : "") + it.x[i] + ": " + fmtNum(v) + " " + (it.unit || "")) +
+          "</title></circle>";
+      });
+      // The first and last values are printed: selective direct labels, which
+      // also carry the relief the three low-contrast light colours need.
+      out += '<text class="ink" x="' + x(0) + '" y="' + (y(s.values[0]) - 10) +
+        '" text-anchor="middle" font-size="11" stroke="var(--panel)" stroke-width="3" ' +
+        'paint-order="stroke">' + esc(fmtNum(s.values[0])) + "</text>";
+      ends.push({ y: y(s.values[n - 1]), name: s.name, v: s.values[n - 1] });
+    });
+    // End labels, nudged apart so two lines finishing close do not collide.
+    ends.sort(function (a, b) { return a.y - b.y; });
+    for (var i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 28) ends[i].y = ends[i - 1].y + 28;
+    ends.forEach(function (e) {
+      out += '<text class="ink" x="' + (x(n - 1) + 10) + '" y="' + e.y + '" dy="-2" font-size="11">' +
+        esc(fmtNum(e.v)) + '</text><text x="' + (x(n - 1) + 10) + '" y="' + e.y + '" dy="12" font-size="11">' +
+        esc(e.name) + "</text>";
+    });
+    return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(it.title) + '">' +
+      out + "</svg>" + legendOf(it.series.map(function (s) { return s.name; }));
+  }
+
+  function pieSvg(it) {
+    var n = it.pies.length, r = 105, cw = 330, W = cw * n, H = 2 * r + 60;
+    var out = "";
+    it.pies.forEach(function (p, pi) {
+      var cx = cw * pi + cw / 2, cy = r + 34, tot = 0, a = -Math.PI / 2;
+      p.slices.forEach(function (s) { tot += s.value; });
+      if (p.title) out += '<text class="ink" x="' + cx + '" y="16" text-anchor="middle" font-weight="700">' + esc(p.title) + "</text>";
+      p.slices.forEach(function (s, si) {
+        var sweep = s.value / tot * Math.PI * 2, b = a + sweep;
+        var x1 = cx + r * Math.cos(a), y1 = cy + r * Math.sin(a);
+        var x2 = cx + r * Math.cos(b), y2 = cy + r * Math.sin(b);
+        out += '<path fill="' + seriesColor(si) + '" stroke="var(--panel)" stroke-width="2" d="M' + cx + "," + cy +
+          "L" + x1.toFixed(1) + "," + y1.toFixed(1) + "A" + r + "," + r + " 0 " + (sweep > Math.PI ? 1 : 0) +
+          " 1 " + x2.toFixed(1) + "," + y2.toFixed(1) + 'Z"><title>' +
+          esc(s.label + ": " + fmtNum(s.value) + (it.unit || "")) + "</title></path>";
+        if (sweep > 0.45) {           // a thin slice's figure is in the legend
+          var m = (a + b) / 2;
+          out += '<text class="ink" x="' + (cx + r * 0.66 * Math.cos(m)).toFixed(1) + '" y="' +
+            (cy + r * 0.66 * Math.sin(m)).toFixed(1) + '" dy="4" text-anchor="middle" font-weight="700" ' +
+            'stroke="var(--panel)" stroke-width="3" paint-order="stroke">' +
+            esc(fmtNum(s.value) + (it.unit || "")) + "</text>";
+        }
+        a = b;
+      });
+    });
+    // One legend, every slice's figure in every pie: a slice too thin to hold
+    // its number still has it here, so nothing depends on colour alone.
+    var labels = it.pies[0].slices.map(function (s) { return s.label; });
+    it.pies.slice(1).forEach(function (p) {
+      p.slices.forEach(function (s) { if (labels.indexOf(s.label) < 0) labels.push(s.label); });
+    });
+    var legend = '<div class="simglegend">' + labels.map(function (lab, i) {
+      var vals = it.pies.map(function (p) {
+        var f = p.slices.filter(function (s) { return s.label === lab; })[0];
+        return f ? fmtNum(f.value) + (it.unit || "") : "–";
+      });
+      return '<span><i style="background:' + seriesColor(i) + '"></i>' + esc(lab) + " <b>" +
+        esc(vals.join(" → ")) + "</b></span>";
+    }).join("") + "</div>";
+    return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(it.title) +
+      '" style="max-width:' + (n * 360) + 'px">' + out + "</svg>" + legend;
+  }
+
+  function tableHtml(it) {
+    return '<div class="simgtable"><table><thead><tr>' + it.columns.map(function (c) {
+      return "<th>" + esc(c) + "</th>";
+    }).join("") + "</tr></thead><tbody>" + it.rows.map(function (r) {
+      return "<tr>" + r.map(function (c) { return "<td>" + esc(fmtNum(c)) + "</td>"; }).join("") + "</tr>";
+    }).join("") + "</tbody></table></div>";
+  }
+
+  function processHtml(it) {
+    return '<div class="simgsteps">' + it.steps.map(function (s, i) {
+      return (i ? '<span class="simgarrow" aria-hidden="true">&rarr;</span>' : "") +
+        '<div class="simgstep"><span class="n">' + (i + 1) + "</span><b>" + esc(s.label) + "</b>" +
+        (s.detail ? "<small>" + esc(s.detail) + "</small>" : "") + "</div>";
+    }).join("") + "</div>" +
+      (it.cycle ? '<p class="simgcycle">&#8635; and from step ' + it.steps.length +
+        " back to step 1 &mdash; a cycle</p>" : "");
+  }
+
+  function chartHtml(it) {
+    var body = it.type === "bar" ? barSvg(it) : it.type === "line" ? lineSvg(it)
+      : it.type === "pie" ? pieSvg(it) : it.type === "table" ? tableHtml(it) : processHtml(it);
+    return '<figcaption class="simgtitle">' + esc(it.title) +
+      (it.unit && it.type !== "pie" ? ' <span style="font-weight:400;color:var(--muted)">(' + esc(it.unit) + ")</span>" : "") +
+      "</figcaption>" + body +
+      (it.type === "process" ? "" : '<p class="simgnote">Illustrative figures, invented for practice.</p>');
+  }
+
+  function renderImageTask() {
+    var kinds = speakEl("speakImgKind"), k = settings.speaking.imgKind || "all";
+    if (!kinds.childElementCount) {
+      kinds.innerHTML = IMG_KINDS.map(function (x) {
+        return '<button data-imgkind="' + x[0] + '">' + x[1] + "</button>";
+      }).join("");
+    }
+    [].slice.call(kinds.querySelectorAll("[data-imgkind]")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.imgkind === k));
+    });
+    var it = imgItem(), pool = imgPool();
+    speakEl("speakPrompt").innerHTML = "";
+    if (!it) {
+      speakEl("speakImgNum").textContent = "";
+      speakEl("speakImgFig").innerHTML = "";
+      speakEl("speakHint").textContent = mic.images.length
+        ? "Nothing of that kind is loaded." : "No images are loaded.";
+      return;
+    }
+    speakEl("speakImgNum").textContent = (mic.imgAt % pool.length + 1) + " of " + pool.length +
+      " · " + IMG_NAMES[it.type];
+    speakEl("speakImgFig").innerHTML = chartHtml(it);
+    speakEl("speakHint").innerHTML =
+      "<b>" + prepSeconds() + " seconds to study it, then " + recSeconds() + " to describe it.</b> " +
+      "Press Start the moment it appears, as the exam gives you no choice. Open with what it " +
+      "shows, give the two or three features that matter with their numbers, and close with an " +
+      "overall point &mdash; finishing inside the forty seconds is part of the mark.";
+  }
+
+  speakEl("speakImgNext").addEventListener("click", function () { imgGo(mic.imgAt + 1); });
+  speakEl("speakImgRandom").addEventListener("click", function () {
+    var n = imgPool().length;
+    if (n < 2) return imgGo(0);
+    var j = Math.floor(Math.random() * (n - 1));
+    imgGo(j >= mic.imgAt % n ? j + 1 : j);        // never the one already up
+  });
+  speakEl("speakImgKind").addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest("[data-imgkind]") : null;
+    if (!b || b.disabled) return;
+    var cur = imgItem();
+    settings.speaking.imgKind = b.dataset.imgkind;
+    // Narrowing keeps the chart you are on when the new filter still allows
+    // it - the lecture filter's rule.
+    var pool = imgPool(), at = cur ? pool.indexOf(cur) : -1;
+    imgGo(at >= 0 ? at : 0);
+  });
+
+  /* The chart, written out in words for a model that cannot see it. */
+  function imageAsText(it) {
+    var L = ["Type: " + IMG_NAMES[it.type] + ". Title: " + it.title +
+             (it.unit ? ". Unit: " + it.unit : "") + (it.yLabel ? ". Axis: " + it.yLabel : "") + "."];
+    if (it.type === "bar" || it.type === "line") {
+      var cats = it.type === "bar" ? it.categories : it.x;
+      L.push([it.type === "bar" ? "Category" : "Period"].concat(it.series.map(function (s) {
+        return s.name;
+      })).join(" | "));
+      cats.forEach(function (c, i) {
+        L.push([c].concat(it.series.map(function (s) { return fmtNum(s.values[i]); })).join(" | "));
+      });
+    } else if (it.type === "pie") {
+      it.pies.forEach(function (p) {
+        L.push((p.title ? p.title + ": " : "") + p.slices.map(function (s) {
+          return s.label + " " + fmtNum(s.value) + (it.unit || "");
+        }).join(", "));
+      });
+    } else if (it.type === "table") {
+      L.push(it.columns.join(" | "));
+      it.rows.forEach(function (r) { L.push(r.map(fmtNum).join(" | ")); });
+    } else {
+      it.steps.forEach(function (s, i) {
+        L.push((i + 1) + ". " + s.label + (s.detail ? ": " + s.detail : ""));
+      });
+      if (it.cycle) L.push("(A cycle: the last stage leads back to the first.)");
+    }
+    return L.join("\n");
+  }
+
+  function imagePrompt(rep, it) {
+    var p = rep.pace;
+    var fillers = rep.fillers.certain.length + rep.fluency.filled.length;
+    var L = [];
+    L.push('I am practising the PTE "Describe Image" task. I had ' + prepSeconds() +
+           " seconds to study the image below");
+    L.push("and " + recSeconds() + " seconds to describe it aloud.");
+    L.push("");
+    L.push("=== THE IMAGE (you cannot see it, so here is everything on it) ===");
+    L.push(imageAsText(it));
+    L.push("");
+    L.push("=== KEY FEATURES A STRONG ANSWER COVERS ===");
+    (it.points || []).forEach(function (pt, i) { L.push((i + 1) + ". " + pt); });
+    L.push("");
+    L.push("=== WHAT I SAID ===");
+    L.push("(Transcribed from the recording. [1.2s] is a silence, (uh 0.5s) is a sound");
+    L.push("held in the gap. Both are measured, not guessed.)");
+    L.push("");
+    L.push(transcriptWithPauses(rep));
+    L.push("");
+    L.push("=== HOW I SOUNDED ===");
+    L.push(p.words + " words in " + p.seconds + "s, which is " + p.wpm + " words per minute (" +
+           p.articulation + " with the pauses taken out).");
+    L.push(fillers + " filler" + (fillers === 1 ? "" : "s") + ", " +
+           rep.fluency.hesitations.length + " silence" +
+           (rep.fluency.hesitations.length === 1 ? "" : "s") + " over 0.7s.");
+    L.push("");
+    L.push("=== WHAT I WANT FROM YOU ===");
+    L.push("1. ACCURACY. Check every figure, trend and comparison I stated against the data.");
+    L.push("   Quote each one and say whether it was right. A wrong number is worse than none.");
+    L.push("2. COVERAGE. Which of the key features did I get across, and which did I miss?");
+    L.push("   Did I open with what the image shows and close with an overall point?");
+    L.push("3. LANGUAGE. Every grammar mistake, quoted, with the correction. Then my range of");
+    L.push("   trend and comparison language: what I used, and three better phrases I could");
+    L.push("   have used here.");
+    L.push("4. A MODEL ANSWER. Write the answer I should have given: about 90 to 110 words,");
+    L.push("   sayable in 40 seconds, using this data.");
+    L.push("5. ONE FIX. The single most valuable thing to change next time, and why.");
+    L.push("");
+    L.push("Be blunt and specific, and quote me. Do not pad it with praise. Ignore");
+    L.push("pronunciation entirely - you are reading a transcript and cannot hear me.");
+    return L.join("\n");
+  }
+
   function dialectHtml(rep) {
     var d = rep.dialect;
     var out = "";
@@ -7381,7 +7823,8 @@
     if (mic.phase === "prep") return startRecording();  // done reading, go now
     // The read aloud gets its reading time first; free talk starts recording
     // on the press, because there is nothing to read.
-    if (mic.mode === "read" || listening() || mic.mode === "repeat") startPrep();
+    if (mic.mode === "read" || listening() || mic.mode === "repeat" ||
+        mic.mode === "image") startPrep();
     else startRecording();
   });
 
@@ -8657,6 +9100,7 @@
     retell: "retell",
     discuss: "group-discussion",
     repeat: "repeat-sentence",
+    image: "describe-image",
     pron: "pronunciation"
   };
   function speakSlugOf(mode) { return SPEAK_SLUG[mode] || SPEAK_SLUG.free; }
@@ -9262,7 +9706,7 @@
     // the corrected URL and lands on the drill for ever. It is one small local
     // request, and on the cloud build it is answered from memory.
     return Promise.all([loadDeck(), loadUsage(), probeSpeech(), loadListenItems(),
-                        loadListen(), loadSentences(), loadReading(), loadHiw()]).then(function () {
+                        loadListen(), loadSentences(), loadImages(), loadReading(), loadHiw()]).then(function () {
       applyRoute();
       // After the deck, not with it: the voice bar is a nicety and must not hold
       // up the first card, and a server without TTS simply hides the bar.

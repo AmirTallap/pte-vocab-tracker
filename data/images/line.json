@@ -1,0 +1,197 @@
+{
+  "id": "line",
+  "title": "Line graphs",
+  "items": [
+    {
+      "id": "line-01",
+      "type": "line",
+      "title": "Percentage of households with internet access in one country, 2010 to 2022",
+      "unit": "%",
+      "yLabel": "Households (%)",
+      "x": ["2010", "2012", "2014", "2016", "2018", "2020", "2022"],
+      "series": [
+        { "name": "Internet access", "values": [38, 45, 53, 64, 79, 88, 91] }
+      ],
+      "points": [
+        "The line graph shows the percentage of households with internet access in one country between 2010 and 2022.",
+        "Access rose every period, from 38% in 2010 to 91% in 2022, so it more than doubled over twelve years.",
+        "The sharpest increase came between 2016 and 2018, when the figure jumped from 64% to 79%.",
+        "After 2020 growth slowed noticeably, with only a three point rise from 88% to 91%.",
+        "Overall, internet access became almost universal, although the pace of growth levelled off at the end of the period."
+      ]
+    },
+    {
+      "id": "line-02",
+      "type": "line",
+      "title": "Average monthly temperature in a coastal town, January to December",
+      "unit": "°C",
+      "yLabel": "Temperature (°C)",
+      "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "series": [
+        { "name": "Temperature", "values": [4, 5, 8, 11, 15, 18, 21, 20, 17, 13, 8, 5] }
+      ],
+      "points": [
+        "The graph illustrates the average monthly temperature in a coastal town over the course of a year.",
+        "January was the coldest month at 4°C, after which temperatures climbed steadily through the spring.",
+        "The peak came in July at 21°C, with August only slightly lower at 20°C.",
+        "From September temperatures fell sharply, dropping from 17°C to 5°C by December.",
+        "In summary, the town has a clear seasonal pattern, with a range of 17 degrees between the coldest and warmest months."
+      ]
+    },
+    {
+      "id": "line-03",
+      "type": "line",
+      "title": "Birth rate in one country, 1970 to 2020",
+      "unit": "per 1,000",
+      "yLabel": "Births per 1,000 people",
+      "x": ["1970", "1980", "1990", "2000", "2010", "2020"],
+      "series": [
+        { "name": "Birth rate", "values": [28, 24, 19, 17, 13, 11] }
+      ],
+      "points": [
+        "The line graph shows the number of births per 1,000 people in one country from 1970 to 2020.",
+        "The birth rate fell in every decade, from 28 in 1970 to 11 in 2020, which is a drop of more than half.",
+        "The steepest decline was between 1980 and 1990, when it fell from 24 to 19.",
+        "The decrease slowed in the final decade, with the rate easing from 13 to 11.",
+        "Overall, the country experienced a long and steady fall in its birth rate, reaching its lowest point in 2020."
+      ]
+    },
+    {
+      "id": "line-04",
+      "type": "line",
+      "title": "Cars per 100 households in urban and rural areas of one country, 1995 to 2020",
+      "unit": "cars",
+      "yLabel": "Cars per 100 households",
+      "x": ["1995", "2000", "2005", "2010", "2015", "2020"],
+      "series": [
+        { "name": "Urban", "values": [62, 66, 68, 67, 63, 58] },
+        { "name": "Rural", "values": [48, 57, 66, 74, 80, 84] }
+      ],
+      "points": [
+        "The graph compares car ownership, measured as cars per 100 households, in urban and rural areas of one country between 1995 and 2020.",
+        "In urban areas ownership rose from 62 to a peak of 68 in 2005, then declined to 58 by 2020.",
+        "Rural ownership, by contrast, grew throughout the period, from 48 in 1995 to 84 in 2020.",
+        "The two lines crossed between 2005 and 2010, when rural households overtook urban ones.",
+        "Overall, car ownership moved in opposite directions, and by 2020 rural households owned 26 more cars per 100 households than urban ones."
+      ]
+    },
+    {
+      "id": "line-05",
+      "type": "line",
+      "title": "Carbon dioxide emissions per person in Country A and Country B, 1990 to 2020",
+      "unit": "tonnes",
+      "yLabel": "CO2 per person (tonnes)",
+      "x": ["1990", "1995", "2000", "2005", "2010", "2015", "2020"],
+      "series": [
+        { "name": "Country A", "values": [11.2, 11.8, 12.1, 11.4, 10.2, 8.9, 7.6] },
+        { "name": "Country B", "values": [2.1, 2.6, 3.4, 4.8, 6.3, 7.5, 8.1] }
+      ],
+      "points": [
+        "The line graph shows carbon dioxide emissions per person, in tonnes, in two countries from 1990 to 2020.",
+        "Country A's emissions rose slightly to a peak of 12.1 tonnes in 2000 and then fell steadily to 7.6 tonnes in 2020.",
+        "Country B's emissions increased in every period, almost quadrupling from 2.1 tonnes in 1990 to 8.1 tonnes in 2020.",
+        "The two lines crossed between 2015 and 2020, when Country B overtook Country A.",
+        "In conclusion, the countries followed opposite trends, and the large gap of 9.1 tonnes in 1990 had been reversed by the end of the period."
+      ]
+    },
+    {
+      "id": "line-06",
+      "type": "line",
+      "title": "Annual visitors to a museum and a science centre in one city, 2016 to 2023",
+      "unit": "thousand",
+      "yLabel": "Visitors (thousands)",
+      "x": ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "series": [
+        { "name": "Museum", "values": [420, 435, 450, 470, 120, 210, 390, 480] },
+        { "name": "Science centre", "values": [310, 330, 355, 380, 90, 260, 400, 450] }
+      ],
+      "points": [
+        "The graph shows the number of annual visitors to a museum and a science centre in one city between 2016 and 2023.",
+        "Both attractions grew steadily until 2019, when the museum had 470 thousand visitors and the science centre 380 thousand.",
+        "In 2020 numbers collapsed at both, falling to 120 thousand at the museum and 90 thousand at the science centre.",
+        "The science centre recovered faster, overtaking the museum in 2021 and staying ahead in 2022 with 400 thousand against 390 thousand.",
+        "By 2023 the museum was ahead again at a record 480 thousand, while the science centre also reached its highest figure of 450 thousand."
+      ]
+    },
+    {
+      "id": "line-07",
+      "type": "line",
+      "title": "Average auction price of coffee and tea per kilogram, 2015 to 2023",
+      "unit": "US$",
+      "yLabel": "Price per kg (US$)",
+      "x": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "series": [
+        { "name": "Coffee", "values": [3.2, 3.0, 2.8, 2.9, 2.6, 2.8, 4.1, 5.3, 4.6] },
+        { "name": "Tea", "values": [2.7, 2.8, 2.9, 3.0, 2.9, 3.1, 3.1, 3.2, 3.3] }
+      ],
+      "points": [
+        "The line graph compares the average auction price of a kilogram of coffee and tea from 2015 to 2023.",
+        "Coffee started higher at 3.2 dollars but drifted down to its lowest point of 2.6 dollars in 2019.",
+        "Tea was more stable, rising gradually from 2.7 dollars to 3.3 dollars with only a small dip in 2019, and it was more expensive than coffee from 2017 to 2020.",
+        "Coffee then rose sharply, overtaking tea again in 2021 and peaking at 5.3 dollars in 2022 before easing to 4.6 dollars in 2023.",
+        "Overall, tea prices were steady, while coffee prices were far more volatile and ended well above tea."
+      ]
+    },
+    {
+      "id": "line-08",
+      "type": "line",
+      "title": "Life expectancy at birth in three regions, 1960 to 2020",
+      "unit": "years",
+      "yLabel": "Life expectancy (years)",
+      "x": ["1960", "1970", "1980", "1990", "2000", "2010", "2020"],
+      "series": [
+        { "name": "Region A", "values": [68, 70, 72, 74, 76, 78, 80] },
+        { "name": "Region B", "values": [52, 56, 60, 64, 67, 70, 73] },
+        { "name": "Region C", "values": [41, 45, 49, 51, 50, 55, 62] }
+      ],
+      "points": [
+        "The graph shows life expectancy at birth in three regions between 1960 and 2020.",
+        "Region A had the highest figure throughout, rising steadily from 68 years to 80 years.",
+        "Region B improved more quickly, from 52 years to 73 years, an increase of 21 years.",
+        "Region C started lowest at 41 years and dipped slightly from 51 to 50 between 1990 and 2000, but then rose sharply to 62 years by 2020.",
+        "Overall, life expectancy increased in all three regions, and the gap between Region A and Region C narrowed from 27 years to 18 years."
+      ]
+    },
+    {
+      "id": "line-09",
+      "type": "line",
+      "title": "Number of students enrolled in three subjects at a university, 2014 to 2022",
+      "unit": "students",
+      "yLabel": "Students enrolled",
+      "x": ["2014", "2016", "2018", "2020", "2022"],
+      "series": [
+        { "name": "Engineering", "values": [1200, 1350, 1500, 1620, 1700] },
+        { "name": "Arts", "values": [1800, 1650, 1500, 1350, 1200] },
+        { "name": "Computing", "values": [600, 900, 1300, 1800, 2400] }
+      ],
+      "points": [
+        "The line graph shows enrolment in engineering, arts and computing at one university from 2014 to 2022.",
+        "Arts was the most popular subject in 2014 with 1,800 students, but it declined steadily to 1,200 in 2022.",
+        "Engineering grew gradually from 1,200 to 1,700 students, and it drew level with arts at 1,500 in 2018 before moving ahead.",
+        "Computing showed the most dramatic change, quadrupling from 600 to 2,400 students and overtaking both other subjects between 2018 and 2020.",
+        "In conclusion, computing went from the least to the most popular subject, while arts fell from first place to last."
+      ]
+    },
+    {
+      "id": "line-10",
+      "type": "line",
+      "title": "Value of exports from one country to four trading partners, 2000 to 2020",
+      "unit": "US$ billion",
+      "yLabel": "Exports (US$ billion)",
+      "x": ["2000", "2005", "2010", "2015", "2020"],
+      "series": [
+        { "name": "Partner A", "values": [12, 15, 18, 20, 21] },
+        { "name": "Partner B", "values": [8, 11, 16, 23, 30] },
+        { "name": "Partner C", "values": [15, 14, 12, 10, 9] },
+        { "name": "Partner D", "values": [3, 5, 9, 12, 14] }
+      ],
+      "points": [
+        "The graph shows the value of one country's exports to four trading partners between 2000 and 2020, in billions of US dollars.",
+        "Partner C was the largest market in 2000 at 15 billion, but exports to it fell steadily to 9 billion, the lowest of the four in 2020.",
+        "Exports to Partner B grew fastest, from 8 billion to 30 billion, overtaking Partner A between 2010 and 2015 to become the largest market.",
+        "Partner A rose more modestly from 12 billion to 21 billion, while Partner D grew from 3 billion to 14 billion and overtook Partner C between 2010 and 2015.",
+        "Overall, total exports to the four partners almost doubled, from 38 billion to 74 billion, with Partner C the only market to decline."
+      ]
+    }
+  ]
+}

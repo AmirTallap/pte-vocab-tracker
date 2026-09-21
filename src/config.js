@@ -13,6 +13,7 @@ export const PROGRESS_FILE = path.join(DATA_DIR, 'progress.json');
 export const GRAMMAR_DIR = path.join(DATA_DIR, 'grammar');
 export const LISTENING_DIR = path.join(DATA_DIR, 'listening');
 export const SENTENCES_DIR = path.join(DATA_DIR, 'sentences');
+export const IMAGES_DIR = path.join(DATA_DIR, 'images');
 // The Reading tab's passages, one JSON file per set of ten - see reading.js.
 export const READING_DIR = path.join(DATA_DIR, 'reading');
 // Highlight Incorrect Words, one JSON file per set of ten - see hiw.js.

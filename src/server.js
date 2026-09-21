@@ -14,6 +14,7 @@ import { loadModels, modelCounts } from './models.js';
 import { loadLectures, lectureIndex, lectureAudioPath, PREPARE_SECONDS, SPEAK_SECONDS } from './lectures.js';
 import { loadListening, listeningIndex } from './listening.js';
 import { loadSentences, sentenceIndex } from './sentences.js';
+import { loadImages, IMAGE_TIMES } from './images.js';
 import { loadReading, readingIndex, gradeReading, TASKS as READING_TASKS } from './reading.js';
 import { loadHiw, hiwIndex, gradeHiw } from './hiw.js';
 import { noteMisreads, notePractice, pronounceList, deletePronounce } from './pronounce.js';
@@ -126,8 +127,10 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    the recording's (`large scale` for `large-scale`) or `m` of the script's.
  *    A change of meaning: a page that counts one word per op would slide
  *    every mark after a compound onto the wrong word.
+ * 20 /api/images is new: Describe Image. An addition, bumped for the reason
+ *    16 was - an older server 404s it and the task looks unbuilt.
  */
-const API_VERSION = 19;
+const API_VERSION = 20;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -169,6 +172,8 @@ export function serve({ port = 4173, open = true } = {}) {
           problems: listenProblems } = loadListening();
   const { sets: sentenceSets, byId: sentenceById,
           problems: sentenceProblems } = loadSentences();
+  // Describe Image: charts as data, drawn by the page - see images.js.
+  const { items: imageItems, problems: imageProblems } = loadImages();
   const { sets: readingSets, byItem: readingByItem,
           problems: readingProblems } = loadReading();
   const { sets: hiwSets, byItem: hiwByItem, problems: hiwProblems } = loadHiw();
@@ -1059,6 +1064,16 @@ export function serve({ port = 4173, open = true } = {}) {
       }
 
       /**
+       * Describe Image: every chart, whole. Nothing here is withheld - the
+       * picture IS the data, and it is on screen the whole time, as in the
+       * exam. Fifty charts are a few tens of KB, so there is no per-item
+       * route to keep in step with this one.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/images') {
+        return json(res, 200, { api: API_VERSION, times: IMAGE_TIMES, items: imageItems });
+      }
+
+      /**
        * Repeat Sentence: the sets and their ids. NOT the sentences - they are
        * heard, once, and reading one beforehand would make it a different
        * exercise. The word count IS sent, because the exam tells you how long
@@ -1223,6 +1238,8 @@ export function serve({ port = 4173, open = true } = {}) {
                   `${sentenceById.size} sentences to hear and say back`);
     }
     for (const p of sentenceProblems) console.error(`  ! sentence - ${p}`);
+    if (imageItems.length) console.log(`  describe image: ${imageItems.length} charts to describe`);
+    for (const p of imageProblems) console.error(`  ! image - ${p}`);
     if (readingSets.length) {
       console.log(`  reading: ${readingSets.length} sets · ${readingByItem.size} items`);
     }

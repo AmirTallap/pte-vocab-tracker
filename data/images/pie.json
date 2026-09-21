@@ -1,0 +1,321 @@
+{
+  "id": "pie",
+  "title": "Pie charts",
+  "items": [
+    {
+      "id": "pie-01",
+      "type": "pie",
+      "title": "Monthly spending of a typical household",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Household budget",
+          "slices": [
+            { "label": "Housing", "value": 32 },
+            { "label": "Food", "value": 21 },
+            { "label": "Transport", "value": 15 },
+            { "label": "Leisure", "value": 12 },
+            { "label": "Utilities", "value": 9 },
+            { "label": "Other", "value": 11 }
+          ]
+        }
+      ],
+      "points": [
+        "The pie chart shows how a typical household divides its monthly spending between six categories.",
+        "Housing is by far the largest expense, taking 32% of the budget, roughly a third.",
+        "Food comes second at 21%, followed by transport at 15%.",
+        "Leisure accounts for 12% and other items for 11%, while utilities are the smallest share at only 9%.",
+        "Overall, housing and food together make up more than half of all spending, at 53%."
+      ]
+    },
+    {
+      "id": "pie-02",
+      "type": "pie",
+      "title": "Sources of electricity in one country, 2000 and 2020",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "2000",
+          "slices": [
+            { "label": "Coal", "value": 45 },
+            { "label": "Natural gas", "value": 25 },
+            { "label": "Nuclear", "value": 15 },
+            { "label": "Hydro", "value": 8 },
+            { "label": "Wind and solar", "value": 2 },
+            { "label": "Other", "value": 5 }
+          ]
+        },
+        {
+          "title": "2020",
+          "slices": [
+            { "label": "Coal", "value": 18 },
+            { "label": "Natural gas", "value": 32 },
+            { "label": "Nuclear", "value": 14 },
+            { "label": "Hydro", "value": 9 },
+            { "label": "Wind and solar", "value": 24 },
+            { "label": "Other", "value": 3 }
+          ]
+        }
+      ],
+      "points": [
+        "The two pie charts compare the sources of electricity in one country in 2000 and 2020.",
+        "In 2000 coal was the dominant source at 45%, while wind and solar provided just 2%.",
+        "By 2020 coal had fallen sharply to 18%, and wind and solar had risen dramatically to 24%.",
+        "Natural gas grew from 25% to 32% and became the largest source, whereas nuclear and hydro stayed fairly stable, nuclear slipping from 15% to 14% and hydro edging up from 8% to 9%.",
+        "Overall, the country shifted away from coal towards gas and renewable energy over the twenty years."
+      ]
+    },
+    {
+      "id": "pie-03",
+      "type": "pie",
+      "title": "Main reasons for visiting one city",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Visitors",
+          "slices": [
+            { "label": "Holiday", "value": 46 },
+            { "label": "Visiting family", "value": 22 },
+            { "label": "Business", "value": 18 },
+            { "label": "Education", "value": 7 },
+            { "label": "Medical", "value": 3 },
+            { "label": "Other", "value": 4 }
+          ]
+        }
+      ],
+      "points": [
+        "The pie chart illustrates the main reasons why visitors travel to one city.",
+        "Holidays are the most common reason, accounting for 46% of visitors, almost half.",
+        "Visiting family is second at 22%, and business trips make up 18%.",
+        "Education represents 7%, while medical treatment is the least common reason at only 3%, with other reasons at 4%.",
+        "In short, the city attracts mainly leisure travellers, with personal and business visits well behind."
+      ]
+    },
+    {
+      "id": "pie-04",
+      "type": "pie",
+      "title": "How university students spend their waking time on a weekday",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "First-year",
+          "slices": [
+            { "label": "Lectures", "value": 22 },
+            { "label": "Private study", "value": 15 },
+            { "label": "Paid work", "value": 10 },
+            { "label": "Social life", "value": 30 },
+            { "label": "Sport", "value": 8 },
+            { "label": "Other", "value": 15 }
+          ]
+        },
+        {
+          "title": "Final-year",
+          "slices": [
+            { "label": "Lectures", "value": 15 },
+            { "label": "Private study", "value": 35 },
+            { "label": "Paid work", "value": 14 },
+            { "label": "Social life", "value": 18 },
+            { "label": "Sport", "value": 5 },
+            { "label": "Other", "value": 13 }
+          ]
+        }
+      ],
+      "points": [
+        "The two pie charts compare how first-year and final-year students at a university spend their waking time on a typical weekday.",
+        "First-year students devote the largest share, 30%, to their social life, whereas final-year students spend the most time, 35%, on private study.",
+        "Private study more than doubles from 15% to 35%, while social life falls from 30% to 18% and lectures drop from 22% to 15%.",
+        "Sport is the smallest share in both groups, shrinking from 8% to 5%, and paid work rises slightly from 10% to 14%.",
+        "Overall, students become far more focused on independent study as they approach the end of their degree."
+      ]
+    },
+    {
+      "id": "pie-05",
+      "type": "pie",
+      "title": "Composition of household waste in one city",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Household waste",
+          "slices": [
+            { "label": "Food waste", "value": 34 },
+            { "label": "Paper and card", "value": 22 },
+            { "label": "Plastics", "value": 16 },
+            { "label": "Glass", "value": 9 },
+            { "label": "Metals", "value": 5 },
+            { "label": "Other", "value": 14 }
+          ]
+        }
+      ],
+      "points": [
+        "The pie chart shows what household waste in one city is made up of.",
+        "Food waste is the largest component, at just over a third, 34%.",
+        "Paper and card make up 22%, and plastics account for 16%.",
+        "Glass represents 9%, while metals are the smallest category at only 5%, with other materials at 14%.",
+        "Overall, food and paper together form 56% of the waste, which suggests composting and paper recycling could reduce it significantly."
+      ]
+    },
+    {
+      "id": "pie-06",
+      "type": "pie",
+      "title": "Land use in one region, 1980 and 2020",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "1980",
+          "slices": [
+            { "label": "Farmland", "value": 48 },
+            { "label": "Forest", "value": 20 },
+            { "label": "Urban", "value": 6 },
+            { "label": "Grassland", "value": 16 },
+            { "label": "Wetland", "value": 7 },
+            { "label": "Other", "value": 3 }
+          ]
+        },
+        {
+          "title": "2020",
+          "slices": [
+            { "label": "Farmland", "value": 41 },
+            { "label": "Forest", "value": 17 },
+            { "label": "Urban", "value": 19 },
+            { "label": "Grassland", "value": 14 },
+            { "label": "Wetland", "value": 3 },
+            { "label": "Other", "value": 6 }
+          ]
+        }
+      ],
+      "points": [
+        "The two pie charts compare how land was used in one region in 1980 and 2020.",
+        "Farmland was the largest category in both years, although it declined from 48% to 41%.",
+        "The most striking change is urban land, which more than tripled from 6% to 19%.",
+        "Meanwhile, forest fell from 20% to 17%, grassland from 16% to 14%, and wetland more than halved from 7% to just 3%, the smallest share in 2020.",
+        "Overall, the region became much more urbanised at the expense of its natural and agricultural land."
+      ]
+    },
+    {
+      "id": "pie-07",
+      "type": "pie",
+      "title": "Sources of research funding at a university",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Research funding",
+          "slices": [
+            { "label": "Government grants", "value": 41 },
+            { "label": "Industry", "value": 23 },
+            { "label": "Charities", "value": 14 },
+            { "label": "Tuition fees", "value": 10 },
+            { "label": "Endowment", "value": 7 },
+            { "label": "Other", "value": 5 }
+          ]
+        }
+      ],
+      "points": [
+        "The pie chart illustrates where a university's research funding comes from.",
+        "Government grants are the main source, providing 41% of the total.",
+        "Industry contributes 23%, followed by charities at 14% and tuition fees at 10%.",
+        "The endowment supplies 7%, while other sources are the smallest share at 5%.",
+        "Overall, the university relies heavily on public money, although industry is also a significant partner."
+      ]
+    },
+    {
+      "id": "pie-08",
+      "type": "pie",
+      "title": "How people travel to work in one city, 2005 and 2025",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "2005",
+          "slices": [
+            { "label": "Car", "value": 58 },
+            { "label": "Bus", "value": 16 },
+            { "label": "Train", "value": 10 },
+            { "label": "Bicycle", "value": 4 },
+            { "label": "Walking", "value": 9 },
+            { "label": "Other", "value": 3 }
+          ]
+        },
+        {
+          "title": "2025",
+          "slices": [
+            { "label": "Car", "value": 39 },
+            { "label": "Bus", "value": 14 },
+            { "label": "Train", "value": 18 },
+            { "label": "Bicycle", "value": 15 },
+            { "label": "Walking", "value": 12 },
+            { "label": "Other", "value": 2 }
+          ]
+        }
+      ],
+      "points": [
+        "The two pie charts compare the ways people commuted to work in one city in 2005 and 2025.",
+        "The car was the most popular mode in both years, but its share fell considerably from 58% to 39%.",
+        "Cycling saw the biggest increase, rising from just 4% to 15%, and train use almost doubled from 10% to 18%.",
+        "Walking grew modestly from 9% to 12%, while bus use dipped slightly from 16% to 14%, and other modes remained the smallest share at 3% and then 2%.",
+        "Overall, commuters moved away from cars towards trains, bicycles and walking over the twenty years."
+      ]
+    },
+    {
+      "id": "pie-09",
+      "type": "pie",
+      "title": "Water use in a typical home",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Household water",
+          "slices": [
+            { "label": "Showers and baths", "value": 34 },
+            { "label": "Toilet flushing", "value": 26 },
+            { "label": "Laundry", "value": 14 },
+            { "label": "Kitchen taps", "value": 12 },
+            { "label": "Garden", "value": 9 },
+            { "label": "Other", "value": 5 }
+          ]
+        }
+      ],
+      "points": [
+        "The pie chart shows how water is used in a typical home.",
+        "Showers and baths account for the largest share, at 34%.",
+        "Toilet flushing is the second biggest use at 26%, followed by laundry at 14% and kitchen taps at 12%.",
+        "The garden uses 9%, while other purposes make up the smallest share at just 5%.",
+        "Overall, bathing and toilets together consume 60% of household water, so savings there would have the greatest effect."
+      ]
+    },
+    {
+      "id": "pie-10",
+      "type": "pie",
+      "title": "Causes of land degradation in two types of region",
+      "unit": "%",
+      "pies": [
+        {
+          "title": "Dry region",
+          "slices": [
+            { "label": "Overgrazing", "value": 38 },
+            { "label": "Deforestation", "value": 12 },
+            { "label": "Farming methods", "value": 30 },
+            { "label": "Urban growth", "value": 8 },
+            { "label": "Mining", "value": 5 },
+            { "label": "Other", "value": 7 }
+          ]
+        },
+        {
+          "title": "Tropical region",
+          "slices": [
+            { "label": "Overgrazing", "value": 14 },
+            { "label": "Deforestation", "value": 41 },
+            { "label": "Farming methods", "value": 25 },
+            { "label": "Urban growth", "value": 11 },
+            { "label": "Mining", "value": 6 },
+            { "label": "Other", "value": 3 }
+          ]
+        }
+      ],
+      "points": [
+        "The two pie charts compare the causes of land degradation in a dry region and a tropical region.",
+        "In the dry region overgrazing is the leading cause at 38%, whereas in the tropical region deforestation dominates at 41%.",
+        "Deforestation accounts for only 12% in the dry region, and overgrazing for just 14% in the tropical one.",
+        "Farming methods are important in both, at 30% and 25%, while mining is among the smallest causes at 5% and 6%.",
+        "Overall, the main threat to land depends heavily on climate: livestock in dry areas and tree clearance in tropical ones."
+      ]
+    }
+  ]
+}

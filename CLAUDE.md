@@ -44,7 +44,7 @@ is read aloud and you type the word it describes (10 sets, 100 clues), plus a
 **Speaking tab** that records
 you, transcribes it on this machine and marks the fluency, the fillers and the
 grammar - with every fault clickable to hear the exact moment it happened. Its
-four tasks are Free talk, Read aloud, **Re-tell Lecture** (135 items, 35 of them
+tasks include Free talk, Read aloud, Describe Image (50 charts), **Re-tell Lecture** (135 items, 35 of them
 real Open Yale recordings) and **Summarize Group Discussion** (three synthetic
 voices talking to each other), each on its own URL.
 
@@ -747,6 +747,33 @@ Added 20 Sep 2026, as a **fourth Speaking task** at `/speaking/repeat-sentence`.
   older server ignores `?sentence=` and marks the answer against an **empty** script,
   which reports every word you said as an addition. Wrong in a way that looks like your
   speaking rather than like a stale server, which is the 2 Sep failure's exact shape.
+
+### Describe Image
+
+Added 21 Sep 2026, as a seventh Speaking task at `/speaking/describe-image`.
+
+- **The images are charts stored as DATA and drawn by the page as SVG** - bar, line,
+  pie, table and process, the forms PTE overwhelmingly uses. Not generated pictures:
+  a chart drawn from its numbers is exact, themes with the page, and - the reason
+  that matters - its numbers can be handed to a model that cannot see it. 50 items,
+  one JSON file per type in `data/images/`, schema and validation in
+  `src/images.js`; the rule every directory of authored content lives under.
+- **The figures are ILLUSTRATIVE and the page says so under every chart.** Generic
+  places ("a European country", "Country A"), never a claim about the real world.
+  Processes are real and kept at textbook level.
+- **Nothing is withheld**: `/api/images` sends every chart whole, because the picture
+  IS the data and it is on screen the whole time, as in the exam. 25s to study, 40s
+  to speak, fixed (`IMAGE_TIMES`), and it rides the one recorder and clock through
+  `startPrep()`.
+- **`points` is what a strong answer covers, for the model - never a mark scheme this
+  code applies**, the lectures' rule. The copyable prompt writes the chart out in
+  words (`imageAsText()`) beside the transcript with its pauses, and asks the model
+  to check every figure stated, then write a model answer.
+- **Series colours are `--s1`..`--s6`**, the dataviz reference palette, validated for
+  colour-blind separation on both surfaces. Three light slots are under 3:1, so every
+  chart carries visible labels: values on bars, first and last values on lines,
+  figures in the pie legend.
+- `API_VERSION` went to **20** for `/api/images`.
 
 ### Pronunciation
 
