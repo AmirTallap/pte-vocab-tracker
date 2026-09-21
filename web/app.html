@@ -1406,6 +1406,40 @@
     background: var(--panel-2); color: var(--faint); border: 1px solid var(--border-2);
   }
   .stext .gap.fill { background: var(--wrong-bg); color: var(--wrong); border-color: var(--wrong); }
+
+  /* A read aloud, drawn as the SCRIPT with your reading written under it.
+     The script is plain text in the page's own colour, because it is the
+     right answer and needs no badge for being right; where something else
+     came out, it sits underneath in red - the word that was wanted and the
+     word you said are one fact, so they are stacked rather than listed. Every
+     word is a top-aligned column, so a line with a mistake on it only grows
+     downwards and the script above stays level. */
+  .stext.sread { line-height: 1.35; }
+  .stext.sread .rw {
+    display: inline-flex; flex-direction: column; vertical-align: top;
+    margin: 0 1px 10px; padding: 1px 1px; border-radius: 3px; color: var(--text);
+  }
+  .stext.sread .rw.ok, .stext.sread .rw.bad, .stext.sread .rw.add {
+    background: none; color: var(--text);          /* no badge: the script is the answer */
+  }
+  .stext.sread .rw .rgot { color: var(--wrong); font-size: 0.82em; font-weight: 600; }
+  .stext.sread .rw.gone .rtop { text-decoration: line-through; text-decoration-color: var(--wrong); }
+  .stext.sread .rw.add .rtop { color: var(--wrong); font-weight: 600; }
+  .stext.sread .rw.add.marker .rtop { color: var(--near); }
+  .stext.sread .rw.deck .rtop { border-bottom: 2px dotted var(--teal-dark); font-weight: 600; }
+  .stext.sread .rw.is-said { text-decoration: none; }
+  .stext.sread .rw.is-said .rtop {
+    text-decoration: underline; text-decoration-color: var(--focus);
+    text-decoration-thickness: 3px; text-underline-offset: 4px;
+  }
+  .stext.sread .sfrom, .stext.sread .gap { margin-top: 4px; vertical-align: top; }
+  .stext.sread [data-word] { cursor: pointer; }
+  .slegend i.lg-plain { background: var(--panel); border-color: var(--text); }
+  .slegend .lg-under { color: var(--wrong); font-weight: 600; }
+  /* Which sound a click on a word makes. */
+  .sclick { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center;
+            margin: 0 0 10px; font-size: 14px; color: var(--muted); }
+  .sclick label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; color: var(--text); }
   .stext .gap.hesi { background: var(--near-bg); color: var(--near); border-color: var(--near); }
 
   .slist { margin: 0; padding: 0; list-style: none; }
@@ -2280,7 +2314,7 @@
       // recording, the transcript and the report are all deliberately
       // unsaved - see the speaking block for why - so there is nothing else
       // here that would survive a reload even if it wanted to.
-      speaking: { mode: "free", lecture: null, source: "all" },
+      speaking: { mode: "free", lecture: null, source: "all", click: "mine" },
       // The Essays tab: which prompt, the countdown, and the draft. The draft
       // is here because the server keeps no essays (see src/essays.js), and
       // finding that out by losing twenty minutes to a stray reload would be
@@ -6192,6 +6226,16 @@
       speak(say.getAttribute("data-say"), say);
       return;
     }
+    // "Clicking a word plays: the model voice". Only WORDS - a gap chip or a
+    // sentence pointer is a stretch of your recording and has no model
+    // version, so those fall through to the recording whatever is chosen.
+    var wd = ev.target.closest ? ev.target.closest(".stext [data-word]") : null;
+    if (wd && settings.speaking.click === "model") {
+      stopPlayback();
+      stopSpeaking();
+      speak(wd.getAttribute("data-word"), wd);
+      return;
+    }
     var t = ev.target.closest ? ev.target.closest("[data-from]") : null;
     if (!t) return;
     hushVoice();
@@ -6204,6 +6248,18 @@
     playSlice(parseFloat(t.getAttribute("data-from")), to,
               t.getAttribute("data-pad") ? parseFloat(t.getAttribute("data-pad")) : 0.06,
               t);
+  });
+
+  /* The my-recording / model-voice switch. Delegated like everything else in
+     the report, and saved with the other view settings. The report is redrawn
+     so the hint under it says what a click now does. */
+  speakEl("speakReport").addEventListener("change", function (ev) {
+    if (!ev.target || ev.target.name !== "sclick") return;
+    settings.speaking.click = ev.target.value === "model" ? "model" : "mine";
+    saveSettings();
+    stopPlayback();
+    stopSpeaking();
+    renderSpeakReport();
   });
 
   /* The three controls under the paragraph. Delegated, because the row is
@@ -6541,6 +6597,19 @@
      themselves what the unmarked majority means, and the honest answer -
      nothing was found in it - is worth a line of its own. */
   function legendHtml(rep) {
+    if (rep.read && mic.script) {
+      var out2 = '<div class="slegend">' +
+        '<span><i class="lg-plain"></i>the script, as it should be read</span>' +
+        '<span><span class="lg-under">red underneath</span> what you said instead</span>' +
+        '<span><span class="lg-under">&mdash;</span> not heard at all</span>' +
+        '<span><span class="lg-under">red on its own</span> a word you added</span>' +
+        '<span><i class="lg-deck"></i>one of your 491 - you produced it</span>';
+      if ((rep.fluency.gaps || []).length) {
+        out2 += '<span><i class="lg-fill"></i>a chip is a gap between words: ' +
+          "<b>uh</b> means a sound was held in it, a bare number means silence</span>";
+      }
+      return out2 + '<span>&#9654; plays your recording from that sentence to the end</span></div>';
+    }
     // Green means two different things in the two tasks, and saying which is
     // the difference between a legend and a decoration.
     var bits = [
@@ -6598,8 +6667,134 @@
     return starts;
   }
 
+  /* Which recorded words are deck words. The stem test the server used,
+     loosely mirrored so the highlight lands on the word you actually said. */
+  function deckAtOf(rep) {
+    var deckAt = {}, deckKeys = {};
+    rep.deck.forEach(function (d) { deckKeys[d.word.toLowerCase()] = true; });
+    normWords(rep).forEach(function (w, i) {
+      if (deckKeys[w]) { deckAt[i] = true; return; }
+      ["s", "es", "ed", "ing", "d", "ly"].forEach(function (suf) {
+        if (w.length > suf.length + 2 && w.slice(-suf.length) === suf &&
+            deckKeys[w.slice(0, -suf.length)]) deckAt[i] = true;
+      });
+    });
+    return deckAt;
+  }
+
+  /* EVERY gap, keyed by the recorded word it follows - not only the ones with
+     a verdict attached. A pause the page decided was unremarkable is still a
+     pause you may want to hear. */
+  function gapsAfterOf(rep) {
+    var gapAfter = {};
+    (rep.fluency.gaps || []).forEach(function (g) {
+      if (g.after == null) return;
+      gapAfter[g.after] = {
+        cls: g.kind === "filled" ? "fill" : g.kind === "hesitation" ? "hesi" : "",
+        txt: g.kind === "filled" ? "uh " + g.len + "s" : g.len + "s",
+        from: g.at, to: g.to, len: g.len, voiced: g.voiced, tone: g.tone, kind: g.kind
+      };
+    });
+    return gapAfter;
+  }
+
+  function gapChipHtml(g) {
+    // The evidence, not just the verdict. `tone` is how periodic the most
+    // voice-like moment in the gap was, 0 to 1: a buzzing vowel sits near
+    // 0.95, breath and room noise near 0.2. If a chip looks wrong, this is
+    // the number that says why - and the chip plays back, so you can check.
+    // Say which test it failed, not a vague "too low". A gap can score high
+    // on voicing for one instant - a stray periodic-looking moment - and
+    // still be silence, because nothing was HELD; reporting that as low
+    // voicing would be a lie the tooltip could be caught in.
+    var tip = g.kind === "filled"
+      ? g.len + "s gap - " + g.voiced + "s of held sound, voicing " + g.tone +
+        ". Click to hear it."
+      : g.len + "s, no sound held in it (best voicing " + g.tone + ")" +
+        ". Click to hear it.";
+    return '<span class="gap ' + g.cls + '" data-from="' + g.from + '" data-to="' + g.to +
+           '" data-pad="0.12" title="' + tip + '">' + esc(g.txt) + "</span> ";
+  }
+
+  function sentencePointerHtml(w) {
+    // Plays from here to the end of the recording - "from this sentence
+    // on", not "this sentence alone". data-end is read in the handler,
+    // because only the decoded buffer knows where the end is.
+    return '<span class="sfrom" data-from="' + w.start + '" data-end="1" data-pad="0" ' +
+           'title="Play from here to the end">&#9654;</span>';
+  }
+
+  /* The word a click should say in the model voice: the text without the
+     punctuation stuck to it. */
+  function bareWord(t) {
+    return String(t || "").trim().replace(/^[^A-Za-z0-9']+|[^A-Za-z0-9']+$/g, "");
+  }
+
+  /*
+   * A read aloud, drawn as the SCRIPT, with your reading written under it.
+   *
+   * The paragraph is what was on screen, word for word and in its own
+   * capitals and punctuation - the right answer, in plain text. Wherever
+   * something else came out, it is written underneath in red: the wanted word
+   * and the said word are one fact, so they are stacked, not listed. A word
+   * never said gets a red dash underneath; a word you added that the script
+   * never had is red on its own. Each word still plays its slice of the
+   * recording, and still carries `w` so the playhead underlines it.
+   *
+   * Walks the ops exactly as annotateScript() does - `m` script words and `n`
+   * recorded words per op - so the two readings of one report cannot disagree
+   * about which word went wrong.
+   */
+  function readTranscriptHtml(rep) {
+    var script = mic.script.split(/\s+/).filter(function (w) { return /[a-z0-9']/i.test(w); });
+    var deckAt = deckAtOf(rep), gapAfter = gapsAfterOf(rep), filler = {};
+    rep.fillers.certain.forEach(function (f) { filler[f.at] = true; });
+    var starts = {};
+    sentenceStarts(rep).forEach(function (i) { starts[i] = true; });
+
+    var out = "", gi = 0, wi = 0;
+    function said(i, n) {
+      return rep.words.slice(i, i + n).map(function (w) { return String(w.text).trim(); }).join(" ");
+    }
+    function tail(last) { if (gapAfter[last]) out += gapChipHtml(gapAfter[last]); }
+
+    rep.read.ops.forEach(function (o) {
+      if (o.op === "missed") {
+        var gone = script[wi++] || o.want;
+        out += '<span class="rw gone" data-word="' + esc(bareWord(gone)) +
+               '" title="not heard at all"><span class="rtop">' + esc(gone) +
+               '</span><span class="rgot">&mdash;</span></span> ';
+        return;
+      }
+      var n = o.op === "added" ? 1 : (o.n || 1), w = rep.words[gi];
+      if (!w) { wi += o.op === "added" ? 0 : (o.m || 1); return; }
+      if (starts[gi]) out += sentencePointerHtml(w);
+      var last = rep.words[Math.min(rep.words.length - 1, gi + n - 1)];
+      var stamp = ' data-from="' + w.start + '" data-to="' + last.end + '"';
+
+      if (o.op === "added") {
+        out += '<span class="w rw add' + (filler[gi] ? " marker" : "") + '"' + stamp +
+               ' data-word="' + esc(bareWord(w.text)) + '" title="said, but not in the script">' +
+               '<span class="rtop">' + esc(said(gi, 1)) + "</span></span> ";
+      } else {
+        var m = o.m || 1, top = script.slice(wi, wi + m).join(" ") || o.want;
+        var cls = "w rw" + (o.op === "misread" ? " bad" : " ok") + (deckAt[gi] ? " deck" : "");
+        out += '<span class="' + cls + '"' + stamp + ' data-word="' + esc(bareWord(top)) + '" title="' +
+               w.start.toFixed(2) + "s - " + last.end.toFixed(2) + 's"><span class="rtop">' +
+               esc(top) + "</span>" +
+               (o.op === "misread" ? '<span class="rgot">' + esc(said(gi, n)) + "</span>" : "") +
+               "</span> ";
+        wi += m;
+      }
+      tail(gi + n - 1);
+      gi += n;
+    });
+    return '<div class="stext sread">' + out + "</div>";
+  }
+
   function transcriptHtml(rep) {
-    var bad = {}, marker = {}, deckAt = {};
+    if (rep.read && mic.script) return readTranscriptHtml(rep);
+    var bad = {}, marker = {};
     var t = normWords(rep);
 
     rep.grammar.forEach(function (g) {
@@ -6610,18 +6805,7 @@
     });
     rep.repeats.forEach(function (r) { bad[r.at] = true; });
     rep.fillers.certain.forEach(function (f) { marker[f.at] = true; });
-
-    var deckKeys = {};
-    rep.deck.forEach(function (d) { deckKeys[d.word.toLowerCase()] = true; });
-    t.forEach(function (w, i) {
-      // The stem test the server used, loosely mirrored so the highlight lands
-      // on the word you actually said.
-      if (deckKeys[w]) { deckAt[i] = true; return; }
-      ["s", "es", "ed", "ing", "d", "ly"].forEach(function (suf) {
-        if (w.length > suf.length + 2 && w.slice(-suf.length) === suf &&
-            deckKeys[w.slice(0, -suf.length)]) deckAt[i] = true;
-      });
-    });
+    var deckAt = deckAtOf(rep);
 
     // A word that was misread against the script is wrong, whatever else is
     // true of it - so this runs after the grammar marks and adds to them.
@@ -6635,30 +6819,14 @@
       });
     }
 
-    // EVERY gap, not only the ones with a verdict attached. A pause the page
-    // decided was unremarkable is still a pause you may want to hear.
-    var gapAfter = {};
-    (rep.fluency.gaps || []).forEach(function (g) {
-      if (g.after == null) return;
-      gapAfter[g.after] = {
-        cls: g.kind === "filled" ? "fill" : g.kind === "hesitation" ? "hesi" : "",
-        txt: g.kind === "filled" ? "uh " + g.len + "s" : g.len + "s",
-        from: g.at, to: g.to, len: g.len, voiced: g.voiced, tone: g.tone, kind: g.kind
-      };
-    });
+    var gapAfter = gapsAfterOf(rep);
 
     var starts = {}, list = sentenceStarts(rep);
     list.forEach(function (i) { starts[i] = true; });
 
     var out = "";
     rep.words.forEach(function (w, i) {
-      if (starts[i]) {
-        // Plays from here to the end of the recording - "from this sentence
-        // on", not "this sentence alone". data-end is read in the handler,
-        // because only the decoded buffer knows where the end is.
-        out += '<span class="sfrom" data-from="' + w.start + '" data-end="1" data-pad="0" ' +
-               'title="Play from here to the end">&#9654;</span>';
-      }
+      if (starts[i]) out += sentencePointerHtml(w);
       var cls = "w";
       if (bad[i]) cls += " bad";
       else if (marker[i]) cls += " marker";
@@ -6666,27 +6834,11 @@
       if (deckAt[i]) cls += " deck";
 
       out += '<span class="' + cls + '" data-from="' + w.start + '" data-to="' + w.end +
+             '" data-word="' + esc(bareWord(w.text)) +
              '" title="' + w.start.toFixed(2) + "s - " + w.end.toFixed(2) + 's">' +
              esc(String(w.text).trim()) + "</span> ";
 
-      if (gapAfter[i]) {
-        var g = gapAfter[i];
-        // The evidence, not just the verdict. `tone` is how periodic the most
-        // voice-like moment in the gap was, 0 to 1: a buzzing vowel sits near
-        // 0.95, breath and room noise near 0.2. If a chip looks wrong, this is
-        // the number that says why - and the chip plays back, so you can check.
-        // Say which test it failed, not a vague "too low". A gap can score high
-        // on voicing for one instant - a stray periodic-looking moment - and
-        // still be silence, because nothing was HELD; reporting that as low
-        // voicing would be a lie the tooltip could be caught in.
-        var tip = g.kind === "filled"
-          ? g.len + "s gap - " + g.voiced + "s of held sound, voicing " + g.tone +
-            ". Click to hear it."
-          : g.len + "s, no sound held in it (best voicing " + g.tone + ")" +
-            ". Click to hear it.";
-        out += '<span class="gap ' + g.cls + '" data-from="' + g.from + '" data-to="' + g.to +
-               '" data-pad="0.12" title="' + tip + '">' + esc(g.txt) + "</span> ";
-      }
+      if (gapAfter[i]) out += gapChipHtml(gapAfter[i]);
     });
     return '<div class="stext">' + out + "</div>";
   }
@@ -6835,11 +6987,22 @@
         ". Read them against what you said below.");
     }
 
-    html += sec("What you said", legendHtml(rep) + transcriptHtml(rep) + row,
-      '<b>Click any word or gap to hear exactly that slice of your recording</b>, and the word ' +
-      'being said is underlined as it plays. The cut is exact to the sample; where it is cut is ' +
-      'the transcriber\u2019s alignment, good to about a fiftieth of a second. Use ' +
-      '<b>0.5&times;</b> in the bar above for the close listening.');
+    var model = settings.speaking.click === "model";
+    var clickHtml = '<div class="sclick" role="radiogroup" aria-label="What a click on a word plays">' +
+      "Clicking a word plays:" +
+      '<label><input type="radio" name="sclick" value="mine"' + (model ? "" : " checked") +
+      "> my recording</label>" +
+      '<label><input type="radio" name="sclick" value="model"' + (model ? " checked" : "") +
+      "> the model voice</label></div>";
+    html += sec("What you said", clickHtml + legendHtml(rep) + transcriptHtml(rep) + row,
+      (model
+        ? '<b>Click any word to hear it said properly in the model voice</b> - in a read aloud, ' +
+          'the script\u2019s word, never the one that came out. The gap chips and &#9654; still ' +
+          'play your recording: a silence has no model version.'
+        : '<b>Click any word or gap to hear exactly that slice of your recording</b>, and the word ' +
+          'being said is underlined as it plays. The cut is exact to the sample; where it is cut is ' +
+          'the transcriber\u2019s alignment, good to about a fiftieth of a second.') +
+      ' Use <b>0.5&times;</b> in the bar above for the close listening.');
 
     if (rep.read) {
       html += sec("Against the script", diffHtmlWords(rep, rep.read) + faultListHtml(rep),

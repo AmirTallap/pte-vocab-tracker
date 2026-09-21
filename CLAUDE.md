@@ -515,6 +515,19 @@ view that exists on **one host only**.
   there is no reference at all: nothing was found wrong with it. Those are
   different claims and the legend says which is in force rather than letting
   one colour stand for both.
+- **In a read aloud, "What you said" is drawn as the SCRIPT, with your reading under
+  it** (21 Sep 2026, by request). The paragraph is the script word for word in the
+  page's own text colour - no green badges, because the script is the right answer -
+  and wherever something else came out, it is written underneath in red; a word never
+  said gets a red dash, a word added is red on its own. `readTranscriptHtml()` walks
+  the ops with the same `m`/`n` counting as `annotateScript()`, so the two cannot
+  disagree about which word went wrong. Free talk has no script and keeps the
+  transcript view.
+- **A click on a word plays your recording OR the model voice**, one switch above the
+  paragraph, `settings.speaking.click` (`mine` | `model`, missing means mine). The
+  model voice says the SCRIPT's word, never the one that came out - "Hear it
+  properly"'s rule. Gap chips and `▶` always play the recording: a silence has no
+  model version.
 - **A `▶` at the head of each sentence plays from there to the END of the
   recording**, while clicking a word still plays only that word. Both are
   wanted and they are not the same gesture: one is "what exactly did that sound
