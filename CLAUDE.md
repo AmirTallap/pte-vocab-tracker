@@ -526,7 +526,8 @@ view that exists on **one host only**.
 - **A click on a word plays your recording OR the model voice**, one switch above the
   paragraph, `settings.speaking.click` (`mine` | `model`, missing means mine). The
   model voice says the SCRIPT's word, never the one that came out - "Hear it
-  properly"'s rule. Gap chips and `▶` always play the recording: a silence has no
+  properly"'s rule. `▶` follows the switch too, reading from that sentence to the end
+  (`data-sayfrom`); only the gap chips always play the recording - a silence has no
   model version.
 - **A `▶` at the head of each sentence plays from there to the END of the
   recording**, while clicking a word still plays only that word. Both are

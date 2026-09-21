@@ -6288,9 +6288,17 @@
       speak(say.getAttribute("data-say"), say);
       return;
     }
-    // "Clicking a word plays: the model voice". Only WORDS - a gap chip or a
-    // sentence pointer is a stretch of your recording and has no model
-    // version, so those fall through to the recording whatever is chosen.
+    // "Clicking a word plays: the model voice". Words, and the sentence
+    // pointers, which read from there to the end. A gap chip is a stretch of
+    // silence and has no model version, so it plays the recording whatever
+    // is chosen.
+    var from = ev.target.closest ? ev.target.closest(".stext [data-sayfrom]") : null;
+    if (from && from.getAttribute("data-sayfrom") && settings.speaking.click === "model") {
+      stopPlayback();
+      stopSpeaking();
+      speak(from.getAttribute("data-sayfrom"), from);
+      return;
+    }
     var wd = ev.target.closest ? ev.target.closest(".stext [data-word]") : null;
     if (wd && settings.speaking.click === "model") {
       stopPlayback();
@@ -6675,7 +6683,7 @@
         out2 += '<span><i class="lg-fill"></i>a chip is a gap between words: ' +
           "<b>uh</b> means a sound was held in it, a bare number means silence</span>";
       }
-      return out2 + '<span>&#9654; plays your recording from that sentence to the end</span></div>';
+      return out2 + '<span>&#9654; plays from that sentence to the end</span></div>';
     }
     // Green means two different things in the two tasks, and saying which is
     // the difference between a legend and a decoration.
@@ -6783,12 +6791,14 @@
            '" data-pad="0.12" title="' + tip + '">' + esc(g.txt) + "</span> ";
   }
 
-  function sentencePointerHtml(w) {
-    // Plays from here to the end of the recording - "from this sentence
-    // on", not "this sentence alone". data-end is read in the handler,
-    // because only the decoded buffer knows where the end is.
+  function sentencePointerHtml(w, rest) {
+    // Plays from here to the end - "from this sentence on", not "this
+    // sentence alone". data-end is read in the handler, because only the
+    // decoded buffer knows where the recording ends. `rest` is the same
+    // stretch as TEXT, for when the switch says the model voice: in a read
+    // aloud the script's words from here on, never the ones that came out.
     return '<span class="sfrom" data-from="' + w.start + '" data-end="1" data-pad="0" ' +
-           'title="Play from here to the end">&#9654;</span>';
+           'data-sayfrom="' + esc(rest || "") + '" title="Play from here to the end">&#9654;</span>';
   }
 
   /* The word a click should say in the model voice: the text without the
@@ -6835,7 +6845,7 @@
       }
       var n = o.op === "added" ? 1 : (o.n || 1), w = rep.words[gi];
       if (!w) { wi += o.op === "added" ? 0 : (o.m || 1); return; }
-      if (starts[gi]) out += sentencePointerHtml(w);
+      if (starts[gi]) out += sentencePointerHtml(w, script.slice(wi).join(" "));
       var last = rep.words[Math.min(rep.words.length - 1, gi + n - 1)];
       var stamp = ' data-from="' + w.start + '" data-to="' + last.end + '"';
 
@@ -6893,7 +6903,11 @@
 
     var out = "";
     rep.words.forEach(function (w, i) {
-      if (starts[i]) out += sentencePointerHtml(w);
+      if (starts[i]) {
+        out += sentencePointerHtml(w, rep.words.slice(i).map(function (x) {
+          return String(x.text).trim();
+        }).join(" "));
+      }
       var cls = "w";
       if (bad[i]) cls += " bad";
       else if (marker[i]) cls += " marker";
@@ -7063,9 +7077,10 @@
       "> the model voice</label></div>";
     html += sec("What you said", clickHtml + legendHtml(rep) + transcriptHtml(rep) + row,
       (model
-        ? '<b>Click any word to hear it said properly in the model voice</b> - in a read aloud, ' +
-          'the script\u2019s word, never the one that came out. The gap chips and &#9654; still ' +
-          'play your recording: a silence has no model version.'
+        ? '<b>Click any word to hear it said properly in the model voice</b>, and &#9654; to hear ' +
+          'it read from that sentence to the end - in a read aloud, the script\u2019s words, never ' +
+          'the ones that came out. The gap chips still play your recording: a silence has no ' +
+          'model version.'
         : '<b>Click any word or gap to hear exactly that slice of your recording</b>, and the word ' +
           'being said is underlined as it plays. The cut is exact to the sample; where it is cut is ' +
           'the transcriber\u2019s alignment, good to about a fiftieth of a second.') +
