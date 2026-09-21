@@ -760,15 +760,15 @@ Added 21 Sep 2026, as a sixth Speaking task at `/speaking/pronunciation`.
   yourself, Previous / Next. The take goes up with `&practice=1`, which counts
   `tries`/`clear` against that word and never files anything - an older server would
   file it as a Read Aloud, hence `API_VERSION` **18**.
-- **It is the one task that records with the browser's noise suppression, echo
-  cancellation and gain control ON.** Everything else asks for all three OFF, because
-  suppression eats the quiet "uh" the gap analysis looks for. This task runs no gap
-  analysis, so there is nothing to lose. Measured before deciding (21 Sep 2026):
-  Whisper read a lecture clip word-perfect with pink noise down to ~5dB SNR and 99% at
-  -1dB, with or without an ffmpeg `afftdn` denoiser in front of it - noise is not what
-  costs a transcript, so there is deliberately NO denoiser in `decode()`. (`afftdn`
-  also delays the signal by 25ms, which would put Whisper's timestamps out of step
-  with the raw samples `pauses()` measures.)
+- **It records RAW, like every other task: no noise suppression, echo cancellation
+  or gain control.** For one day (21 Sep 2026) this task had all three on, and it was
+  taken back by request the same evening: suppression makes a voice sound processed,
+  and "Hear yourself" is for hearing how you actually sound. It does not buy accuracy
+  either. Measured that day: Whisper read a lecture clip word-perfect with pink noise
+  down to ~5dB SNR and 99% at -1dB, with or without an ffmpeg `afftdn` denoiser in
+  front of it - noise is not what costs a transcript, so there is deliberately NO
+  denoiser in `decode()`. (`afftdn` also delays the signal by 25ms, which would put
+  Whisper's timestamps out of step with the raw samples `pauses()` measures.)
 - **A word leaves the list only by Delete, and Delete is for good**:
   `progress.pronounce.deleted[key]`, so it is never filed again. Often the reason for
   deleting is that the transcriber mishears it however it is said; a word that came

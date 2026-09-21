@@ -5859,21 +5859,17 @@
       return speakFail("this browser cannot record audio");
     }
     navigator.mediaDevices.getUserMedia({
-      // The three that matter for a transcript, all off: they are tuned to
-      // make a voice pleasant on a call, and suppression in particular eats
-      // exactly the quiet "uh" the gap analysis is looking for.
+      // The three that matter for a transcript, all off, for EVERY task: they
+      // are tuned to make a voice pleasant on a call, and suppression in
+      // particular eats exactly the quiet "uh" the gap analysis is looking for.
       //
-      // The Pronunciation task is the exception, and the only one: it asks
-      // whether ONE word was heard as itself, runs no gap analysis at all, and
-      // its "Hear yourself" is more useful without the room's hiss under it.
-      // Measured on 21 Sep 2026 before deciding anything else: Whisper read a
-      // lecture clip word-perfect with pink noise mixed in down to about 5dB
-      // SNR, and 99% at -1dB, with or without a denoiser in front of it - so
-      // noise is not what costs a transcript, and the raw capture stays for
-      // every task that listens for fillers.
-      audio: mic.mode === "pron"
-        ? { echoCancellation: true, noiseSuppression: true, autoGainControl: true }
-        : { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
+      // The Pronunciation task had them on for a day (21 Sep 2026) and it was
+      // taken back by request: suppression makes a voice sound processed, and
+      // "Hear yourself" is for hearing how you actually sound. Nor does it buy
+      // accuracy - measured that same day, Whisper read a lecture clip
+      // word-perfect with pink noise mixed in down to about 5dB SNR, and 99%
+      // at -1dB, with or without a denoiser in front of it.
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
     }).then(function (stream) {
       // Belt and braces against the same class of failure: whatever was open
       // before this call is closed now, so exactly one stream and exactly one
