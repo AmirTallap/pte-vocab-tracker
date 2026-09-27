@@ -8,6 +8,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600&display=swap">
+<script>
+  /* The theme is applied here, before the stylesheet paints anything, so a dark
+     choice never flashes the light page first. It reads settings.theme out of
+     the same saved object loadSettings() does; missing means follow the OS,
+     which is what the prefers-color-scheme block below does on its own. */
+  try {
+    var t0 = (JSON.parse(localStorage.getItem("pte-vocab-view")) || {}).theme;
+    if (t0 === "light" || t0 === "dark") document.documentElement.setAttribute("data-theme", t0);
+  } catch (e) {}
+</script>
 <style>
   /* ------------------------------------------------------------------
      Pearson PTE test-delivery interface: navy chrome bar, grey ground,
@@ -95,6 +105,11 @@
     --focus:      #2CC3BC;
     --gmink: #AEB8C4; --gm1: #D8AE3E; --gm2: #EB8440; --gm3: #F0604E;
   }
+  /* A chosen theme also decides the browser's own controls - scrollbars, the
+     native <select> lists, date pickers - which the meta tag would otherwise
+     draw from the OS setting, dark on a light page or the other way round. */
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"]  { color-scheme: dark; }
 
   * { box-sizing: border-box; }
 
@@ -131,6 +146,18 @@
     font-size: 12px; color: #C6D6E4; font-variant-numeric: tabular-nums;
   }
   .topbar .status b { color: #FFFFFF; font-weight: 700; }
+  /* The Light | Dark switch. Its own look rather than .seg's, because .seg
+     marks the pressed button in navy and this bar IS navy. */
+  .themeseg { display: flex; border: 1px solid rgba(255,255,255,.35); }
+  .themeseg button {
+    background: transparent; color: #C6D6E4; border: 0; cursor: pointer;
+    font: inherit; font-size: 11.5px; padding: 3px 10px;
+  }
+  .themeseg button + button { border-left: 1px solid rgba(255,255,255,.35); }
+  .themeseg button[aria-pressed="true"] { background: var(--teal); color: #0A2540; font-weight: 700; }
+  .themeseg button:hover:not([aria-pressed="true"]) { color: #FFFFFF; background: rgba(255,255,255,.08); }
+  .themeseg button:focus-visible { outline: 2px solid #FFFFFF; outline-offset: -2px; }
+  @media print { .themeseg { display: none; } }
 
   /* --------------------------------------------------------- instruction */
   .instruction {
@@ -469,7 +496,7 @@
     .stimulus { padding: 26px 14px 22px; }
     .btn { min-width: 0; flex: 1; padding: 12px 10px; }
     .actionbar { padding: 10px; }
-    .topbar .status { gap: 10px; }
+    .topbar .status { gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
   }
   [hidden] { display: none !important; }
 
@@ -1745,6 +1772,12 @@
   <div class="status">
     <div><b id="countdown"></b></div>
     <div>Item <b id="position">1</b></div>
+    <!-- In the top bar because that is on every page. Not [data-set]: that
+         handler rebuilds the drill, and a colour change must not. -->
+    <div class="themeseg" id="themeSeg" role="group" aria-label="Theme">
+      <button data-theme-pick="light">Light</button>
+      <button data-theme-pick="dark">Dark</button>
+    </div>
   </div>
 </div>
 
@@ -3450,6 +3483,35 @@
   }
 
   /* -------------------------------------------------------------- wiring */
+
+  /* The theme switch. settings.theme is "light" | "dark", or missing for
+     "follow the OS" - which is what every browser that saved settings before
+     the switch existed has, so nobody's page changes colour under them until
+     they press it. Until then the button shown pressed is whichever theme the
+     OS is actually giving, so the switch never disagrees with the screen. */
+  var darkOS = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function themeNow() {
+    if (settings.theme === "light" || settings.theme === "dark") return settings.theme;
+    return darkOS && darkOS.matches ? "dark" : "light";
+  }
+  function applyTheme() {
+    if (settings.theme === "light" || settings.theme === "dark")
+      document.documentElement.setAttribute("data-theme", settings.theme);
+    else document.documentElement.removeAttribute("data-theme");
+    var now = themeNow();
+    document.querySelectorAll("[data-theme-pick]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.themePick === now));
+    });
+  }
+  document.querySelectorAll("[data-theme-pick]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      settings.theme = b.dataset.themePick;
+      saveSettings();
+      applyTheme();
+    });
+  });
+  if (darkOS && darkOS.addEventListener) darkOS.addEventListener("change", applyTheme);
+  applyTheme();
 
   document.querySelectorAll("[data-set]").forEach(function (b) {
     b.addEventListener("click", function () {
