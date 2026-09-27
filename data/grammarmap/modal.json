@@ -1,0 +1,376 @@
+{
+  "id": "modal",
+  "name": "Modality and hedging",
+  "order": 5,
+  "summary": "How to say how necessary, how possible or how certain something is, so that each claim says exactly as much as you can support.",
+  "stations": [
+    {
+      "id": "modal.obligation",
+      "title": "Obligation and advice",
+      "summary": "must, have to, should, need to: how strong is the pressure?",
+      "sections": [
+        {
+          "heading": "The verb after a modal is always plain",
+          "body": "A **modal verb** is a small helper that sits in front of a main verb: `must`, `should`, `can`, `may`, `might`, `could`, `will`, `would`. The main verb after it is always the plain form. That means no `to`, no -s, no -ed and no -ing. So you write \"governments must act\", never \"must to act\" or \"must acts\".\n\nThe modal itself never changes either. It is \"he should\" and \"they should\", with no -s on `should`.\n\n`have to` and `need to` are different. They are ordinary verbs, so they keep their `to` and they change with the subject: \"the council has to\", \"cities need to\".\n\nTo check, find each modal and look at the very next verb. If it has `to`, -s, -ed or -ing on it, take that off.",
+          "examples": [
+            {
+              "right": "Governments must invest more in public transport.",
+              "wrong": "Governments must to invest more in public transport.",
+              "note": "After must, the verb comes straight away, with no to."
+            },
+            {
+              "right": "The report should include a clear conclusion.",
+              "wrong": "The report should includes a clear conclusion.",
+              "note": "The verb after a modal never takes -s, even with a singular subject."
+            },
+            {
+              "right": "Each university has to publish its admission criteria.",
+              "wrong": "Each university have to publish its admission criteria.",
+              "note": "Have to is an ordinary verb, so it agrees with a singular subject: has to."
+            }
+          ]
+        },
+        {
+          "heading": "How strong is the pressure?",
+          "body": "These words are not interchangeable. They say how much choice there is.\n\n`must` and `have to` mean it is necessary: there is no real choice. `have to` often reports a rule that exists outside you, such as a law or a regulation. `must` often gives your own strong view.\n\n`should` means it is the right thing or the best advice, but a choice still exists. In an essay, `should` is the natural word for recommending a policy.\n\n`need to` means it is necessary for a result: if you want X, you need to do Y.\n\nA common problem in essays is using `must` for every recommendation. It sounds like a list of orders and it overstates your case. Save `must` for things that really cannot be avoided.",
+          "examples": [
+            {
+              "right": "In my view, schools should teach basic financial skills.",
+              "wrong": null,
+              "note": "Should recommends something as right without claiming there is no choice."
+            },
+            {
+              "right": "International students have to obtain a visa before they arrive.",
+              "wrong": null,
+              "note": "Have to reports a rule that exists outside the writer's opinion."
+            },
+            {
+              "right": "If cities want cleaner air, they need to reduce traffic.",
+              "wrong": null,
+              "note": "Need to links the action to the result it is necessary for."
+            },
+            {
+              "right": "Employers should offer flexible hours where possible.",
+              "wrong": "Employers must offer flexible hours where possible.",
+              "note": "Where possible shows this is advice, so should fits and must contradicts it."
+            }
+          ]
+        },
+        {
+          "heading": "The negatives mean different things",
+          "body": "In the negative these words separate completely, and a wrong choice changes your meaning.\n\n`must not` (or `mustn't`) means it is **forbidden**. Do not do it.\n\n`do not have to`, `do not need to` and `needn't` mean it is **not necessary**. You may do it or not; it is your choice.\n\n`should not` means it is a bad idea.\n\nSo \"students must not attend\" means attending is banned, while \"students do not have to attend\" means attending is optional. When you write a negative, ask yourself: am I saying it is banned, or only that it is not required?",
+          "examples": [
+            {
+              "right": "Researchers must not publish the names of participants.",
+              "wrong": null,
+              "note": "Must not means it is forbidden."
+            },
+            {
+              "right": "Students do not have to attend every lecture, but most do.",
+              "wrong": "Students must not attend every lecture, but most do.",
+              "note": "Do not have to means it is optional; must not would mean attending is banned."
+            },
+            {
+              "right": "Governments should not rely on a single source of energy.",
+              "wrong": null,
+              "note": "Should not says it is a bad idea, not that it is illegal."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"must to reduce\". Write \"must reduce\", because a modal is followed by the plain verb with no to.",
+        "Writing \"it should goes\" or \"she shoulds\". Write \"it should go\" and \"she should\", because neither the modal nor the verb after it takes -s.",
+        "Writing \"the city have to\". Write \"the city has to\", because have to is an ordinary verb and agrees with a singular subject.",
+        "Writing \"students mustn't pay\" when paying is optional. Write \"students don't have to pay\", because mustn't means forbidden, not unnecessary.",
+        "Writing must in every recommendation. Write should for advice, because must sounds like an order and overstates your position."
+      ],
+      "arabic": "Arabic says necessity with words like يجب أن and لا بد أن, and after them comes أن and a fully conjugated verb: يجب أن يذهب, literally \"it is necessary that he goes\". Carrying that pattern into English gives both common mistakes at once: the أن turns into \"to\" (\"must to go\"), and the person ending on the verb turns into -s (\"should goes\"). English modals take neither.",
+      "check": "Circle each modal: is the next verb plain, with no to and no -s, and is the strength (must, should, need to) what you really mean?"
+    },
+    {
+      "id": "modal.possibility",
+      "title": "Possibility and ability",
+      "summary": "may, might, could, can, be able to: what is possible, and who is able.",
+      "sections": [
+        {
+          "heading": "Can and be able to: ability",
+          "body": "`can` says someone is able to do something, or that something is generally possible: \"many people can now work from home\".\n\n`can` has only two forms, `can` and `could`. It has no future and no -ing form, and it cannot follow another modal. So when you need the future, or when another modal comes first, use `be able to` instead: \"will be able to\", \"may be able to\", \"should be able to\".\n\nFor the past, `could` describes a general ability over a period: \"in the past, few people could read\". For one specific success on one occasion, use `was able to` or `managed to`, not `could`: \"the team was able to reach the village\".\n\nTo check, look for two modals side by side. `will can` and `may can` are never English.",
+          "examples": [
+            {
+              "right": "In the future, patients will be able to monitor their health at home.",
+              "wrong": "In the future, patients will can monitor their health at home.",
+              "note": "Two modals cannot stand together, so the future of can is will be able to."
+            },
+            {
+              "right": "Despite the storm, the rescue team was able to reach the village.",
+              "wrong": "Despite the storm, the rescue team could reach the village.",
+              "note": "For one specific success in the past, use was able to; could only suggests general ability."
+            },
+            {
+              "right": "A century ago, only a small part of the population could read.",
+              "wrong": null,
+              "note": "Could describes a general ability over a period in the past."
+            }
+          ]
+        },
+        {
+          "heading": "May, might and could: something is possible",
+          "body": "These three say that something is **possible but not certain**. They are your main tools for predictions in an essay. `may` is a little more formal. `might` sounds slightly less sure. `could` presents one possibility among others.\n\n`can` is different from `may`. `can` says what is generally true sometimes: \"stress can cause illness\" means that stress sometimes does. `may` is usually about one particular case: \"this policy may cause problems\".\n\nWatch the negatives. `may not` and `might not` mean \"perhaps not\". `cannot` means \"impossible\", which is a very strong claim.\n\nOne more trap: `maybe` is not a verb. It is an adverb meaning \"perhaps\". The verb is `may`, written with a space before the next verb: \"technology may harm children\".",
+          "examples": [
+            {
+              "right": "Rising sea levels may force coastal communities to move inland.",
+              "wrong": null,
+              "note": "May presents a real possibility without claiming it will certainly happen."
+            },
+            {
+              "right": "Long working hours can lead to serious health problems.",
+              "wrong": null,
+              "note": "Can states what is generally possible: it sometimes happens."
+            },
+            {
+              "right": "The new policy might not reduce congestion.",
+              "wrong": "The new policy cannot reduce congestion.",
+              "note": "Might not means perhaps not; cannot claims it is impossible, which you cannot prove."
+            },
+            {
+              "right": "Screen time may harm young children's sleep.",
+              "wrong": "Screen time maybe harm young children's sleep.",
+              "note": "Maybe is an adverb; the verb you need is may."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"will can\". Write \"will be able to\", because two modals cannot stand side by side.",
+        "Writing \"it may causes\". Write \"it may cause\", because the verb after any modal stays plain.",
+        "Writing \"technology maybe harm children\". Write \"technology may harm children\", because maybe is an adverb and may is the verb.",
+        "Writing \"we could finish the project on time\" about one occasion. Write \"we were able to finish\", because could alone suggests general ability, not what actually happened.",
+        "Writing \"can not\" in an essay. Write \"cannot\", because that is the normal written form."
+      ],
+      "arabic": "Arabic expresses possibility with يمكن أن followed by a conjugated verb, which pushes learners towards \"can to\" and \"it can causes\". The everyday softener is ربما, an adverb placed before the verb (ربما يؤدي), and it is translated as \"maybe\", so \"maybe cause\" ends up where English needs the modal \"may cause\". English also splits across can, may, might and could what Arabic often says with one word, so each has to be chosen on purpose.",
+      "check": "For each prediction: am I sure? If not, have I used may, might or could, followed by a plain verb?"
+    },
+    {
+      "id": "modal.deduction",
+      "title": "Deduction",
+      "summary": "must be, can't be, might have been: conclusions drawn from evidence.",
+      "sections": [
+        {
+          "heading": "Deduction: how sure does the evidence make you?",
+          "body": "A **deduction** is a conclusion you reach from evidence. Here the modals do not mean duty. They mean how certain you are.\n\n`must` means you are almost sure it is true: \"the results are identical, so the samples must come from the same source\".\n\n`can't` or `cannot` means you are almost sure it is **not** true.\n\n`might`, `may` and `could` mean it is possibly true.\n\nThe important trap: the opposite of \"must be\" is **\"can't be\"**, not \"mustn't be\". `mustn't` only ever means forbidden.\n\nAs always, the verb after the modal is plain, very often `be`: \"it must be\", \"it can't be\", \"it might be\".",
+          "examples": [
+            {
+              "right": "The results are identical, so the two samples must come from the same source.",
+              "wrong": null,
+              "note": "Must here is a conclusion from the evidence, not a rule."
+            },
+            {
+              "right": "This figure cannot be correct, because the percentages add up to more than 100.",
+              "wrong": "This figure mustn't be correct, because the percentages add up to more than 100.",
+              "note": "The negative of a confident deduction is cannot, not mustn't."
+            },
+            {
+              "right": "The drop in sales might be due to the unusually warm winter.",
+              "wrong": null,
+              "note": "Might offers a possible explanation without claiming it is the only one."
+            }
+          ]
+        },
+        {
+          "heading": "Deductions about the past: modal + have + past participle",
+          "body": "When your conclusion is about something that already happened, the modal does not change. Instead you add `have` and the **past participle**, the third form of the verb (gone, taken, started).\n\n`must have` + participle: almost sure it happened. `can't have` + participle: almost sure it did not happen. `might have`, `may have`, `could have` + participle: perhaps it happened.\n\nThree things to check. First, it is always `have`, never `has` or `had`. Second, the verb after `have` is the participle, not the past simple: \"must have gone\", not \"must have went\". Third, in speech \"could've\" sounds like \"could of\", but the written word is always `have`.",
+          "examples": [
+            {
+              "right": "The ancient city must have had a large population, judging by the size of its walls.",
+              "wrong": "The ancient city must had a large population, judging by the size of its walls.",
+              "note": "A past deduction needs have after the modal: must have had."
+            },
+            {
+              "right": "The fire may have started in the kitchen.",
+              "wrong": "The fire may have start in the kitchen.",
+              "note": "After have, use the past participle: started."
+            },
+            {
+              "right": "The early settlers could have arrived by sea.",
+              "wrong": "The early settlers could of arrived by sea.",
+              "note": "Could've sounds like could of, but the written word is have."
+            },
+            {
+              "right": "The lecturer cannot have meant that all migration is harmful.",
+              "wrong": null,
+              "note": "Cannot have + participle rejects an interpretation of something already said."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"it mustn't be true\" for a deduction. Write \"it can't be true\", because mustn't means forbidden.",
+        "Writing \"must had\" or \"might went\". Write \"must have had\" and \"might have gone\", because a past deduction is modal + have + past participle.",
+        "Writing \"could of\" or \"must of\". Write \"could have\" and \"must have\", because of is only what the short form sounds like.",
+        "Writing \"it must be very cold last winter\". Write \"it must have been very cold last winter\", because a deduction about the past needs have."
+      ],
+      "arabic": "Arabic makes these deductions with a word such as لا بد أن or ربما placed before an ordinary past-tense verb: لا بد أنه ذهب, \"he must have gone\". The past is carried by the verb itself, so the natural English version comes out as \"must went\" or \"maybe he went\". English keeps the modal unchanged and moves the past into have plus the past participle, which has no direct Arabic parallel.",
+      "check": "Is this a conclusion from evidence? If it is about the past, is it modal + have + past participle, and is the negative can't rather than mustn't?"
+    },
+    {
+      "id": "modal.past",
+      "title": "Past modals",
+      "summary": "should have done, could have done: judging the past.",
+      "sections": [
+        {
+          "heading": "Should have done: judging a past decision",
+          "body": "`should have` + past participle means: this was the right thing to do, **but it did not happen**. `should not have` + participle means: this happened, but it was a mistake.\n\nNotice that the meaning is the opposite of what really happened. \"The government should have invested\" tells the reader that it did not invest.\n\nThis is very useful in essays about history or policy, and in summaries of lectures that criticise a decision.\n\nThe form is fixed: `should` + `have` + past participle. Do not write \"should did\", \"should invested\" or \"should has\".",
+          "examples": [
+            {
+              "right": "The government should have invested in flood defences years ago.",
+              "wrong": null,
+              "note": "The investment did not happen, and the writer thinks it was needed."
+            },
+            {
+              "right": "The company should not have ignored the early warnings.",
+              "wrong": null,
+              "note": "The company did ignore them, and the writer judges that a mistake."
+            },
+            {
+              "right": "Planners should have consulted local residents.",
+              "wrong": "Planners should consulted local residents.",
+              "note": "A judgement on the past needs have and the past participle."
+            }
+          ]
+        },
+        {
+          "heading": "Could have, would have, needn't have",
+          "body": "`could have` + participle means it was possible, but it did not happen: a missed chance. \"Earlier treatment could have saved lives\" means lives were lost.\n\n`would have` + participle describes an imagined past result. It usually goes with `if` + `had` + participle: \"if the bridge had been inspected, the collapse would have been prevented\". Both halves are about the past, so both need the past forms.\n\n`needn't have` + participle means something was done, but it turned out to be unnecessary.\n\nBecause `could have` means it did **not** happen, do not use it for something that really happened. For that, use the plain past or `was able to`.",
+          "examples": [
+            {
+              "right": "Earlier treatment could have saved many lives.",
+              "wrong": null,
+              "note": "Could have describes a possibility that was missed."
+            },
+            {
+              "right": "If the bridge had been inspected, the collapse would have been prevented.",
+              "wrong": "If the bridge was inspected, the collapse would be prevented.",
+              "note": "An imagined past needs had in the if part and would have in the result."
+            },
+            {
+              "right": "The committee needn't have met again, as the decision had already been made.",
+              "wrong": null,
+              "note": "Needn't have: they met, but it turned out to be unnecessary."
+            }
+          ]
+        },
+        {
+          "heading": "Match the form to the time",
+          "body": "`should do` is about now or the future. `should have done` is about the past. The same is true of `could` and `would`.\n\nA time phrase is your best clue. If the sentence contains \"in 2008\", \"last year\" or \"at that time\", and you are judging what someone did, you need `have` + participle.\n\nThis matters for tense consistency. An essay that judges the past in one sentence with \"should have\" and then slips into \"should\" for the same past event leaves the reader unsure which time you mean. Decide what time the event belongs to, then keep the form that matches.",
+          "examples": [
+            {
+              "right": "In 2008, regulators should have checked the banks more closely.",
+              "wrong": "In 2008, regulators should check the banks more closely.",
+              "note": "The event is in the past, so the judgement needs should have + participle."
+            },
+            {
+              "right": "Today, regulators should check banks more closely.",
+              "wrong": null,
+              "note": "For now and the future, should + plain verb is correct."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"should did\" or \"should done\". Write \"should have done\", because a past judgement is modal + have + past participle.",
+        "Writing \"should of\". Write \"should have\", because should've only sounds like should of.",
+        "Writing \"the government should act in 2010\". Write \"the government should have acted in 2010\", because the event is past.",
+        "Writing \"if they had planned, they would avoid the crisis\" about the past. Write \"they would have avoided the crisis\", because the imagined result is in the past too.",
+        "Writing \"we could have finished on time\" when you did finish. Write \"we finished on time\" or \"we were able to finish\", because could have means it did not happen."
+      ],
+      "arabic": "Arabic judges the past with كان at the front: كان يجب أن نستثمر, \"we should have invested\", literally \"it was necessary that we invest\". The past is shown once, by كان, and the verb after it stays as it is, so learners write \"should invested\" or \"was should invest\". English leaves the modal alone and puts the past after it, as have plus the past participle.",
+      "check": "Is this a judgement about something already finished? Then is it should, could or would + have + past participle?"
+    },
+    {
+      "id": "modal.hedging",
+      "title": "Hedging a claim",
+      "summary": "tends to, is likely to, arguably: saying as much as you can prove.",
+      "sections": [
+        {
+          "heading": "Why hedge a claim?",
+          "body": "Academic writing does not claim more than the evidence shows. \"Social media makes teenagers anxious\" is a claim about every teenager, and one calm teenager proves it false.\n\nA **hedge** is a word that shrinks the claim to the size you can defend: \"heavy use of social media may contribute to anxiety in some teenagers\". This is not weakness. Examiners read it as precision, and it is much harder to argue against.\n\nOne hedge per claim is usually enough. \"Might possibly perhaps\" sounds unsure rather than careful.\n\nTo check, read each claim and ask: could one counter-example break it? If yes, soften it.",
+          "examples": [
+            {
+              "right": "Heavy use of social media may contribute to anxiety in some teenagers.",
+              "wrong": "Social media makes all teenagers anxious.",
+              "note": "The hedged version claims only what evidence could support."
+            },
+            {
+              "right": "This may be one reason for the decline.",
+              "wrong": "This might possibly perhaps be one reason for the decline.",
+              "note": "One hedge is enough; three sound unsure."
+            },
+            {
+              "right": "Online learning appears to suit independent students best.",
+              "wrong": null,
+              "note": "Appears to presents this as what the evidence suggests, not as a certainty."
+            }
+          ]
+        },
+        {
+          "heading": "The hedging toolkit, and its grammar",
+          "body": "You have four kinds of hedge.\n\n**Modals**: `may`, `might`, `could`, followed by a plain verb.\n\n**Verbs**: `tend to`, `appear to`, `seem to`, followed by a plain verb. These are the main verb, so they agree with the subject: \"young people tend to\", \"the trend seems to\".\n\n**be likely to**: \"prices are likely to rise\". Or, with a whole clause: \"it is likely that prices will rise\". Do not mix the two patterns.\n\n**Adverbs**: `arguably`, `probably`, `generally`, `largely`. `arguably` is useful for your own opinion: it says you are defending a position, not stating a fact.",
+          "examples": [
+            {
+              "right": "Younger employees tend to change jobs more often.",
+              "wrong": "Younger employees tend to changing jobs more often.",
+              "note": "Tend to is followed by the plain verb."
+            },
+            {
+              "right": "Urban populations are likely to keep growing.",
+              "wrong": "Urban populations are likely keep growing.",
+              "note": "Be likely needs to before the verb."
+            },
+            {
+              "right": "It is likely that house prices will continue to rise.",
+              "wrong": "It is likely to house prices will continue to rise.",
+              "note": "It is likely that is followed by a full clause with its own subject and verb."
+            },
+            {
+              "right": "Arguably, the internet has changed education more than any other invention.",
+              "wrong": null,
+              "note": "Arguably marks this as a position you are defending."
+            }
+          ]
+        },
+        {
+          "heading": "Avoid absolute words",
+          "body": "The commonest overclaims in PTE essays are absolute words: `all`, `everyone`, `always`, `never`, `nobody`. Each one turns an ordinary observation into a claim that a single exception can disprove.\n\nReplace them with words that match what you actually know: `most`, `many`, `often`, `usually`, `in many cases`, `rarely`.\n\nAlso look at bare plural subjects. \"People prefer online shopping\" sounds like everybody. \"Many people prefer online shopping\" is safer and still clear.",
+          "examples": [
+            {
+              "right": "Most people now own a smartphone.",
+              "wrong": "Everyone owns a smartphone nowadays.",
+              "note": "Most leaves room for the people who do not."
+            },
+            {
+              "right": "Remote work often reduces commuting costs.",
+              "wrong": "Remote work always reduces commuting costs.",
+              "note": "Often is true; always is broken by one exception."
+            },
+            {
+              "right": "Many parents worry about the cost of higher education.",
+              "wrong": "Parents worry about the cost of higher education.",
+              "note": "Many limits the claim to what you can reasonably support."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing maybe at the start of every hedged sentence. Write may, tends to or is likely to, because maybe is informal in an essay.",
+        "Writing \"people are tend to\". Write \"people tend to\", because tend is itself the verb.",
+        "Writing \"it is likely to prices will rise\". Write \"prices are likely to rise\" or \"it is likely that prices will rise\", because the two patterns cannot be mixed.",
+        "Writing all, everyone or always in a general claim. Write most, many or often, because one exception makes an absolute claim false.",
+        "Writing \"might possibly perhaps\". Write one hedge, because stacking them makes the argument sound unsure.",
+        "Writing \"these changes is likely to\". Write \"these changes are likely to\", because be agrees with the subject."
+      ],
+      "arabic": "Arabic often states a general truth as a sentence with no verb at all, such as الشباب أكثر استخداما للتقنية, which reads as a flat fact, and the usual way to soften it is ربما at the front. English drafts therefore tend to lean on \"maybe\" at the start of a sentence, where an academic essay expects the hedge to sit with the verb: may, tends to, is likely to.",
+      "check": "For each claim: could one counter-example break it? If so, soften it with one hedge, placed with the verb."
+    }
+  ]
+}

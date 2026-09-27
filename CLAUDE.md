@@ -31,22 +31,43 @@ to do with any of the work repositories or hosts on this machine, and it never w
 - Nothing here is a precedent for the work projects, and no incident there is a
   precedent here.
 
+## ⛔ RULE 1 — NEVER USE CLAUDE IN CHROME IN THIS PROJECT
+
+**Hard rule, set by amir on 22 Sep 2026.**
+
+No `mcp__claude-in-chrome__*` tool and no Chrome-browser skill, for any reason:
+not to test a change, not to take a screenshot, not "just to check". On 22 Sep 2026
+a test of the Reading timer drove the very page amir was studying on, reloaded it
+underneath him and put a faked verdict on his screen. That browser is his, and so
+is the tab.
+
+- `.claude/settings.json` denies the whole `claude-in-chrome` server and both
+  skills. Do not remove those entries or look for another way round them.
+- Verify a change by other means: a syntax check of `web/app.html`, `node`
+  against the `src/` modules, `curl` against `npm run web`. Then tell amir exactly
+  what to click to see it working, and let him look.
+
 ---
 
 ## What it is
 
 A study tool for the two vocabulary sheets, English ↔ Arabic - **284 academic words
 + 207 complex phrases** as of 3 Sep 2026, and it grows whenever a word is added -
-plus a **grammar syllabus of 24 modules / 288 questions** at B2-C1, plus
-**60 PTE-style Write Essay prompts** on the Writing tab, each with **three worked
-model answers** and a guide to writing one, plus a **Listening tab** where a definition
-is read aloud and you type the word it describes (10 sets, 100 clues), plus a
+plus a **grammar map** - 10 lines, 69 stations, an article on each, coloured by how
+often reviews catch you breaking that rule - plus **500 PTE-style Write Essay prompts**
+on the Writing tab (the first 60 with **three worked model answers**; the rest get
+theirs when an essay on them is reviewed) and **Summarize Written Text** (50
+passages), plus a **Listening tab** where a definition
+is read aloud and you type the word it describes (10 sets, 100 clues), Highlight
+Incorrect Words and **Summarize Spoken Text**, plus a
 **Speaking tab** that records
 you, transcribes it on this machine and marks the fluency, the fillers and the
 grammar - with every fault clickable to hear the exact moment it happened. Its
 tasks include Free talk, Read aloud, Describe Image (50 charts), **Re-tell Lecture** (135 items, 35 of them
-real Open Yale recordings) and **Summarize Group Discussion** (three synthetic
-voices talking to each other), each on its own URL.
+real Open Yale recordings), **Summarize Group Discussion** (three synthetic
+voices talking to each other) and **Respond to a Situation** (50), each on its own URL.
+Every answer to a task a model has to mark is **saved as text** for the
+`/review-answers` skill - see **Your answers, the review skill and the grammar map**.
 
 ```bash
 npm run web        # THE way to use it: browser page on http://localhost:4173
@@ -79,11 +100,11 @@ page - see **The Speaking tab**.
   vocabulary mastery state.
   `data/backup_words.json` is an empty reserve of extra vocabulary, drawn on when an
   unknown pool runs dry.
-- **Grammar content is static and lives in `data/grammar/*.json`, one file per module**
-  (`src/grammar.js` loads it). It is never written back. Only the learner's answers are
-  written, into `progress.json` under `grammar`, as right/wrong counts per question.
-  This is not a second mastery store: it is a different subject, and the workbook has
-  no column for it.
+- **The grammar map is static and lives in `data/grammarmap/<line>.json`, one file per
+  line** (`src/grammarmap.js` loads it). It is never written back. The failure log over
+  it is in `data/attempts.db` - see **Your answers, the review skill and the grammar
+  map**. `progress.json` still carries a `grammar` key from the old 24-module syllabus
+  (removed 26 Sep 2026); nothing reads it now and it is harmless.
 - **Example sentences are static content too, in `data/usage/*.json`, one file per
   sheet** (`src/usage.js` loads it, `GET /api/usage` serves it whole). They are keyed
   by the loader's own `keyOf()`, so a sentence set follows its row however Excel
@@ -101,16 +122,14 @@ page - see **The Speaking tab**.
   sentences shows none; there is one `renderCard()` and one reveal block, so the
   whole-deck drill and a batch drill get them from the same place.
 - **The essay prompts are static content too, in `data/essays.json`** - one file,
-  because 60 prompts is 20KB with nothing underneath them to grow into.
-  `src/essays.js` loads it, `GET /api/essays` serves it whole, and it is never
-  written back. Neither is the essay: there is no POST beside that route, and
-  nothing on that tab touches the workbook or `progress.json`. **The essay you
-  type is a rehearsal, not a document** - what it is for is the twenty minutes
-  and the word count, and a library of past attempts would be a third store to
-  back up, migrate and reason about. The draft is kept in the browser beside the
-  other view settings (`settings.essay`) purely so a stray reload does not cost
-  you twenty minutes; that is insurance, not storage, and it is not a mastery
-  store of any kind.
+  500 prompts, ~190KB, with nothing underneath them to grow into. 440 were added on
+  26 Sep 2026, each carrying a `subject`, and all 500 were checked for repeated
+  debates, not just repeated wording. `src/essays.js` loads it, `GET /api/essays`
+  serves it whole, and it is never written back. **The essay itself IS kept now**
+  (26 Sep 2026, by request, reversing "a rehearsal, not a document"): `Hand in for
+  review`, or the clock running out, saves it to `data/attempts.db` for the review
+  skill. The draft in progress is still only in the browser (`settings.essay`), as
+  reload insurance. Nothing on that tab touches the workbook or `progress.json`.
 - **Three worked model answers per prompt live in `data/models/<id>.json`**,
   one file per prompt, the way the grammar syllabus is one file per module and
   for the reason CLAUDE.md gives there: a bulk script over a directory of
@@ -184,10 +203,6 @@ page - see **The Speaking tab**.
   it is hidden on scroll, resize and `beforeprint`. `wordLink()` drops its `title`
   attribute for a row that has sentences - the browser's own tooltip over the top of
   the card is one tooltip too many.
-- **Grammar marking happens on the server, on purpose.** `/api/grammar` strips
-  `answer`, `accept` and `explain` out of what it sends, so the page cannot be read for
-  the answers; `/api/grammar/answer` returns the verdict and the explanation for one
-  question at a time. Do not move marking into the client "to save a round trip".
 - **The two stores have different write policies, deliberately.** Workbook writes are
   debounced ~800ms, because each one is a 275KB rewrite. `progress.json` is 1KB and is
   written *immediately* on batch create/delete - a batch number exists nowhere else and
@@ -221,12 +236,16 @@ view that exists on **one host only**.
   to live on a Worker, which is the same wall that sent the audio to a
   pre-rendered manifest; and sending a visitor's voice to a public URL with no
   account behind it is not something this project will do.
-- **Nothing is stored, on either side.** `/api/speech/analyse` holds the audio
+- **No AUDIO is stored, on either side.** `/api/speech/analyse` holds the audio
   for the length of one request and writes none of it down; the browser keeps
-  the blob in memory until the next take replaces it. There is no history, no
-  past attempts and no export, and none should be added. It is the Essays rule
-  - what you said is a rehearsal, not a document - and it matters more here
-  because it is your voice. **The Pronunciation list is the one deliberate
+  the blob in memory until the next take replaces it, and there is no route that
+  reads a past recording back. It is your voice, and that rule has not moved.
+  **What you SAID is kept since 26 Sep 2026, by request**: Free talk, Re-tell
+  Lecture, Group Discussion, Describe Image and Respond to a Situation save the
+  transcript, the transcript with its pauses, and a few numbers to
+  `data/attempts.db` when the report comes back (`saveSpoken()`), for the review
+  skill. Read Aloud, Repeat Sentence and Pronunciation save nothing - they are
+  marked here against a script - and nor does a capture that mostly failed. **The Pronunciation list is the one deliberate
   exception (21 Sep 2026, by request)** - see its section below: it keeps WORDS,
   never audio. `speech.session` is the other exception: a handful
   of numbers per recording, in memory, so the consistency panel can compare
@@ -868,6 +887,24 @@ One JSON file per set of ten in `data/reading/`, each naming its `task`, loaded 
   Blanks form of a missing `accept` variant. Fix the item, never the marker.
 - **Local only for now**, like Listening: `web/cloud-store.js` has no handler, so the
   cloud page says the tab runs locally rather than drawing nothing.
+- **Every item is on a clock, started when the item is ROTATED in** - the Essays
+  tab's rule, and no start button. At zero the item is locked (`inert` on the body,
+  so keyboard as well as mouse) and submitted as it stands, blank gaps included;
+  the verdict is headed "Time up". The allowance is **deliberately a little
+  unreasonable**, by request: everything on screen read at 240 words a minute, plus
+  a few seconds per gap, paragraph or question (`RDQ_PACE`, the one place to tune
+  it), rounded up to 5s with a 30s floor - about 55s for a Fill in the Blanks,
+  roughly half a comfortable pace. The point is reading fast and proof-reading on
+  the way, not reading twice. The clock is a deadline, repainted on its own
+  element every 250ms and never through `renderReading()`, which would close an
+  open dropdown under the reader. In memory only: a reload starts the item again,
+  as it already drops the half-made answer. A Check already in flight when the
+  buzzer goes wins, and is not stamped "Time up".
+- **`‹ Prev` / `Next ›` beside the item count move within the set without
+  answering**, wrapping at the ends, and work even while an item is locked. The item
+  you land on is rotated in, so it gets a full clock. `rdqReset()` bumps `rdq.seq`
+  and a verdict that comes back for an item already left is dropped, so a skip
+  during marking cannot paint one item's marks over the next.
 - The state object is **`rdq`**. `API_VERSION` went to **16** for the two routes.
 
 ---
@@ -959,6 +996,75 @@ the address the definition drill had before and still lands on it.
 
 ---
 
+## Your answers, the review skill and the grammar map
+
+Added 26 Sep 2026, by request. Three pieces that only make sense together.
+
+- **`data/attempts.db` (SQLite via `node:sqlite`, built into Node >= 22.13) holds every
+  answer handed in, as TEXT.** `src/attempts.js` is the one place: `attempts` (what you
+  were given, what you produced, the transcript with pauses, a few numbers), `reviews`
+  (one JSON review per attempt) and `faults` (one row per grammar fault, pinned to a
+  map station, rewritten whenever its review is). Rollback-journal mode so it stays
+  ONE file; backed up once per server session to `data/attempts.backup-*.db`
+  (gitignored); the db itself is committed like `progress.json`. `PTE_ATTEMPTS_DB`
+  points it elsewhere for tests - use it, never test against the real file.
+- **What saves:** Write Essay (`Hand in for review`, or automatically when the clock
+  runs out, once per clock), Summarize Written Text and Summarize Spoken Text (the same),
+  and Free talk, Re-tell Lecture, Group Discussion, Describe Image and Respond to a
+  Situation (automatically, when the report comes back). **Never audio.** The cloud
+  build saves nothing and hides **My answers**.
+- **The review is written by a Claude Code skill, not by the page or the server**:
+  `.claude/skills/review-answers/SKILL.md`, invoked as `/review-answers [id|all]`, using
+  `tools/review.js` (`pending`, `show`, `deck`, `stations`, `save`, `log`). The page has
+  no route that writes a review. The skill's rules, set by amir: **sentence by sentence,
+  and his ideas are never changed** - each sentence gets `fixed` (minimal, HerrWert's
+  style) and `better` (the same idea, well said); deck suggestions, mostly phrases,
+  each shown in his own sentence; every grammar fault filed on a station; task checks;
+  and last, **an assessment of the ideas themselves** - how accurate his information on
+  the subject is, independent of PTE. `checkReview()` refuses unknown stations and
+  headwords that are not on the sheet rather than dropping them.
+- **Every review also carries a model answer and an ESTIMATED score** (added the same
+  day, by request): `model.text` for every task, and `score.traits` trait by trait on
+  PTE's published traits, each with its reason. The trait table lives in the skill and
+  nowhere else. It is labelled an estimate on the page, and pronunciation is listed as
+  unscored, never guessed from a transcript. `checkReview()` refuses a review without
+  either.
+- **Model answers for the 440 new prompts are written on demand**, by the skill, when an
+  essay on that prompt is reviewed - into `data/models/<id>.json`, checked by
+  `tools/check-models.js`. A 1,320-essay bulk job was declined on purpose.
+- **The grammar map replaced the Grammar tab's 24 modules and 288 questions.** Ten lines
+  (tense, agreement, nouns and determiners, verb patterns, modality, voice, clauses,
+  word forms, punctuation, cohesion), 69 stations, one article each - sections with
+  right/wrong examples, the typical slips, why Arabic makes it hard where that is
+  honest, and a proof-reading check. Written for clarity at B2 because the old modules
+  were "things I can't understand". **A station id is a key into the fault log: never
+  rename one that has faults filed against it.** Interchanges (`_map.json`) are the same
+  rule on two lines, drawn tube-map style as a ring rather than a connector across the
+  map. Colour means failure frequency ONLY (`--gm1..3`), and the count is written
+  beside the station, so nothing rests on colour alone.
+- **My answers** (`/answers`, `/answers/<id>`) lists every attempt and draws its review:
+  each sentence with the fix diffed into it (`wordDiff()`, punctuation-insensitive), the
+  better version, faults grouped by station and linking to the article, deck
+  suggestions with the entry painted in, task checks, and the ideas assessment.
+- **Respond to a Situation** (`/speaking/respond-to-a-situation`, `data/situations/`,
+  5 sets x 10) and **Summarize Written Text** (`/writing/summarize-written-text`,
+  `data/swt/`, 5 x 10) are new content; **Summarize Spoken Text**
+  (`/listening/summarize-spoken-text`) reuses the lectures that have audio. SWT's model
+  summary and points, and SST's lecture text, arrive only after hand-in
+  (`/api/swt/<id>/model`, `/api/lectures/<id>`) - reading the answer first is copying.
+  The two summaries share one renderer (`SUMM`), whose textarea is built only when the
+  item changes, never while typing.
+- **The essay clock read 20000:00 from 20 Sep to 26 Sep 2026**: the Speaking tab's
+  `mmss(sec)` silently replaced the essay's `mmss(ms)` in the same scope. The essay's is
+  `essayMmss` now. Same lesson as `var speech`: check the scope before naming anything
+  top-level in `web/app.html`.
+- `API_VERSION` went to **21**: `/api/grammar*` removed; `/api/grammarmap`,
+  `/api/grammarmap/faults`, `/api/attempts` (+`/<id>`, `/delete`), `/api/situations`,
+  `/api/swt`, `/api/swt/<id>/model` added. An older server would 404 an essay's save,
+  which is a lost answer rather than a missing feature.
+
+---
+
 ## Cloud build
 
 The page also runs on Cloudflare, at **`pte-vocab.amirfox.workers.dev`**. Deploy with
@@ -991,13 +1097,13 @@ first.
   alongside them — the rules mutate the entries, and two records of the same fact
   disagree eventually. `deck.json` ships `known:false` on every row: a visitor has not
   learnt anything yet, and amir's 208 are his.
-- **The Worker exists for one route.** `/static/grammar.json` is generated with
-  `answer`, `accept` and `explain` cut out by the same mapping `src/server.js` uses,
-  so the page still cannot be read for the answers; `POST /api/grammar/answer` marks
-  one question against `worker/grammar-key.json`, which is bundled into the Worker and
-  never served. The verdict is the Worker's, the **tally is the browser's** — a tally
-  is study state and study state does not leave the browser. `tools/build-cloud.js`
-  fails the build if an answer ever appears in the shipped file.
+- **The Worker has no routes left** (26 Sep 2026). It existed to mark the grammar
+  questions against answers bundled into it; the grammar tab is a map of articles
+  now, shipped as `/static/grammarmap.json` with no log (`log:false`), so the Worker
+  only answers unknown `/api/*` paths with a JSON 404 and serves the assets.
+  **Known stale:** `web/cloud-store.js` and `tools/build-cloud.js` still carry
+  `API_VERSION = 11` against the page's 21, so a fresh cloud build refuses to POST.
+  That predates the map; fix it deliberately before the next deploy.
 - **Audio is pre-rendered, not synthesised.** `tools/render-audio.js` runs all 491
   headwords through the same `src/tts.js` path and `ffmpeg` to MP3 (6.2MB, `af_heart`),
   and `web/audio/manifest.json` maps `keyOf()` to a filename so the page never guesses
@@ -1012,7 +1118,7 @@ first.
 - **`web/app.html` is one file for both hosts.** The cloud differences are four hooks
   — `api()`, `sayUrl()`, the voice list, and parking `boot()` for the deferred module
   — plus the two script tags `tools/build-cloud.js` injects. Do not fork the page.
-- `dist/` and `worker/grammar-key.json` are generated and gitignored; `web/audio/` is
+- `dist/` is generated and gitignored; `web/audio/` is
   committed, because reproducing it needs the 326MB model.
 
 ---
@@ -1061,10 +1167,11 @@ first.
   American spellings, and any equally valid wording. A missing variant marks a correct
   answer wrong, which is the worst failure this tool has; fix the array, not the
   grader.
-- **The 24 modules were written by parallel agents and then verified by a second pass**
-  that checked every key by substitution. Do not re-run a bulk script over
-  `data/grammar/*.json`: one authoring agent did exactly that, permuting 16 other
-  modules' option arrays mid-write. Edit module files individually, by name.
+- **Never run a bulk script over a directory of authored content.** The old grammar
+  syllabus (24 modules, removed 26 Sep 2026) lost 16 modules' option arrays to one
+  authoring agent doing exactly that mid-write, and on 26 Sep parallel essay-prompt
+  writers sharing temp filenames shifted a dozen city prompts onto the wrong ids.
+  Edit one file, by name; give parallel writers separate temp folders.
 - **How many words go in a batch is asked at the draw** (9 Sep 2026). `New
   batch` opens a dialog with `20 | 50 | 100` presets over a number box, and the
   box is the only thing read on submit - a preset just fills it in, so a pressed
@@ -1281,7 +1388,7 @@ first.
   that away and then wonder why the reveal stutters.
 - **The browser page is routed**, not tab state: `/word_list`, `/batches/words-3`,
   `/batches/words-3/training`, `/batches/words-3/print`, `/grammar`,
-  `/grammar/<module-id>`, `/essays`, `/practice`. The server
+  `/grammar/<station-id>`, `/answers`, `/answers/<id>`, `/essays`, `/practice`. The server
   returns the page for every non-`/api/` GET and the client router decides. Note
   `history` inside `web/app.html` is the drill's undo stack and shadows the global -
   routing code must say `window.history`.

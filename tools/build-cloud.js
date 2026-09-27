@@ -10,9 +10,8 @@
  * What changes between the two builds:
  *   - the deck is a static JSON file rather than the workbook, with
  *     known:false on every row - a visitor has not learnt anything yet;
- *   - the grammar syllabus ships with `answer`, `accept` and `explain` cut out
- *     by the same mapping src/server.js uses, so the page still cannot be read
- *     for the answers;
+ *   - the grammar map ships as its articles alone: the failure log over it
+ *     lives in data/attempts.db on amir's machine and has no cloud copy;
  *   - the audio is pre-rendered (tools/render-audio.js) instead of synthesised
  *     on demand by a 326MB model that has nowhere to live on a Worker.
  *
@@ -25,7 +24,7 @@ import { ROOT, MODELS_DIR } from '../src/config.js';
 import { SHEETS } from '../src/shared.js';
 import { load } from '../src/loader.js';
 import { loadUsage } from '../src/usage.js';
-import { loadGrammar } from '../src/grammar.js';
+import { loadGrammarMap } from '../src/grammarmap.js';
 import { loadEssays, loadEssayGuides } from '../src/essays.js';
 import { loadModels } from '../src/models.js';
 import { loadLectures, lectureIndex, PREPARE_SECONDS, SPEAK_SECONDS } from '../src/lectures.js';
@@ -85,8 +84,8 @@ function main() {
 
   /* ------------------------------------------------------------- content */
 
-  const grammar = loadGrammar();
-  const grammarProblems = grammar.problems || [];
+  const grammarMap = loadGrammarMap();
+  const grammarProblems = grammarMap.problems || [];
 
   // Destructured for the same reason as loadModels below: loadUsage returns
   // { usage, problems }, and wrapping the whole thing would bury the sentences
@@ -141,42 +140,11 @@ function main() {
 
   /* -------------------------------------------------------------- grammar */
 
-  // The same mapping src/server.js:/api/grammar uses. The answers are not
-  // hidden here, they are absent: this file simply does not contain them, and
-  // marking is a round trip to the Worker.
-  const stripped = {
-    api: API_VERSION,
-    groups: grammar.groups,
-    modules: grammar.modules.map((m) => ({
-      id: m.id, title: m.title, group: m.group, summary: m.summary,
-      sections: m.sections, slips: m.slips,
-      questions: m.questions.map((q) => (q.type === 'mcq'
-        ? { id: q.id, type: 'mcq', prompt: q.prompt, options: q.options }
-        : { id: q.id, type: 'blank', prompt: q.prompt, hint: q.hint })),
-    })),
-  };
-  const grammarBytes = write('static/grammar.json', stripped);
-
-  // Refuse to ship a file with an answer in it. This is the one check in this
-  // script worth failing the build over.
-  const raw = fs.readFileSync(path.join(DIST, 'static/grammar.json'), 'utf8');
-  for (const leak of ['"accept"', '"answer"', '"explain"']) {
-    if (raw.includes(leak)) throw new Error(`grammar.json still contains ${leak} - the page could be read for the answers`);
-  }
-
-  // What the Worker needs to mark with, and nothing else: the answers, keyed
-  // by module and question. Written next to the Worker rather than into dist/
-  // for the obvious reason - dist/ is what gets served.
-  const key = {};
-  for (const m of grammar.modules) {
-    key[m.id] = Object.fromEntries(m.questions.map((q) => [q.id, q.type === 'mcq'
-      ? { type: 'mcq', answer: q.answer, explain: q.explain }
-      : { type: 'blank', accept: q.accept, explain: q.explain }]));
-  }
-  const keyFile = path.join(ROOT, 'worker', 'grammar-key.json');
-  fs.mkdirSync(path.dirname(keyFile), { recursive: true });
-  fs.writeFileSync(keyFile, JSON.stringify(key));
-  const keyBytes = fs.statSync(keyFile).size;
+  // The map and its articles. Nothing to strip since 26 Sep 2026: there are
+  // no questions any more, only articles, and the log of your faults is local.
+  const grammarBytes = write('static/grammarmap.json', {
+    api: API_VERSION, lines: grammarMap.lines, links: grammarMap.links,
+  });
 
   /* --------------------------------------------------------------- audio */
 
@@ -225,10 +193,9 @@ function main() {
   console.log(`  page       ${kb(Buffer.byteLength(page))}`);
   console.log(`  deck       ${kb(deckBytes)}  (${entries} entries, all known:false)`);
   console.log(`  usage      ${kb(usageBytes)}`);
-  console.log(`  grammar    ${kb(grammarBytes)}  (${stripped.modules.length} modules, no answers)`);
+  console.log(`  grammar    ${kb(grammarBytes)}  (${grammarMap.lines.length} map lines, articles only)`);
   console.log(`  essays     ${kb(essayBytes)} + ${kb(modelBytes)} of model answers`);
   console.log(`  lectures   ${kb(lectureBytes)}  (${lectures.length} to re-tell)`);
-  console.log(`  answers    ${kb(keyBytes)}  (worker/grammar-key.json - never served)`);
   console.log(`  audio      ${(audioBytes / 1024 / 1024).toFixed(1)}MB  (${shipped.map((v) => v.id).join(', ') || 'none'})`);
   console.log(`\n  dist/ ready`);
 }

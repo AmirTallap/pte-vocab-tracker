@@ -1,0 +1,592 @@
+{
+  "id": "words",
+  "name": "Word forms and choice",
+  "order": 8,
+  "summary": "Choosing the right form of a word and the right word: word families, adjectives and adverbs, comparisons, prepositions, collocations, confusable pairs and academic register.",
+  "stations": [
+    {
+      "id": "words.formation",
+      "title": "Word families",
+      "summary": "economy, economic, economical, economically.",
+      "sections": [
+        {
+          "heading": "One root, several jobs",
+          "body": "English often builds several words from one root, and each form does a different job in the sentence. A **noun** names a thing: `economy`. An **adjective** describes a noun: `economic growth`. An **adverb** describes a verb, an adjective or a whole sentence: `economically weak`. A **verb** is the action: `economise`.\n\nSo before you choose, look at the gap in your sentence and ask what job it needs. After `the`, `a`, `his` or `their`, you usually need a noun. Just before a noun, you usually need an adjective. If the word tells you how something happens, you need an adverb. After `to` or a modal such as `can`, you need a verb.",
+          "examples": [
+            {
+              "right": "The economy grew by three per cent last year.",
+              "wrong": "The economic grew by three per cent last year.",
+              "note": "After \"the\" and before the verb, the sentence needs a noun."
+            },
+            {
+              "right": "Many regions are economically dependent on tourism.",
+              "wrong": "Many regions are economic dependent on tourism.",
+              "note": "\"Dependent\" is an adjective, and a word that describes an adjective must be an adverb."
+            },
+            {
+              "right": "The importance of early education is widely recognised.",
+              "wrong": "The important of early education is widely recognised.",
+              "note": "\"Important\" is an adjective; after \"the\" you need the noun \"importance\"."
+            }
+          ]
+        },
+        {
+          "heading": "Endings that tell you the job",
+          "body": "Endings are a useful clue. Words ending in `-tion`, `-ment`, `-ness`, `-ity` and `-ance` or `-ence` are usually nouns: `pollution`, `development`, `awareness`, `ability`, `importance`. Words ending in `-al`, `-ive`, `-ous`, `-ful` and `-able` are usually adjectives: `financial`, `effective`, `dangerous`, `useful`, `affordable`. Words ending in `-ly` are usually adverbs. Words ending in `-ise` or `-ify` are usually verbs: `analyse`, `modernise`, `simplify`.\n\nThe clue is not perfect. `Friendly` and `costly` end in `-ly` but are adjectives. When you are unsure, a learner's dictionary lists the whole family in one entry, with the job of each form.",
+          "examples": [
+            {
+              "right": "Researchers need to analyse the data carefully.",
+              "wrong": "Researchers need to analysis the data carefully.",
+              "note": "After \"to\" you need a verb; \"analysis\" is the noun."
+            },
+            {
+              "right": "Air pollution damages public health.",
+              "wrong": "Air pollute damages public health.",
+              "note": "The subject of the sentence must be a noun, so \"pollute\" becomes \"pollution\"."
+            },
+            {
+              "right": "Public transport should be affordable for all workers.",
+              "wrong": "Public transport should be afford for all workers.",
+              "note": "After \"be\" you need the adjective \"affordable\", not the verb \"afford\"."
+            }
+          ]
+        },
+        {
+          "heading": "Turning verbs into nouns",
+          "body": "Academic writing often turns a verb into a noun, because it makes a sentence more compact and more formal. `The population increased rapidly` can become `the rapid increase in the population`. This is a good habit, but it has a knock-on effect that learners miss.\n\nWhen the verb becomes a noun, the adverb that described it must become an adjective. `Increased rapidly` becomes `rapid increase`, not `rapidly increase`. The same happens with `failed completely`, which becomes `complete failure`. So every time you change a verb into a noun, look at the word just before it and check that it is now an adjective.",
+          "examples": [
+            {
+              "right": "There was a rapid increase in the population.",
+              "wrong": "There was a rapidly increase in the population.",
+              "note": "Once \"increase\" is a noun, the word describing it must be an adjective."
+            },
+            {
+              "right": "The government's failure to act led to protests.",
+              "wrong": "The government's fail to act led to protests.",
+              "note": "After a possessive you need the noun \"failure\", not the verb \"fail\"."
+            },
+            {
+              "right": "The introduction of the tax reduced consumption.",
+              "wrong": null,
+              "note": "The verbs \"introduce\" and \"consume\" became nouns, which gives a compact academic sentence."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'the economic of the country'. Write 'the economy of the country', because after 'the' you need a noun.",
+        "Writing 'rapidly growth'. Write 'rapid growth', because a noun is described by an adjective.",
+        "Writing 'to analysis the results'. Write 'to analyse the results', because after 'to' you need a verb.",
+        "Writing 'they want to success'. Write 'they want to succeed', because 'success' is a noun and 'succeed' is the verb.",
+        "Writing 'The important is to start early'. Write 'The important thing is to start early' or 'What matters is starting early', because 'important' is an adjective and cannot act as a noun on its own."
+      ],
+      "arabic": "Arabic also builds words from roots, so the idea of a word family is familiar, but Arabic shows the job of a word through its internal pattern, while English mostly uses endings. Arabic also lets an adjective act as a noun very freely, so a phrase like 'al-muhimm' translates naturally as 'the important is'. In English that needs a noun, such as 'the important thing' or 'the main point'.",
+      "check": "For each word you hesitated over, ask what job the slot needs (noun, adjective, adverb or verb) and whether the ending matches."
+    },
+    {
+      "id": "words.adj-adv",
+      "title": "Adjective or adverb",
+      "summary": "a significant rise, it rose significantly.",
+      "sections": [
+        {
+          "heading": "What does the word describe?",
+          "body": "An **adjective** describes a noun: a person, a thing, an idea. An **adverb** describes a verb, an adjective or a whole sentence. Many adverbs are the adjective plus `-ly`: `significant`, `significantly`.\n\nThe test is simple. Point at the word the describing word belongs to. If it is a noun, use the adjective. If it is a verb, use the adverb. This matters a great deal in chart descriptions, because you describe the same change in two ways: `a sharp fall` (the noun `fall`) or `fell sharply` (the verb `fell`). Both are good; just do not mix the halves.",
+          "examples": [
+            {
+              "right": "There was a significant rise in unemployment.",
+              "wrong": "There was a significantly rise in unemployment.",
+              "note": "\"Rise\" is a noun here, so it takes the adjective."
+            },
+            {
+              "right": "Unemployment rose significantly in 2009.",
+              "wrong": "Unemployment rose significant in 2009.",
+              "note": "\"Rose\" is a verb, so it takes the adverb."
+            },
+            {
+              "right": "Sales fell sharply after the new tax was introduced.",
+              "wrong": "Sales fell sharp after the new tax was introduced.",
+              "note": "The word describes how sales fell, so it must be the adverb."
+            }
+          ]
+        },
+        {
+          "heading": "After be, seem, remain and become: adjective",
+          "body": "Some verbs do not describe an action. They link the subject to a description of it: `be`, `seem`, `appear`, `become`, `remain`, `stay`, and `look` when it means `seem`. After these verbs, use the **adjective**, because the word describes the subject, not the action.\n\nThis catches many chart descriptions. `The figure remained stable` is right, because `stable` describes the figure. To check, replace the verb with `was`. If the sentence still makes sense (`the figure was stable`), you need the adjective.",
+          "examples": [
+            {
+              "right": "The number of visitors remained stable throughout the decade.",
+              "wrong": "The number of visitors remained stably throughout the decade.",
+              "note": "\"Remain\" links the subject to a description, so it takes an adjective."
+            },
+            {
+              "right": "The findings seem reliable.",
+              "wrong": "The findings seem reliably.",
+              "note": "\"Reliable\" describes the findings, not an action."
+            },
+            {
+              "right": "The figures look accurate, but the sample is small.",
+              "wrong": "The figures look accurately, but the sample is small.",
+              "note": "Here \"look\" means \"seem\", so it is followed by an adjective."
+            }
+          ]
+        },
+        {
+          "heading": "Adverbs before adjectives and sentences",
+          "body": "An adverb can also make an adjective stronger or weaker: `highly effective`, `relatively small`, `increasingly common`. The adjective is still an adjective; the word in front of it must be an adverb.\n\nSome adverbs comment on the whole sentence and sit at the start, followed by a comma: `Interestingly,` `Surprisingly,` `Consequently,`.\n\nTwo special cases. The adverb of `good` is `well`: students perform **well**, not good. And `hard` is both adjective and adverb: people work **hard**. `Hardly` means `almost not`, which is a completely different meaning.",
+          "examples": [
+            {
+              "right": "The vaccine proved highly effective.",
+              "wrong": "The vaccine proved high effective.",
+              "note": "A word in front of an adjective must be an adverb."
+            },
+            {
+              "right": "Students who sleep well tend to perform well in exams.",
+              "wrong": "Students who sleep good tend to perform good in exams.",
+              "note": "\"Well\" is the adverb of \"good\"."
+            },
+            {
+              "right": "Many nurses work hard for low pay.",
+              "wrong": "Many nurses work hardly for low pay.",
+              "note": "\"Hardly\" means \"almost not\", so it reverses the meaning."
+            },
+            {
+              "right": "Interestingly, the cheapest option was also the safest.",
+              "wrong": null,
+              "note": "A sentence adverb comments on the whole sentence and is followed by a comma."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'increased dramatical'. Write 'increased dramatically', because the word describes the verb 'increased'.",
+        "Writing 'a dramatically increase'. Write 'a dramatic increase', because 'increase' is a noun here.",
+        "Writing 'they did good in the test'. Write 'they did well in the test', because 'well' is the adverb of 'good'.",
+        "Writing 'people work hardly'. Write 'people work hard', because 'hardly' means 'almost not'.",
+        "Writing 'the rate remained steadily'. Write 'the rate remained steady', because 'remain' links the subject to a description, like 'be'."
+      ],
+      "arabic": "Arabic has no single ending like -ly that turns an adjective into an adverb. Manner is often shown with a phrase such as 'bi-shaklin kabir' (in a big way) or with a noun of the same root, so the -ly is easy to leave off. The Arabic habit also produces English like 'increased in a significant way', which is correct but long; 'increased significantly' is what an examiner expects.",
+      "check": "Point at what each describing word belongs to: a noun needs an adjective; a verb, an adjective or a whole sentence needs an adverb."
+    },
+    {
+      "id": "words.comparison",
+      "title": "Comparatives and superlatives",
+      "summary": "more expensive, the most, as ... as, far higher.",
+      "sections": [
+        {
+          "heading": "-er or more, never both",
+          "body": "Short adjectives of one syllable add `-er` and `-est`: `cheap`, `cheaper`, `the cheapest`. Two-syllable adjectives ending in `-y` change the `y` to `i`: `easy`, `easier`, `the easiest`. Most other adjectives of two or more syllables use `more` and `most`: `expensive`, `more expensive`, `the most expensive`.\n\nUse one method, never both. `More cheaper` says the comparison twice.\n\nA few are irregular and must be learnt: `good`, `better`, `best`; `bad`, `worse`, `worst`; `far`, `further`, `furthest`; `much` and `many`, `more`, `most`; `little`, `less`, `least`.",
+          "examples": [
+            {
+              "right": "Renting is cheaper than buying in most cities.",
+              "wrong": "Renting is more cheaper than buying in most cities.",
+              "note": "\"Cheaper\" is already a comparative, so \"more\" is doubled."
+            },
+            {
+              "right": "Online courses are more flexible than classroom teaching.",
+              "wrong": "Online courses are flexibler than classroom teaching.",
+              "note": "Long adjectives take \"more\", not \"-er\"."
+            },
+            {
+              "right": "Air quality in 2020 was worse than in 2019.",
+              "wrong": "Air quality in 2020 was worst than in 2019.",
+              "note": "\"Worse\" compares two things; \"worst\" is the superlative."
+            }
+          ]
+        },
+        {
+          "heading": "than, the and as ... as",
+          "body": "Each pattern has a fixed partner. A **comparative** is followed by `than`: `higher than`. A **superlative** takes `the` and often `in` or `of`: `the highest in Europe`. Equal things use `as ... as`: `as high as`. For a smaller amount, use `not as ... as`.\n\nAlso compare like with like. If you compare the population of one city, compare it with the population of the other, not with the city itself. Use `that of` for a singular noun and `those of` for a plural one, so you do not have to repeat the noun.",
+          "examples": [
+            {
+              "right": "Japan has the oldest population in the world.",
+              "wrong": "Japan has oldest population in the world.",
+              "note": "A superlative before a noun needs \"the\"."
+            },
+            {
+              "right": "Solar power is now as cheap as coal in many regions.",
+              "wrong": "Solar power is now as cheap than coal in many regions.",
+              "note": "\"As ... as\" comes as a pair; \"than\" belongs to the comparative."
+            },
+            {
+              "right": "The population of Cairo is larger than that of Rome.",
+              "wrong": "The population of Cairo is larger than Rome.",
+              "note": "A population must be compared with a population, not with a city."
+            }
+          ]
+        },
+        {
+          "heading": "How big is the difference?",
+          "body": "In chart descriptions you often need to say how big a gap is. Put one of these words before the comparative: `much`, `far`, `considerably`, `significantly` for a large gap; `slightly`, `a little`, `marginally` for a small one. `Very` does not work with a comparative: say `much higher`, not `very higher`.\n\nFor multiples, use `twice as ... as` or `three times as ... as`: `twice as high as`. You will also see `three times higher than`, but `twice higher than` is wrong; `twice` works only with `as ... as`.",
+          "examples": [
+            {
+              "right": "House prices in 2022 were much higher than a decade earlier.",
+              "wrong": "House prices in 2022 were very higher than a decade earlier.",
+              "note": "\"Very\" cannot strengthen a comparative; use \"much\" or \"far\"."
+            },
+            {
+              "right": "Women's average earnings were slightly lower than men's.",
+              "wrong": null,
+              "note": "\"Slightly\" tells the reader that the gap is small."
+            },
+            {
+              "right": "Coffee exports were twice as high as tea exports.",
+              "wrong": "Coffee exports were twice higher than tea exports.",
+              "note": "\"Twice\" goes with \"as ... as\"."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'more easier'. Write 'easier', because a comparative uses either -er or more, never both.",
+        "Writing 'very more expensive'. Write 'much more expensive', because 'very' cannot strengthen a comparative.",
+        "Writing 'worst than'. Write 'worse than', because 'worst' is the superlative.",
+        "Writing 'as important than'. Write 'as important as', because 'as ... as' comes as a pair.",
+        "Writing 'the most biggest'. Write 'the biggest', because -est already means 'most'.",
+        "Writing 'bigger from last year'. Write 'bigger than last year', because the comparative is followed by 'than'."
+      ],
+      "arabic": "Arabic makes comparisons with one pattern, 'af'al' (akbar, 'bigger' or 'biggest'), and the same form serves as both comparative and superlative. It also uses 'min' (from) where English uses 'than'. So the English choice between -er and more, the separate superlative form, and the word 'than' all have no direct model, which leads to 'more bigger', 'the bigger' for 'the biggest', and 'bigger from'.",
+      "check": "At every comparison: -er or more (not both), than or as ... as, and is like being compared with like?"
+    },
+    {
+      "id": "words.prep",
+      "title": "Prepositions of time and place",
+      "summary": "in 2020, on Monday, at night, in the chart.",
+      "sections": [
+        {
+          "heading": "Time: in, on and at",
+          "body": "Think of three sizes of time. **At** is for a point: a clock time, `at night`, `at the weekend`, `at the end of the year`. **On** is for a day or a date: `on Monday`, `on 3 May`, `on Independence Day`. **In** is for a longer stretch: a month, a year, a season, a decade, a century, or a part of the day: `in May`, `in 2020`, `in winter`, `in the 1990s`, `in the morning`.\n\nOne rule saves many mistakes: before `last`, `next`, `this` and `every`, use no preposition at all. Write `last year`, not `in last year`.",
+          "examples": [
+            {
+              "right": "The survey was conducted in 2020.",
+              "wrong": "The survey was conducted on 2020.",
+              "note": "A year is a long stretch of time, so it takes \"in\"."
+            },
+            {
+              "right": "The law came into force on 1 January 2015.",
+              "wrong": "The law came into force in 1 January 2015.",
+              "note": "A specific date takes \"on\", even when it includes the year."
+            },
+            {
+              "right": "Figures rose again last year.",
+              "wrong": "Figures rose again in last year.",
+              "note": "\"Last\", \"next\", \"this\" and \"every\" need no preposition."
+            }
+          ]
+        },
+        {
+          "heading": "Place: in, on and at",
+          "body": "The same three sizes work for place. **In** is for inside an area or a container: `in Cairo`, `in the city`, `in the table`, `in the text`. **On** is for a surface or a line: `on page 14`, `on the coast`, `on the website`. **At** is for a point, including events and institutions seen as a place you go: `at the station`, `at university`, `at a conference`.\n\nFor PTE describe-image and essay language, remember: information is shown **in** a chart, a graph or a table, it appears **on** a page, and it sits **at** the top or **at** the bottom of the table.",
+          "examples": [
+            {
+              "right": "As shown in the table, rents doubled.",
+              "wrong": "As shown at the table, rents doubled.",
+              "note": "Data is inside a table, so it takes \"in\"."
+            },
+            {
+              "right": "The figures are given on page 14.",
+              "wrong": "The figures are given in page 14.",
+              "note": "A page is a surface, so it takes \"on\"."
+            },
+            {
+              "right": "She presented her findings at an international conference.",
+              "wrong": "She presented her findings in an international conference.",
+              "note": "An event is treated as a point, so it takes \"at\"."
+            }
+          ]
+        },
+        {
+          "heading": "Describing change: from, to, by, since, for",
+          "body": "Chart descriptions need a small set of prepositions. **From** and **to** give the start and end level: `rose from 20% to 35%`. **By** gives the size of the change: `rose by 15%`. **Between** pairs with **and**: `between 2010 and 2020`. **From** pairs with **to**: `from 2010 to 2020`. Do not mix the pairs.\n\n**Since** needs a starting point (`since 2010`); **for** needs a length of time (`for ten years`). Both usually go with the present perfect when the situation continues now.",
+          "examples": [
+            {
+              "right": "Unemployment fell from 9% to 6% between 2012 and 2018.",
+              "wrong": "Unemployment fell from 9% until 6% between 2012 to 2018.",
+              "note": "\"From\" pairs with \"to\", and \"between\" pairs with \"and\"."
+            },
+            {
+              "right": "The price of fuel rose by 15%.",
+              "wrong": "The price of fuel rose with 15%.",
+              "note": "\"By\" gives the size of a change."
+            },
+            {
+              "right": "Emissions have been falling for ten years.",
+              "wrong": "Emissions have been falling since ten years.",
+              "note": "\"Since\" needs a starting point; a length of time takes \"for\"."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'in Monday'. Write 'on Monday', because days and dates take 'on'.",
+        "Writing 'in last year'. Write 'last year', because 'last', 'next', 'this' and 'every' need no preposition.",
+        "Writing 'since five years'. Write 'for five years', because 'since' needs a starting point, not a length.",
+        "Writing 'increased with 10%'. Write 'increased by 10%', because 'by' gives the size of a change.",
+        "Writing 'between 2010 to 2020'. Write 'between 2010 and 2020' or 'from 2010 to 2020', because each opener has its own partner.",
+        "Writing 'in a conference'. Write 'at a conference', because an event is treated as a point."
+      ],
+      "arabic": "Arabic 'fi' covers ground that English splits between in, on and at, especially for time: 'fi yawm al-ithnayn' (on Monday), 'fi 2020' (in 2020), 'fi al-sa'a al-khamisa' (at five o'clock). So 'in Monday' feels natural. Arabic 'mundhu' also does the work of both since and for, which produces 'since five years', and 'bi' (with, by) gives 'increased with 10%'.",
+      "check": "For each time or place phrase: is it a point (at), a day, date or surface (on), or a period or area (in)? For each change: from/to, by, or since/for?"
+    },
+    {
+      "id": "words.collocation",
+      "title": "Collocations",
+      "summary": "make a decision, conduct research, pose a threat.",
+      "sections": [
+        {
+          "heading": "Words that travel together",
+          "body": "A **collocation** is a pair of words that English speakers habitually put together. The meaning of the verb does not tell you which one to use. We `make a decision` but `do research`; we `pose a threat` and `conduct a survey`. Another verb may be understandable, but it sounds foreign to an examiner, and PTE rewards natural word choice.\n\nThe practical rule: learn nouns together with their verb. When you meet a useful noun in reading, note the verb in front of it, not just the noun. A learner's dictionary shows the common partners in its example sentences.",
+          "examples": [
+            {
+              "right": "The committee made a decision after a long debate.",
+              "wrong": "The committee did a decision after a long debate.",
+              "note": "\"Decision\" goes with \"make\"."
+            },
+            {
+              "right": "Scientists conducted research into the effects of sleep.",
+              "wrong": "Scientists made researches about the effects of sleep.",
+              "note": "\"Research\" goes with \"conduct\" or \"do\", is uncountable, and is followed by \"into\" or \"on\"."
+            },
+            {
+              "right": "Rising sea levels pose a serious threat to coastal cities.",
+              "wrong": "Rising sea levels make a serious threat to coastal cities.",
+              "note": "\"Threat\" goes with \"pose\"."
+            }
+          ]
+        },
+        {
+          "heading": "Adjective and noun, adverb and adjective",
+          "body": "Adjectives have partners too. English says `strong evidence`, `heavy traffic`, `a key role`, `a high level`, `a major concern`. It does not say `big evidence` or `strong traffic`, even though the meaning is clear.\n\nAdverbs also have partners: `closely linked`, `widely accepted`, `highly effective`, `strongly influenced`. When you want to make an adjective stronger in an essay, one of these pairs sounds far more natural than `very`.",
+          "examples": [
+            {
+              "right": "There is strong evidence that exercise improves mood.",
+              "wrong": "There is big evidence that exercise improves mood.",
+              "note": "\"Evidence\" goes with \"strong\", not \"big\"."
+            },
+            {
+              "right": "Education plays a key role in reducing poverty.",
+              "wrong": "Education does a key role in reducing poverty.",
+              "note": "\"Role\" goes with \"play\"."
+            },
+            {
+              "right": "Smoking is closely linked to heart disease.",
+              "wrong": "Smoking is very linked to heart disease.",
+              "note": "\"Linked\" goes with \"closely\" or \"strongly\"."
+            }
+          ]
+        },
+        {
+          "heading": "The preposition belongs to the word",
+          "body": "Many verbs, nouns and adjectives take one fixed preposition. `Depend on`, `focus on`, `contribute to`, `result in`, `an increase in`, `the reason for`, `an effect on`, `access to`, `responsible for`. The preposition is part of the word, so learn it with the word.\n\nSome verbs take **no** preposition at all: we `discuss` a problem, `emphasise` a point and `enter` a room. Note the difference between `an increase in` (the thing that grew) and `an increase of` (the amount): `an increase of 10% in prices`.",
+          "examples": [
+            {
+              "right": "The results depend on the size of the sample.",
+              "wrong": "The results depend of the size of the sample.",
+              "note": "\"Depend\" is always followed by \"on\"."
+            },
+            {
+              "right": "There has been an increase in the number of students.",
+              "wrong": "There has been an increase of the number of students.",
+              "note": "\"Increase in\" names what grew; \"increase of\" gives the amount."
+            },
+            {
+              "right": "A poor diet can result in serious illness.",
+              "wrong": "A poor diet can result to serious illness.",
+              "note": "\"Result\" takes \"in\"; \"lead\" is the verb that takes \"to\"."
+            },
+            {
+              "right": "The article discusses the causes of inflation.",
+              "wrong": "The article discusses about the causes of inflation.",
+              "note": "\"Discuss\" takes its object directly, with no preposition."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'do a mistake'. Write 'make a mistake', because 'mistake' goes with 'make'.",
+        "Writing 'make a research' or 'researches'. Write 'do research' or 'conduct research', because 'research' goes with these verbs and is uncountable.",
+        "Writing 'discuss about the issue'. Write 'discuss the issue', because 'discuss' takes its object directly.",
+        "Writing 'result to'. Write 'result in' or 'lead to', because each verb has its own preposition.",
+        "Writing 'big evidence'. Write 'strong evidence', because 'evidence' goes with 'strong', not 'big'.",
+        "Writing 'play a big role'. Write 'play a major role' or 'play a key role', because these are the partners 'role' usually takes in formal writing."
+      ],
+      "arabic": "Collocations are the part of vocabulary most often translated word for word, and Arabic pairs do not always match English ones. 'Discuss about' mirrors 'tahaddatha 'an' (talked about), and 'big evidence' mirrors 'dalil kabir'. Some Arabic pairs happen to be good English: 'take a decision' (ittakhadha qararan) is normal British English. So the lesson is not that the Arabic pair is wrong, but that it must be checked.",
+      "check": "For each key noun, ask: is this the verb, the adjective and the preposition that English actually uses with it?"
+    },
+    {
+      "id": "words.confusables",
+      "title": "Commonly confused words",
+      "summary": "affect / effect, rise / raise, economic / economical.",
+      "sections": [
+        {
+          "heading": "affect and effect",
+          "body": "`Affect` is almost always a **verb**: something affects something else. `Effect` is almost always a **noun**: something has an effect on something else.\n\nA reliable check: if you can put `an` or `the` in front of it, or it follows `have`, `has` or `had`, you need the noun `effect`. If it follows a subject and does the action, you need the verb `affect`. The pattern to learn as one piece is `X affects Y`, which means the same as `X has an effect on Y`.",
+          "examples": [
+            {
+              "right": "Air pollution affects children more than adults.",
+              "wrong": "Air pollution effects children more than adults.",
+              "note": "The word is the action of the subject, so it is the verb \"affects\"."
+            },
+            {
+              "right": "The new policy had little effect on crime.",
+              "wrong": "The new policy had little affect on crime.",
+              "note": "After \"had little\" you need a noun, so \"effect\"."
+            }
+          ]
+        },
+        {
+          "heading": "rise and raise",
+          "body": "Both mean `go up` or `make go up`, and the difference is whether there is an **object**. `Rise` has no object: prices **rise** by themselves. Its forms are `rise`, `rose`, `risen`. `Raise` needs an object: someone **raises** prices. Its forms are `raise`, `raised`, `raised`.\n\nTo check, ask `rose what?` If there is an answer in the sentence (interest rates, taxes, awareness), you need `raise`. If there is none, you need `rise`. In chart descriptions the subject is usually the number itself, so `rise` is the one you need most.",
+          "examples": [
+            {
+              "right": "Interest rates rose in 2022.",
+              "wrong": "Interest rates raised in 2022.",
+              "note": "Nothing is raised by anyone in the sentence, so it is \"rise\"."
+            },
+            {
+              "right": "The central bank raised interest rates twice.",
+              "wrong": "The central bank rose interest rates twice.",
+              "note": "\"Interest rates\" is the object, so the verb is \"raise\"."
+            },
+            {
+              "right": "The number of students has risen steadily.",
+              "wrong": "The number of students has rose steadily.",
+              "note": "After \"has\" you need the third form, \"risen\"."
+            }
+          ]
+        },
+        {
+          "heading": "Adjective pairs with different meanings",
+          "body": "Some adjectives from the same root mean different things. `Economic` means relating to the economy: `economic growth`. `Economical` means saving money: `an economical car`. `Historic` means important in history: `a historic agreement`. `Historical` means relating to the past: `historical records`. `Sensible` means showing good judgement; `sensitive` means easily upset or needing care.\n\nWhen you use one of these words, pause and ask which meaning you want. The wrong one is not a spelling slip to the reader; it says something different.",
+          "examples": [
+            {
+              "right": "The country faces serious economic problems.",
+              "wrong": "The country faces serious economical problems.",
+              "note": "The problems relate to the economy, so \"economic\"."
+            },
+            {
+              "right": "A small car is more economical to run.",
+              "wrong": "A small car is more economic to run.",
+              "note": "Here the meaning is \"saves money\", so \"economical\"."
+            },
+            {
+              "right": "Immigration is a sensitive topic for many voters.",
+              "wrong": "Immigration is a sensible topic for many voters.",
+              "note": "\"Sensitive\" means it needs care; \"sensible\" means wise."
+            }
+          ]
+        },
+        {
+          "heading": "Noun with c, verb with s",
+          "body": "In British spelling, several pairs share a sound but split the jobs by one letter. The noun has a `c` and the verb has an `s`: `advice` and `advise`, `practice` and `practise`, `licence` and `license`. `Advice` and `advise` also sound different: the noun ends in an s sound, the verb in a z sound.\n\nA memory aid: `ice` is a noun, so the `-ice` spelling is the noun.",
+          "examples": [
+            {
+              "right": "The doctor gave useful advice about diet.",
+              "wrong": "The doctor gave useful advise about diet.",
+              "note": "After \"useful\" you need the noun, which has a \"c\"."
+            },
+            {
+              "right": "Experts advise people to reduce their salt intake.",
+              "wrong": "Experts advice people to reduce their salt intake.",
+              "note": "This is the action of the subject, so it is the verb, with an \"s\"."
+            },
+            {
+              "right": "Doctors need years of practice before they practise alone.",
+              "wrong": null,
+              "note": "In British spelling the noun is \"practice\" and the verb is \"practise\"."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'less people'. Write 'fewer people', because 'people' can be counted and 'less' is for things that cannot.",
+        "Writing 'more then'. Write 'more than', because 'than' compares and 'then' refers to time.",
+        "Writing 'lose' for not tight. Write 'loose', because 'lose' is the verb meaning to stop having.",
+        "Writing 'the main principal'. Write 'the main principle', because a 'principle' is a rule or belief; a 'principal' is a head of a school.",
+        "Writing 'weather or not'. Write 'whether or not', because 'weather' is rain and sun.",
+        "Writing 'effects the result'. Write 'affects the result', because the verb is 'affect'."
+      ],
+      "arabic": "Arabic has three short vowel sounds where English has many, so pairs that differ only in a vowel, such as then and than, affect and effect, or advice and advise, can sound identical to an Arabic speaker and are easy to swap in writing. The fix is to learn each pair by its job in the sentence rather than by its sound.",
+      "check": "Stop at every word that belongs to a known pair and ask which one this sentence needs, by its job, not its sound."
+    },
+    {
+      "id": "words.register",
+      "title": "Academic register",
+      "summary": "kids, stuff, a lot of, gonna: what to write instead.",
+      "sections": [
+        {
+          "heading": "Everyday words and their academic partners",
+          "body": "**Register** means how formal your language is. An essay is formal, so it needs the written word, not the spoken one. `Kids` becomes `children`. `A lot of` becomes `many`, `much` or `a large number of`. `Stuff` and `things` become a precise noun: `factors`, `resources`, `issues`. `Get` becomes `obtain`, `receive` or `become`. `Big` becomes `large`, `major` or `significant`.\n\nThe test is easy: would you say this word to a friend in a cafe? If so, look for the word you would use in a report to your manager.",
+          "examples": [
+            {
+              "right": "Many children spend several hours a day online.",
+              "wrong": "A lot of kids spend several hours a day online.",
+              "note": "\"Many children\" is the written form of \"a lot of kids\"."
+            },
+            {
+              "right": "Governments should consider several factors before acting.",
+              "wrong": "Governments should think about a lot of stuff before acting.",
+              "note": "\"Factors\" is precise; \"stuff\" tells the reader nothing."
+            },
+            {
+              "right": "The cost of living is a major concern at present.",
+              "wrong": "The cost of living is a big problem these days.",
+              "note": "\"Major concern\" and \"at present\" are the written equivalents."
+            }
+          ]
+        },
+        {
+          "heading": "No contractions or spoken forms",
+          "body": "In an essay, write verbs in full. `Don't` becomes `do not`, `can't` becomes `cannot`, `it's` becomes `it is`, `won't` becomes `will not`. Spoken forms such as `gonna`, `wanna` and `kinda` never appear.\n\nAlso avoid starting sentences with `So`, `And` or `But`, which are common in speech. Use `Therefore`, `In addition` or `However` instead, and punctuate them as sentence linkers.",
+          "examples": [
+            {
+              "right": "The evidence does not support this claim.",
+              "wrong": "The evidence doesn't support this claim.",
+              "note": "In an essay the full form is expected."
+            },
+            {
+              "right": "Governments are going to face higher costs.",
+              "wrong": "Governments are gonna face higher costs.",
+              "note": "\"Gonna\" is speech only."
+            },
+            {
+              "right": "Therefore, the policy should be reviewed.",
+              "wrong": "So the policy should be reviewed.",
+              "note": "\"Therefore\" is the written equivalent of a sentence-opening \"So\"."
+            }
+          ]
+        },
+        {
+          "heading": "A calm, general voice",
+          "body": "Academic writing talks about people in general, so it uses `people`, `individuals`, `students`, `society`, and avoids `you`, which talks directly to the reader. Using `you` also tempts you to switch person halfway through a paragraph, which is one of the slips your corrections have shown.\n\nIt also avoids exaggeration. `Everyone knows`, `always` and `never` claim more than you can prove. Soften claims with `tend to`, `often`, `may` or `it is widely argued that`. In an opinion essay, `In my view` is better than `I really think`.",
+          "examples": [
+            {
+              "right": "People who exercise regularly tend to sleep better.",
+              "wrong": "If you exercise, you will definitely sleep better.",
+              "note": "The first speaks about people in general and makes a careful claim."
+            },
+            {
+              "right": "It is widely argued that university should be free.",
+              "wrong": "Everyone knows that university should be free.",
+              "note": "\"Everyone knows\" claims more than an essay can prove."
+            },
+            {
+              "right": "In my view, the benefits outweigh the costs.",
+              "wrong": "I really really think the benefits are way bigger.",
+              "note": "\"In my view\" states an opinion in a formal voice."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'kids'. Write 'children' or 'young people', because 'kids' is conversational.",
+        "Writing 'a lot of'. Write 'many', 'much' or 'a large number of', because 'a lot of' sounds spoken.",
+        "Writing 'don't' and 'it's'. Write 'do not' and 'it is', because essays use full forms.",
+        "Writing 'stuff' or 'things'. Write 'factors', 'issues' or 'resources', because a precise noun tells the reader what you mean.",
+        "Writing 'you' for people in general. Write 'people' or 'individuals', because 'you' addresses the reader and invites a switch of person.",
+        "Writing 'nowadays' in every introduction. Write 'in recent years' or 'at present', or nothing, because the stock opener adds nothing."
+      ],
+      "arabic": "Arabic speakers already know register well, because Modern Standard Arabic and the spoken dialects are so different. The difficulty is knowing which English words are the 'dialect' ones, since films and social media teach informal English much more than formal English. Formal Arabic also tends to use strong, emphatic statements, which in an English essay can read as exaggeration.",
+      "check": "Would you say this word to a friend in a cafe? If so, find the word you would write in a report."
+    }
+  ]
+}

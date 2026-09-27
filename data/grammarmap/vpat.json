@@ -1,0 +1,574 @@
+{
+  "id": "vpat",
+  "name": "Verb patterns",
+  "order": 4,
+  "summary": "What a verb needs around it: the verb be that cannot be dropped, the form of the verb that follows another verb, and the small words certain verbs always take.",
+  "stations": [
+    {
+      "id": "vpat.be",
+      "title": "The verb be cannot be left out",
+      "summary": "She is happy, not she happy. It is important that ...",
+      "sections": [
+        {
+          "heading": "Every clause needs a verb, and often it is be",
+          "body": "Every English clause needs a verb. When you describe something with an adjective, a noun or a place, that verb is usually `be`: **The results are clear.** **She is a nurse.** **The library is on the second floor.**\n\nIt is easy to leave `be` out because it carries almost no meaning of its own. But without it the sentence has no verb, so it is not a sentence. 'The results clear' and 'This problem very serious' are fragments.\n\nTo check, find the subject (the thing the sentence is about) and look at the next word. If it is an adjective, a noun or a place, you need `is`, `are`, `was` or `were` in between.",
+          "examples": [
+            {
+              "right": "This problem is very serious.",
+              "wrong": "This problem very serious.",
+              "note": "An adjective cannot follow the subject without `be`."
+            },
+            {
+              "right": "Many young people are unemployed.",
+              "wrong": "Many young people unemployed.",
+              "note": "The plural subject takes `are`."
+            },
+            {
+              "right": "The main reason is the cost of living.",
+              "wrong": "The main reason the cost of living.",
+              "note": "Two noun phrases need `is` to join them."
+            }
+          ]
+        },
+        {
+          "heading": "Be in -ing forms and the passive",
+          "body": "Two common verb forms are built with `be`, and in both it is easy to lose.\n\nThe continuous is **be + -ing**: **Prices are rising.** Not 'prices rising'.\n\nThe passive is **be + past participle**: **The data were collected in 2020.** Not 'the data collected in 2020', which says the data did the collecting.\n\nSo whenever an -ing word or a past participle comes straight after a subject, stop and ask two questions. Is the subject doing this now? Then it needs `be` + -ing. Is it having this done to it? Then it needs `be` + participle.",
+          "examples": [
+            {
+              "right": "The population of the city is growing rapidly.",
+              "wrong": "The population of the city growing rapidly.",
+              "note": "The continuous needs `be` before the -ing form."
+            },
+            {
+              "right": "The survey was conducted online.",
+              "wrong": "The survey conducted online.",
+              "note": "The survey did not conduct anything; it was conducted."
+            },
+            {
+              "right": "Students are expected to submit their essays on time.",
+              "wrong": "Students expected to submit their essays on time.",
+              "note": "A passive needs `be` before the participle."
+            }
+          ]
+        },
+        {
+          "heading": "It is and there is",
+          "body": "English does not allow an empty subject slot. When a sentence has no natural subject, English fills the slot with `it` or `there`, and `be` follows.\n\nUse **it is** + adjective + `to` or `that`: **It is important to recycle.** **It is clear that the policy failed.** Use **there is** or **there are** to say that something exists: **There are several reasons for this.**\n\nThe two usual mistakes are dropping the filler word ('Is important to recycle') and dropping `be` ('It important to recycle'). Both words must be there.",
+          "examples": [
+            {
+              "right": "It is important that governments fund research.",
+              "wrong": "Is important that governments fund research.",
+              "note": "English needs `it` in the subject slot."
+            },
+            {
+              "right": "There are many benefits to learning a second language.",
+              "wrong": "There many benefits to learning a second language.",
+              "note": "`there` needs `are` after it."
+            },
+            {
+              "right": "It is clear from the graph that sales fell.",
+              "wrong": "It clear from the graph that sales fell.",
+              "note": "`It` needs `is` before the adjective."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'this very important'. Write 'this is very important', because an adjective needs `be` to join it to the subject.",
+        "Writing 'is necessary to'. Write 'it is necessary to', because the subject slot cannot be empty.",
+        "Writing 'the number rising'. Write 'the number is rising', because the continuous needs `be`.",
+        "Writing 'the study published in 2018' as a sentence. Write 'the study was published in 2018', because a passive needs `be`.",
+        "Writing 'there many reasons'. Write 'there are many reasons', because `there` needs a form of `be`."
+      ],
+      "arabic": "Arabic has no present-tense verb 'to be'. `Al-mushkila kabiira` means 'the problem is big' with nothing between the two words, and it is a complete sentence. So in the present tense, English `is` and `are` feel like extras. Arabic also usually leaves out a subject pronoun that the verb already shows, which is why 'is important to...' without `it` sounds normal. In English both words must be written every time.",
+      "check": "Find each subject: is there a verb after it, or does it jump straight to an adjective, a noun or an -ing word?"
+    },
+    {
+      "id": "vpat.bare",
+      "title": "Base form after modals and do",
+      "summary": "didn't go, can make, must be: never didn't went.",
+      "sections": [
+        {
+          "heading": "After a modal, the plain form",
+          "body": "The modal verbs are `can`, `could`, `will`, `would`, `shall`, `should`, `may`, `might` and `must`. After a modal, the next verb is always in its base form: the plain dictionary form, with no -s, no -ed, no -ing and no `to`.\n\n**The government should invest.** Not 'should invests', 'should invested' or 'should to invest'. **This could lead to problems.** Not 'could leads'.\n\nThe modal itself never changes either: it has no -s after he, she or it. **She can speak three languages.** The exceptions are `ought to` and the look-alikes `have to` and `need to`, which keep their `to`.",
+          "examples": [
+            {
+              "right": "The government should invest more in education.",
+              "wrong": "The government should invests more in education.",
+              "note": "After a modal, the verb takes no -s."
+            },
+            {
+              "right": "This policy could lead to higher unemployment.",
+              "wrong": "This policy could leads to higher unemployment.",
+              "note": "Only the base form follows a modal."
+            },
+            {
+              "right": "Students must submit the assignment by Friday.",
+              "wrong": "Students must to submit the assignment by Friday.",
+              "note": "No `to` after `must`."
+            },
+            {
+              "right": "Governments can play a key role in reducing waste.",
+              "wrong": "Governments can playing a key role in reducing waste.",
+              "note": "No -ing after a modal."
+            }
+          ]
+        },
+        {
+          "heading": "After do, does and did",
+          "body": "In questions and negatives, `do`, `does` or `did` carries the tense and the -s. The main verb then goes back to its base form, so the tense is shown only once.\n\n**He did not go.** Not 'he did not went': `did` already says past, so `went` would say it a second time. **She does not agree.** Not 'she does not agrees': `does` already has the -s.\n\nTo check, find every `do`, `does` or `did` (including `don't`, `doesn't` and `didn't`) and look at the next verb. It must be the dictionary form.",
+          "examples": [
+            {
+              "right": "The results did not support the hypothesis.",
+              "wrong": "The results did not supported the hypothesis.",
+              "note": "`did` already carries the past tense."
+            },
+            {
+              "right": "The author does not explain why.",
+              "wrong": "The author does not explains why.",
+              "note": "`does` already carries the -s."
+            },
+            {
+              "right": "Why did the number of visitors fall in 2015?",
+              "wrong": "Why did the number of visitors fell in 2015?",
+              "note": "In a question, `did` carries the past."
+            }
+          ]
+        },
+        {
+          "heading": "Modal + have + participle for the past",
+          "body": "A modal cannot become past by putting its verb in the past tense. To talk about the past with a modal, use **modal + have + past participle**.\n\n**The government should have acted sooner** (it did not act, and that was a mistake). **The error may have occurred during data entry** (perhaps it did). **They could not have predicted the crisis** (it was impossible).\n\nThe mistake is 'should acted' or 'must went'. The word `have` is what points to the past, and it is always `have`, never `has` or `had`, because a modal is always followed by the base form.",
+          "examples": [
+            {
+              "right": "The council should have consulted local residents.",
+              "wrong": "The council should consulted local residents.",
+              "note": "The past with a modal is `should have` + participle."
+            },
+            {
+              "right": "The fire must have started in the kitchen.",
+              "wrong": "The fire must has started in the kitchen.",
+              "note": "After a modal it is always `have`."
+            },
+            {
+              "right": "The researchers might have overlooked other factors.",
+              "wrong": "The researchers might overlooked other factors.",
+              "note": "`have` is needed to point to the past."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'didn't went'. Write 'didn't go', because `did` already shows the past.",
+        "Writing 'can makes'. Write 'can make', because a modal is followed by the base form.",
+        "Writing 'should to'. Write 'should', because no `to` comes after a modal.",
+        "Writing 'doesn't needs'. Write 'doesn't need', because `does` already carries the -s.",
+        "Writing 'must has been'. Write 'must have been', because after a modal it is always `have`.",
+        "Writing 'should acted'. Write 'should have acted', because a modal shows the past with `have` and the participle."
+      ],
+      "arabic": "In Arabic, the verb after words like `yumkin an` (can) or `yajib an` (must) is still a full verb marked for its person: `yajib an yadrus` is literally 'must that he studies'. So it feels natural to mark the English verb as well, which gives 'she can speaks' or 'must to study'. English puts all the marking on the modal, or on do, does and did, and leaves the next verb bare.",
+      "check": "After every modal and every do, does or did: is the next verb the plain dictionary form?"
+    },
+    {
+      "id": "vpat.ger-inf",
+      "title": "Gerund or infinitive",
+      "summary": "enjoy doing, decide to do, stop doing / stop to do.",
+      "sections": [
+        {
+          "heading": "Verbs followed by -ing",
+          "body": "When one verb follows another, the second one is either an -ing form or `to` + base form. Which one is decided by the FIRST verb, so it has to be learnt with that verb.\n\nCommon verbs followed by -ing: `enjoy`, `avoid`, `consider`, `suggest`, `recommend`, `admit`, `deny`, `finish`, `keep`, `mind`, `risk`, `involve`, `delay`, `practise`. **Many people avoid using public transport.**\n\nEvery preposition is also followed by -ing: **interested in studying**, **before leaving**, **instead of driving**, **by reducing costs**. That includes `to` when it is a preposition, as in **look forward to meeting** and **be used to working**. A quick test: if you could put a noun after that `to` (look forward to the meeting), it is a preposition.",
+          "examples": [
+            {
+              "right": "Many residents avoid using public transport at night.",
+              "wrong": "Many residents avoid to use public transport at night.",
+              "note": "`avoid` is followed by -ing."
+            },
+            {
+              "right": "The report suggests raising taxes on sugary drinks.",
+              "wrong": "The report suggests to raise taxes on sugary drinks.",
+              "note": "`suggest` takes -ing or a that clause, never `to`."
+            },
+            {
+              "right": "Cities can reduce pollution by investing in cycle lanes.",
+              "wrong": "Cities can reduce pollution by invest in cycle lanes.",
+              "note": "After a preposition, use -ing."
+            },
+            {
+              "right": "I look forward to hearing from you.",
+              "wrong": "I look forward to hear from you.",
+              "note": "Here `to` is a preposition, so -ing follows."
+            }
+          ]
+        },
+        {
+          "heading": "Verbs followed by to + verb",
+          "body": "Other verbs take `to` + base form. Common ones: `decide`, `want`, `plan`, `hope`, `expect`, `agree`, `refuse`, `fail`, `manage`, `afford`, `aim`, `tend`, `seem`, `appear`, `choose`, `promise`, `attempt`.\n\n**The council decided to close the library.** **Many graduates fail to find suitable work.**\n\nA loose pattern helps: verbs about plans, hopes and decisions (decide, plan, hope, aim) tend to take `to`, because the action has not happened yet. It is a tendency, not a rule, so learn each verb with its pattern. In your notes, write `decide to do` and `avoid doing`, never just the verb.",
+          "examples": [
+            {
+              "right": "The government has decided to raise the minimum wage.",
+              "wrong": "The government has decided raising the minimum wage.",
+              "note": "`decide` takes `to`."
+            },
+            {
+              "right": "Many families cannot afford to buy a home.",
+              "wrong": "Many families cannot afford buying a home.",
+              "note": "`afford` takes `to`."
+            },
+            {
+              "right": "Older people tend to use social media less.",
+              "wrong": "Older people tend using social media less.",
+              "note": "`tend` takes `to`."
+            }
+          ]
+        },
+        {
+          "heading": "Stop, remember and try change meaning",
+          "body": "A few verbs take both patterns, and the meaning changes.\n\n**stop doing** means you no longer do it: **He stopped smoking.** **stop to do** means you stop something else in order to do it: **He stopped to rest.**\n\n**remember doing** looks back at something already done: **I remember visiting Cairo.** **remember to do** looks forward to a task: **Remember to cite your sources.**\n\n**try doing** is an experiment, to see if it helps: **Try reading the question twice.** **try to do** is an effort that may not succeed: **She tried to finish the essay in twenty minutes.**",
+          "examples": [
+            {
+              "right": "Many people stopped using cash during the pandemic.",
+              "wrong": "Many people stopped to use cash during the pandemic.",
+              "note": "They no longer used it, so `stop` + -ing."
+            },
+            {
+              "right": "Remember to proofread your essay before submitting it.",
+              "wrong": "Remember proofreading your essay before submitting it.",
+              "note": "A task still to be done takes `to`."
+            },
+            {
+              "right": "The researchers tried to contact every participant.",
+              "wrong": null,
+              "note": "`try to` is an effort; some participants may not have been reached."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'avoid to go'. Write 'avoid going', because `avoid` takes -ing.",
+        "Writing 'suggest to do'. Write 'suggest doing' or 'suggest that we do', because `suggest` never takes `to`.",
+        "Writing 'decided going'. Write 'decided to go', because `decide` takes `to`.",
+        "Writing 'look forward to see'. Write 'look forward to seeing', because this `to` is a preposition.",
+        "Writing 'instead of use'. Write 'instead of using', because a preposition is followed by -ing.",
+        "Writing 'stopped to smoke' when you mean quit. Write 'stopped smoking', because `stop to do` means pausing in order to do it."
+      ],
+      "arabic": "Arabic joins two verbs with `an` plus a full verb, as in `uriid an adhhab` ('I want that I go'), or uses a verbal noun, the masdar. There is no split between an -ing pattern and a `to` pattern decided by the first verb, so nothing in Arabic tells you which one `avoid` or `decide` needs. That is why the choice feels random: it has to be learnt verb by verb.",
+      "check": "Where two verbs meet, look at the first one: is it an -ing verb, a to verb, or a preposition?"
+    },
+    {
+      "id": "vpat.obj-inf",
+      "title": "Verb, object, to-infinitive",
+      "summary": "want them to leave, not want that they leave.",
+      "sections": [
+        {
+          "heading": "Want someone to do something",
+          "body": "Some verbs take an object (the person or thing affected) and then `to` + verb. The pattern is **verb + object + to + base form**: **The school wants parents to attend.** **The policy encourages companies to hire graduates.**\n\nCommon verbs with this pattern: `want`, `ask`, `tell`, `allow`, `enable`, `encourage`, `force`, `require`, `expect`, `persuade`, `advise`, `urge`, `invite`, `remind`, `warn`.\n\nThe usual mistake is a `that` clause after `want`: 'I want that they leave'. `Want`, `would like` and `allow` never take `that`. If the object is a pronoun, use the object form: **want them to**, not 'want they to'.",
+          "examples": [
+            {
+              "right": "Most parents want their children to go to university.",
+              "wrong": "Most parents want that their children go to university.",
+              "note": "`want` takes an object and `to`, never `that`."
+            },
+            {
+              "right": "The new law allows employees to work from home.",
+              "wrong": "The new law allows that employees work from home.",
+              "note": "`allow` takes an object and `to`."
+            },
+            {
+              "right": "Teachers encourage students to ask questions.",
+              "wrong": "Teachers encourage students asking questions.",
+              "note": "`encourage` takes an object and `to`, not -ing."
+            },
+            {
+              "right": "The manager asked us to stay late.",
+              "wrong": "The manager asked we to stay late.",
+              "note": "After the verb, a pronoun is in its object form."
+            }
+          ]
+        },
+        {
+          "heading": "Enable, allow and let",
+          "body": "These three verbs mean something similar but follow different patterns, and they are among the most common verbs in essays.\n\n`enable` and `allow` take an object and `to`: **Technology enables people to work remotely.** **The scheme allows students to borrow laptops.**\n\n`let` takes an object and the bare verb, with no `to`: **The scheme lets students borrow laptops.** `Let` is also less formal, so in an essay `allow` is usually the better choice.\n\nNone of them can go straight to `to` without an object: not 'technology enables to work'. Say who is enabled: **enables people to work**.",
+          "examples": [
+            {
+              "right": "The internet enables people to work from anywhere.",
+              "wrong": "The internet enables to work from anywhere.",
+              "note": "`enable` needs an object before `to`."
+            },
+            {
+              "right": "The programme lets students choose their own topics.",
+              "wrong": "The programme lets students to choose their own topics.",
+              "note": "`let` takes no `to`."
+            },
+            {
+              "right": "The rules do not allow visitors to take photographs.",
+              "wrong": "The rules do not allow to take photographs.",
+              "note": "Say who is allowed."
+            }
+          ]
+        },
+        {
+          "heading": "Suggest, insist and explain do not take this pattern",
+          "body": "Some verbs cannot take object + `to`, and learners often force the pattern onto them. `suggest`, `propose`, `insist` and `demand` take a `that` clause instead: **The report suggests that the government should invest more.** Not 'suggests the government to invest'.\n\n`say` and `explain` do not take a person straight after them either. 'He explained me the rule' is wrong; write **He explained the rule to me** or **He told me to...**.\n\nWhen in doubt, check whether the verb can take a person directly after it. If it cannot, it will not take object + `to`.",
+          "examples": [
+            {
+              "right": "The committee suggested that the council should reduce parking fees.",
+              "wrong": "The committee suggested the council to reduce parking fees.",
+              "note": "`suggest` takes a that clause, not object + `to`."
+            },
+            {
+              "right": "The lecturer explained to us how the model works.",
+              "wrong": "The lecturer explained us how the model works.",
+              "note": "`explain` needs `to` before the person."
+            },
+            {
+              "right": "Experts insist that schools should start later.",
+              "wrong": "Experts insist schools to start later.",
+              "note": "`insist` takes a that clause."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'want that they leave'. Write 'want them to leave', because `want` takes an object and `to`.",
+        "Writing 'enables to do'. Write 'enables people to do', because `enable` needs an object.",
+        "Writing 'let them to go'. Write 'let them go', because `let` takes no `to`.",
+        "Writing 'suggested him to apply'. Write 'suggested that he should apply', because `suggest` takes a that clause.",
+        "Writing 'explained me'. Write 'explained to me', because `explain` needs `to` before the person.",
+        "Writing 'encourage people doing'. Write 'encourage people to do', because `encourage` takes an object and `to`."
+      ],
+      "arabic": "Arabic says 'I want from them that they go', `uriid minhum an yadhhabuu`, or simply `uriid an yadhhabuu`, with `an` (that) and a full verb marked for person. Put into English word by word, that gives 'I want that they leave', which is exactly the pattern English refuses. English moves the person into the object slot and leaves the verb unmarked: 'I want them to leave'.",
+      "check": "After want, ask, allow, enable or encourage: is there an object and then to? After suggest or insist: is there a that clause?"
+    },
+    {
+      "id": "vpat.causative",
+      "title": "Make, let, have and get",
+      "summary": "make people wait, let them go, have it checked.",
+      "sections": [
+        {
+          "heading": "Make and let: bare verb, no to",
+          "body": "`make` and `let` are followed by an object and the bare verb, which means the base form without `to`.\n\n**make someone do something** means force or cause them to do it: **High rents make young people live with their parents.** **let someone do something** means allow it: **Some schools let students use phones in class.**\n\nThe common mistake is adding `to`: 'make them to wait', 'let them to go'. Leave it out.\n\nOne twist: in the passive, `make` takes `to` again. **Workers were made to sign new contracts.** This is one of the very few places where the pattern changes.",
+          "examples": [
+            {
+              "right": "Long queues make customers wait for hours.",
+              "wrong": "Long queues make customers to wait for hours.",
+              "note": "`make` + object + bare verb."
+            },
+            {
+              "right": "Flexible hours let employees balance work and family.",
+              "wrong": "Flexible hours let employees to balance work and family.",
+              "note": "`let` never takes `to`."
+            },
+            {
+              "right": "Employees were made to work unpaid overtime.",
+              "wrong": "Employees were made work unpaid overtime.",
+              "note": "In the passive, `made` is followed by `to`."
+            }
+          ]
+        },
+        {
+          "heading": "Have or get something done",
+          "body": "When someone else does a job for you, use **have + object + past participle**, or **get + object + past participle**: **We had the building inspected.** **She got her essay checked by a tutor.** The object is the thing the work is done to, and the past participle says what was done to it.\n\n`get` is a little less formal than `have`, so prefer `have` in an essay.\n\nThe same pattern describes something bad that happened to someone: **Several residents had their cars damaged in the storm.**\n\nCompare **She checked her essay** (she did it herself) with **She had her essay checked** (someone else did it).",
+          "examples": [
+            {
+              "right": "The council had the bridge repaired last year.",
+              "wrong": null,
+              "note": "The council arranged the work; someone else repaired the bridge."
+            },
+            {
+              "right": "Patients should have their blood pressure checked regularly.",
+              "wrong": "Patients should have their blood pressure check regularly.",
+              "note": "After the object, use the past participle."
+            },
+            {
+              "right": "She got her visa application reviewed by a lawyer.",
+              "wrong": "She got her visa application review by a lawyer.",
+              "note": "The thing done to the application is a past participle."
+            }
+          ]
+        },
+        {
+          "heading": "Have or get someone to do",
+          "body": "Two more patterns have a person as the object. **have someone do** (bare verb) means you arrange for them to do it, usually as part of their role: **The lecturer had us read three chapters.** **get someone to do** (with `to`) means you persuade them: **It is hard to get teenagers to eat vegetables.**\n\nSo `make`, `let` and `have` take the bare verb, and `get` takes `to`. Learn it as one line: make, let and have, no to; get, to.",
+          "examples": [
+            {
+              "right": "The company got its staff to work longer hours.",
+              "wrong": "The company got its staff work longer hours.",
+              "note": "`get` + person + `to`."
+            },
+            {
+              "right": "The tutor had each student present a short summary.",
+              "wrong": "The tutor had each student to present a short summary.",
+              "note": "`have` + person + bare verb."
+            },
+            {
+              "right": "Governments find it difficult to get people to save for retirement.",
+              "wrong": null,
+              "note": "`get` here means persuade, so `to` follows the person."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'make them to wait'. Write 'make them wait', because `make` takes the bare verb.",
+        "Writing 'let us to use'. Write 'let us use', because `let` takes the bare verb.",
+        "Writing 'got my car repair'. Write 'got my car repaired', because the thing done is a past participle.",
+        "Writing 'get people do'. Write 'get people to do', because `get`, unlike `make` and `let`, takes `to`.",
+        "Writing 'were made work'. Write 'were made to work', because the passive of `make` brings `to` back."
+      ],
+      "arabic": "Arabic often builds 'cause to do' into the verb itself: `darasa` is 'he studied' and `darrasa`, with the middle letter doubled, is 'he taught', literally 'made study'. Where it uses a separate verb, `ja'ala`, the next verb is a full verb marked for person, as in `ja'alahum yantadhiruun`, 'made them they wait'. So the English split, bare verb after make, let and have but `to` after get, has nothing in Arabic to lean on, and must be learnt as a small set.",
+      "check": "After make, let or have plus a person: no to. After get plus a person: to. After have or get plus a thing: a past participle."
+    },
+    {
+      "id": "vpat.dep-prep",
+      "title": "Dependent prepositions",
+      "summary": "depend on, interested in, responsible for, discuss (no about).",
+      "sections": [
+        {
+          "heading": "Some words choose their preposition",
+          "body": "Many verbs, adjectives and nouns are always followed by one particular preposition, and it cannot be worked out from the meaning. Learn each pair as one unit.\n\nVerbs: **depend on**, **rely on**, **focus on**, **contribute to**, **lead to**, **result in**, **consist of**, **benefit from**, **suffer from**, **deal with**, **cope with**, **apply for**, **account for**.\n\nAdjectives: **interested in**, **responsible for**, **aware of**, **capable of**, **similar to**, **different from**, **dependent on**, **concerned about**.\n\nNouns: **an increase in**, **a decrease in**, **a solution to**, **the reason for**, **an effect on**.\n\nIn your notes, never write a verb alone. Write `depend on`, not `depend`.",
+          "examples": [
+            {
+              "right": "Economic growth depends on investment in education.",
+              "wrong": "Economic growth depends of investment in education.",
+              "note": "It is always `depend on`."
+            },
+            {
+              "right": "Parents are responsible for their children's safety.",
+              "wrong": "Parents are responsible of their children's safety.",
+              "note": "The fixed pair is `responsible for`."
+            },
+            {
+              "right": "The chart shows an increase in energy consumption.",
+              "wrong": "The chart shows an increase of energy consumption.",
+              "note": "`increase in` names what went up; `increase of` gives the amount, as in `an increase of 5%`."
+            },
+            {
+              "right": "Smoking can result in serious illness.",
+              "wrong": "Smoking can result to serious illness.",
+              "note": "It is `result in`, but `lead to`."
+            }
+          ]
+        },
+        {
+          "heading": "Verbs that take no preposition",
+          "body": "The opposite mistake is adding a preposition where the verb takes its object directly. These verbs go straight to the thing: **discuss** the issue, **mention** the problem, **emphasise** the point, **affect** people, **lack** funding, **enter** the market, **approach** the question, **reach** a decision, **attend** a lecture, **answer** the question.\n\nA useful check: some of these have a noun partner that DOES take a preposition. **We discussed the plan**, but **we had a discussion about the plan**. **She emphasised safety**, but **she put emphasis on safety**. **They lack skills**, but **a lack of skills**. The preposition belongs to the noun, not to the verb.",
+          "examples": [
+            {
+              "right": "This essay will discuss the causes of obesity.",
+              "wrong": "This essay will discuss about the causes of obesity.",
+              "note": "`discuss` takes its object directly."
+            },
+            {
+              "right": "The report emphasises the need for reform.",
+              "wrong": "The report emphasises on the need for reform.",
+              "note": "The verb `emphasise` has no preposition; the noun `emphasis` takes `on`."
+            },
+            {
+              "right": "The shortage of teachers affects rural schools most.",
+              "wrong": "The shortage of teachers affects on rural schools most.",
+              "note": "`affect` takes a direct object."
+            },
+            {
+              "right": "Many graduates lack the skills employers need.",
+              "wrong": "Many graduates lack of the skills employers need.",
+              "note": "The verb `lack` takes no `of`; only the noun does."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'discuss about'. Write 'discuss', because the verb takes its object directly.",
+        "Writing 'depend of'. Write 'depend on', because it is a fixed pair.",
+        "Writing 'interested about'. Write 'interested in', because it is a fixed pair.",
+        "Writing 'they lack of money'. Write 'they lack money', because only the noun `lack` takes `of`.",
+        "Writing 'affects on'. Write 'affects', because `affect` takes a direct object.",
+        "Writing 'an increase of crime'. Write 'an increase in crime', because `in` names what increased."
+      ],
+      "arabic": "Arabic verbs and adjectives have their own fixed prepositions, and they are often not the English ones. `Athhara 'ala` (affect) uses `'ala`, 'on', which gives 'affects on'. `Mas'uul 'an` (responsible for) uses `'an`, 'about' or 'from', which gives 'responsible about'. Reaching for the Arabic preposition is a natural habit, so treat every English pair as a piece of vocabulary.",
+      "check": "Before each preposition: is this the fixed pair for that word? And after discuss, affect, lack or emphasise, is there a preposition that should not be there?"
+    },
+    {
+      "id": "vpat.phrasal",
+      "title": "Phrasal verbs",
+      "summary": "carry out, bring about, and when a single verb is better.",
+      "sections": [
+        {
+          "heading": "What a phrasal verb is",
+          "body": "A phrasal verb is a verb plus a small word such as `up`, `out`, `off` or `about`, where the two together have their own meaning. **carry out** means do or conduct: **carry out research**. **bring about** means cause: **bring about change**. **set up** means establish, **point out** means draw attention to, and **rule out** means exclude.\n\nYou usually cannot guess the meaning from the parts, so learn each one as a single word. The ones above are common in academic writing and are fine in a PTE essay. Some others are informal, such as **find out**, **put up with** and **come up with**, and have a one-word alternative that suits an essay better.",
+          "examples": [
+            {
+              "right": "The researchers carried out a survey of 2,000 households.",
+              "wrong": "The researchers carried a survey of 2,000 households.",
+              "note": "Without `out`, `carry` just means hold and move."
+            },
+            {
+              "right": "New technology has brought about major changes in the workplace.",
+              "wrong": null,
+              "note": "`bring about` means cause."
+            },
+            {
+              "right": "The author points out that the sample was small.",
+              "wrong": "The author points that the sample was small.",
+              "note": "`point out` means draw attention to."
+            }
+          ]
+        },
+        {
+          "heading": "Where the object goes",
+          "body": "Many phrasal verbs can be split: a noun object can go after the whole verb or between the two parts. **They set up a committee** and **They set a committee up** are both correct.\n\nBut if the object is a pronoun (it, them, this), it MUST go in the middle: **They set it up**, never 'they set up it'.\n\nSome phrasal verbs can never be split, such as **look after** and **come across**. The object always comes after them, even a pronoun: **I came across an interesting study**, **I came across it**. A good dictionary shows which kind each verb is.",
+          "examples": [
+            {
+              "right": "The proposal was unpopular, so the committee turned it down.",
+              "wrong": "The proposal was unpopular, so the committee turned down it.",
+              "note": "A pronoun object goes between the two parts."
+            },
+            {
+              "right": "The university set up a new research centre.",
+              "wrong": null,
+              "note": "A noun object can go after the whole verb."
+            },
+            {
+              "right": "Nurses look after patients around the clock.",
+              "wrong": "Nurses look patients after around the clock.",
+              "note": "`look after` cannot be split."
+            }
+          ]
+        },
+        {
+          "heading": "When a single verb is better",
+          "body": "In a formal essay, a one-word verb often sounds more precise than a phrasal verb, especially an informal one. Swap them where you can.\n\n`find out` becomes **discover** or **establish**; `come up with` becomes **devise** or **propose**; `look into` becomes **investigate**; `put off` becomes **postpone**; `go up` becomes **rise** or **increase**; `cut down on` becomes **reduce**; `get rid of` becomes **eliminate**; `put up with` becomes **tolerate**.\n\nThis is not a ban. `carry out`, `set up` and `point out` are standard in academic writing. But if a paragraph has three phrasal verbs, replacing one or two will make it tighter.",
+          "examples": [
+            {
+              "right": "The study investigated the causes of the decline.",
+              "wrong": null,
+              "note": "`investigated` is more formal than `looked into`."
+            },
+            {
+              "right": "The government should reduce spending on defence.",
+              "wrong": null,
+              "note": "`reduce` is tighter than `cut down on`."
+            },
+            {
+              "right": "Scientists have devised a new method for recycling plastic.",
+              "wrong": null,
+              "note": "`devised` is more formal than `come up with`."
+            },
+            {
+              "right": "Sales rose steadily in the second half of the year.",
+              "wrong": null,
+              "note": "In a chart description, `rose` is better than `went up`."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'turned down it'. Write 'turned it down', because a pronoun object goes between the two parts.",
+        "Writing 'carried a survey'. Write 'carried out a survey', because `carry out` is the verb that means conduct.",
+        "Writing 'pointed that'. Write 'pointed out that', because the particle is part of the verb.",
+        "Writing 'went up' in a chart description. Write 'rose' or 'increased', because a single verb is more formal.",
+        "Writing 'get rid of'. Write 'eliminate' or 'remove', because the phrasal verb is informal."
+      ],
+      "arabic": "Arabic has no phrasal verbs in the English sense: a new meaning comes from a different verb or a different pattern of the root, not from adding a small word like `out` or `up`. So the particle can look optional and get dropped ('carry a survey', 'point that'), and the rule that a pronoun goes in the middle has nothing in Arabic to match.",
+      "check": "For each phrasal verb: is the particle there, is a pronoun object in the middle, and would one formal verb do the job better?"
+    }
+  ]
+}

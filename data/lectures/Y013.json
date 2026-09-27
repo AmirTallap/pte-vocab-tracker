@@ -3,7 +3,14 @@
   "title": "Major Course Themes",
   "field": "Earth and environment",
   "text": "Course themes that I intend to draw through these cases include those that are on the back of page two, or the bottom of page two. How is law related to science and uncertainty? What causes environmental damage and health loss? Where should the burden of proof of causality lie? On the public sector or on the private sector? On the individual? So that understanding the idea of burden of proof is a fundamental aspect of understanding environmental law. We'll also take a look at the importance of secrecy and the control over information or knowledge. So I think of this as being really an analogy between the public sector and the private sector. In the private sector, secrecy is a very important component in that trade secrecy protects a company's understanding of product ingredients or perhaps how it's processed or produced or shipped. Whereas classified information in the public sector protects sensitive information. In both cases, the idea is to protect competitive advantage, either in international affairs or in the marketplace. So we'll see how that plays out in many of these cases. We'll also think about the principle of democracy and how participation rights vary",
-  "points": [],
+  "points": [
+    "The course on environmental law will follow several themes through its cases.",
+    "How law relates to science and uncertainty, and what causes environmental damage and loss of health.",
+    "Where the burden of proof of causation should lie: on the public sector, the private sector or the individual; this is fundamental to environmental law.",
+    "Secrecy and control of information: trade secrets protect companies' products and processes, while classified information protects sensitive government information.",
+    "In both sectors secrecy protects competitive advantage, in the marketplace or in international affairs.",
+    "The course will also consider democracy and how participation rights vary."
+  ],
   "audio": "Y013.mp3",
   "source": {
     "page": "https://oyc.yale.edu/environmental-studies/evst-255/lecture-1",

@@ -1,0 +1,136 @@
+{
+  "id": "s4",
+  "title": "Friends and family",
+  "items": [
+    {
+      "id": "s4-01",
+      "title": "Forgetting a birthday dinner",
+      "register": "informal",
+      "function": "apologise",
+      "situation": "Your close friend Nadia organised a dinner at a restaurant last night to celebrate her thirtieth birthday. You had promised to come, but you were so busy at work that you forgot completely and did not even send a message. This morning you saw photos of the evening online, and you realised what you had done. Nadia has not contacted you. You have decided to phone her. What would you say to Nadia?",
+      "points": [
+        "Apologise sincerely and take full responsibility",
+        "Show that you understand why she might be hurt",
+        "Avoid long excuses about work",
+        "Offer a way to make it up to her, such as taking her out"
+      ]
+    },
+    {
+      "id": "s4-02",
+      "title": "A wedding you cannot attend",
+      "register": "informal",
+      "function": "decline",
+      "situation": "Your old school friend Ben is getting married abroad in six weeks, and he has invited you to be one of his guests. You would love to go, but the flights and hotel would cost more than a month's rent, and the wedding falls in the same week as your final university exams. Ben has just rung you, sounding excited, to check that you are coming. What would you say to Ben?",
+      "points": [
+        "Congratulate him warmly first",
+        "Explain the reasons honestly but kindly",
+        "Make it clear how sorry you are to miss it",
+        "Suggest another way to celebrate, such as meeting when he returns"
+      ]
+    },
+    {
+      "id": "s4-03",
+      "title": "A cousin choosing a degree",
+      "register": "informal",
+      "function": "advise",
+      "situation": "Your seventeen-year-old cousin, Omar, has to choose a university course soon. His parents want him to study medicine because it is a secure career, but Omar loves designing video games and is much more interested in computer science. He is confused and worried about disappointing his family. At a family lunch, he takes you aside and asks what you think he should do. What advice would you give Omar?",
+      "points": [
+        "Listen to both sides and avoid simply taking one",
+        "Encourage him to think about his interests and strengths",
+        "Suggest practical research, such as open days or talking to students",
+        "Advise him to talk honestly with his parents"
+      ]
+    },
+    {
+      "id": "s4-04",
+      "title": "Convincing parents about a gap year",
+      "register": "informal",
+      "function": "persuade",
+      "situation": "You have finished school and have a place at university, but you would like to take a year out first to work and volunteer on a conservation project overseas. Your parents are against the idea. They worry that you will lose interest in studying and that the trip will be unsafe. You have researched the project carefully and saved some money. You are having dinner with them tonight. What would you say to your parents?",
+      "points": [
+        "Show you understand and respect their worries",
+        "Explain the benefits of the year out",
+        "Address safety with concrete details about the project",
+        "Reassure them about your commitment to university, such as a deferred place"
+      ]
+    },
+    {
+      "id": "s4-05",
+      "title": "Money a friend still owes",
+      "register": "informal",
+      "function": "request",
+      "situation": "Three months ago you lent your friend Leon two hundred pounds when he was short of money for his rent. He promised to pay it back within a few weeks, but he has not mentioned it since. Meanwhile, he has been on a weekend trip and bought new clothes. You now need the money yourself for a car repair. You are meeting Leon for a coffee. What would you say to Leon?",
+      "points": [
+        "Raise the subject directly but without accusing him",
+        "Explain that you now need the money and why",
+        "Ask for a clear repayment date or a plan",
+        "Keep the friendship in mind throughout"
+      ]
+    },
+    {
+      "id": "s4-06",
+      "title": "Mixed-up holiday plans",
+      "register": "informal",
+      "function": "clarify",
+      "situation": "You and your friend Grace agreed to go on holiday together next month. You thought you had agreed on a quiet week walking in the countryside, so you have bought walking boots and booked a cottage. Today Grace sent you a message saying how excited she is about the beach parties and the nightlife. It seems you have each understood the plan very differently. You have phoned her. What would you say to Grace?",
+      "points": [
+        "Keep a light, friendly tone",
+        "Explain what you understood and what you have already booked",
+        "Ask what she had in mind",
+        "Suggest a compromise that includes both kinds of holiday"
+      ]
+    },
+    {
+      "id": "s4-07",
+      "title": "A grandmother's worries",
+      "register": "informal",
+      "function": "reassure",
+      "situation": "You have accepted a job in another country and will move there in two months. Your grandmother, who has always lived close to you, is very upset. She is worried that you will be lonely, that the city is dangerous, and that she will hardly ever see you again. She has asked you to visit her this weekend to talk about it. What would you say to your grandmother?",
+      "points": [
+        "Show that you understand her feelings",
+        "Answer each worry with specific reassurance",
+        "Explain how you will keep in touch, such as weekly video calls",
+        "Mention plans to visit"
+      ]
+    },
+    {
+      "id": "s4-08",
+      "title": "Sharing chores with a sibling",
+      "register": "informal",
+      "function": "negotiate",
+      "situation": "You and your younger brother Sami both live with your parents. Your parents have asked the two of you to take over the cooking, shopping and cleaning for the next three months while your mother recovers from an operation. Sami says he is too busy with his football training and wants you to do most of it, but you also work full time. You are sitting down together to agree a plan. What would you say to Sami?",
+      "points": [
+        "Stress that you both want to help your mother",
+        "Recognise his training commitments",
+        "Propose a fair split based on your schedules",
+        "Agree how to check the plan is working"
+      ]
+    },
+    {
+      "id": "s4-09",
+      "title": "Late for the school pickup",
+      "register": "formal",
+      "function": "explain",
+      "situation": "Your neighbour asked you to collect her six-year-old son, Finn, from school today at half past three, because she is working late. You were on your way when your bus broke down, and you arrived twenty minutes late. Finn waited in the school office with his teacher, Mrs Carter, who does not know you and looks concerned. What would you say to Mrs Carter?",
+      "points": [
+        "Introduce yourself and explain your connection to Finn",
+        "Apologise for being late",
+        "Explain what happened with the bus",
+        "Offer ways she can confirm you are permitted to collect him"
+      ]
+    },
+    {
+      "id": "s4-10",
+      "title": "A disappointing family meal",
+      "register": "formal",
+      "function": "complain",
+      "situation": "You have taken your parents to a restaurant to celebrate their wedding anniversary. You booked a quiet table weeks ago and mentioned the occasion, but you have been seated next to the kitchen door. The main courses arrived after an hour, and your father's steak is cold. Your parents are trying not to mind, but you want the evening to be special. You have asked to speak to the manager. What would you say to the manager?",
+      "points": [
+        "Stay calm and courteous",
+        "Explain the booking and the occasion",
+        "Describe the problems specifically",
+        "Say what would put things right, such as a new dish or a better table"
+      ]
+    }
+  ]
+}

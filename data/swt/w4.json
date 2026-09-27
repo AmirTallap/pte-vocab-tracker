@@ -1,0 +1,136 @@
+{
+  "id": "w4",
+  "title": "History, culture and language",
+  "items": [
+    {
+      "id": "w4-01",
+      "title": "The Printing Press in Context",
+      "topic": "History",
+      "passage": "The introduction of printing with movable metal type in Europe, generally credited to Johannes Gutenberg in the mid-fifteenth century, is often described as one of the most important events in human history. Before it, books were copied by hand, a slow and expensive process that kept them scarce and costly. Within a few decades of Gutenberg's innovation, printing presses had spread to hundreds of European towns, and millions of books had been produced.\n\nThe consequences were far-reaching. Printed texts were identical, which made it easier for scholars in different places to compare and build on each other's work, and this is thought to have contributed to the scientific revolution. Printing helped religious reformers in the sixteenth century to spread their arguments quickly and widely, and it encouraged the standardisation of national languages, as printers settled on consistent spellings to serve large markets.\n\nHistorians caution, however, against treating the printing press as the sole cause of these changes. Printing with movable type had existed centuries earlier in East Asia, where the large number of characters in written Chinese made it less practical than in Europe's alphabetic scripts. In Europe itself, the impact of printing depended on other conditions, including rising literacy, the availability of cheap paper, and commercial networks that could distribute books. Moreover, handwritten manuscripts continued to circulate for a long time.\n\nThe printing press is therefore best understood not as a single invention that transformed society on its own, but as a technology whose effects were shaped by the society that adopted it.",
+      "points": [
+        "Printing transformed Europe, but its effects depended on wider conditions",
+        "Identical, cheaper books aided science, reform and standard languages",
+        "Movable type existed earlier in East Asia",
+        "Literacy, paper and trade networks shaped its impact"
+      ],
+      "summary": "Gutenberg's printing press made books cheaper and identical, aiding science, religious reform and language standardisation, but historians stress that its impact depended on literacy, paper and trade networks, so its effects were shaped by the society that adopted it."
+    },
+    {
+      "id": "w4-02",
+      "title": "Endangered Languages and Revival",
+      "topic": "Linguistics",
+      "passage": "Of the roughly seven thousand languages spoken in the world today, a large proportion are at risk of disappearing within the coming century. Many are spoken by only a few thousand people, and some by just a handful of elderly speakers. A language usually dies not because its speakers perish but because families stop passing it on to their children, often under economic or political pressure to adopt a more widely spoken language that promises education and employment.\n\nLinguists argue that the loss of a language is a loss for everyone, not just its community. Each language represents a distinct way of organising experience, and many contain detailed knowledge of local plants, animals and landscapes that has never been written down. For the communities concerned, a language is also bound up with identity, history and a sense of belonging, and its loss can be deeply painful.\n\nEfforts to revive endangered languages have had mixed results. The most frequently cited success is Hebrew, which was restored as an everyday spoken language in the late nineteenth and twentieth centuries after being used for centuries mainly in religious and written contexts. Other programmes, such as immersion schools in which children are taught entirely in a minority language, have increased the number of young speakers in places including New Zealand and Wales.\n\nSuch successes, however, typically require strong community commitment, sustained funding and political support over many years. Recording and documenting languages can preserve a valuable record, but it cannot by itself keep a language alive; only people choosing to speak it can do that.",
+      "points": [
+        "Many languages are endangered; revival is possible but demanding",
+        "Languages die when families stop passing them on",
+        "Loss destroys knowledge and identity",
+        "Hebrew and immersion schools succeeded with sustained commitment; documentation alone is not enough"
+      ],
+      "summary": "Many of the world's languages are endangered because families stop passing them on, which destroys irreplaceable knowledge and identity, and while revivals such as Hebrew and immersion schooling show recovery is possible, they need sustained community commitment rather than documentation alone."
+    },
+    {
+      "id": "w4-03",
+      "title": "The Silk Road as a Network",
+      "topic": "World history",
+      "passage": "The term Silk Road, coined by a German geographer in the nineteenth century, refers to the network of overland and maritime trade routes that connected China with Central Asia, the Middle East and Europe for well over a thousand years. The name suggests a single road along which silk travelled from east to west, but the reality was far more complex. There was no single route, and few merchants travelled its entire length. Instead, goods passed through many hands, moving in stages between cities and trading communities.\n\nSilk was only one of many commodities. Spices, precious metals, glass, horses, paper and ceramics all changed hands, and trade moved in both directions. More significant in the long run than any of these goods, however, was the exchange of ideas, technologies and beliefs. Buddhism spread from India into China along these routes, and later Islam spread through Central Asia. Knowledge of papermaking travelled westward, and artistic styles, crops and scientific ideas circulated widely.\n\nNot everything that travelled was beneficial. Historians widely believe that the plague which devastated Europe and the Middle East in the fourteenth century spread in part along these trade networks.\n\nSome historians have warned against romanticising the Silk Road as a symbol of peaceful cultural harmony. Trade was often disrupted by war, and it depended on the protection of powerful empires. Nevertheless, it remains a vivid example of how connections between distant societies have shaped their development, a theme that has renewed relevance in an age of globalisation.",
+      "points": [
+        "The Silk Road was a network that shaped distant societies, mainly through ideas",
+        "No single route; goods moved in stages and both directions",
+        "Religions, papermaking and plague all spread along it",
+        "It should not be romanticised, as trade depended on empires and suffered war"
+      ],
+      "summary": "The Silk Road was not a single route but a changing network through which goods, and more importantly religions, technologies and diseases, passed between Asia and Europe, and although it should not be romanticised, it shows how connections shape distant societies."
+    },
+    {
+      "id": "w4-04",
+      "title": "The Administrative Origins of Writing",
+      "topic": "Ancient history",
+      "passage": "Writing is so fundamental to modern life that it is easy to forget it is a relatively recent invention. Humans have used language for tens of thousands of years, but the earliest known writing systems appeared only around five thousand years ago, in Mesopotamia, in what is now southern Iraq.\n\nRemarkably, writing does not seem to have been invented for literature, religion or history. The earliest examples are administrative records. As cities grew and temples and palaces managed large stores of grain, livestock and labour, officials needed reliable ways of recording who owed what. They began by using small clay tokens and later pressed marks into clay tablets to represent quantities and goods. Over centuries, these signs developed into a script known as cuneiform, which came to represent the sounds of spoken language and could therefore record anything that could be said, from laws and letters to epic poems.\n\nWriting was invented independently in several places, including Egypt, China and Mesoamerica, although scholars still debate whether Egyptian writing was influenced by contact with Mesopotamia. Each system developed its own characteristics, but all emerged in societies with growing states and complex economies.\n\nFor most of history, however, the ability to read and write was restricted to a small elite of scribes and officials, and it conferred considerable power. Widespread literacy is a very recent development, achieved in many countries only in the past two centuries, and even today hundreds of millions of adults cannot read.",
+      "points": [
+        "Writing began in Mesopotamia as a tool for administration, not literature",
+        "Tokens and tablet marks became cuneiform, able to record speech",
+        "It arose independently in several complex societies",
+        "Literacy stayed an elite skill until recently"
+      ],
+      "summary": "Writing first emerged about five thousand years ago in Mesopotamia as a tool for administrative record-keeping before developing into a script able to record language, and although invented independently elsewhere, it remained an elite skill until very recently."
+    },
+    {
+      "id": "w4-05",
+      "title": "Does Language Shape Thought",
+      "topic": "Linguistics",
+      "passage": "Does the language we speak shape the way we think? In the early twentieth century, the linguist Benjamin Lee Whorf argued that it does, claiming that speakers of languages with very different grammatical structures perceive and understand the world differently. In its strongest form, this hypothesis suggested that language determines thought, so that concepts lacking a word in one's language are impossible to grasp.\n\nThis strong version has been largely abandoned. People can clearly think about things for which they have no word, and translation between languages, while imperfect, is always possible. Some of Whorf's own claims, notably about the way a Native American language expressed time, were later judged to be based on misunderstandings.\n\nA weaker version of the idea has, however, received experimental support. Languages differ in the distinctions they require speakers to make, and habitual attention to those distinctions appears to have small but measurable effects. Russian, for instance, has separate basic words for light blue and dark blue, and Russian speakers have been found to distinguish these shades slightly faster than English speakers. Some languages describe directions using absolute terms such as north and south rather than left and right, and their speakers tend to remain unusually well oriented even indoors.\n\nThe current consensus is therefore more modest than Whorf's original claim. Language does not imprison thought, but it can influence what people notice, remember and find easy to express. The debate now focuses on how large these effects are and in which areas of thinking they appear.",
+      "points": [
+        "Language influences thought modestly but does not determine it",
+        "The strong Whorfian claim has been largely abandoned",
+        "Russian blue terms and absolute directions show small effects",
+        "Debate now concerns the size and scope of the effects"
+      ],
+      "summary": "Whorf's strong claim that language determines thought has been largely rejected, but experiments suggest a weaker version, in which the distinctions a language requires, such as colour terms or absolute directions, subtly influence what speakers notice and remember."
+    },
+    {
+      "id": "w4-06",
+      "title": "Oral Tradition as Historical Evidence",
+      "topic": "Cultural history",
+      "passage": "Long before writing existed, and in many societies long after it appeared, knowledge was preserved and passed on by word of mouth. Oral traditions include myths, genealogies, laws, songs and practical knowledge about the land, and they were often maintained by specialists who devoted years to learning them.\n\nScholars once assumed that such traditions were highly unreliable, changing with each retelling like a message passed along a line of people. Research has shown that this is not necessarily the case. Societies with strong oral cultures developed techniques to support accurate memory, including rhythm, repetition, formulaic phrases and the association of stories with features of the landscape. Studies of the epic poetry of the Balkans in the twentieth century helped scholars to understand how ancient works such as those attributed to Homer could have been composed and transmitted without writing. In Australia, some Aboriginal stories appear to describe changes in sea level and coastlines that took place thousands of years ago.\n\nIt would be wrong, however, to assume that oral traditions preserve information unchanged. They are not archives but living forms, adapted to the needs of each generation. Performers may rework details to suit an audience, and stories can be reshaped to support the claims of a particular family or group. Their purpose was often to convey meaning and identity rather than to record events precisely.\n\nHistorians today therefore treat oral traditions as valuable evidence, but as evidence that must be interpreted with an understanding of how and why it was transmitted.",
+      "points": [
+        "Oral traditions are valuable historical evidence that needs careful interpretation",
+        "Once dismissed as unreliable",
+        "Memory techniques preserved some information for thousands of years",
+        "Traditions adapt to each generation and serve identity"
+      ],
+      "summary": "Oral traditions were once dismissed as unreliable, but memory techniques such as rhythm and repetition allowed some to preserve information for thousands of years, although because they adapt to each generation, historians treat them as valuable evidence requiring careful interpretation."
+    },
+    {
+      "id": "w4-07",
+      "title": "The Black Death and Labour",
+      "topic": "Medieval history",
+      "passage": "The Black Death, the outbreak of plague that swept across Europe between 1347 and 1351, was one of the most devastating catastrophes in recorded history. Estimates vary, but it is generally thought to have killed between a third and a half of Europe's population within a few years, and further outbreaks followed for centuries.\n\nThe immediate effects were horrifying: whole villages were abandoned, and contemporaries believed they were witnessing the end of the world. Yet many historians argue that, in the longer term, the pandemic transformed European society in ways that benefited the survivors. With so many labourers dead, workers became scarce, and those who remained were able to demand higher wages and better conditions. Land became more plentiful relative to the population, and in parts of Western Europe the old system of serfdom, which bound peasants to the land of their lords, gradually weakened.\n\nThese changes did not happen smoothly. Landowners and rulers tried to hold wages down by law and to restrict the movement of workers, and such measures contributed to popular uprisings, including the English Peasants' Revolt of 1381. Moreover, the outcome varied greatly by region. In parts of Eastern Europe, lords responded to labour shortages by tightening their control over peasants, and serfdom became more severe rather than less.\n\nThe Black Death thus illustrates how the same shock can produce very different results depending on the balance of power within a society, a lesson historians have applied to other pandemics as well.",
+      "points": [
+        "The Black Death's effects depended on each society's balance of power",
+        "It killed a third to a half of Europe's population",
+        "Labour shortages raised wages and weakened serfdom in the West",
+        "Elites resisted, causing revolts; serfdom hardened in the East"
+      ],
+      "summary": "The Black Death killed a large share of Europe's population, and while labour shortages later raised wages and weakened serfdom in Western Europe, resistance by elites and harsher serfdom in the East show that its effects depended on each society's balance of power."
+    },
+    {
+      "id": "w4-08",
+      "title": "English as a Global Language",
+      "topic": "Sociolinguistics",
+      "passage": "English is now used by more people as a second or foreign language than as a first language. It has become the dominant language of international business, science, aviation and the internet, and in many countries proficiency in English is seen as essential for education and career advancement. This status is not the result of any special quality in the language itself. It reflects historical circumstances, first the global reach of the British Empire and then the economic, military and cultural influence of the United States in the twentieth century.\n\nThe spread of English brings clear practical advantages. A shared language allows researchers to communicate their findings to a global audience and enables people from very different backgrounds to do business and cooperate. For individuals, learning English can open up opportunities that would otherwise be closed.\n\nHowever, the dominance of English also raises concerns. Native speakers enjoy an advantage in international settings that others must work hard to match, and researchers who publish in other languages may find their work overlooked. In some places, the prestige of English contributes to the decline of local languages, as parents encourage their children to prioritise it.\n\nAt the same time, English itself is changing as a result of its global use. When speakers from different countries communicate in English, they often adapt it in ways that prioritise mutual understanding over native-speaker norms. Some linguists argue that this international English should be judged by how effectively it communicates rather than by how closely it resembles British or American usage.",
+      "points": [
+        "English dominates globally for historical reasons, with benefits and costs",
+        "Its status reflects British and American power, not any inherent quality",
+        "It aids communication but advantages native speakers and threatens local languages",
+        "Global use is reshaping English itself"
+      ],
+      "summary": "English has become the global lingua franca because of British and American influence rather than any inherent quality, bringing practical benefits but also advantaging native speakers and threatening local languages, while global use is reshaping English itself."
+    },
+    {
+      "id": "w4-09",
+      "title": "Museums and the Return of Artefacts",
+      "topic": "Cultural heritage",
+      "passage": "Many of the world's great museums hold collections that were assembled during periods of colonial expansion. Sculptures, religious objects and human remains were often removed from their places of origin through military conquest, unequal agreements or purchase under conditions that would not be considered fair today. In recent decades, governments and communities in the countries from which these objects came have increasingly asked for them to be returned.\n\nThose who support repatriation argue that such objects were frequently taken unjustly and that they hold cultural, spiritual or historical significance for the communities that created them. Returning them, they suggest, is a way of acknowledging past wrongs and allowing people to reconnect with their own heritage. Some objects, particularly human remains and sacred items, are regarded by their communities as having been taken in ways that caused lasting harm.\n\nOpponents have raised several objections. Some museums argue that they preserve objects for a global audience and that their collections allow visitors to compare cultures side by side. Others have questioned whether objects would be adequately protected after their return, although this argument is increasingly seen as condescending, given the modern museums that now exist in many of the countries concerned. Legal obstacles also exist, since some national laws forbid museums from permanently giving away items in their collections.\n\nIn practice, attitudes are shifting. A growing number of institutions have returned objects, entered into long-term loans, or developed partnerships with source communities. The debate increasingly concerns not whether some objects should go home, but how such decisions should be made.",
+      "points": [
+        "Repatriation of colonial-era objects is increasingly accepted; debate is now about how",
+        "Many objects were taken unjustly and matter to source communities",
+        "Objections: global audiences, protection concerns, legal barriers",
+        "Museums are returning items, lending and forming partnerships"
+      ],
+      "summary": "Museums hold many objects taken during colonial expansion, and although some argue that they serve a global audience or face legal barriers, a growing number are returning items or forming partnerships, so debate now centres on how rather than whether to repatriate."
+    },
+    {
+      "id": "w4-10",
+      "title": "Bilingualism and the Mind",
+      "topic": "Psycholinguistics",
+      "passage": "For much of the twentieth century, bringing up children with two languages was widely thought to be harmful. Early studies reported that bilingual children performed worse on intelligence tests and were slower in their language development, and parents in immigrant families were sometimes advised to speak only the majority language at home. These studies, however, often failed to take account of factors such as poverty and the fact that children were tested in a language they had not fully mastered.\n\nLater research painted a far more positive picture. Bilingual children do sometimes have a smaller vocabulary in each individual language, but their combined vocabulary is typically similar to that of monolingual children, and they catch up as they grow older. From the 1990s onwards, some studies suggested that managing two languages might even strengthen general mental abilities, such as the capacity to switch between tasks and ignore distractions, and possibly delay the symptoms of dementia in old age.\n\nThis so-called bilingual advantage has since become controversial. Several large studies have failed to find consistent differences in these general abilities between bilingual and monolingual people, and some researchers suspect that early positive results were more likely to be published than negative ones. The question of dementia also remains unsettled.\n\nWhat is not in doubt is that bilingualism does no harm and brings obvious practical and cultural benefits, including the ability to communicate with more people and to maintain a connection with family heritage. Whether it also sharpens the mind remains an open question.",
+      "points": [
+        "Bilingualism does no harm and has practical benefits; cognitive gains are uncertain",
+        "Early studies claiming harm ignored poverty and testing language",
+        "Claims of sharper minds and delayed dementia are now controversial",
+        "It clearly aids communication and links to heritage"
+      ],
+      "summary": "Once thought harmful, bilingualism is now known to do no damage and to bring practical and cultural benefits, although claims that it also strengthens general mental abilities or delays dementia have become controversial after larger studies found inconsistent evidence."
+    }
+  ]
+}

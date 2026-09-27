@@ -1,0 +1,672 @@
+{
+  "id": "tense",
+  "name": "Tense and time",
+  "order": 1,
+  "summary": "How English verbs show time: which tense to choose for facts, events, changes and plans, and how to keep one time frame steady through a piece of writing.",
+  "stations": [
+    {
+      "id": "tense.present",
+      "title": "Present simple and continuous",
+      "summary": "Habits and facts versus things in progress now.",
+      "sections": [
+        {
+          "heading": "Present simple: facts, habits and general truths",
+          "body": "The present simple is the plain verb, with -s added after he, she, it or a singular noun: `rises`, `depends`, `shows`. Use it for things that are generally true, things that happen regularly, and what a chart or a text says. Most sentences in a PTE essay are in the present simple, because an essay argues about how the world usually is.\n\nTo check, ask: is this true in general, or regularly, rather than only at this moment? If yes, use the present simple. Describing a chart uses it too: the chart **shows**, the graph **illustrates**, the table **compares**.",
+          "examples": [
+            {
+              "right": "Water boils at 100 degrees Celsius at sea level.",
+              "wrong": "Water is boiling at 100 degrees Celsius at sea level.",
+              "note": "A scientific fact is always true, so it takes the present simple."
+            },
+            {
+              "right": "The bar chart shows the number of international students in five countries.",
+              "wrong": "The bar chart is showing the number of international students in five countries.",
+              "note": "What a chart presents is a permanent fact about it, not an action in progress."
+            },
+            {
+              "right": "Governments usually raise taxes when public spending increases.",
+              "wrong": "Governments usually are raising taxes when public spending is increasing.",
+              "note": "Usually signals a general pattern, which the present simple expresses."
+            }
+          ]
+        },
+        {
+          "heading": "Present continuous: happening now or around now",
+          "body": "The present continuous is `am`, `is` or `are` plus the -ing form: `is rising`, `are changing`. Use it for something in progress at this moment, a temporary situation around now, or a trend that is still developing. It says: this is going on, and it is not permanent.\n\nA useful check is to add `at the moment` or `currently` in your head. If the sentence still makes sense and means what you want, the continuous is right. If you meant \"always\" or \"in general\", go back to the present simple.",
+          "examples": [
+            {
+              "right": "The lecturer is explaining the results of the experiment.",
+              "wrong": "The lecturer explains the results of the experiment right now.",
+              "note": "An action happening at this moment takes am, is or are plus -ing."
+            },
+            {
+              "right": "More people are working from home than ever before.",
+              "wrong": null,
+              "note": "A trend that is still developing fits the continuous."
+            },
+            {
+              "right": "The climate is changing faster than many scientists predicted.",
+              "wrong": null,
+              "note": "A change still in progress is described with the continuous."
+            }
+          ]
+        },
+        {
+          "heading": "Do not drop the verb be",
+          "body": "The continuous always needs two parts: a form of `be` and the -ing verb. Writing `the population growing` without `is` gives a sentence with no finished verb.\n\nThe same is true when an adjective or a noun describes the subject. `The problem serious` needs `is`: `The problem is serious`. English does not allow a present sentence without a verb.\n\nCheck: every -ing verb that is the main verb of a sentence needs am, is, are, was or were in front of it, and every subject followed by an adjective needs a form of be between them.",
+          "examples": [
+            {
+              "right": "The population of the city is growing rapidly.",
+              "wrong": "The population of the city growing rapidly.",
+              "note": "Without is, the sentence has no complete verb."
+            },
+            {
+              "right": "This issue is serious because it affects millions of families.",
+              "wrong": "This issue serious because it affects millions of families.",
+              "note": "English needs is between a subject and an adjective, even in the present."
+            },
+            {
+              "right": "Young people are more aware of environmental issues than their parents.",
+              "wrong": "Young people more aware of environmental issues than their parents.",
+              "note": "Are links the subject to the description and makes the sentence complete."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The graph is showing the figures for 2020'. Write 'The graph shows the figures for 2020', because what a chart presents is a fact, not an action in progress.",
+        "Writing 'Nowadays people are usually buying online'. Write 'Nowadays people usually buy online', because usually describes a general habit.",
+        "Writing 'The number of cars increasing every year'. Write 'The number of cars is increasing every year', because the -ing form needs is, am or are in front of it.",
+        "Writing 'I am agree with this view'. Write 'I agree with this view', because agree is an ordinary verb and takes no am in front of it.",
+        "Writing 'This problem very serious'. Write 'This problem is very serious', because English needs a verb between the subject and the description."
+      ],
+      "arabic": "Arabic has one present form, the imperfective (\"yaktub\"), for both \"he writes\" and \"he is writing\", so the choice English forces between simple and continuous has no match in Arabic. Arabic also has no word for \"is\" in a present sentence: \"al-mushkila kabira\" is literally \"the problem big\". That is why \"the problem serious\" and \"the population growing\" can feel complete, and why \"I am agree\" appears when a learner knows English wants a be somewhere but not where.",
+      "check": "For each present verb: is it true in general (simple) or in progress around now (continuous), and does every -ing verb have am, is or are in front of it?"
+    },
+    {
+      "id": "tense.stative",
+      "title": "Stative verbs",
+      "summary": "Know, believe, own, need: verbs that resist -ing.",
+      "sections": [
+        {
+          "heading": "What a stative verb is",
+          "body": "Most verbs describe actions: `write`, `build`, `rise`. A few describe states: something that simply is the case, with no activity and no clear start or end. These are called **stative verbs**. The common ones are verbs of thinking (`know`, `believe`, `understand`, `agree`, `mean`), verbs of feeling and wanting (`like`, `prefer`, `want`, `need`), and verbs of having and being (`own`, `belong`, `contain`, `consist`, `include`, `depend`, `seem`).\n\nStative verbs normally do not take the -ing form, even when you are talking about right now. You write `I know`, not `I am knowing`.",
+          "examples": [
+            {
+              "right": "Many experts believe that the policy will fail.",
+              "wrong": "Many experts are believing that the policy will fail.",
+              "note": "Believe is a state of mind, so it stays in the simple form."
+            },
+            {
+              "right": "The report contains data from twelve countries.",
+              "wrong": "The report is containing data from twelve countries.",
+              "note": "Contain describes what something holds, which is a state."
+            },
+            {
+              "right": "Small businesses need clearer rules on tax.",
+              "wrong": "Small businesses are needing clearer rules on tax.",
+              "note": "Need is a state, even when the need is current."
+            }
+          ]
+        },
+        {
+          "heading": "How to test a verb",
+          "body": "Ask one question: could I watch this happening? You can watch someone writing or a price rising. You cannot watch someone knowing, owning or preferring. If there is nothing to watch, the verb is stative and the simple form is right.\n\nWhen you want to describe a trend in progress, choose an action verb instead of forcing -ing onto a state. `More people are preferring` is wrong, but `more people are choosing` is correct, because choosing is something people do.",
+          "examples": [
+            {
+              "right": "More students are choosing online degrees.",
+              "wrong": "More students are preferring online degrees.",
+              "note": "Choose is an action, so it can show a trend in progress; prefer cannot."
+            },
+            {
+              "right": "The success of the project depends on funding.",
+              "wrong": "The success of the project is depending on funding.",
+              "note": "Depend describes a relationship, not an activity."
+            },
+            {
+              "right": "I understand why some people disagree with this view.",
+              "wrong": "I am understanding why some people disagree with this view.",
+              "note": "Understanding is a mental state, not an action you can watch."
+            }
+          ]
+        },
+        {
+          "heading": "Verbs with two meanings",
+          "body": "Some verbs are stative in one meaning and an action in another. `Think` meaning \"believe\" is stative: `I think it is a good idea`. `Think` meaning \"consider, use your mind\" is an action: `I am thinking about the question`. The same happens with `have`: `have two cars` is a state, but `have a discussion` is an action. And with `see`: `I see your point` is a state, but `I am seeing the doctor` is an arrangement.\n\nSo check the meaning, not the word. If the verb gives an opinion, a possession or a fact, keep it simple. If it describes something a person is actively doing, the continuous is possible.",
+          "examples": [
+            {
+              "right": "I think that public transport should be free.",
+              "wrong": "I am thinking that public transport should be free.",
+              "note": "Here think means believe, which is a state."
+            },
+            {
+              "right": "The committee is thinking about a new approach.",
+              "wrong": null,
+              "note": "Here think means consider, an activity, so -ing is correct."
+            },
+            {
+              "right": "Many families have two cars.",
+              "wrong": "Many families are having two cars.",
+              "note": "Have meaning own is a state."
+            },
+            {
+              "right": "The students are having a discussion about the reading.",
+              "wrong": null,
+              "note": "Have a discussion is an activity, so the continuous is fine."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'I am agree with the statement' or 'I am agreeing with the statement'. Write 'I agree with the statement', because agree is a stative verb and needs no am.",
+        "Writing 'Nowadays people are wanting more free time'. Write 'Nowadays people want more free time', because want is a state even when it describes the present.",
+        "Writing 'The chart is consisting of three sections'. Write 'The chart consists of three sections', because consist describes structure, not an action.",
+        "Writing 'This is meaning that costs will rise'. Write 'This means that costs will rise', because mean is a stative verb.",
+        "Writing 'I am thinking that the government is right'. Write 'I think that the government is right', because think meaning believe is a state."
+      ],
+      "arabic": "Because the Arabic imperfective covers both \"he knows\" and \"he is knowing\", Arabic gives no signal that some verbs refuse the continuous. A learner who has been taught that \"now\" means am, is or are plus -ing will apply it to every verb, including know, want and believe. The fix is not a feeling but the watching test: if nothing visible is happening, keep the verb simple.",
+      "check": "For each -ing verb: is it something you could watch happening, or is it a state such as know, need, believe or contain?"
+    },
+    {
+      "id": "tense.perfect",
+      "title": "Present perfect or past simple",
+      "summary": "A finished time (yesterday, in 2019) against a link to now.",
+      "sections": [
+        {
+          "heading": "Past simple: a finished time",
+          "body": "Use the past simple (`increased`, `rose`, `introduced`) when the action happened at a time that is over. Often the time is named: `in 2019`, `last year`, `two weeks ago`, `when I was a child`. Sometimes it is only clear from context, for example when you are telling a finished story.\n\nCheck the time words. If the sentence contains a finished time, the present perfect is wrong, however recent the event was. `Yesterday` is finished, so it takes the past simple.",
+          "examples": [
+            {
+              "right": "The government introduced the tax in 2019.",
+              "wrong": "The government has introduced the tax in 2019.",
+              "note": "In 2019 is a finished time, so only the past simple fits."
+            },
+            {
+              "right": "Sales fell sharply last year.",
+              "wrong": "Sales have fallen sharply last year.",
+              "note": "Last year is over, so the past simple is needed."
+            },
+            {
+              "right": "The researchers published their findings two months ago.",
+              "wrong": "The researchers have published their findings two months ago.",
+              "note": "Ago always points to a finished time."
+            }
+          ]
+        },
+        {
+          "heading": "Present perfect: a link to now",
+          "body": "The present perfect is `has` or `have` plus the past participle: `has increased`, `have become`. It connects the past with the present. Use it when no finished time is given and the result still matters now; when a period is still continuing (`since 2010`, `over the past decade`, `so far`); and for experience in a life that is not over.\n\nA quick test: can you add `up to now` without changing the meaning? If yes, the present perfect is likely right.",
+          "examples": [
+            {
+              "right": "Online shopping has changed the way people spend money.",
+              "wrong": null,
+              "note": "No finished time is given, and the change still affects the present."
+            },
+            {
+              "right": "Unemployment has fallen since 2015.",
+              "wrong": "Unemployment fell since 2015.",
+              "note": "Since marks a period that runs up to now, which needs the present perfect."
+            },
+            {
+              "right": "Scientists have studied this disease for more than fifty years.",
+              "wrong": "Scientists study this disease for more than fifty years.",
+              "note": "A period that started in the past and continues now needs have plus the participle."
+            }
+          ]
+        },
+        {
+          "heading": "Choosing between them in an essay or a chart",
+          "body": "In a chart description, look at the time labels. If the chart covers a finished period, for example 1990 to 2010, describe it in the past simple: `rose`, `peaked`, `fell`.\n\nIn an essay, a general claim about recent change usually takes the present perfect, and a specific example with a date takes the past simple. It is normal to move from one to the other: `Technology has transformed education. In 2020, for example, most schools moved their teaching online.` The first sentence links to now; the second is a finished event.",
+          "examples": [
+            {
+              "right": "Between 1990 and 2010, the number of car owners doubled.",
+              "wrong": "Between 1990 and 2010, the number of car owners has doubled.",
+              "note": "The period shown is finished, so the past simple describes it."
+            },
+            {
+              "right": "Technology has transformed education. In 2020, for example, most schools moved their teaching online.",
+              "wrong": null,
+              "note": "The general claim links to now; the dated example is finished."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'In 2010 the company has opened a new factory'. Write 'In 2010 the company opened a new factory', because a stated past date needs the past simple.",
+        "Writing 'Prices increased since 2000'. Write 'Prices have increased since 2000', because since marks a period that continues to the present.",
+        "Writing 'I live in Sydney for three years'. Write 'I have lived in Sydney for three years', because the period started in the past and has not ended.",
+        "Writing 'Between 2000 and 2010 the population has grown'. Write 'Between 2000 and 2010 the population grew', because the period is finished."
+      ],
+      "arabic": "Arabic has no present perfect. It has a past form (\"kataba\") and a present form (\"yaktubu\"), and \"qad kataba\" can stress that something is done, but there is no separate tense for \"past but connected to now\". So an Arabic speaker tends either to use the past simple everywhere, or to use the present with a time phrase, as in \"I live here since 2015\", which follows the Arabic \"askunu huna mundhu 2015\" word for word.",
+      "check": "Is there a finished time in the sentence (past simple), or does the period reach up to now (present perfect)?"
+    },
+    {
+      "id": "tense.perfect-cont",
+      "title": "Present perfect continuous",
+      "summary": "Duration up to now: has been rising for a decade.",
+      "sections": [
+        {
+          "heading": "Form and meaning",
+          "body": "The present perfect continuous is `has been` or `have been` plus the -ing form: `has been rising`, `have been working`. It describes an activity that started in the past and has continued up to now, and it puts the focus on the duration, the length of time. It usually comes with `for` (a length of time) or `since` (a starting point), or with `recently` and `lately`.\n\nCheck the parts. There must be three pieces: has or have, then been, then the -ing verb. Leaving out `been` is a common slip.",
+          "examples": [
+            {
+              "right": "House prices have been rising for a decade.",
+              "wrong": "House prices are rising for a decade.",
+              "note": "A process that has lasted a decade up to now needs have been plus -ing."
+            },
+            {
+              "right": "Researchers have been studying the effects of sleep since the 1950s.",
+              "wrong": "Researchers have studying the effects of sleep since the 1950s.",
+              "note": "The form needs been between have and the -ing verb."
+            },
+            {
+              "right": "The council has been discussing the proposal for several months.",
+              "wrong": "The council discusses the proposal for several months.",
+              "note": "A discussion lasting months up to now needs has been plus -ing."
+            }
+          ]
+        },
+        {
+          "heading": "For and since",
+          "body": "`For` goes before a length of time: `for ten years`, `for several months`, `for a long time`. `Since` goes before a starting point: `since 2015`, `since the crisis`, `since the law was passed`.\n\nTo check, ask: does the phrase answer \"how long?\" or \"from when?\" If it answers how long, use for. If it answers from when, use since. Either way, the verb is a perfect form, not the present.",
+          "examples": [
+            {
+              "right": "Temperatures in the region have been rising since 1980.",
+              "wrong": "Temperatures in the region have been rising for 1980.",
+              "note": "1980 is a starting point, so it takes since."
+            },
+            {
+              "right": "The two countries have been negotiating for three years.",
+              "wrong": "The two countries have been negotiating since three years.",
+              "note": "Three years is a length of time, so it takes for."
+            }
+          ]
+        },
+        {
+          "heading": "Continuous or simple perfect?",
+          "body": "Both forms link the past to now, but they point at different things. The continuous stresses **how long** something has been going on, and the activity may not be finished. The simple form stresses **the result**, or **how much** has been done, and often counts things.\n\nA simple test: if the sentence counts completed things (`three reports`, `twice`), use `have done`. If it has a length of time and the activity is still going on, `have been doing` is often better. Stative verbs such as `know` and `own` still take the simple form: `have known`, never `have been knowing`.",
+          "examples": [
+            {
+              "right": "The team has written three reports on the subject.",
+              "wrong": null,
+              "note": "A counted, finished result takes the simple present perfect."
+            },
+            {
+              "right": "The team has been writing the report all week.",
+              "wrong": null,
+              "note": "The focus is on the length of the activity, which may not be finished."
+            },
+            {
+              "right": "Economists have known about this problem for years.",
+              "wrong": "Economists have been knowing about this problem for years.",
+              "note": "Know is a stative verb, so it takes the simple form even with for."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Temperatures are rising since 1980'. Write 'Temperatures have been rising since 1980', because since shows a period that reaches up to now.",
+        "Writing 'Scientists have been researching it since ten years'. Write 'Scientists have been researching it for ten years', because for goes with a length of time and since with a starting point.",
+        "Writing 'The number has increasing for five years'. Write 'The number has been increasing for five years', because the form needs been.",
+        "Writing 'I have been knowing this for years'. Write 'I have known this for years', because know is a stative verb."
+      ],
+      "arabic": "Arabic expresses \"for ten years up to now\" with the present tense and \"mundhu\", as in \"yadrusu mundhu ashr sanawat\", literally \"he studies since ten years\". Translated word by word, that gives both errors at once: the present instead of \"has been studying\", and since instead of for. English uses since only before a starting point and for before a length of time, and it needs a perfect form with both.",
+      "check": "Does the activity run from the past up to now? Then it needs has or have been plus -ing, with for before a length and since before a starting point."
+    },
+    {
+      "id": "tense.past",
+      "title": "Past simple and past continuous",
+      "summary": "A finished event against the background that was going on.",
+      "sections": [
+        {
+          "heading": "Past simple for finished events",
+          "body": "The past simple tells the main events of a finished story or period: `the study began`, `the researchers found`, `prices fell`. For regular verbs, add -ed. Many common verbs are irregular (`went`, `took`, `grew`).\n\nIn questions and negatives, the past is carried by `did`, so the main verb goes back to its plain form: `did not find`, never `did not found`. Check every `did` and `didn't` in your writing: the verb after it must have no -ed and no past form.",
+          "examples": [
+            {
+              "right": "The experiment began in March and ended in June.",
+              "wrong": null,
+              "note": "Two finished events in sequence both take the past simple."
+            },
+            {
+              "right": "The survey did not include people over seventy.",
+              "wrong": "The survey did not included people over seventy.",
+              "note": "After did, the verb returns to its plain form."
+            },
+            {
+              "right": "In 2008, many banks lost huge sums of money.",
+              "wrong": "In 2008, many banks lose huge sums of money.",
+              "note": "A dated past event needs the past form."
+            }
+          ]
+        },
+        {
+          "heading": "Past continuous for the background",
+          "body": "The past continuous is `was` or `were` plus -ing: `was rising`, `were working`. It describes something that was already in progress at a moment in the past, often as the background to a shorter event. The shorter event is in the past simple.\n\nA typical pattern is `while` with the continuous, and `when` with the simple: `While the scientists were testing the drug, they noticed a side effect.` Ask yourself: which action was going on (continuous), and which one happened in the middle of it (simple)?",
+          "examples": [
+            {
+              "right": "The economy was growing steadily when the crisis began.",
+              "wrong": "The economy grew steadily when the crisis was beginning.",
+              "note": "The long background takes the continuous; the sudden event takes the past simple."
+            },
+            {
+              "right": "While the scientists were testing the drug, they noticed a side effect.",
+              "wrong": "While the scientists tested the drug, they were noticing a side effect.",
+              "note": "The testing was in progress; the noticing happened at one moment during it."
+            },
+            {
+              "right": "At 9 a.m. yesterday, most commuters were travelling to work.",
+              "wrong": null,
+              "note": "At a moment in the past, an action already in progress takes was or were plus -ing."
+            }
+          ]
+        },
+        {
+          "heading": "Do not use the continuous for a whole finished story",
+          "body": "Some learners put every past verb into the continuous, which makes a text sound as if nothing ever finished. Use the continuous only for the background action. The events that move the account forward, one after another, are in the past simple.\n\nStative verbs follow the same rule as in the present: `was knowing` and `were wanting` are wrong. Write `knew` and `wanted`.",
+          "examples": [
+            {
+              "right": "The company hired new staff, opened two offices and doubled its profits.",
+              "wrong": "The company was hiring new staff, was opening two offices and was doubling its profits.",
+              "note": "A sequence of completed events takes the past simple."
+            },
+            {
+              "right": "Many people wanted cheaper housing at that time.",
+              "wrong": "Many people were wanting cheaper housing at that time.",
+              "note": "Want is a state, so it stays in the past simple."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The study didn't found any link'. Write 'The study didn't find any link', because did already shows the past.",
+        "Writing 'While I studied, the phone was ringing'. Write 'While I was studying, the phone rang', because the long action is the background and the short one interrupts it.",
+        "Writing 'Everyone was knowing the risks'. Write 'Everyone knew the risks', because know is a stative verb.",
+        "Writing 'Last year the company was launching a new product and was selling a million units'. Write 'Last year the company launched a new product and sold a million units', because these are completed events, not background."
+      ],
+      "arabic": "Arabic forms a past background with \"kana\" plus the present verb, as in \"kana yadrusu\", which can mean \"he was studying\" but also \"he used to study\". Because one Arabic form covers both, learners often write \"was studying\" where English wants a habit (\"used to study\" or \"studied\"), or \"studied\" where English wants the background. Decide which of the two meanings you want before you choose the form.",
+      "check": "In each past sentence: which action was the background in progress (was or were plus -ing), and which ones simply happened (past simple)?"
+    },
+    {
+      "id": "tense.past-perfect",
+      "title": "Past perfect",
+      "summary": "The earlier of two past events.",
+      "sections": [
+        {
+          "heading": "The earlier of two past events",
+          "body": "The past perfect is `had` plus the past participle: `had finished`, `had risen`. Use it when you are already talking about the past and need to go further back, to show that one event happened before another past event or before a past time.\n\nThe rule has a condition: there must be two past points. If you are only describing one event, the past simple is enough. `Had` is not a \"more past\" or more formal past; it only makes sense measured against another past moment.",
+          "examples": [
+            {
+              "right": "By the time the report was published, the government had already changed the policy.",
+              "wrong": "By the time the report was published, the government already changed the policy.",
+              "note": "The policy changed before the report appeared, and had shows that order."
+            },
+            {
+              "right": "The patients had taken the drug for six weeks before the side effects appeared.",
+              "wrong": null,
+              "note": "Taking the drug came first, so it takes had plus the participle."
+            },
+            {
+              "right": "The company went bankrupt in 2015.",
+              "wrong": "The company had gone bankrupt in 2015.",
+              "note": "With only one past event and nothing later to measure from, the past simple is correct."
+            }
+          ]
+        },
+        {
+          "heading": "Signal words, and when you can skip it",
+          "body": "Words such as `by the time`, `already`, `by 1990` and `when` often signal the past perfect, because they set up an order. After `before` and `after`, however, the order is already clear from the word itself, so the past simple is also acceptable: `After the storm passed, the city began to rebuild.`\n\nThe past perfect is essential when the order would otherwise be unclear, and when you report what a past source said about an even earlier time: `The study found that prices had doubled over the previous decade.`",
+          "examples": [
+            {
+              "right": "By 1990, most households had bought a television.",
+              "wrong": "By 1990, most households have bought a television.",
+              "note": "By 1990 is a past point, so what happened before it takes had, not have."
+            },
+            {
+              "right": "When the inspectors arrived, the factory had already closed.",
+              "wrong": "When the inspectors arrived, the factory already closed.",
+              "note": "The closing came before the arrival, so it takes had."
+            },
+            {
+              "right": "After the storm passed, the city began to rebuild.",
+              "wrong": null,
+              "note": "After already shows the order, so the past simple is acceptable here."
+            },
+            {
+              "right": "The study found that prices had doubled over the previous decade.",
+              "wrong": null,
+              "note": "The doubling happened before the study, so it takes had."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'By 2010 the population has doubled'. Write 'By 2010 the population had doubled', because by 2010 is a point in the past.",
+        "Writing 'Yesterday I had submitted my essay' when there is no second event. Write 'Yesterday I submitted my essay', because the past perfect needs another past moment to be earlier than.",
+        "Writing 'When I arrived, the lecture already started'. Write 'When I arrived, the lecture had already started', because it started before you arrived.",
+        "Writing 'They had went home'. Write 'They had gone home', because had needs the past participle, not the past simple."
+      ],
+      "arabic": "Arabic can mark an earlier past with \"kana qad\" plus the past verb, but in everyday writing the order is usually left to context and the plain past is enough. English is stricter when two past events could be confused. At the other extreme, some learners treat had as a more formal past and use it everywhere; it is correct only when there is a later past point to measure from.",
+      "check": "Is there a second, later past moment in this sentence or the one before it? If not, remove had."
+    },
+    {
+      "id": "tense.future",
+      "title": "Future forms",
+      "summary": "Will, going to, and the present for arrangements.",
+      "sections": [
+        {
+          "heading": "Will: predictions, decisions and promises",
+          "body": "`Will` plus the plain verb is the most general way to talk about the future. Use it for predictions and opinions about the future, which is what essays mostly need (`this will lead to`), for decisions made at the moment of speaking, and for promises. The verb after will has no -s, no -ed and no -ing: `will increase`, never `will increases`.\n\nIn essays you can soften a prediction with `is likely to`, `may` or `could`. Examiners read this as careful thinking, not as weakness.",
+          "examples": [
+            {
+              "right": "If nothing changes, the cost of housing will continue to rise.",
+              "wrong": "If nothing changes, the cost of housing will continues to rise.",
+              "note": "The verb after will is always the plain form."
+            },
+            {
+              "right": "Automation is likely to replace many routine jobs.",
+              "wrong": null,
+              "note": "Is likely to softens a prediction in an academic style."
+            },
+            {
+              "right": "Governments that invest in education will benefit in the long term.",
+              "wrong": "Governments that invest in education will benefiting in the long term.",
+              "note": "Will takes the plain verb, never the -ing form."
+            }
+          ]
+        },
+        {
+          "heading": "Going to: plans and present evidence",
+          "body": "`Be going to` plus the plain verb shows an intention already decided (`the university is going to open a new campus`) or a prediction based on something you can see now (`the clouds are dark, so it is going to rain`). The form must include am, is or are: `The city is going to build`, not `The city going to build`.\n\nOften will and going to are both acceptable. Going to is the better choice when the plan existed before the moment of speaking.",
+          "examples": [
+            {
+              "right": "The council is going to build a new hospital next year.",
+              "wrong": "The council going to build a new hospital next year.",
+              "note": "Going to needs is, am or are in front of it."
+            },
+            {
+              "right": "According to the forecast, the region is going to face a severe drought.",
+              "wrong": null,
+              "note": "A prediction based on present evidence often takes going to."
+            }
+          ]
+        },
+        {
+          "heading": "The present for arrangements and timetables, and after when and if",
+          "body": "English also uses present forms for the future. The present continuous describes fixed arrangements: `The minister is meeting the union leaders on Friday.` The present simple describes timetables: `The conference starts at nine tomorrow.`\n\nMost importantly, after `when`, `if`, `before`, `after`, `until` and `as soon as`, English uses the present, not will, even when the meaning is future. Check every one of these words: if will appears in the same part of the sentence, change it to the present. Will belongs in the other half, the result.",
+          "examples": [
+            {
+              "right": "When the new law comes into force, companies will have to report their emissions.",
+              "wrong": "When the new law will come into force, companies will have to report their emissions.",
+              "note": "After when, a future event takes the present simple."
+            },
+            {
+              "right": "If the government raises taxes, consumer spending will fall.",
+              "wrong": "If the government will raise taxes, consumer spending will fall.",
+              "note": "The if part uses the present; will goes in the result."
+            },
+            {
+              "right": "The spring semester starts on 3 February.",
+              "wrong": null,
+              "note": "A timetabled event can take the present simple."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'When I will finish my degree, I will look for a job'. Write 'When I finish my degree, I will look for a job', because English uses the present after when for a future event.",
+        "Writing 'This will causes problems'. Write 'This will cause problems', because the verb after will is always the plain form.",
+        "Writing 'The government going to introduce a new law'. Write 'The government is going to introduce a new law', because going to needs is, am or are.",
+        "Writing 'If people will recycle more, there will be less waste'. Write 'If people recycle more, there will be less waste', because the if part takes the present."
+      ],
+      "arabic": "Arabic makes the future with one marker, \"sa-\" or \"sawfa\", placed on the present verb, so there is no Arabic model for choosing between will, going to and the present continuous. The rule against will after when and if is an English peculiarity that speakers of many languages break, because the meaning is future and it feels natural to mark it. Learners also leave out is in \"is going to\" for the same reason they leave it out elsewhere: Arabic has no present-tense be.",
+      "check": "After every when, if, before, after, until and as soon as: is there a will that should be a present verb, and does every going to have am, is or are?"
+    },
+    {
+      "id": "tense.consistency",
+      "title": "Keeping tense consistent",
+      "summary": "Not sliding between past and present inside one account.",
+      "sections": [
+        {
+          "heading": "Choose a time frame and stay in it",
+          "body": "Every piece of writing has a main time frame. An essay about society is mostly in the present. A description of a chart from 2000 to 2010 is mostly in the past. A story about your own experience is mostly in the past. Once you have chosen, keep your main verbs in that frame.\n\nA change of tense is correct only when the time really changes: when you move from a general claim to a past example, or from the past to a prediction. It is wrong when the time stays the same and only the verb form slides. The reader then wonders whether something new has happened.",
+          "examples": [
+            {
+              "right": "In 2015 the city built a new tram line, and within a year traffic fell by a fifth.",
+              "wrong": "In 2015 the city built a new tram line, and within a year traffic falls by a fifth.",
+              "note": "Both events are in the same finished past, so both verbs are past."
+            },
+            {
+              "right": "When I was at school, teachers gave us homework every night and we rarely had free time.",
+              "wrong": "When I was at school, teachers give us homework every night and we rarely had free time.",
+              "note": "The whole memory is in the past, so every verb in it stays past."
+            },
+            {
+              "right": "Last year I joined a volunteer group. We cleaned beaches and collected rubbish every weekend.",
+              "wrong": "Last year I joined a volunteer group. We clean beaches and collect rubbish every weekend.",
+              "note": "The account stays in last year, so its verbs stay in the past."
+            }
+          ]
+        },
+        {
+          "heading": "Checking a paragraph",
+          "body": "When you proof-read, underline the main verb of every sentence. Then read only the underlined verbs from top to bottom. They should mostly be in one tense.\n\nEvery time the tense changes, ask: has the time really changed here? If you can point to a reason, such as a date, `now`, `in the future`, or a move from an example back to your argument, the change is fine. If you cannot, change the verb back.\n\nA general truth inside a past account may stay in the present, because it is still true: `The study showed that exercise improves memory.`",
+          "examples": [
+            {
+              "right": "Remote work saves time. In my last job, for example, I spent two hours a day commuting.",
+              "wrong": null,
+              "note": "The change from present to past is correct, because the example is a finished past situation."
+            },
+            {
+              "right": "The study showed that regular exercise improves memory.",
+              "wrong": null,
+              "note": "A finding that is still true may stay in the present after a past verb."
+            },
+            {
+              "right": "Nowadays people spend more time online than they did ten years ago.",
+              "wrong": "Nowadays people spent more time online than they did ten years ago.",
+              "note": "Nowadays sets the present; only the comparison with ten years ago is past."
+            }
+          ]
+        },
+        {
+          "heading": "Chart descriptions",
+          "body": "In a chart description, take the tense from the dates on the chart. A chart that ends in the past is described in the past: `rose`, `fell`, `remained stable`. The chart itself exists now, so it takes the present: `The graph shows`. A projection into the future takes `is expected to` or `will`.\n\nDo not mix `rises` and `rose` for the same period. If you catch yourself writing a present verb next to a past date, change it.",
+          "examples": [
+            {
+              "right": "The graph shows that car sales rose between 2000 and 2005 and then fell until 2010.",
+              "wrong": "The graph shows that car sales rose between 2000 and 2005 and then fall until 2010.",
+              "note": "Both movements belong to the same finished period."
+            },
+            {
+              "right": "The number of users is expected to reach ten million by 2030.",
+              "wrong": null,
+              "note": "A projection beyond the data takes a future form."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'and then he says' in the middle of a story told in the past. Write 'and then he said', because the time of the story has not changed.",
+        "Writing 'The chart showed that sales rose in 2010 and fall in 2011'. Write 'rose in 2010 and fell in 2011', because both are points in the same finished period.",
+        "Writing 'Nowadays people spent more time online'. Write 'Nowadays people spend more time online', because nowadays is a present time word.",
+        "Writing 'In the past, families eat together every evening'. Write 'In the past, families ate together every evening', because in the past sets a past frame."
+      ],
+      "arabic": "In Arabic, one past marker can set the time for the verbs that follow it: \"kana ya'malu wa yadrusu\" means \"he was working and studying\", but the second and third verbs are present forms, and \"kana\" alone carries the past. English has no such carry-over: every verb shows its own tense, measured from now. This is one reason a past account in English can drift into present verbs without the writer noticing.",
+      "check": "Underline the main verbs and read them in order: wherever the tense changes, has the time really changed?"
+    },
+    {
+      "id": "tense.irregular",
+      "title": "Irregular verb forms",
+      "summary": "brought, spoken, chosen, risen: the forms that have to be learnt.",
+      "sections": [
+        {
+          "heading": "Three forms to learn together",
+          "body": "Every English verb has three key forms: the plain form (`choose`), the past simple (`chose`) and the past participle (`chosen`). Regular verbs add -ed for both of the last two. Irregular verbs do not, and they have to be memorised. Learn them as a set of three, out loud, because the second and third forms are used in different places.\n\nThe past simple stands alone: `the price rose`. The past participle comes after `have`, `has` or `had` (perfect tenses) and after a form of `be` (the passive): `has risen`, `was chosen`.",
+          "examples": [
+            {
+              "right": "Unemployment has risen for three consecutive months.",
+              "wrong": "Unemployment has rose for three consecutive months.",
+              "note": "After has, use the past participle risen, not the past simple rose."
+            },
+            {
+              "right": "The candidates were chosen by an independent panel.",
+              "wrong": "The candidates were chose by an independent panel.",
+              "note": "The passive needs the past participle chosen."
+            },
+            {
+              "right": "Inflation rose sharply in 2022.",
+              "wrong": "Inflation raised sharply in 2022.",
+              "note": "Rise, rose, risen means go up by itself; raise, raised, raised needs an object."
+            }
+          ]
+        },
+        {
+          "heading": "Common verbs in academic writing",
+          "body": "A small group of irregular verbs appears again and again in essays and chart descriptions. It is worth learning these perfectly:\n\n`begin, began, begun`; `bring, brought, brought`; `choose, chose, chosen`; `fall, fell, fallen`; `grow, grew, grown`; `lead, led, led`; `rise, rose, risen`; `seek, sought, sought`; `speak, spoke, spoken`; `spend, spent, spent`; `teach, taught, taught`; `think, thought, thought`; `write, wrote, written`.\n\nWatch the confused pairs: `brought` belongs to `bring`, while `bought` belongs to `buy`. `Led` is the past of `lead`; the present `lead` is pronounced differently.",
+          "examples": [
+            {
+              "right": "The new policy led to a fall in crime.",
+              "wrong": "The new policy lead to a fall in crime.",
+              "note": "The past of lead is led."
+            },
+            {
+              "right": "Industrialisation brought major changes to family life.",
+              "wrong": "Industrialisation bought major changes to family life.",
+              "note": "Brought is the past of bring; bought is the past of buy."
+            },
+            {
+              "right": "Many scientists have spoken out about the risks.",
+              "wrong": "Many scientists have spoke out about the risks.",
+              "note": "After have, use the participle spoken."
+            }
+          ]
+        },
+        {
+          "heading": "Catching -ed on irregular verbs",
+          "body": "When you write fast, it is easy to add -ed to an irregular verb: `teached`, `thinked`, `choosed`. There is no spellchecker in the exam, so you must catch these yourself.\n\nWhen proof-reading, stop at every past verb. If it ends in -ed, ask: is this verb on my irregular list? If it does not end in -ed, ask: is this the right form for its place, past simple on its own, or past participle after have and be?",
+          "examples": [
+            {
+              "right": "The lecturer taught the course for ten years.",
+              "wrong": "The lecturer teached the course for ten years.",
+              "note": "Teach is irregular: teach, taught, taught."
+            },
+            {
+              "right": "Consumers spent less on luxury goods during the recession.",
+              "wrong": "Consumers spended less on luxury goods during the recession.",
+              "note": "Spend is irregular: spend, spent, spent."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The number of students has grew'. Write 'The number of students has grown', because has needs the past participle.",
+        "Writing 'Prices raised in 2020'. Write 'Prices rose in 2020', because rise has no object and its past is rose.",
+        "Writing 'She has wrote three books'. Write 'She has written three books', because has needs the past participle written.",
+        "Writing 'He thinked about it'. Write 'He thought about it', because think is irregular.",
+        "Writing 'The study lead to new treatments' about the past. Write 'The study led to new treatments', because the past of lead is led."
+      ],
+      "arabic": "",
+      "check": "For each past verb: is it irregular, and after have, has, had or be, is it the past participle (risen, chosen, written) rather than the past simple?"
+    }
+  ]
+}

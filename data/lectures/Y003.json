@@ -3,7 +3,13 @@
   "title": "From Newton's Laws of Motion to the Theory of Everything",
   "field": "Astronomy and space",
   "text": "Newton writes down three laws of his own, but these are now three laws of motion, not planetary motion in particular. And again, one could write these down and memorize them and learn them, and that would be a good thing. Let me write down one of them, the Second Law, looks like this: F = ma , force equals mass times acceleration. And I write this one down simply to point out that that equation is the entire intellectual content of Introductory Physics for physics majors. If you go take Physics 180 this is all that they do and they spend the whole time. It turns out you don't actually want acceleration, that doesn't tell you what you want to know. What you want to know is the trajectory, where the object is as a function of time. Those of you who have taken some calculus may recall that if you take the acceleration, and you take an integral twice, you'd come up with the position as a function of time. So here's what--so in the next thirty seconds I'm going to explain Physics 180 to you. You substitute in some kind of a force, you divide by mass, you take two integrals, and that gives you the trajectory of the thing. That's all you need to know. Technically, of course, it's quite",
-  "points": [],
+  "points": [
+    "Newton's three laws of motion, especially the second law, F = ma, underpin introductory physics.",
+    "They are laws of motion in general, not only of planetary motion.",
+    "The lecturer says F = ma is the entire intellectual content of an introductory physics course for majors.",
+    "What you really want is the trajectory, the object's position over time, not its acceleration.",
+    "The method: put in the force, divide by mass, integrate twice, and you get the trajectory."
+  ],
   "audio": "Y003.mp3",
   "source": {
     "page": "https://oyc.yale.edu/astronomy/astr-160/lecture-1",

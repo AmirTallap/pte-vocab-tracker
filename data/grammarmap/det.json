@@ -1,0 +1,562 @@
+{
+  "id": "det",
+  "name": "Nouns and determiners",
+  "order": 3,
+  "summary": "The small words in front of nouns and the forms of nouns themselves: a, an and the, general statements with no article, countable and uncountable nouns, quantifiers, possessives and plurals.",
+  "stations": [
+    {
+      "id": "det.a-an",
+      "title": "A and an",
+      "summary": "Introducing one of something; a or an by sound.",
+      "sections": [
+        {
+          "heading": "When to use a or an",
+          "body": "Use `a` or `an` in front of a singular countable noun when you mention one of something for the first time, or when it is one of many and it does not matter which. A countable noun is a thing you can count: one study, two studies.\n\nThe check is simple. Is the noun singular and countable? Then it needs a word in front of it: `a`, `an`, `the`, `this`, `my` or similar. A singular countable noun standing alone is almost always a mistake. Write **a significant increase**, never just significant increase.\n\nUse `a` or `an` also to say what job or group something belongs to: **She is an engineer.** **Canberra is a planned city.**",
+          "examples": [
+            {
+              "right": "The chart shows a significant increase in car ownership.",
+              "wrong": "The chart shows significant increase in car ownership.",
+              "note": "`increase` is singular and countable here, so it needs an article."
+            },
+            {
+              "right": "The researchers carried out a survey of 500 students.",
+              "wrong": "The researchers carried out survey of 500 students.",
+              "note": "The survey is mentioned for the first time, so it takes `a`."
+            },
+            {
+              "right": "My sister is a doctor at a public hospital.",
+              "wrong": "My sister is doctor at public hospital.",
+              "note": "Jobs and categories take `a` or `an` in English."
+            }
+          ]
+        },
+        {
+          "heading": "A or an: listen, do not look",
+          "body": "The choice between `a` and `an` depends on the first SOUND of the next word, not its first letter. Use `an` before a vowel sound and `a` before a consonant sound.\n\nThis matters with words that begin with a silent h, like `hour` and `honest`: **an hour**. It also matters with words that begin with a u or eu that sounds like `you`: **a university**, **a European country**. Abbreviations follow the sound of the first letter's name: **an MBA** (em), **a UN report** (you).\n\nThe article goes with the very next word, which may be an adjective: **a study**, but **an important study**. To check, say the phrase quietly. If two vowel sounds bump into each other, you need `an`.",
+          "examples": [
+            {
+              "right": "The lecture lasted an hour.",
+              "wrong": "The lecture lasted a hour.",
+              "note": "The h in `hour` is silent, so the word begins with a vowel sound."
+            },
+            {
+              "right": "She studies at a university in Melbourne.",
+              "wrong": "She studies at an university in Melbourne.",
+              "note": "`university` begins with a `you` sound, which is a consonant sound."
+            },
+            {
+              "right": "This is an important finding.",
+              "wrong": "This is a important finding.",
+              "note": "The article follows the next word, `important`, not the noun."
+            },
+            {
+              "right": "He has an MBA from a European business school.",
+              "wrong": null,
+              "note": "`MBA` begins with the sound `em`, and `European` begins with a `you` sound."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'there is significant difference'. Write 'there is a significant difference', because a singular countable noun needs a word in front of it.",
+        "Writing 'an university'. Write 'a university', because the word begins with a `you` sound.",
+        "Writing 'a hour'. Write 'an hour', because the h is silent.",
+        "Writing 'he is teacher'. Write 'he is a teacher', because jobs take `a` or `an`.",
+        "Writing 'a important study'. Write 'an important study', because the article follows the sound of the very next word."
+      ],
+      "arabic": "Arabic has no word for `a`. A noun without `al-` is already understood as 'a something', so `kitaab` on its own means 'a book'. That is why 'she is doctor' or 'the chart shows increase' feels complete: in Arabic nothing is missing. In English the gap is a mistake, so train yourself to look at every singular countable noun and ask what stands in front of it.",
+      "check": "Find each singular countable noun: does it have a, an, the or another determiner in front of it?"
+    },
+    {
+      "id": "det.the",
+      "title": "The",
+      "summary": "Something the reader can already identify.",
+      "sections": [
+        {
+          "heading": "The reader knows which one",
+          "body": "Use `the` when the reader can tell exactly which thing you mean. There are a few common reasons they can tell.\n\nYou have mentioned it already: **a survey** first, then **the survey**. The words after it make it specific: **the results of the survey**, **the man who founded the company**. There is only one of it in the situation: **the government**, **the internet**, **the environment**. Or the context makes it obvious: in a report about one chart, **the chart**.\n\nTo check, ask: could the reader answer the question 'which one?' If yes, use `the`. If not, use `a` or no article.",
+          "examples": [
+            {
+              "right": "Researchers interviewed 200 nurses. The interviews lasted about an hour.",
+              "wrong": null,
+              "note": "The interviews have already been introduced, so the reader knows which ones."
+            },
+            {
+              "right": "The results of the study were published last year.",
+              "wrong": "Results of the study were published last year.",
+              "note": "`of the study` tells the reader exactly which results."
+            },
+            {
+              "right": "The government should invest more in public transport.",
+              "wrong": "Government should invest more in public transport.",
+              "note": "In a given country there is one government, so it takes `the`."
+            },
+            {
+              "right": "The graph shows the number of international students in Australia.",
+              "wrong": "The graph shows number of international students in Australia.",
+              "note": "`the number of` is fixed: the phrase after it says which number."
+            }
+          ]
+        },
+        {
+          "heading": "Superlatives, ordinals and same",
+          "body": "Some words make a noun specific by their meaning, so they nearly always come with `the`. These are superlatives (the most, the best, the highest), ordinals (the first, the second, the last) and words like `same`, `only`, `next` and `following`.\n\nChart descriptions use these all the time: **the highest figure**, **the first quarter**, **the same period**. There can only be one highest figure, so the reader always knows which one.\n\nWatch `most`. With `the` it compares: **the most popular option**. Without `the` it means the majority: **most people agree**. 'The most of people' is a mistake.",
+          "examples": [
+            {
+              "right": "Japan recorded the highest rate of the five countries.",
+              "wrong": "Japan recorded highest rate of the five countries.",
+              "note": "A superlative picks out one thing, so it takes `the`."
+            },
+            {
+              "right": "Sales fell in the first quarter and recovered over the same period the following year.",
+              "wrong": "Sales fell in first quarter and recovered over same period the following year.",
+              "note": "Ordinals and `same` make the noun specific."
+            },
+            {
+              "right": "Most students prefer recorded lectures.",
+              "wrong": "The most of students prefer recorded lectures.",
+              "note": "`Most` meaning the majority takes no `the` and no `of` before a general plural."
+            }
+          ]
+        },
+        {
+          "heading": "Names: usually no article",
+          "body": "Most names of people, cities, countries and continents take no article: **Australia**, **Cairo**, **Asia**. The exceptions are names that contain an ordinary noun such as `states`, `kingdom` or `emirates`, and names that are plural: **the United States**, **the United Kingdom**, **the United Arab Emirates**, **the Netherlands**, **the Philippines**. Rivers, seas and oceans also take `the`: **the Nile**, **the Mediterranean**.\n\nIf you are unsure, ask whether the name hides an ordinary noun. `Kingdom` is an ordinary word, so the name takes `the`. `Egypt` is not, so it does not.",
+          "examples": [
+            {
+              "right": "She moved from Egypt to the United Kingdom.",
+              "wrong": "She moved from the Egypt to United Kingdom.",
+              "note": "`Egypt` is a plain name; `United Kingdom` contains the ordinary noun `kingdom`."
+            },
+            {
+              "right": "The Nile is the longest river in Africa.",
+              "wrong": "Nile is the longest river in Africa.",
+              "note": "Rivers take `the`."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Government should act'. Write 'The government should act', because there is only one government in the situation.",
+        "Writing 'the most of people'. Write 'most people', because `most` meaning the majority takes no article.",
+        "Writing 'highest point was in 2010'. Write 'the highest point was in 2010', because a superlative picks out one thing.",
+        "Writing 'the Australia'. Write 'Australia', because plain country names take no article.",
+        "Writing 'number of students rose'. Write 'the number of students rose', because `the number of` is a fixed phrase."
+      ],
+      "arabic": "Arabic `al-` and English `the` overlap a lot, which is why `the` usually feels natural. The trouble is at the edges. Many Arabic country names carry the article, like `al-Iraq` and `al-Maghrib`, so 'the Iraq' or 'the Morocco' can slip out. And an Arabic superlative such as `akbar madina` (the biggest city) has no article at all, so 'biggest city' without `the` can sound complete.",
+      "check": "For each the, ask 'which one?': can the reader answer? Ask the same wherever a the might be missing."
+    },
+    {
+      "id": "det.zero",
+      "title": "No article for general statements",
+      "summary": "Pollution harms health, not the pollution harms the health.",
+      "sections": [
+        {
+          "heading": "General statements take no article",
+          "body": "When you talk about a thing in general, all of it everywhere, English uses no article. With a plural noun: **Smartphones distract students.** With an uncountable noun: **Pollution harms health.**\n\nPut `the` in front and the meaning changes. **The smartphones distract the students** means some particular phones and particular students that the reader already knows about. In an essay it sounds as if you are describing a room the reader has never seen.\n\nMost sentences in a PTE essay are general statements, so this is the article rule you will use most. The check: do I mean these particular ones, or the thing in general? If in general, remove `the`.",
+          "examples": [
+            {
+              "right": "Pollution harms health.",
+              "wrong": "The pollution harms the health.",
+              "note": "Both nouns are meant in general, so neither takes `the`."
+            },
+            {
+              "right": "Technology has changed the way people communicate.",
+              "wrong": "The technology has changed the way the people communicate.",
+              "note": "`technology` and `people` mean all of them, not particular ones."
+            },
+            {
+              "right": "Children learn languages more easily than adults.",
+              "wrong": "The children learn the languages more easily than the adults.",
+              "note": "Plural nouns used in general take no article."
+            },
+            {
+              "right": "Unemployment rose sharply after the financial crisis.",
+              "wrong": "The unemployment rose sharply after the financial crisis.",
+              "note": "`the financial crisis` is one particular event, but unemployment is meant generally."
+            }
+          ]
+        },
+        {
+          "heading": "When general becomes specific",
+          "body": "A general noun becomes specific when something after it limits it, often an `of` phrase or a clause beginning with `that` or `which`. Then `the` comes back.\n\n**Water** is essential to life (general). **The water in this region** is contaminated (one particular body of water). **Education** matters (general). **The education that children receive at home** matters most (one particular part of education).\n\nSo the rule is not 'abstract nouns never take the'. It is: general meaning, no article; limited meaning, `the`. Look at what follows the noun. If it narrows the noun down, `the` is probably needed. An adjective in front does not count: **modern technology** and **public health** are still general.",
+          "examples": [
+            {
+              "right": "Water is essential to life, but the water in this region is contaminated.",
+              "wrong": null,
+              "note": "The first `water` is general; the second is limited by `in this region`."
+            },
+            {
+              "right": "Public health has improved over the last century.",
+              "wrong": "The public health has improved over the last century.",
+              "note": "An adjective in front does not make the noun specific."
+            },
+            {
+              "right": "The education of girls in rural areas has improved considerably.",
+              "wrong": null,
+              "note": "The phrase after the noun narrows it to one particular part of education."
+            }
+          ]
+        },
+        {
+          "heading": "A formal extra: the with a singular for a whole class",
+          "body": "You will sometimes read **The smartphone has transformed daily life** or **The car changed the shape of cities**. Here `the` plus a SINGULAR noun stands for the whole invention or species as one idea. It is formal and correct, but you never need it: **Smartphones have transformed daily life** says the same thing and is safer.\n\nWhat you cannot do is use a plural with `the` for a general meaning. 'The smartphones have transformed daily life' is wrong, because a plural with `the` always means particular ones. If you write a plural noun in a general statement, leave the article out.",
+          "examples": [
+            {
+              "right": "The smartphone has transformed daily life.",
+              "wrong": null,
+              "note": "A singular with `the` can stand for the invention as a whole."
+            },
+            {
+              "right": "Smartphones have transformed daily life.",
+              "wrong": "The smartphones have transformed daily life.",
+              "note": "A plural used in general takes no article."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'the pollution is a serious problem'. Write 'pollution is a serious problem', because you mean pollution in general.",
+        "Writing 'the people nowadays'. Write 'people nowadays', because you mean people in general.",
+        "Writing 'the education is important'. Write 'education is important', because an abstract noun used in general takes no article.",
+        "Writing 'the students should wear uniforms' in a general argument. Write 'students should wear uniforms', because you mean all students, not a group already mentioned.",
+        "Writing 'the public health'. Write 'public health', because an adjective in front does not make a noun specific."
+      ],
+      "arabic": "This is the most common article mistake for Arabic speakers, and it comes straight from Arabic. Arabic puts `al-` on nouns used in general: `al-tadkhiin mudirr` is literally 'the smoking is harmful', and `al-ta'liim muhimm` is 'the education is important'. English does the opposite and drops the article for a general meaning. So when you build a general statement in your head, the `the` arrives on its own. Proof-read for it on purpose.",
+      "check": "For every the before an abstract or plural noun: do I mean particular ones the reader knows, or the thing in general?"
+    },
+    {
+      "id": "det.countable",
+      "title": "Countable and uncountable nouns",
+      "summary": "information, research, advice, evidence have no plural.",
+      "sections": [
+        {
+          "heading": "Nouns English does not count",
+          "body": "An uncountable noun is one English treats as a mass, not as separate pieces. It has no plural form, it never takes `a` or `an`, and it takes a singular verb.\n\nMany uncountable nouns in academic writing are countable in other languages, and that is what makes them hard. Learn this group by heart: `information`, `research`, `advice`, `evidence`, `knowledge`, `equipment`, `furniture`, `traffic`, `pollution`, `progress`, `feedback`, `homework`, `software`, `infrastructure`.\n\nWhen you need to count one of them, count a unit instead: **a piece of advice**, **a piece of evidence**, **a study** or **a research project**, **an item of equipment**.",
+          "examples": [
+            {
+              "right": "The report provides useful information about housing costs.",
+              "wrong": "The report provides useful informations about housing costs.",
+              "note": "`information` has no plural."
+            },
+            {
+              "right": "Recent research shows that sleep affects memory.",
+              "wrong": "Recent researches show that sleep affects memory.",
+              "note": "`research` is uncountable; use `studies` if you need a plural."
+            },
+            {
+              "right": "There is strong evidence that exercise reduces stress.",
+              "wrong": "There is a strong evidence that exercise reduces stress.",
+              "note": "An uncountable noun never takes `a`."
+            },
+            {
+              "right": "My tutor gave me a useful piece of advice.",
+              "wrong": "My tutor gave me an advice.",
+              "note": "Count a unit, `a piece of`, not the noun itself."
+            }
+          ]
+        },
+        {
+          "heading": "Everything around it stays singular",
+          "body": "An uncountable noun always takes a singular verb and singular words around it. Write **this information is**, not 'these information are'. Write **much evidence**, **little progress**, **a great deal of research**, not 'many evidences'.\n\nThis connects to the agreement slips in your own writing. When the subject is uncountable, everything that points to it is singular: the verb (`is`, `has`, `shows`), the demonstrative (`this`, `that`) and the pronoun (`it`). **The equipment is old and it needs replacing.**\n\nTo check, find the uncountable noun and look left and right. Is there a `these`, a `many`, a verb without -s, or a `they`? Each one should be singular.",
+          "examples": [
+            {
+              "right": "This information is out of date.",
+              "wrong": "These information are out of date.",
+              "note": "An uncountable noun takes singular `this` and singular `is`."
+            },
+            {
+              "right": "The evidence suggests that the policy has worked.",
+              "wrong": "The evidence suggest that the policy has worked.",
+              "note": "`evidence` is singular, so the verb takes -s."
+            },
+            {
+              "right": "Very little progress has been made.",
+              "wrong": "Very few progresses have been made.",
+              "note": "Use `little`, not `few`, with an uncountable noun."
+            }
+          ]
+        },
+        {
+          "heading": "Nouns that can be both",
+          "body": "Some nouns are uncountable in a general sense and countable when they mean one type or one event. **Experience** meaning knowledge gained by doing things is uncountable: **She has a lot of teaching experience.** **An experience** meaning one event is countable: **Studying abroad was an unforgettable experience.**\n\nOthers like this: `time` (time in general, or **three times** meaning occasions), `paper` (the material, or **a paper** meaning an academic article), `work` (labour in general, or **works** meaning books, paintings or music).\n\nWhen you are unsure, ask whether you mean the stuff in general or one separate thing.",
+          "examples": [
+            {
+              "right": "Applicants need at least two years of experience.",
+              "wrong": "Applicants need at least two years of experiences.",
+              "note": "Experience in general is uncountable."
+            },
+            {
+              "right": "Moving to Sydney was a difficult experience.",
+              "wrong": null,
+              "note": "One event is countable, so it takes `a`."
+            },
+            {
+              "right": "The professor has published several papers on climate policy.",
+              "wrong": null,
+              "note": "`a paper` here means an academic article, so it is countable."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'informations'. Write 'information', because it has no plural.",
+        "Writing 'researches show'. Write 'research shows' or 'studies show', because `research` is uncountable.",
+        "Writing 'an advice'. Write 'a piece of advice' or 'some advice', because `advice` cannot take `a`.",
+        "Writing 'many evidences'. Write 'a lot of evidence', because `evidence` is uncountable.",
+        "Writing 'these equipments are'. Write 'this equipment is', because the noun and everything pointing to it stay singular.",
+        "Writing 'knowledges'. Write 'knowledge', because it has no plural."
+      ],
+      "arabic": "In Arabic, words like `ma'luumaat` (information), `abhaath` (research) and `nasaa'ih` (advice) are ordinary plurals, with a singular for one piece: `ma'luuma`, one piece of information. The English words look as if they should work the same way, and they do not. Nothing in the English word tells you it is uncountable, so this group has to be learnt as a list.",
+      "check": "Is this noun on the uncountable list? If so: no a or an, no -s, a singular verb, and this rather than these."
+    },
+    {
+      "id": "det.quantifiers",
+      "title": "Quantifiers",
+      "summary": "few / a few, less / fewer, a number of / an amount of.",
+      "sections": [
+        {
+          "heading": "Countable or uncountable decides the word",
+          "body": "A quantifier says how much or how many. Several of them come in pairs, one for countable nouns and one for uncountable nouns.\n\nUse **many** with countable nouns and **much** with uncountable ones: many students, much money. Use **few** and **fewer** with countable nouns, and **little** and **less** with uncountable ones: fewer cars, less traffic. Use **a number of** with countable nouns and **an amount of** with uncountable ones: a number of problems, an amount of energy.\n\nSo decide first whether the noun is countable. If you can put a number in front of it (three cars), choose the countable word. `A lot of`, `some`, `more` and `most` work with both.",
+          "examples": [
+            {
+              "right": "Fewer people use public transport at weekends.",
+              "wrong": "Less people use public transport at weekends.",
+              "note": "`people` can be counted, so the comparison is `fewer`."
+            },
+            {
+              "right": "The new engines use less fuel.",
+              "wrong": "The new engines use fewer fuel.",
+              "note": "`fuel` is uncountable, so the comparison is `less`."
+            },
+            {
+              "right": "A large number of students work part-time.",
+              "wrong": "A large amount of students work part-time.",
+              "note": "Use `number` with countable nouns and `amount` with uncountable ones."
+            },
+            {
+              "right": "How much time do students spend online?",
+              "wrong": "How many time do students spend online?",
+              "note": "`time` in this sense is uncountable."
+            }
+          ]
+        },
+        {
+          "heading": "Few and a few, little and a little",
+          "body": "These look almost the same but point in opposite directions.\n\n`A few` and `a little` are positive: some, a small but useful amount. **A few students passed** means some did, which is good news.\n\n`Few` and `little` without `a` are negative: hardly any, not enough. **Few students passed** means almost nobody did, which is bad news. In formal writing, `few` and `little` are a strong, compact way to say 'not enough'.\n\nTo check, replace the phrase with 'some' or with 'hardly any'. Whichever matches your meaning tells you whether to keep the `a`.",
+          "examples": [
+            {
+              "right": "Few graduates find work in their field straight away, which worries universities.",
+              "wrong": null,
+              "note": "`Few` means hardly any, so the sentence is negative."
+            },
+            {
+              "right": "A few participants withdrew, but most completed the study.",
+              "wrong": null,
+              "note": "`A few` means some, a small number."
+            },
+            {
+              "right": "There is little evidence that the policy worked.",
+              "wrong": "There is a little evidence that the policy worked.",
+              "note": "The point is that there is not enough evidence, so `little` without `a`."
+            }
+          ]
+        },
+        {
+          "heading": "A number of, the number of",
+          "body": "These two phrases take different verbs. `A number of` means several or many, and the verb agrees with the plural noun after it: **A number of problems have appeared.** `The number of` means the figure itself, one single number, so the verb is singular: **The number of problems has fallen.**\n\nThis pair appears constantly in chart descriptions. Ask yourself whether you are talking about the things themselves (a number of, plural verb) or about the statistic (the number of, singular verb). The same goes for `the amount of`, `the percentage of` and `the proportion of`: they all take a singular verb.",
+          "examples": [
+            {
+              "right": "The number of applicants has doubled over the period shown.",
+              "wrong": "The number of applicants have doubled over the period shown.",
+              "note": "The subject is the figure, one number, so `has`."
+            },
+            {
+              "right": "A number of universities have introduced online degrees.",
+              "wrong": "A number of universities has introduced online degrees.",
+              "note": "`A number of` means several, so the verb is plural."
+            },
+            {
+              "right": "The proportion of women in engineering is rising.",
+              "wrong": "The proportion of women in engineering are rising.",
+              "note": "The subject is the proportion, which is one figure."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'less people'. Write 'fewer people', because `people` can be counted.",
+        "Writing 'a large amount of students'. Write 'a large number of students', because students can be counted.",
+        "Writing 'the number of cars have increased'. Write 'the number of cars has increased', because the subject is one number.",
+        "Writing 'much problems'. Write 'many problems', because `problems` is a countable plural.",
+        "Writing 'a little evidence' when you mean not enough. Write 'little evidence', because the `a` makes it sound positive."
+      ],
+      "arabic": "Arabic uses one word, `qaliil`, for both 'few' and 'little', and one word, `kathiir`, for both 'many' and 'much'. It also uses `aqall` for both 'fewer' and 'less'. English splits each of these by whether the noun is countable, so the Arabic habit offers one word where English demands a choice.",
+      "check": "For each quantifier: can I count the noun after it? If so, many, few, fewer, a number of. If not, much, little, less, an amount of."
+    },
+    {
+      "id": "det.possessive",
+      "title": "Possessives",
+      "summary": "the government's plan, the needs of the patients.",
+      "sections": [
+        {
+          "heading": "'s for people and organisations",
+          "body": "The possessive `'s` shows that something belongs to or is connected with someone. Put it on the owner, then write the thing owned: **the government's plan**, **the author's argument**, **a country's economy**.\n\nIt is most natural with people, groups, organisations, countries and time expressions: **Australia's population**, **the company's profits**, **last year's results**.\n\nWhere the apostrophe goes depends on the owner. One owner: `'s` (**the student's essay**, one student). A plural owner ending in s: only the apostrophe, after the s (**the students' essays**, many students). A plural owner NOT ending in s: `'s` again (**children's health**, **women's rights**).",
+          "examples": [
+            {
+              "right": "The government's new policy has been widely criticised.",
+              "wrong": "The government new policy has been widely criticised.",
+              "note": "The owner takes `'s` to show the policy belongs to it."
+            },
+            {
+              "right": "The students' results improved after the course.",
+              "wrong": "The students's results improved after the course.",
+              "note": "A plural ending in s takes only an apostrophe."
+            },
+            {
+              "right": "Children's health depends on diet and exercise.",
+              "wrong": "Childrens' health depends on diet and exercise.",
+              "note": "`children` is already plural without an s, so it takes `'s`."
+            },
+            {
+              "right": "Last year's figures were higher than expected.",
+              "wrong": null,
+              "note": "Time expressions can take `'s`."
+            }
+          ]
+        },
+        {
+          "heading": "'s or of",
+          "body": "English has a second way to show belonging: **the X of Y**. Prefer it when the owner is a thing or an idea rather than a person, and always when the owner is a long phrase.\n\n**The causes of the problem** reads more naturally than 'the problem's causes'. **The needs of patients with chronic illness** is far clearer than trying to hang `'s` on the end of a long phrase, which does not work at all.\n\nA useful rule: short, human owner, use `'s`. Long owner, or a thing or an idea, use `of`. In many cases both are correct, so do not worry about the middle ground. Just never put `'s` on the end of a long phrase.",
+          "examples": [
+            {
+              "right": "The causes of the problem are complex.",
+              "wrong": null,
+              "note": "An abstract owner reads more naturally with `of`."
+            },
+            {
+              "right": "The needs of elderly people living alone are often overlooked.",
+              "wrong": "The elderly people living alone's needs are often overlooked.",
+              "note": "`'s` cannot sit on the end of a long phrase."
+            },
+            {
+              "right": "The main advantage of this approach is its low cost.",
+              "wrong": null,
+              "note": "`of` links the advantage to an idea, not a person."
+            }
+          ]
+        },
+        {
+          "heading": "Its and it's, whose and who's",
+          "body": "Possessive pronouns never take an apostrophe: `its`, `whose`, `theirs`, `hers`, `ours`. The apostrophe versions are short forms: `it's` means `it is` or `it has`, and `who's` means `who is` or `who has`.\n\nTo check, expand it. If `it is` fits, the short form is right (though in a formal essay you should write `it is` in full anyway). If it does not fit, write `its`. **The company increased its profits** cannot be 'the company increased it is profits', so there is no apostrophe.",
+          "examples": [
+            {
+              "right": "Each country has its own education system.",
+              "wrong": "Each country has it's own education system.",
+              "note": "`it's` means `it is`; possession is `its`."
+            },
+            {
+              "right": "The scientist whose work changed the field has retired.",
+              "wrong": "The scientist who's work changed the field has retired.",
+              "note": "`whose` shows possession; `who's` means `who is`."
+            },
+            {
+              "right": "The council admitted that the mistake was theirs.",
+              "wrong": "The council admitted that the mistake was their's.",
+              "note": "Possessive pronouns never take an apostrophe."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing it's own. Write its own, because it's means it is.",
+        "Writing students's for many students. Write students', with the apostrophe after the s, because the plural already ends in s.",
+        "Writing childrens' or childrens. Write children's, because children is already plural without an s.",
+        "Writing 'the people living in cities's problems'. Write 'the problems of people living in cities', because 's cannot go on the end of a long phrase.",
+        "Writing who's for possession. Write whose, because who's means who is."
+      ],
+      "arabic": "Arabic shows belonging by putting two nouns side by side, the idafa: `siyaasat al-hukuuma`, literally 'policy the government'. There is no apostrophe and no separate word for 'of', so it is easy to drop the `'s` and write 'the government new plan'. The apostrophe also has no equivalent in Arabic script, so where it goes (student's or students') needs deliberate attention.",
+      "check": "For each 's: who is the owner, and is it one or many? For each its or it's: does 'it is' fit?"
+    },
+    {
+      "id": "det.plural",
+      "title": "Plural forms",
+      "summary": "criteria, phenomena, children, and the -s itself.",
+      "sections": [
+        {
+          "heading": "The -s must be there",
+          "body": "Most English nouns make their plural by adding `-s` or `-es`: one study, two studies; one process, two processes. It is a small letter, but readers notice when it is missing, and so does an exam.\n\nThe -s is needed whenever the noun means more than one, even when another word already shows that it is plural: **two factors**, **many countries**, **several reasons**, **one of the main causes**. The number or the quantifier does not replace the -s. English marks the plural twice.\n\nSpelling: add `-es` after s, x, ch and sh (**taxes**, **approaches**). Change a consonant plus y to `-ies` (**policies**, **countries**), but keep a vowel plus y (**days**, **surveys**).",
+          "examples": [
+            {
+              "right": "There are three main reasons for this trend.",
+              "wrong": "There are three main reason for this trend.",
+              "note": "The number does not replace the -s."
+            },
+            {
+              "right": "One of the biggest problems is the cost of housing.",
+              "wrong": "One of the biggest problem is the cost of housing.",
+              "note": "`one of the` is followed by a plural noun, while the verb agrees with `one`."
+            },
+            {
+              "right": "Many countries have introduced new policies.",
+              "wrong": "Many country have introduced new policys.",
+              "note": "`many` needs a plural, and a consonant plus y becomes -ies."
+            }
+          ]
+        },
+        {
+          "heading": "Irregular plurals",
+          "body": "Some very common nouns change inside instead of adding -s: **man, men**; **woman, women**; **child, children**; **person, people**; **foot, feet**; **tooth, teeth**. Do not add another -s to these plurals: 'childrens' is always a mistake.\n\n`People` is already plural, so it takes a plural verb: **people are**, **people have**. The word `peoples` does exist, but it means nations or ethnic groups: **the indigenous peoples of Australia**.\n\nA few nouns are the same in the singular and the plural: **one species, many species**; **one series, two series**; **one sheep, many sheep**.",
+          "examples": [
+            {
+              "right": "Many people are worried about the cost of living.",
+              "wrong": "Many peoples is worried about the cost of living.",
+              "note": "`people` is already plural and takes `are`."
+            },
+            {
+              "right": "Children need more time outdoors.",
+              "wrong": "Childrens need more time outdoors.",
+              "note": "`children` is already plural."
+            },
+            {
+              "right": "Several species are now endangered.",
+              "wrong": "Several specieses are now endangered.",
+              "note": "`species` is the same in both forms."
+            }
+          ]
+        },
+        {
+          "heading": "Greek and Latin plurals",
+          "body": "Academic English keeps some plurals from Greek and Latin. The most useful: **criterion, criteria**; **phenomenon, phenomena**; **analysis, analyses**; **hypothesis, hypotheses**; **thesis, theses**; **crisis, crises**.\n\nThe classic mistake is to use the plural as if it were singular: 'this criteria' or 'a phenomena'. Check the ending. `-on` is singular and `-a` is plural; `-is` is singular and `-es` is plural.\n\n`Data` is a special case. It began as a plural (**the data are**), and many academic writers still use it that way, but using it as an uncountable singular (**the data is**) is now widely accepted too. Pick one and keep to it through the whole essay.",
+          "examples": [
+            {
+              "right": "The main criterion for selection was academic performance.",
+              "wrong": "The main criteria for selection was academic performance.",
+              "note": "One criterion, several criteria."
+            },
+            {
+              "right": "This phenomenon has been observed in many cities.",
+              "wrong": "This phenomena has been observed in many cities.",
+              "note": "`phenomenon` is singular; `phenomena` is plural."
+            },
+            {
+              "right": "Both hypotheses were tested in the second experiment.",
+              "wrong": "Both hypothesis were tested in the second experiment.",
+              "note": "`-is` becomes `-es` in the plural."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'one of the main reason'. Write 'one of the main reasons', because `one of the` is followed by a plural.",
+        "Writing 'two type of'. Write 'two types of', because the number does not replace the -s.",
+        "Writing 'this criteria'. Write 'this criterion', because criteria is the plural.",
+        "Writing 'childrens'. Write 'children', because it is already plural.",
+        "Writing 'people is'. Write 'people are', because `people` is plural.",
+        "Writing 'policys'. Write 'policies', because a consonant plus y becomes -ies."
+      ],
+      "arabic": "Many Arabic plurals are made by changing the inside of the word, the broken plural (`kitaab`, `kutub`), not by adding an ending you can hear. Arabic also puts the noun in the singular after numbers from eleven upwards, so 'eleven book' is the normal pattern, and a plural of things takes a feminine singular verb. So a plural with no visible ending, or a singular noun after a number, can look perfectly normal. In English the -s is always there.",
+      "check": "For every noun that means more than one: does it have its -s, or is it one of the irregular plurals?"
+    }
+  ]
+}

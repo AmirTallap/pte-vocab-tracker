@@ -6,7 +6,13 @@ import { exec } from 'node:child_process';
 import { load, save, backupMaster, keyOf } from './loader.js';
 import { loadProgress, saveProgress, backupProgress, stats, snapshot, today } from './tracker.js';
 import { syncBatches, createBatch, deleteBatch, resetBatch, noteError, batchPayload, BATCH_SIZE } from './batches.js';
-import { loadGrammar, isAccepted, grammarState, recordAnswer, grammarProgress } from './grammar.js';
+import { loadGrammarMap, stationIndex } from './grammarmap.js';
+import {
+  openAttempts, saveAttempt, listAttempts, getAttempt, deleteAttempt,
+  faultCounts, faultsFor, faultsRecent, ATTEMPT_TASKS,
+} from './attempts.js';
+import { loadSituations, SITUATION_TIMES } from './situations.js';
+import { loadSwt, SWT_TIMES, SST_TIMES } from './swt.js';
 import { say, status as ttsStatus, VOICES, ACCENTS, DEFAULT_VOICE, isVoiceId } from './tts.js';
 import { loadUsage, usageCounts } from './usage.js';
 import { loadEssays, loadEssayGuides } from './essays.js';
@@ -22,7 +28,7 @@ import { noteMisreads, notePractice, pronounceList, deletePronounce } from './pr
 // the three grammar-named ones for its own call sites; these two take the
 // store as an argument and belong to no single subject, so there is nothing to
 // route them through.
-import { recordIn, progressOf } from './shared.js';
+import { recordIn, progressOf, isAccepted } from './shared.js';
 import {
   loadDiscussions, discussionIndex, discussionAudioPath,
   // Aliased: a discussion's allowances are not a lecture's. Summarising three
@@ -129,8 +135,14 @@ const PAGE = path.join(ROOT, 'web', 'app.html');
  *    every mark after a compound onto the wrong word.
  * 20 /api/images is new: Describe Image. An addition, bumped for the reason
  *    16 was - an older server 404s it and the task looks unbuilt.
+ * 21 /api/grammar and its two POSTs are GONE, replaced by /api/grammarmap and
+ *    /api/grammarmap/faults; /api/attempts (four routes), /api/situations,
+ *    /api/swt and /api/swt/<id>/model are new. A removal as well as additions:
+ *    an older server would answer the new Grammar tab with a 404 and the page
+ *    would draw an empty map, and - worse - would 404 the save of an essay,
+ *    which is a lost answer rather than a missing feature.
  */
-const API_VERSION = 20;
+const API_VERSION = 21;
 
 /**
  * The browser page is the front end for the SAME Excel file the rest of the
@@ -151,8 +163,14 @@ export function serve({ port = 4173, open = true } = {}) {
   // you already know. Reconciled here, against the workbook we just read.
   let pendingBatchSync = syncBatches(deck, progress);
 
-  // Static study content, read once. Answers to it live in progress.json.
-  const grammar = loadGrammar();
+  // The grammar map, static like the rest; the failure log over it is in the
+  // attempts store - see grammarmap.js and attempts.js.
+  const grammarMap = loadGrammarMap();
+  // Your answers and their reviews. Opened once, and backed up before this
+  // session's first touch of it, the way the other two stores are.
+  const attemptsDb = openAttempts();
+  const { items: situations, problems: situationProblems } = loadSituations();
+  const { items: swtItems, problems: swtProblems } = loadSwt();
   // Example sentences, also static and also never written back - see usage.js.
   const { usage, problems: usageProblems } = loadUsage();
   // The essay prompts, static for the third time and never written back either.
@@ -177,7 +195,6 @@ export function serve({ port = 4173, open = true } = {}) {
   const { sets: readingSets, byItem: readingByItem,
           problems: readingProblems } = loadReading();
   const { sets: hiwSets, byItem: hiwByItem, problems: hiwProblems } = loadHiw();
-  const grammarById = new Map(grammar.modules.map((m) => [m.id, m]));
 
   /* ---- writes are debounced, and backed up once per session ------------ */
   let writeTimer = null;
@@ -1111,53 +1128,84 @@ export function serve({ port = 4173, open = true } = {}) {
         return res.end(req.method === 'HEAD' ? undefined : audio.buffer);
       }
 
-      if (req.method === 'GET' && url.pathname === '/api/grammar') {
+      /**
+       * The grammar map, whole: every line, every station and its article, and
+       * how often each station has been failed. Small enough to send at once,
+       * and the map cannot be drawn from less.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/grammarmap') {
         return json(res, 200, {
-          groups: grammar.groups,
-          // The accepted answers and the key are stripped here: the marking is
-          // the server's job, so the page cannot be read for the answers.
-          modules: grammar.modules.map((m) => ({
-            id: m.id, title: m.title, group: m.group, summary: m.summary,
-            sections: m.sections, slips: m.slips,
-            questions: m.questions.map((q) => (q.type === 'mcq'
-              ? { id: q.id, type: 'mcq', prompt: q.prompt, options: q.options }
-              : { id: q.id, type: 'blank', prompt: q.prompt, hint: q.hint })),
-          })),
-          progress: grammarProgress(progress),
+          api: API_VERSION,
+          lines: grammarMap.lines,
+          links: grammarMap.links,
+          faults: faultCounts(attemptsDb),
+          recent: faultsRecent(attemptsDb),
+          // The cloud build has no store, so no log: its map is articles only.
+          log: true,
         });
       }
 
-      if (req.method === 'POST' && url.pathname === '/api/grammar/answer') {
-        const { module: moduleId, q: questionId, choice, text } = await readBody(req);
-        const mod = grammarById.get(moduleId);
-        if (!mod) return json(res, 404, { error: `unknown module: ${moduleId}` });
-        const question = mod.questions.find((x) => x.id === questionId);
-        if (!question) return json(res, 404, { error: `unknown question: ${questionId}` });
-
-        const correct = question.type === 'mcq'
-          ? Number(choice) === question.answer
-          : isAccepted(question, text);
-
-        const tally = recordAnswer(progress, moduleId, questionId, correct);
-        scheduleProgressWrite();
-
-        return json(res, 200, {
-          ok: true,
-          correct,
-          answer: question.type === 'mcq' ? question.answer : question.accept,
-          explain: question.explain,
-          tally,
-        });
+      /** The failure log for one station: every fault filed against it, newest first. */
+      if (req.method === 'GET' && url.pathname === '/api/grammarmap/faults') {
+        const station = url.searchParams.get('station') || '';
+        if (!grammarMap.ids.has(station)) return json(res, 404, { error: `unknown station: ${station}` });
+        return json(res, 200, { api: API_VERSION, station, faults: faultsFor(attemptsDb, station) });
       }
 
-      if (req.method === 'POST' && url.pathname === '/api/grammar/reset') {
-        const { module: moduleId } = await readBody(req);
-        if (!grammarById.has(moduleId)) return json(res, 404, { error: `unknown module: ${moduleId}` });
-        const m = grammarState(progress, moduleId);
-        m.answers = {};
-        m.lastAt = null;
-        scheduleProgressWrite();
-        return json(res, 200, { ok: true, progress: grammarProgress(progress) });
+      /**
+       * Your answers. POST saves one - text only, see attempts.js - and GET
+       * lists them or reads one back with its review. The review itself is
+       * written by the review skill through tools/review.js, not through this
+       * server: the page has no route that writes one.
+       */
+      if (req.method === 'POST' && url.pathname === '/api/attempts') {
+        const body = await readBody(req);
+        const id = saveAttempt(attemptsDb, body);
+        return json(res, 200, { api: API_VERSION, ok: true, id });
+      }
+      if (req.method === 'GET' && url.pathname === '/api/attempts') {
+        return json(res, 200, {
+          api: API_VERSION,
+          tasks: ATTEMPT_TASKS,
+          attempts: listAttempts(attemptsDb, {
+            task: url.searchParams.get('task') || '',
+            status: url.searchParams.get('status') || '',
+          }),
+        });
+      }
+      if (req.method === 'GET' && /^\/api\/attempts\/\d+$/.test(url.pathname)) {
+        const a = getAttempt(attemptsDb, url.pathname.split('/')[3]);
+        if (!a) return json(res, 404, { error: 'no such attempt' });
+        return json(res, 200, { api: API_VERSION, attempt: a });
+      }
+      if (req.method === 'POST' && url.pathname === '/api/attempts/delete') {
+        const { id } = await readBody(req);
+        return json(res, 200, { api: API_VERSION, ok: deleteAttempt(attemptsDb, id) });
+      }
+
+      /** Respond to a Situation: shown in full, as in the exam - nothing to withhold. */
+      if (req.method === 'GET' && url.pathname === '/api/situations') {
+        return json(res, 200, { api: API_VERSION, times: SITUATION_TIMES, items: situations });
+      }
+
+      /**
+       * Summarize Written Text: the passages, WITHOUT the model summary and the
+       * points, which arrive only with /api/swt/<id>/model once you have
+       * written your own. Reading the answer first would make it a copying task.
+       */
+      if (req.method === 'GET' && url.pathname === '/api/swt') {
+        return json(res, 200, {
+          api: API_VERSION,
+          times: SWT_TIMES,
+          sst: SST_TIMES,
+          items: swtItems.map(({ summary, points, ...rest }) => rest),
+        });
+      }
+      if (req.method === 'GET' && /^\/api\/swt\/[^/]+\/model$/.test(url.pathname)) {
+        const id = decodeURIComponent(url.pathname.split('/')[3]);
+        const it = swtItems.find((x) => x.id === id);
+        if (!it) return json(res, 404, { error: `no passage "${id}"` });
+        return json(res, 200, { api: API_VERSION, id, summary: it.summary, points: it.points });
       }
 
       json(res, 404, { error: 'not found' });
@@ -1176,11 +1224,21 @@ export function serve({ port = 4173, open = true } = {}) {
     console.log(`  ${deck.words.length} words · ${deck.phrases.length} phrases · ` +
                 `${s.per.words.known + s.per.phrases.known} known · ` +
                 `${s.daysToExam} days to exam`);
-    const gq = grammar.modules.reduce((n, m) => n + m.questions.length, 0);
-    if (grammar.modules.length) {
-      console.log(`  grammar: ${grammar.modules.length} modules · ${gq} questions`);
+    const stations = stationIndex(grammarMap).length;
+    if (stations) {
+      const written = grammarMap.lines.reduce((n, l) => n + l.stations.filter((x) => x.sections.length).length, 0);
+      console.log(`  grammar map: ${grammarMap.lines.length} lines · ${stations} stations · ${written} articles written`);
     }
-    for (const p of grammar.problems) console.error(`  ! grammar module skipped - ${p}`);
+    for (const p of grammarMap.problems) console.error(`  ! grammar map - ${p}`);
+    {
+      const all = listAttempts(attemptsDb, { limit: 1000 });
+      const pending = all.filter((x) => !x.reviewed).length;
+      console.log(`  attempts: ${all.length} saved · ${pending} waiting for review`);
+    }
+    if (situations.length) console.log(`  respond to a situation: ${situations.length} situations`);
+    for (const p of situationProblems) console.error(`  ! situation - ${p}`);
+    if (swtItems.length) console.log(`  summarize written text: ${swtItems.length} passages`);
+    for (const p of swtProblems) console.error(`  ! swt - ${p}`);
     const uc = usageCounts(usage);
     if (uc.entries) {
       console.log(`  usage: ${uc.sentences} example sentences for ${uc.entries} entries`);

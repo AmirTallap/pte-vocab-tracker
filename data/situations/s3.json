@@ -1,0 +1,136 @@
+{
+  "id": "s3",
+  "title": "Neighbours, housing and services",
+  "items": [
+    {
+      "id": "s3-01",
+      "title": "Late-night noise next door",
+      "register": "informal",
+      "function": "complain",
+      "situation": "You live in a flat, and a young couple moved in next door two months ago. They are pleasant when you meet them on the stairs, but most weekends they play loud music until two or three in the morning. You start work early on Saturdays and have been getting very little sleep. You have just met one of them, Ellie, by the letterboxes downstairs. What would you say to Ellie?",
+      "points": [
+        "Start in a friendly way to keep the relationship good",
+        "Describe the problem specifically: when and how late",
+        "Explain the effect on you",
+        "Suggest a reasonable compromise, such as a time to turn it down"
+      ]
+    },
+    {
+      "id": "s3-02",
+      "title": "A leak in the bedroom",
+      "register": "formal",
+      "function": "request",
+      "situation": "You rent a house through a letting agency. For the past three weeks, water has been coming through the bedroom ceiling whenever it rains, and there is now a large damp patch with mould starting to appear. You reported it by email twice but have had no reply. You are worried about your health and your belongings. You have phoned the agency and are speaking to the property manager, Mr Singh. What would you say to Mr Singh?",
+      "points": [
+        "Explain the problem and how long it has lasted",
+        "Mention the previous emails that went unanswered",
+        "Stress the health risk and damage",
+        "Ask for a repair within a specific timeframe and a confirmed appointment"
+      ]
+    },
+    {
+      "id": "s3-03",
+      "title": "Damaging the neighbour's fence",
+      "register": "informal",
+      "function": "apologise",
+      "situation": "While you were reversing your car out of your driveway this morning, you misjudged the distance and knocked down part of your neighbour's wooden garden fence. Your neighbour, Mr Doyle, is an elderly man you get on well with, and he keeps a small dog that could now escape into the road. He was out when it happened. You have just seen him arrive home and have gone to his door. What would you say to Mr Doyle?",
+      "points": [
+        "Admit what happened straight away and apologise sincerely",
+        "Show concern about the dog getting out",
+        "Offer to pay for or arrange the repair",
+        "Suggest a temporary fix in the meantime"
+      ]
+    },
+    {
+      "id": "s3-04",
+      "title": "Joining the residents' committee",
+      "register": "informal",
+      "function": "decline",
+      "situation": "Your neighbour, Kate, runs the residents' association in your street. She has asked you to join the committee, which meets every Wednesday evening, because she thinks you would be good at organising events. You appreciate being asked, but you are studying for professional exams and have no free evenings for the next six months. Kate has stopped you in the street to ask for your answer. What would you say to Kate?",
+      "points": [
+        "Thank her and show that you value the association",
+        "Decline clearly and give your honest reason",
+        "Offer a smaller way to help, such as one event",
+        "Leave the door open for later"
+      ]
+    },
+    {
+      "id": "s3-05",
+      "title": "Charged twice for broadband",
+      "register": "formal",
+      "function": "complain",
+      "situation": "You checked your bank statement and found that your internet provider has taken your monthly payment twice this month. On top of that, your connection has dropped out several times a day for the past week, which has made it very difficult to work from home. You have phoned the customer service line and have finally been connected to an adviser after waiting forty minutes. What would you say to the adviser?",
+      "points": [
+        "Stay polite even though you are frustrated",
+        "Set out both problems clearly and separately",
+        "Ask for the double payment to be refunded",
+        "Ask for the connection to be fixed and consider requesting compensation"
+      ]
+    },
+    {
+      "id": "s3-06",
+      "title": "Negotiating a rent increase",
+      "register": "formal",
+      "function": "negotiate",
+      "situation": "Your tenancy agreement ends next month, and your landlord's agent has written to say the rent will go up by fifteen percent if you renew. You have been a reliable tenant for three years, have always paid on time, and have kept the flat in excellent condition. Similar flats nearby are advertised for about five percent more than you pay now. You are meeting the agent, Ms Rahman. What would you say to Ms Rahman?",
+      "points": [
+        "Say that you would like to stay",
+        "Highlight your record as a reliable tenant",
+        "Use the local prices as evidence",
+        "Propose a specific figure or a longer contract in return for a smaller rise"
+      ]
+    },
+    {
+      "id": "s3-07",
+      "title": "A cleaning rota for flatmates",
+      "register": "informal",
+      "function": "persuade",
+      "situation": "You share a flat with three other people. The kitchen is almost always dirty, the bins overflow, and arguments about who should clean have become common. You would like to introduce a weekly cleaning rota, but one flatmate, Marcus, says rotas are childish and that everyone should just clean up after themselves. The four of you are sitting in the living room tonight to talk about it. What would you say to your flatmates?",
+      "points": [
+        "Acknowledge Marcus's point fairly",
+        "Point out that the current approach is not working",
+        "Explain the benefits of a rota: fairness and fewer arguments",
+        "Suggest trying it for a set period and reviewing it"
+      ]
+    },
+    {
+      "id": "s3-08",
+      "title": "A parcel that never arrived",
+      "register": "formal",
+      "function": "clarify",
+      "situation": "You ordered a new laptop online, and the courier's tracking page says it was delivered yesterday at two o'clock and 'handed to resident'. However, you were at home all afternoon and nobody knocked. The photo attached to the delivery shows a front door that is not yours. You have phoned the courier company and are speaking to a customer service agent. What would you say to the agent?",
+      "points": [
+        "Give your order or tracking details clearly",
+        "Explain why you believe it went to the wrong address",
+        "Refer to the photograph as evidence",
+        "Ask what they will do to find it or replace it, and by when"
+      ]
+    },
+    {
+      "id": "s3-09",
+      "title": "Helping a new neighbour settle",
+      "register": "informal",
+      "function": "advise",
+      "situation": "A family has just moved into the house opposite yours from another country. The father, Mr Novak, has knocked on your door because he is confused about the local rubbish collection. He has put all his waste in one bin, and the council did not collect it this week. He also asks where the nearest doctor's surgery is and how to register. He seems a little embarrassed. What would you say to Mr Novak?",
+      "points": [
+        "Make him feel welcome and at ease",
+        "Explain the bin system simply, such as which bin is for what",
+        "Give practical advice on registering with a doctor",
+        "Offer further help if he needs it"
+      ]
+    },
+    {
+      "id": "s3-10",
+      "title": "The overgrown garden hedge",
+      "register": "formal",
+      "function": "explain",
+      "situation": "You have received a letter from the local council saying that the hedge in front of your house is blocking the pavement and must be cut back within fourteen days. You were in hospital for most of last month after an operation and have not been able to do any gardening. You have already booked a gardener, but the earliest date available is in three weeks. You have phoned the council officer named in the letter. What would you say to the officer?",
+      "points": [
+        "Refer to the letter and show you take it seriously",
+        "Explain your circumstances briefly",
+        "Give the date the gardener is booked",
+        "Ask politely for a short extension"
+      ]
+    }
+  ]
+}

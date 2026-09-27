@@ -1,0 +1,136 @@
+{
+  "id": "w5",
+  "title": "Technology, health and the environment",
+  "items": [
+    {
+      "id": "w5-01",
+      "title": "The Threat of Antibiotic Resistance",
+      "topic": "Public health",
+      "passage": "The discovery of antibiotics in the twentieth century transformed medicine. Infections that had once been frequently fatal, such as pneumonia and infected wounds, became readily treatable, and antibiotics made possible many modern procedures, including major surgery, chemotherapy and organ transplants, which carry a high risk of infection.\n\nThis achievement is now under threat. Bacteria reproduce rapidly, and when a population is exposed to an antibiotic, any individuals that happen to carry genes allowing them to survive will multiply and pass those genes on. Bacteria can also share resistance genes directly with one another. Over time, the drug becomes less effective. This process is a natural consequence of evolution, but human behaviour has greatly accelerated it. Antibiotics are often prescribed for viral infections, against which they are useless, patients frequently fail to complete their courses, and in many countries large quantities are given to farm animals to promote growth or prevent disease in crowded conditions.\n\nAt the same time, the development of new antibiotics has slowed. Because they are typically used for short courses and new ones are held in reserve for the most serious cases, they earn far less money than drugs for chronic conditions, and many pharmaceutical companies have left the field.\n\nTackling the problem requires action on several fronts: using existing antibiotics more carefully in both medicine and agriculture, improving hygiene and vaccination to prevent infections in the first place, and creating new financial incentives to reward companies for developing drugs that may rarely be used.",
+      "points": [
+        "Antibiotic resistance threatens modern medicine and needs action on several fronts",
+        "Resistance evolves naturally but overuse in medicine and farming speeds it",
+        "Weak profits have slowed new drug development",
+        "Careful use, prevention and new incentives are needed"
+      ],
+      "summary": "Antibiotic resistance, a natural evolutionary process accelerated by overuse in medicine and farming, threatens modern healthcare while weak commercial incentives slow new drug development, so careful use, infection prevention and new funding models are all required."
+    },
+    {
+      "id": "w5-02",
+      "title": "Understanding Herd Immunity",
+      "topic": "Epidemiology",
+      "passage": "Vaccines protect not only the individuals who receive them but also those around them. When a large enough proportion of a population is immune to an infectious disease, the chains of transmission are broken, because an infected person is unlikely to encounter anyone who can catch the disease from them. This indirect protection, known as herd immunity, shields people who cannot be vaccinated, such as newborn babies and those with weakened immune systems.\n\nThe proportion of the population that must be immune depends largely on how contagious a disease is. For measles, one of the most infectious diseases known, it is estimated at around ninety-five per cent. For less contagious diseases, the threshold is lower. When vaccination rates fall below the required level, even by a small margin, outbreaks can return, as several countries have discovered in recent years after declines in measles vaccination.\n\nHerd immunity is not, however, a simple or fixed target. Immunity may fade over time, some vaccines are better at preventing serious illness than at stopping infection and transmission, and viruses can change in ways that allow them to escape existing protection. Moreover, vaccination rates are rarely uniform: a national average can conceal local communities with much lower coverage, in which outbreaks can take hold.\n\nMaintaining high vaccination rates therefore depends not only on the availability of vaccines but also on public trust. Health authorities increasingly recognise that addressing people's concerns respectfully and making vaccination convenient are as important as the scientific case itself.",
+      "points": [
+        "Herd immunity protects the vulnerable but is not a simple fixed target",
+        "The threshold depends on contagiousness, about 95 per cent for measles",
+        "Fading immunity, viral change and local gaps complicate it",
+        "Coverage depends on public trust and convenience"
+      ],
+      "summary": "Vaccination creates herd immunity that protects those who cannot be vaccinated once coverage reaches a threshold set by contagiousness, but fading immunity, viral change and local gaps complicate this, so sustaining coverage depends on public trust and convenience."
+    },
+    {
+      "id": "w5-03",
+      "title": "The Hidden Costs of Batteries",
+      "topic": "Energy technology",
+      "passage": "Lithium-ion batteries power mobile phones, laptops and, increasingly, electric vehicles and the storage systems that help electricity grids use energy from wind and sun. Their combination of light weight and high energy storage has made them central to efforts to reduce reliance on fossil fuels.\n\nTheir production, however, carries environmental and social costs. The batteries depend on metals such as lithium, cobalt and nickel, the extraction of which can consume large amounts of water, damage landscapes and, in some regions, involve dangerous working conditions. As demand rises rapidly, concerns have also grown about whether supplies of these materials can keep pace, and about the concentration of mining and processing in a small number of countries.\n\nRecycling is often proposed as part of the solution. In principle, most of the valuable metals in a used battery can be recovered and reused, reducing the need for new mining. In practice, recycling remains difficult and relatively limited. Batteries come in many different designs, they must be dismantled carefully because they can catch fire, and the recovery processes can themselves be energy-intensive. Moreover, because electric vehicle batteries last many years, the number reaching the end of their lives is still small compared with the demand for new ones.\n\nResearchers are pursuing several approaches, including battery designs that are easier to take apart, chemistries that avoid scarce metals such as cobalt, and giving old vehicle batteries a second life in stationary storage before recycling. None of these will remove the need for mining, but together they may reduce its impact.",
+      "points": [
+        "Batteries are key to clean energy but mining their metals has real costs",
+        "Extraction uses water, damages land and can endanger workers",
+        "Recycling is difficult and few batteries are yet retired",
+        "Easier designs, new chemistries and second-life use may reduce the impact"
+      ],
+      "summary": "Lithium-ion batteries are central to reducing fossil fuel use, but mining their metals has environmental and social costs, and since recycling remains difficult, researchers are pursuing easier dismantling, alternative chemistries and second-life uses to reduce, though not eliminate, mining."
+    },
+    {
+      "id": "w5-04",
+      "title": "Microplastics in the Environment",
+      "topic": "Pollution",
+      "passage": "Plastic is valued for its durability, but that same quality makes it a lasting environmental problem. Rather than breaking down completely, plastic waste gradually fragments into ever smaller pieces. Particles smaller than five millimetres are known as microplastics, and they are also released directly from sources such as synthetic clothing during washing and the wear of vehicle tyres on roads.\n\nMicroplastics have now been found almost everywhere scientists have looked: in deep ocean sediments, in Arctic ice, in soil, in drinking water and in the air. They have also been detected in a wide range of animals and in human tissues. Laboratory studies show that they can cause harm to some marine organisms, for example by blocking the digestive tract or reducing feeding, and they may carry chemical additives or absorb pollutants from the surrounding water.\n\nWhat these findings mean for human health, however, remains uncertain. Measuring microplastics accurately is technically difficult, and contamination from plastic equipment in laboratories can distort the results. Many experiments have used concentrations or types of particles that differ from those people are actually exposed to. As a result, although concern is understandable, there is not yet firm evidence about the level of risk to people.\n\nMost scientists argue that this uncertainty is not a reason for inaction. Because microplastics are practically impossible to remove from the environment once released, and because their quantity is increasing, reducing the amount of plastic waste produced, and improving how it is managed, is considered a prudent response even before the full extent of the harm is known.",
+      "points": [
+        "Microplastics are everywhere; human risk is uncertain but action is still prudent",
+        "They come from fragmenting waste, clothing and tyres",
+        "They harm some marine life and may carry pollutants",
+        "Measurement problems leave human risk unclear; persistence justifies cutting waste"
+      ],
+      "summary": "Microplastics from fragmenting waste, clothing and tyres are now found throughout the environment and can harm some marine life, and although their risk to human health remains uncertain, scientists argue that their persistence justifies reducing plastic waste now."
+    },
+    {
+      "id": "w5-05",
+      "title": "Cooling the Urban Heat Island",
+      "topic": "Urban environment",
+      "passage": "Cities are often noticeably warmer than the countryside around them, particularly at night. This phenomenon, known as the urban heat island effect, arises because roads, roofs and buildings made of materials such as concrete and asphalt absorb large amounts of heat from the sun during the day and release it slowly after dark. Cities also have less vegetation, which would otherwise cool the air through evaporation and shade, and heat is added by vehicles, air conditioning and industry. Tall buildings can trap warm air and reduce the wind that might carry heat away.\n\nThe effect matters because heat is a serious threat to health. During heatwaves, high night-time temperatures prevent the body from recovering, and deaths rise among elderly people and those with existing illnesses. The burden is often unequal: poorer neighbourhoods frequently have fewer trees and parks and more densely packed housing, and their residents may be less able to afford cooling. As global temperatures rise, and as more of the world's population lives in cities, the problem is expected to grow.\n\nSeveral measures can reduce urban heat. Planting trees and creating parks provide shade and evaporative cooling, while roofs and pavements painted in light colours reflect more sunlight. Green roofs covered with plants and the careful design of streets to encourage air flow can also help.\n\nThese measures are not without difficulties. Trees require space, water and maintenance, and their benefits take years to develop. Nevertheless, researchers emphasise that cooling cities is one of the most practical ways of adapting to a warming climate.",
+      "points": [
+        "Cities trap heat, harming health, but can be cooled as a practical adaptation",
+        "Concrete stores heat and cities lack vegetation",
+        "Heatwaves kill vulnerable people; poorer areas suffer most",
+        "Trees and reflective roofs help though they take time and resources"
+      ],
+      "summary": "Cities are warmer than the countryside because their materials store heat and they lack vegetation, which threatens health unequally during heatwaves, and although solutions such as trees and reflective roofs take time and resources, they are practical ways to adapt."
+    },
+    {
+      "id": "w5-06",
+      "title": "Artificial Intelligence in Diagnosis",
+      "topic": "Health technology",
+      "passage": "Artificial intelligence systems trained on large collections of medical images have shown remarkable abilities in research studies. In tasks such as detecting signs of disease in eye scans, identifying suspicious areas on mammograms and classifying skin lesions from photographs, some systems have matched or even exceeded the accuracy of specialist doctors. Supporters argue that such tools could reduce workloads, shorten waiting times and extend expert-level diagnosis to places where specialists are scarce.\n\nTranslating these results into everyday clinical practice, however, has proved harder than early enthusiasm suggested. A system that performs well on the data used to develop it may perform worse in a different hospital, where the equipment, the patients and the way images are taken all differ. If the training data under-represent certain groups, such as people with darker skin in the case of skin conditions, the system may be less accurate for them, potentially widening existing inequalities in care. Many published studies have also compared software with doctors under artificial conditions, rather than testing whether patients actually benefit.\n\nThere are questions of responsibility and trust as well. When a system makes an error, it is not always clear who is accountable, and many systems cannot easily explain how they reached a conclusion. Doctors may also come to rely too heavily on automated advice, overlooking mistakes they would otherwise catch.\n\nFor these reasons, most experts expect artificial intelligence to support rather than replace clinicians in the near future, and they call for careful testing in real clinical settings before such tools are widely adopted.",
+      "points": [
+        "AI shows diagnostic promise but should support clinicians and be tested first",
+        "Some systems match specialists on medical images",
+        "Performance drops in new settings; biased data can widen inequality",
+        "Accountability, explainability and over-reliance are concerns"
+      ],
+      "summary": "Although artificial intelligence can match specialists at reading some medical images in research, problems with performance in new settings, biased training data, accountability and over-reliance mean it should support rather than replace clinicians and be carefully tested first."
+    },
+    {
+      "id": "w5-07",
+      "title": "The Role of Carbon Capture",
+      "topic": "Climate technology",
+      "passage": "Carbon capture and storage refers to a set of technologies designed to prevent carbon dioxide from reaching the atmosphere. In its most common form, the gas is separated from the exhaust of power stations or industrial plants, compressed, and transported to be stored permanently in deep underground rock formations, such as depleted oil and gas fields. A related approach, direct air capture, removes carbon dioxide from the ordinary air.\n\nMany climate scientists consider such technologies necessary. Some industries, such as cement and steel production, release carbon dioxide as part of their chemical processes, not only from the fuel they burn, and are therefore very difficult to decarbonise by other means. Moreover, most scenarios for limiting global warming assume that some carbon dioxide will need to be actively removed from the atmosphere later this century.\n\nProgress has, however, been slow. Capturing carbon is expensive and requires considerable energy, and only a small number of large projects are operating worldwide, capturing a tiny fraction of global emissions. Several high-profile projects have fallen short of their targets. Direct air capture is particularly costly, because carbon dioxide makes up only a very small proportion of the air.\n\nCritics also worry that the promise of future carbon capture may be used to justify continuing to burn fossil fuels, delaying cheaper and more reliable measures such as expanding renewable energy and improving efficiency. The emerging view among many analysts is that carbon capture has a genuine but limited role, best focused on sectors where no practical alternative exists, rather than serving as a substitute for reducing emissions.",
+      "points": [
+        "Carbon capture has a genuine but limited role alongside emission cuts",
+        "It is needed for cement, steel and future removals",
+        "It is costly, energy-intensive and has scaled slowly",
+        "It may excuse continued fossil fuel use"
+      ],
+      "summary": "Carbon capture and storage may be necessary for industries such as cement and for future removals, but because it is costly, energy-intensive and slow to scale, and may excuse continued fossil fuel use, it should complement rather than replace emission cuts."
+    },
+    {
+      "id": "w5-08",
+      "title": "The Economics of Vertical Farming",
+      "topic": "Agriculture",
+      "passage": "Vertical farming involves growing crops indoors in stacked layers, under artificial lighting, with nutrients delivered through water rather than soil. Its advocates describe it as a solution to several of the problems facing modern agriculture. Because conditions are fully controlled, crops can be grown all year round regardless of climate, pesticides are rarely needed, and water use can be a small fraction of that in conventional fields, since water is recycled. Farms can also be located in or near cities, reducing the distance food must travel.\n\nThe approach does have genuine strengths, but it also faces a fundamental difficulty: energy. In a field, sunlight is free. Indoors, every unit of light must be supplied by electricity, and heating, cooling and ventilation add further costs. As a result, vertical farming has so far been economical mainly for high-value crops that grow quickly and are mostly edible, such as salad leaves and herbs. Staple crops such as wheat and rice, which provide most of the world's calories, require far more light and space relative to their value and are not realistic candidates.\n\nThe environmental case also depends heavily on the source of electricity. Powered by fossil fuels, an indoor farm may produce more greenhouse gas emissions than the conventional agriculture it replaces. Several well-funded companies in the sector have struggled financially or closed.\n\nVertical farming is therefore likely to complement rather than replace traditional agriculture. Improvements in lighting efficiency and cheaper renewable energy may expand its role, but it is unlikely to feed the world on its own.",
+      "points": [
+        "Vertical farming will complement rather than replace conventional farming",
+        "It saves water, avoids pesticides and grows year-round near cities",
+        "Energy costs limit it to high-value crops such as salads",
+        "Fossil-powered farms may raise emissions; several firms have failed"
+      ],
+      "summary": "Vertical farming saves water and land and allows year-round local production, but its high energy costs limit it to high-value crops such as salads and may increase emissions, so it will likely complement rather than replace conventional agriculture."
+    },
+    {
+      "id": "w5-09",
+      "title": "The Health Risks of Sitting",
+      "topic": "Health",
+      "passage": "It has long been known that regular physical activity reduces the risk of many serious conditions, including heart disease, type 2 diabetes, several cancers and depression. Most health authorities recommend that adults take part in at least 150 minutes of moderate activity, such as brisk walking, each week. In recent years, however, researchers have become interested in a related but distinct question: what are the effects of the many hours that people spend sitting?\n\nModern life involves a great deal of sitting, at desks, in cars and in front of screens. Studies have found that people who sit for long periods tend to have worse health outcomes, and some research suggests that this risk exists partly independently of exercise. In other words, a person who goes to the gym but spends the rest of the day sitting may still face some increased risk. Breaking up long periods of sitting with short spells of movement appears to improve the way the body handles sugar and fats.\n\nThe evidence has sometimes been presented in exaggerated terms, with claims that sitting is as dangerous as smoking. Large analyses suggest that high levels of physical activity can largely offset the risks associated with prolonged sitting, although relatively few people achieve such levels. It is also difficult to separate the effects of sitting from those of related factors, such as diet and income.\n\nThe practical message is nevertheless straightforward. Being active remains the most important goal, but reducing long uninterrupted periods of sitting, even by standing or walking briefly, is also likely to be beneficial.",
+      "points": [
+        "Prolonged sitting carries risks partly independent of exercise",
+        "Exercise clearly reduces many serious diseases",
+        "Breaking up sitting improves how the body handles sugar and fat",
+        "Comparisons with smoking are exaggerated; high activity offsets much of the risk"
+      ],
+      "summary": "Besides the well-established benefits of exercise, research suggests that prolonged sitting carries health risks partly independent of activity, and although claims comparing it to smoking are exaggerated, reducing long periods of sitting is likely to be beneficial."
+    },
+    {
+      "id": "w5-10",
+      "title": "The Promise and Problems of Rewilding",
+      "topic": "Conservation",
+      "passage": "Rewilding is an approach to conservation that aims to restore natural processes and allow ecosystems to largely manage themselves, rather than preserving landscapes in a particular state through constant human intervention. It often involves reintroducing species that have disappeared from an area, especially large animals such as beavers, wolves or bison, which shape their environment in ways that benefit many other organisms.\n\nBeavers provide a frequently cited example. By building dams, they create wetlands that store water, slow floods, filter pollutants and provide habitat for insects, amphibians and birds. The reintroduction of wolves to Yellowstone National Park in the United States in the 1990s has also been credited with changing the behaviour and numbers of deer-like elk, allowing vegetation along rivers to recover, although researchers continue to debate how large and widespread these effects really are.\n\nRewilding also faces practical and social challenges. Large predators may kill livestock, and beaver dams can flood farmland, so reintroductions can provoke strong opposition from farmers and rural communities who bear most of the costs. Many landscapes, especially in densely populated regions, are too small or fragmented to support self-sustaining populations of large animals. Critics also question which past state an ecosystem should be restored towards, since landscapes have been changing for thousands of years.\n\nSupporters respond that rewilding need not mean excluding people, and that successful projects involve local communities from the outset, compensate them for losses, and create benefits such as tourism. Its success appears to depend as much on human cooperation as on ecology.",
+      "points": [
+        "Rewilding can restore ecosystems, but success depends on local communities",
+        "Beavers and wolves reshape habitats to benefit many species",
+        "Conflicts with farmers, fragmented land and unclear goals are obstacles",
+        "Involving and compensating communities is key"
+      ],
+      "summary": "Rewilding restores natural processes by reintroducing species such as beavers and wolves, which can benefit whole ecosystems, but conflicts with farmers, fragmented land and debate over goals mean its success depends heavily on involving and compensating local communities."
+    }
+  ]
+}

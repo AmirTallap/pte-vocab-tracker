@@ -1,0 +1,136 @@
+{
+  "id": "s5",
+  "title": "Health, travel and everyday problems",
+  "items": [
+    {
+      "id": "s5-01",
+      "title": "A missed medical appointment",
+      "register": "formal",
+      "function": "apologise",
+      "situation": "You had an appointment with a specialist at the local hospital yesterday morning. You had waited four months for it, but you wrote the wrong date in your diary and did not realise until the hospital sent a text saying you had missed it. The next available appointment is in another three months. You have phoned the clinic and are speaking to the receptionist. What would you say to the receptionist?",
+      "points": [
+        "Apologise and take responsibility for the mistake",
+        "Explain briefly why you need to be seen soon",
+        "Ask whether an earlier or cancellation appointment is possible",
+        "Thank the receptionist for any help"
+      ]
+    },
+    {
+      "id": "s5-02",
+      "title": "A cancelled connecting flight",
+      "register": "formal",
+      "function": "request",
+      "situation": "You are at an airport on your way home from a holiday. Your connecting flight has just been cancelled because of a technical fault, and the airline says the next available flight is in two days. You have an important job interview the day after tomorrow, and you have no hotel booked. You are now at the airline's service desk, speaking to a member of staff. What would you say to the member of staff?",
+      "points": [
+        "Stay polite and explain your situation clearly",
+        "Mention why the timing matters",
+        "Ask about alternative routes or other airlines",
+        "Ask what accommodation and meals the airline will provide"
+      ]
+    },
+    {
+      "id": "s5-03",
+      "title": "The wrong hotel room",
+      "register": "formal",
+      "function": "complain",
+      "situation": "You booked and paid in advance for a double room with a sea view at a seaside hotel for your anniversary. When you open the door to your room, you find it is a small single room overlooking the car park, and the air conditioning is not working. The hotel booking confirmation is on your phone. You have gone back down to the reception desk. What would you say to the receptionist?",
+      "points": [
+        "Explain calmly what you booked and what you received",
+        "Refer to the confirmation as evidence",
+        "Mention the air conditioning as a separate problem",
+        "Ask for the correct room or a clear alternative, such as a partial refund"
+      ]
+    },
+    {
+      "id": "s5-04",
+      "title": "Unclear medicine instructions",
+      "register": "formal",
+      "function": "clarify",
+      "situation": "Your doctor prescribed you some tablets yesterday and told you to take two a day. However, the label on the box from the pharmacy says to take one tablet three times a day with food. You are also taking a medicine for hay fever, and you are not sure whether the two can be taken together. You have gone back to the pharmacy to speak to the pharmacist. What would you say to the pharmacist?",
+      "points": [
+        "Explain the difference between what the doctor said and the label",
+        "Ask which instruction to follow",
+        "Mention the other medicine and ask about combining them",
+        "Check that you have understood the answer"
+      ]
+    },
+    {
+      "id": "s5-05",
+      "title": "A friend avoiding the doctor",
+      "register": "informal",
+      "function": "persuade",
+      "situation": "Your friend Ryan has had a painful knee for over a month. He has been taking painkillers and still goes running three times a week, but the pain is getting worse and he now limps after every run. He refuses to see a doctor because he says it is a waste of time and they will only tell him to rest. You are walking home together after watching a film. What would you say to Ryan?",
+      "points": [
+        "Show concern rather than lecturing",
+        "Point out that the pain is getting worse",
+        "Explain the risk of long-term damage",
+        "Suggest a practical first step, such as booking an appointment together"
+      ]
+    },
+    {
+      "id": "s5-06",
+      "title": "An unwanted tour upgrade",
+      "register": "formal",
+      "function": "decline",
+      "situation": "You are on a guided coach tour abroad. The tour guide, Mr Costa, has announced an optional excursion to a wine estate tomorrow, costing sixty euros, and has told you personally that it is the highlight of the trip and that you will regret missing it. You do not drink alcohol, you are on a tight budget, and you had planned a quiet day exploring the town on foot. What would you say to Mr Costa?",
+      "points": [
+        "Thank him for the suggestion politely",
+        "Decline clearly without over-explaining",
+        "Give a brief reason",
+        "Ask for a recommendation for your own day in the town"
+      ]
+    },
+    {
+      "id": "s5-07",
+      "title": "A lost passport abroad",
+      "register": "informal",
+      "function": "reassure",
+      "situation": "You are travelling abroad with your friend Mia. This afternoon she discovered that her passport has gone missing, probably stolen from her bag at a busy market. Your flight home is in four days. Mia is in tears, saying she will be stuck in the country for weeks and will lose her job. You know that embassies can issue emergency travel documents quickly. What would you say to Mia?",
+      "points": [
+        "Calm her down and show you are there to help",
+        "Explain that emergency travel documents exist",
+        "Set out clear next steps, such as a police report and contacting the embassy",
+        "Offer to go with her"
+      ]
+    },
+    {
+      "id": "s5-08",
+      "title": "Returning a faulty coffee machine",
+      "register": "formal",
+      "function": "negotiate",
+      "situation": "Five weeks ago you bought an expensive coffee machine from an electrical shop. It has now stopped heating water. You have the receipt, but the shop's policy allows refunds only within thirty days. The assistant has offered to send the machine away for repair, which could take a month. You would prefer a replacement or a refund because you use the machine every day. What would you say to the assistant?",
+      "points": [
+        "Explain the fault and when you bought it",
+        "Acknowledge the store policy",
+        "Argue that a product should not fail so quickly",
+        "Propose an acceptable outcome, such as a replacement or a loan machine"
+      ]
+    },
+    {
+      "id": "s5-09",
+      "title": "Ending a gym contract early",
+      "register": "formal",
+      "function": "explain",
+      "situation": "Six months ago you signed a twelve-month contract with a gym. Your employer has now moved you to an office in another city, two hundred miles away, starting next month. The contract says members can leave early only for medical reasons, and the gym has told you that you must keep paying until the end of the year. You are meeting the gym manager, Mrs Hale. What would you say to Mrs Hale?",
+      "points": [
+        "Explain the relocation clearly and offer evidence",
+        "Show that the move is outside your control",
+        "Ask whether an exception can be made",
+        "Suggest alternatives, such as transferring the membership or a reduced fee"
+      ]
+    },
+    {
+      "id": "s5-10",
+      "title": "Sleepless before the exams",
+      "register": "informal",
+      "function": "advise",
+      "situation": "Your housemate Zara has important exams next week. For several nights she has been studying until three in the morning, drinking energy drinks to stay awake, and then struggling to sleep. Today she says she cannot concentrate, she keeps forgetting what she has read, and she feels constantly exhausted. She asks you if you have any ideas that might help. What advice would you give Zara?",
+      "points": [
+        "Show sympathy for how she feels",
+        "Explain the link between sleep and memory",
+        "Suggest practical changes, such as cutting caffeine and fixed study hours",
+        "Recommend short breaks, and seeing a doctor if it continues"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "w1",
+  "title": "Natural sciences",
+  "items": [
+    {
+      "id": "w1-01",
+      "title": "The Acceptance of Plate Tectonics",
+      "topic": "Geology",
+      "passage": "In the early twentieth century, the German meteorologist Alfred Wegener proposed that the continents had once formed a single landmass and had slowly drifted apart. He pointed to the way the coastlines of South America and Africa appear to fit together, to matching rock formations on opposite sides of the Atlantic, and to fossils of the same land-dwelling species found on continents now separated by vast oceans. Despite this evidence, most geologists rejected his idea for decades, largely because Wegener could not explain what force could possibly move entire continents across the solid floor of the ocean.\n\nThe missing mechanism emerged only after the Second World War, when new techniques allowed scientists to map the sea floor in detail. They discovered long underwater mountain ranges, known as mid-ocean ridges, where molten rock rises from below and cools to form new crust. Magnetic patterns recorded in this rock were found to be symmetrical on either side of the ridges, showing that the sea floor was spreading outwards over millions of years. Meanwhile, old crust was being drawn back into the mantle at deep ocean trenches.\n\nThese findings were combined in the theory of plate tectonics, which holds that the outer shell of the Earth is divided into rigid plates that move slowly over a hotter, more pliable layer beneath. The theory now explains the distribution of earthquakes, volcanoes and mountain ranges, and it is regarded as the unifying framework of modern geology. The story is often cited as an example of how a correct idea may be dismissed until a convincing mechanism is found.",
+      "points": [
+        "Continental drift was rejected until a mechanism was found, then became plate tectonics",
+        "Wegener's evidence: fitting coastlines, matching rocks and fossils",
+        "Post-war sea-floor mapping revealed ridges and spreading crust",
+        "Plate tectonics now unifies modern geology"
+      ],
+      "summary": "Although Wegener's theory of continental drift was long rejected because he could not explain how continents moved, post-war mapping of spreading sea floors supplied the mechanism, producing the theory of plate tectonics that now underpins modern geology."
+    },
+    {
+      "id": "w1-02",
+      "title": "Why Photosynthesis Is Inefficient",
+      "topic": "Botany",
+      "passage": "Photosynthesis is often described as the process that sustains almost all life on Earth, and in one sense this is accurate: plants, algae and some bacteria capture the energy of sunlight and use it to convert carbon dioxide and water into sugars, releasing oxygen as a by-product. These sugars feed the organisms that make them and, directly or indirectly, nearly every animal that eats them.\n\nYet as a way of converting energy, photosynthesis is surprisingly inefficient. Most crop plants store only around one or two per cent of the solar energy that falls on them, far less than a typical solar panel converts into electricity. Part of the problem lies with an enzyme called RuBisCO, which is responsible for fixing carbon dioxide. It works slowly, and it frequently binds oxygen by mistake, triggering a wasteful process known as photorespiration that releases some of the carbon the plant has just captured. This flaw probably reflects the enzyme's origins in an ancient atmosphere that contained very little oxygen.\n\nSome plants have evolved ways around the problem. Maize and sugar cane, for example, concentrate carbon dioxide around RuBisCO, reducing the errors, and they tend to grow faster in hot, bright conditions. Researchers are now attempting to engineer similar improvements into staple crops such as rice. Such work is slow and uncertain, but because the global demand for food continues to rise, even modest gains in photosynthetic efficiency could have considerable value.",
+      "points": [
+        "Photosynthesis sustains life but converts sunlight inefficiently",
+        "Crops store only one or two per cent of solar energy",
+        "The enzyme RuBisCO is slow and wastefully binds oxygen",
+        "Maize avoids the flaw; scientists hope to engineer crops like rice"
+      ],
+      "summary": "Although photosynthesis sustains nearly all life, it converts sunlight into stored energy inefficiently, largely because the enzyme RuBisCO works slowly and wastes carbon by binding oxygen, so scientists are trying to engineer crops that, like maize, avoid this flaw."
+    },
+    {
+      "id": "w1-03",
+      "title": "The Resilience of Tardigrades",
+      "topic": "Zoology",
+      "passage": "Tardigrades, microscopic animals rarely longer than a millimetre, are sometimes called water bears because of their plump bodies and slow, lumbering movement. They live in a wide range of habitats, from ocean sediments to the thin film of water on garden moss, and they have attracted scientific attention for one remarkable ability: surviving conditions that would kill almost any other animal.\n\nWhen their surroundings dry out, many tardigrades enter a state known as cryptobiosis. They draw in their legs, lose nearly all of their body water and slow their metabolism to an almost undetectable level. In this condition they have withstood extreme cold, intense heat, high doses of radiation and even exposure to the vacuum of space during experiments carried on satellites. When water returns, they can rehydrate and resume normal activity, sometimes after years in a dormant state. Researchers have identified special proteins that appear to form a glass-like material inside their cells, protecting delicate structures from damage as they dry.\n\nIt is important, however, not to exaggerate these abilities. Tardigrades are not indestructible, and they are far less resilient while they are active than while they are dormant. Their tolerance of extreme conditions is best understood as a strategy for waiting out temporary hardship rather than for thriving in hostile environments. Even so, the mechanisms that protect them are of practical interest, since similar methods might one day help to preserve vaccines or other biological materials without refrigeration.",
+      "points": [
+        "Tardigrades survive extreme conditions by entering a dormant, dried-out state",
+        "They have withstood cold, heat, radiation and space",
+        "Special proteins form a protective glass-like material",
+        "They are vulnerable when active; their methods could preserve vaccines"
+      ],
+      "summary": "Tardigrades survive extreme heat, cold, radiation and even space by entering a dehydrated dormant state protected by special proteins, although they are vulnerable when active, and the mechanisms involved could help preserve vaccines without refrigeration."
+    },
+    {
+      "id": "w1-04",
+      "title": "Coral Reefs and Bleaching",
+      "topic": "Marine biology",
+      "passage": "Coral reefs occupy a tiny fraction of the ocean floor, yet they support an extraordinary share of marine species. Their success depends on a partnership that is invisible to the casual observer. Inside the tissues of reef-building corals live microscopic algae which, through photosynthesis, supply the coral with most of the energy it needs. In return, the coral provides the algae with shelter and with nutrients from its own waste. The algae also give many corals their vivid colours.\n\nThis relationship is delicate. When sea temperatures rise even slightly above the usual summer maximum for a sustained period, the partnership breaks down and the coral expels its algae. Without them, the coral's white limestone skeleton becomes visible through its transparent tissue, a process known as bleaching. A bleached coral is not immediately dead, and if temperatures fall quickly the algae can return. If the stress continues, however, the coral starves, and the reef it helped to build may gradually be broken down by waves and burrowing organisms.\n\nBleaching events have become more frequent and more widespread as ocean temperatures have risen, leaving reefs less time to recover between them. Some corals appear more tolerant of heat than others, and scientists are investigating whether heat-resistant strains of coral or algae could be encouraged to spread. Most researchers stress, however, that such interventions can only buy time, and that the long-term survival of reefs depends on limiting the warming of the oceans.",
+      "points": [
+        "Reefs depend on a coral-algae partnership that warming seas break down",
+        "Algae supply energy; coral gives shelter and nutrients",
+        "Bleached corals can recover but starve if stress continues",
+        "Heat-tolerant strains only buy time; limiting warming is essential"
+      ],
+      "summary": "Coral reefs depend on a partnership with algae that breaks down when seas warm, causing bleaching that can starve corals, and although heat-tolerant strains may buy time, reefs ultimately survive only if ocean warming is limited."
+    },
+    {
+      "id": "w1-05",
+      "title": "How Migrating Birds Navigate",
+      "topic": "Ornithology",
+      "passage": "Every year, billions of birds migrate between breeding and wintering grounds, and many of them cover thousands of kilometres with remarkable precision. How they find their way has puzzled naturalists for centuries, and the answer appears to be not one sense but several, used together.\n\nExperiments have shown that birds can navigate using the position of the sun, compensating for its movement across the sky with an internal clock. Species that migrate at night can orient themselves by the stars, learning as young birds to recognise the point in the sky around which the constellations rotate. Landmarks such as coastlines and mountain ranges help on familiar routes, and some seabirds may even use smell to locate their nesting colonies.\n\nThe most intriguing ability is a magnetic sense. Birds appear able to detect the Earth's magnetic field and use it as a compass, and possibly as a kind of map. One leading hypothesis proposes that light-sensitive molecules in the eye react to the magnetic field in a way that alters their chemistry, allowing the bird, in effect, to see magnetic direction. This explanation depends on subtle quantum effects and remains the subject of debate, and it may not be the only mechanism involved.\n\nWhat is clear is that no single cue is reliable in every circumstance. Clouds hide the sun and stars, and landmarks are useless over open ocean. By combining and cross-checking several sources of information, migrating birds achieve a reliability that none could provide alone.",
+      "points": [
+        "Birds navigate by combining several cues, since none is always reliable",
+        "Sun with an internal clock, stars, landmarks and smell",
+        "A magnetic sense, possibly via light-sensitive molecules in the eye, is debated",
+        "Cross-checking cues gives reliability"
+      ],
+      "summary": "Migrating birds navigate by combining several cues, including the sun, the stars, landmarks, smell and a magnetic sense that may rely on light-sensitive molecules in the eye, because no single cue is dependable in all conditions."
+    },
+    {
+      "id": "w1-06",
+      "title": "The Puzzle of Dark Matter",
+      "topic": "Astronomy",
+      "passage": "In the 1970s, astronomers measuring how fast stars orbit the centres of spiral galaxies found something unexpected. According to the laws of gravity, stars far from the centre, where visible matter thins out, should move more slowly than those closer in, just as the outer planets of our solar system orbit more slowly than the inner ones. Instead, the outer stars were moving at roughly the same speed as the inner ones, as if the galaxies contained far more mass than could be seen.\n\nThis unseen mass came to be called dark matter. Further evidence has accumulated from many directions. Clusters of galaxies bend the light of more distant objects behind them far more strongly than their visible matter alone could achieve, and patterns in the faint radiation left over from the early universe are best explained if dark matter exists. Most estimates suggest that it outweighs ordinary matter by a factor of about five.\n\nWhat dark matter actually is, however, remains unknown. It does not emit, absorb or reflect light, and it seems to interact with ordinary matter almost entirely through gravity. Physicists have built sensitive detectors deep underground in the hope of catching a rare collision between a dark matter particle and an atom, but so far none has produced a convincing signal. A minority of researchers argue that the problem lies not with missing matter but with our understanding of gravity itself, although such alternative theories have struggled to account for all the observations.",
+      "points": [
+        "Strong evidence points to invisible dark matter, but its nature is unknown",
+        "Outer stars in galaxies orbit too fast for the visible mass",
+        "Light bending and early-universe radiation support it; about five times ordinary matter",
+        "Detectors have found nothing; some question our theory of gravity instead"
+      ],
+      "summary": "Evidence from galaxy rotation, the bending of light and early cosmic radiation suggests that invisible dark matter greatly outweighs ordinary matter, yet its nature remains unknown, since detectors have found nothing and some scientists instead question our theory of gravity."
+    },
+    {
+      "id": "w1-07",
+      "title": "Convergent Evolution and Predictability",
+      "topic": "Evolutionary biology",
+      "passage": "When unrelated organisms face similar challenges, evolution often arrives at similar solutions. This phenomenon, known as convergent evolution, can be seen throughout the natural world. The wings of birds, bats and extinct flying reptiles evolved independently, each from a different arrangement of bones. Dolphins, which are mammals, and sharks, which are fish, share a streamlined body shape because both must move efficiently through water. The camera-like eye has appeared separately in vertebrates and in octopuses and squid.\n\nConvergence is significant because it suggests that the range of workable designs is limited. Physical laws impose constraints: a fast swimmer cannot afford a shape that creates excessive drag, and an eye that forms a sharp image requires a lens. Some biologists have argued that, given these constraints, certain outcomes of evolution may be close to predictable, and that if the history of life were replayed, many familiar forms would reappear.\n\nOthers are more cautious. They point out that convergent features are often similar only on the surface. The octopus eye, for instance, is wired differently from the human eye and lacks the blind spot that ours possesses. Moreover, many of the most important events in the history of life, such as the origin of complex cells, appear to have happened only once, which suggests that chance played a large role. The debate therefore turns on how far evolution is shaped by necessity and how far by historical accident, a question that remains open.",
+      "points": [
+        "Convergent evolution suggests some outcomes are predictable, but this is debated",
+        "Unrelated species evolve similar features, such as wings and streamlined bodies",
+        "Physical constraints limit workable designs",
+        "Critics: similarities are superficial and key events happened only once"
+      ],
+      "summary": "Convergent evolution, in which unrelated species such as birds and bats independently develop similar features, suggests that physical constraints make some outcomes predictable, although critics note that similarities are often superficial and that chance events have also shaped life's history."
+    },
+    {
+      "id": "w1-08",
+      "title": "Fungal Networks Beneath Forests",
+      "topic": "Ecology",
+      "passage": "Beneath the floor of most forests lies a vast network of fungal threads that connects the roots of neighbouring plants. These fungi, known as mycorrhizal fungi, form partnerships with the great majority of land plants. The fungus extends far into the soil, gathering water and nutrients such as phosphorus that roots struggle to reach, and passes them to the plant. In exchange, the plant supplies the fungus with sugars produced by photosynthesis.\n\nBecause a single fungus can link several trees, researchers have suggested that these networks allow plants to share resources. Some studies have reported carbon moving from large trees to shaded seedlings, and chemical warning signals passing between plants under attack by insects. Such findings have been popularised through the image of a 'wood wide web', in which older trees nurture their young and forests behave almost like cooperative communities.\n\nIn recent years, however, a number of scientists have argued that this picture has run ahead of the evidence. Many of the original experiments were small, and it is often difficult to show that substances actually travelled through fungal threads rather than through the soil. Nor is it clear that any transfer benefits the receiving plant in a meaningful way. The fungi, after all, are organisms with their own interests, and may move resources in ways that serve themselves. There is little doubt that mycorrhizal partnerships are vital to plant health, but claims that forests function as caring, communicating networks should be treated with caution.",
+      "points": [
+        "Fungal partnerships are vital, but the idea of cooperative forests is overstated",
+        "Fungi trade water and nutrients for plant sugars",
+        "Studies suggested trees share carbon and warning signals",
+        "Evidence is limited and fungi may serve their own interests"
+      ],
+      "summary": "Mycorrhizal fungi supply plants with water and nutrients in return for sugars and may link trees in shared networks, but the popular idea of forests as cooperative communities rests on limited evidence and should be treated cautiously."
+    },
+    {
+      "id": "w1-09",
+      "title": "Volcanic Eruptions and Global Cooling",
+      "topic": "Earth science",
+      "passage": "Large volcanic eruptions can influence the climate of the entire planet, but not primarily through the ash that makes them so dramatic. Ash is heavy and falls out of the atmosphere within days or weeks. The more important product is sulphur dioxide gas. When an eruption is powerful enough to inject this gas into the stratosphere, the layer of the atmosphere above the weather, it reacts to form tiny droplets of sulphuric acid. These droplets reflect a portion of incoming sunlight back into space, and because there is no rain at that altitude to wash them out, they can remain for a year or more.\n\nThe result is a measurable cooling at the surface. The eruption of Mount Pinatubo in the Philippines in 1991 lowered average global temperatures by around half a degree Celsius for about two years. Historical eruptions were sometimes far more disruptive. The eruption of Tambora in Indonesia in 1815 was followed by the so-called year without a summer in parts of Europe and North America, when crops failed and food prices soared.\n\nSuch effects are nevertheless temporary. Once the droplets settle out, temperatures return to their previous trend, which is why volcanoes cannot explain long-term changes in climate. Their short-term influence has, however, prompted some scientists to consider deliberately releasing similar particles to counter global warming. Critics warn that this would treat a symptom rather than the cause, could disrupt rainfall patterns, and would need to continue indefinitely once started.",
+      "points": [
+        "Large eruptions cool the planet temporarily through sulphur droplets, not ash",
+        "Droplets in the stratosphere reflect sunlight for a year or more",
+        "Pinatubo and Tambora caused measurable cooling and crop failures",
+        "Copying this to fight warming is proposed but risky"
+      ],
+      "summary": "Large eruptions cool the planet temporarily because sulphur dioxide forms reflective droplets in the stratosphere, as Pinatubo and Tambora showed, and although this has inspired proposals to counter global warming artificially, critics warn of serious risks."
+    },
+    {
+      "id": "w1-10",
+      "title": "What Causes the Tides",
+      "topic": "Physics",
+      "passage": "The regular rise and fall of the sea along the world's coasts is caused mainly by the gravitational pull of the Moon. Because gravity weakens with distance, the Moon pulls more strongly on the side of the Earth facing it than on the Earth's centre, and more strongly on the centre than on the far side. This difference stretches the oceans into two bulges, one facing the Moon and one on the opposite side. As the Earth rotates beneath these bulges, most coastlines experience two high tides and two low tides roughly every day.\n\nThe Sun also exerts a tidal influence, though it is less than half as strong as the Moon's because the Sun is so much farther away. When the Sun and Moon are aligned, at new and full moon, their effects combine to produce especially large spring tides. When they pull at right angles, the result is smaller neap tides.\n\nIn practice, tides are far more complicated than this simple model suggests. Continents block the free movement of the bulges, and the shape of coastlines and the depth of the sea floor can amplify or dampen the tidal range dramatically. Some places experience only one high tide a day, while funnel-shaped bays can produce ranges of more than ten metres. Tides also have a slow, long-term effect: friction between the moving water and the sea floor is gradually slowing the Earth's rotation, and the Moon is slowly moving away as a result.",
+      "points": [
+        "Tides come mainly from the Moon's gravity, but real tides are complex",
+        "Uneven pull creates two ocean bulges and two tides a day",
+        "The Sun produces spring and neap tides",
+        "Coastlines vary tides greatly; friction slows the Earth's rotation"
+      ],
+      "summary": "Tides arise mainly because the Moon's gravity stretches the oceans into two bulges, with the Sun strengthening or weakening the effect, but coastlines and sea depth make real tides far more varied, and tidal friction is slowly lengthening the day."
+    }
+  ]
+}

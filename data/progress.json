@@ -813,6 +813,39 @@
         "known": 0,
         "total": 207
       }
+    },
+    {
+      "date": "2026-09-22",
+      "words": {
+        "known": 206,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "words": {
+        "known": 206,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "words": {
+        "known": 206,
+        "total": 284
+      },
+      "phrases": {
+        "known": 0,
+        "total": 207
+      }
     }
   ],
   "drills": [],
@@ -1057,13 +1090,14 @@
       "old": {
         "word": "old",
         "heard": [
+          "all",
           "text"
         ],
-        "misses": 1,
+        "misses": 2,
         "tries": 2,
         "clear": 2,
         "first": "2026-09-21T07:45:14.561Z",
-        "last": "2026-09-21T07:45:14.561Z"
+        "last": "2026-09-25T17:47:35.938Z"
       },
       "textbooks": {
         "word": "textbooks",
@@ -1093,17 +1127,17 @@
       "irrepressible": {
         "word": "irrepressible",
         "heard": [
+          "repressable",
           "every principle",
           "very flexible",
           "are",
-          "a replaceable",
-          "add a pressable"
+          "a replaceable"
         ],
-        "misses": 1,
+        "misses": 2,
         "tries": 6,
         "clear": 0,
         "first": "2026-09-21T07:45:14.561Z",
-        "last": "2026-09-21T07:45:14.561Z"
+        "last": "2026-09-25T23:50:48.561Z"
       },
       "novel's": {
         "word": "novel's",
@@ -1167,19 +1201,21 @@
           "very"
         ],
         "misses": 2,
-        "tries": 2,
-        "clear": 2,
+        "tries": 3,
+        "clear": 3,
         "first": "2026-09-21T07:56:33.448Z",
         "last": "2026-09-21T08:17:05.315Z"
       },
       "first-year": {
         "word": "first-year",
         "heard": [
+          "first year",
+          "it was the first year ever",
           "tier",
           "clear"
         ],
         "misses": 2,
-        "tries": 0,
+        "tries": 2,
         "clear": 0,
         "first": "2026-09-21T07:56:33.448Z",
         "last": "2026-09-21T08:17:05.315Z"
@@ -1198,14 +1234,15 @@
       "ingrained": {
         "word": "ingrained",
         "heard": [
+          "that was engraved in our psyche",
           "ingraint",
           "engraint",
           "in green",
           "engraved"
         ],
         "misses": 3,
-        "tries": 3,
-        "clear": 0,
+        "tries": 5,
+        "clear": 1,
         "first": "2026-09-21T07:56:33.448Z",
         "last": "2026-09-21T08:18:07.884Z"
       },
@@ -1245,27 +1282,14 @@
       "pianist's": {
         "word": "pianist's",
         "heard": [
+          "it's the pms job",
+          "it's the pmist's job",
           "pianist",
           "be honest"
         ],
         "misses": 1,
-        "tries": 4,
-        "clear": 0,
-        "first": "2026-09-21T08:18:07.884Z",
-        "last": "2026-09-21T08:18:07.884Z"
-      },
-      "city's": {
-        "word": "city's",
-        "heard": [
-          "cities",
-          "fit eve",
-          "it is",
-          "sit is",
-          "sip is"
-        ],
-        "misses": 1,
-        "tries": 9,
-        "clear": 0,
+        "tries": 7,
+        "clear": 1,
         "first": "2026-09-21T08:18:07.884Z",
         "last": "2026-09-21T08:18:07.884Z"
       },
@@ -1273,24 +1297,31 @@
         "word": "neighbourhoods",
         "heard": [
           "neighborhoods",
-          "neighborhood"
+          "never holds",
+          "neighbor codes",
+          "near borhoods",
+          "naval hoods"
         ],
-        "misses": 1,
-        "tries": 2,
+        "misses": 2,
+        "tries": 11,
         "clear": 0,
         "first": "2026-09-21T08:18:07.884Z",
-        "last": "2026-09-21T08:18:07.884Z"
+        "last": "2026-09-21T15:08:56.196Z"
       },
       "large-scale": {
         "word": "large-scale",
         "heard": [
-          "scale"
+          "largest kill",
+          "largest kid",
+          "large skin",
+          "large scale",
+          "large scary"
         ],
-        "misses": 1,
-        "tries": 0,
-        "clear": 0,
+        "misses": 2,
+        "tries": 11,
+        "clear": 1,
         "first": "2026-09-21T08:18:07.884Z",
-        "last": "2026-09-21T08:18:07.884Z"
+        "last": "2026-09-21T15:08:56.196Z"
       },
       "principles": {
         "word": "principles",
@@ -1298,18 +1329,21 @@
           "principle"
         ],
         "misses": 1,
-        "tries": 0,
-        "clear": 0,
+        "tries": 1,
+        "clear": 1,
         "first": "2026-09-21T08:18:07.884Z",
         "last": "2026-09-21T08:18:07.884Z"
       },
       "short-term": {
         "word": "short-term",
         "heard": [
+          "that was short term cut",
+          "that was a short term cut",
+          "it was a short term cut",
           "term"
         ],
         "misses": 1,
-        "tries": 0,
+        "tries": 5,
         "clear": 0,
         "first": "2026-09-21T08:18:07.884Z",
         "last": "2026-09-21T08:18:07.884Z"
@@ -1320,18 +1354,22 @@
           "bitter"
         ],
         "misses": 1,
-        "tries": 0,
-        "clear": 0,
+        "tries": 1,
+        "clear": 1,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:26:54.979Z"
       },
       "northern": {
         "word": "northern",
         "heard": [
-          "nursing"
+          "we went to the north urban hell",
+          "than or than hell",
+          "the more they're headed",
+          "the north sudan had",
+          "we went north of the hill"
         ],
         "misses": 2,
-        "tries": 0,
+        "tries": 18,
         "clear": 0,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:28:41.740Z"
@@ -1339,22 +1377,30 @@
       "further": {
         "word": "further",
         "heard": [
-          "the"
+          "first",
+          "furzy",
+          "sure sir",
+          "first i",
+          "forza"
         ],
-        "misses": 2,
-        "tries": 0,
-        "clear": 0,
+        "misses": 3,
+        "tries": 14,
+        "clear": 7,
         "first": "2026-09-21T08:26:54.979Z",
-        "last": "2026-09-21T08:28:41.740Z"
+        "last": "2026-09-26T08:05:07.318Z"
       },
       "south": {
         "word": "south",
         "heard": [
-          "cells"
+          "so",
+          "fouse",
+          "self",
+          "souse",
+          "sows"
         ],
         "misses": 2,
-        "tries": 0,
-        "clear": 0,
+        "tries": 18,
+        "clear": 3,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:28:41.740Z"
       },
@@ -1364,8 +1410,8 @@
           "measured"
         ],
         "misses": 2,
-        "tries": 0,
-        "clear": 0,
+        "tries": 2,
+        "clear": 2,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:28:41.740Z"
       },
@@ -1375,19 +1421,23 @@
           "while"
         ],
         "misses": 1,
-        "tries": 0,
-        "clear": 0,
+        "tries": 1,
+        "clear": 1,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:26:54.979Z"
       },
       "essay": {
         "word": "essay",
         "heard": [
-          "safe"
+          "how to write and say",
+          "it's about how you write and say",
+          "it was about how you write and say",
+          "we were writing in the same",
+          "we were writing on a day"
         ],
         "misses": 2,
-        "tries": 0,
-        "clear": 0,
+        "tries": 10,
+        "clear": 3,
         "first": "2026-09-21T08:26:54.979Z",
         "last": "2026-09-21T08:28:41.740Z"
       },
@@ -1397,27 +1447,1488 @@
           "led"
         ],
         "misses": 1,
-        "tries": 0,
-        "clear": 0,
+        "tries": 1,
+        "clear": 1,
         "first": "2026-09-21T08:28:41.740Z",
         "last": "2026-09-21T08:28:41.740Z"
       },
       "maxim": {
         "word": "maxim",
         "heard": [
+          "we are here in old maxime",
+          "her and all maxi",
           "maximum"
+        ],
+        "misses": 1,
+        "tries": 3,
+        "clear": 1,
+        "first": "2026-09-21T08:28:41.740Z",
+        "last": "2026-09-21T08:28:41.740Z"
+      },
+      "overemphasizes": {
+        "word": "overemphasizes",
+        "heard": [
+          "over emphasizes",
+          "over emphasize this",
+          "overemphasises",
+          "overenphasises",
+          "over emphasizes long again"
+        ],
+        "misses": 1,
+        "tries": 28,
+        "clear": 4,
+        "first": "2026-09-21T15:08:56.196Z",
+        "last": "2026-09-21T15:08:56.196Z"
+      },
+      "cracked": {
+        "word": "cracked",
+        "heard": [
+          "correct"
         ],
         "misses": 1,
         "tries": 0,
         "clear": 0,
-        "first": "2026-09-21T08:28:41.740Z",
-        "last": "2026-09-21T08:28:41.740Z"
+        "first": "2026-09-21T15:30:20.902Z",
+        "last": "2026-09-21T15:30:20.902Z"
+      },
+      "output": {
+        "word": "output",
+        "heard": [
+          "portrays"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T15:30:20.902Z",
+        "last": "2026-09-21T15:30:20.902Z"
+      },
+      "rises": {
+        "word": "rises",
+        "heard": [
+          "rise us",
+          "arrizes",
+          "rise",
+          "alright this is",
+          "this"
+        ],
+        "misses": 1,
+        "tries": 5,
+        "clear": 0,
+        "first": "2026-09-21T15:30:20.902Z",
+        "last": "2026-09-21T15:30:20.902Z"
+      },
+      "disparate": {
+        "word": "disparate",
+        "heard": [
+          "desperate"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:37:43.881Z",
+        "last": "2026-09-21T17:37:43.881Z"
+      },
+      "worse": {
+        "word": "worse",
+        "heard": [
+          "war",
+          "wars"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:37:43.881Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "shared": {
+        "word": "shared",
+        "heard": [
+          "battleshirt"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "goal": {
+        "word": "goal",
+        "heard": [
+          "gold"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "rival": {
+        "word": "rival",
+        "heard": [
+          "arrival"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "ministers": {
+        "word": "ministers",
+        "heard": [
+          "minister"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "luck": {
+        "word": "luck",
+        "heard": [
+          "sluck"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "the": {
+        "word": "the",
+        "heard": [
+          "a",
+          "that"
+        ],
+        "misses": 3,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-25T23:46:40.128Z"
+      },
+      "surgeons": {
+        "word": "surgeons",
+        "heard": [
+          "surgeon"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:39:26.115Z",
+        "last": "2026-09-21T17:39:26.115Z"
+      },
+      "thief": {
+        "word": "thief",
+        "heard": [
+          "sieve"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:40:06.403Z",
+        "last": "2026-09-21T17:40:06.403Z"
+      },
+      "facie": {
+        "word": "facie",
+        "heard": [
+          "facia"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:40:06.403Z",
+        "last": "2026-09-25T17:45:35.534Z"
+      },
+      "allowed": {
+        "word": "allowed",
+        "heard": [
+          "allows"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:40:06.403Z",
+        "last": "2026-09-21T17:40:06.403Z"
+      },
+      "critics": {
+        "word": "critics",
+        "heard": [
+          "creatics"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:42:21.897Z",
+        "last": "2026-09-21T17:42:21.897Z"
+      },
+      "hidden": {
+        "word": "hidden",
+        "heard": [
+          "heading"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:42:21.897Z",
+        "last": "2026-09-21T17:43:55.440Z"
+      },
+      "earring": {
+        "word": "earring",
+        "heard": [
+          "airing",
+          "errands"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:42:21.897Z",
+        "last": "2026-09-21T17:43:55.440Z"
+      },
+      "weight": {
+        "word": "weight",
+        "heard": [
+          "it"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:42:21.897Z",
+        "last": "2026-09-21T17:42:21.897Z"
+      },
+      "documented": {
+        "word": "documented",
+        "heard": [
+          "undocumented"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:43:55.440Z",
+        "last": "2026-09-21T17:43:55.440Z"
+      },
+      "season": {
+        "word": "season",
+        "heard": [
+          "session"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:45:32.628Z",
+        "last": "2026-09-21T17:45:32.628Z"
+      },
+      "purportedly": {
+        "word": "purportedly",
+        "heard": [
+          "proportedly"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:46:25.374Z",
+        "last": "2026-09-21T17:46:25.374Z"
+      },
+      "significant": {
+        "word": "significant",
+        "heard": [
+          "significantly"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:47:25.937Z",
+        "last": "2026-09-21T17:47:25.937Z"
+      },
+      "exam": {
+        "word": "exam",
+        "heard": [
+          "examine"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:47:25.937Z",
+        "last": "2026-09-21T17:47:25.937Z"
+      },
+      "three": {
+        "word": "three",
+        "heard": [
+          "3"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:48:58.579Z",
+        "last": "2026-09-21T17:48:58.579Z"
+      },
+      "depending": {
+        "word": "depending",
+        "heard": [
+          "bending"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:48:58.579Z",
+        "last": "2026-09-21T17:48:58.579Z"
+      },
+      "diagnosed": {
+        "word": "diagnosed",
+        "heard": [
+          "diagnosis"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:48:58.579Z",
+        "last": "2026-09-21T17:48:58.579Z"
+      },
+      "invective": {
+        "word": "invective",
+        "heard": [
+          "effective"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:48:58.579Z",
+        "last": "2026-09-21T17:48:58.579Z"
+      },
+      "company's": {
+        "word": "company's",
+        "heard": [
+          "companies"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:48:58.579Z",
+        "last": "2026-09-21T17:48:58.579Z"
+      },
+      "praised": {
+        "word": "praised",
+        "heard": [
+          "praise"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:49:43.721Z",
+        "last": "2026-09-21T17:49:43.721Z"
+      },
+      "tell": {
+        "word": "tell",
+        "heard": [
+          "tilt"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:49:43.721Z",
+        "last": "2026-09-21T17:49:43.721Z"
+      },
+      "within": {
+        "word": "within",
+        "heard": [
+          "wooden"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:49:43.721Z",
+        "last": "2026-09-21T17:49:43.721Z"
+      },
+      "seconds": {
+        "word": "seconds",
+        "heard": [
+          "second"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:49:43.721Z",
+        "last": "2026-09-21T17:49:43.721Z"
+      },
+      "fair": {
+        "word": "fair",
+        "heard": [
+          "third"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:51:13.952Z",
+        "last": "2026-09-21T17:51:13.952Z"
+      },
+      "bebop": {
+        "word": "bebop",
+        "heard": [
+          "beepop"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:52:46.233Z",
+        "last": "2026-09-21T17:52:46.233Z"
+      },
+      "rewritten": {
+        "word": "rewritten",
+        "heard": [
+          "written"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T17:52:46.233Z",
+        "last": "2026-09-21T17:52:46.233Z"
+      },
+      "reputedly": {
+        "word": "reputedly",
+        "heard": [
+          "reportedly"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T18:35:21.316Z",
+        "last": "2026-09-21T18:35:21.316Z"
+      },
+      "castle's": {
+        "word": "castle's",
+        "heard": [
+          "castle"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T18:35:21.316Z",
+        "last": "2026-09-21T18:35:21.316Z"
+      },
+      "spending": {
+        "word": "spending",
+        "heard": [
+          "pending"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T18:35:21.316Z",
+        "last": "2026-09-21T18:35:21.316Z"
+      },
+      "rally": {
+        "word": "rally",
+        "heard": [
+          "raleigh"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T18:35:21.316Z",
+        "last": "2026-09-21T18:35:21.316Z"
+      },
+      "audience": {
+        "word": "audience",
+        "heard": [
+          "ojans"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-21T18:35:21.316Z",
+        "last": "2026-09-21T18:35:21.316Z"
+      },
+      "noting": {
+        "word": "noting",
+        "heard": [
+          "nothing"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:44:06.182Z",
+        "last": "2026-09-25T17:44:06.182Z"
+      },
+      "domestic": {
+        "word": "domestic",
+        "heard": [
+          "original"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:44:06.182Z",
+        "last": "2026-09-25T17:44:06.182Z"
+      },
+      "read": {
+        "word": "read",
+        "heard": [
+          "raised"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:44:06.182Z",
+        "last": "2026-09-25T17:44:06.182Z"
+      },
+      "stricter": {
+        "word": "stricter",
+        "heard": [
+          "tier"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:45:35.534Z",
+        "last": "2026-09-25T17:45:35.534Z"
+      },
+      "offered": {
+        "word": "offered",
+        "heard": [
+          "offer"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:45:35.534Z",
+        "last": "2026-09-25T17:45:35.534Z"
+      },
+      "region's": {
+        "word": "region's",
+        "heard": [
+          "region"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:47:35.938Z",
+        "last": "2026-09-25T17:47:35.938Z"
+      },
+      "prioritized": {
+        "word": "prioritized",
+        "heard": [
+          "tries"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:47:35.938Z",
+        "last": "2026-09-25T17:47:35.938Z"
+      },
+      "quick": {
+        "word": "quick",
+        "heard": [
+          "with"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:47:35.938Z",
+        "last": "2026-09-25T17:47:35.938Z"
+      },
+      "languages": {
+        "word": "languages",
+        "heard": [
+          "language"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "share": {
+        "word": "share",
+        "heard": [
+          "shares"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "grammars": {
+        "word": "grammars",
+        "heard": [
+          "grammar"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "proposals": {
+        "word": "proposals",
+        "heard": [
+          "a"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "appear": {
+        "word": "appear",
+        "heard": [
+          "peer"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "coating": {
+        "word": "coating",
+        "heard": [
+          "coding"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "unfamiliar": {
+        "word": "unfamiliar",
+        "heard": [
+          "familiar"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:50:20.893Z",
+        "last": "2026-09-25T17:50:20.893Z"
+      },
+      "institutions": {
+        "word": "institutions",
+        "heard": [
+          "institution"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:51:16.428Z",
+        "last": "2026-09-25T17:51:16.428Z"
+      },
+      "results": {
+        "word": "results",
+        "heard": [
+          "result"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:52:03.256Z",
+        "last": "2026-09-25T17:52:03.256Z"
+      },
+      "matched": {
+        "word": "matched",
+        "heard": [
+          "matches"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:52:03.256Z",
+        "last": "2026-09-25T17:52:03.256Z"
+      },
+      "jamb": {
+        "word": "jamb",
+        "heard": [
+          "jam"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:53:18.580Z",
+        "last": "2026-09-25T17:53:18.580Z"
+      },
+      "flood": {
+        "word": "flood",
+        "heard": [
+          "food"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:53:18.580Z",
+        "last": "2026-09-25T17:53:18.580Z"
+      },
+      "its": {
+        "word": "its",
+        "heard": [
+          "is"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:53:18.580Z",
+        "last": "2026-09-25T17:53:18.580Z"
+      },
+      "meticulous": {
+        "word": "meticulous",
+        "heard": [
+          "mythical"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:54:41.846Z",
+        "last": "2026-09-25T17:54:41.846Z"
+      },
+      "wedding": {
+        "word": "wedding",
+        "heard": [
+          "within"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:54:41.846Z",
+        "last": "2026-09-25T17:54:41.846Z"
+      },
+      "ran": {
+        "word": "ran",
+        "heard": [
+          "iran"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:54:41.846Z",
+        "last": "2026-09-25T17:54:41.846Z"
+      },
+      "checking": {
+        "word": "checking",
+        "heard": [
+          "shaking"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:54:41.846Z",
+        "last": "2026-09-25T17:54:41.846Z"
+      },
+      "eases": {
+        "word": "eases",
+        "heard": [
+          "raises"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T17:54:41.846Z",
+        "last": "2026-09-25T17:54:41.846Z"
+      },
+      "will": {
+        "word": "will",
+        "heard": [
+          "were"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:34:38.582Z",
+        "last": "2026-09-25T23:34:38.582Z"
+      },
+      "raise": {
+        "word": "raise",
+        "heard": [
+          "raised"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:34:38.582Z",
+        "last": "2026-09-25T23:34:38.582Z"
+      },
+      "him": {
+        "word": "him",
+        "heard": [
+          "hemp"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:36:04.859Z",
+        "last": "2026-09-25T23:36:04.859Z"
+      },
+      "harbinger": {
+        "word": "harbinger",
+        "heard": [
+          "danger",
+          "banger"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:36:04.859Z",
+        "last": "2026-09-25T23:42:26.540Z"
+      },
+      "cell": {
+        "word": "cell",
+        "heard": [
+          "self"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:36:04.859Z",
+        "last": "2026-09-25T23:36:04.859Z"
+      },
+      "interpreted": {
+        "word": "interpreted",
+        "heard": [
+          "interpret"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:37:17.089Z",
+        "last": "2026-09-25T23:37:17.089Z"
+      },
+      "statute": {
+        "word": "statute",
+        "heard": [
+          "statue"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:37:17.089Z",
+        "last": "2026-09-25T23:37:17.089Z"
+      },
+      "solemn": {
+        "word": "solemn",
+        "heard": [
+          "solomon"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:37:17.089Z",
+        "last": "2026-09-25T23:37:17.089Z"
+      },
+      "chose": {
+        "word": "chose",
+        "heard": [
+          "shoots"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:42:26.540Z",
+        "last": "2026-09-25T23:42:26.540Z"
+      },
+      "emergency": {
+        "word": "emergency",
+        "heard": [
+          "majority"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:42:26.540Z",
+        "last": "2026-09-25T23:42:26.540Z"
+      },
+      "clause": {
+        "word": "clause",
+        "heard": [
+          "close"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:42:26.540Z",
+        "last": "2026-09-25T23:42:26.540Z"
+      },
+      "founded": {
+        "word": "founded",
+        "heard": [
+          "funded"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:42:26.540Z",
+        "last": "2026-09-25T23:42:26.540Z"
+      },
+      "gymnast": {
+        "word": "gymnast",
+        "heard": [
+          "jiminist"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:43:16.764Z",
+        "last": "2026-09-25T23:43:16.764Z"
+      },
+      "sequins": {
+        "word": "sequins",
+        "heard": [
+          "sequence"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:43:16.764Z",
+        "last": "2026-09-25T23:43:16.764Z"
+      },
+      "ticket": {
+        "word": "ticket",
+        "heard": [
+          "say"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:43:16.764Z",
+        "last": "2026-09-25T23:43:16.764Z"
+      },
+      "sales": {
+        "word": "sales",
+        "heard": [
+          "is"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:43:16.764Z",
+        "last": "2026-09-25T23:43:16.764Z"
+      },
+      "fell": {
+        "word": "fell",
+        "heard": [
+          "filled"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:43:16.764Z",
+        "last": "2026-09-25T23:43:16.764Z"
+      },
+      "confirmation": {
+        "word": "confirmation",
+        "heard": [
+          "confirmations"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:44:20.376Z",
+        "last": "2026-09-25T23:44:20.376Z"
+      },
+      "coins": {
+        "word": "coins",
+        "heard": [
+          "cohen's"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:44:20.376Z",
+        "last": "2026-09-25T23:44:20.376Z"
+      },
+      "percent": {
+        "word": "percent",
+        "heard": [
+          "40"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:45:15.266Z",
+        "last": "2026-09-25T23:45:15.266Z"
+      },
+      "field": {
+        "word": "field",
+        "heard": [
+          "fields"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:45:15.266Z",
+        "last": "2026-09-25T23:45:15.266Z"
+      },
+      "eight": {
+        "word": "eight",
+        "heard": [
+          "8"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:45:15.266Z",
+        "last": "2026-09-25T23:45:15.266Z"
+      },
+      "jaunty": {
+        "word": "jaunty",
+        "heard": [
+          "giant"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:45:15.266Z",
+        "last": "2026-09-25T23:45:15.266Z"
+      },
+      "building": {
+        "word": "building",
+        "heard": [
+          "buildings"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:46:40.128Z",
+        "last": "2026-09-25T23:46:40.128Z"
+      },
+      "was": {
+        "word": "was",
+        "heard": [
+          "goes"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "bankrupt": {
+        "word": "bankrupt",
+        "heard": [
+          "bankrupts"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "filed": {
+        "word": "filed",
+        "heard": [
+          "fled"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "family's": {
+        "word": "family's",
+        "heard": [
+          "family"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "weeks": {
+        "word": "weeks",
+        "heard": [
+          "week"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "applies": {
+        "word": "applies",
+        "heard": [
+          "applied"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:47:44.868Z",
+        "last": "2026-09-25T23:47:44.868Z"
+      },
+      "diversified": {
+        "word": "diversified",
+        "heard": [
+          "diversitized"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:49:00.611Z",
+        "last": "2026-09-25T23:49:00.611Z"
+      },
+      "weathered": {
+        "word": "weathered",
+        "heard": [
+          "wizard"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:49:00.611Z",
+        "last": "2026-09-25T23:49:00.611Z"
+      },
+      "recession": {
+        "word": "recession",
+        "heard": [
+          "decision"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:49:00.611Z",
+        "last": "2026-09-25T23:49:00.611Z"
+      },
+      "off": {
+        "word": "off",
+        "heard": [
+          "of"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:49:00.611Z",
+        "last": "2026-09-25T23:49:00.611Z"
+      },
+      "omission": {
+        "word": "omission",
+        "heard": [
+          "mission"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:49:00.611Z",
+        "last": "2026-09-25T23:49:00.611Z"
+      },
+      "her": {
+        "word": "her",
+        "heard": [
+          "hair"
+        ],
+        "misses": 2,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-25T23:50:48.561Z",
+        "last": "2026-09-26T08:01:43.273Z"
+      },
+      "spurred": {
+        "word": "spurred",
+        "heard": [
+          "sparked"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:01:43.273Z",
+        "last": "2026-09-26T08:01:43.273Z"
+      },
+      "drought": {
+        "word": "drought",
+        "heard": [
+          "trout"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:01:43.273Z",
+        "last": "2026-09-26T08:01:43.273Z"
+      },
+      "reservoirs": {
+        "word": "reservoirs",
+        "heard": [
+          "was"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:01:43.273Z",
+        "last": "2026-09-26T08:01:43.273Z"
+      },
+      "drug's": {
+        "word": "drug's",
+        "heard": [
+          "drug"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:01:43.273Z",
+        "last": "2026-09-26T08:01:43.273Z"
+      },
+      "robot's": {
+        "word": "robot's",
+        "heard": [
+          "robot"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "motions": {
+        "word": "motions",
+        "heard": [
+          "motion"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "revealed": {
+        "word": "revealed",
+        "heard": [
+          "reveals"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "consumers": {
+        "word": "consumers",
+        "heard": [
+          "consumer"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "would": {
+        "word": "would",
+        "heard": [
+          "roadrise"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "rise": {
+        "word": "rise",
+        "heard": [
+          "and"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "unchecked": {
+        "word": "unchecked",
+        "heard": [
+          "ship"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "authors": {
+        "word": "authors",
+        "heard": [
+          "studies"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "recommend": {
+        "word": "recommend",
+        "heard": [
+          "recommended"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:05:07.318Z",
+        "last": "2026-09-26T08:05:07.318Z"
+      },
+      "records": {
+        "word": "records",
+        "heard": [
+          "record"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:06:48.415Z",
+        "last": "2026-09-26T08:06:48.415Z"
+      },
+      "economy": {
+        "word": "economy",
+        "heard": [
+          "ceremony"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
+      },
+      "looked": {
+        "word": "looked",
+        "heard": [
+          "locked"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
+      },
+      "salesman's": {
+        "word": "salesman's",
+        "heard": [
+          "salesmen's"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
+      },
+      "inveigle": {
+        "word": "inveigle",
+        "heard": [
+          "invegle"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
+      },
+      "signing": {
+        "word": "signing",
+        "heard": [
+          "thinking"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
+      },
+      "messiness": {
+        "word": "messiness",
+        "heard": [
+          "misiness"
+        ],
+        "misses": 1,
+        "tries": 0,
+        "clear": 0,
+        "first": "2026-09-26T08:08:22.473Z",
+        "last": "2026-09-26T08:08:22.473Z"
       }
     },
     "deleted": {
       "'on'": true,
       "'at'": true,
-      "'in'": true
+      "'in'": true,
+      "city's": true
+    }
+  },
+  "reading": {
+    "fib-r-1": {
+      "answers": {
+        "r1-01": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        },
+        "r1-02": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        },
+        "r1-03": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "r1-04": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "r1-05": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        },
+        "r1-06": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        },
+        "r1-07": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "r1-08": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "r1-09": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        },
+        "r1-10": {
+          "right": 1,
+          "wrong": 0,
+          "last": "right"
+        }
+      },
+      "lastAt": "2026-09-22T01:26:43.074Z"
+    },
+    "fib-r-2": {
+      "answers": {
+        "r2-01": {
+          "right": 2,
+          "wrong": 1,
+          "last": "right"
+        },
+        "r2-02": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        }
+      },
+      "lastAt": "2026-09-22T01:36:37.115Z"
+    },
+    "mcq-multi-1": {
+      "answers": {
+        "mm1-01": {
+          "right": 0,
+          "wrong": 1,
+          "last": "wrong"
+        }
+      },
+      "lastAt": "2026-09-22T01:50:38.170Z"
     }
   }
 }

@@ -26,12 +26,12 @@
  * every row, because a visitor arriving for the first time has not learnt
  * anything yet.
  *
- * WHAT STILL NEEDS A SERVER. Grammar answers. /api/grammar ships stripped of
- * `answer`, `accept` and `explain` - the marking is a round trip to the Worker
- * so the page cannot be read for the answers. That rule is the whole reason a
- * Worker exists in this build at all.
+ * WHAT STILL NEEDS A SERVER. Nothing, since 26 Sep 2026. It used to be the
+ * grammar answers, marked by the Worker so the page could not be read for
+ * them; the grammar tab is a map of articles now, with no questions, and the
+ * Worker is left answering only a 404 for any /api/ route it does not have.
  */
-import { SHEETS, EMPTY_PROGRESS, today, stats, keyOf, grammarState, recordAnswer, grammarProgress } from './shared.js';
+import { SHEETS, EMPTY_PROGRESS, today, stats, keyOf } from './shared.js';
 import {
   BATCH_SIZE, syncBatches, createBatch, deleteBatch, resetBatch, noteError, batchPayload,
 } from './batches.js';
@@ -290,20 +290,12 @@ const POST = {
     save();
     return { ok: true, scope: what, known, seen, flags, ...payload() };
   },
-
-  '/api/grammar/reset'({ module: moduleId }) {
-    const m = grammarState(progress, moduleId);
-    m.answers = {};
-    m.lastAt = null;
-    save();
-    return { ok: true, progress: grammarProgress(progress) };
-  },
 };
 
 /* -------------------------------------------------------------------- api */
 
 /* The static content the local server reads off disk. Fetched once and held:
-   /api/usage and /api/grammar are asked for at boot, and the essays are asked
+   /api/usage is asked for at boot, and the essays are asked
    for every time that tab is opened. */
 const cache = new Map();
 function statics(path) {
@@ -320,21 +312,6 @@ async function api(path, body) {
     const handler = POST[path];
     if (handler) return handler(body);
 
-    if (path === '/api/grammar/answer') {
-      // The one round trip left. The verdict is the Worker's because the
-      // answers are the Worker's; the tally is kept here, because it is study
-      // state and study state does not leave this browser.
-      const r = await fetch(path, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(body),
-      });
-      const out = await r.json();
-      if (!r.ok) throw new Error(out.error || r.statusText);
-      const tally = recordAnswer(progress, body.module, body.q, out.correct);
-      save();
-      return { ...out, tally };
-    }
     throw new Error(`no local handler for ${path}`);
   }
 
@@ -368,10 +345,11 @@ async function api(path, body) {
     const id = decodeURIComponent(path.slice('/api/essays/models/'.length));
     return statics(`/static/models/${encodeURIComponent(id)}.json`);
   }
-  if (path === '/api/grammar') {
-    const g = await statics('/static/grammar.json');
-    // The content is shipped; the answers to it are this browser's.
-    return { ...g, progress: grammarProgress(progress) };
+  if (path === '/api/grammarmap') {
+    const g = await statics('/static/grammarmap.json');
+    // The articles, and no log: the failures are filed from reviews of saved
+    // answers, and saved answers exist only on the local build.
+    return { ...g, faults: {}, recent: [], log: false };
   }
   throw new Error(`no local handler for ${path}`);
 }

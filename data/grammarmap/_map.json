@@ -1,0 +1,36 @@
+{
+  "links": [
+    [
+      "agree.number-noun",
+      "det.plural"
+    ],
+    [
+      "punct.apostrophe",
+      "det.possessive"
+    ],
+    [
+      "cohesion.linkers",
+      "clause.boundaries"
+    ],
+    [
+      "clause.relative-non",
+      "punct.comma"
+    ],
+    [
+      "agree.pronoun-number",
+      "cohesion.reference"
+    ],
+    [
+      "tense.irregular",
+      "vpat.bare"
+    ],
+    [
+      "voice.impersonal",
+      "modal.hedging"
+    ],
+    [
+      "words.prep",
+      "vpat.dep-prep"
+    ]
+  ]
+}

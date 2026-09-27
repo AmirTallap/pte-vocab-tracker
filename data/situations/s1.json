@@ -1,0 +1,136 @@
+{
+  "id": "s1",
+  "title": "University life",
+  "items": [
+    {
+      "id": "s1-01",
+      "title": "Missed the group meeting",
+      "register": "informal",
+      "function": "apologise",
+      "situation": "You are working on a group assignment with three classmates. Yesterday the group met in the library to divide up the research, but you forgot about the meeting completely because you had an extra shift at your part-time job. The others waited for you for half an hour and had to assign your section without you. Your classmate Sam has just sent you a message asking what happened. You meet Sam in the corridor. What would you say to Sam?",
+      "points": [
+        "Apologise clearly without making excuses sound like blame",
+        "Explain briefly why you missed the meeting",
+        "Accept the section they gave you, or offer to take on extra work",
+        "Suggest a way to make sure it does not happen again"
+      ]
+    },
+    {
+      "id": "s1-02",
+      "title": "Asking for an essay extension",
+      "register": "formal",
+      "function": "request",
+      "situation": "Your history essay is due on Friday, but you have been ill with a bad chest infection for most of this week and have a note from your doctor. You have finished your research but have written only about half of the essay. Your lecturer, Dr Evans, has office hours this afternoon and you have gone to see her to ask for more time. What would you say to Dr Evans?",
+      "points": [
+        "Greet the lecturer politely and state the purpose early",
+        "Explain the illness and mention the doctor's note",
+        "Show the progress already made",
+        "Ask for a specific new deadline rather than an open-ended one",
+        "Thank her for considering the request"
+      ]
+    },
+    {
+      "id": "s1-03",
+      "title": "Disputing a library fine",
+      "register": "formal",
+      "function": "complain",
+      "situation": "You have received an email from the university library charging you a fine of twenty pounds for returning three books late. However, you returned all three books a week before the due date, using the drop box outside the main entrance, because the library was closed that evening. It seems the books were not scanned until much later. You are now at the library help desk speaking to a member of staff. What would you say to the member of staff?",
+      "points": [
+        "Stay calm and polite while making the complaint clear",
+        "Give the facts: when and how the books were returned",
+        "Suggest the likely cause without accusing anyone",
+        "Ask for the fine to be removed and for confirmation"
+      ]
+    },
+    {
+      "id": "s1-04",
+      "title": "Not lending your lecture notes",
+      "register": "informal",
+      "function": "decline",
+      "situation": "A classmate, Jordan, has missed most of the lectures this term because of social commitments. The exam is in two weeks, and Jordan has asked to borrow your handwritten notes for the whole course so that they can photocopy them. The notes took you months of work, you need them every day to revise, and you are worried they might not come back. Jordan has just asked you again after a seminar. What would you say to Jordan?",
+      "points": [
+        "Decline kindly but clearly, without sounding unfriendly",
+        "Give an honest reason, such as needing them to revise",
+        "Offer an alternative, such as studying together or pointing to lecture recordings"
+      ]
+    },
+    {
+      "id": "s1-05",
+      "title": "A stressed first-year student",
+      "register": "informal",
+      "function": "advise",
+      "situation": "You are in your third year at university, and you are a peer mentor for new students. One of your mentees, Priya, tells you she is feeling overwhelmed. She is behind with her reading, she is not sleeping well, and she says she is thinking about dropping out because she does not feel clever enough to be there. You have had similar feelings in your first year. What advice would you give Priya?",
+      "points": [
+        "Show empathy and share that these feelings are common",
+        "Offer practical steps, such as a study timetable or prioritising reading",
+        "Recommend university support services",
+        "Encourage her not to make a big decision too quickly"
+      ]
+    },
+    {
+      "id": "s1-06",
+      "title": "Querying a surprising mark",
+      "register": "formal",
+      "function": "clarify",
+      "situation": "You have received a mark of fifty-two percent for a report you worked very hard on, and the only comment says that the report 'did not follow the brief'. You followed the instructions in the course handbook carefully, but a friend has told you that the tutor gave different instructions in a lecture you could not attend. You have arranged a short meeting with your tutor, Mr Collins, to understand the mark. What would you say to Mr Collins?",
+      "points": [
+        "Open politely and make clear you want to understand, not argue",
+        "Explain which instructions you followed",
+        "Ask specifically what the brief required and where the report fell short",
+        "Ask whether there is any chance of review or how to improve next time"
+      ]
+    },
+    {
+      "id": "s1-07",
+      "title": "Changing the project topic",
+      "register": "informal",
+      "function": "persuade",
+      "situation": "Your study group has chosen to write its business project about a local bakery. You think this is a mistake, because the bakery owner has not replied to any of your emails and you have almost no data. You have found a community sports centre whose manager has already agreed to an interview and to share figures. The group meets tonight, and most members still want the bakery. What would you say to convince your group?",
+      "points": [
+        "Acknowledge why the group liked the original idea",
+        "Point out the practical risk of having no data",
+        "Present the sports centre as a stronger option with evidence",
+        "Propose a quick decision or a deadline for switching"
+      ]
+    },
+    {
+      "id": "s1-08",
+      "title": "Sharing laboratory time",
+      "register": "formal",
+      "function": "negotiate",
+      "situation": "You are a postgraduate student who needs the department's only high-speed microscope for your experiments. Another researcher, Dr Patel, has booked it every morning for the next month. Your samples must be examined within two hours of preparation, and you can only prepare them in the morning. You have asked to speak to Dr Patel to find an arrangement that works for both of you. What would you say to Dr Patel?",
+      "points": [
+        "Recognise that Dr Patel's booking is legitimate",
+        "Explain your time constraint clearly",
+        "Propose a specific compromise, such as alternate days or a shared slot",
+        "Show flexibility and invite Dr Patel's view"
+      ]
+    },
+    {
+      "id": "s1-09",
+      "title": "A late online submission",
+      "register": "formal",
+      "function": "explain",
+      "situation": "Your final assignment was due at noon yesterday. You tried to upload it at eleven thirty, but the university's online system crashed and displayed an error message. You took a screenshot and eventually submitted the work at twelve twenty, and the system automatically marked it late with a penalty. You are now speaking to the course coordinator, Ms Hughes, on the phone. What would you say to Ms Hughes?",
+      "points": [
+        "State the purpose of the call politely",
+        "Explain the timeline in a clear order",
+        "Mention the evidence, such as the screenshot",
+        "Ask for the late penalty to be reviewed"
+      ]
+    },
+    {
+      "id": "s1-10",
+      "title": "A nervous presentation partner",
+      "register": "informal",
+      "function": "reassure",
+      "situation": "You and your classmate Leo are giving a joint presentation to the class in ten minutes. Leo has prepared his slides well, but he suddenly tells you he feels sick with nerves, his hands are shaking, and he is sure he will forget everything and embarrass you both. He is asking whether you could present his part as well. What would you say to Leo?",
+      "points": [
+        "Stay calm and acknowledge how he feels",
+        "Remind him how well he has prepared",
+        "Offer practical support, such as prompts or taking questions",
+        "Encourage him to present his own part"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "voice",
+  "name": "Voice and reporting",
+  "order": 6,
+  "summary": "How to build the passive and when to use it, and how to report what a lecturer, a study or a common opinion says.",
+  "stations": [
+    {
+      "id": "voice.passive",
+      "title": "Forming the passive",
+      "summary": "be + past participle, in every tense.",
+      "sections": [
+        {
+          "heading": "Two parts: be and the past participle",
+          "body": "Every passive has two parts.\n\nThe first is a form of `be`: is, are, was, were, been, being. This part carries the tense, and it agrees with the subject, so a plural subject needs \"are\" or \"were\".\n\nThe second is the **past participle**, the third form of the verb: built, written, collected, taken. This part never changes, whatever the tense.\n\nSo: \"houses are built\", \"the report was written\".\n\nTo check a passive, find the two parts. Is there a form of `be`, and does it agree with the subject? Is the next verb a real past participle, not the plain form and not the past simple? \"Was wrote\" and \"was publish\" both fail the second test.",
+          "examples": [
+            {
+              "right": "The results were published in 2019.",
+              "wrong": "The results were publish in 2019.",
+              "note": "The participle needs its -ed ending: published."
+            },
+            {
+              "right": "The survey was written by a team of economists.",
+              "wrong": "The survey was wrote by a team of economists.",
+              "note": "Use the third form, written, not the past simple, wrote."
+            },
+            {
+              "right": "Thousands of trees are cut down every year.",
+              "wrong": "Thousands of trees is cut down every year.",
+              "note": "Be agrees with the plural subject, trees: are."
+            }
+          ]
+        },
+        {
+          "heading": "Every tense uses the same pattern",
+          "body": "In the passive, only `be` changes for the tense. The participle stays the same.\n\nPresent: \"is made\", \"are made\". Past: \"was made\", \"were made\". Present perfect: \"has been made\", \"have been made\". Continuous: \"is being made\". Future: \"will be made\". After any modal: \"can be made\", \"should be made\".\n\nA simple method: decide which tense you would use in an active sentence, put `be` into that tense, then add the participle.\n\nThe most common slip is dropping `be` after `will` or a modal: \"will announced\", \"should banned\". The passive always needs its `be`.",
+          "examples": [
+            {
+              "right": "A new hospital is being built in the city centre.",
+              "wrong": null,
+              "note": "Present continuous passive: is being plus the participle."
+            },
+            {
+              "right": "Several species have been lost since the dam was built.",
+              "wrong": null,
+              "note": "Present perfect passive: have been plus the participle."
+            },
+            {
+              "right": "The results will be announced next month.",
+              "wrong": "The results will announced next month.",
+              "note": "After will, the passive still needs be."
+            },
+            {
+              "right": "Single-use plastic bags should be banned.",
+              "wrong": "Single-use plastic bags should banned.",
+              "note": "After a modal, the passive is be plus the participle."
+            }
+          ]
+        },
+        {
+          "heading": "Only verbs with an object can be passive",
+          "body": "A passive takes the **object** of an active sentence, the thing the action is done to, and makes it the subject. \"Engineers built the bridge\" becomes \"the bridge was built\".\n\nSo a verb that has no object cannot be passive. Nothing is done to anything. Common examples: `happen`, `occur`, `arrive`, `exist`, `die`, `appear`, `rise`, `fall`.\n\nThis matters a lot in chart descriptions. Numbers \"rose\", \"fell\" and \"remained stable\"; nobody did it to them. `increase` and `decrease` can be either: \"prices increased\" describes a trend, and \"prices were increased\" means someone raised them on purpose.\n\nTo check, ask: who did this TO the subject? If the answer is nobody, use the active.",
+          "examples": [
+            {
+              "right": "The change occurred in the late 1990s.",
+              "wrong": "The change was occurred in the late 1990s.",
+              "note": "Occur takes no object, so it has no passive."
+            },
+            {
+              "right": "Unemployment rose sharply in 2009.",
+              "wrong": "Unemployment was risen sharply in 2009.",
+              "note": "Rise has no object; the chart shows a trend, not an action done to it."
+            },
+            {
+              "right": "Many problems exist in the current system.",
+              "wrong": "Many problems are existed in the current system.",
+              "note": "Exist has no object, so it stays active."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"was happened\" or \"is occurred\". Write \"happened\" and \"occurs\", because verbs with no object have no passive.",
+        "Writing \"the data was collect\". Write \"the data was collected\", because the passive needs the past participle.",
+        "Writing \"the bridge was build in 1990\". Write \"the bridge was built in 1990\", because build has an irregular participle.",
+        "Writing \"the plan will announced\". Write \"the plan will be announced\", because the passive always needs a form of be.",
+        "Writing \"the figures was checked\". Write \"the figures were checked\", because be agrees with the plural subject."
+      ],
+      "arabic": "Arabic makes the passive inside the verb, by changing its vowels: كَتَبَ, \"he wrote\", becomes كُتِبَ, \"it was written\". There is no separate helping verb, so the English `be` feels unnecessary and gets dropped (\"will announced\", \"should banned\"). Arabic also has no verb \"is\" in present-tense sentences, which makes the present passive especially easy to lose: \"cars made in Germany\" where English needs \"cars are made in Germany\".",
+      "check": "For each passive: is there a form of be in the right tense and number, and a true past participle after it?"
+    },
+    {
+      "id": "voice.passive-use",
+      "title": "When to use the passive",
+      "summary": "When the action matters more than who did it.",
+      "sections": [
+        {
+          "heading": "When the doer is unknown, obvious or unimportant",
+          "body": "In an active sentence, the subject is the **doer**: \"scientists heated the samples\". The passive lets the thing affected become the subject instead: \"the samples were heated\".\n\nUse the passive when you do not know who did it, when everybody knows, or when it does not matter. This is why reports of experiments and descriptions of processes are full of passives: the reader cares about what happened to the material, not about who was holding it.\n\nIf the doer is worth mentioning, add `by` and the doer at the end. Only do this when it adds real information.",
+          "examples": [
+            {
+              "right": "The samples were heated to 100 degrees.",
+              "wrong": "Someone heated the samples to 100 degrees.",
+              "note": "Who heated them does not matter; the passive puts the samples first."
+            },
+            {
+              "right": "First, the cocoa beans are harvested and dried in the sun.",
+              "wrong": null,
+              "note": "In a process description, the passive keeps the product at the front of every step."
+            },
+            {
+              "right": "Penicillin was discovered by Alexander Fleming in 1928.",
+              "wrong": null,
+              "note": "By names the doer here because the doer is important information."
+            }
+          ]
+        },
+        {
+          "heading": "Keep the topic at the front",
+          "body": "English sentences usually begin with what the reader already knows and end with the new information. The passive helps you do this.\n\nIf a paragraph is about the Great Wall, each sentence reads more smoothly when the Wall is the subject: \"The Great Wall is one of the largest structures on Earth. It was built over many centuries.\" The second sentence starts with the topic, `It`, and ends with the new fact.\n\nThis also keeps your pronouns clear. When the subject stays the same, the reader always knows what `it` or `they` refers to.",
+          "examples": [
+            {
+              "right": "The Great Wall is one of the largest structures on Earth. It was built over many centuries.",
+              "wrong": null,
+              "note": "The passive keeps the Wall as the subject, so the second sentence continues the topic."
+            },
+            {
+              "right": "Many older buildings in the city are now protected by law.",
+              "wrong": null,
+              "note": "The buildings are the topic, so they stay at the front and the law comes last."
+            },
+            {
+              "right": "Plastic is cheap and light, which is why it is used in so much packaging.",
+              "wrong": null,
+              "note": "The passive lets plastic stay the topic of the whole sentence."
+            }
+          ]
+        },
+        {
+          "heading": "Do not overuse it",
+          "body": "The passive is a tool, not a sign of good style. Too many passives make writing heavy, and they can hide who is responsible.\n\nIn an argument essay, the actor is often your point: governments should act, companies should pay. Make that actor the subject. \"Action should be taken\" does not say by whom, which is exactly what your reader wants to know.\n\nAlso avoid an empty `by` phrase. \"Smartphones are used by people\" adds nothing, because who else would use them?",
+          "examples": [
+            {
+              "right": "Governments should take urgent action on air pollution.",
+              "wrong": "Urgent action should be taken on air pollution by governments.",
+              "note": "When the doer is the point of your argument, make it the subject."
+            },
+            {
+              "right": "Smartphones are used for banking and shopping.",
+              "wrong": "Smartphones are used by people for banking and shopping.",
+              "note": "By people adds nothing, so leave it out."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"by people\" or \"by someone\" after a passive. Leave it out, because it adds no information.",
+        "Writing a whole argument paragraph in the passive. Write active sentences where the doer matters, because your argument is about who should act.",
+        "Writing \"they collect the leaves, then they dry them\" in a process description. Write \"the leaves are collected and then dried\", because the process, not the workers, is the topic.",
+        "Writing \"sales were increased\" to describe a chart. Write \"sales increased\", because the chart shows a trend, not something done to sales.",
+        "Writing \"the building of the bridge was done\". Write \"the bridge was built\", because English puts the action into the verb itself."
+      ],
+      "arabic": "Formal Arabic often avoids the true passive and uses تمّ with a verbal noun instead: تمّ بناء الجسر, literally \"the building of the bridge was completed\". Translated word for word, this produces heavy sentences like \"the building of the bridge was done\" or \"the collection of the data was made\", where English simply says \"the bridge was built\" and \"the data was collected\".",
+      "check": "Is the doer unknown, obvious or unimportant? Then passive. Is the doer the point of my argument? Then make it the subject."
+    },
+    {
+      "id": "voice.impersonal",
+      "title": "Impersonal structures",
+      "summary": "It is widely believed that ..., X is thought to ...",
+      "sections": [
+        {
+          "heading": "It is + participle + that",
+          "body": "This pattern reports a general opinion without saying who holds it. It is very useful in an essay introduction.\n\nThe form: `It is` + a participle such as believed, thought, said, argued, estimated, expected + `that` + a full clause.\n\nThe `it` at the start means nothing. It is an empty subject, but English needs it: a sentence cannot start with \"Is believed\". The part after `that` is a complete sentence with its own subject and verb.\n\nTo check: does the sentence start with `It is`? Is the next word a past participle (believed, not believe)? Does the `that` part have its own subject and verb?",
+          "examples": [
+            {
+              "right": "It is widely believed that exercise improves mental health.",
+              "wrong": "It is widely believe that exercise improves mental health.",
+              "note": "The pattern uses the participle, believed."
+            },
+            {
+              "right": "It is often argued that tourism damages local cultures.",
+              "wrong": "Is often argued that tourism damages local cultures.",
+              "note": "English needs the empty subject it; a sentence cannot start with is."
+            },
+            {
+              "right": "It is expected that the city's population will continue to grow.",
+              "wrong": null,
+              "note": "The that clause is complete: its subject is the population and its verb is will continue."
+            }
+          ]
+        },
+        {
+          "heading": "The personal pattern: X is thought to ...",
+          "body": "The same idea can start with the noun instead: \"Exercise is believed to improve mental health.\"\n\nThe form: subject + `is` or `are` + participle + `to` + plain verb. Here `be` agrees with the real subject: \"these methods are thought to\".\n\nAfter this pattern comes `to` and a verb, never `that`.\n\nWhen the belief is about something **earlier**, use `to have` + past participle: \"the city is thought to have been founded in the tenth century\". The believing is now; the founding was long ago.",
+          "examples": [
+            {
+              "right": "Exercise is believed to improve mental health.",
+              "wrong": "Exercise is believed that improves mental health.",
+              "note": "In this pattern, to + verb follows, not that."
+            },
+            {
+              "right": "The disease is thought to have originated in bats.",
+              "wrong": "The disease is thought to originated in bats.",
+              "note": "For an earlier event, use to have + past participle."
+            },
+            {
+              "right": "Global temperatures are expected to rise further.",
+              "wrong": "Global temperatures is expected to rise further.",
+              "note": "Be agrees with the plural subject, temperatures."
+            }
+          ]
+        },
+        {
+          "heading": "Choose the verb for how strong the claim is",
+          "body": "The participle you choose tells the reader how much you trust the claim.\n\n`thought`, `believed` and `said` report a common opinion without judging it.\n\n`known` presents something as established fact. Use it only for settled knowledge.\n\n`claimed` and `alleged` suggest doubt. The writer is reporting the claim, not accepting it.\n\n`estimated` and `expected` suit numbers and forecasts, which fits chart and data descriptions.",
+          "examples": [
+            {
+              "right": "It is known that smoking causes lung cancer.",
+              "wrong": null,
+              "note": "Known presents this as established, which suits settled science."
+            },
+            {
+              "right": "It is claimed that the supplement slows ageing, but the evidence is weak.",
+              "wrong": null,
+              "note": "Claimed signals that the writer does not accept the claim."
+            },
+            {
+              "right": "Around half of the forest is estimated to have been lost.",
+              "wrong": null,
+              "note": "Estimated shows the figure is an approximation, not an exact count."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"Is believed that...\". Write \"It is believed that...\", because an English sentence needs a subject even when it means nothing.",
+        "Writing \"It is widely believe that\". Write \"It is widely believed that\", because the pattern uses the past participle.",
+        "Writing \"prices are expected that they will rise\". Write \"prices are expected to rise\", because the personal pattern takes to + verb, not that.",
+        "Writing \"the temple is thought to built in 500 BC\". Write \"the temple is thought to have been built in 500 BC\", because an earlier event needs to have + past participle, and the temple was built by someone, so it is passive.",
+        "Writing \"it is known that\" for a disputed opinion. Write \"it is often argued that\", because known claims the matter is settled."
+      ],
+      "arabic": "Arabic drops subject pronouns freely because the verb already shows who is meant, and its impersonal يُعتقد أن, \"it is believed that\", has no subject word at all. Translated word for word it becomes \"Is believed that...\", which English does not allow: the empty `it` is compulsory.",
+      "check": "Does the sentence have a real subject (it, or the noun), with that + clause after it, or to + verb after the noun?"
+    },
+    {
+      "id": "voice.reported",
+      "title": "Reported speech",
+      "summary": "The lecturer argued that ...: backshift and reporting verbs.",
+      "sections": [
+        {
+          "heading": "Reporting verbs say what the speaker was doing",
+          "body": "In Re-tell Lecture, Summarize Group Discussion and any summary, you report what someone else said. Writing `said` every time is flat. Choose a verb that shows what the speaker was doing: `argued`, `claimed`, `explained`, `suggested`, `pointed out`, `emphasised`, `warned`, `concluded`.\n\nMost of these are followed by `that` + a full clause: \"the lecturer argued that...\".\n\nSome verbs take their object directly, with no preposition. Write \"described the effects\" and \"discussed the causes\", not \"described about\" or \"discussed about\".\n\n`explain` and `say` cannot have a person straight after them. Write \"explained that\" or \"explained to the students that\", never \"explained us that\". `tell` is the opposite: it needs the person, \"told the audience that\".",
+          "examples": [
+            {
+              "right": "The lecturer argued that cities should invest in cycling infrastructure.",
+              "wrong": null,
+              "note": "Argued shows the speaker was making a case, not just giving information."
+            },
+            {
+              "right": "The speaker described the effects of deforestation on rainfall.",
+              "wrong": "The speaker described about the effects of deforestation on rainfall.",
+              "note": "Describe takes its object directly, with no about."
+            },
+            {
+              "right": "The professor explained that the experiment had failed twice.",
+              "wrong": "The professor explained us that the experiment had failed twice.",
+              "note": "Explain cannot take a person straight after it."
+            },
+            {
+              "right": "The author discusses the causes of inequality.",
+              "wrong": "The author discusses about the causes of inequality.",
+              "note": "Discuss takes its object directly, with no about."
+            }
+          ]
+        },
+        {
+          "heading": "Backshift: moving the tense one step back",
+          "body": "When the reporting verb is in the past (said, argued, explained), the verb in the reported part usually moves one step back in time. `is` becomes `was`. `will` becomes `would`. `can` becomes `could`. `has done` becomes `had done`. A past simple often becomes `had done`.\n\nThis is not needed when the reporting verb is present: \"the author argues that social media has changed politics\". It is also optional for facts that are still true.\n\nFor your summaries the key rule is **choose one frame and keep it**. Either report in the past (the lecturer said, and the tenses move back) or in the present (the lecturer says, and they do not). Switching between the two in the middle is a tense consistency error.",
+          "examples": [
+            {
+              "right": "The speaker explained that the population had doubled since 1950.",
+              "wrong": null,
+              "note": "Has doubled moves back to had doubled after a past reporting verb."
+            },
+            {
+              "right": "The lecturer said that the project would take ten years.",
+              "wrong": null,
+              "note": "Will moves back to would after said."
+            },
+            {
+              "right": "The author argues that social media has changed politics.",
+              "wrong": null,
+              "note": "A present reporting verb needs no backshift."
+            },
+            {
+              "right": "The lecturer argued that governments needed to act, and she warned that time was running out.",
+              "wrong": "The lecturer argued that governments need to act, and she warns that time was running out.",
+              "note": "Keep one time frame: argued and warned, needed and was."
+            }
+          ]
+        },
+        {
+          "heading": "Reported questions",
+          "body": "A reported question is no longer a question, so it uses the word order of a statement: subject first, then verb. There is no `do`, `does` or `did`, and no question mark.\n\nFor a question with a question word, keep the word: \"the lecturer asked why so many species had disappeared\".\n\nFor a yes or no question, use `whether` or `if`: \"the researchers questioned whether the treatment was safe\".\n\nTo check: after asked or wondered, does the subject come before its verb?",
+          "examples": [
+            {
+              "right": "The lecturer asked why so many species had disappeared.",
+              "wrong": "The lecturer asked why had so many species disappeared?",
+              "note": "A reported question uses statement order and no question mark."
+            },
+            {
+              "right": "The researchers questioned whether the treatment was safe.",
+              "wrong": "The researchers questioned was the treatment safe.",
+              "note": "A yes or no question is reported with whether or if."
+            },
+            {
+              "right": "The students wondered how the data had been collected.",
+              "wrong": "The students wondered how was the data collected.",
+              "note": "After how, the subject comes before the verb."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing \"discussed about\" or \"described about\". Write \"discussed\" and \"described\", because these verbs take their object directly.",
+        "Writing \"he explained me that\". Write \"he explained to me that\" or \"he explained that\", because explain cannot take a person straight after it.",
+        "Writing \"the lecturer said\" in one sentence and \"the lecturer says\" in the next. Write one tense throughout, because switching makes the time frame of your summary unclear.",
+        "Writing \"she asked why did the policy fail\". Write \"she asked why the policy had failed\", because a reported question uses statement word order.",
+        "Writing said for every point. Write argued, explained, pointed out or concluded, because the verb shows what the speaker was doing."
+      ],
+      "arabic": "Arabic reports speech with قال إنّ or قال أنّ followed by the words more or less as they were spoken, keeping their original tense: there is no rule of backshift. So an English summary written from Arabic habits keeps \"is\" and \"will\" after \"said\" in one sentence and moves them back in the next, which reads as a tense consistency error.",
+      "check": "Is every reporting verb in the same tense, and after a past one, has each reported verb moved one step back?"
+    }
+  ]
+}

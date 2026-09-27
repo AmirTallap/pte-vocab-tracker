@@ -1,0 +1,136 @@
+{
+  "id": "w3",
+  "title": "Economics and business",
+  "items": [
+    {
+      "id": "w3-01",
+      "title": "The Principle of Comparative Advantage",
+      "topic": "International trade",
+      "passage": "One of the most important and least intuitive ideas in economics is the principle of comparative advantage, first set out by the economist David Ricardo in the early nineteenth century. It explains why countries can benefit from trading with each other even when one of them is better at producing everything.\n\nImagine two countries, one of which can produce both cloth and wine more efficiently than the other. It might seem that the more productive country has nothing to gain from trade. Ricardo showed that this is mistaken. What matters is not absolute efficiency but opportunity cost: what must be given up to produce each good. If the productive country is vastly better at making wine but only slightly better at making cloth, both countries can end up with more of both goods if each specialises in what it gives up least to produce, and they then trade.\n\nThe principle underpins the broad agreement among economists that trade generally increases a nation's total wealth. It does not, however, guarantee that everyone within a country gains. When a country specialises, industries that face foreign competition may shrink, and the workers and communities that depend on them can suffer lasting losses, particularly if new jobs appear in different regions or require different skills.\n\nFor this reason, many economists argue that the case for open trade should be accompanied by policies that help those who lose out, such as retraining and regional investment. Where such support has been weak, public opposition to trade has often grown, even though the overall gains are real.",
+      "points": [
+        "Trade benefits countries overall through comparative advantage, but not everyone gains",
+        "Opportunity cost, not absolute efficiency, determines specialisation",
+        "Industries facing competition shrink and some workers lose",
+        "Retraining and regional investment should accompany open trade"
+      ],
+      "summary": "Ricardo's principle of comparative advantage shows that countries gain overall by specialising according to opportunity cost and trading, even if one is more efficient at everything, but because some workers and regions lose, economists recommend supporting them through retraining and investment."
+    },
+    {
+      "id": "w3-02",
+      "title": "How Central Banks Fight Inflation",
+      "topic": "Monetary policy",
+      "passage": "Inflation, a sustained rise in the general level of prices, erodes the purchasing power of money. Moderate and predictable inflation causes few problems, and most central banks in advanced economies aim for a rate of around two per cent a year. High or unpredictable inflation, by contrast, can be highly damaging. It redistributes wealth arbitrarily from savers to borrowers, makes long-term planning difficult, and hurts those on fixed incomes most severely.\n\nThe main tool that central banks use to control inflation is the interest rate. When prices are rising too quickly, raising interest rates makes borrowing more expensive and saving more attractive. Households and businesses spend and invest less, demand cools, and price increases gradually slow. When inflation is too low and the economy is weak, cutting rates has the opposite effect.\n\nThis tool is powerful but imprecise. Changes in interest rates take many months, often more than a year, to have their full effect, so central banks must act on forecasts that may prove wrong. Raising rates also works partly by slowing the economy, which can increase unemployment. Moreover, when inflation is driven by a sudden rise in the cost of energy or food, higher interest rates do nothing to increase supply and can only limit the damage by restraining demand elsewhere.\n\nFor these reasons, central banks place great weight on their credibility. If people believe that inflation will be kept under control, they are less likely to demand large pay rises or raise prices in anticipation, which makes the task considerably easier.",
+      "points": [
+        "Central banks control inflation mainly with interest rates, an imprecise tool",
+        "High inflation harms savers, planning and fixed incomes",
+        "Rates act slowly, can raise unemployment and cannot fix supply shocks",
+        "Credibility keeps expectations stable"
+      ],
+      "summary": "Central banks control inflation mainly by adjusting interest rates to influence demand, but because this tool acts slowly, can raise unemployment and cannot fix supply shocks, their credibility in keeping expectations stable is crucial to success."
+    },
+    {
+      "id": "w3-03",
+      "title": "The Minimum Wage Debate",
+      "topic": "Labour economics",
+      "passage": "Few questions in economics have generated as much debate as the effect of minimum wages on employment. The traditional textbook argument is straightforward. If the government requires employers to pay more than the market wage for low-skilled labour, the cost of hiring rises, and firms will respond by employing fewer workers, investing in machines or raising prices. On this view, a minimum wage may help those who keep their jobs but harm those who lose them or are never hired.\n\nFrom the 1990s onwards, however, a number of empirical studies challenged this conclusion. Researchers compared neighbouring areas where the minimum wage had risen in one but not the other and often found little or no reduction in employment. One explanation is that many low-wage employers have some power to set wages below what a competitive market would pay, because workers find it difficult to change jobs. In such conditions, a moderate minimum wage can raise pay without reducing jobs and may even reduce costly staff turnover.\n\nThe debate has not been fully resolved. Most economists now accept that moderate increases have small effects on employment, but there is far less agreement about large increases, particularly in regions where average wages are low. The effects may also appear in less visible ways, such as reduced hours or slower hiring over time.\n\nAs a result, many countries now set their minimum wage with reference to median earnings and adjust it gradually, monitoring the evidence as they go.",
+      "points": [
+        "Moderate minimum wages seem to cost few jobs, contrary to textbook theory",
+        "Theory predicts higher labour costs reduce hiring",
+        "Studies found little job loss, partly because employers hold wages down",
+        "Large rises remain uncertain, so countries raise wages gradually"
+      ],
+      "summary": "Although textbook theory predicts that minimum wages reduce employment, studies since the 1990s found moderate increases have little effect, partly because employers can hold wages down, yet uncertainty over large rises leads many countries to raise them gradually."
+    },
+    {
+      "id": "w3-04",
+      "title": "Network Effects and Digital Monopolies",
+      "topic": "Competition",
+      "passage": "Some products become more valuable the more people use them. A telephone is useless if nobody else owns one, and a social media platform or online marketplace is attractive largely because of the number of users already on it. Economists call this a network effect, and it has shaped the structure of the digital economy.\n\nNetwork effects create powerful advantages for whichever firm gains an early lead. Each new user makes the service more appealing to the next, so growth can accelerate rapidly, and once a platform dominates, rivals find it extremely hard to compete, even with a better product, because users are reluctant to leave the place where everyone else is. This helps to explain why many digital markets are dominated by one or two large companies, and why start-ups in these sectors often spend heavily to attract users before earning any profit.\n\nFor consumers, dominant platforms bring genuine benefits, including convenience and services that are often free at the point of use. However, the lack of competition raises concerns. A dominant firm may collect ever more personal data, raise the fees it charges to businesses that depend on it, or buy promising competitors before they can become a threat.\n\nRegulators have struggled to respond, because traditional competition law focuses on prices, and many of these services cost consumers nothing. Proposals now under discussion include requiring platforms to allow users to move their data elsewhere and to make different services compatible with one another, reducing the pull of the network.",
+      "points": [
+        "Network effects let early leaders dominate digital markets",
+        "Each new user attracts more; rivals struggle even with better products",
+        "Benefits include convenience; risks include data, fees and buying rivals",
+        "Regulators consider data portability and interoperability"
+      ],
+      "summary": "Network effects, whereby products grow more valuable as more people use them, let early leaders dominate digital markets, bringing convenience but also risks to data, fees and competition that regulators are addressing through measures such as data portability and interoperability."
+    },
+    {
+      "id": "w3-05",
+      "title": "Nudges and Behavioural Economics",
+      "topic": "Behavioural economics",
+      "passage": "Traditional economic models assume that people make choices rationally, weighing costs and benefits to pursue their own interests. Behavioural economics, which draws on psychology, has shown that real decisions often depart from this ideal in systematic ways. People procrastinate, give undue weight to the present, and are strongly influenced by how options are presented.\n\nOne practical response has been the idea of the nudge: a change to the way choices are arranged that steers people towards better decisions without forbidding any option or significantly changing financial incentives. The best-known example concerns workplace pensions. When employees must actively sign up, many never do, even if they intend to. When they are enrolled automatically but free to leave, participation rises dramatically. Other nudges include placing healthy food at eye level in canteens and sending tax reminders that mention how many neighbours have already paid.\n\nNudges are attractive to governments because they are cheap and preserve freedom of choice. Nevertheless, they have been criticised on several grounds. Some critics see them as manipulative, since they work partly by exploiting mental shortcuts that people may not notice. Others point out that, beyond a few striking cases, many nudges produce only small effects, and that a broad review of published studies may overstate their impact because unsuccessful trials are less likely to be reported.\n\nPerhaps the most important criticism is that nudges can distract from larger reforms. Encouraging individuals to make better choices is no substitute for addressing the structural causes of problems such as poor diet or inadequate saving.",
+      "points": [
+        "Nudges cheaply steer choices but have important limitations",
+        "People decide irrationally and are swayed by presentation",
+        "Automatic pension enrolment greatly raises participation",
+        "Critics: manipulative, often small effects, distract from structural reform"
+      ],
+      "summary": "Behavioural economics has inspired nudges, such as automatic pension enrolment, which cheaply steer people towards better choices, but critics argue they can be manipulative, often have small effects, and may distract from structural reforms."
+    },
+    {
+      "id": "w3-06",
+      "title": "Flexibility and Risk in Gig Work",
+      "topic": "Employment",
+      "passage": "Over the past two decades, digital platforms have made it possible for companies to hire workers for individual tasks, such as a single delivery or a short taxi ride, rather than employing them on regular contracts. This arrangement, often called the gig economy, has grown rapidly in many cities.\n\nIts supporters emphasise flexibility. Workers can choose when and how much to work, which suits students, carers and people seeking extra income alongside another job. For consumers, the model has delivered convenient services at low prices, and for businesses it offers the ability to match labour closely to demand.\n\nCritics, however, argue that this flexibility often benefits companies more than workers. Because gig workers are usually classified as self-employed, they may not be entitled to a minimum wage, sick pay, holiday pay or a pension, and they bear costs such as fuel and vehicle maintenance themselves. Their pay can fluctuate unpredictably, and decisions about who receives work, or who is removed from a platform, are frequently made by algorithms that workers cannot see or challenge. For those who rely on gig work as their main income, the freedom to choose hours may mean little in practice.\n\nCourts and governments in several countries have begun to question whether such workers are genuinely independent, and some rulings have required platforms to treat them as employees or as an intermediate category with certain rights. The challenge is to extend basic protections without destroying the flexibility that many participants genuinely value.",
+      "points": [
+        "Gig work offers flexibility but often lacks basic protections",
+        "It suits students and carers and gives consumers cheap services",
+        "Self-employed status means no sick pay, pensions or wage floor; algorithms control work",
+        "Courts seek to grant rights while keeping flexibility"
+      ],
+      "summary": "The gig economy offers flexibility and cheap services, but critics argue that workers classified as self-employed lack basic protections and face opaque algorithmic control, prompting courts and governments to seek ways of granting rights without removing flexibility."
+    },
+    {
+      "id": "w3-07",
+      "title": "Governing the Commons",
+      "topic": "Resource economics",
+      "passage": "In an influential essay published in 1968, an American ecologist described what he called the tragedy of the commons. Imagine a pasture open to all herders. Each herder gains the full benefit of adding another animal but bears only a small share of the damage caused by overgrazing, which is spread across everyone. Acting rationally, each adds more animals, and the pasture is eventually ruined. The argument suggested that shared resources such as fisheries, forests and groundwater were doomed unless they were either divided into private property or controlled by the state.\n\nThis conclusion was later challenged by the political economist Elinor Ostrom, who studied communities around the world that had managed common resources successfully for generations, from alpine meadows in Switzerland to irrigation systems in Nepal and fishing grounds in Turkey. She found that local users were often capable of creating their own rules, monitoring each other and punishing those who broke the agreement, without either privatisation or central control.\n\nOstrom identified conditions that made success more likely. These included clearly defined boundaries around the resource and its users, rules suited to local circumstances, the involvement of users in making those rules, affordable ways of resolving conflicts, and recognition of the community's rights by higher authorities. Her work earned her the Nobel Memorial Prize in Economic Sciences in 2009.\n\nThe tragedy of the commons is therefore not inevitable, though Ostrom's findings apply most easily to small, stable communities. Global commons, such as the atmosphere, remain far harder to govern.",
+      "points": [
+        "The tragedy of the commons is not inevitable, but global commons remain hard",
+        "The original argument said shared resources need privatisation or state control",
+        "Ostrom found communities manage resources with their own rules",
+        "Success needs clear boundaries, local rules, participation and recognition"
+      ],
+      "summary": "The tragedy of the commons suggested that shared resources would be overused unless privatised or state-controlled, but Ostrom showed that communities often manage them successfully through their own rules, although global commons such as the atmosphere remain harder to govern."
+    },
+    {
+      "id": "w3-08",
+      "title": "The Promise of Microfinance Reassessed",
+      "topic": "Development economics",
+      "passage": "Microfinance, the provision of small loans and other financial services to people too poor to borrow from conventional banks, was once hailed as a revolutionary way to end poverty. The idea was simple and appealing. Many poor households, especially women in developing countries, have entrepreneurial ideas but no collateral and no credit history. Lending them small sums, often in groups whose members guaranteed each other's repayments, would allow them to start or expand businesses and lift themselves out of poverty. Repayment rates were reported to be remarkably high, and the model spread rapidly across the world.\n\nWhen economists evaluated microcredit using randomised trials, however, the results were more modest than its supporters had hoped. Studies in several countries found that access to small loans did help some households to invest in businesses and manage irregular incomes, but on average it did not produce significant increases in income, consumption or indicators such as education and health. Only a minority of borrowers, often those who already ran businesses, saw large gains.\n\nIn some places, rapid commercial expansion also led to problems. Borrowers took loans from several lenders at once, debt accumulated, and aggressive collection practices caused real hardship.\n\nNone of this means that microfinance has no value. Access to safe savings, insurance and ways of sending money can help poor households cope with emergencies and smooth their spending over time. The lesson drawn by many researchers is that financial services are a useful tool for managing poverty rather than a reliable means of escaping it.",
+      "points": [
+        "Microfinance helps the poor manage poverty rather than escape it",
+        "It was hailed as a cure, with group lending and high repayment",
+        "Randomised trials found no average rise in income",
+        "Over-lending caused hardship; savings and insurance still help"
+      ],
+      "summary": "Microfinance was once hailed as a cure for poverty, but randomised trials found that small loans rarely raised incomes on average and over-lending caused hardship, suggesting that financial services help the poor manage poverty rather than escape it."
+    },
+    {
+      "id": "w3-09",
+      "title": "The Sunk Cost Fallacy",
+      "topic": "Decision making",
+      "passage": "Suppose you have paid for a concert ticket but, on the evening, feel unwell and would rather stay at home. Many people would go anyway, reasoning that it would be a waste not to use a ticket they have paid for. Economists regard this reasoning as a mistake. The money has already been spent and cannot be recovered whatever you decide. The only rational question is whether going to the concert, from this point on, is better than staying at home. Costs that cannot be recovered are known as sunk costs, and the tendency to let them influence decisions is called the sunk cost fallacy.\n\nThe fallacy matters far more in business and government than in personal life. Organisations frequently continue to fund failing projects because so much has already been invested in them. Managers may fear that abandoning a project will be seen as an admission of error, and each additional investment raises the emotional stakes of stopping. Large infrastructure and technology projects sometimes run years late and far over budget partly for this reason.\n\nHowever, the picture is not entirely one-sided. Past investment can be a legitimate consideration when it reflects information, for example if the work already completed means that finishing will now cost relatively little. Persistence is also sometimes valuable, since many worthwhile projects experience setbacks before they succeed.\n\nThe key, therefore, is to separate the question of what has already been spent from the question of what future costs and benefits are likely. Some organisations encourage this by holding regular reviews at which projects must justify their continuation afresh.",
+      "points": [
+        "Decisions should rest on future costs and benefits, not sunk costs",
+        "Letting unrecoverable costs guide choices is a fallacy",
+        "Organisations keep funding failing projects to avoid admitting error",
+        "Past work can matter as information; regular reviews help"
+      ],
+      "summary": "The sunk cost fallacy leads individuals and especially organisations to continue failing projects because of money already spent, and although past investment and persistence can sometimes be relevant, decisions should rest on future costs and benefits, supported by regular reviews."
+    },
+    {
+      "id": "w3-10",
+      "title": "Just-in-Time Supply Chains",
+      "topic": "Operations management",
+      "passage": "For several decades, many manufacturers have organised their supply chains around a principle known as just-in-time production. Pioneered by Japanese car makers in the decades after the Second World War, the approach aims to keep stocks of parts and materials to a minimum, with components arriving shortly before they are needed. Holding less inventory reduces storage costs, frees up money that would otherwise be tied up in warehouses, and exposes inefficiencies that large stockpiles might conceal. Combined with the globalisation of trade, it allowed firms to source components from wherever they were cheapest.\n\nThe approach proved highly efficient in stable conditions, but its weaknesses became apparent when conditions were disrupted. Because there is little stock to fall back on, a problem at a single supplier, a blocked shipping route or a natural disaster can halt production far away within days. Recent global disruptions, including the pandemic, exposed how many industries depended on a small number of distant suppliers for essential components, leaving factories idle and shelves empty.\n\nIn response, many firms have been reconsidering the balance between efficiency and resilience. Some are holding larger stocks of critical parts, using more than one supplier for important components, or moving part of their production closer to home. These measures increase costs, and they may contribute to higher prices for consumers.\n\nIt would be a mistake, however, to conclude that just-in-time methods have failed. Their benefits remain considerable, and most companies are adjusting rather than abandoning them, accepting slightly higher costs as a form of insurance against future shocks.",
+      "points": [
+        "Firms are trading some efficiency for resilience, adjusting rather than abandoning just-in-time",
+        "Minimal stock cut costs and exposed inefficiencies",
+        "Disruptions such as the pandemic halted production",
+        "More stock, extra suppliers and nearer production raise costs"
+      ],
+      "summary": "Just-in-time production cut costs by minimising stock but left global supply chains vulnerable to disruption, so many firms are now trading some efficiency for resilience by holding more stock and diversifying suppliers, adjusting rather than abandoning the approach."
+    }
+  ]
+}

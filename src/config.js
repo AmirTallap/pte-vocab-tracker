@@ -9,8 +9,15 @@ export const DATA_DIR = path.join(ROOT, 'data');
 export const MASTER_FILE = path.join(DATA_DIR, 'PTE_Vocabulary_Master.xlsx');
 export const BACKUP_FILE = path.join(DATA_DIR, 'backup_words.json');
 export const PROGRESS_FILE = path.join(DATA_DIR, 'progress.json');
-// One JSON file per grammar module. Static content, read at startup.
-export const GRAMMAR_DIR = path.join(DATA_DIR, 'grammar');
+// The grammar map: one JSON file per line of the map, each station an article.
+// Static content, read at startup - see grammarmap.js.
+export const GRAMMARMAP_DIR = path.join(DATA_DIR, 'grammarmap');
+// Your answers and the reviews of them - see attempts.js. Text only, never audio.
+// PTE_ATTEMPTS_DB points it elsewhere, for testing without touching the real one.
+export const ATTEMPTS_FILE = process.env.PTE_ATTEMPTS_DB || path.join(DATA_DIR, 'attempts.db');
+// Respond to a Situation and Summarize Written Text, one JSON file per set of ten.
+export const SITUATIONS_DIR = path.join(DATA_DIR, 'situations');
+export const SWT_DIR = path.join(DATA_DIR, 'swt');
 export const LISTENING_DIR = path.join(DATA_DIR, 'listening');
 export const SENTENCES_DIR = path.join(DATA_DIR, 'sentences');
 export const IMAGES_DIR = path.join(DATA_DIR, 'images');

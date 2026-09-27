@@ -1,0 +1,468 @@
+{
+  "id": "punct",
+  "name": "Punctuation and mechanics",
+  "order": 9,
+  "summary": "The marks and conventions on the page: commas, semicolons and colons, apostrophes, capital letters, hyphens and spelling.",
+  "stations": [
+    {
+      "id": "punct.comma",
+      "title": "Commas",
+      "summary": "A comma cannot join two sentences; after an opening clause, around extras, in lists.",
+      "sections": [
+        {
+          "heading": "A comma cannot join two sentences",
+          "body": "This is the most important comma rule, and it is the one behind run-on sentences. A **full sentence** has its own subject (the person or thing doing the verb) and its own verb, and could stand alone with a full stop. Two full sentences cannot be glued together with only a comma.\n\nTo check, cover the comma with your finger. If the words on the left could be a sentence by themselves, and so could the words on the right, the comma is not enough. You have four fixes: a full stop; a semicolon; a comma plus `and`, `but`, `so` or `yet`; or a joining word such as `because`, `although` or `while`.",
+          "examples": [
+            {
+              "right": "Many graduates cannot find work, so they return to study.",
+              "wrong": "Many graduates cannot find work, they return to study.",
+              "note": "Two full sentences need a joining word such as \"so\" after the comma."
+            },
+            {
+              "right": "Prices rose sharply. As a result, demand fell.",
+              "wrong": "Prices rose sharply, as a result demand fell.",
+              "note": "\"As a result\" does not join sentences, so a full stop is needed before it."
+            },
+            {
+              "right": "The policy was popular; however, it was expensive.",
+              "wrong": "The policy was popular, however it was expensive.",
+              "note": "\"However\" is not a joining word, so a semicolon or full stop must come before it."
+            }
+          ]
+        },
+        {
+          "heading": "After an opening clause or phrase",
+          "body": "When a sentence begins with something that comes before the subject, put a comma where the main sentence starts. This includes a clause beginning with `Although`, `If`, `When`, `Because` or `While`, a linking word such as `However` or `Therefore`, and a longer opening phrase such as `In most developed countries`.\n\nWhen the `if` or `because` clause comes second, you normally do not need a comma. So the comma marks the point where the reader reaches the main subject.",
+          "examples": [
+            {
+              "right": "Although the cost is high, the benefits are clear.",
+              "wrong": "Although the cost is high the benefits are clear.",
+              "note": "An opening clause is followed by a comma before the main sentence."
+            },
+            {
+              "right": "If governments invest in rail, emissions will fall.",
+              "wrong": "If governments invest in rail emissions will fall.",
+              "note": "Without the comma the reader may read \"rail emissions\" together."
+            },
+            {
+              "right": "Many people cycle to work because it is cheaper.",
+              "wrong": null,
+              "note": "When the \"because\" clause comes second, no comma is needed."
+            }
+          ]
+        },
+        {
+          "heading": "Around extra information",
+          "body": "Some information can be removed without changing who or what you mean. Put a comma at **both** ends of it. This is common with `which` and `who` clauses and with a description placed after a name: `Cairo, the largest city in Africa, ...`.\n\nIf the information tells the reader **which** people or things you mean, it is not extra, and it takes no commas. The check: take the part out. If the sentence still says the same thing about the same people, it is extra and needs two commas. If it now says something about a different group, leave the commas out.",
+          "examples": [
+            {
+              "right": "The report, which was published in May, criticised the government.",
+              "wrong": "The report, which was published in May criticised the government.",
+              "note": "Extra information needs a comma at both ends."
+            },
+            {
+              "right": "Students who work part-time often get lower marks.",
+              "wrong": "Students, who work part-time, often get lower marks.",
+              "note": "With commas, the sentence claims that all students work part-time."
+            },
+            {
+              "right": "Dr Khan, a leading economist, disagreed with the forecast.",
+              "wrong": null,
+              "note": "The description can be removed, so it sits between two commas."
+            }
+          ]
+        },
+        {
+          "heading": "In lists",
+          "body": "Separate three or more items with commas, and put `and` or `or` before the last one: `health, education and transport`. A comma before that final `and` is optional in British English, but choose one habit and keep it through the essay.\n\nDo not put a comma between a subject and its verb, however long the subject is. `The main reason for the sharp rise in prices is cost` has no comma, because the whole of `The main reason for the sharp rise in prices` is the subject of `is`.",
+          "examples": [
+            {
+              "right": "The survey covered health, education and transport.",
+              "wrong": "The survey covered health education and transport.",
+              "note": "Without commas, \"health education\" reads as one subject."
+            },
+            {
+              "right": "The main reason for the sharp rise in prices is energy costs.",
+              "wrong": "The main reason for the sharp rise in prices, is energy costs.",
+              "note": "A comma never separates a subject from its verb."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Prices rose, demand fell.' Write 'Prices rose, and demand fell.' or 'Prices rose. Demand fell.', because a comma alone cannot join two full sentences.",
+        "Writing ', however it was'. Write '; however, it was' or '. However, it was', because 'however' does not join sentences.",
+        "Writing 'Although it is expensive it is popular.' Write 'Although it is expensive, it is popular.', because an opening clause is followed by a comma.",
+        "Writing 'The study, which lasted ten years found'. Write 'The study, which lasted ten years, found', because extra information needs a comma at both ends.",
+        "Writing 'The main problem with this approach, is cost'. Write 'The main problem with this approach is cost', because a comma never separates a subject from its verb."
+      ],
+      "arabic": "Arabic prose traditionally links long chains of clauses with 'wa' (and) and 'fa' (so, then), and in Arabic writing a comma between two complete clauses is normal. A whole paragraph can be one sentence. Carried into English, this produces the comma splices and run-on sentences your corrections have marked, so this rule deserves extra attention.",
+      "check": "At every comma, cover it: if the words on both sides could each stand as a full sentence, the comma is not enough."
+    },
+    {
+      "id": "punct.semicolon-colon",
+      "title": "Semicolons and colons",
+      "summary": "Joining two full sentences; introducing a list or an explanation.",
+      "sections": [
+        {
+          "heading": "The semicolon: two sentences, one thought",
+          "body": "A **semicolon** (;) joins two full sentences that are closely related, without a joining word. It is stronger than a comma and weaker than a full stop. Both sides must be full sentences, each with its own subject and verb.\n\nIt is especially useful before a sentence linker such as `however`, `therefore` or `in contrast`: put a semicolon before the linker and a comma after it. The word after a semicolon does not take a capital letter. One or two semicolons in an essay look controlled; ten look like a habit.",
+          "examples": [
+            {
+              "right": "Some cities have expanded public transport; others have built more roads.",
+              "wrong": "Some cities have expanded public transport; others building more roads.",
+              "note": "The second part has no full verb, so it is not a sentence."
+            },
+            {
+              "right": "Fees have risen; therefore, fewer students are applying.",
+              "wrong": "Fees have risen, therefore, fewer students are applying.",
+              "note": "Before \"therefore\" joining two sentences, you need a semicolon, not a comma."
+            },
+            {
+              "right": "Urban populations are growing; rural ones are shrinking.",
+              "wrong": null,
+              "note": "Two short, related sentences balanced against each other."
+            }
+          ]
+        },
+        {
+          "heading": "The colon: here it comes",
+          "body": "A **colon** (:) comes after a complete sentence and announces what follows: a list, an explanation or an example. Think of it as saying `and here it is`.\n\nThe part **before** the colon must be a full sentence. So never put a colon straight after a verb such as `are` or `include`, or after `such as`: those words already lead into the list. The check: stop reading at the colon. If what you have read is a complete sentence, the colon is fine.",
+          "examples": [
+            {
+              "right": "The survey identified three causes: cost, distance and lack of time.",
+              "wrong": "The causes are: cost, distance and lack of time.",
+              "note": "\"The causes are\" is not a complete sentence, so it cannot come before a colon."
+            },
+            {
+              "right": "The reason is simple: housing has become unaffordable.",
+              "wrong": null,
+              "note": "The colon introduces the explanation promised by \"the reason is simple\"."
+            },
+            {
+              "right": "Renewable sources include wind, solar and tidal power.",
+              "wrong": "Renewable sources include: wind, solar and tidal power.",
+              "note": "\"Include\" already introduces the list, so no colon."
+            }
+          ]
+        },
+        {
+          "heading": "Semicolons in a complicated list",
+          "body": "When the items in a list already contain commas, commas alone cannot show where one item ends and the next begins. In that case, separate the items with semicolons and keep the commas inside the items.\n\nThis is rare in a PTE essay, but it is useful when you list people with their roles or places with their countries.",
+          "examples": [
+            {
+              "right": "The panel included Dr Ahmed, an economist; Ms Lee, a lawyer; and Mr Hughes, a teacher.",
+              "wrong": "The panel included Dr Ahmed, an economist, Ms Lee, a lawyer, and Mr Hughes, a teacher.",
+              "note": "With commas only, the reader cannot tell whether the panel had three members or six."
+            },
+            {
+              "right": "The study was run in Lyon, France; Porto, Portugal; and Graz, Austria.",
+              "wrong": null,
+              "note": "Semicolons separate the three places; commas separate each city from its country."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The main problems are: cost and time.' Write 'The main problems are cost and time.', because a colon must follow a complete sentence.",
+        "Writing 'Prices rose; because of inflation.' Write 'Prices rose because of inflation.', because both sides of a semicolon must be full sentences.",
+        "Writing '; However'. Write '; however,', because a semicolon does not start a new sentence, so no capital.",
+        "Writing 'such as: wind and solar'. Write 'such as wind and solar', because 'such as' already introduces the list.",
+        "Writing a semicolon where a comma belongs, 'Although it rained; the match continued.' Write 'Although it rained, the match continued.', because the first part is not a full sentence."
+      ],
+      "arabic": "Arabic writing uses the semicolon rarely and without a firmly fixed rule, and the colon most often after a verb of saying. So there is no settled habit to carry across, and English rules have to be learnt fresh. Because Arabic tends to join clauses loosely, a semicolon is the most useful new tool: it is the formal way to put two full sentences side by side.",
+      "check": "Before a colon, is there a complete sentence? On both sides of a semicolon, are there complete sentences?"
+    },
+    {
+      "id": "punct.apostrophe",
+      "title": "Apostrophes",
+      "summary": "its / it's, partners' / partner's, no apostrophe in plurals.",
+      "sections": [
+        {
+          "heading": "Possession: 's and s'",
+          "body": "An apostrophe shows that something belongs to someone. The method is always the same. First write the owner in full, exactly as it is. Then add the apostrophe.\n\nIf the owner does not end in `s`, add `'s`: `the government's plan`, `the children's diets`, `women's rights`. If the owner is a plural that already ends in `s`, add only the apostrophe: `both partners' incomes`, `the students' results`.\n\nSo `partner's` means one partner and `partners'` means more than one. Decide how many owners there are before you write.",
+          "examples": [
+            {
+              "right": "The government's response was slow.",
+              "wrong": "The governments response was slow.",
+              "note": "One owner, the government, so add 's."
+            },
+            {
+              "right": "Both partners' incomes were counted.",
+              "wrong": "Both partner's incomes were counted.",
+              "note": "There are two partners, so the apostrophe goes after the s."
+            },
+            {
+              "right": "The study focused on children's diets.",
+              "wrong": "The study focused on childrens' diets.",
+              "note": "\"Children\" is already plural and does not end in s, so add 's."
+            }
+          ]
+        },
+        {
+          "heading": "Plurals never take an apostrophe",
+          "body": "A plural just means more than one. It takes `s` and no apostrophe: `universities`, `CEOs`, `the 1990s`. An apostrophe in a plural is one of the most common mistakes in English, and examiners notice it.\n\nThe check: ask whether the word owns the next word. `Many universities raised fees`: the universities do not own `raised`, so no apostrophe.",
+          "examples": [
+            {
+              "right": "Many universities raised their fees in the 1990s.",
+              "wrong": "Many university's raised their fees in the 1990's.",
+              "note": "Both words are simple plurals, so neither takes an apostrophe."
+            },
+            {
+              "right": "Most CEOs earn far more than their staff.",
+              "wrong": "Most CEO's earn far more than their staff.",
+              "note": "A plural abbreviation takes s without an apostrophe."
+            }
+          ]
+        },
+        {
+          "heading": "its and it's, whose and who's",
+          "body": "These pairs break the pattern above. `It's` means `it is` or `it has`. `Its` means `belonging to it`, and has **no** apostrophe, like `his`. In the same way, `who's` means `who is` and `whose` means `belonging to whom`.\n\nThe check: replace the word with `it is`. If the sentence still makes sense, it is `it's`. If it becomes nonsense, it is `its`. In an essay you write contractions in full anyway, so the form you need is almost always `its`.",
+          "examples": [
+            {
+              "right": "The company doubled its profits.",
+              "wrong": "The company doubled it's profits.",
+              "note": "\"It is profits\" is nonsense, so the possessive \"its\" is needed."
+            },
+            {
+              "right": "It is clear that the policy failed.",
+              "wrong": "Its clear that the policy failed.",
+              "note": "This means \"it is\", and in an essay it is written in full."
+            },
+            {
+              "right": "Scientists whose work is publicly funded should share their data.",
+              "wrong": "Scientists who's work is publicly funded should share their data.",
+              "note": "\"Who is work\" is nonsense, so the possessive \"whose\" is needed."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'it's profits'. Write 'its profits', because the possessive 'its' has no apostrophe.",
+        "Writing 'the 1990's'. Write 'the 1990s', because a plural takes no apostrophe.",
+        "Writing 'both partner's incomes'. Write 'both partners' incomes', because the owners are plural and already end in s.",
+        "Writing 'the childrens' diets'. Write 'the children's diets', because 'children' is already plural and does not end in s.",
+        "Writing 'many country's'. Write 'many countries', because a plural takes no apostrophe."
+      ],
+      "arabic": "Arabic shows possession by placing two nouns side by side (the idafa) or with an attached pronoun ending, such as -ha for 'its', and has no written mark like the apostrophe. The apostrophe is also silent in speech, so nothing reminds you it is there. It is a pure English writing convention and has to be checked by eye.",
+      "check": "For every word ending in s: is it a plural (no apostrophe), an owner (apostrophe), or 'it is' (write it in full)?"
+    },
+    {
+      "id": "punct.capitals",
+      "title": "Capital letters",
+      "summary": "Sentence starts, names, nationalities, languages.",
+      "sections": [
+        {
+          "heading": "Always a capital",
+          "body": "Use a capital letter for the first word of a sentence and for the word `I`. Use one for **names**: people, cities, countries, organisations (`the United Nations`), and the full official names of institutions (`the University of Sydney`).\n\nEnglish also capitalises some words that other languages do not. **Nationalities**, **languages** and **religions** always take a capital, even as adjectives: `Australian`, `Arabic`, `English`, `Islam`. So do **days** and **months**: `Monday`, `December`. Seasons do not: `winter`, `autumn`.",
+          "examples": [
+            {
+              "right": "Many Australian students learn Japanese at school.",
+              "wrong": "Many australian students learn japanese at school.",
+              "note": "Nationalities and languages always take a capital."
+            },
+            {
+              "right": "The exam takes place in December.",
+              "wrong": "The exam takes place in december.",
+              "note": "Months take a capital."
+            },
+            {
+              "right": "Enrolments usually rise in autumn.",
+              "wrong": "Enrolments usually rise in Autumn.",
+              "note": "Seasons do not take a capital."
+            }
+          ]
+        },
+        {
+          "heading": "No capital for ordinary nouns",
+          "body": "A general word takes no capital, even if it feels important. `Government`, `university`, `society`, `the economy`, `technology` and `education` are ordinary nouns. They take a capital only as part of an official name: `the University of Sydney`, but `a university`.\n\nSchool subjects are also lower case (`economics`, `biology`), except languages, which are always capitalised (`English`). Do not use capitals for emphasis: if a word matters, make the sentence show why.",
+          "examples": [
+            {
+              "right": "Most governments fund university education.",
+              "wrong": "Most Governments fund University education.",
+              "note": "General nouns take no capital, however important they feel."
+            },
+            {
+              "right": "She studied economics at the University of Sydney.",
+              "wrong": "She studied Economics at the university of Sydney.",
+              "note": "The subject is lower case; the full official name takes capitals."
+            },
+            {
+              "right": "Technology has transformed education.",
+              "wrong": "Technology has transformed Education.",
+              "note": "\"Education\" is an ordinary noun here."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'english' or 'arabic'. Write 'English' and 'Arabic', because languages always take a capital.",
+        "Writing 'the Government should act' in general statements. Write 'the government should act', because a general noun takes no capital.",
+        "Writing 'in Summer'. Write 'in summer', because seasons take no capital.",
+        "Writing 'on monday'. Write 'on Monday', because days take a capital.",
+        "Writing 'i think'. Write 'I think', because 'I' is always a capital."
+      ],
+      "arabic": "Arabic script has no capital letters at all, so the whole system is new. Learners tend either to leave capitals off names, nationalities and languages, or to put them on nouns that feel important, such as Government or Education. Neither habit comes from a rule, so each capital needs a reason you can name.",
+      "check": "For each capital: is it a sentence start, I, or a specific name, nationality, language, day or month? If not, use lower case."
+    },
+    {
+      "id": "punct.hyphen",
+      "title": "Hyphens",
+      "summary": "well-known, long-term, a five-year plan.",
+      "sections": [
+        {
+          "heading": "Two words as one description before a noun",
+          "body": "A **hyphen** (-) joins words with no space. Its main job is to show that two words work together as one description in front of a noun: `long-term effects`, `a well-known author`, `full-time jobs`, `a five-year plan`.\n\nThe hyphen stops the reader from taking the words one at a time. When the same words come **after** the noun, they are usually written without a hyphen: `effects in the long term`, `the author is well known`.\n\nWhen a number and a unit describe a noun, the unit stays singular: `a five-year plan`, `a 30-minute journey`, because together they act like an adjective, and adjectives have no plural.",
+          "examples": [
+            {
+              "right": "The long-term effects are still unknown.",
+              "wrong": "The long term effects are still unknown.",
+              "note": "\"Long-term\" is one description in front of \"effects\"."
+            },
+            {
+              "right": "The government announced a five-year plan.",
+              "wrong": "The government announced a five-years plan.",
+              "note": "Before a noun, the number and unit act as an adjective, so the unit stays singular."
+            },
+            {
+              "right": "The author is well known in France.",
+              "wrong": null,
+              "note": "After the verb, this phrase is usually written without a hyphen."
+            },
+            {
+              "right": "Many students have part-time jobs.",
+              "wrong": "Many students have part time jobs.",
+              "note": "\"Part-time\" describes \"jobs\" as one idea."
+            }
+          ]
+        },
+        {
+          "heading": "No hyphen after -ly, and some prefixes",
+          "body": "Do not put a hyphen after an adverb ending in `-ly`: `a highly skilled workforce`, `a rapidly growing city`. The `-ly` already tells the reader that the first word describes the second.\n\nMost prefixes join the word with no hyphen: `rebuild`, `underfunded`, `multinational`, `nonetheless`. A few usually keep one: `self-` (`self-esteem`), `ex-` (`ex-president`) and `well-` or `all-` before a noun (`an all-day event`). If you are unsure, check a dictionary once and remember it.",
+          "examples": [
+            {
+              "right": "Firms want a highly skilled workforce.",
+              "wrong": "Firms want a highly-skilled workforce.",
+              "note": "No hyphen after an -ly adverb."
+            },
+            {
+              "right": "Low self-esteem can affect academic performance.",
+              "wrong": "Low self esteem can affect academic performance.",
+              "note": "\"Self-\" words keep their hyphen."
+            },
+            {
+              "right": "The company rebuilt its reputation.",
+              "wrong": "The company re-built its reputation.",
+              "note": "Most prefixes join the word directly."
+            }
+          ]
+        },
+        {
+          "heading": "Numbers written as words",
+          "body": "Numbers from twenty-one to ninety-nine take a hyphen when written as words: `twenty-five`, `sixty-three`. Write a number in words when it begins a sentence, or rewrite the sentence so that it does not begin with a figure.\n\nFractions used as adjectives before a noun also take one: `a two-thirds majority`.",
+          "examples": [
+            {
+              "right": "Twenty-five per cent of the respondents were over sixty.",
+              "wrong": "Twenty five per cent of the respondents were over sixty.",
+              "note": "Numbers from twenty-one to ninety-nine take a hyphen."
+            },
+            {
+              "right": "The bill needed a two-thirds majority to pass.",
+              "wrong": null,
+              "note": "The fraction describes \"majority\", so it takes a hyphen."
+            },
+            {
+              "right": "Most commuters face a 30-minute journey.",
+              "wrong": "Most commuters face a 30 minutes journey.",
+              "note": "Number and unit before a noun: hyphen, and the unit stays singular."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'a five-years plan'. Write 'a five-year plan', because a number and unit before a noun act as an adjective and stay singular.",
+        "Writing 'long term effects'. Write 'long-term effects', because the two words describe the noun together.",
+        "Writing 'a highly-educated population'. Write 'a highly educated population', because there is no hyphen after -ly.",
+        "Writing 'twenty five'. Write 'twenty-five', because numbers from twenty-one to ninety-nine take a hyphen.",
+        "Writing 'self esteem'. Write 'self-esteem', because 'self-' words keep their hyphen."
+      ],
+      "arabic": "Arabic places describing words and phrases after the noun, as in 'khutta li-khams sanawat' (a plan for five years). English puts them in front and binds them with a hyphen, a pattern Arabic has no model for. That is also why the plural slips in: after the noun, 'five years' is naturally plural, but before it, as 'five-year', it must be singular.",
+      "check": "Before each noun, are two words working together as one description? Hyphenate them, unless the first ends in -ly."
+    },
+    {
+      "id": "punct.spelling",
+      "title": "Spelling",
+      "summary": "The words that are written differently from how they sound.",
+      "sections": [
+        {
+          "heading": "Letters you do not hear",
+          "body": "Many common academic words contain letters that are silent or nearly silent in speech. `Government` has an `n` most people do not pronounce. So do `environment`, `knowledge` (silent `k` and `d`), `foreign`, `doubt`, `psychology` and `Wednesday`. Unstressed vowels are just as risky: `separate`, `definitely`, `necessary`, `category`, `different`, `interesting`.\n\nA useful trick is to say the word to yourself in a slow **spelling voice** that sounds every letter: `gov-ern-ment`, `en-vi-ron-ment`, `sep-a-rate`. Keep a short personal list of the words you get wrong and check them in every essay.",
+          "examples": [
+            {
+              "right": "The government must protect the environment.",
+              "wrong": "The goverment must protect the enviroment.",
+              "note": "Both words keep an n that is often silent in speech."
+            },
+            {
+              "right": "It is necessary to separate the two groups.",
+              "wrong": "It is necesary to seperate the two groups.",
+              "note": "\"Necessary\" has one c and two s; \"separate\" has \"par\" in the middle."
+            },
+            {
+              "right": "Knowledge of a foreign language is definitely an advantage.",
+              "wrong": "Knowlege of a foriegn language is definately an advantage.",
+              "note": "Silent letters and unstressed vowels cause all three errors."
+            }
+          ]
+        },
+        {
+          "heading": "Doubling and dropping letters",
+          "body": "When you add an ending such as `-ed` or `-ing`, three rules do most of the work.\n\n**Double** the last consonant when a short, stressed vowel comes before it: `begin`, `beginning`; `occur`, `occurred`. In British spelling a final `l` doubles too: `travelled`.\n\n**Drop** a silent final `e` before an ending that starts with a vowel: `write`, `writing`; `argue`, `arguing`. (Note `argument`, which also drops it.)\n\n**Change** `y` to `i` after a consonant: `study`, `studies`; `country`, `countries`.",
+          "examples": [
+            {
+              "right": "The problem occurred at the beginning of the study.",
+              "wrong": "The problem occured at the begining of the study.",
+              "note": "The stressed final consonant doubles before -ed and -ing."
+            },
+            {
+              "right": "Writing a clear argument takes practice.",
+              "wrong": "Writting a clear arguement takes practice.",
+              "note": "\"Write\" drops its e and does not double the t; \"argument\" drops the e."
+            },
+            {
+              "right": "Several countries have studied the issue.",
+              "wrong": "Several countrys have studyed the issue.",
+              "note": "After a consonant, y becomes i before -es and -ed."
+            }
+          ]
+        },
+        {
+          "heading": "One spelling system, all the way through",
+          "body": "PTE accepts both British and American spelling, but mixing them in one essay looks careless. Since British spelling is used throughout this tool, choose it and keep it.\n\nThe main British patterns: `-ise` (`organise`, `recognise`), `-our` (`behaviour`, `colour`), `-re` (`centre`), `-ogue` (`catalogue`), a doubled `l` (`travelled`), and `programme` for a plan of activities. If your word processor is set to American English, it will quietly correct these, so set it to UK English when you practise.",
+          "examples": [
+            {
+              "right": "The centre organised a programme to change behaviour.",
+              "wrong": "The center organized a programme to change behaviour.",
+              "note": "The wrong version mixes American and British spelling in one sentence."
+            },
+            {
+              "right": "Many workers travelled abroad to find jobs.",
+              "wrong": null,
+              "note": "British spelling doubles the l in \"travelled\"."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'goverment'. Write 'government', because the n from 'govern' stays.",
+        "Writing 'enviroment'. Write 'environment', because the n from 'environ' stays.",
+        "Writing 'seperate'. Write 'separate', because there is 'a rat' in the middle.",
+        "Writing 'occured'. Write 'occurred', because the stressed final r doubles.",
+        "Writing 'untill'. Write 'until', because it has only one l.",
+        "Writing 'recieve'. Write 'receive', because after c the order is e then i."
+      ],
+      "arabic": "In Arabic, short vowels are usually not written, so it is easy to drop an unstressed English vowel as well: 'diffrent', 'intresting', 'goverment'. Arabic spelling also follows sound much more closely than English does, so an Arabic speaker naturally expects to hear the spelling, and English silent letters and weak vowels do not cooperate.",
+      "check": "Read the essay once for spelling only, slowly, stopping on every long word you have not already checked."
+    }
+  ]
+}

@@ -46,8 +46,9 @@ browser's Back button:
 | `/batches/words-3/training` | Drilling Words Batch 3 |
 | `/batches/words-3/retake` | Going over all 20 again, the ones you have cleared included |
 | `/batches/words-3/print` | Its print sheet - shown on screen exactly as it prints, and the print dialog opens |
-| `/grammar` | The grammar syllabus - 24 modules |
-| `/grammar/articles` | One module: the rules, then 12 questions |
+| `/grammar` | The grammar map |
+| `/grammar/clause.boundaries` | One station: its article and your log |
+| `/answers` | Everything you have handed in, and the reviews |
 | `/essays` | Write Essay: one prompt, a 20-minute clock, a word counter, the method and three worked answers |
 | `/practice` | The whole-deck drill |
 
@@ -150,7 +151,7 @@ keyed by the word in lower case:
 
 `[[...]]` is what gets bolded, and it wraps whatever form the sentence uses.
 Adding sentences for a word is a one-file edit and needs no migration - a word
-with no entry simply shows none. Like the grammar syllabus, this content is
+with no entry simply shows none. Like the grammar map, this content is
 read at startup and never written back; nothing in it is study state.
 
 The same sentences come up as a hover card on both tables - the word list and a
@@ -260,45 +261,20 @@ that is a claim made up front rather than after seeing the answer, and a correct
 answer leaves the button exactly where it was. The rule lasts as long as that
 reveal: next time the card comes round it is a fresh attempt.
 
-### Grammar
+### Grammar: the map
 
-Vocabulary is half the problem; the other half is putting it in the right form.
-The **Grammar** tab holds **24 modules and 288 questions**, aimed at the B2-C1
-boundary - the level where the rules are known but slip under time pressure.
+The **Grammar** tab is a map of English grammar laid out like a transit map: ten
+lines (tense, agreement, nouns and determiners, verb patterns, modality, voice,
+clauses, word forms, punctuation, cohesion) and 69 stations, each one rule with an
+article on how it works, right and wrong examples, the usual slips, why Arabic
+makes it hard where it does, and one question to ask yourself when proof-reading.
 
-Eight groups, three modules each: Tenses · Future and Conditionals · Modality ·
-Voice and Reporting · Clause Structure · The Noun Phrase · Verb Patterns and
-Prepositions · Precision and Style.
-
-Every module is built the same way:
-
-- **The rule** - what the form is, when it applies and where it does not,
-  written as a reference rather than a lesson. Right and wrong versions of the
-  same sentence sit side by side, with a line on what separates them.
-- **Where this slips** - the specific traps, named. Several are the ones an
-  Arabic speaker hits hardest: the definite article on generic plurals, the
-  present perfect with a finished time, `discuss about`.
-- **Twelve questions** - seven multiple choice, five fill-in-the-blank. Answer
-  and the explanation appears, along with the accepted answers if you missed it.
-
-**The marking happens on the server.** `/api/grammar` sends the modules with the
-keys and the accepted answers stripped out, so the page cannot be read for the
-answers - guessing from the source is not available to you, deliberately.
-
-Blanks are graded case-insensitively, ignoring extra spaces, and every module
-lists the legitimate variants of an answer, so `'d left` and `had left` both
-pass. Contractions, British and American spellings and equally valid wordings
-are all accepted; if one is ever refused, it is a missing entry in that
-question's `accept` list and worth fixing in the module's JSON file.
-
-Your answers are kept in `data/progress.json` under `grammar`, both the right
-and the wrong counts - so a module you guessed your way through looks different
-from one you actually hold. **Clear my answers for this module** at the foot of
-each module resets just that one.
-
-Adding a module is one file: drop a JSON file into `data/grammar/` following the
-shape of the others and restart. A file that will not parse is reported at
-startup and skipped, rather than taking the tab down with it.
+The colours are yours. Every answer you hand in (essays, the two summaries, and the
+spoken tasks a model has to mark) is saved as text, and `/review-answers` in Claude
+Code reviews it sentence by sentence and files each grammar mistake on the station
+it belongs to. A station fills amber, then orange, then red as the same mistake
+comes back, and opening it shows every time you made it. **My answers** shows each
+review in full. See CLAUDE.md for how the pieces fit.
 
 ### Essays
 
@@ -581,8 +557,8 @@ site data clears it. Everyone starts at 0 of 491.
 headwords are rendered ahead of time and shipped as MP3s. One voice, and no speed
 control - but it plays instantly, with none of the ~2.5s a first local rendering costs.
 
-Grammar answers still are not in the page: the syllabus is served with the answer key
-stripped out, and marking is a round trip, exactly as it is locally.
+The grammar map ships as its articles. Your failure log and **My answers** do not: they
+come from answers saved on your own machine, and the cloud build keeps none.
 
 ### Deploying it
 

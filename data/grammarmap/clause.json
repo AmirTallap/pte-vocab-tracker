@@ -1,0 +1,1014 @@
+{
+  "id": "clause",
+  "name": "Sentences and clauses",
+  "order": 7,
+  "summary": "How clauses join to make sentences: where a sentence ends, how to add detail with who and which, how to link ideas, and how to add emphasis.",
+  "stations": [
+    {
+      "id": "clause.boundaries",
+      "title": "Run-on sentences and comma splices",
+      "summary": "Where one sentence must end and the next begin: a comma alone cannot join two.",
+      "sections": [
+        {
+          "heading": "What a complete sentence needs",
+          "body": "A sentence needs a **subject**, the person or thing doing the action, and a **verb with a tense**, such as `rose`, `is` or `will change`. A subject and its verb together make a **clause**.\n\nSome clauses can stand alone and make complete sense: `Prices rose.` `The chart shows two trends.` Call these **full clauses**. Each one could end with a full stop.\n\nThe whole rule of this station is simple: **two full clauses need a proper join between them.** A full stop is a join. A semicolon is a join. A comma is **not** a join on its own. To check, find each subject and verb pair, then ask: could this part end with a full stop? If two such parts sit side by side, look at what is between them.",
+          "examples": [
+            {
+              "right": "Prices rose in 2020.",
+              "wrong": null,
+              "note": "One subject (prices) and one verb with a tense (rose): a complete sentence."
+            },
+            {
+              "right": "The chart shows two trends. The first is a steady rise in car use.",
+              "wrong": "The chart shows two trends, the first is a steady rise in car use.",
+              "note": "Each half has its own subject and verb, so each half is a sentence and a comma cannot hold them together."
+            },
+            {
+              "right": "Many students work part-time, and this leaves them less time to study.",
+              "wrong": "Many students work part-time this leaves them less time to study.",
+              "note": "Two full clauses need a join; here the join is a comma plus `and`."
+            }
+          ]
+        },
+        {
+          "heading": "Two mistakes: the run-on and the comma splice",
+          "body": "A **run-on sentence** puts two full clauses next to each other with nothing between them. The reader cannot tell where the first idea ends.\n\nA **comma splice** puts only a comma between them. It looks tidier, but it is the same mistake, and examiners and mentors mark it every time.\n\nHow to check: read your sentence and stop at each comma. Cover everything after the comma. Is the part before it a complete sentence? Now cover the part before it. Is the part after it a complete sentence too? If both answers are yes, the comma is wrong. Change it to a full stop or a semicolon, or add a joining word such as `and`, `but` or `so`.\n\nLength is not the problem. A long sentence can be correct, and a short one can be a run-on.",
+          "examples": [
+            {
+              "right": "Urban populations are growing, so cities need more housing.",
+              "wrong": "Urban populations are growing, cities need more housing.",
+              "note": "Both halves could stand alone, so the comma needs a joining word such as `so`."
+            },
+            {
+              "right": "Some people agree with the policy, but others strongly oppose it.",
+              "wrong": "Some people agree with the policy others strongly oppose it.",
+              "note": "The wrong version is a run-on: two sentences with nothing at all between them."
+            },
+            {
+              "right": "Tourism brings money. It also damages fragile environments.",
+              "wrong": "Tourism brings money, it also damages fragile environments.",
+              "note": "Short does not mean safe: this is a comma splice in only nine words."
+            },
+            {
+              "right": "Online courses are flexible, and many are free.",
+              "wrong": null,
+              "note": "Correct: two full clauses joined by a comma plus `and`."
+            }
+          ]
+        },
+        {
+          "heading": "Four ways to fix it",
+          "body": "When you find two full clauses joined wrongly, choose one of four repairs.\n\n**1. A full stop.** Make two sentences. This is always correct.\n\n**2. A semicolon.** Use it when the two ideas are very closely linked. The word after a semicolon has no capital letter.\n\n**3. A comma plus a joining word:** `and`, `but`, `or`, `so`, `yet`. The comma goes before the joining word.\n\n**4. Make one clause depend on the other** with a word like `because`, `although`, `when`, `while` or `which`. Now only one clause can stand alone, so a comma is enough, or no comma at all.\n\nThe fourth repair usually sounds the most academic, because it shows how the two ideas are connected.",
+          "examples": [
+            {
+              "right": "Public transport is cheap. It is often slow.",
+              "wrong": null,
+              "note": "Repair 1: two sentences."
+            },
+            {
+              "right": "Public transport is cheap; it is often slow.",
+              "wrong": null,
+              "note": "Repair 2: a semicolon, with no capital letter after it."
+            },
+            {
+              "right": "Public transport is cheap, but it is often slow.",
+              "wrong": null,
+              "note": "Repair 3: a comma plus `but`."
+            },
+            {
+              "right": "Although public transport is cheap, it is often slow.",
+              "wrong": "Public transport is cheap, it is often slow.",
+              "note": "Repair 4: `although` makes the first clause depend on the second, so the comma is now correct."
+            }
+          ]
+        },
+        {
+          "heading": "The trap words: however, therefore, for example, this",
+          "body": "Words like `however`, `therefore`, `moreover`, `furthermore`, `for example`, `as a result` and `in addition` feel like joining words, but they are not. They only point back to the last sentence. They cannot hold two full clauses together with a comma.\n\nSo before `however`, put a full stop or a semicolon, and after it, a comma.\n\nThe second trap is starting a new clause with `this`, `it`, `they` or `these` after a comma: `Prices rose, this reduced demand.` The word `this` begins a brand new sentence. Either put a full stop before it, or change `this` to `which`, which attaches the second clause to the first.\n\nHow to check: search your essay for each of these words. Look at the punctuation just before it. If it is a comma and a full clause stands on both sides, fix it.",
+          "examples": [
+            {
+              "right": "Fossil fuels are cheap. However, they pollute the air.",
+              "wrong": "Fossil fuels are cheap, however, they pollute the air.",
+              "note": "`However` is not a joining word, so it needs a full stop or semicolon before it."
+            },
+            {
+              "right": "Online learning is flexible; for example, students can watch lectures at night.",
+              "wrong": "Online learning is flexible, for example students can watch lectures at night.",
+              "note": "`For example` introduces a full clause here, so a semicolon or full stop must come first."
+            },
+            {
+              "right": "Prices rose sharply in 2020, which reduced demand.",
+              "wrong": "Prices rose sharply in 2020, this reduced demand.",
+              "note": "`This` starts a new sentence; `which` attaches the second clause to the first."
+            },
+            {
+              "right": "The factory closed. As a result, hundreds of workers lost their jobs.",
+              "wrong": "The factory closed, as a result hundreds of workers lost their jobs.",
+              "note": "`As a result` points back to a sentence that has already ended."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Technology has many benefits, it saves time.' Write 'Technology has many benefits: it saves time.' or 'Technology has many benefits. It saves time.', because a comma alone cannot join two full sentences.",
+        "Writing 'The results were positive, however the sample was small.' Write 'The results were positive; however, the sample was small.', because `however` is not a joining word and needs a full stop or semicolon before it.",
+        "Writing 'Many people drive to work, this causes congestion.' Write 'Many people drive to work, which causes congestion.', because `this` starts a new sentence while `which` joins the idea to the one before.",
+        "Writing 'Some experts support the plan others do not.' Write 'Some experts support the plan, but others do not.', because two full clauses with nothing between them are a run-on.",
+        "Writing 'Sales rose and then they fell and after that they stayed flat and in 2020 they rose again.' Write 'Sales rose and then fell. They stayed flat until 2020, when they rose again.', because a long chain of `and` clauses is hard to follow even when every join is technically allowed."
+      ],
+      "arabic": "Arabic prose often links one clause to the next with `wa` (and) or `fa` (so, then) in long chains, and a paragraph can run as one sentence. Arabic writers also use the comma more freely, often between two complete clauses where English demands a full stop. So an English comma splice looks normal to an Arabic eye. In English, treat the comma as too weak to hold two sentences together: it needs a joining word, or it must become a full stop.",
+      "check": "At every comma, cover each side in turn: if both sides could stand alone as sentences, is there an and, but, so, which or because there, or should it be a full stop or semicolon?"
+    },
+    {
+      "id": "clause.fragments",
+      "title": "Sentence fragments",
+      "summary": "A piece that cannot stand alone: 'Because it is expensive.' is not a sentence.",
+      "sections": [
+        {
+          "heading": "What a fragment is",
+          "body": "A **fragment** is a group of words that starts with a capital letter and ends with a full stop, but is not a complete sentence. It is the opposite mistake to the comma splice: there, a full stop is missing; here, there is a full stop that should not be there.\n\nThe most common fragment starts with a word like `because`, `although`, `when`, `if`, `while` or `since`. These words make a clause **depend** on another one. `Because jobs are easier to find there.` has a subject and a verb, but the reader is still waiting: because of this, what happens?\n\nHow to check: read the sentence alone, as if it were the only thing on the page. If it leaves you waiting for the rest, join it to the sentence before or after it.",
+          "examples": [
+            {
+              "right": "Many families move to cities because jobs are easier to find there.",
+              "wrong": "Many families move to cities. Because jobs are easier to find there.",
+              "note": "A `because` clause cannot stand alone, so join it to the main clause."
+            },
+            {
+              "right": "Although the cost is high, the benefits are greater.",
+              "wrong": "Although the cost is high. The benefits are greater.",
+              "note": "The `although` clause needs the main clause, joined with a comma."
+            },
+            {
+              "right": "When the policy was introduced, crime fell.",
+              "wrong": "When the policy was introduced. Crime fell.",
+              "note": "A `when` clause alone only sets the time; it says nothing happened."
+            }
+          ]
+        },
+        {
+          "heading": "A missing verb or a missing subject",
+          "body": "A sentence also fails if it has no verb with a tense, or no subject.\n\n**No verb:** `The main reason the cost of housing.` There is no `is`. English always needs `is`, `are`, `was` or `were` to link a noun to its description.\n\n**An -ing word alone is not a verb with a tense.** `Social media changing how people communicate.` needs `is changing` or `has changed`.\n\n**No subject:** `Also compares two countries.` Who or what compares? In English the subject must be written, even when it is obvious. Use `it`, `they` or the noun.\n\nHow to check: for each sentence, point at the subject and point at the verb with a tense. If you cannot point at one of them, the sentence is broken.",
+          "examples": [
+            {
+              "right": "The main reason is the cost of housing.",
+              "wrong": "The main reason the cost of housing.",
+              "note": "English needs `is` to link the subject to what it is."
+            },
+            {
+              "right": "Social media has changed how people communicate.",
+              "wrong": "Social media changing how people communicate.",
+              "note": "An -ing form alone has no tense; it needs `is` or a different verb form."
+            },
+            {
+              "right": "The chart shows three trends. It also compares two countries.",
+              "wrong": "The chart shows three trends. Also compares two countries.",
+              "note": "The second sentence needs a subject, here `it`."
+            }
+          ]
+        },
+        {
+          "heading": "Fragments that start with such as, which, especially",
+          "body": "Another group of fragments is extra detail that has been cut off from the sentence it belongs to. It often starts with `such as`, `for instance`, `especially`, `including`, `which` or `for example` followed by only a noun.\n\n`Several countries have high tax rates. Such as Norway and Sweden.` The second part has no verb. It is a list of examples that belongs to the first sentence.\n\nThe repair is almost always to replace the full stop with a comma, or to remove the full stop completely, so that the detail joins the sentence it describes.",
+          "examples": [
+            {
+              "right": "Several countries, such as Norway and Sweden, have high tax rates.",
+              "wrong": "Several countries have high tax rates. Such as Norway and Sweden.",
+              "note": "`Such as Norway and Sweden` has no verb, so it must sit inside a sentence."
+            },
+            {
+              "right": "Unemployment fell sharply, which surprised many economists.",
+              "wrong": "Unemployment fell sharply. Which surprised many economists.",
+              "note": "A `which` clause describes something earlier, so it cannot begin its own sentence."
+            },
+            {
+              "right": "Many young people struggle to pay rent, especially those in large cities.",
+              "wrong": "Many young people struggle to pay rent. Especially those in large cities.",
+              "note": "`Especially those in large cities` has no verb with a tense, so it joins the sentence before."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Many graduates move abroad. Because salaries are higher there.' Write 'Many graduates move abroad because salaries are higher there.', because a `because` clause cannot stand alone.",
+        "Writing 'The biggest problem the lack of teachers.' Write 'The biggest problem is the lack of teachers.', because English needs `is` between a subject and its description.",
+        "Writing 'Technology improving our lives.' Write 'Technology is improving our lives.', because an -ing word on its own has no tense.",
+        "Writing 'The graph shows exports. Also shows imports.' Write 'The graph shows exports. It also shows imports.', because every English sentence needs a written subject.",
+        "Writing 'Some foods are expensive. For example, fresh fish and fruit.' Write 'Some foods, for example fresh fish and fruit, are expensive.', because a list of examples with no verb is not a sentence."
+      ],
+      "arabic": "Arabic has sentences with no verb at all: `al-bayt kabir` is literally 'the house big', and it is complete. English always needs `is`, `are`, `was` or `were` there, so 'The reason the cost.' feels finished to an Arabic speaker when it is not. Arabic verbs also carry the person inside them, so the subject can be left out ('also compares' feels fine because the verb itself says who). In English the subject must be written as a separate word every time.",
+      "check": "Read each sentence alone, out of context: can you point at its subject and at a verb with a tense, and does it avoid starting with because, although, when, which or such as and then stopping?"
+    },
+    {
+      "id": "clause.relative-def",
+      "title": "Defining relative clauses",
+      "summary": "the people who, the reason why, the city where: saying WHICH one you mean.",
+      "sections": [
+        {
+          "heading": "What a defining clause does",
+          "body": "A **defining relative clause** tells the reader **which** person or thing you mean. In `Students who work part-time have less time to study`, the words `who work part-time` pick out one group of students from all students. Without them the sentence would talk about every student, which is a different claim.\n\nUse `who` for people, and `which` or `that` for things. In this kind of clause `that` can be used for people too, but `who` is safer in an essay.\n\nA defining clause has **no commas** around it, because it is not extra information: it is part of the name of the thing.\n\nHow to check: try removing the clause. If the sentence now means something different, or too much, the clause is defining and takes no commas.",
+          "examples": [
+            {
+              "right": "Students who work part-time often have less time to study.",
+              "wrong": null,
+              "note": "`who work part-time` says which students; removing it changes the claim."
+            },
+            {
+              "right": "People who live near airports often suffer from noise.",
+              "wrong": "People which live near airports often suffer from noise.",
+              "note": "Use `who` for people, not `which`."
+            },
+            {
+              "right": "The policy that the government introduced in 2019 has reduced traffic.",
+              "wrong": "The policy, that the government introduced in 2019, has reduced traffic.",
+              "note": "A defining clause takes no commas, and `that` never comes after a comma."
+            }
+          ]
+        },
+        {
+          "heading": "When you can leave out who, which or that",
+          "body": "Sometimes the relative word can be dropped. The test is what comes straight after it.\n\nIf a **new subject** follows (`the book that I read`), the relative word is the object of the verb, and you may drop it: `the book I read`.\n\nIf a **verb** follows (`the factors that affect prices`), the relative word is the subject of that verb, and you **must** keep it. Without it, the sentence has two main verbs and breaks.\n\nHow to check: look at the word after `who`, `which` or `that`. A noun or pronoun there means you may drop it. A verb there means it stays.",
+          "examples": [
+            {
+              "right": "The book I read for the course was excellent.",
+              "wrong": null,
+              "note": "`I` follows, so `that` could be dropped."
+            },
+            {
+              "right": "The factors that affect house prices are complex.",
+              "wrong": "The factors affect house prices are complex.",
+              "note": "`that` is the subject of `affect`, so it cannot be dropped."
+            },
+            {
+              "right": "The data the researchers collected covered ten years.",
+              "wrong": null,
+              "note": "A new subject, `the researchers`, follows, so `that` is optional."
+            },
+            {
+              "right": "A student who misses three classes must see a tutor.",
+              "wrong": "A student misses three classes must see a tutor.",
+              "note": "Without `who`, the sentence has two main verbs and makes no sense."
+            }
+          ]
+        },
+        {
+          "heading": "where, when, why and whose",
+          "body": "Four more relative words are very useful in essays.\n\n`where` means `in which` or `at which`, for places. `when` is for times. `why` comes after `the reason`. `whose` shows that something belongs to the noun before it, for people and things.\n\n`whose` is the one to learn carefully. It replaces both `that` and a possessive word like `their` or `its`. You do not write `countries that their populations are ageing`; you write `countries whose populations are ageing`.\n\nHow to check: if you have written `that his`, `that their` or `that its`, you almost certainly need `whose`.",
+          "examples": [
+            {
+              "right": "This is the city where the conference was held.",
+              "wrong": "This is the city which the conference was held.",
+              "note": "`where` means `in which`; plain `which` leaves out the `in`."
+            },
+            {
+              "right": "2015 was the year when unemployment peaked.",
+              "wrong": null,
+              "note": "`when` introduces a clause about a time."
+            },
+            {
+              "right": "Countries whose populations are ageing face rising health costs.",
+              "wrong": "Countries that their populations are ageing face rising health costs.",
+              "note": "`whose` does the work of `that` plus `their`."
+            },
+            {
+              "right": "That is the reason why many graduates move abroad.",
+              "wrong": null,
+              "note": "`why` follows `the reason`; `the reason that` is also correct."
+            }
+          ]
+        },
+        {
+          "heading": "The verb inside the clause agrees too",
+          "body": "The verb inside a relative clause agrees with the noun that `who`, `which` or `that` points back to. `who` has no number of its own: it borrows it from the noun before it.\n\nSo in `Students who live on campus`, `who` means `students`, which is plural, so the verb is `live`. In `A policy that reduces waste`, `that` means `a policy`, which is singular, so the verb is `reduces`.\n\nHow to check: draw an arrow from `who` or `that` back to its noun. Is that noun one thing or many? Choose the verb form to match.",
+          "examples": [
+            {
+              "right": "Students who live on campus save money on transport.",
+              "wrong": "Students who lives on campus save money on transport.",
+              "note": "`who` stands for `students`, which is plural, so the verb is `live`."
+            },
+            {
+              "right": "A policy that reduces waste is worth funding.",
+              "wrong": "A policy that reduce waste is worth funding.",
+              "note": "`that` stands for `a policy`, which is singular, so the verb is `reduces`."
+            },
+            {
+              "right": "Cities which invest in cycling lanes see fewer car journeys.",
+              "wrong": "Cities which invests in cycling lanes see fewer car journeys.",
+              "note": "`which` stands for `cities`, so the verb is plural."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'the people which work in hospitals'. Write 'the people who work in hospitals', because `which` is for things and `who` is for people.",
+        "Writing 'Children spend hours online are less active.' Write 'Children who spend hours online are less active.', because `who` is the subject of `spend` and cannot be left out.",
+        "Writing 'a company that its profits have fallen'. Write 'a company whose profits have fallen', because `whose` replaces `that` plus `its`.",
+        "Writing 'Workers who earns less'. Write 'Workers who earn less', because `who` takes its number from `workers`.",
+        "Writing 'The method, that we used, was simple.' Write 'The method that we used was simple.', because a defining clause takes no commas."
+      ],
+      "arabic": "In Arabic the relative word `alladhi` (and `allati`, `alladhina`) is used only after a definite noun. After an indefinite noun Arabic uses no relative word at all, so 'I met a man lives in Sydney' follows the Arabic pattern exactly. English needs `who`, `which` or `that` in both cases whenever it is the subject of the clause. Arabic also shows possession with a pronoun inside the clause, which is why `that their` appears where English wants `whose`.",
+      "check": "For each who, which or that: which noun does it point back to, is it the right word for a person or a thing, and does its verb agree with that noun?"
+    },
+    {
+      "id": "clause.relative-non",
+      "title": "Non-defining relative clauses",
+      "summary": "Extra information between commas, and which rather than that.",
+      "sections": [
+        {
+          "heading": "Extra information between commas",
+          "body": "A **non-defining relative clause** adds extra information about something the reader can already identify. In `Canberra, which is the capital of Australia, was designed by two American architects`, we know exactly which city is meant. The clause is a bonus fact.\n\nThis kind of clause always has **commas**: one before it and one after it, unless it ends the sentence, in which case the full stop closes it.\n\nHow to check: delete the clause. If the sentence still names the same thing and still makes sense, the clause is non-defining and needs commas on both sides. Forgetting the second comma is the most common slip.",
+          "examples": [
+            {
+              "right": "Canberra, which is the capital of Australia, was designed by two American architects.",
+              "wrong": "Canberra which is the capital of Australia was designed by two American architects.",
+              "note": "The city is already named, so the extra fact goes between commas."
+            },
+            {
+              "right": "The report, which was published last year, recommends a tax on sugar.",
+              "wrong": "The report, which was published last year recommends a tax on sugar.",
+              "note": "The clause needs a closing comma as well as an opening one."
+            },
+            {
+              "right": "The survey was completed by 500 nurses, who all worked in public hospitals.",
+              "wrong": null,
+              "note": "At the end of a sentence, the full stop closes the clause."
+            }
+          ]
+        },
+        {
+          "heading": "which or who, never that",
+          "body": "After a comma, use `which` for things and `who` for people. **Never use `that`** in a non-defining clause.\n\nYou also cannot leave the relative word out, as you sometimes can in a defining clause. It must always be written.\n\nFor people as the object, formal writing uses `whom`: `Professor Lee, whom the students admired, has retired.` `who` is also accepted there in most writing today.\n\nHow to check: search for `, that`. If a comma is directly before `that` and a clause follows, change `that` to `which` or `who`.",
+          "examples": [
+            {
+              "right": "Solar power, which is becoming cheaper, now supplies a large share of the region's electricity.",
+              "wrong": "Solar power, that is becoming cheaper, now supplies a large share of the region's electricity.",
+              "note": "After a comma, use `which`, not `that`."
+            },
+            {
+              "right": "Professor Lee, who led the study, has since retired.",
+              "wrong": "Professor Lee, which led the study, has since retired.",
+              "note": "Use `who` for a person."
+            },
+            {
+              "right": "The museum, which I visited last year, has reopened.",
+              "wrong": "The museum, I visited last year, has reopened.",
+              "note": "The relative word can never be dropped in a non-defining clause."
+            }
+          ]
+        },
+        {
+          "heading": "Commas change the meaning",
+          "body": "The commas are not decoration. The same words mean different things with and without them.\n\nWithout commas, the clause picks out a **smaller group**: only some of the things are meant.\n\nWith commas, the clause describes **all** of them: every one of the things has this feature.\n\nHow to check: ask yourself whether you mean all of them or only some. If only some, no commas. If all, commas.",
+          "examples": [
+            {
+              "right": "The students who failed the test must retake it.",
+              "wrong": null,
+              "note": "No commas: only the students who failed must retake it."
+            },
+            {
+              "right": "The students, who failed the test, must retake it.",
+              "wrong": null,
+              "note": "Commas: every student failed, and all of them must retake it."
+            },
+            {
+              "right": "Employees who work from home report higher satisfaction.",
+              "wrong": null,
+              "note": "No commas: only the home workers are meant, which is almost certainly the intended claim."
+            }
+          ]
+        },
+        {
+          "heading": "which about a whole idea",
+          "body": "A comma plus `which` can point back to the **whole previous clause**, not only to the last noun. `Car ownership has fallen, which suggests that public transport is improving.` Here `which` means `the fact that car ownership has fallen`.\n\nThis is also one of the best repairs for a comma splice. Writers often put `this` after a comma: `Car ownership has fallen, this suggests...`. That is two sentences joined by a comma. Changing `this` to `which` turns the second sentence into a clause that belongs to the first, and the comma becomes correct.\n\nHow to check: whenever you see `, this` or `, it` starting a new clause, try `, which` instead.",
+          "examples": [
+            {
+              "right": "Car ownership has fallen, which suggests that public transport is improving.",
+              "wrong": "Car ownership has fallen, this suggests that public transport is improving.",
+              "note": "`which` joins the idea to the sentence; `this` would start a new one."
+            },
+            {
+              "right": "Many shops now close on Sundays, which makes weekend shopping difficult.",
+              "wrong": "Many shops now close on Sundays, it makes weekend shopping difficult.",
+              "note": "`it` begins a second sentence; `which` attaches it to the first."
+            },
+            {
+              "right": "The experiment was repeated three times, which increased confidence in the result.",
+              "wrong": null,
+              "note": "`which` refers to the whole action of repeating the experiment."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The Amazon, that is the largest rainforest, is shrinking.' Write 'The Amazon, which is the largest rainforest, is shrinking.', because `that` is never used after a comma.",
+        "Writing 'My supervisor, who read my draft suggested changes.' Write 'My supervisor, who read my draft, suggested changes.', because the clause needs a comma at both ends.",
+        "Writing 'Emissions have fallen, this shows the policy works.' Write 'Emissions have fallen, which shows the policy works.', because `this` starts a new sentence and makes a comma splice.",
+        "Writing 'Paris which hosted the 2024 Olympics is a popular destination.' Write 'Paris, which hosted the 2024 Olympics, is a popular destination.', because extra information about a named place goes between commas."
+      ],
+      "arabic": "Arabic uses the same relative word, `alladhi`, whether the information is essential or extra, and Arabic punctuation does not mark the difference with commas. So the English pair of commas, and the switch from `that` to `which`, can feel like optional decoration. In English they carry meaning: they tell the reader whether you mean all of the things or only some of them.",
+      "check": "Could you delete the clause and still know exactly which thing you mean? If yes, put a comma at both ends and use which or who, never that."
+    },
+    {
+      "id": "clause.resumptive",
+      "title": "No extra pronoun in a relative clause",
+      "summary": "the book that I read, not the book that I read it.",
+      "sections": [
+        {
+          "heading": "The relative word already stands for the noun",
+          "body": "In `the book that I read`, the word `that` already means `the book`. It is the thing that was read. So you must not add `it` after `read`: `the book that I read it` says the book twice.\n\nThe same is true for people and places. `who` already means the person, so no `him` or `them`. `where` already means the place, so no `there`.\n\nThink of the relative clause as having **one empty space** where the noun would normally go. In English that space stays empty.\n\nHow to check: after each `who`, `which`, `that`, `whom` or `where`, read to the end of the clause. If you find `it`, `him`, `her`, `them` or `there` meaning the same noun, delete it.",
+          "examples": [
+            {
+              "right": "The book that I read was very useful.",
+              "wrong": "The book that I read it was very useful.",
+              "note": "`that` already means the book, so `it` repeats it."
+            },
+            {
+              "right": "The researchers we interviewed agreed with the findings.",
+              "wrong": "The researchers that we interviewed them agreed with the findings.",
+              "note": "`them` repeats `the researchers`."
+            },
+            {
+              "right": "The city where I grew up has changed a great deal.",
+              "wrong": "The city where I grew up there has changed a great deal.",
+              "note": "`where` already means `in the city`, so `there` is extra."
+            }
+          ]
+        },
+        {
+          "heading": "With a preposition at the end",
+          "body": "Many verbs come with a preposition: `focus on`, `work for`, `rely on`, `talk about`. In a relative clause, the preposition can go at the end of the clause, with nothing after it: `the issue that the article focuses on`.\n\nThis can look unfinished, so learners add `it`: `focuses on it`. Do not. The preposition is allowed to end the clause.\n\nIn formal writing you can instead move the preposition to the front, before `which` or `whom`: `the issue on which the article focuses`. Never use `that` in this position.",
+          "examples": [
+            {
+              "right": "The issue that the article focuses on is housing.",
+              "wrong": "The issue that the article focuses on it is housing.",
+              "note": "The preposition may end the clause; `it` is not needed."
+            },
+            {
+              "right": "The issue on which the article focuses is housing.",
+              "wrong": "The issue on that the article focuses is housing.",
+              "note": "With the preposition first, use `which`, never `that`."
+            },
+            {
+              "right": "The company she works for is based in Sydney.",
+              "wrong": "The company she works for it is based in Sydney.",
+              "note": "The clause ends at `for`; nothing is missing."
+            }
+          ]
+        },
+        {
+          "heading": "whose, not that plus his or their",
+          "body": "When something belongs to the noun, learners often write `that` and then a possessive word: `students that their parents...`. English combines those two words into one: `whose`.\n\n`whose` works for people and for things: `a country whose economy depends on oil`.\n\nHow to check: search for `that his`, `that her`, `that its` and `that their`. When they refer back to the noun just before `that`, replace both words with `whose`.",
+          "examples": [
+            {
+              "right": "Students whose parents went to university are more likely to apply.",
+              "wrong": "Students that their parents went to university are more likely to apply.",
+              "note": "`whose` replaces `that their`."
+            },
+            {
+              "right": "A country whose economy depends on oil is vulnerable to price changes.",
+              "wrong": "A country that its economy depends on oil is vulnerable to price changes.",
+              "note": "`whose` works for things as well as people."
+            },
+            {
+              "right": "The patient, whose symptoms had worsened, was moved to intensive care.",
+              "wrong": "The patient, that his symptoms had worsened, was moved to intensive care.",
+              "note": "`whose` is also used in non-defining clauses, between commas."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'the problem that we discussed it yesterday'. Write 'the problem that we discussed yesterday', because `that` already stands for the problem.",
+        "Writing 'the people who I asked them'. Write 'the people who I asked' or 'the people I asked', because `who` already stands for the people.",
+        "Writing 'the town where I studied there'. Write 'the town where I studied', because `where` already means `in the town`.",
+        "Writing 'the subject that I am interested in it'. Write 'the subject that I am interested in', because the preposition can end the clause with nothing after it.",
+        "Writing 'workers that their salaries are low'. Write 'workers whose salaries are low', because `whose` replaces `that` plus a possessive word."
+      ],
+      "arabic": "This is one of the clearest cases of Arabic showing through. Arabic requires the extra pronoun: `al-kitaab alladhi qara'tu-hu` is literally 'the book that I read it', and leaving out `-hu` would be wrong in Arabic. So the English sentence without `it` feels incomplete. In English that pronoun is always wrong in a relative clause: the relative word has already done its job.",
+      "check": "After each who, which, that, whom or where, is there an it, him, them, there or their later in the clause that means the same noun? Delete it, or change that + their to whose."
+    },
+    {
+      "id": "clause.conditionals",
+      "title": "Conditionals",
+      "summary": "If it rains, if it rained, if it had rained, and the mixed ones.",
+      "sections": [
+        {
+          "heading": "Real conditions: things that can happen",
+          "body": "Use these when the condition is true in general, or likely in the future.\n\n**General truths:** `if` + present, then present. `If demand rises, prices increase.` This is how things normally work.\n\n**A likely future:** `if` + present, then `will` + verb. `If the government raises taxes, spending will fall.` Note that the `if` part stays in the **present** even though it is about the future.\n\nThe key rule: **no `will` in the `if` clause.** The same applies after `unless`, `when`, `as soon as`, `before` and `until` when they talk about the future.\n\n`unless` means `if not`, so do not add another `not` after it.",
+          "examples": [
+            {
+              "right": "If demand rises, prices usually increase.",
+              "wrong": null,
+              "note": "A general truth: present in both halves."
+            },
+            {
+              "right": "If the government raises taxes, consumption will fall.",
+              "wrong": "If the government will raise taxes, consumption will fall.",
+              "note": "No `will` in the `if` clause, even about the future."
+            },
+            {
+              "right": "Unless cities invest in public transport, congestion will get worse.",
+              "wrong": "Unless cities do not invest in public transport, congestion will get worse.",
+              "note": "`unless` already means `if not`."
+            },
+            {
+              "right": "When the new line opens, journey times will fall.",
+              "wrong": "When the new line will open, journey times will fall.",
+              "note": "`when` about the future also takes the present."
+            }
+          ]
+        },
+        {
+          "heading": "Imagined present: if + past, would",
+          "body": "Use this when you imagine something that is **not true now**, or is unlikely. The verb after `if` goes into the **past** form, but the meaning is present or future: it is past only in shape. The other half uses `would` + verb.\n\n`If public transport were free, more people would use it.` Public transport is not free; we are imagining.\n\nIn formal writing, use `were` for every subject after `if`: `if it were`, `if I were`.\n\nAgain, **no `would` in the `if` clause.** `would` belongs in the result half only.",
+          "examples": [
+            {
+              "right": "If public transport were free, more people would use it.",
+              "wrong": "If public transport would be free, more people would use it.",
+              "note": "`would` goes only in the result half."
+            },
+            {
+              "right": "If I were a policymaker, I would invest in rural schools.",
+              "wrong": "If I am a policymaker, I would invest in rural schools.",
+              "note": "An imagined situation takes the past form, and formal writing prefers `were`."
+            },
+            {
+              "right": "If more people cycled, the air in cities would be cleaner.",
+              "wrong": null,
+              "note": "Past form `cycled` for an imagined present."
+            }
+          ]
+        },
+        {
+          "heading": "Imagined past: if + had done, would have done",
+          "body": "Use this for a past that **did not happen**: a regret, or a judgement about history. The `if` half uses `had` + past participle. The result half uses `would have` + past participle.\n\n`If the council had acted earlier, the flooding would have caused less damage.` The council did not act early; the damage was large.\n\nYou can also use `could have` or `might have` in the result half for a weaker claim.\n\nHow to check: both halves are about the past, so both halves need a `have` or `had`. And there is still no `would` after `if`.",
+          "examples": [
+            {
+              "right": "If the council had acted earlier, the flooding would have caused less damage.",
+              "wrong": "If the council would have acted earlier, the flooding would have caused less damage.",
+              "note": "After `if`, use `had acted`, not `would have acted`."
+            },
+            {
+              "right": "If the data had been checked, the error would not have occurred.",
+              "wrong": "If the data was checked, the error would not occur.",
+              "note": "An imagined past needs `had been` and `would have`."
+            },
+            {
+              "right": "If the company had invested in research, it might have survived.",
+              "wrong": null,
+              "note": "`might have` gives a less certain result."
+            }
+          ]
+        },
+        {
+          "heading": "Mixed conditionals: past and present together",
+          "body": "Sometimes the condition and the result are at different times. Then you mix the forms.\n\n**Past condition, present result:** `if` + `had` + past participle, then `would` + verb. `If the country had invested in renewables years ago, it would be less dependent on imports today.` The investment did not happen in the past; the dependence is a fact now.\n\n**Present condition, past result:** `if` + past, then `would have` + past participle. `If the company were better managed, it would not have lost so much money last year.` The poor management is a general fact now; the loss was last year.\n\nHow to check: ask of each half separately, is this about the past or about now?",
+          "examples": [
+            {
+              "right": "If the country had invested in renewables years ago, it would be less dependent on imports today.",
+              "wrong": "If the country invested in renewables years ago, it would be less dependent on imports today.",
+              "note": "The condition is in the past, so it needs `had invested`."
+            },
+            {
+              "right": "If the company were better managed, it would not have lost so much money last year.",
+              "wrong": null,
+              "note": "A present fact about management, a past result about the loss."
+            },
+            {
+              "right": "If I had chosen engineering, I would be working in Dubai now.",
+              "wrong": null,
+              "note": "Past choice, present result."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'If the economy will grow, unemployment will fall.' Write 'If the economy grows, unemployment will fall.', because the `if` clause takes the present even about the future.",
+        "Writing 'If I would have more time, I would study more.' Write 'If I had more time, I would study more.', because `would` never goes in the `if` clause.",
+        "Writing 'If the government acted sooner, the crisis would not have happened.' Write 'If the government had acted sooner, the crisis would not have happened.', because an imagined past needs `had` after `if`.",
+        "Writing 'Unless you don't practise, you will not improve.' Write 'Unless you practise, you will not improve.', because `unless` already means `if not`.",
+        "Writing 'If the prices were lower, more people will buy them.' Write 'If the prices were lower, more people would buy them.', because an imagined condition takes `would` in the result."
+      ],
+      "arabic": "Arabic conditionals often put both verbs in the past form whatever the time meant, for example after `in` or `idha`, and use `law` for the unreal ones. The time comes from context, not from a pairing of verb forms. English instead has fixed pairs: present with `will`, past with `would`, `had done` with `would have done`. Arabic also has no separate present perfect, so the `had done` and `would have done` shapes have no direct Arabic model and are easy to swap or simplify.",
+      "check": "In every if, unless or when clause: is there a will or would that should not be there, and does the pair of verb forms match the time of each half?"
+    },
+    {
+      "id": "clause.subordination",
+      "title": "Although, because, whereas, despite",
+      "summary": "Joining ideas that disagree or explain each other: although, because, despite.",
+      "sections": [
+        {
+          "heading": "Contrast: although, even though, whereas, while",
+          "body": "`although` and `even though` introduce a fact that you might expect to stop the main idea, but does not. `whereas` and `while` compare two different facts side by side.\n\nAll four are followed by a **full clause**, a subject and a verb. They make that clause depend on the main clause, so together they form one sentence.\n\nThe most important rule: **one joining word is enough.** Do not use `although` and `but` in the same sentence. `although` already does the contrasting.\n\nComma rule: when the `although` clause comes first, put a comma after it. When it comes second, a comma is usually not needed, except before `whereas` and contrastive `while`, which normally take one.",
+          "examples": [
+            {
+              "right": "Although the policy was popular, it failed to reduce emissions.",
+              "wrong": "Although the policy was popular, but it failed to reduce emissions.",
+              "note": "`although` and `but` together say the contrast twice."
+            },
+            {
+              "right": "Some countries rely on coal, whereas others have switched to gas.",
+              "wrong": null,
+              "note": "`whereas` compares two different facts."
+            },
+            {
+              "right": "Even though prices fell, sales did not improve.",
+              "wrong": "Even prices fell, sales did not improve.",
+              "note": "It is `even though` before a clause; `even` alone cannot join."
+            },
+            {
+              "right": "The city grew quickly although its infrastructure did not.",
+              "wrong": null,
+              "note": "No comma is needed when the `although` clause comes second."
+            }
+          ]
+        },
+        {
+          "heading": "despite and in spite of take a noun, not a clause",
+          "body": "`despite` and `in spite of` mean the same as `although`, but they work differently. They are followed by a **noun** or an **-ing** form, never by a subject and a verb.\n\nSo: `despite the high cost`, `despite having fewer resources`. Not `despite the cost is high`.\n\nIf you want a full clause after them, add `the fact that`: `despite the fact that the cost is high`. Or simply switch to `although`.\n\nAlso: it is `despite`, not `despite of`. Only `in spite` takes `of`.",
+          "examples": [
+            {
+              "right": "Despite the high cost, many families buy organic food.",
+              "wrong": "Despite the cost is high, many families buy organic food.",
+              "note": "`despite` needs a noun phrase, not a subject and verb."
+            },
+            {
+              "right": "Despite having fewer resources, the school achieved excellent results.",
+              "wrong": "Despite of having fewer resources, the school achieved excellent results.",
+              "note": "It is `despite` or `in spite of`, never `despite of`."
+            },
+            {
+              "right": "In spite of the fact that unemployment fell, wages remained low.",
+              "wrong": "In spite of unemployment fell, wages remained low.",
+              "note": "Add `the fact that` to use a full clause."
+            }
+          ]
+        },
+        {
+          "heading": "Cause: because, since, as, because of, due to",
+          "body": "The same split applies to reasons.\n\n`because`, `since` and `as` are followed by a **full clause**: `because the roads were flooded`.\n\n`because of`, `due to` and `owing to` are followed by a **noun**: `because of the flooding`.\n\nA `because` clause cannot be a sentence on its own. `Because housing is expensive.` with a full stop is a fragment. It must be joined to the main clause.\n\nHow to check: look at the words straight after the reason word. A subject and verb? Use `because`. A noun only? Use `because of` or `due to`.",
+          "examples": [
+            {
+              "right": "Many flights were cancelled because of the storm.",
+              "wrong": "Many flights were cancelled because the storm.",
+              "note": "Before a noun alone, use `because of`."
+            },
+            {
+              "right": "Because housing is expensive, many young adults live with their parents.",
+              "wrong": "Because housing is expensive. Many young adults live with their parents.",
+              "note": "The `because` clause must be joined to the main clause with a comma."
+            },
+            {
+              "right": "The project was delayed due to a shortage of funding.",
+              "wrong": "The project was delayed due to funding was short.",
+              "note": "`due to` needs a noun, not a clause."
+            },
+            {
+              "right": "As the sample was small, the results should be treated with caution.",
+              "wrong": null,
+              "note": "`as` can give a reason, followed by a full clause."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Although technology is useful, but it can be addictive.' Write 'Although technology is useful, it can be addictive.', because `although` and `but` must not be used together.",
+        "Writing 'Despite the weather was bad, the event went ahead.' Write 'Despite the bad weather, the event went ahead.' or 'Although the weather was bad, the event went ahead.', because `despite` takes a noun, not a clause.",
+        "Writing 'despite of the risks'. Write 'despite the risks' or 'in spite of the risks', because only `in spite` takes `of`.",
+        "Writing 'Sales fell because the recession.' Write 'Sales fell because of the recession.', because `because` alone needs a subject and a verb after it.",
+        "Writing 'Many people cycle to work. Because it is healthy.' Write 'Many people cycle to work because it is healthy.', because a `because` clause cannot stand alone."
+      ],
+      "arabic": "In Arabic it is normal, even elegant, to mark the contrast twice: `raghma anna ... illa anna` is literally 'although ... but'. Carried into English, this gives 'Although the plan was good, but it failed', which English readers see as an error. Also, Arabic `raghma` and `bisabab` can be followed by a whole clause through `anna`, so the English difference between `despite` (noun) and `although` (clause) has no exact match.",
+      "check": "Is there an although and a but in the same sentence? And after despite, because of or due to, is there a noun rather than a subject with a verb?"
+    },
+    {
+      "id": "clause.parallel",
+      "title": "Parallel structure",
+      "summary": "reading, writing and speaking, not reading, to write and speech.",
+      "sections": [
+        {
+          "heading": "Every item in a list has the same shape",
+          "body": "When you list two or more things joined by `and` or `or`, every item should have the **same grammatical form**. If the first is an -ing word, they all are. If the first is `to` + verb, they all are. If the first is an adjective, they all are.\n\nThis is called **parallel structure**. It makes a sentence easy to read, because the reader can predict the pattern.\n\nHow to check: underline each item in the list. Read the words that come before the list with each item on its own: `The course improves reading`, `The course improves to write`. If one of them sounds wrong alone, it is out of line.",
+          "examples": [
+            {
+              "right": "The course improves students' reading, writing and speaking.",
+              "wrong": "The course improves students' reading, to write and speech.",
+              "note": "Three -ing words, not a mix of forms."
+            },
+            {
+              "right": "Governments should reduce taxes, invest in schools and support small businesses.",
+              "wrong": "Governments should reduce taxes, investing in schools and support for small businesses.",
+              "note": "Each item is a base verb after `should`."
+            },
+            {
+              "right": "The new system is cheaper, faster and more reliable.",
+              "wrong": "The new system is cheaper, faster and it is more reliable.",
+              "note": "Three adjectives; the last item should not become a full clause."
+            }
+          ]
+        },
+        {
+          "heading": "Pairs: both...and, either...or, not only...but also",
+          "body": "Some joining words come in two parts: `both ... and`, `either ... or`, `neither ... nor`, `not only ... but also`. What follows the first part must match what follows the second part.\n\n`both affordable and effective`: two adjectives. `either live on campus or rent privately`: two base verbs.\n\nAlso watch the position of the first word. Put it immediately before the first of the two matching items, not earlier in the sentence.",
+          "examples": [
+            {
+              "right": "The scheme is both affordable and effective.",
+              "wrong": "The scheme is both affordable and it works well.",
+              "note": "After `both` and after `and`, there should be the same kind of word."
+            },
+            {
+              "right": "Students can either live on campus or rent privately.",
+              "wrong": "Students can either live on campus or renting privately.",
+              "note": "Two base verbs after `either` and `or`."
+            },
+            {
+              "right": "The policy aims not only to cut costs but also to improve quality.",
+              "wrong": "The policy not only aims to cut costs but also improving quality.",
+              "note": "`to cut` matches `to improve`."
+            }
+          ]
+        },
+        {
+          "heading": "Comparisons: like with like",
+          "body": "When you compare with `than`, `as` or `prefer ... to`, the two things compared must be the same kind of thing, in the same form.\n\n`Reading is more relaxing than watching television`: two -ing forms.\n\nIn describing charts, compare a figure with a figure, not a figure with a place. `The population of Tokyo is larger than that of London` compares a population with a population. `that of` (or `those of` for plurals) stands for the repeated noun.",
+          "examples": [
+            {
+              "right": "Reading a book is more relaxing than watching television.",
+              "wrong": "Reading a book is more relaxing than to watch television.",
+              "note": "Two -ing forms on either side of `than`."
+            },
+            {
+              "right": "The population of Tokyo is larger than that of London.",
+              "wrong": "The population of Tokyo is larger than London.",
+              "note": "In academic writing, compare a population with a population, not with a city."
+            },
+            {
+              "right": "Many commuters prefer cycling to driving.",
+              "wrong": "Many commuters prefer cycling than driving.",
+              "note": "`prefer` takes `to` before the second item, and both are -ing forms."
+            },
+            {
+              "right": "Salaries in the private sector are higher than those in the public sector.",
+              "wrong": null,
+              "note": "`those` stands for the plural `salaries`."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The benefits include saving money, to reduce stress and better health.' Write 'The benefits include saving money, reducing stress and improving health.', because every item in a list should have the same form.",
+        "Writing 'Working from home is cheaper and saves time and the flexibility.' Write 'Working from home is cheaper, faster and more flexible.' or 'Working from home saves money, time and stress.', because a list should not jump between adjectives, verbs and nouns.",
+        "Writing 'Students can either study online or attending classes.' Write 'Students can either study online or attend classes.', because the words after `either` and `or` must match.",
+        "Writing 'The income of doctors is higher than teachers.' Write 'The income of doctors is higher than that of teachers.', because a comparison should set an income against an income.",
+        "Writing 'I prefer to study alone than in a group.' Write 'I prefer studying alone to studying in a group.' or 'I would rather study alone than in a group.', because `prefer` takes `to`, not `than`."
+      ],
+      "arabic": "",
+      "check": "Find every and, or, both, either, not only and than: are the things on each side of it the same kind of word or phrase?"
+    },
+    {
+      "id": "clause.embedded",
+      "title": "Embedded questions",
+      "summary": "I do not know what the answer is, not what is the answer.",
+      "sections": [
+        {
+          "heading": "A question inside a statement uses normal word order",
+          "body": "An **embedded question** is a question placed inside a longer sentence: `I do not know what the answer is.` `The study examines why young people leave rural areas.`\n\nThe rule: after the question word (`what`, `why`, `how`, `where`, `when`, `who`), use **statement order**: subject first, then verb. Do not swap them as you would in a direct question. And do not add `do`, `does` or `did`.\n\nDirect question: `Why do young people leave?` Embedded: `...why young people leave.`\n\nThe sentence as a whole is a statement, so it ends with a full stop, not a question mark.",
+          "examples": [
+            {
+              "right": "I do not know what the answer is.",
+              "wrong": "I do not know what is the answer.",
+              "note": "Subject `the answer` comes before the verb `is`."
+            },
+            {
+              "right": "The study examines why young people leave rural areas.",
+              "wrong": "The study examines why do young people leave rural areas.",
+              "note": "No `do`: the question is part of a statement."
+            },
+            {
+              "right": "It is unclear how the funding will be spent.",
+              "wrong": "It is unclear how will the funding be spent.",
+              "note": "Subject `the funding` before `will`."
+            },
+            {
+              "right": "The chart shows how much each country spent on education.",
+              "wrong": "The chart shows how much did each country spend on education.",
+              "note": "No `did`, and the verb takes its own past form, `spent`."
+            }
+          ]
+        },
+        {
+          "heading": "Yes or no questions: if and whether",
+          "body": "A direct yes or no question has no question word: `Is the treatment effective?` When you embed it, add `if` or `whether`, then use statement order.\n\n`Researchers asked whether the treatment was effective.`\n\n`whether` is the better choice in academic writing, and it is the only choice after a preposition (`about whether`), before `to` + verb (`whether to invest`), and at the start of a sentence.",
+          "examples": [
+            {
+              "right": "Researchers asked whether the treatment was effective.",
+              "wrong": "Researchers asked was the treatment effective.",
+              "note": "Add `whether` and put the subject before `was`."
+            },
+            {
+              "right": "It is not clear whether the policy will succeed.",
+              "wrong": "It is not clear will the policy succeed.",
+              "note": "`whether` plus statement order."
+            },
+            {
+              "right": "The debate is about whether governments should intervene.",
+              "wrong": "The debate is about if governments should intervene.",
+              "note": "After a preposition, only `whether` is possible."
+            }
+          ]
+        },
+        {
+          "heading": "When the whole sentence really is a question",
+          "body": "If the outer sentence is itself a question, like `Could you explain ...?` or `Do you know ...?`, the sentence ends with a question mark. But the embedded part still uses statement order.\n\n`Could you explain why the figures differ?` The question mark belongs to `Could you explain`, not to `why the figures differ`.\n\nHow to check: find the question word in the middle of your sentence. Read from there to the end. It should sound like a plain statement: `why the figures differ`, `where the library is`.",
+          "examples": [
+            {
+              "right": "Could you explain why the figures differ?",
+              "wrong": "Could you explain why do the figures differ?",
+              "note": "The outer question takes the question mark; the inner part keeps statement order."
+            },
+            {
+              "right": "Do you know where the library is?",
+              "wrong": "Do you know where is the library?",
+              "note": "`the library` comes before `is`."
+            },
+            {
+              "right": "The lecturer asked how many students had finished the reading.",
+              "wrong": "The lecturer asked how many students had finished the reading?",
+              "note": "A reported question is a statement and ends with a full stop."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The graph illustrates how has the number of tourists changed.' Write 'The graph illustrates how the number of tourists has changed.', because inside a statement the subject comes before the verb.",
+        "Writing 'I wonder why do people believe fake news.' Write 'I wonder why people believe fake news.', because an embedded question takes no `do`.",
+        "Writing 'It is important to understand what are the causes.' Write 'It is important to understand what the causes are.', because the subject `the causes` comes before `are`.",
+        "Writing 'The survey asked did people feel safe.' Write 'The survey asked whether people felt safe.', because a yes or no question inside a statement needs `whether` or `if`.",
+        "Writing 'This essay will discuss why is education important?' Write 'This essay will discuss why education is important.', because the whole sentence is a statement."
+      ],
+      "arabic": "",
+      "check": "After know, ask, explain, show, discuss, wonder or it is unclear: does the question word come before a plain subject and then its verb, with no do, does or did?"
+    },
+    {
+      "id": "clause.inversion",
+      "title": "Inversion for emphasis",
+      "summary": "Not only does it ..., Rarely have we ...: question order after a negative opening.",
+      "sections": [
+        {
+          "heading": "A negative word first, then question order",
+          "body": "When a sentence **starts** with a negative or limiting word, English swaps the subject and the helping verb, as in a question. This is called **inversion**, and it adds strong emphasis.\n\nThe words that trigger it include: `Not only`, `Never`, `Rarely`, `Seldom`, `Little`, `Hardly ... when`, `No sooner ... than`, `Under no circumstances`, `At no time`.\n\nHow to form it: take the helping verb (`have`, `is`, `can`, `will`) and put it before the subject. If there is no helping verb, add `do`, `does` or `did`, just as you would to make a question: `pollution harms` becomes `does pollution harm`.",
+          "examples": [
+            {
+              "right": "Not only does pollution harm health, but it also damages crops.",
+              "wrong": "Not only pollution harms health, but it also damages crops.",
+              "note": "After `Not only` at the start, add `does` before the subject."
+            },
+            {
+              "right": "Rarely have we seen such rapid growth.",
+              "wrong": "Rarely we have seen such rapid growth.",
+              "note": "`have` moves before `we`."
+            },
+            {
+              "right": "Never before had so many people moved to cities.",
+              "wrong": "Never before so many people had moved to cities.",
+              "note": "`had` moves before the subject."
+            },
+            {
+              "right": "Hardly had the policy been introduced when prices began to rise.",
+              "wrong": "Hardly the policy had been introduced when prices began to rise.",
+              "note": "`Hardly` at the start takes question order, and pairs with `when`."
+            }
+          ]
+        },
+        {
+          "heading": "Only when, only after, not until: invert the second clause",
+          "body": "With `Only when`, `Only after`, `Only if` and `Not until`, the sentence has two clauses. The first one, the time or condition, keeps normal order. The inversion happens in the **second** clause, the main one.\n\n`Only when the results were analysed did the pattern become clear.` The first clause is normal: `the results were analysed`. The second is inverted: `did the pattern become`.\n\nHow to check: find the comma point where the main idea begins, and make sure the helping verb comes before the subject there.",
+          "examples": [
+            {
+              "right": "Only when the results were analysed did the pattern become clear.",
+              "wrong": "Only when the results were analysed the pattern became clear.",
+              "note": "The main clause is inverted: `did the pattern become`."
+            },
+            {
+              "right": "Not until the law changed did attitudes begin to shift.",
+              "wrong": "Not until the law changed attitudes began to shift.",
+              "note": "`did` comes before `attitudes` in the main clause."
+            },
+            {
+              "right": "Only after the second trial were the side effects noticed.",
+              "wrong": null,
+              "note": "`were` moves before `the side effects`."
+            }
+          ]
+        },
+        {
+          "heading": "Only when the word comes first, and use it sparingly",
+          "body": "Inversion happens **only when** the negative word opens the sentence. If `rarely` or `never` sits in its usual place, in the middle, use normal order.\n\nAlso, `only` in front of a plain noun subject does not trigger inversion: `Only ten per cent of respondents agreed.` is normal order, because `only ten per cent` is itself the subject.\n\nIn an essay, one or two inversions show range and control. More than that sounds forced. A correct plain sentence is always better than a wrong inverted one.",
+          "examples": [
+            {
+              "right": "Governments rarely admit their mistakes.",
+              "wrong": "Governments rarely do they admit their mistakes.",
+              "note": "`rarely` is in the middle, so no inversion."
+            },
+            {
+              "right": "Only ten per cent of respondents agreed with the proposal.",
+              "wrong": null,
+              "note": "`Only ten per cent` is the subject, so the order is normal."
+            },
+            {
+              "right": "We have never seen such a sharp decline.",
+              "wrong": "We have never seen we such a sharp decline.",
+              "note": "Normal order when `never` is not first."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Not only it reduces costs, but it also saves time.' Write 'Not only does it reduce costs, but it also saves time.', because `Not only` at the start needs question order.",
+        "Writing 'Seldom we find such clear evidence.' Write 'Seldom do we find such clear evidence.', because a negative opening word needs `do` before the subject.",
+        "Writing 'Only when the figures were published the public reacted.' Write 'Only when the figures were published did the public react.', because the main clause after `Only when` is inverted.",
+        "Writing 'Not only does it reduce costs but also saves time.' Write 'Not only does it reduce costs, but it also saves time.', because the second half needs its own subject, `it`.",
+        "Writing 'Never I have seen such a result.' Write 'Never have I seen such a result.' or 'I have never seen such a result.', because inversion is needed when `never` comes first."
+      ],
+      "arabic": "",
+      "check": "Does the sentence open with not only, never, rarely, seldom, hardly or only when? Then the helping verb (do, have, is, can) must come before the subject in the main clause."
+    },
+    {
+      "id": "clause.cleft",
+      "title": "Cleft sentences",
+      "summary": "What matters most is ..., It is X that ...: putting one idea in the spotlight.",
+      "sections": [
+        {
+          "heading": "What ... is ...",
+          "body": "A **cleft sentence** splits one idea into two parts to put focus on one of them. The first pattern starts with `What`.\n\nPlain: `The quality of teaching matters most.` Cleft: `What matters most is the quality of teaching.`\n\nHere `what` means `the thing that`. So never write `the thing what` or add another `it`: `what` already includes the noun.\n\nThe verb in the middle is normally `is` or `was`. The part after it can be a noun, a clause, or `to` + verb.",
+          "examples": [
+            {
+              "right": "What matters most is the quality of teaching.",
+              "wrong": "The thing what matters most is the quality of teaching.",
+              "note": "`what` already means `the thing that`."
+            },
+            {
+              "right": "What the chart shows is a clear decline in smoking.",
+              "wrong": "What the chart shows it is a clear decline in smoking.",
+              "note": "No extra `it`: `What the chart shows` is already the subject."
+            },
+            {
+              "right": "What surprised researchers was how quickly attitudes changed.",
+              "wrong": "What surprised researchers was how quickly did attitudes change.",
+              "note": "After `how quickly`, keep statement order."
+            }
+          ]
+        },
+        {
+          "heading": "It is ... that ...",
+          "body": "The second pattern is `It is` or `It was`, then the part you want to focus on, then `that` (or `who` for people), then the rest.\n\n`It is the cost of housing, not wages, that worries young people most.`\n\nThis is ideal for **correcting** a view or setting two things against each other. Use `It is` for the present and `It was` for the past.\n\nThe verb after `that` agrees with the focused part: `It is the cost that worries` (one cost), `It is young people who suffer` (many people).",
+          "examples": [
+            {
+              "right": "It is the cost of housing, not wages, that worries young people most.",
+              "wrong": "It is the cost of housing, not wages, that worry young people most.",
+              "note": "The verb agrees with `the cost`, which is singular."
+            },
+            {
+              "right": "It was in 2008 that the financial crisis began.",
+              "wrong": null,
+              "note": "`It was` for a past event; the focus is on the date."
+            },
+            {
+              "right": "It was the junior researchers who first noticed the error.",
+              "wrong": null,
+              "note": "`who` for people in the focus position."
+            }
+          ]
+        },
+        {
+          "heading": "When to use them",
+          "body": "Cleft sentences are strong. Use them where emphasis earns its place: to answer a common opinion, to state your main point in an introduction or conclusion, or to pick out the key feature of a chart.\n\nA good pattern in an essay: state the common view, then correct it with a cleft. `Many people blame technology. However, it is the way we use it that causes the problem.`\n\nOne or two in an essay is plenty. Every sentence in this shape would make the writing sound heavy.",
+          "examples": [
+            {
+              "right": "Many people blame technology. However, it is the way we use it that causes the problem.",
+              "wrong": null,
+              "note": "The cleft corrects the common view."
+            },
+            {
+              "right": "What this essay argues is that education, not law, changes behaviour.",
+              "wrong": null,
+              "note": "A clear statement of position for an introduction."
+            },
+            {
+              "right": "What the government needs to do is invest in public transport.",
+              "wrong": "What the government needs to do it is invest in public transport.",
+              "note": "After `what ... do`, the verb can follow directly, with no `it`."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The thing what I want to say is this.' Write 'What I want to say is this.', because `what` already means `the thing that`.",
+        "Writing 'What we need it is more research.' Write 'What we need is more research.', because the `What` clause is already the subject and needs no extra `it`.",
+        "Writing 'It is the students that suffers.' Write 'It is the students who suffer.', because the verb agrees with the plural `students`.",
+        "Writing 'It is in 2008 that the crisis began.' Write 'It was in 2008 that the crisis began.', because the event is in the past."
+      ],
+      "arabic": "",
+      "check": "In a What ... is or It is ... that sentence: is there no extra it or the thing, and does the verb agree with the thing you are focusing on?"
+    }
+  ]
+}

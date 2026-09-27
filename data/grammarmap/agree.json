@@ -1,0 +1,648 @@
+{
+  "id": "agree",
+  "name": "Agreement",
+  "order": 2,
+  "summary": "Making words match in number and person: verbs with their subjects, pronouns with the nouns they replace, and determiners and numbers with the nouns they introduce.",
+  "stations": [
+    {
+      "id": "agree.sv-basic",
+      "title": "Subject and verb agree",
+      "summary": "He works, they work: the third-person -s.",
+      "sections": [
+        {
+          "heading": "The -s on the verb",
+          "body": "In the present simple, English adds -s to the verb when the subject is one thing and not I or you: he, she, it, or a singular noun. `This policy helps`, `technology changes`, `the city grows`. When the subject is more than one thing, or is I, you, we or they, there is no -s: `these policies help`, `cities grow`.\n\nNotice that this is the opposite of nouns. A plural noun has -s (`cities`), but the verb after it does not (`cities grow`). So in a simple subject and verb pair there is usually one -s, never two and never none: `the city grows`, `the cities grow`.",
+          "examples": [
+            {
+              "right": "This policy helps families on low incomes.",
+              "wrong": "This policy help families on low incomes.",
+              "note": "Policy is one thing, so help needs -s."
+            },
+            {
+              "right": "Cities grow when people move from the countryside.",
+              "wrong": "Cities grows when people move from the countryside.",
+              "note": "Cities is plural, so the verb has no -s."
+            },
+            {
+              "right": "Technology changes the way students learn.",
+              "wrong": "Technology change the way students learns.",
+              "note": "Technology is singular, so changes; students is plural, so learn."
+            }
+          ]
+        },
+        {
+          "heading": "Be, have and do",
+          "body": "The three most common verbs change more than just adding -s. In the present: `I am`, `he is`, `they are`; `he has`, `they have`; `she does`, `they do`. In the past, only `be` changes: `was` for I, he, she, it and singular nouns, `were` for you, we, they and plural nouns. Every other verb has one past form for everyone.\n\nIn negatives and questions, the -s moves onto `does`: `The evidence does not support this`, `Does this approach work?` The main verb then loses its -s. Check that the -s is never on both.",
+          "examples": [
+            {
+              "right": "The results were clear.",
+              "wrong": "The results was clear.",
+              "note": "Results is plural, so the past of be is were."
+            },
+            {
+              "right": "The university has a new library.",
+              "wrong": "The university have a new library.",
+              "note": "University is singular, so have becomes has."
+            },
+            {
+              "right": "The evidence does not support this claim.",
+              "wrong": "The evidence does not supports this claim.",
+              "note": "After does, the verb has no -s."
+            },
+            {
+              "right": "Does this approach work in practice?",
+              "wrong": "Does this approach works in practice?",
+              "note": "The -s is already on does, so work stays plain."
+            }
+          ]
+        },
+        {
+          "heading": "Where to look when you check",
+          "body": "Agreement matters in only a few places: present verbs, `is` and `are`, `was` and `were`, and `has` and `have`. Past verbs such as `increased`, and verbs after `will`, `can` or `should`, are the same for every subject, so they cannot go wrong. That makes checking fast.\n\nWhen proof-reading, stop at every present verb and every is, are, was, were, has and have. Find its subject and ask: one thing, or more than one?\n\nSome words ending in -s are singular and take a singular verb: `news`, `economics`, `physics`, `mathematics`. `The news is`, `economics is`.",
+          "examples": [
+            {
+              "right": "Economics is a popular subject among international students.",
+              "wrong": "Economics are a popular subject among international students.",
+              "note": "Economics is the name of one subject, so it is singular."
+            },
+            {
+              "right": "The news was announced this morning.",
+              "wrong": "The news were announced this morning.",
+              "note": "News is singular despite its -s."
+            },
+            {
+              "right": "Many people think that cities are too crowded.",
+              "wrong": "Many people thinks that cities are too crowded.",
+              "note": "People is plural, so think has no -s."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'This problem affect everyone'. Write 'This problem affects everyone', because problem is one thing.",
+        "Writing 'Many people thinks that...'. Write 'Many people think that...', because people is plural.",
+        "Writing 'The results was surprising'. Write 'The results were surprising', because results is plural.",
+        "Writing 'It don't work'. Write 'It doesn't work', because it is singular and takes does.",
+        "Writing 'The evidence doesn't supports it'. Write 'The evidence doesn't support it', because the -s is already on does.",
+        "Writing 'Children needs attention'. Write 'Children need attention', because children is plural even without an -s."
+      ],
+      "arabic": "Arabic verbs do agree with their subjects, but through prefixes and endings for person, gender and number, not through a single -s that appears only with he, she and it. Two Arabic rules actively mislead. A verb placed before a plural subject stays singular (\"qarrara al-wuzara'\", literally \"decided the ministers\" with a singular verb). And a plural of things, not people, takes feminine singular agreement: \"al-mudun takbur\" is literally \"the cities grows\". Arabic also has no \"is\" or \"are\" in the present, so there is no habit of choosing between them.",
+      "check": "Circle each present verb and each is, are, was, were, has and have: what is its subject, and is that one thing or many?"
+    },
+    {
+      "id": "agree.sv-distant",
+      "title": "Agreement across a long subject",
+      "summary": "The cost of the new buildings IS high: find the real subject.",
+      "sections": [
+        {
+          "heading": "The real subject is often not the nearest noun",
+          "body": "In academic writing, subjects are often long. `The cost of the new buildings` is a subject of six words, and the verb comes after all of them. The verb agrees with the **head noun**: the main word of the subject, the one the sentence is really about. Here the head is `cost`, not `buildings`. One cost, so: `The cost of the new buildings is high.`\n\nThe trap is that the noun right next to the verb is often plural when the head is singular, or the other way round. Your ear hears `buildings is` and wants to change it to `are`. Do not trust the nearest noun; find the head.",
+          "examples": [
+            {
+              "right": "The cost of the new buildings is high.",
+              "wrong": "The cost of the new buildings are high.",
+              "note": "The subject is cost, which is singular; buildings is only part of the of phrase."
+            },
+            {
+              "right": "The effects of climate change are already visible.",
+              "wrong": "The effects of climate change is already visible.",
+              "note": "The head is effects, which is plural, even though change is singular."
+            },
+            {
+              "right": "The number of students applying to universities has increased.",
+              "wrong": "The number of students applying to universities have increased.",
+              "note": "The head is number, so the verb is singular."
+            },
+            {
+              "right": "A number of students have complained about the new timetable.",
+              "wrong": "A number of students has complained about the new timetable.",
+              "note": "A number of means several, so the verb is plural; the number of is singular."
+            }
+          ]
+        },
+        {
+          "heading": "How to find the head noun",
+          "body": "Take the whole subject and cross out everything that only describes the main noun: phrases beginning with `of`, `in`, `for`, `with` or `from`; clauses beginning with `who`, `which` or `that`; and -ing phrases. What is left is the head. Then read the head and the verb together as a short sentence: `The cost ... is`, `The effects ... are`.\n\nOnly `and` joins two subjects into a plural. Phrases such as `as well as`, `along with` and `together with` add information but do not change the number of the subject.",
+          "examples": [
+            {
+              "right": "One of the main reasons for these changes is the rise in living costs.",
+              "wrong": "One of the main reasons for these changes are the rise in living costs.",
+              "note": "Cross out of the main reasons for these changes: one is."
+            },
+            {
+              "right": "Students who work part-time while studying often find it hard to rest.",
+              "wrong": "Students who work part-time while studying often finds it hard to rest.",
+              "note": "Cross out who work part-time while studying: students find."
+            },
+            {
+              "right": "The director, as well as her assistants, was present at the meeting.",
+              "wrong": "The director, as well as her assistants, were present at the meeting.",
+              "note": "As well as does not join subjects, so the director was."
+            },
+            {
+              "right": "Rising prices and low wages make life difficult for young families.",
+              "wrong": "Rising prices and low wages makes life difficult for young families.",
+              "note": "And joins two subjects, so the verb is plural."
+            }
+          ]
+        },
+        {
+          "heading": "Who, which and that take their number from their noun",
+          "body": "Inside a clause beginning with `who`, `which` or `that`, the verb agrees with the noun that word points back to. In `urges that need attention`, `that` means the urges, which are plural, so the verb is `need`. In `a policy that needs reform`, `that` means the policy, so the verb is `needs`.\n\nTo check, replace `who`, `which` or `that` with its noun in your head: `urges ... need`, `policy ... needs`. Do this for every such clause in your writing, because the relative word itself gives you no clue: `that` looks the same whether it means one thing or many.",
+          "examples": [
+            {
+              "right": "These urges, which need to be controlled, can damage relationships.",
+              "wrong": "These urges, which needs to be controlled, can damage relationships.",
+              "note": "Which refers to urges, a plural noun, so the verb is need."
+            },
+            {
+              "right": "A policy that needs constant reform is not working.",
+              "wrong": "A policy that need constant reform is not working.",
+              "note": "That refers to policy, which is singular."
+            },
+            {
+              "right": "Young people who spend hours online may sleep less.",
+              "wrong": "Young people who spends hours online may sleep less.",
+              "note": "Who refers to people, which is plural."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'The quality of the products are poor'. Write 'The quality of the products is poor', because the subject is quality, not products.",
+        "Writing 'The number of cars have risen'. Write 'The number of cars has risen', because the head noun is number.",
+        "Writing 'One of the biggest problems are pollution'. Write 'One of the biggest problems is pollution', because the subject is one.",
+        "Writing 'this crazy urges that needs'. Write 'these urges that need', because that points back to urges, which is plural, so both the determiner and the verb change.",
+        "Writing 'The teacher, along with the students, are responsible'. Write 'The teacher, along with the students, is responsible', because along with does not make the subject plural."
+      ],
+      "arabic": "In an Arabic construct phrase such as \"taklifat al-mabani\" (the cost of the buildings), the first noun is the head, just as in English. The difficulty is elsewhere. Because a plural of things takes feminine singular agreement in Arabic, an Arabic speaker has rarely had to decide whether a verb about things should be singular or plural, so the ear has no training and the nearest noun wins. In relative clauses Arabic uses \"allati\", the feminine singular form, for plural things: \"al-raghabat allati tahtaju\" is literally \"the urges that needs\". So \"urges that needs\" is correct Arabic carried into English, not carelessness.",
+      "check": "Cross out every of phrase, every who, which or that clause and every -ing phrase in the subject: what noun is left, and does the verb match it? Then do the same for the noun each who, which or that points back to."
+    },
+    {
+      "id": "agree.there",
+      "title": "There is or there are",
+      "summary": "The noun after the verb decides it.",
+      "sections": [
+        {
+          "heading": "The noun after the verb decides",
+          "body": "In a sentence that begins with `there`, the word `there` is not the real subject. It only announces that something exists. The real subject comes after the verb, so you have to look ahead before you choose: `There is a problem`, `There are several problems`.\n\nCheck it by turning the sentence round in your head: `a problem is (there)`, `several problems are (there)`. If the noun is singular or uncountable, use `is` or `was`. If it is plural, use `are` or `were`. The same rule decides between `has been` and `have been`.",
+          "examples": [
+            {
+              "right": "There are many reasons for this trend.",
+              "wrong": "There is many reasons for this trend.",
+              "note": "Reasons is plural, so the verb is are."
+            },
+            {
+              "right": "There is little evidence that the policy works.",
+              "wrong": "There are little evidence that the policy works.",
+              "note": "Evidence is uncountable, so the verb is is."
+            },
+            {
+              "right": "There have been several studies on this topic.",
+              "wrong": "There has been several studies on this topic.",
+              "note": "Studies is plural, so has becomes have."
+            },
+            {
+              "right": "There was a sharp fall in sales in 2009.",
+              "wrong": "There were a sharp fall in sales in 2009.",
+              "note": "A fall is singular, so the verb is was."
+            }
+          ]
+        },
+        {
+          "heading": "Look past the words in between",
+          "body": "Sometimes a phrase comes between the verb and the noun, or the noun has several words in front of it. Look past all of them to the noun itself: `There are, according to recent surveys, three main causes.`\n\nBe careful with amounts. `A lot of` and `some` do not decide the verb; the noun after them does: `There is a lot of pollution`, `There are a lot of cars`. `A number of` always means several, so it takes `are`.\n\nWhen you list several things, the verb is simplest to choose if the plural item comes first: `There are two laboratories and a library on the campus.`",
+          "examples": [
+            {
+              "right": "There are, according to recent surveys, three main causes of stress at work.",
+              "wrong": "There is, according to recent surveys, three main causes of stress at work.",
+              "note": "Look past the inserted phrase to the noun: causes is plural."
+            },
+            {
+              "right": "There is a lot of pollution in the city centre.",
+              "wrong": "There are a lot of pollution in the city centre.",
+              "note": "Pollution is uncountable, and the noun decides, not a lot of."
+            },
+            {
+              "right": "There are a number of issues that need to be discussed.",
+              "wrong": "There is a number of issues that needs to be discussed.",
+              "note": "A number of issues means several issues, so both verbs are plural."
+            },
+            {
+              "right": "There are two laboratories and a library on the campus.",
+              "wrong": null,
+              "note": "Putting the plural item first makes the verb easy to choose."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'There is many advantages'. Write 'There are many advantages', because advantages is plural.",
+        "Writing 'There's several reasons' in an essay. Write 'There are several reasons', because the noun is plural, and contractions are best avoided in formal writing.",
+        "Writing 'There are a lot of pollution'. Write 'There is a lot of pollution', because pollution is uncountable.",
+        "Writing 'There has been many changes'. Write 'There have been many changes', because changes is plural.",
+        "Writing 'In my country have many problems'. Write 'In my country there are many problems', because English needs there and a verb that agrees with problems."
+      ],
+      "arabic": "Arabic says \"hunaka mashakil\" or simply \"fi baladi mashakil\" (in my country, problems), with no verb at all in the present, so there is nothing to agree. When a learner adds the English \"there is\", it is easy to treat it as a fixed phrase like \"hunaka\" and never change it to \"there are\". Some learners also leave out \"there\" completely and write \"In my country have many problems\".",
+      "check": "After every there is, there are, there was and there has been: what is the noun that follows, and is it one, many or uncountable?"
+    },
+    {
+      "id": "agree.indefinite",
+      "title": "Each, every, everyone, none",
+      "summary": "Singular words that feel plural.",
+      "sections": [
+        {
+          "heading": "Each, every and everyone are singular",
+          "body": "`Each`, `every`, and the words built on every, `everyone`, `everybody` and `everything`, take a singular verb. `Each` and `every` also take a singular noun. This feels wrong, because they talk about a whole group. But grammatically they look at the members one at a time: every student, one by one. So: `Every student has`, `Everyone knows`, `Each country sets`.\n\nThe same is true of `someone`, `anyone`, `no one`, `nobody` and `nothing`. Check: after each and every the noun has no -s, and the verb is singular: -s in the present, or `is`, `was`, `has`.",
+          "examples": [
+            {
+              "right": "Every student has the right to a fair assessment.",
+              "wrong": "Every student have the right to a fair assessment.",
+              "note": "Every looks at students one by one, so the verb is singular."
+            },
+            {
+              "right": "Everyone knows that exercise is good for health.",
+              "wrong": "Everyone know that exercise is good for health.",
+              "note": "Everyone is grammatically one person, so know takes -s."
+            },
+            {
+              "right": "Each country sets its own targets.",
+              "wrong": "Each countries set their own targets.",
+              "note": "Each is followed by a singular noun and a singular verb."
+            }
+          ]
+        },
+        {
+          "heading": "Each of, one of and neither of",
+          "body": "When `each`, `one` or `neither` is followed by `of` and a plural noun, the noun is plural but the verb stays singular, because the subject is still one: `Each of the students has a tutor.` `One of the main causes is poverty.`\n\n`Every` cannot be followed directly by `of`. Write `each of the students` or `every one of the students`, never `every of the students`.",
+          "examples": [
+            {
+              "right": "Each of the participants was interviewed twice.",
+              "wrong": "Each of the participants were interviewed twice.",
+              "note": "The subject is each, which is singular."
+            },
+            {
+              "right": "One of the most serious problems is air pollution.",
+              "wrong": "One of the most serious problem is air pollution.",
+              "note": "After one of the, the noun is plural and the verb singular."
+            },
+            {
+              "right": "Every one of the applicants has a degree.",
+              "wrong": "Every of the applicants has a degree.",
+              "note": "Every needs one before of."
+            },
+            {
+              "right": "Neither of the proposals is likely to succeed.",
+              "wrong": null,
+              "note": "In formal writing neither of takes a singular verb."
+            }
+          ]
+        },
+        {
+          "heading": "All, most, half and none: look at the noun after of",
+          "body": "Words of amount such as `all`, `most`, `some` and `half` agree with the noun that follows them. With an uncountable noun, the verb is singular: `Most of the money was spent.` With a plural noun, it is plural: `Most of the students were satisfied.`\n\n`None of` with a plural noun can take either verb. A singular verb is traditional and formal; a plural verb is common in modern writing. Both are correct. What matters is that the rest of the sentence agrees with your choice.",
+          "examples": [
+            {
+              "right": "Most of the money was spent on infrastructure.",
+              "wrong": "Most of the money were spent on infrastructure.",
+              "note": "Money is uncountable, so the verb is singular."
+            },
+            {
+              "right": "Half of the respondents were under thirty.",
+              "wrong": "Half of the respondents was under thirty.",
+              "note": "Respondents is plural, so the verb is plural."
+            },
+            {
+              "right": "None of the solutions is perfect.",
+              "wrong": null,
+              "note": "A singular verb after none of is formal and correct; are is also accepted."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Everyone have their own opinion'. Write 'Everyone has their own opinion', because everyone takes a singular verb; their is still fine.",
+        "Writing 'Every students must attend'. Write 'Every student must attend', because every is followed by a singular noun.",
+        "Writing 'Each of them have a role'. Write 'Each of them has a role', because the subject is each, which is singular.",
+        "Writing 'One of the reason is cost'. Write 'One of the reasons is cost', because one of the needs a plural noun.",
+        "Writing 'All of the information are online'. Write 'All of the information is online', because information is uncountable."
+      ],
+      "arabic": "The Arabic word \"kull\" does the work of each, every and all: \"kull talib\" (every student) has a singular noun, but \"kull al-tullab\" (all the students) has a plural one, and the verb follows that noun. Because one Arabic word covers both, learners mix the English patterns and write \"every students\" or \"each countries\", and \"each of the students have\" feels natural, since Arabic would make the verb plural there.",
+      "check": "Is the subject each, every, everyone, one or neither? Then the verb is singular, whatever plural noun comes after of."
+    },
+    {
+      "id": "agree.pronoun-number",
+      "title": "Pronouns agree with what they replace",
+      "summary": "Women ... they; a partner ... he or she, or they.",
+      "sections": [
+        {
+          "heading": "Match the pronoun to the noun it replaces",
+          "body": "A pronoun (`it`, `they`, `he`, `she`) stands in for a noun you have already used. It must match that noun in number. If the noun is plural, the pronoun is plural: `Smartphones are useful, but they can be distracting.` If the noun is singular, the pronoun is singular: `The policy was popular because it reduced costs.`\n\nPossessives follow the same rule: `its` for one thing, `their` for many. To check, draw an arrow in your head from each pronoun back to its noun and ask: one or many?",
+          "examples": [
+            {
+              "right": "Smartphones are useful, but they can also be distracting.",
+              "wrong": "Smartphones are useful, but it can also be distracting.",
+              "note": "They replaces smartphones, which is plural."
+            },
+            {
+              "right": "The bridge was closed because its foundations were damaged.",
+              "wrong": "The bridge was closed because their foundations were damaged.",
+              "note": "The bridge is one thing, so the possessive is its."
+            },
+            {
+              "right": "These problems are serious, and they will not disappear on their own.",
+              "wrong": "These problems are serious, and it will not disappear on its own.",
+              "note": "Problems is plural, so the pronoun is they and the possessive is their."
+            }
+          ]
+        },
+        {
+          "heading": "One person of unknown sex: he or she, or they",
+          "body": "When you write about one person in general (`a partner`, `a student`, `the user`), English has two correct choices. `He or she` is precise but heavy if repeated. Singular `they` is now standard, including in academic writing: `If a user forgets their password, they can reset it.` The verb after singular they is still plural: `they are`, `they have`.\n\nUsing only `he` for everyone is now seen as old-fashioned. What you must avoid is changing between the options in one piece: pick one and keep it. Often the easiest solution is to make the noun plural: `Students who work hard will see their results improve.`",
+          "examples": [
+            {
+              "right": "When a partner feels ignored, they may withdraw from the relationship.",
+              "wrong": null,
+              "note": "Singular they is standard for one person of unknown sex, and takes a plural verb."
+            },
+            {
+              "right": "If a student is struggling, he or she should speak to a tutor.",
+              "wrong": null,
+              "note": "He or she is also correct, though heavy if repeated."
+            },
+            {
+              "right": "If a user forgets their password, they can reset it online.",
+              "wrong": "If a user forgets his password, they can reset it online.",
+              "note": "Choose one option for the person and use it for the whole sentence."
+            },
+            {
+              "right": "Students who work hard will see their results improve.",
+              "wrong": "Students who work hard will see his results improve.",
+              "note": "Students is plural, so the possessive is their."
+            }
+          ]
+        },
+        {
+          "heading": "This, these, it and they after a sentence",
+          "body": "`This` and `it` can refer back to a whole idea in the previous sentence: `Prices rose sharply. This caused hardship.` But if you mean a plural noun, you need `these` or `they`: `The reforms were unpopular. They were reversed two years later.`\n\nWhen a reader might not know what `it` or `this` points to, add a noun: `this problem`, `these changes`. That also makes you check the number, because the noun must agree with `this` or `these`.",
+          "examples": [
+            {
+              "right": "The reforms were unpopular, and they were later reversed.",
+              "wrong": "The reforms were unpopular, and it was later reversed.",
+              "note": "They refers back to reforms, which is plural."
+            },
+            {
+              "right": "Prices rose sharply. This change caused hardship for many families.",
+              "wrong": null,
+              "note": "Adding a noun after this makes the reference clear."
+            },
+            {
+              "right": "Several factories closed. These closures cost thousands of jobs.",
+              "wrong": "Several factories closed. This closures cost thousands of jobs.",
+              "note": "Closures is plural, so this becomes these."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Children need attention, and he should be listened to'. Write 'Children need attention, and they should be listened to', because children is plural.",
+        "Writing 'Social problems are complex because it has many causes'. Write 'Social problems are complex because they have many causes', because they replaces problems.",
+        "Writing 'The city is proud of their history'. Write 'The city is proud of its history', because city is one thing.",
+        "Writing 'a partner ... he ... they ... she' in one paragraph. Write they every time, or he or she every time, because switching makes the reader think a new person has appeared."
+      ],
+      "arabic": "In Arabic, a plural of things, not people, is referred to with the feminine singular pronoun \"hiya\", which also serves as \"it\". So \"al-mashakil ... hiya\" is literally \"the problems ... it\", and carried into English this produces \"the problems are serious and it has many causes\". The English rule is simpler: many things are always they. Arabic also has no neutral pronoun for one person of unknown sex, so the English choice between he or she and singular they has no Arabic model and needs a deliberate decision.",
+      "check": "Draw an arrow from each it, they, its, their, this and these to its noun: one or many, and have you kept to one choice for a person?"
+    },
+    {
+      "id": "agree.person",
+      "title": "Staying in one person",
+      "summary": "Not switching between men, you and one in the same piece.",
+      "sections": [
+        {
+          "heading": "What person means",
+          "body": "**Person** is the point of view the writing takes. First person is `I` or `we`. Second person is `you`. Third person is everything else: `he`, `she`, `it`, `they`, `one`, and any noun, such as `people`, `men`, `students` or `a partner`.\n\nAn essay about society is normally written in the third person: `people`, `individuals`, `young adults`, with `they` to refer back to them. `You` belongs to conversation and instructions. `I` is used where you give your opinion (`I believe`) or an example from your own life.",
+          "examples": [
+            {
+              "right": "People who exercise regularly tend to sleep better.",
+              "wrong": "If you exercise regularly, you tend to sleep better.",
+              "note": "An academic essay describes people in general in the third person rather than addressing the reader as you."
+            },
+            {
+              "right": "In my opinion, governments should invest more in public transport.",
+              "wrong": null,
+              "note": "I is appropriate when you state your own position."
+            }
+          ]
+        },
+        {
+          "heading": "Pick one form for your group and keep it",
+          "body": "The mistake is not using `men`, `you` or `a partner`. It is moving between them in one paragraph when you mean the same people. `Men often hide their feelings. When you are under pressure, you ... and his partner ...` The reader now sees three different people: men, the reader, and one particular man.\n\nBefore you write a paragraph, decide who you are talking about and in which form: plural (`men ... they ... their partners`) or singular (`a man ... he ... his partner`). The plural is usually easier, because it avoids the he or she problem. When you proof-read, list every word that refers to that group. They should all be the same person and the same number.",
+          "examples": [
+            {
+              "right": "Men often hide their feelings. When they are under pressure, they may withdraw from their partners.",
+              "wrong": "Men often hide their feelings. When you are under pressure, you may withdraw from his partner.",
+              "note": "The paragraph is about men, so it stays with men, they and their."
+            },
+            {
+              "right": "A student who works part-time has less time to study, and he or she may fall behind.",
+              "wrong": "A student who works part-time has less time to study, and you may fall behind.",
+              "note": "The subject is a student, so the pronoun must refer to that student, not to the reader."
+            },
+            {
+              "right": "Employees are more productive when they feel valued by their managers.",
+              "wrong": "Employees are more productive when you feel valued by your manager.",
+              "note": "Employees stays in the third person all the way through."
+            }
+          ]
+        },
+        {
+          "heading": "One, and why not to overuse it",
+          "body": "`One` is a formal third-person word for people in general: `One should consider the costs.` It must not be mixed with `you` or `he`. If you start with one, continue with one: `one ... one's`, not `one ... your`.\n\nHowever, repeating `one` sounds stiff. In most PTE essays a plural noun such as `people`, `individuals` or `citizens`, followed by `they`, is clearer and more natural.",
+          "examples": [
+            {
+              "right": "One should consider the long-term costs before making a decision.",
+              "wrong": "One should consider the long-term costs before you make a decision.",
+              "note": "Once you begin with one, do not switch to you."
+            },
+            {
+              "right": "Individuals should consider the long-term costs before they make a decision.",
+              "wrong": null,
+              "note": "A plural noun with they is often the most natural choice."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'Men feel pressure, and you need to understand his partner'. Write 'Men feel pressure, and they need to understand their partners', because the paragraph is about men.",
+        "Writing 'If a person wants to succeed, you must work hard'. Write 'If people want to succeed, they must work hard', because the subject was a person, not the reader.",
+        "Writing 'One must be careful with your money'. Write 'One must be careful with one's money', or better 'People must be careful with their money', because one and your are different persons.",
+        "Writing 'Students ... we ... they' for the same group in one paragraph. Write they throughout, because you are writing about students, not as one of them."
+      ],
+      "arabic": "Arabic often speaks about people in general with a definite singular noun, \"al-insan\" (the human being) or \"al-rajul\" (the man), followed by \"he\", while English prefers a plural such as \"people\" or \"men\" with \"they\". A learner who starts with the English plural and then thinks in the Arabic singular ends up with \"men ... his partner\". Classical Arabic rhetoric even values a sudden change of person, called \"iltifat\", as a stylistic device; English academic writing reads the same change as an error.",
+      "check": "List every word in the paragraph that refers to the people you are writing about: are they all the same person and the same number?"
+    },
+    {
+      "id": "agree.determiner-noun",
+      "title": "Determiner and noun agree",
+      "summary": "this/these, much/many, one of the + plural noun.",
+      "sections": [
+        {
+          "heading": "This and that, these and those",
+          "body": "`This` and `that` go with a singular noun or an uncountable noun: `this problem`, `that research`. `These` and `those` go with a plural noun: `these problems`, `those urges`. So the choice depends on the noun that follows, and you must look at the noun first.\n\nDoes it end in a plural -s, or is it an irregular plural such as `people`, `children` or `women`? Then use these or those. Then check that the verb follows as well: `these urges need`, not `these urges needs`.",
+          "examples": [
+            {
+              "right": "These urges need to be understood, not ignored.",
+              "wrong": "This urges needs to be understood, not ignored.",
+              "note": "Urges is plural, so the determiner is these and the verb is need."
+            },
+            {
+              "right": "This research shows a clear pattern.",
+              "wrong": "These research shows a clear pattern.",
+              "note": "Research is uncountable, so it takes this."
+            },
+            {
+              "right": "These children read every day and have a wide vocabulary.",
+              "wrong": "This children read every day and have a wide vocabulary.",
+              "note": "Children is an irregular plural, so it takes these."
+            }
+          ]
+        },
+        {
+          "heading": "Much and many, less and fewer, amount and number",
+          "body": "English separates **countable** nouns, which you can put a number in front of (`students`, `jobs`, `cars`), from **uncountable** nouns, which have no plural (`money`, `information`, `pollution`, `advice`, `research`).\n\n`Many`, `few`, `fewer` and `a number of` go with plural countable nouns: `many jobs`, `fewer cars`. `Much`, `little`, `less` and `an amount of` go with uncountable nouns: `much pollution`, `less waste`. `A lot of`, `some`, `more` and `most` go with both.\n\nTo check, ask: could I put a number in front of this noun? If yes, use many, few or number.",
+          "examples": [
+            {
+              "right": "Many people use public transport in large cities.",
+              "wrong": "Much people use public transport in large cities.",
+              "note": "People is a plural countable noun, so it takes many."
+            },
+            {
+              "right": "The government spent a large amount of money on the project.",
+              "wrong": "The government spent a large number of money on the project.",
+              "note": "Money is uncountable, so it takes amount, not number."
+            },
+            {
+              "right": "Fewer cars enter the city centre on weekdays.",
+              "wrong": "Less cars enter the city centre on weekdays.",
+              "note": "Cars can be counted, so formal writing uses fewer."
+            },
+            {
+              "right": "Students need more information about their options.",
+              "wrong": "Students need more informations about their options.",
+              "note": "Information is uncountable and has no plural form."
+            }
+          ]
+        },
+        {
+          "heading": "Words that fix the number of the noun",
+          "body": "Some determiners decide the number of the noun after them. `One of the`, `some of the`, `many of the`, `both` and `several` need a plural noun: `one of the reasons`, `both sides`, `several studies`. `Each`, `every`, `another`, `a` and `an` need a singular noun: `every citizen`, `another reason`, `a factor`.\n\nLearn these as pairs. When you write one of them, look at the next noun and make sure it has the number the word demands.",
+          "examples": [
+            {
+              "right": "One of the reasons for the decline is cost.",
+              "wrong": "One of the reason for the decline is cost.",
+              "note": "One of the always needs a plural noun."
+            },
+            {
+              "right": "Another factor is the lack of affordable housing.",
+              "wrong": "Another factors is the lack of affordable housing.",
+              "note": "Another means one more, so the noun is singular."
+            },
+            {
+              "right": "Both sides of the argument have some merit.",
+              "wrong": "Both side of the argument have some merit.",
+              "note": "Both needs a plural noun."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'this urges'. Write 'these urges', because urges is plural; this goes only with a singular or uncountable noun.",
+        "Writing 'much problems'. Write 'many problems', because problems can be counted.",
+        "Writing 'a large number of pollution'. Write 'a large amount of pollution', because pollution is uncountable.",
+        "Writing 'one of the main cause'. Write 'one of the main causes', because one of the needs a plural noun.",
+        "Writing 'researches' or 'advices'. Write 'research' and 'advice', because these nouns are uncountable and have no plural."
+      ],
+      "arabic": "In Arabic, a plural noun for things, not people, takes a feminine singular demonstrative: \"hadhihi al-raghabat\" is literally \"this urges\". So \"this urges\" is not carelessness; it is correct Arabic grammar carried into English. Arabic also uses one word, \"kathir\", for both much and many, and \"ma'lumat\" (information) is plural in Arabic, so \"much people\" and \"informations\" follow naturally. In English, look at the noun: plural means these, those and many.",
+      "check": "Look at every this, that, much, many, one of and another: does the noun after it have the number it needs?"
+    },
+    {
+      "id": "agree.number-noun",
+      "title": "Plural nouns after numbers",
+      "summary": "two years, several reasons, these urges.",
+      "sections": [
+        {
+          "heading": "Every number above one takes a plural noun",
+          "body": "In English the rule is simple: after any number greater than one, the noun is plural. `Two years`, `twenty years`, `a hundred years`, `3.5 million people`, `1.5 hours`. Nothing changes at eleven or at a hundred. The noun stays plural however large the number is.\n\nThe same applies to words that give an amount without an exact number: `several reasons`, `a few examples`, `many factors`, `numerous studies`, `both countries`.",
+          "examples": [
+            {
+              "right": "The project took twelve years to complete.",
+              "wrong": "The project took twelve year to complete.",
+              "note": "Any number above one needs a plural noun."
+            },
+            {
+              "right": "The survey asked more than 200 students about their habits.",
+              "wrong": "The survey asked more than 200 student about their habits.",
+              "note": "Large numbers still take a plural noun."
+            },
+            {
+              "right": "There are several reasons for this decline.",
+              "wrong": "There are several reason for this decline.",
+              "note": "Several always means more than one, so the noun is plural."
+            }
+          ]
+        },
+        {
+          "heading": "Numbers used as describing words",
+          "body": "There is one exception. When a number and a noun are joined with a hyphen and together describe another noun, the noun stays singular: `a ten-year plan`, `a two-hour lecture`, `a five-page essay`. Here `ten-year` works like an adjective, and English adjectives never take -s.\n\nCompare `The plan lasts ten years` (a noun, so plural) with `a ten-year plan` (a describing word, so singular). If there is a hyphen and another noun follows, drop the -s.",
+          "examples": [
+            {
+              "right": "The government announced a ten-year plan for renewable energy.",
+              "wrong": "The government announced a ten-years plan for renewable energy.",
+              "note": "Ten-year describes the plan, so it has no -s."
+            },
+            {
+              "right": "The plan will last ten years.",
+              "wrong": "The plan will last ten year.",
+              "note": "Here years is a noun after a number, so it is plural."
+            },
+            {
+              "right": "Students attend a two-hour lecture every Monday.",
+              "wrong": "Students attend a two-hours lecture every Monday.",
+              "note": "A number joined to a noun by a hyphen before another noun stays singular."
+            }
+          ]
+        },
+        {
+          "heading": "Hundred, thousand, million and units",
+          "body": "`Hundred`, `thousand` and `million` have no -s after an exact number: `three hundred students`, `two million people`. They take -s only when they give a vague large amount and are followed by `of`: `hundreds of students`, `millions of people`.\n\nIn chart descriptions, check the unit after the number as well: `2 degrees`, `3 kilometres`, `10 hours`. `Per cent` is the exception, because it never takes -s: `45 per cent`.",
+          "examples": [
+            {
+              "right": "Two million people live in the region.",
+              "wrong": "Two millions people live in the region.",
+              "note": "After an exact number, million has no -s."
+            },
+            {
+              "right": "Thousands of workers lost their jobs during the recession.",
+              "wrong": "Thousand of workers lost their jobs during the recession.",
+              "note": "Without an exact number, thousands of shows a vague large amount."
+            },
+            {
+              "right": "Average temperatures rose by 2 degrees over the period.",
+              "wrong": "Average temperatures rose by 2 degree over the period.",
+              "note": "The unit after a number above one is plural."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'for twenty year'. Write 'for twenty years', because every number above one takes a plural noun.",
+        "Writing 'three millions dollars'. Write 'three million dollars', because million has no -s after an exact number.",
+        "Writing 'a five-years study'. Write 'a five-year study', because a number joined to a noun before another noun works as an adjective.",
+        "Writing 'several reason'. Write 'several reasons', because several means more than one.",
+        "Writing 'hundred of people'. Write 'hundreds of people', because a vague amount with of takes -s."
+      ],
+      "arabic": "Arabic changes the noun after a number in a way English does not. From three to ten the noun is plural, but from eleven to ninety-nine it is singular (\"ishrun sana\", literally \"twenty year\"), and after a hundred or a thousand it is singular too (\"mi'at talib\", literally \"a hundred student\"). An Arabic speaker has learnt that big numbers take a singular noun, which is exactly the wrong habit for English, where everything above one is plural.",
+      "check": "After every number, and after several, few and many: is the noun plural, unless it is joined with a hyphen to another noun?"
+    }
+  ]
+}

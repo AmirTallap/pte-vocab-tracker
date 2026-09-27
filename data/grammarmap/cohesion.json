@@ -1,0 +1,391 @@
+{
+  "id": "cohesion",
+  "name": "Cohesion and flow",
+  "order": 10,
+  "summary": "How sentences and paragraphs connect: linking words, clear reference and consistent person, avoiding repetition, paragraph structure and concision.",
+  "stations": [
+    {
+      "id": "cohesion.linkers",
+      "title": "Linking words",
+      "summary": "However, therefore, moreover: what they mean and how to punctuate them.",
+      "sections": [
+        {
+          "heading": "Choose the linker by its meaning",
+          "body": "A linking word tells the reader how the next idea relates to the last one, so it must match that relation. There are four main families.\n\n**Adding**: `moreover`, `furthermore`, `in addition`, `also`. **Contrast**: `however`, `nevertheless`, `in contrast`, `on the other hand`. **Result**: `therefore`, `as a result`, `consequently`. **Example**: `for example`, `for instance`.\n\nTo check, read the two sentences and name the relation in plain words: `and also`, `but`, `so`, or `for example`. Then make sure your linker belongs to that family. `On the other hand` needs a first hand: an opposing point just before it.",
+          "examples": [
+            {
+              "right": "Public transport reduces congestion. Moreover, it lowers emissions.",
+              "wrong": "Public transport reduces congestion. However, it lowers emissions.",
+              "note": "The second point adds to the first; it does not contrast with it."
+            },
+            {
+              "right": "The drug was effective. However, it caused serious side effects.",
+              "wrong": "The drug was effective. Therefore, it caused serious side effects.",
+              "note": "The side effects are a contrast, not a result of the drug working."
+            },
+            {
+              "right": "Fees rose sharply. As a result, applications fell.",
+              "wrong": "Fees rose sharply. Moreover, applications fell.",
+              "note": "The fall happened because of the rise, so a result linker is needed."
+            }
+          ]
+        },
+        {
+          "heading": "Sentence linkers and joining words are punctuated differently",
+          "body": "There are two kinds of linking word, and mixing them up causes run-on sentences.\n\n**Sentence linkers** such as `however`, `therefore`, `moreover`, `in addition` and `as a result` do not join two sentences into one. They sit at the start of a new sentence, or after a semicolon, and are followed by a comma.\n\n**Joining words** such as `and`, `but`, `so`, `because`, `although`, `while` and `whereas` really do join two clauses into one sentence.\n\nThe check: if you could swap your linker for `but` or `so`, and you have only a comma before it, you have written a run-on. Also, each contrast needs only one word: `although` already contains the `but`.",
+          "examples": [
+            {
+              "right": "The plan was cheap. However, it was unpopular.",
+              "wrong": "The plan was cheap, however it was unpopular.",
+              "note": "\"However\" cannot join two sentences with only a comma."
+            },
+            {
+              "right": "The plan was cheap, but it was unpopular.",
+              "wrong": null,
+              "note": "\"But\" is a joining word, so a comma before it is enough."
+            },
+            {
+              "right": "Although the plan was cheap, it was unpopular.",
+              "wrong": "Although the plan was cheap, but it was unpopular.",
+              "note": "\"Although\" and \"but\" mark the same contrast; English uses only one."
+            }
+          ]
+        },
+        {
+          "heading": "Nouns after because of and despite",
+          "body": "Some linkers take a whole clause (a subject and a verb), and some take only a noun phrase. `Because`, `although` and `while` take a clause: `because prices rose`. `Because of`, `due to`, `despite` and `in spite of` take a noun: `because of rising prices`, `despite the high cost`.\n\nSo when you write one of these, look at what comes next. If it has its own verb, use `because` or `although`. If it is a noun, use `because of` or `despite`.",
+          "examples": [
+            {
+              "right": "Despite the high cost, the scheme was popular.",
+              "wrong": "Despite the cost is high, the scheme was popular.",
+              "note": "\"Despite\" takes a noun phrase, not a clause."
+            },
+            {
+              "right": "Many shops closed because of rising rents.",
+              "wrong": "Many shops closed because of rents rose.",
+              "note": "\"Because of\" takes a noun phrase; \"because\" would take the clause."
+            },
+            {
+              "right": "Although the cost is high, the scheme is popular.",
+              "wrong": null,
+              "note": "\"Although\" takes a full clause with its own verb."
+            }
+          ]
+        },
+        {
+          "heading": "Do not overuse them",
+          "body": "A linker is useful where the relation between two ideas is not obvious. It is not needed at the start of every sentence, and piling two together (`Moreover, also`) says the same thing twice. Too many linkers make an essay sound mechanical, as if the writer is ticking boxes.\n\nWhen the structure itself shows the relation, as in `Some argue ... Others believe ...`, you may not need one at all. Aim for a linker every two or three sentences, placed where the direction of the argument changes.",
+          "examples": [
+            {
+              "right": "Remote work saves travel time. It also reduces office costs.",
+              "wrong": "Moreover, remote work saves travel time. Furthermore, it also reduces office costs.",
+              "note": "\"Furthermore\" and \"also\" do the same job, and the first sentence adds to nothing."
+            },
+            {
+              "right": "Some argue that exams cause stress. Others believe they motivate students.",
+              "wrong": null,
+              "note": "\"Some ... Others\" already shows the contrast, so no linker is needed."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing ', however it'. Write '. However, it' or '; however, it', because 'however' does not join sentences.",
+        "Writing 'Although ..., but ...'. Write one or the other, because both mark the same contrast.",
+        "Writing 'because of prices rose'. Write 'because prices rose' or 'because of rising prices', because 'because of' takes a noun, not a clause.",
+        "Writing 'Despite the cost is high'. Write 'Despite the high cost' or 'Although the cost is high', because 'despite' takes a noun.",
+        "Writing 'On the other hand' with no opposing point before it. Write 'In addition' or 'However' as the meaning requires, because 'on the other hand' needs a first side.",
+        "Writing 'Moreover' at the start of every sentence. Write a linker only where the relation needs showing, because too many sound mechanical."
+      ],
+      "arabic": "In Arabic, pairs like 'ma'a anna ... illa anna' (although ... but) are natural and complete, so 'Although ..., but ...' feels correct in English too. Arabic also starts most sentences with 'wa' or 'fa', and joins clauses freely with them. In English that habit turns into sentences beginning with 'And', linkers at the start of every sentence, and 'however' used like 'but' with only a comma.",
+      "check": "At each linker: does its meaning match the relation, and is it punctuated as a sentence linker (full stop or semicolon before) or a joining word?"
+    },
+    {
+      "id": "cohesion.reference",
+      "title": "Clear reference",
+      "summary": "Making sure it, this and they point at one thing, and keeping the same person.",
+      "sections": [
+        {
+          "heading": "One pronoun, one clear target",
+          "body": "A pronoun such as `it`, `they`, `them` or `their` stands in for a noun you have already written. The reader always links it to a noun, usually the nearest suitable one. If two nouns could fit, the reader has to guess, and may guess wrong.\n\nThe check: point at each pronoun and then point at the exact noun it means. If you can point at two nouns, repeat the noun you mean or rebuild the sentence. If you can point at none, the pronoun has nothing to refer to, and you need to name the thing.",
+          "examples": [
+            {
+              "right": "When the government met the unions, the unions rejected the offer.",
+              "wrong": "When the government met the unions, they rejected the offer.",
+              "note": "\"They\" could mean the government or the unions."
+            },
+            {
+              "right": "The report compares cars with buses and finds that buses produce less pollution per passenger.",
+              "wrong": "The report compares cars with buses and finds that they produce less pollution per passenger.",
+              "note": "\"They\" could be the cars or the buses."
+            },
+            {
+              "right": "Every country must protect its borders.",
+              "wrong": "Every country must protect their borders.",
+              "note": "A country is one thing and not a person, so the pronoun is \"its\"."
+            }
+          ]
+        },
+        {
+          "heading": "This, plus a noun",
+          "body": "`This` at the start of a sentence often points back at a whole idea rather than one noun. That is fine when there is only one idea behind it. But when the sentence before contains two facts, a bare `this` leaves the reader unsure which one you mean.\n\nThe fix is simple and it also sounds more academic: put a noun after `this`. `This increase`, `this problem`, `this policy`, `this gap`. The noun names exactly what you are pointing at, and it also acts as a short summary of the previous sentence.",
+          "examples": [
+            {
+              "right": "Rents doubled and wages stayed flat. This gap forced many families to move.",
+              "wrong": "Rents doubled and wages stayed flat. This forced many families to move.",
+              "note": "A bare \"this\" could mean either fact; \"this gap\" says which."
+            },
+            {
+              "right": "Some schools ban phones in class. This policy has improved concentration.",
+              "wrong": null,
+              "note": "\"This policy\" names what \"this\" points at."
+            }
+          ]
+        },
+        {
+          "heading": "Keep the same person and number",
+          "body": "Once you choose how to talk about people, keep that choice. If you start with `men` or `people`, continue with `they` and `their`. If you start with `a student`, continue with `he or she` or `they`. Do not switch to `you` or `we` halfway through, and do not move from a plural (`men`) to a singular (`his partner`).\n\nThis is one of the slips your corrections have shown. The check: underline every word that refers to the people you are writing about, from the first sentence of the paragraph to the last. They should all belong to the same group and the same number.",
+          "examples": [
+            {
+              "right": "When men become fathers, they often change their priorities.",
+              "wrong": "When men become fathers, you often change his priorities.",
+              "note": "The paragraph started with \"men\", so it continues with \"they\" and \"their\"."
+            },
+            {
+              "right": "Students who work part-time often find that they have less time for their studies.",
+              "wrong": "Students who work part-time often find that you have less time for your studies.",
+              "note": "\"Students\" is the group, so the pronouns stay \"they\" and \"their\"."
+            },
+            {
+              "right": "If a patient misses an appointment, he or she may wait weeks for another.",
+              "wrong": "If a patient misses an appointment, you may wait weeks for another.",
+              "note": "The sentence is about \"a patient\", not the reader."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'men ... you ... his partner'. Write 'men ... they ... their partners', because the whole passage is about the same group.",
+        "Writing 'the company ... their profits'. Write 'the company ... its profits', because a company is one thing.",
+        "Writing 'This shows' after two facts. Write 'This rise shows' or 'This gap shows', because a bare 'this' could mean either.",
+        "Writing 'the policy which the government introduced it'. Write 'the policy which the government introduced', because 'which' already stands for the policy.",
+        "Writing 'they' where two plural nouns came before. Write the noun you mean again, because the reader cannot tell which one 'they' is."
+      ],
+      "arabic": "Arabic uses a pronoun inside a relative clause where English does not ('the policy that the government introduced it'), so an extra 'it' feels necessary. Arabic also marks gender and number clearly on verbs and pronouns, which makes an English 'they' seem clearer than it is. Classical Arabic style even switches person deliberately for effect (iltifat), and a switch like that in an English essay reads as an error.",
+      "check": "For each it, they, this and his: point at the exact noun it means. If you can point at two, or at none, rewrite. Is it the same person as the sentence before?"
+    },
+    {
+      "id": "cohesion.repetition",
+      "title": "Avoiding repetition",
+      "summary": "Substitution, synonyms and restructuring.",
+      "sections": [
+        {
+          "heading": "Substitutes: it, one, that of, do so",
+          "body": "Repeating the same noun again and again makes writing heavy. English has small words that stand in for a noun or a whole phrase so you do not have to repeat it.\n\n`It` and `they` replace a noun. `One` and `ones` replace a countable noun after an adjective: `a wider one`. `That of` and `those of` replace a noun in a comparison: `the population of India is larger than that of China`. `Do so` replaces a verb phrase: `few can afford to do so`.\n\nUse them only when the reference is clear. A substitute that could point at two things is worse than the repetition.",
+          "examples": [
+            {
+              "right": "The population of India is now larger than that of China.",
+              "wrong": "The population of India is now larger than the population of China.",
+              "note": "\"That of\" avoids repeating \"the population\"."
+            },
+            {
+              "right": "Many people want to live in the city centre, but few can afford to do so.",
+              "wrong": "Many people want to live in the city centre, but few can afford to live in the city centre.",
+              "note": "\"Do so\" replaces the whole repeated phrase."
+            },
+            {
+              "right": "The old bridge was replaced by a wider one.",
+              "wrong": "The old bridge was replaced by a wider bridge.",
+              "note": "\"One\" stands in for \"bridge\"."
+            }
+          ]
+        },
+        {
+          "heading": "Synonyms, with care",
+          "body": "A synonym is a word with a similar meaning: `problem`, `issue`, `challenge`; `increase`, `rise`, `growth`. Using them lets you mention the same idea several times without the same word.\n\nBut true synonyms are rare. A word from a thesaurus may have the right general meaning and still not fit the sentence: `enlarge` means to make something physically bigger, so spending does not `enlarge`. A wrong synonym is worse than a repeated word, because it looks like a vocabulary error. Keep technical terms, such as `unemployment rate`, the same each time; a change there suggests you mean a different thing.",
+          "examples": [
+            {
+              "right": "Obesity is a growing problem, and tackling this issue requires action at school.",
+              "wrong": null,
+              "note": "\"This issue\" refers back to \"problem\" without repeating it."
+            },
+            {
+              "right": "The number of tourists increased, and spending by visitors grew too.",
+              "wrong": "The number of tourists increased, and spending by visitors enlarged too.",
+              "note": "\"Enlarge\" means make physically bigger, so it does not fit spending."
+            }
+          ]
+        },
+        {
+          "heading": "Restructure instead",
+          "body": "Often the best way to avoid repeating a word is to change the structure, so the word is needed only once. Two sentences with the same subject can become one, with a `which` or `who` clause or an `-ing` phrase.\n\nThis also makes your writing more varied and more academic, which PTE rewards. The check: if two sentences in a row begin with the same noun, try joining them.",
+          "examples": [
+            {
+              "right": "The survey, which was conducted in 2021, involved 500 teachers.",
+              "wrong": "The survey was conducted in 2021. The survey involved 500 teachers.",
+              "note": "A \"which\" clause joins the two sentences so \"the survey\" appears once."
+            },
+            {
+              "right": "Having lost their jobs, many factory workers retrained as technicians.",
+              "wrong": "Many factory workers lost their jobs. Many factory workers retrained as technicians.",
+              "note": "An -ing phrase carries the first fact, so the subject is named once."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'the population of Egypt is larger than Syria'. Write 'larger than that of Syria', because 'that of' keeps the comparison correct without repeating the noun.",
+        "Writing the same key noun in every sentence of a paragraph. Write 'it', 'this' plus a noun, or a fitting synonym for some of them, because repetition makes the writing heavy.",
+        "Writing a thesaurus word that does not fit, such as 'costs enlarged'. Write 'costs rose', because a wrong synonym looks like a vocabulary error.",
+        "Writing 'a wider bridge' right after 'the old bridge'. Write 'a wider one', because 'one' stands in for a countable noun.",
+        "Writing two sentences that start with the same subject. Write one sentence joined with 'which', 'who' or an -ing phrase, because the subject then appears only once."
+      ],
+      "arabic": "Arabic rhetoric values repetition: repeating a key noun, or pairing near-synonyms, adds emphasis and balance, and it reads as good style. In English the same repetition reads as a limited vocabulary. Arabic also uses resumptive pronouns and repeated nouns where English prefers substitutes such as 'that of' and 'do so', which have no close Arabic equivalent.",
+      "check": "Underline any key word used three times in one paragraph: can a pronoun, a substitute, a fitting synonym or a new structure replace one of them?"
+    },
+    {
+      "id": "cohesion.paragraph",
+      "title": "Topic sentences and paragraphs",
+      "summary": "One idea per paragraph, stated first.",
+      "sections": [
+        {
+          "heading": "One idea per paragraph, stated first",
+          "body": "Each body paragraph makes **one** point. The first sentence, the **topic sentence**, states that point clearly, so the reader knows what the paragraph is about before reading the rest. It should make a specific claim, not announce a topic in general terms.\n\nA good test: summarise the paragraph in one sentence. That sentence should already be at the top. If you cannot summarise it in one sentence, the paragraph probably contains two ideas and should be split.\n\nFor a PTE essay of 200 to 300 words, four paragraphs work well: an introduction, two body paragraphs and a conclusion.",
+          "examples": [
+            {
+              "right": "One major benefit of remote work is the time it saves.",
+              "wrong": "There are many things to say about remote work.",
+              "note": "A topic sentence makes a specific claim that the paragraph will support."
+            },
+            {
+              "right": "Public transport also has clear environmental advantages.",
+              "wrong": "Buses are good, some people like trains, and cars are expensive.",
+              "note": "The first gives one point; the second lists three unrelated ones."
+            }
+          ]
+        },
+        {
+          "heading": "Every sentence serves the point",
+          "body": "After the topic sentence, each sentence supports it in one of a few ways: it **explains** why the point is true, gives an **example**, or shows a **result**. A final sentence can link the point back to the question.\n\nWhen you notice a sentence that starts a new idea, stop. Either cut it or move it to a new paragraph. The check is to read the topic sentence and then each other sentence in turn, asking: does this one help prove the topic sentence?",
+          "examples": [
+            {
+              "right": "For example, a worker who commutes an hour each way gains ten hours a week.",
+              "wrong": null,
+              "note": "A specific example supports the claim that remote work saves time."
+            },
+            {
+              "right": "As a result, employees have more time for family and exercise.",
+              "wrong": "Remote workers also sometimes feel lonely.",
+              "note": "In a paragraph about saved time, the second sentence starts a different idea."
+            }
+          ]
+        },
+        {
+          "heading": "Opening and closing the essay",
+          "body": "The **introduction** does three short jobs: it restates the question in your own words, gives your position, and says briefly what the essay will cover. It should not start the argument.\n\nThe **conclusion** restates your position and the main reasons in fresh words. It must not bring in a new point, because there is no room left to support it. Begin it with `In conclusion` or `To conclude`.",
+          "examples": [
+            {
+              "right": "This essay argues that the benefits of remote work outweigh its drawbacks.",
+              "wrong": "In this essay I will talk about remote work.",
+              "note": "The first states a position; the second only names the topic."
+            },
+            {
+              "right": "In conclusion, although remote work has drawbacks, its benefits clearly outweigh them.",
+              "wrong": "In conclusion, another problem is that remote workers feel lonely.",
+              "note": "A conclusion sums up; it does not introduce a new point."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing a topic sentence that only names the topic. Write one that makes a claim, because the reader needs to know your point.",
+        "Writing two ideas in one paragraph. Write each idea in its own paragraph, because each paragraph argues one point.",
+        "Writing a new argument in the conclusion. Write it in a body paragraph or leave it out, because a conclusion only sums up.",
+        "Writing the main point at the end of the paragraph. Write it as the first sentence, because English readers expect the point first.",
+        "Writing one huge paragraph for the whole essay. Write an introduction, two body paragraphs and a conclusion, because the layout shows the structure."
+      ],
+      "arabic": "Arabic academic and persuasive writing often builds up to its main point gradually, and joins ideas by coordination rather than by grouping one point per paragraph. English academic writing expects the opposite: the point first, then the support, one idea per paragraph. The difference is one of convention, not of quality, but an English examiner marks by the English convention.",
+      "check": "Read only the first sentence of each paragraph: does it state the paragraph's single point, and does everything after it serve that point?"
+    },
+    {
+      "id": "cohesion.concision",
+      "title": "Concision",
+      "summary": "Cutting words that do no work.",
+      "sections": [
+        {
+          "heading": "Cut empty openings",
+          "body": "Many sentences begin with words that carry no meaning: `It is important to note that`, `There are many people who`, `In today's modern world`, `It is a well-known fact that`. They delay the point and use up words that PTE's 300-word limit could spend on ideas.\n\nThe check: cover the opening words. If the rest of the sentence still says the same thing, delete them. `There are many people who work from home` becomes `Many people work from home`.",
+          "examples": [
+            {
+              "right": "Many people work from home.",
+              "wrong": "There are many people who work from home.",
+              "note": "\"There are ... who\" adds words and no meaning."
+            },
+            {
+              "right": "Technology has changed education.",
+              "wrong": "In today's modern world of nowadays, technology has changed education.",
+              "note": "The opening says \"now\" three times and adds nothing."
+            },
+            {
+              "right": "Obesity is rising among children.",
+              "wrong": "It is worth noting that obesity is rising among children.",
+              "note": "The sentence is already worth noting because you wrote it."
+            }
+          ]
+        },
+        {
+          "heading": "Cut words that repeat each other",
+          "body": "Some phrases say the same thing twice. `The reason why is because` contains three words that all mean `reason`. `Return back`, `future plans`, `past history`, `completely eliminate` and `each and every` are all the same kind of doubling: `return` already means go back, and plans are always about the future.\n\nThe check: for each describing word, ask whether the other word already contains its meaning. If it does, cut it.",
+          "examples": [
+            {
+              "right": "The reason is that housing costs have risen.",
+              "wrong": "The reason why is because housing costs have risen.",
+              "note": "\"Reason\", \"why\" and \"because\" say the same thing three times."
+            },
+            {
+              "right": "Prices returned to their earlier level.",
+              "wrong": "Prices returned back to their earlier level.",
+              "note": "\"Return\" already means go back."
+            },
+            {
+              "right": "The government plans to eliminate the tax.",
+              "wrong": "The government plans to completely eliminate the tax in the future.",
+              "note": "\"Eliminate\" is already complete, and plans are always for the future."
+            }
+          ]
+        },
+        {
+          "heading": "One word instead of a phrase",
+          "body": "Long phrases often have a short, clear equivalent. `Due to the fact that` means `because`. `In order to` usually means `to`. `Has the ability to` means `can`. `At this point in time` means `now`. `A large number of` can often be `many`.\n\nShorter sentences are also easier to punctuate correctly, which helps with run-on sentences. Concise writing is not the same as simple writing: you still use precise academic words, but every word does some work.",
+          "examples": [
+            {
+              "right": "Many students leave because fees are high.",
+              "wrong": "Many students leave due to the fact that fees are high.",
+              "note": "\"Because\" says the same as \"due to the fact that\" in one word."
+            },
+            {
+              "right": "Governments can reduce emissions.",
+              "wrong": "Governments have the ability to reduce emissions.",
+              "note": "\"Can\" says the same in one word."
+            },
+            {
+              "right": "Schools should teach financial skills to prepare students for adult life.",
+              "wrong": "Schools should teach financial skills in order to be able to prepare students for adult life.",
+              "note": "\"To\" is enough; \"in order to be able to\" adds nothing."
+            }
+          ]
+        }
+      ],
+      "slips": [
+        "Writing 'There are many people who believe'. Write 'Many people believe', because the opening adds nothing.",
+        "Writing 'the reason why is because'. Write 'the reason is that', because the three words repeat each other.",
+        "Writing 'due to the fact that'. Write 'because', because one word says the same.",
+        "Writing 'It is no doubt that'. Write 'There is no doubt that' or 'Undoubtedly', because the English phrase starts with 'there'.",
+        "Writing 'In today's modern world'. Write 'Today' or nothing, because the phrase fills space without meaning.",
+        "Writing 'return back'. Write 'return', because 'return' already means go back."
+      ],
+      "arabic": "Formal Arabic style values elaboration: fixed opening phrases such as 'mimma la shakka fihi anna' (there is no doubt that), pairs of near-synonyms for emphasis, and long introductions before the point. These are marks of good style in Arabic, but translated into English they become padding, and a word-for-word version also produces 'It is no doubt that'.",
+      "check": "For each sentence, cross out any word: if the meaning does not change, leave it out."
+    }
+  ]
+}

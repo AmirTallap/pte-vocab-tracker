@@ -2,23 +2,22 @@ import fs from 'node:fs';
 import { ESSAYS_FILE, ESSAY_GUIDE_FILE } from './config.js';
 
 /**
- * The Write Essay prompts: 60 PTE-style questions to write 200-300 words about
- * in 20 minutes.
+ * The Write Essay prompts: 500 PTE-style questions to write 200-300 words about
+ * in 20 minutes - 60 until 26 Sep 2026, when 440 more were added, each on a
+ * distinct `subject` checked against all the others.
  *
  * Static content, like the grammar syllabus and the example sentences, and for
  * the same reason - it is read once at startup and NEVER written back. There is
  * nothing here to reconcile with the workbook: the workbook is vocabulary and
  * has no column for an essay, and progress.json holds study history, not prose.
  *
- * The essay you type is not written anywhere either, on purpose. It is a
- * twenty-minute exam rehearsal, not a document: what it is for is the practice
- * and the word count, and keeping a library of past attempts would be a third
- * store to back up, migrate and reason about. The draft survives a reload
- * because the browser keeps it alongside the other view settings - see
- * `settings.essay` in web/app.html - and that is as far as it goes.
+ * The essay you type is saved when you hand it in, into data/attempts.db, so
+ * the review skill can read it (26 Sep 2026, by request - it was a rehearsal
+ * that was never kept until then). See attempts.js. The draft in progress
+ * still lives only in the browser, `settings.essay`, as reload insurance.
  *
- * One file rather than one-per-module as the grammar has, because 60 prompts is
- * 20KB and there is no per-question content underneath them to grow into.
+ * One file still, at ~190KB: there is no per-question content underneath a
+ * prompt to grow into, and the model answers already live one file each.
  */
 export function loadEssays(file = ESSAYS_FILE) {
   const empty = { minutes: 20, words: { min: 200, max: 300 }, types: {}, questions: [] };
@@ -50,6 +49,7 @@ export function loadEssays(file = ESSAYS_FILE) {
       id: q.id,
       type: q.type || 'direct',
       topic: q.topic || '',
+      subject: q.subject || '',
       prompt: q.prompt.trim(),
     });
   }

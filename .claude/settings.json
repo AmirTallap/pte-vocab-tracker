@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__claude-in-chrome",
+      "Skill(claude-in-chrome)",
+      "Skill(anthropic-skills:chrome-browser)"
+    ]
+  }
+}

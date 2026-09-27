@@ -1,0 +1,136 @@
+{
+  "id": "w2",
+  "title": "Psychology and society",
+  "items": [
+    {
+      "id": "w2-01",
+      "title": "The Bystander Effect Reconsidered",
+      "topic": "Social psychology",
+      "passage": "In the 1960s, social psychologists began to investigate a troubling question: why do people sometimes fail to help a stranger in obvious distress, even when many others are present? A series of experiments suggested a surprising answer. When participants believed they were the only witness to an emergency, such as someone apparently having a seizure, most of them intervened quickly. When they believed that several other people were also aware of it, they were much slower to act, and many did not act at all.\n\nResearchers proposed two explanations for this bystander effect. The first is diffusion of responsibility: when many people are present, each individual feels less personally obliged to help, assuming that someone else will. The second is social influence. Emergencies are often ambiguous, and people look to others to judge what is happening. If everyone else appears calm, each observer may conclude that nothing serious is wrong, even though all of them are privately uncertain.\n\nMore recent research has qualified these findings. Studies of real incidents captured on public security cameras suggest that in genuine conflicts, at least one bystander intervenes in the large majority of cases, and that larger groups are, if anything, more likely to contain someone who helps. The effect appears strongest when a situation is unclear and weakest when danger is obvious. Understanding it is still useful, however: people who know about the bystander effect are more likely to take the lead, and victims can improve their chances by addressing one specific person directly.",
+      "points": [
+        "People help less when others are present, but real incidents qualify this",
+        "Causes: diffusion of responsibility and social cues in ambiguous situations",
+        "Camera footage shows someone usually intervenes, especially when danger is clear",
+        "Awareness and addressing one person directly help"
+      ],
+      "summary": "Classic experiments showed that people are less likely to help in emergencies when others are present, owing to diffused responsibility and social cues, although studies of real incidents suggest someone usually intervenes, particularly when danger is obvious."
+    },
+    {
+      "id": "w2-02",
+      "title": "Confirmation Bias in Everyday Reasoning",
+      "topic": "Cognitive psychology",
+      "passage": "People like to think that they form their beliefs by weighing the evidence fairly. Psychological research suggests that this is often not the case. One of the most thoroughly documented tendencies in human thinking is confirmation bias: the inclination to seek out, notice and remember information that supports what we already believe, while overlooking or discounting information that challenges it.\n\nThe bias appears in many forms. When testing an idea, people tend to look for examples that would confirm it rather than examples that could prove it wrong. When presented with a mixed set of evidence on a controversial topic, supporters of each side often rate the studies that favour their own view as more convincing, and may leave the discussion more certain than before. Memory contributes too, since events that fit an existing belief are more easily recalled later.\n\nConfirmation bias is not simply a sign of poor intelligence; highly educated people are also affected, and may even be better at constructing arguments to defend their existing views. Some researchers suggest that reasoning evolved less as a tool for finding the truth than as a means of persuading others and justifying ourselves within a group.\n\nThe bias can be reduced, although not eliminated. Deliberately considering how one might be wrong, seeking out the strongest version of an opposing argument, and working in groups where disagreement is welcomed all appear to help. Scientific methods, such as controlled experiments and peer review, can be seen as institutional safeguards designed precisely to counter this very human tendency.",
+      "points": [
+        "People favour information that confirms existing beliefs; this can be reduced, not eliminated",
+        "It affects testing ideas, judging evidence and memory",
+        "Educated people are also affected",
+        "Considering opposing views and scientific safeguards help"
+      ],
+      "summary": "Confirmation bias leads people, including highly educated ones, to favour information that supports their existing beliefs, and although it cannot be eliminated, it can be reduced by considering opposing arguments and through institutional safeguards such as scientific peer review."
+    },
+    {
+      "id": "w2-03",
+      "title": "Sleep and the Consolidation of Memory",
+      "topic": "Neuroscience",
+      "passage": "Sleep was once regarded as a period of simple rest in which the brain was largely inactive. It is now clear that the sleeping brain is extremely busy, and that one of its most important tasks is to consolidate memories formed during the day.\n\nDuring waking hours, new experiences are recorded initially in a region called the hippocampus, which acts as a kind of temporary store. During deep sleep, patterns of activity recorded there appear to be replayed, often at high speed, and gradually transferred to the outer layer of the brain, where long-term memories are thought to be held. Experiments in which people learn a list of words or a new motor skill and are then tested after either sleeping or staying awake consistently show better recall after sleep. Sleep may also help the brain to extract general rules from individual experiences, which could explain why a problem sometimes seems clearer in the morning.\n\nThese findings have practical implications, particularly for students. Staying up all night to revise may allow more hours of study, but it deprives the brain of the process that would make the material stick, and fatigue also reduces the ability to take in new information the following day. Spreading study over several days, with sleep in between, is generally far more effective.\n\nMuch remains uncertain, however. The precise roles of the different stages of sleep are still debated, and it is not yet known why some memories are strengthened while others fade.",
+      "points": [
+        "The sleeping brain actively consolidates the day's memories",
+        "Memories are replayed and moved from the hippocampus to long-term storage",
+        "Students learn better by spreading study with sleep than by staying up",
+        "The roles of sleep stages remain uncertain"
+      ],
+      "summary": "Rather than resting, the sleeping brain consolidates the day's memories by replaying and transferring them to long-term storage, so students learn better by spreading study over several nights than by staying up late, although many details remain uncertain."
+    },
+    {
+      "id": "w2-04",
+      "title": "The Limits of Growth Mindset",
+      "topic": "Educational psychology",
+      "passage": "Over the past few decades, the idea of a growth mindset has become highly influential in schools. It rests on the observation that people hold different beliefs about ability. Some see intelligence as fixed, something one either has or lacks, while others see it as a quality that can be developed through effort and good strategies. Early research suggested that students with the second view respond better to setbacks, treating failure as a chance to learn rather than as proof of their limits, and that they consequently achieve more.\n\nThese findings inspired a wave of programmes designed to teach students that the brain can grow like a muscle. Teachers were encouraged to praise effort and strategy rather than talent, and schools displayed posters urging pupils to embrace challenges.\n\nLater studies, however, produced more modest results. Large trials of brief mindset interventions have generally found small average effects on academic performance, with benefits concentrated among lower-achieving students and in schools where the wider culture supports the message. Some reviews have found little overall effect at all. Critics also noted that the idea had sometimes been simplified into a slogan, so that praising effort regardless of progress could leave students feeling encouraged but no better informed about how to improve.\n\nThe emerging consensus is that beliefs about ability do matter, but that changing them is not a simple cure for underachievement. A growth mindset appears most useful when it is combined with effective teaching and genuine opportunities to succeed.",
+      "points": [
+        "Beliefs about ability matter, but changing them is no simple cure",
+        "Early research linked a growth mindset to resilience and achievement",
+        "Large trials found small effects, mainly for weaker students",
+        "It works best combined with effective teaching"
+      ],
+      "summary": "Although early research suggested that believing ability can be developed improves achievement, later large trials found only small effects concentrated among weaker students, indicating that a growth mindset helps mainly when combined with effective teaching rather than as a simple cure."
+    },
+    {
+      "id": "w2-05",
+      "title": "Rethinking the Marshmallow Test",
+      "topic": "Developmental psychology",
+      "passage": "In a series of well-known studies beginning in the late 1960s, young children were offered a choice: they could eat one treat immediately, or wait alone in a room for several minutes and receive two. Follow-up research years later reported that children who had waited longer tended, as adolescents, to achieve higher test scores and to cope better with stress. The findings were widely interpreted as showing that self-control in early childhood is a powerful predictor of later success, and they encouraged efforts to teach young children to resist temptation.\n\nSubsequent research has complicated this interpretation. A larger replication, which followed a more diverse group of children, found that the link between waiting time and later achievement was much weaker than originally reported, and that it shrank further once factors such as family income and the home environment were taken into account. In other words, the ability to wait appeared to reflect children's circumstances as much as a personal trait.\n\nOther experiments have shown that the decision to wait can be entirely rational. When children were led to believe that the adult running the test was unreliable, having previously broken a promise, they waited far less. For a child who has learned from experience that promised rewards do not always arrive, taking what is available now is a sensible choice rather than a failure of willpower.\n\nSelf-control remains a useful quality, but these studies suggest that it cannot be understood in isolation from the conditions in which children grow up.",
+      "points": [
+        "Self-control reflects children's circumstances, not just character",
+        "Early studies linked waiting to later success",
+        "A larger replication found a weaker link, partly explained by family background",
+        "Children wait less when adults seem unreliable, which is rational"
+      ],
+      "summary": "Although early studies suggested that children who delayed gratification later achieved more, larger replications found the link weaker and partly explained by family background, and further experiments showed that waiting depends on trust, so self-control reflects circumstances as well as character."
+    },
+    {
+      "id": "w2-06",
+      "title": "Social Media and Teenage Wellbeing",
+      "topic": "Sociology",
+      "passage": "Rates of anxiety and depression reported among teenagers in several wealthy countries rose noticeably during the 2010s, the same period in which smartphones and social media became almost universal among young people. To many parents and commentators, the connection seems obvious: constant comparison with carefully edited images of others, online harassment and the loss of sleep to late-night scrolling must surely harm young minds.\n\nThe scientific evidence, however, is less clear-cut than public debate often suggests. Many studies do find an association between heavy social media use and poorer wellbeing, but the average size of the link is small, and correlation does not establish which way the influence runs. Young people who are already unhappy may turn to their phones more, rather than the phones making them unhappy. Moreover, much research relies on self-reported estimates of screen time, which are known to be inaccurate.\n\nThere is also considerable variation between individuals. For some teenagers, particularly those who feel isolated in their local community, online networks provide valuable support and a sense of belonging. For others, certain kinds of use, such as passive browsing of appearance-focused content, may be genuinely harmful. The effects seem to depend less on the total number of hours than on what young people do online and how vulnerable they already are.\n\nResearchers therefore increasingly argue that the question 'Is social media bad for teenagers?' is too broad to answer. More useful questions concern which uses, for which young people, and under what circumstances.",
+      "points": [
+        "The link between social media and teenage distress is real but small and complex",
+        "Correlation does not show direction; screen-time data are unreliable",
+        "Effects vary: support for some, harm from certain uses for others",
+        "Researchers ask which uses harm which young people"
+      ],
+      "summary": "Although rising teenage anxiety coincided with the spread of social media, the evidence shows only a small association of uncertain direction, and because effects vary with the type of use and the individual, researchers argue that the question must be asked more precisely."
+    },
+    {
+      "id": "w2-07",
+      "title": "The Power and Limits of Placebos",
+      "topic": "Medical psychology",
+      "passage": "A placebo is a treatment with no active ingredient, such as a sugar pill, and in medical trials it is used as a baseline against which real drugs are compared. Yet patients given placebos often report genuine improvements, particularly in symptoms such as pain, nausea and fatigue. This placebo effect is not simply imaginary. Brain imaging studies have shown that expecting relief can trigger the release of the body's own pain-relieving chemicals, and the effect can be strengthened by details such as the colour and price of a pill or the warmth of the doctor who prescribes it.\n\nAt the same time, the power of placebos is easily overstated. Some of the improvement seen in placebo groups reflects the natural course of illness, since many conditions fluctuate or improve on their own, and patients tend to seek treatment when symptoms are at their worst. Placebos have little measurable effect on objective outcomes, such as the size of a tumour or the level of infection in the blood. They may make people feel better without making them physically healthier.\n\nThe use of placebos in ordinary practice also raises ethical problems, because deceiving patients undermines the trust on which medicine depends. Interestingly, several small studies have found that placebos can help even when patients are told openly that they are taking an inactive pill, perhaps because the ritual of treatment itself carries meaning. This suggests that the context of care may be a treatment in its own right.",
+      "points": [
+        "Placebos genuinely ease symptoms but rarely change disease itself",
+        "Expectation releases the body's own pain-relieving chemicals",
+        "Some improvement is natural recovery; objective outcomes barely change",
+        "Deception is unethical, yet open placebos may work, so context of care matters"
+      ],
+      "summary": "Placebos can genuinely relieve subjective symptoms such as pain by triggering the body's own chemistry, but they rarely change objective disease, raise ethical concerns about deception, and may even work openly, suggesting that the context of care itself has therapeutic value."
+    },
+    {
+      "id": "w2-08",
+      "title": "Is There a Limit to Friendship",
+      "topic": "Anthropology",
+      "passage": "Why do human social groups tend to take certain sizes? In the 1990s, a British anthropologist noticed that among primates, the size of the neocortex, the part of the brain involved in complex thought, was closely related to the typical size of a species' social group. Extending this relationship to humans, he predicted that people can maintain stable relationships with roughly 150 individuals. This figure, now widely known by his name, appeared to match the size of traditional villages, hunter-gatherer clans and basic military units.\n\nThe idea proposes that relationships are costly to maintain. Keeping track of who is allied with whom, who owes a favour and who can be trusted demands mental effort and time, and both are limited. Proponents also describe a series of layers within the larger group, from a handful of intimate friends to wider circles of acquaintances, each larger and less close than the last.\n\nThe figure has attracted considerable criticism. Some researchers who have repeated the original statistical analysis with newer data have found that the estimated limit varies so widely that almost any number between a few dozen and several hundred could be justified. Others argue that culture, language and technology allow humans to manage social life in ways that no simple link to brain size could capture.\n\nNevertheless, the broader insight remains influential: that the quality of relationships depends on limited resources of attention, and that organisations may function differently once they grow beyond a certain size.",
+      "points": [
+        "A proposed limit of about 150 relationships is influential but disputed",
+        "It was based on brain size and group size in primates",
+        "Relationships cost limited time and mental effort",
+        "Reanalyses give widely varying figures; culture also matters"
+      ],
+      "summary": "The proposal that brain size limits humans to about 150 stable relationships has been influential but criticised, since reanalyses give widely varying figures and culture shapes social life, although the idea that relationships depend on limited attention remains valuable."
+    },
+    {
+      "id": "w2-09",
+      "title": "The Myth of Multitasking",
+      "topic": "Cognitive psychology",
+      "passage": "Many people believe that they are good at multitasking, and modern working life, with its constant stream of emails and messages, seems to demand it. Research in cognitive psychology suggests, however, that true multitasking is largely an illusion. Except when one of the tasks is highly automatic, such as walking, the brain does not perform two demanding activities at once. Instead, it switches rapidly between them.\n\nEach switch carries a cost. Experiments show that when people alternate between tasks, they are slower and make more errors than when they complete each task in turn. The mind needs time to disengage from one set of rules and load another, and part of its attention tends to remain on the previous task. Over a working day, these small losses can add up considerably, and frequent interruptions may also make it harder to engage in the deep, sustained thought that complex work requires.\n\nIntriguingly, some studies have found that people who multitask most heavily with digital media perform worse on tests of filtering out distractions, although it is unclear whether heavy multitasking causes this weakness or whether easily distracted people are simply drawn to it. A small minority of individuals appear able to handle two tasks with unusually little loss, but they are exceptions.\n\nThe practical lesson is that productivity may be improved not by doing more at once but by protecting blocks of time for focused work, for instance by turning off notifications and grouping similar tasks together.",
+      "points": [
+        "True multitasking is largely an illusion; the brain switches between tasks",
+        "Each switch costs speed and accuracy",
+        "Heavy media multitaskers filter distractions worse, cause unclear",
+        "Protecting time for focused work improves productivity"
+      ],
+      "summary": "Research shows that multitasking is largely an illusion, since the brain switches between demanding tasks at a cost in speed and accuracy, so productivity is better served by protecting periods of focused work than by attempting several things at once."
+    },
+    {
+      "id": "w2-10",
+      "title": "The Fallibility of Eyewitness Memory",
+      "topic": "Forensic psychology",
+      "passage": "In courtrooms, the testimony of an eyewitness who confidently identifies a suspect has traditionally been among the most persuasive forms of evidence. Research on human memory, however, has shown that such testimony is far less reliable than juries tend to assume. Memory does not work like a video recording. Each time an event is recalled, it is reconstructed, and in the process it can be altered by later information.\n\nClassic experiments demonstrated this vividly. Participants who watched a film of a car accident and were later asked how fast the cars were going when they 'smashed' into each other gave higher speed estimates than those asked about cars that 'hit' each other, and some later falsely remembered seeing broken glass. Stress, poor lighting, the presence of a weapon, which draws attention away from the face, and identifying someone of a different ethnic group all reduce accuracy further. Confidence, too, can grow over time as a witness receives encouraging feedback, even though the original memory has not improved.\n\nWhen DNA testing began to be used to review old convictions, mistaken eyewitness identification was found to have played a part in a large proportion of cases in which innocent people had been convicted.\n\nThese findings have led to reforms in many jurisdictions. Recommended procedures include having line-ups conducted by an officer who does not know which person is the suspect and recording a witness's confidence immediately, before it can be inflated. Eyewitness evidence is not worthless, but it must be gathered and weighed with care.",
+      "points": [
+        "Eyewitness testimony is less reliable than juries assume and needs careful handling",
+        "Memory is reconstructed and altered by questioning",
+        "Stress, weapons and feedback distort accuracy and confidence",
+        "DNA exonerations led to reformed line-up procedures"
+      ],
+      "summary": "Because memory is reconstructed and easily distorted by questioning, stress and feedback, eyewitness testimony is less reliable than juries assume, as DNA exonerations have shown, so reforms to identification procedures are needed for such evidence to be weighed properly."
+    }
+  ]
+}

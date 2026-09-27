@@ -1,0 +1,136 @@
+{
+  "id": "s2",
+  "title": "Work and career",
+  "items": [
+    {
+      "id": "s2-01",
+      "title": "A missed report deadline",
+      "register": "formal",
+      "function": "apologise",
+      "situation": "You work in the marketing department of a medium-sized firm. Your manager, Ms Grant, asked you to finish a sales report by nine o'clock this morning for a meeting with senior directors. You underestimated how long the figures would take to check, and the report is still not ready. The meeting starts in an hour, and Ms Grant has just walked over to your desk to collect it. What would you say to Ms Grant?",
+      "points": [
+        "Take responsibility straight away and apologise",
+        "Explain honestly what went wrong without long excuses",
+        "Say exactly what is ready now and when the rest will be",
+        "Offer something useful for the meeting, such as a summary of key figures"
+      ]
+    },
+    {
+      "id": "s2-02",
+      "title": "Asking for flexible hours",
+      "register": "formal",
+      "function": "request",
+      "situation": "You have worked as an accounts assistant for two years and have a good record. You have just enrolled in an evening course at a local college, which starts at half past five on Tuesdays and Thursdays, but your working day ends at half past five. You would like to start and finish an hour earlier on those two days. You have arranged a short meeting with your supervisor, Mr Harper. What would you say to Mr Harper?",
+      "points": [
+        "Explain the course and how it relates to your work if possible",
+        "Make a precise request: which days and which hours",
+        "Reassure him that your work will not suffer",
+        "Offer to review the arrangement after a trial period"
+      ]
+    },
+    {
+      "id": "s2-03",
+      "title": "Turning down an extra project",
+      "register": "formal",
+      "function": "decline",
+      "situation": "Your team leader, Daniel, has asked you to lead a new customer survey project starting next week. You are already managing two large projects with tight deadlines, and you have been working late most evenings to keep up. You know that taking on a third project would mean doing all three badly. Daniel has asked you to come to his office to discuss it. What would you say to Daniel?",
+      "points": [
+        "Thank him for trusting you with the project",
+        "Explain your current workload with specific examples",
+        "Decline clearly but constructively",
+        "Suggest an alternative, such as a later start or a colleague who could lead it"
+      ]
+    },
+    {
+      "id": "s2-04",
+      "title": "A colleague's loud phone calls",
+      "register": "informal",
+      "function": "complain",
+      "situation": "You share an open-plan office with a friendly colleague called Chris. For the past few weeks, Chris has been taking long personal phone calls on speakerphone at his desk, sometimes for half an hour at a time. You find it very hard to concentrate, especially when you are writing reports, and two other colleagues have mentioned it to you as well. You get on well with Chris and do not want to upset him. What would you say to Chris?",
+      "points": [
+        "Keep a friendly tone that suits the relationship",
+        "Describe the problem and its effect on your work",
+        "Avoid sounding as if others are ganging up on him",
+        "Suggest a simple solution, such as headphones or a meeting room"
+      ]
+    },
+    {
+      "id": "s2-05",
+      "title": "A friend's first job interview",
+      "register": "informal",
+      "function": "advise",
+      "situation": "Your friend Aisha has just been invited to her first job interview, for a graduate role at an engineering company. The interview is next week, and she has admitted she has done nothing to prepare because she does not know where to start. She is also worried because she has no work experience apart from a summer job in a cafe. She has asked for your help. What advice would you give Aisha?",
+      "points": [
+        "Encourage her and show confidence in her",
+        "Suggest researching the company and the role",
+        "Advise preparing examples, including from the cafe job",
+        "Mention practical details such as questions to ask and arriving early"
+      ]
+    },
+    {
+      "id": "s2-06",
+      "title": "Negotiating a job offer",
+      "register": "formal",
+      "function": "negotiate",
+      "situation": "You have been offered a position as a software developer, and you are keen to accept. However, the salary offered is about ten percent below the typical rate for the role in your city, and you have three years of relevant experience. The company has also mentioned that it could offer extra training or flexible working. The recruiting manager, Mrs Blake, has phoned you to ask for your decision. What would you say to Mrs Blake?",
+      "points": [
+        "Express genuine enthusiasm for the role first",
+        "Give a reasoned case for a higher salary",
+        "Name a figure or a range rather than a vague request",
+        "Show willingness to consider the other benefits as part of a package"
+      ]
+    },
+    {
+      "id": "s2-07",
+      "title": "Proposing new scheduling software",
+      "register": "formal",
+      "function": "persuade",
+      "situation": "Your department still plans all staff shifts with paper forms and a shared spreadsheet, which often leads to double bookings and missing information. You have tried a free trial of an online scheduling tool and found that it saved you several hours a week. At today's team meeting, your department head has given you two minutes to make the case for adopting it across the whole team. What would you say to the team?",
+      "points": [
+        "Describe the current problem in concrete terms",
+        "Give evidence from your own trial",
+        "Anticipate concerns such as cost or learning time",
+        "Suggest a low-risk next step, such as a one-month pilot"
+      ]
+    },
+    {
+      "id": "s2-08",
+      "title": "A client queries an invoice",
+      "register": "formal",
+      "function": "clarify",
+      "situation": "You work for a small design agency. A client, Mr Lawson, has phoned you, sounding annoyed. He says he agreed to pay a fixed price of two thousand pounds for a new logo, but your invoice is for two thousand eight hundred. You check the file and see that the extra charge is for three additional rounds of changes he requested, which were not included in the original agreement. What would you say to Mr Lawson?",
+      "points": [
+        "Acknowledge his concern and stay courteous",
+        "Explain clearly what the extra charge covers",
+        "Refer to the original agreement without sounding defensive",
+        "Offer to send a breakdown or discuss options"
+      ]
+    },
+    {
+      "id": "s2-09",
+      "title": "Training a new intern",
+      "register": "informal",
+      "function": "explain",
+      "situation": "A new intern, Tom, has joined your team this week. This morning he sent a customer's personal details to the wrong email address, and when you mentioned it, he said the checking process your team uses seems slow and pointless. You know the process exists because the company could be fined heavily for a data breach. Tom is friendly and keen to learn. You have sat down with him over coffee. What would you say to Tom?",
+      "points": [
+        "Keep it supportive rather than a telling-off",
+        "Explain why the checking process matters",
+        "Connect the rule to what happened this morning",
+        "Walk him through what to do next time"
+      ]
+    },
+    {
+      "id": "s2-10",
+      "title": "Reassuring a worried client",
+      "register": "formal",
+      "function": "reassure",
+      "situation": "You are a project manager at a building company. One of your clients, Mrs Osei, is having her kitchen renovated, and the work is running a week behind schedule because a supplier delivered the wrong tiles. She has phoned you in a worried state, saying she is hosting a family celebration in three weeks and fears the kitchen will not be ready. You are confident the work can be completed in time. What would you say to Mrs Osei?",
+      "points": [
+        "Acknowledge her worry and apologise for the delay",
+        "Explain the cause briefly",
+        "Give a clear revised timeline",
+        "Explain the steps you are taking and offer regular updates"
+      ]
+    }
+  ]
+}

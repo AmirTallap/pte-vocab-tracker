@@ -3,7 +3,13 @@
   "title": "Mendel's Laws",
   "field": "Life sciences",
   "text": "There's a great paper that was written back in 1907 by a geneticist on this issue: Does the behavior of chromosomes explain Mendel's Laws? And it does. So Mendel's First Law is that if you have two alleles, two members of a gene pair, when they segregate into the gametes, one goes into each gamete; that's Mendel's Law of Segregation. So half of the gametes from a heterozygous Aa, will carry the A allele, and half of them will have a little a allele. So this is the law that allows us to predict what the genotype ratio should be in the offspring, and that allows us to notice any deviations from that genotype ratio. So I'm jumping ahead a little bit here to Punnett diagrams. Just make a note in your head that this fact of segregation is the basis for our being able to predict what the offspring will be like if we know what the parents are like; at least it's part of it. So if you have two heterozygotes who are mating with each other--so the male gametes have either A or a,",
-  "points": [],
+  "points": [
+    "The behaviour of chromosomes explains Mendel's Laws, as a 1907 paper showed.",
+    "Mendel's First Law, the Law of Segregation: the two alleles of a gene separate, one into each gamete.",
+    "So half the gametes of a heterozygous Aa parent carry A and half carry a.",
+    "This lets us predict the genotype ratio of the offspring and notice deviations from it.",
+    "It is the basis of Punnett diagrams, for example crossing two heterozygotes."
+  ],
   "audio": "Y035.mp3",
   "source": {
     "page": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122/lecture-2",

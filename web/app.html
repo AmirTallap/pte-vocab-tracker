@@ -40,6 +40,8 @@
     --near:       #8A5A0B;
     --near-bg:    #F6ECD9;
     --focus:      #00A6A0;
+    /* The grammar map: one ink for every line, and three steps of failure heat. */
+    --gmink: #0A2540; --gm1: #D9A21B; --gm2: #E0701F; --gm3: #C23020;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -65,6 +67,7 @@
       --near:       #DDA84C;
       --near-bg:    #2B2313;
       --focus:      #2CC3BC;
+    --gmink: #AEB8C4; --gm1: #D8AE3E; --gm2: #EB8440; --gm3: #F0604E;
     }
   }
   :root[data-theme="dark"] {
@@ -90,6 +93,7 @@
     --near:       #DDA84C;
     --near-bg:    #2B2313;
     --focus:      #2CC3BC;
+    --gmink: #AEB8C4; --gm1: #D8AE3E; --gm2: #EB8440; --gm3: #F0604E;
   }
 
   * { box-sizing: border-box; }
@@ -673,6 +677,122 @@
      not keep. Same flat panels and square corners as everything else. */
   .gwrap { max-width: 1060px; margin: 0 auto; padding: 0 16px 64px; }
 
+  /* ---- my answers */
+  .anfilter { margin: 0 0 14px; flex-wrap: wrap; }
+  .anlist { list-style: none; margin: 0; padding: 0; }
+  .anrow { display: grid; gap: 3px; width: 100%; text-align: left; background: var(--panel); color: var(--text);
+           border: 1px solid var(--border-2); padding: 11px 14px; margin-bottom: 8px; cursor: pointer; font: inherit; }
+  .anrow:hover { border-color: var(--teal); }
+  .anrow:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+  .anrow .t { font-weight: 600; font-size: 14px; }
+  .anrow .s { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .anrow .m { font-size: 12px; color: var(--faint); }
+  .anbadge { justify-self: start; font-size: 11.5px; font-weight: 700; padding: 1px 8px; border-radius: 9px;
+             border: 1px solid var(--near); color: var(--near); background: var(--near-bg); }
+  .anbadge.done { border-color: var(--correct); color: var(--correct); background: var(--correct-bg); }
+  .anart { max-width: 80ch; }
+  .anart h1 { margin: 0 0 4px; font-size: 21px; }
+  .anart .lede { margin: 0 0 18px; font-size: 13px; color: var(--muted); }
+  .anprompt { margin: 0 0 18px; }
+  .anprompt summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--btn); }
+  .pre { white-space: pre-wrap; font-size: 13.5px; line-height: 1.6; background: var(--panel); border: 1px solid var(--border-2);
+         padding: 12px 14px; margin-top: 8px; }
+  .anbody { font-size: 14.5px; line-height: 1.7; }
+  .ansummary { border-left: 4px solid var(--teal); background: var(--panel); padding: 10px 14px; margin: 0 0 22px; }
+  .ansummary p { margin: 0 0 6px; font-size: 14px; line-height: 1.6; }
+  .ansec { margin: 0 0 26px; }
+  .ansec > h2 { font-size: 16px; margin: 0 0 6px; }
+  .ansec > .hint { margin: 0 0 12px; }
+  .ansent { display: grid; grid-template-columns: 26px 1fr; gap: 10px; background: var(--panel);
+            border: 1px solid var(--border-2); border-left: 3px solid var(--near); padding: 10px 12px; margin-bottom: 8px; }
+  .ansent.ok { border-left-color: var(--correct); }
+  .ansent .n { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; padding-top: 2px; }
+  .ansent .orig { font-size: 14px; line-height: 1.65; }
+  .ansent .lbl, .andeck .lbl { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .08em;
+                                text-transform: uppercase; color: var(--faint); margin: 8px 8px 0 0; }
+  .ansent .fixed { font-size: 14px; line-height: 1.6; }
+  .ansent .better { font-size: 14px; line-height: 1.6; color: var(--teal-dark); }
+  .ansent .notes, .andeck .notes { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+  .adel { color: var(--wrong); background: var(--wrong-bg); text-decoration: line-through; }
+  .ains { color: var(--correct); background: var(--correct-bg); text-decoration: none; font-weight: 600; }
+  .anok { font-size: 11.5px; color: var(--correct); font-weight: 700; margin-left: 4px; }
+  .anfault { margin-bottom: 12px; }
+  .anfault .gmlog { margin-top: 6px; }
+  .anused { font-size: 13px; }
+  .anchip { display: inline-block; border: 1px solid var(--correct); color: var(--correct); background: var(--correct-bg);
+            padding: 1px 8px; margin: 2px 2px; font-size: 12.5px; }
+  .andeck { background: var(--panel); border: 1px solid var(--border-2); padding: 10px 12px; margin-bottom: 8px; }
+  .andeck .h { font-size: 14px; }
+  .andeck .was { font-size: 13.5px; color: var(--muted); }
+  .andeck .now { font-size: 14px; line-height: 1.6; }
+  .andeck .vw, .anchip { font-weight: 600; }
+  .andeck .vw { color: var(--correct); }
+  .antask { list-style: none; margin: 8px 0 0; padding: 0; }
+  .antask li { border-left: 3px solid var(--border); padding: 5px 10px; margin-bottom: 6px; font-size: 13.5px;
+               line-height: 1.55; background: var(--panel); }
+  .antask li.good { border-left-color: var(--correct); }
+  .antask li.fix { border-left-color: var(--wrong); }
+  .antask li.note { border-left-color: var(--near); }
+  .anv { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--muted); }
+  .anbig { font-size: 16px; color: var(--teal-dark); margin-left: 6px; }
+  .antraits { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 8px 0; }
+  .antrait { background: var(--panel); border: 1px solid var(--border-2); padding: 9px 12px; }
+  .antrait .h { display: flex; justify-content: space-between; font-size: 13.5px; margin-bottom: 5px; }
+  .antrait .gbar { display: block; }
+  .antrait .why { font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+  .anmodel { border-left: 4px solid var(--correct); background: var(--panel); padding: 10px 14px; }
+  .anmodel p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.7; }
+  .anverdict { font-size: 12px; font-weight: 700; color: var(--teal-dark); border: 1px solid var(--teal);
+               padding: 1px 8px; border-radius: 9px; margin-left: 6px; vertical-align: middle; }
+
+  /* ---- the grammar map */
+  .gmscroll { overflow-x: auto; margin: 6px 0 26px; background: var(--panel);
+              border: 1px solid var(--border-2); -webkit-overflow-scrolling: touch; }
+  .gmsvg { display: block; width: 100%; min-width: 980px; height: auto; }
+  .gmtrack { stroke: var(--gmink); stroke-width: 6; stroke-linecap: round; opacity: .85; }
+  .gmcap { stroke: var(--gmink); stroke-width: 4; stroke-linecap: round; }
+  .gmlink { fill: none; stroke: var(--faint); stroke-width: 2; stroke-dasharray: 4 5; }
+  .gmname { font-size: 14px; font-weight: 700; fill: var(--text); }
+  .gmsub { font-size: 11px; fill: var(--muted); }
+  .gmst { cursor: pointer; outline: none; }
+  .gmst .hit { fill: #000; fill-opacity: 0; }
+  .gmst .dot { fill: var(--panel); stroke: var(--gmink); stroke-width: 3; }
+  .gmst.h1 .dot { fill: var(--gm1); stroke: var(--gm1); }
+  .gmst.h2 .dot { fill: var(--gm2); stroke: var(--gm2); }
+  .gmst.h3 .dot { fill: var(--gm3); stroke: var(--gm3); }
+  .gmst.bare .dot { stroke-dasharray: 3 3; stroke: var(--faint); }
+  .gmst.ix .dot { stroke: var(--gmink); stroke-width: 4.5; }
+  .gmlbl.end { text-anchor: end; }
+  .gmst:hover .dot, .gmst:focus-visible .dot { stroke: var(--teal); stroke-width: 4; }
+  .gmst:focus-visible .gmlbl, .gmst:hover .gmlbl { fill: var(--teal-dark); font-weight: 700; }
+  .gmlbl { font-size: 11px; fill: var(--text); text-anchor: middle; }
+  .gmn { font-size: 11px; font-weight: 700; fill: var(--gm3); }
+  .gmlegend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; color: var(--muted); align-items: center; }
+  .gmlegend span { display: inline-flex; align-items: center; gap: 5px; }
+  .gmlegend .dot { stroke-width: 2.5; }
+  .gmcols { display: grid; gap: 22px 32px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .gmcols h2 { font-size: 15px; margin: 0 0 10px; }
+  .gmworst { margin: 0; padding-left: 20px; }
+  .gmworst li { margin-bottom: 7px; font-size: 13.5px; }
+  .gmworst .hint { display: block; font-size: 12px; }
+  .gmtag { display: inline-block; min-width: 1.6em; text-align: center; margin-left: 8px; padding: 0 5px;
+           border-radius: 9px; border: 1px solid; font-size: 11.5px; font-weight: 700; color: #fff; }
+  .gmlog { list-style: none; margin: 0; padding: 0; }
+  .gmlog li { border-left: 3px solid var(--wrong); background: var(--panel); padding: 8px 12px; margin-bottom: 8px; }
+  .gmx { font-size: 14px; line-height: 1.5; }
+  .gmx .no { color: var(--wrong); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .gmx .ok { color: var(--correct); font-weight: 600; }
+  .gmx .arrow { color: var(--faint); }
+  .gmlog .why { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+  .gmlog .src { font-size: 12px; color: var(--faint); margin-top: 4px; }
+  .gmcheck { border: 1px solid var(--teal); background: var(--panel); padding: 10px 14px; margin: 0 0 22px;
+             font-size: 13.5px; line-height: 1.55; }
+  .gmarabic { border: 1px solid var(--border-2); background: var(--panel-2); padding: 12px 14px; margin: 0 0 26px; }
+  .gmarabic h3 { margin: 0 0 6px; font-size: 13px; }
+  .gmarabic p { margin: 0 0 6px; font-size: 13.5px; line-height: 1.6; }
+  .gmyours { border-top: 2px solid var(--border); padding-top: 16px; margin-bottom: 22px; }
+  .gmyours h2 { font-size: 15px; margin: 0 0 10px; }
+
   .gcrumb {
     display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
     padding: 10px 0; font-size: 12px; color: var(--muted);
@@ -813,6 +933,19 @@
      point of the exercise and it must stay readable once the essay is long
      enough to scroll past it. */
   .ewrap { max-width: 1060px; margin: 0 auto; padding: 0 16px 64px; }
+  .wtabs { padding-top: 14px; padding-bottom: 0; }
+  .summ .slectitle { margin-top: 6px; }
+  .summpass { background: var(--panel); border: 1px solid var(--border-2); padding: 12px 16px; margin: 0 0 12px; max-width: 80ch; }
+  .summpass p { margin: 0 0 10px; font-size: 15px; line-height: 1.65; }
+  .summpass p:last-child { margin-bottom: 0; }
+  .summbox { display: block; width: 100%; min-height: 150px; box-sizing: border-box; resize: vertical;
+             font: inherit; font-size: 15px; line-height: 1.6; padding: 12px 14px; color: var(--text);
+             background: var(--panel); border: 1px solid var(--border); }
+  .summbox:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+  .summwarn { font-size: 12.5px; color: var(--wrong); }
+  .summkey { border-left: 4px solid var(--teal); background: var(--panel); padding: 10px 14px; margin-top: 14px; max-width: 80ch; }
+  .summkey h3 { margin: 6px 0 4px; font-size: 13px; }
+  .summkey p, .summkey li { font-size: 14px; line-height: 1.6; }
   .ewrap .small { min-width: 0; padding: 6px 12px; font-size: 12px; font-weight: 400; }
 
   .eintro { margin: 14px 0 18px; }
@@ -1130,6 +1263,7 @@
   .rhead h2 { margin: 0; font-size: 19px; }
   .rhead .rsets { margin: 0; }
   .rhead .rsets button { font-size: 12px; padding: 4px 11px; }
+  .rstep { display: inline-flex; gap: 4px; }
   .rsum { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
   .rhow { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
   .rtitle { margin: 0 0 10px; font-size: 16px; }
@@ -1171,6 +1305,19 @@
   .rchip.used { opacity: .3; cursor: default; }
   .rchip:disabled:not(.used) { cursor: default; }
   .rtip { margin: 8px 0 0; font-size: 12px; color: var(--faint); }
+  /* The per-item countdown. Tabular figures so the digits do not jiggle,
+     and red for the last ten seconds - pressure is the point of it. */
+  .rclock {
+    margin-left: auto; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums;
+    padding: 3px 10px; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--text); background: var(--panel-2);
+  }
+  .rclock.low { color: var(--wrong); border-color: var(--wrong); background: var(--wrong-bg); }
+  .rclock.out { color: var(--wrong); border-color: var(--wrong); }
+  .rclock.done { color: var(--muted); font-weight: 600; }
+  .rbar { height: 3px; border-radius: 2px; background: var(--border-2); margin: 0 0 12px; overflow: hidden; }
+  .rbar > i { display: block; height: 100%; background: var(--teal); transform-origin: left; }
+  .rbar.low > i { background: var(--wrong); }
   .dropon { outline: 2px solid var(--teal); outline-offset: 2px; }
 
   .rparas { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
@@ -1613,6 +1760,8 @@
        see probeSpeech(). The cloud build answers no, so this tab is
        simply not there, which is how this stays one page for both. -->
   <button data-view="speaking" id="speakTab" hidden>Speaking</button>
+  <!-- Local only, like Speaking: the cloud build has no store to keep them in. -->
+  <button data-view="answers" id="answersTab" hidden>My answers</button>
 </div>
 
 <!-- The Training tab's sections. Shown only while one of them is on screen. -->
@@ -1901,6 +2050,12 @@
   <div id="grammarBody"></div>
 </section>
 
+<!-- My answers: everything handed in, and the review of each. Built by
+     renderAnswers(); the reviews are written by the review skill, never here. -->
+<section class="gwrap" id="answersView" hidden>
+  <div id="answersBody"></div>
+</section>
+
 <!-- Listening: hear a definition, type the word. Built by renderListen() the
      way the grammar view is, because unlike the Essays tab there is nothing
      in it a repaint could throw away - the answer box holds one word, not
@@ -1914,9 +2069,11 @@
   <div class="smodes" role="group" aria-label="Task">
     <button data-lmode="define">Word from Definition</button>
     <button data-lmode="hiw">Highlight Incorrect Words</button>
+    <button data-lmode="sst">Summarize Spoken Text</button>
   </div>
   <div id="listenBody"></div>
   <div id="hiwBody" hidden></div>
+  <div id="sstBody" hidden></div>
 </section>
 
 <!-- Reading: the exam's reading items, one at a time, marked on the server.
@@ -1930,6 +2087,19 @@
      textarea holding work you cannot retype, and a repaint that replaced that
      element would throw it away along with the cursor. renderEssay() only ever
      refills the prompt panel and the counters; nothing rebuilds the box. -->
+<!-- The Writing tab's tasks, WRITE_SLUG's buttons. Above both views, so the
+     essay's markup - which must never be rebuilt - is left exactly as it was. -->
+<div class="ewrap wtabs" id="writeTabs" hidden>
+  <div class="smodes" role="group" aria-label="Task">
+    <button data-wmode="essay">Write Essay</button>
+    <button data-wmode="swt">Summarize Written Text</button>
+  </div>
+</div>
+
+<section class="swrap" id="swtView" hidden>
+  <div id="swtBody"></div>
+</section>
+
 <section class="ewrap" id="essayView" hidden>
   <div class="eintro">
     <h1>Write Essay</h1>
@@ -1972,7 +2142,9 @@
     <span id="essayNote"></span>
     <span class="espacer"></span>
     <button class="btn small btn-ghost" id="essayClear">Clear essay</button>
+    <button class="btn small" id="essayHandIn">Hand in for review</button>
   </div>
+  <p class="ehint" id="essaySaved"></p>
 
   <!-- The two reading panels. Built by renderGuide() and renderModels() into
        their own containers, well away from the textarea: nothing here may ever
@@ -2002,6 +2174,7 @@
     <button data-mode="discuss">Group discussion</button>
     <button data-mode="repeat">Repeat sentence</button>
     <button data-mode="image">Describe image</button>
+    <button data-mode="situation">Respond to a situation</button>
     <button data-mode="pron">Pronunciation</button>
   </div>
 
@@ -2071,6 +2244,20 @@
         <span class="smodes slecsrc" id="speakImgKind" role="group" aria-label="Which charts"></span>
       </div>
       <figure class="simg" id="speakImgFig"></figure>
+    </div>
+    <!-- Respond to a Situation: the scenario is on screen the whole time, as
+         in the exam, in speakPrompt below. Built by renderSitTask(). -->
+    <div class="slec" id="speakSit" hidden>
+      <div class="slecmeta">
+        <span class="slecfield">RESPOND TO A SITUATION</span>
+        <span class="espacer"></span>
+        <span class="slecnum" id="speakSitNum"></span>
+      </div>
+      <p class="slectitle" id="speakSitTitle"></p>
+      <div class="erow">
+        <button class="btn small" id="speakSitNext">Next situation</button>
+        <button class="btn small" id="speakSitRandom">Random</button>
+      </div>
     </div>
     <!-- Pronunciation: the words a Read Aloud came out wrong on, one at a
          time. Built by renderPronTask(); the word itself goes in speakPrompt
@@ -2347,10 +2534,14 @@
         order: null
       },
       train: null,
-      grammar: { module: null },
+      grammar: { station: null },
+      answers: { id: null },
       // The Writing tab: which written task you are on. One today; the table
       // that names them is WRITE_SLUG, beside the routing.
       writing: { mode: "essay" },
+      // The two summary tasks: the item, its deadline and the draft, per task.
+      summ: { swt: { id: null, text: "", endsAt: null, heard: false, handedIn: null },
+              sst: { id: null, text: "", endsAt: null, heard: false, handedIn: null } },
       // The Listening tab: which set you were on, and nothing else. Which
       // question within it is not saved, for the Essays tab's reason - a
       // question in progress is a rehearsal, not a place to come back to.
@@ -2398,6 +2589,11 @@
       out.batch.names = Object.assign({}, d.batch.names, sb.names || {});
       out.batch.n = Object.assign({}, d.batch.n, sb.n || {});
       out.grammar = Object.assign({}, d.grammar, s.grammar || {});
+      out.answers = Object.assign({}, d.answers, s.answers || {});
+      out.summ = {
+        swt: Object.assign({}, d.summ.swt, (s.summ && s.summ.swt) || {}),
+        sst: Object.assign({}, d.summ.sst, (s.summ && s.summ.sst) || {})
+      };
       out.reading = Object.assign({}, d.reading, s.reading || {});
       out.listening = Object.assign({}, d.listening, s.listening || {});
       if (!out.reading.sets || typeof out.reading.sets !== "object") out.reading.sets = {};
@@ -2425,7 +2621,7 @@
      stops dead rather than sending a request the server will read as something
      else. Reads are let through; nothing that writes is. */
 
-  var API_VERSION = 20;
+  var API_VERSION = 21;
   var stale = false;
 
   function goStale(theirs) {
@@ -4317,34 +4513,45 @@
     doResetBatch();
   });
 
-  /* --------------------------------------------------------- grammar view
-     Twenty-four modules of reference plus practice, served from
-     data/grammar/*.json. The content is static and fetched once, on the first
-     visit to the tab - the deck is what the page is for, and grammar should
-     not slow its first paint.
+  /* ------------------------------------------------------ the grammar map
+     English grammar as a transit map (26 Sep 2026, replacing the 24-module
+     syllabus and its 288 questions, by request). A LINE is an area - tense,
+     agreement, clauses - and a STATION is one rule on it. Every station opens
+     an article on how the rule applies, and under it the log of every time a
+     review of YOUR writing or speaking found you breaking it.
 
-     Marking is the SERVER's job: /api/grammar strips the keys and the accepted
-     answers out of what it sends, so the page cannot be read for the answers,
-     and every attempt is recorded in progress.json under `grammar`. */
+     The map is coloured by that log and by nothing else: a station you have
+     never failed is an open ring, and one you keep failing fills amber, then
+     orange, then red, and grows. Colour means failure frequency only - the
+     lines are all drawn in one ink so a hue can never be mistaken for it -
+     and the count is written beside the station too, so nothing is carried
+     by colour alone.
 
-  var grammar = null;                        // { groups, modules, progress }
-  var gById = {};
-  var gLoading = null;
-  var gLocal = {};                           // this session's feedback, per question
+     Faults are filed by the review skill (.claude/skills/review-answers),
+     through tools/review.js, into data/attempts.db. This page only reads. */
 
-  function loadGrammarData() {
-    if (grammar) return Promise.resolve(grammar);
-    if (gLoading) return gLoading;
-    gLoading = api("/api/grammar").then(function (d) {
-      grammar = d;
-      gById = {};
-      d.modules.forEach(function (m) { gById[m.id] = m; });
+  var gmap = null;                            // { lines, links, faults, recent, log }
+  var gmStation = {};                         // id -> { station, line, i }
+  var gmLoading = null;
+  var gmLogCache = {};                        // station id -> its fault rows
+
+  function loadGrammarData(fresh) {
+    if (gmap && !fresh) return Promise.resolve(gmap);
+    if (gmLoading) return gmLoading;
+    gmLoading = api("/api/grammarmap").then(function (d) {
+      gmap = d;
+      gmStation = {};
+      d.lines.forEach(function (l) {
+        l.stations.forEach(function (s, i) { gmStation[s.id] = { station: s, line: l, i: i }; });
+      });
+      gmLogCache = {};
+      gmLoading = null;
       return d;
-    });
-    return gLoading;
+    }, function (err) { gmLoading = null; throw err; });
+    return gmLoading;
   }
 
-  /** The tiny bit of markup the module bodies are allowed to use. */
+  /** The tiny bit of markup the articles are allowed to use. */
   function gtext(s) {
     return esc(s == null ? "" : s)
       .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
@@ -4357,276 +4564,879 @@
     }).join("");
   }
 
-  /** `___` is the gap; show it as one, rather than as three underscores. */
-  function gprompt(s) {
-    return gtext(s).replace(/_{3,}/g, "<b>&nbsp;</b>");
+  function gmCount(id) { return (gmap && gmap.faults && gmap.faults[id] && gmap.faults[id].n) || 0; }
+
+  /** Four steps of heat. 0 is "never failed", and the steps are counts, not ratios. */
+  function gmHeat(n) { return n <= 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : 3; }
+  var GM_HEAT_LABEL = ["Never failed", "1-2 times", "3-5 times", "6 or more"];
+
+  function gmDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    return d.toLocaleDateString(undefined, { day: "numeric", month: "short" });
   }
 
-  function gRecord(id) {
-    return (grammar && grammar.progress && grammar.progress[id]) || { answers: {}, read: false };
-  }
-
-  /** answered / right, counted over a module's stored attempts. */
-  function gScore(m) {
-    var ans = gRecord(m.id).answers || {}, done = 0, right = 0;
-    m.questions.forEach(function (q) {
-      var a = ans[q.id];
-      if (!a) return;
-      done += 1;
-      if (a.last === "right") right += 1;
+  /** Break a title into lines of about `max` characters, at most three. */
+  function gmWrap(text, max) {
+    var out = [], cur = "";
+    String(text).split(" ").forEach(function (w) {
+      if (cur && (cur + " " + w).length > max) { out.push(cur); cur = w; }
+      else cur = cur ? cur + " " + w : w;
     });
-    return { done: done, right: right, total: m.questions.length };
-  }
-
-  /* ------------------------------------------------------------- index */
-
-  function grammarIndexHtml() {
-    var out = '<div class="gintro"><h1>Grammar</h1>' +
-      '<p>Twenty-four modules from tense to punctuation. Each one explains the rule ' +
-      'and where it applies, names the slips that cost marks, then tests it. ' +
-      'Your answers are kept, so a module you half-know shows it.</p></div>';
-
-    var totals = { done: 0, right: 0, total: 0 };
-    grammar.modules.forEach(function (m) {
-      var s = gScore(m);
-      totals.done += s.done; totals.right += s.right; totals.total += s.total;
-    });
-    out += '<p class="hint" style="margin:-12px 0 22px">' +
-      totals.total + " questions · " + totals.done + " answered · " +
-      totals.right + " right" + (totals.done ? " (" + Math.round(totals.right / totals.done * 100) + "%)" : "") +
-      "</p>";
-
-    grammar.groups.forEach(function (g) {
-      out += '<section class="ggroup"><h2>' + esc(g.name) + "</h2><div class=\"gcards\">";
-      g.ids.forEach(function (id) {
-        var m = gById[id];
-        if (!m) return;
-        var s = gScore(m);
-        var pct = s.total ? Math.round(s.done / s.total * 100) : 0;
-        var full = s.done === s.total && s.right === s.total;
-        out += '<button class="gcard" data-gopen="' + esc(m.id) + '">' +
-          '<div class="t">' + esc(m.title) + "</div>" +
-          '<div class="s">' + esc(m.summary) + "</div>" +
-          '<div class="m"><span class="gbar"><i class="' + (full ? "done" : "") +
-            '" style="width:' + pct + '%"></i></span>' +
-          "<span>" + (s.done ? s.right + "/" + s.done + " right" : s.total + " questions") + "</span>" +
-          "</div></button>";
-      });
-      out += "</div></section>";
-    });
+    if (cur) out.push(cur);
+    if (out.length > 4) { out = out.slice(0, 4); out[3] = out[3].replace(/\s*\S*$/, "") + "..."; }
     return out;
   }
 
-  /* ------------------------------------------------------------ module */
-
-  function gQuestionHtml(m, q, i) {
-    var fb = gLocal[m.id + ":" + q.id];
-    var stored = (gRecord(m.id).answers || {})[q.id];
-    var cls = fb ? (fb.correct ? " right" : " wrong") : "";
-
-    var head = '<div class="qn"><span>Question ' + (i + 1) + " of " + m.questions.length + "</span>" +
-      (stored ? "<span>" + (stored.right + stored.wrong) + " attempt" +
-        (stored.right + stored.wrong === 1 ? "" : "s") +
-        (fb ? "" : " · last " + stored.last) + "</span>" : "<span></span>") + "</div>";
-
-    var body = '<div class="prompt">' + gprompt(q.prompt) + "</div>";
-
-    if (q.type === "mcq") {
-      body += '<div class="gopts">';
-      q.options.forEach(function (opt, k) {
-        var c = "gopt";
-        if (fb) {
-          if (k === fb.answer) c += " key";
-          else if (k === fb.choice) c += " picked-wrong";
-        }
-        body += '<button class="' + c + '" data-gpick="' + k + '"' + (fb ? " disabled" : "") + ">" +
-          '<span class="k">' + "ABCDEFGH".charAt(k) + "</span><span>" + gtext(opt) + "</span></button>";
+  /* The drawing. One row per line, stations spread evenly along it, labels
+     alternating above and below the track on a crowded line so they cannot
+     collide. Interchanges - two stations that are the same rule seen from two
+     lines - are drawn first, as dashed connectors behind everything. */
+  function gmSvg() {
+    var W = 1180, X0 = 262, X1 = 1110, ROW = 132, TOP = 58;
+    var pos = {};
+    gmap.lines.forEach(function (l, r) {
+      var n = l.stations.length, y = TOP + r * ROW;
+      l.stations.forEach(function (s, i) {
+        var x = n === 1 ? (X0 + X1) / 2 : X0 + (X1 - X0) * i / (n - 1);
+        pos[s.id] = { x: x, y: y, up: n > 7 && i % 2 === 1 };
       });
-      body += "</div>";
-    } else {
-      body += '<div class="grow">' +
-        '<input type="text" data-gblank="1" value="' + esc(fb ? fb.given : "") + '"' +
-          (fb ? " disabled" : "") +
-          ' spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off"' +
-          ' data-gramm="false" data-gramm_editor="false" data-enable-grammarly="false"' +
-          ' aria-label="Your answer" placeholder="Type the missing words">' +
-        (fb ? "" : '<button class="btn small" data-gcheck="1">Check</button>') +
-        (q.hint ? '<span class="cue">' + esc(q.hint) + "</span>" : "") +
-        "</div>";
-    }
+    });
+    var H = TOP + (gmap.lines.length - 1) * ROW + 62;
 
-    if (fb) {
-      var ans = q.type === "mcq"
-        ? "ABCDEFGH".charAt(fb.answer) + " · " + gtext(q.options[fb.answer])
-        : fb.accepted.map(function (a) { return gtext(a); }).join(" / ");
-      body += '<div class="gfb ' + (fb.correct ? "right" : "wrong") + '">' +
-        '<span class="v">' + (fb.correct ? "Correct." : "Not quite.") + "</span> " +
-        (fb.correct ? "" : '<span class="ans">' + ans + "</span>") +
-        (fb.explain ? "<p>" + gtext(fb.explain) + "</p>" : "") +
-        (fb.correct ? "" : ' <p><button class="linkish" data-gretry="1">Try this one again</button></p>') +
-        "</div>";
-    }
+    var out = '<svg class="gmsvg" viewBox="0 0 ' + W + " " + H + '" role="img" ' +
+      'aria-label="Grammar map: ' + gmap.lines.length + ' lines of rules, coloured by how often you have got each one wrong">';
 
-    return '<div class="gq' + cls + '" data-gq="' + esc(q.id) + '">' + head + body + "</div>";
+    // Interchanges are marked on the station, tube-map style, rather than
+    // drawn as connectors: a line from one row to another crosses everything
+    // between them, and ten of those turn the map into a cat's cradle.
+    var ix = gmInterchanges();
+
+    gmap.lines.forEach(function (l, r) {
+      var y = TOP + r * ROW;
+      var total = l.stations.reduce(function (t, s) { return t + gmCount(s.id); }, 0);
+      out += '<g class="gmline">' +
+        '<text class="gmname" x="16" y="' + (y - 4) + '">' + esc(l.name) + "</text>" +
+        '<text class="gmsub" x="16" y="' + (y + 13) + '">' + l.stations.length + " stations" +
+        (total ? " · " + total + " fault" + (total === 1 ? "" : "s") : "") + "</text>" +
+        '<line class="gmtrack" x1="' + (X0 - 18) + '" y1="' + y + '" x2="' + (X1 + 18) + '" y2="' + y + '"/>' +
+        '<line class="gmcap" x1="' + (X0 - 18) + '" y1="' + (y - 9) + '" x2="' + (X0 - 18) + '" y2="' + (y + 9) + '"/>' +
+        '<line class="gmcap" x1="' + (X1 + 18) + '" y1="' + (y - 9) + '" x2="' + (X1 + 18) + '" y2="' + (y + 9) + '"/>' +
+        "</g>";
+      l.stations.forEach(function (s) {
+        var p = pos[s.id], n = gmCount(s.id), h = gmHeat(n);
+        var rad = [8, 9.5, 11, 13][h] + (ix[s.id] ? 2 : 0);
+        var lines = gmWrap(s.title, l.stations.length > 7 ? 15 : 20);
+        var ly = p.up ? p.y - rad - 10 - (lines.length - 1) * 12 : p.y + rad + 15;
+        // The last station's label hangs left of it, so it cannot run off the map.
+        var last = s === l.stations[l.stations.length - 1];
+        var lx = last ? p.x + 12 : p.x;
+        var tip = s.title + (n ? " - failed " + n + " time" + (n === 1 ? "" : "s") : " - never failed") +
+          (s.sections.length ? "" : " (article not written yet)");
+        if (ix[s.id]) tip += " - interchange with " + ix[s.id].map(function (o) { return gmStation[o].line.name; }).join(", ");
+        out += '<g class="gmst h' + h + (s.sections.length ? "" : " bare") + (ix[s.id] ? " ix" : "") + '" data-gm="' + esc(s.id) +
+          '" tabindex="0" role="link" aria-label="' + esc(tip) + '"><title>' + esc(tip) + "</title>" +
+          '<circle class="hit" cx="' + p.x + '" cy="' + p.y + '" r="26"/>' +
+          '<circle class="dot" cx="' + p.x + '" cy="' + p.y + '" r="' + rad + '"/>' +
+          (n ? '<text class="gmn" x="' + (p.x + rad + 3) + '" y="' + (p.y - rad + 2) + '">' + n + "</text>" : "") +
+          '<text class="gmlbl' + (last ? " end" : "") + '" x="' + lx + '" y="' + ly + '">' +
+          lines.map(function (t, k) {
+            return '<tspan x="' + lx + '" dy="' + (k ? 12 : 0) + '">' + esc(t) + "</tspan>";
+          }).join("") + "</text></g>";
+      });
+    });
+    return out + "</svg>";
   }
 
-  function gModuleHtml(m) {
-    var idx = grammar.modules.indexOf(m);
-    var prev = grammar.modules[idx - 1], next = grammar.modules[idx + 1];
-    var s = gScore(m);
+  /** station id -> the ids of the stations it interchanges with. */
+  function gmInterchanges() {
+    var ix = {};
+    (gmap.links || []).forEach(function (p) {
+      (ix[p[0]] = ix[p[0]] || []).push(p[1]);
+      (ix[p[1]] = ix[p[1]] || []).push(p[0]);
+    });
+    return ix;
+  }
 
-    var out = '<div class="gcrumb">' +
-      '<button class="linkish" data-gopen="">All modules</button>' +
-      '<span class="sep">/</span><span>' + esc(m.group) + "</span></div>";
+  function gmLegendHtml() {
+    return '<div class="gmlegend">' + GM_HEAT_LABEL.map(function (t, h) {
+      return '<span><svg width="22" height="22" aria-hidden="true"><circle class="dot" cx="11" cy="11" r="' +
+        [6, 7, 8.5, 10][h] + '" style="' + gmDotStyle(h) + '"/></svg>' + t + "</span>";
+    }).join("") + '<span><svg width="24" height="22" aria-hidden="true"><circle cx="12" cy="11" r="8" ' +
+      'style="fill:var(--panel);stroke:var(--gmink);stroke-width:4"/></svg>' +
+      "Interchange: the same rule seen from two lines</span></div>";
+  }
+  function gmDotStyle(h) {
+    return h ? "fill:var(--gm" + h + ");stroke:var(--gm" + h + ")" : "fill:var(--panel);stroke:var(--gmink)";
+  }
 
-    out += '<article class="gmod"><h1>' + esc(m.title) + "</h1>" +
-      '<p class="lede">' + esc(m.summary) + "</p>";
+  function gmIndexHtml() {
+    var stations = 0, written = 0, faults = 0;
+    gmap.lines.forEach(function (l) {
+      l.stations.forEach(function (s) {
+        stations += 1; if (s.sections.length) written += 1; faults += gmCount(s.id);
+      });
+    });
+    var out = '<div class="gintro"><h1>Grammar map</h1>' +
+      "<p>" + gmap.lines.length + " lines, " + stations + " rules. Each station is one rule with an " +
+      "article on how it works. The colours come from the reviews of your own essays and spoken " +
+      "answers: a station fills in every time a review catches you breaking that rule, so the red " +
+      "ones are what to read first.</p></div>";
 
-    m.sections.forEach(function (sec) {
+    if (!gmap.log) {
+      out += '<p class="hint">The failure log is kept only in the local build, beside your saved answers. ' +
+        "Here the map is the articles.</p>";
+    } else if (!faults) {
+      out += '<p class="hint">Nothing failed yet. Hand in an essay or answer a spoken task, then run ' +
+        "<code>/review-answers</code> in Claude Code, and the stations you slip on will fill in.</p>";
+    }
+    if (written < stations) out += '<p class="hint">' + (stations - written) + " articles are still being written; those stations are drawn dashed.</p>";
+
+    out += gmLegendHtml() + '<div class="gmscroll">' + gmSvg() + "</div>";
+
+    if (faults) {
+      var worst = [];
+      gmap.lines.forEach(function (l) {
+        l.stations.forEach(function (s) { if (gmCount(s.id)) worst.push({ s: s, l: l, n: gmCount(s.id) }); });
+      });
+      worst.sort(function (a, b) { return b.n - a.n; });
+      out += '<div class="gmcols"><section><h2>Where you keep failing</h2><ol class="gmworst">' +
+        worst.slice(0, 10).map(function (w) {
+          var h = gmHeat(w.n);
+          return '<li><button class="linkish" data-gm="' + esc(w.s.id) + '">' + esc(w.s.title) + "</button>" +
+            '<span class="gmtag" style="background:var(--gm' + h + ');border-color:var(--gm' + h + ')">' + w.n + "</span>" +
+            '<span class="hint">' + esc(w.l.name) + " · last " + gmDate(gmap.faults[w.s.id].last) + "</span></li>";
+        }).join("") + "</ol></section>";
+      out += "<section><h2>Latest faults</h2>" + gmLogHtml(gmap.recent || [], true) + "</section></div>";
+    }
+    return out;
+  }
+
+  /** A list of fault rows: what you wrote struck through, the fix, and where it came from. */
+  function gmLogHtml(rows, withStation) {
+    if (!rows.length) return '<p class="hint">Nothing filed here yet.</p>';
+    return '<ul class="gmlog">' + rows.map(function (f) {
+      var st = gmStation[f.station];
+      return "<li>" +
+        '<div class="gmx"><span class="no">' + esc(f.excerpt) + "</span>" +
+        (f.fix ? ' <span class="arrow">&rarr;</span> <span class="ok">' + esc(f.fix) + "</span>" : "") + "</div>" +
+        (f.why ? '<div class="why">' + esc(f.why) + "</div>" : "") +
+        '<div class="src">' +
+        (withStation && st ? '<button class="linkish" data-gm="' + esc(f.station) + '">' + esc(st.station.title) + "</button> · " : "") +
+        '<button class="linkish" data-ans="' + f.attempt + '">' + esc(ATTEMPT_NAME[f.task] || f.task) +
+        (f.title ? ": " + esc(f.title) : "") + "</button> · " + gmDate(f.created) + "</div></li>";
+    }).join("") + "</ul>";
+  }
+
+  function gmStationHtml(ref) {
+    var s = ref.station, l = ref.line;
+    var prev = l.stations[ref.i - 1], next = l.stations[ref.i + 1];
+    var n = gmCount(s.id);
+    var out = '<div class="gcrumb"><button class="linkish" data-gm="">Grammar map</button>' +
+      '<span class="sep">/</span><span>' + esc(l.name) + "</span></div>";
+    out += '<article class="gmod"><h1>' + esc(s.title) + "</h1>" +
+      '<p class="lede">' + esc(s.summary) + "</p>";
+    var also = gmInterchanges()[s.id] || [];
+    if (also.length) {
+      out += '<p class="hint">Interchange: this rule also sits on ' + also.map(function (o) {
+        var r = gmStation[o];
+        return '<button class="linkish" data-gm="' + esc(o) + '">' + esc(r.station.title) + "</button> (" +
+          esc(r.line.name) + ")";
+      }).join(", ") + ".</p>";
+    }
+    if (s.check) out += '<div class="gmcheck"><b>When you proof-read:</b> ' + gtext(s.check) + "</div>";
+    if (!s.sections.length) out += '<p class="hint">This article has not been written yet.</p>';
+    s.sections.forEach(function (sec) {
       out += '<section class="gsec"><h3>' + esc(sec.heading) + "</h3>" + gparas(sec.body);
-      sec.examples.forEach(function (ex) {
+      (sec.examples || []).forEach(function (ex) {
         out += '<div class="gex">' +
           (ex.wrong ? '<div class="no">' + gtext(ex.wrong) + "</div>" : "") +
           '<div class="ok">' + gtext(ex.right) + "</div>" +
-          (ex.note ? '<div class="why">' + gtext(ex.note) + "</div>" : "") +
-          "</div>";
+          (ex.note ? '<div class="why">' + gtext(ex.note) + "</div>" : "") + "</div>";
       });
       out += "</section>";
     });
-
-    if (m.slips.length) {
+    if (s.slips.length) {
       out += '<div class="gslips"><h3>Where this slips</h3><ul>' +
-        m.slips.map(function (x) { return "<li>" + gtext(x) + "</li>"; }).join("") +
-        "</ul></div>";
+        s.slips.map(function (x) { return "<li>" + gtext(x) + "</li>"; }).join("") + "</ul></div>";
     }
+    if (s.arabic) out += '<div class="gmarabic"><h3>Why it is hard coming from Arabic</h3>' + gparas(s.arabic) + "</div>";
 
-    out += '<div class="gpract"><h2>Practice</h2>' +
-      '<p class="hint" id="gScoreLine">' + gScoreText(s) + "</p>" +
-      m.questions.map(function (q, i) { return gQuestionHtml(m, q, i); }).join("") +
-      '<div class="gfoot">' +
-      (prev ? '<button class="btn small" data-gopen="' + esc(prev.id) + '">&larr; ' + esc(prev.title) + "</button>" : "") +
-      (next ? '<button class="btn small" data-gopen="' + esc(next.id) + '">' + esc(next.title) + " &rarr;</button>" : "") +
-      '<button class="linkish" data-greset="1" style="margin-left:auto">Clear my answers for this module</button>' +
-      "</div></div></article>";
+    out += '<section class="gmyours"><h2>Your log' + (n ? " (" + n + ")" : "") + "</h2>" +
+      '<div id="gmStationLog">' + (gmap.log ? '<p class="hint">Loading...</p>'
+        : '<p class="hint">The log is kept only in the local build.</p>') + "</div></section>";
 
+    out += '<div class="gfoot">' +
+      (prev ? '<button class="btn small" data-gm="' + esc(prev.id) + '">&larr; ' + esc(prev.title) + "</button>" : "") +
+      (next ? '<button class="btn small" data-gm="' + esc(next.id) + '">' + esc(next.title) + " &rarr;</button>" : "") +
+      "</div></article>";
     return out;
   }
 
-  function gScoreText(s) {
-    if (!s.done) return s.total + " questions. Answers are marked on the server and kept.";
-    return s.done + " of " + s.total + " answered · " + s.right + " right" +
-      (s.done === s.total && s.right === s.total ? " · module clear" : "");
-  }
-
-  /* ----------------------------------------------------------- rendering */
-
   function renderGrammar() {
     var host = document.getElementById("grammarBody");
-    if (!grammar) {
-      host.innerHTML = '<p class="hint" style="padding:24px 0">Loading the syllabus...</p>';
+    if (!gmap) {
+      host.innerHTML = '<p class="hint" style="padding:24px 0">Loading the map...</p>';
       loadGrammarData().then(renderGrammar)["catch"](function (err) {
         host.innerHTML = '<div class="empty" style="padding:48px 0">' +
-          '<p class="big">Could not load the grammar modules.</p>' +
+          '<p class="big">Could not load the grammar map.</p>' +
           '<p class="hint">' + esc(err.message) + "</p></div>";
       });
       return;
     }
-    if (!grammar.modules.length) {
-      host.innerHTML = '<div class="empty" style="padding:48px 0">' +
-        '<p class="big">No grammar modules found.</p>' +
-        '<p class="hint">Expected JSON files in <b>data/grammar/</b>.</p></div>';
+    var ref = settings.grammar.station && gmStation[settings.grammar.station];
+    host.innerHTML = ref ? gmStationHtml(ref) : gmIndexHtml();
+    window.scrollTo(0, 0);
+    if (ref && gmap.log) {
+      var id = ref.station.id;
+      var paint = function (rows) {
+        var box = document.getElementById("gmStationLog");
+        if (box && settings.grammar.station === id) box.innerHTML = gmLogHtml(rows, false);
+      };
+      if (gmLogCache[id]) paint(gmLogCache[id]);
+      else api("/api/grammarmap/faults?station=" + encodeURIComponent(id)).then(function (d) {
+        gmLogCache[id] = d.faults || [];
+        paint(gmLogCache[id]);
+      })["catch"](function (err) { paint([]); });
+    }
+  }
+
+  function gmOpen(el) {
+    var id = el.getAttribute("data-gm");
+    navigateTo(id ? "/grammar/" + id : "/grammar");
+  }
+  document.getElementById("grammarBody").addEventListener("click", function (ev) {
+    var st = ev.target.closest("[data-gm]");
+    if (st) return gmOpen(st);
+    var ans = ev.target.closest("[data-ans]");
+    if (ans) return navigateTo("/answers/" + ans.getAttribute("data-ans"));
+  });
+  document.getElementById("grammarBody").addEventListener("keydown", function (ev) {
+    if (ev.key !== "Enter" && ev.key !== " ") return;
+    var st = ev.target.closest("g[data-gm]");
+    if (!st) return;
+    ev.preventDefault();
+    gmOpen(st);
+  });
+
+  /* ------------------------------------------------ the two summary tasks
+
+     Summarize Written Text (Writing): read a passage, write ONE sentence of
+     5-75 words in ten minutes. Summarize Spoken Text (Listening): hear a
+     lecture once, write 50-70 words in ten minutes. Added 26 Sep 2026.
+
+     They are one exercise with a different source, so they share one
+     renderer, one clock and one hand-in - SUMM is the only place that knows
+     which of the two is in front of you, the rule LISTEN keeps for the two
+     listening tasks on Speaking.
+
+     The clock is a deadline, the Essays tab's rule: for the passage it starts
+     when the item is taken, for the lecture when the recording ENDS, because
+     the ten minutes follow the audio in the exam. At zero the answer is
+     handed in by itself, once. The draft lives in settings.summ as reload
+     insurance; the textarea is built only when the item changes, never
+     while you type, for the reason renderEssay() never touches its box.
+
+     The model summary (passage) and the lecture's text and points arrive
+     only after you hand in: reading the answer first makes it copying. */
+
+  var SUMM = {
+    swt: { name: "Summarize Written Text", field: "SUMMARIZE WRITTEN TEXT", host: "swtBody",
+           next: "Next passage", one: true },
+    sst: { name: "Summarize Spoken Text", field: "SUMMARIZE SPOKEN TEXT", host: "sstBody",
+           next: "Next lecture", one: false }
+  };
+  var summ = { swt: [], sst: [], times: null, sstTimes: null, timer: null, audio: null,
+               playing: false, shown: {} };
+
+  function loadSwt() {
+    return Promise.all([
+      api("/api/swt").then(function (d) {
+        summ.swt = d.items || [];
+        summ.times = d.times || null;
+        summ.sstTimes = d.sst || null;
+      }),
+      // Only lectures with a recording: there is nothing to synthesise into a
+      // ten-minute task, and a lecture that cannot play cannot be summarised.
+      api("/api/lectures").then(function (d) {
+        summ.sst = (d.lectures || []).filter(function (l) { return l.audio; });
+      })
+    ])["catch"](function () { /* the tab says nothing is loaded */ });
+  }
+
+  function summState(kind) { return settings.summ[kind]; }
+  function summItems(kind) { return summ[kind] || []; }
+  function summItem(kind) {
+    var st = summState(kind), list = summItems(kind);
+    for (var i = 0; i < list.length; i++) if (list[i].id === st.id) return { it: list[i], i: i };
+    return null;
+  }
+  function summBand(kind) {
+    var t = kind === "swt" ? summ.times : summ.sstTimes;
+    return (t && t.words) || (kind === "swt" ? { min: 5, max: 75 } : { min: 50, max: 70 });
+  }
+  function summMs(kind) {
+    var t = kind === "swt" ? summ.times : summ.sstTimes;
+    return ((t && t.minutes) || 10) * 60000;
+  }
+  function sentencesIn(text) {
+    return String(text || "").split(/[.!?]+(?:\s|$)/).filter(function (x) { return x.trim(); }).length;
+  }
+
+  /** Take an item: a fresh box, and for the passage, a fresh clock. */
+  function summTake(kind, id) {
+    stopSumAudio();
+    settings.summ[kind] = { id: id, text: "", endsAt: kind === "swt" ? Date.now() + summMs(kind) : null,
+                            heard: false, handedIn: null };
+    saveSettings();
+    summ.shown[kind] = null;
+    renderSumm(kind);
+  }
+  function summStep(kind, how) {
+    var list = summItems(kind), cur = summItem(kind);
+    if (!list.length) return;
+    if (cur && wordCount(summState(kind).text) >= 5 && !summState(kind).handedIn &&
+        !window.confirm("Take another one? What you have written here has not been handed in.")) return;
+    var i = cur ? cur.i : -1, k;
+    if (how === "random" && list.length > 1) {
+      do { k = Math.floor(Math.random() * list.length); } while (k === i);
+    } else k = (i + 1) % list.length;
+    summTake(kind, list[k].id);
+  }
+
+  function summLeft(kind) {
+    var e = summState(kind);
+    if (!e.endsAt) return { ms: summMs(kind), state: "idle" };
+    var ms = e.endsAt - Date.now();
+    return ms <= 0 ? { ms: 0, state: "out" } : { ms: ms, state: "run" };
+  }
+
+  function summKind() {
+    if (settings.view === "writing" && settings.writing.mode === "swt") return "swt";
+    if (settings.view === "listening" && settings.listening.mode === "sst") return "sst";
+    return null;
+  }
+
+  function summPaint() {
+    var kind = summKind();
+    if (!kind || !document.getElementById("summClock")) { clearInterval(summ.timer); summ.timer = null; return; }
+    var l = summLeft(kind), e = summState(kind), band = summBand(kind);
+    var clock = document.getElementById("summClock");
+    // Its own formatter: this file has two mmss(), one in ms and one in seconds.
+    var t = Math.ceil(l.ms / 1000);
+    clock.textContent = Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0");
+    clock.className = "eclock" + (l.state === "run" ? (l.ms <= 60000 ? " is-low" : " is-run") :
+      l.state === "out" ? " is-out" : "");
+    document.getElementById("summState").textContent =
+      l.state === "out" ? "Time is up" :
+      l.state === "idle" ? (kind === "sst" ? "The ten minutes start when the lecture ends" : "") : "";
+    var box = document.getElementById("summText");
+    var n = wordCount(box.value);
+    var w = document.getElementById("summWords");
+    w.textContent = n;
+    w.className = !n || n < band.min ? "" : n <= band.max ? "is-ok" : "is-over";
+    var warn = "";
+    if (SUMM[kind].one && n) {
+      var s = sentencesIn(box.value);
+      if (s > 1) warn = s + " sentences: the answer must be ONE sentence, with one full stop at the end.";
+      else if (!/[.!?]\s*$/.test(box.value.trim())) warn = "End the sentence with a full stop.";
+    }
+    document.getElementById("summWarn").textContent = warn;
+    if (l.state === "out" && e.handedIn !== (e.id + "@" + e.endsAt) && n >= band.min) summHandIn(kind, true);
+    var live = l.state === "run";
+    if (live && !summ.timer) summ.timer = setInterval(summPaint, 250);
+    else if (!live && summ.timer) { clearInterval(summ.timer); summ.timer = null; }
+  }
+
+  function renderSumm(kind) {
+    var T = SUMM[kind], host = document.getElementById(T.host), list = summItems(kind);
+    if (!list.length) {
+      host.innerHTML = '<p class="hint">' + (kind === "swt"
+        ? "No passages are loaded. They live in <code>data/swt/</code>, one file per set of ten."
+        : "No lectures with a recording are loaded.") + "</p>";
       return;
     }
-
-    var m = settings.grammar.module && gById[settings.grammar.module];
-    host.innerHTML = m ? gModuleHtml(m) : grammarIndexHtml();
-    window.scrollTo(0, 0);
+    if (!summItem(kind)) {
+      settings.summ[kind] = { id: null, text: "", endsAt: null, heard: false, handedIn: null };
+    }
+    var cur = summItem(kind), e = summState(kind), band = summBand(kind);
+    var it = cur && cur.it;
+    var out = '<div class="summ"><div class="slecmeta"><span class="slecfield">' + T.field + "</span>" +
+      '<span class="espacer"></span><span class="slecnum">' +
+      (it ? (cur.i + 1) + " of " + list.length + (it.setTitle ? " · " + esc(it.setTitle) : it.field ? " · " + esc(it.field) : "") : "") +
+      "</span></div>";
+    if (!it) {
+      out += '<p class="eq">' + (kind === "swt"
+        ? "Take a passage. The ten minutes start the moment it appears."
+        : "Take a lecture. You hear it once; the ten minutes start when it ends.") + "</p>";
+    } else if (kind === "swt") {
+      out += '<p class="slectitle">' + esc(it.title) + '</p><div class="summpass">' +
+        it.passage.split(/\n\n+/).map(function (pp) { return "<p>" + esc(pp) + "</p>"; }).join("") + "</div>";
+    } else {
+      out += '<p class="slectitle">A lecture' + (it.field ? " on " + esc(it.field) : "") + "</p>" +
+        '<div class="erow"><button class="btn small btn-primary" id="summPlay"' +
+        (e.heard || summ.playing ? " disabled" : "") + ">" +
+        (summ.playing ? "Playing..." : e.heard ? "Heard" : "Play the lecture") + "</button>" +
+        '<span class="ehint" id="summPlayNote">' + (e.heard ? "" : "Once only, as in the exam. Take notes as it plays.") +
+        "</span></div>";
+    }
+    out += '<div class="erow"><button class="btn small" data-summ="next">' + T.next + "</button>" +
+      '<button class="btn small" data-summ="random">Random</button></div>';
+    out += '<div class="ebar"><div class="eclock" id="summClock">--:--</div><span class="estate" id="summState"></span>' +
+      '<span class="espacer"></span><div class="ewords"><b id="summWords">0</b> words <span>(' +
+      band.min + "-" + band.max + (T.one ? ", one sentence" : "") + ")</span></div></div>";
+    out += '<textarea id="summText" class="summbox" spellcheck="false" autocorrect="off" autocapitalize="off" ' +
+      'autocomplete="off" data-gramm="false" data-gramm_editor="false" data-enable-grammarly="false" lang="en" dir="ltr" ' +
+      'aria-label="Your summary" placeholder="' + (T.one ? "One sentence." : "50 to 70 words.") + '"' +
+      (it ? "" : " disabled") + "></textarea>";
+    out += '<div class="efoot"><span class="summwarn" id="summWarn"></span><span class="espacer"></span>' +
+      '<button class="btn small" id="summHand"' + (it ? "" : " disabled") + ">Hand in for review</button></div>" +
+      '<p class="ehint" id="summSaved"></p><div id="summModel"></div></div>';
+    host.innerHTML = out;
+    document.getElementById("summText").value = e.text || "";
+    if (summ.shown[kind]) showSummModel(kind, summ.shown[kind]);
+    summPaint();
   }
 
-  /** Redraw one question in place, so the rest of the page does not move. */
-  function gRedrawQuestion(m, qid) {
-    var node = document.querySelector('[data-gq="' + qid + '"]');
-    if (!node) return;
-    var i = 0;
-    m.questions.forEach(function (q, k) { if (q.id === qid) i = k; });
-    node.outerHTML = gQuestionHtml(m, m.questions[i], i);
-    var line = document.getElementById("gScoreLine");
-    if (line) line.textContent = gScoreText(gScore(m));
+  function summHandIn(kind, auto) {
+    if (window.PTE_CLOUD) return;
+    var cur = summItem(kind), e = summState(kind);
+    if (!cur) return;
+    var box = document.getElementById("summText"), text = box ? box.value : e.text;
+    var note = document.getElementById("summSaved");
+    var l = summLeft(kind);
+    e.handedIn = e.id + "@" + e.endsAt;
+    e.text = text;
+    saveSettings();
+    // The key arrives with the hand-in: the model summary or the lecture's
+    // words go into the saved prompt, for the reviewer, and onto the page.
+    var key = kind === "swt"
+      ? api("/api/swt/" + encodeURIComponent(cur.it.id) + "/model")
+      : api("/api/lectures/" + encodeURIComponent(cur.it.id)).then(function (d) { return d.lecture; });
+    return key.then(function (k) {
+      var it = cur.it, L = [];
+      if (kind === "swt") {
+        L.push("Summarize Written Text (" + it.id + "): ONE sentence, 5-75 words, in 10 minutes.", "",
+               "=== THE PASSAGE: " + it.title + " ===", it.passage, "",
+               "=== MAIN IDEA AND KEY POINTS ===");
+        (k.points || []).forEach(function (p) { L.push("- " + p); });
+        L.push("", "=== A MODEL SUMMARY (for reference, not the only right answer) ===", k.summary || "");
+      } else {
+        L.push("Summarize Spoken Text (" + it.id + "): 50-70 words, in 10 minutes, after hearing the lecture once.", "",
+               "=== THE LECTURE: " + (k.title || it.title || "") + " ===", k.text || "", "",
+               "=== THE POINTS IT MAKES ===");
+        (k.points || []).forEach(function (p) { L.push("- " + p); });
+      }
+      summ.shown[kind] = k;
+      showSummModel(kind, k);
+      return saveAttempt({
+        task: kind, itemId: it.id, title: it.title || k.title || it.id, prompt: L.join("\n"), answer: text,
+        metrics: { words: wordCount(text), sentences: sentencesIn(text),
+                   minutes: e.endsAt ? Math.round((summMs(kind) - l.ms) / 60000) : null, auto: !!auto }
+      }, note);
+    })["catch"](function (err) { if (note) note.textContent = "Could not hand it in: " + err.message; });
   }
 
-  function gAnswer(m, q, payload) {
-    return api("/api/grammar/answer", payload).then(function (r) {
-      gLocal[m.id + ":" + q.id] = {
-        correct: r.correct,
-        explain: r.explain,
-        choice: payload.choice,
-        given: payload.text || "",
-        answer: q.type === "mcq" ? r.answer : null,
-        accepted: q.type === "mcq" ? null : r.answer
-      };
-      grammar.progress[m.id] = grammar.progress[m.id] || { answers: {} };
-      grammar.progress[m.id].answers[q.id] = r.tally;
-      gRedrawQuestion(m, q.id);
-    })["catch"](function (err) {
-      alertLine(err.message);
+  function showSummModel(kind, k) {
+    var box = document.getElementById("summModel");
+    if (!box) return;
+    box.innerHTML = kind === "swt"
+      ? '<div class="summkey"><h3>A model summary</h3><p>' + esc(k.summary) + "</p>" +
+        "<h3>What it had to cover</h3><ul>" + (k.points || []).map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") +
+        "</ul></div>"
+      : '<div class="summkey"><h3>What the lecture said</h3><p>' + esc(k.text) + "</p>" +
+        "<h3>Its points</h3><ul>" + (k.points || []).map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") +
+        "</ul></div>";
+  }
+
+  function stopSumAudio() {
+    if (summ.audio) { try { summ.audio.pause(); } catch (x) {} }
+    summ.audio = null;
+    summ.playing = false;
+  }
+
+  function playSumLecture() {
+    var cur = summItem("sst"), e = summState("sst");
+    if (!cur || e.heard || summ.playing) return;
+    var a = new Audio("/api/lectures/" + encodeURIComponent(cur.it.id) + "/audio");
+    summ.audio = a;
+    summ.playing = true;
+    a.addEventListener("ended", function () {
+      if (summ.audio !== a) return;
+      summ.playing = false;
+      e.heard = true;
+      e.endsAt = Date.now() + summMs("sst");
+      saveSettings();
+      if (summKind() === "sst") renderSumm("sst");
+    });
+    a.play().then(function () {
+      if (summKind() === "sst") renderSumm("sst");
+    }, function (err) {
+      summ.playing = false;
+      var n = document.getElementById("summPlayNote");
+      if (n) n.textContent = "The browser would not play it: " + err.message;
+      if (summ.audio === a) summ.audio = null;
     });
   }
 
-  function alertLine(msg) {
-    var line = document.getElementById("gScoreLine");
-    if (line) line.textContent = "Could not reach the server: " + msg;
-  }
-
-  document.getElementById("grammarBody").addEventListener("click", function (ev) {
-    var open = ev.target.closest("[data-gopen]");
-    if (open) {
-      var id = open.getAttribute("data-gopen");
-      return navigateTo(id ? "/grammar/" + id : "/grammar");
-    }
-
-    var m = settings.grammar.module && gById[settings.grammar.module];
-    if (!m) return;
-
-    var reset = ev.target.closest("[data-greset]");
-    if (reset) {
-      return api("/api/grammar/reset", { module: m.id }).then(function (r) {
-        grammar.progress = r.progress;
-        m.questions.forEach(function (q) { delete gLocal[m.id + ":" + q.id]; });
-        renderGrammar();
-      })["catch"](function (err) { alertLine(err.message); });
-    }
-
-    var box = ev.target.closest("[data-gq]");
-    if (!box) return;
-    var qid = box.getAttribute("data-gq");
-    var q = null;
-    m.questions.forEach(function (x) { if (x.id === qid) q = x; });
-    if (!q) return;
-
-    var retry = ev.target.closest("[data-gretry]");
-    if (retry) { delete gLocal[m.id + ":" + qid]; return gRedrawQuestion(m, qid); }
-
-    var pick = ev.target.closest("[data-gpick]");
-    if (pick) return gAnswer(m, q, { module: m.id, q: qid, choice: Number(pick.getAttribute("data-gpick")) });
-
-    if (ev.target.closest("[data-gcheck]")) {
-      var input = box.querySelector("[data-gblank]");
-      if (input && input.value.trim()) gAnswer(m, q, { module: m.id, q: qid, text: input.value });
-    }
+  ["swtBody", "sstBody"].forEach(function (hostId) {
+    var host = document.getElementById(hostId);
+    var kindOf = function () { return hostId === "swtBody" ? "swt" : "sst"; };
+    host.addEventListener("click", function (ev) {
+      var kind = kindOf();
+      var step = ev.target.closest("[data-summ]");
+      if (step) return summStep(kind, step.getAttribute("data-summ"));
+      if (ev.target.closest("#summPlay")) return playSumLecture();
+      if (ev.target.closest("#summHand")) return summHandIn(kind, false);
+    });
+    var saveT = null;
+    host.addEventListener("input", function (ev) {
+      if (ev.target.id !== "summText") return;
+      var kind = kindOf(), v = ev.target.value;
+      summPaint();
+      clearTimeout(saveT);
+      saveT = setTimeout(function () { settings.summ[kind].text = v; saveSettings(); }, 400);
+    });
   });
 
-  // Enter checks a blank, the same key that submits an answer in the drill.
-  document.getElementById("grammarBody").addEventListener("keydown", function (ev) {
-    if (ev.key !== "Enter") return;
-    var input = ev.target.closest("[data-gblank]");
-    if (!input || !input.value.trim()) return;
+  /* ------------------------------------------------------------ my answers
+     Every answer handed in - essays, the summaries, the spoken tasks that need
+     a model to mark them - and the review of each, once the review skill has
+     written one (26 Sep 2026). Stored as TEXT in data/attempts.db: see
+     src/attempts.js for why that reverses the old "a rehearsal, not a
+     document" rule, and why the audio is still never kept.
+
+     The page never writes a review. It saves the answer, and reads back what
+     /review-answers wrote - so a review is only ever as good as the one place
+     that produces it, and there is no second marker here to disagree with it. */
+
+  var ATTEMPT_NAME = {
+    essay: "Write Essay", swt: "Summarize Written Text", sst: "Summarize Spoken Text",
+    retell: "Re-tell Lecture", discussion: "Group Discussion", image: "Describe Image",
+    situation: "Respond to a Situation", free: "Free talk"
+  };
+  var ans = { list: null, loading: null, byId: {}, filter: "", armed: null };
+
+  function loadAnswers(fresh) {
+    if (ans.list && !fresh) return Promise.resolve(ans.list);
+    if (ans.loading) return ans.loading;
+    ans.loading = api("/api/attempts").then(function (d) {
+      ans.list = d.attempts || [];
+      ans.loading = null;
+      return ans.list;
+    }, function (err) { ans.loading = null; throw err; });
+    return ans.loading;
+  }
+
+  /**
+   * Hand an answer in. Every task calls this and nothing else, so what an
+   * attempt looks like is decided in one place. `note` is an element to
+   * report into; the promise resolves with the new id, or null.
+   */
+  function saveAttempt(a, note) {
+    if (!a.answer || !String(a.answer).trim()) {
+      if (note) note.textContent = "Nothing to hand in yet.";
+      return Promise.resolve(null);
+    }
+    if (note) note.textContent = "Saving...";
+    return api("/api/attempts", a).then(function (r) {
+      ans.list = null;                        // the list is stale now
+      if (note) {
+        note.innerHTML = 'Saved for review as <a href="/answers/' + r.id + '" data-nav="/answers/' + r.id +
+          '">answer #' + r.id + "</a>. Run <code>/review-answers</code> in Claude Code to have it reviewed.";
+      }
+      return r.id;
+    })["catch"](function (err) {
+      if (note) note.textContent = "Could not save it: " + err.message;
+      return null;
+    });
+  }
+
+  // Links inside notes the page writes: navigate in place rather than reload.
+  document.addEventListener("click", function (ev) {
+    var a = ev.target.closest && ev.target.closest("a[data-nav]");
+    if (!a || ev.ctrlKey || ev.metaKey || ev.shiftKey) return;
     ev.preventDefault();
-    var box = input.closest("[data-gq]");
-    var m = settings.grammar.module && gById[settings.grammar.module];
-    if (!m || !box) return;
-    var qid = box.getAttribute("data-gq"), q = null;
-    m.questions.forEach(function (x) { if (x.id === qid) q = x; });
-    if (q) gAnswer(m, q, { module: m.id, q: qid, text: input.value });
+    navigateTo(a.getAttribute("data-nav"));
+  });
+
+  /** Word-level diff: [{op:'=', '-', '+', w}], by longest common subsequence. */
+  function wordDiff(a, b) {
+    var x = String(a || "").split(/\s+/).filter(Boolean), y = String(b || "").split(/\s+/).filter(Boolean);
+    var n = x.length, m = y.length, L = [], i, j;
+    for (i = 0; i <= n; i++) { L.push(new Array(m + 1).fill(0)); }
+    // Punctuation does not break a match: "costs" and "costs," are one word here.
+    var norm = function (w) { return w.toLowerCase().replace(/[^a-z0-9']+/g, ""); };
+    for (i = n - 1; i >= 0; i--) for (j = m - 1; j >= 0; j--) {
+      L[i][j] = norm(x[i]) === norm(y[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    }
+    var out = [];
+    i = 0; j = 0;
+    while (i < n && j < m) {
+      if (norm(x[i]) === norm(y[j])) { out.push({ op: "=", w: y[j] }); i++; j++; }
+      else if (L[i + 1][j] >= L[i][j + 1]) { out.push({ op: "-", w: x[i++] }); }
+      else out.push({ op: "+", w: y[j++] });
+    }
+    while (i < n) out.push({ op: "-", w: x[i++] });
+    while (j < m) out.push({ op: "+", w: y[j++] });
+    return out;
+  }
+
+  /** The original with what the fix removed struck in red, and what it added in green. */
+  function fixDiffHtml(orig, fixed) {
+    return wordDiff(orig, fixed).map(function (d) {
+      if (d.op === "=") return esc(d.w);
+      return d.op === "-" ? '<del class="adel">' + esc(d.w) + "</del>" : '<ins class="ains">' + esc(d.w) + "</ins>";
+    }).join(" ");
+  }
+
+  /** A deck headword inside a sentence, painted green (first occurrence, case-insensitive). */
+  function paintEntry(text, entry) {
+    var t = esc(text), e = esc(entry);
+    var k = t.toLowerCase().indexOf(e.toLowerCase());
+    if (!e || k < 0) return t;
+    return t.slice(0, k) + '<b class="vw">' + t.slice(k, k + e.length) + "</b>" + t.slice(k + e.length);
+  }
+
+  function ansWhen(iso) {
+    var d = new Date(iso);
+    return d.toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" }) + ", " +
+      d.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+  }
+
+  function ansMetrics(m) {
+    m = m || {};
+    var bits = [];
+    if (m.words != null) bits.push(m.words + " words");
+    if (m.minutes != null) bits.push(m.minutes + " min used");
+    if (m.seconds != null) bits.push(Math.round(m.seconds) + "s spoken");
+    if (m.wpm) bits.push(m.wpm + " words/min");
+    if (m.fillers != null) bits.push(m.fillers + " filled pause" + (m.fillers === 1 ? "" : "s"));
+    return bits.join(" · ");
+  }
+
+  function answersIndexHtml() {
+    var list = ans.list || [];
+    var tasks = {};
+    list.forEach(function (a) { tasks[a.task] = (tasks[a.task] || 0) + 1; });
+    var pending = list.filter(function (a) { return !a.reviewed; }).length;
+    var out = '<div class="gintro"><h1>My answers</h1><p>Everything you have handed in, newest first. ' +
+      "Essays and summaries are saved when you press Hand in; the spoken tasks that need a model to mark " +
+      "them save themselves when the report comes back. Only the words are kept, never the recording. " +
+      (pending ? "<b>" + pending + " waiting for review</b>: run <code>/review-answers</code> in Claude Code."
+               : list.length ? "All reviewed." : "") + "</p></div>";
+    if (!list.length) {
+      return out + '<p class="hint">Nothing handed in yet. Write an essay on the Writing tab, or answer a ' +
+        "Re-tell Lecture, a Group Discussion, a Describe Image or a Respond to a Situation.</p>";
+    }
+    var keys = Object.keys(tasks);
+    if (keys.length > 1) {
+      out += '<div class="seg anfilter" role="group" aria-label="Show">' +
+        '<button data-anf="" aria-pressed="' + String(!ans.filter) + '">All (' + list.length + ")</button>" +
+        keys.map(function (k) {
+          return '<button data-anf="' + k + '" aria-pressed="' + String(ans.filter === k) + '">' +
+            esc(ATTEMPT_NAME[k] || k) + " (" + tasks[k] + ")</button>";
+        }).join("") + "</div>";
+    }
+    out += '<ul class="anlist">' + list.filter(function (a) { return !ans.filter || a.task === ans.filter; })
+      .map(function (a) {
+        return '<li><button class="anrow" data-anopen="' + a.id + '">' +
+          '<span class="t">' + esc(ATTEMPT_NAME[a.task] || a.task) + (a.title ? ": " + esc(a.title) : "") + "</span>" +
+          '<span class="s">' + esc(a.opening) + (a.chars > 160 ? "..." : "") + "</span>" +
+          '<span class="m">#' + a.id + " · " + ansWhen(a.created) +
+          (ansMetrics(a.metrics) ? " · " + ansMetrics(a.metrics) : "") + "</span>" +
+          (a.reviewed ? '<span class="anbadge done">Reviewed · ' + (a.score ? "about " + a.score.got + "/" + a.score.max + " · " : "") +
+                        a.faults + " fault" + (a.faults === 1 ? "" : "s") + "</span>"
+                      : '<span class="anbadge">Waiting for review</span>') +
+          "</button></li>";
+      }).join("") + "</ul>";
+    return out;
+  }
+
+  var VERDICT_CLASS = { good: "good", fix: "fix", note: "note", right: "good", partly: "note",
+                        wrong: "fix", unclear: "note" };
+
+  function reviewHtml(a) {
+    var r = a.review, out = "";
+    out += '<div class="ansummary">' + gparas(r.summary) + "</div>";
+    out += scoreHtml(r.score);
+
+    // The heart of it: every sentence, its minimal fix, and the same idea said better.
+    out += '<section class="ansec"><h2>Sentence by sentence</h2>' +
+      '<p class="hint">Your sentence with the fix marked in it (red out, green in), then the same idea as a ' +
+      "strong writer would put it. Your ideas are not changed, only how they are said.</p>";
+    (r.sentences || []).forEach(function (s, i) {
+      var same = String(s.fixed || "").trim() === String(s.original || "").trim();
+      out += '<div class="ansent' + (same ? " ok" : "") + '">' +
+        '<div class="n">' + (i + 1) + "</div><div>" +
+        '<div class="orig">' + (same ? esc(s.original) + ' <span class="anok">&#10003; correct</span>'
+                                     : fixDiffHtml(s.original, s.fixed)) + "</div>" +
+        (same ? "" : '<div class="lbl">Fixed</div><div class="fixed">' + esc(s.fixed) + "</div>") +
+        (s.better && s.better.trim() !== String(s.fixed || "").trim()
+          ? '<div class="lbl">Better</div><div class="better">' + esc(s.better) + "</div>" : "") +
+        (s.notes ? '<div class="notes">' + gtext(s.notes) + "</div>" : "") +
+        "</div></div>";
+    });
+    out += "</section>";
+
+    if (r.model && r.model.text) {
+      out += '<section class="ansec"><h2>Model answer</h2>' +
+        (r.model.note ? '<p class="hint">' + gtext(r.model.note) + "</p>" : "") +
+        '<div class="anmodel">' + gparas(r.model.text) + "</div></section>";
+    }
+
+    // Faults, grouped by station, each station a link to its article.
+    var faults = r.faults || [], groups = {}, order = [];
+    faults.forEach(function (f) {
+      if (!groups[f.station]) { groups[f.station] = []; order.push(f.station); }
+      groups[f.station].push(f);
+    });
+    order.sort(function (x, y) { return groups[y].length - groups[x].length; });
+    out += '<section class="ansec"><h2>Grammar faults (' + faults.length + ")</h2>";
+    if (!faults.length) out += '<p class="hint">None found.</p>';
+    order.forEach(function (st) {
+      var ref = gmStation[st];
+      out += '<div class="anfault"><button class="linkish" data-gm="' + esc(st) + '">' +
+        esc(ref ? ref.station.title : st) + "</button>" +
+        (groups[st].length > 1 ? ' <span class="gmtag" style="background:var(--gm2);border-color:var(--gm2)">' +
+          groups[st].length + "</span>" : "") +
+        (ref ? ' <span class="hint">' + esc(ref.line.name) + "</span>" : "") +
+        '<ul class="gmlog">' + groups[st].map(function (f) {
+          return '<li><div class="gmx"><span class="no">' + esc(f.excerpt) + "</span>" +
+            (f.fix ? ' <span class="arrow">&rarr;</span> <span class="ok">' + esc(f.fix) + "</span>" : "") + "</div>" +
+            (f.why ? '<div class="why">' + esc(f.why) + "</div>" : "") + "</li>";
+        }).join("") + "</ul></div>";
+    });
+    out += "</section>";
+
+    // The deck: what you used, and where a word or phrase would have fitted.
+    out += '<section class="ansec"><h2>Your deck</h2>';
+    if ((r.used || []).length) {
+      out += '<p class="anused"><span class="hint">You used:</span> ' + r.used.map(function (d) {
+        return '<span class="anchip">' + esc(d.entry) + "</span>";
+      }).join(" ") + "</p>";
+    } else out += '<p class="hint">No deck words or phrases used this time.</p>';
+    (r.deck || []).forEach(function (d) {
+      out += '<div class="andeck"><div class="h"><b>' + esc(d.entry) + "</b> <span class=\"hint\">" +
+        (d.kind === "phrases" ? "phrase" : "word") + "</span></div>" +
+        (d.where ? '<div class="was"><span class="lbl">You wrote</span> ' + esc(d.where) + "</div>" : "") +
+        '<div class="now"><span class="lbl">With it</span> ' + paintEntry(d.rewrite, d.entry) + "</div>" +
+        (d.note ? '<div class="notes">' + gtext(d.note) + "</div>" : "") + "</div>";
+    });
+    out += "</section>";
+
+    if ((r.task || []).length) {
+      out += '<section class="ansec"><h2>The task</h2><ul class="antask">' + r.task.map(function (t) {
+        return '<li class="' + (VERDICT_CLASS[t.verdict] || "note") + '"><b>' + esc(t.label) + "</b> " + gtext(t.note) + "</li>";
+      }).join("") + "</ul></section>";
+    }
+
+    if (r.ideas) {
+      out += '<section class="ansec"><h2>Your ideas' + (r.ideas.verdict ? ' <span class="anverdict">' +
+        esc(r.ideas.verdict) + "</span>" : "") + "</h2>" +
+        '<p class="hint">Not about PTE: how accurate and well-informed what you said about the subject is.</p>' +
+        gparas(r.ideas.body);
+      if ((r.ideas.claims || []).length) {
+        out += '<ul class="antask">' + r.ideas.claims.map(function (c) {
+          return '<li class="' + (VERDICT_CLASS[c.verdict] || "note") + '"><b>' + esc(c.claim) + "</b> " +
+            '<span class="anv">' + esc(c.verdict) + "</span> " + gtext(c.note) + "</li>";
+        }).join("") + "</ul>";
+      }
+      out += "</section>";
+    }
+    return out;
+  }
+
+  /* The estimated score: one bar per PTE trait, the reason beside it, and
+     the traits that could not be judged from text named rather than guessed.
+     It is labelled an estimate everywhere it appears, because it is one. */
+  function scoreHtml(sc) {
+    if (!sc || !sc.traits || !sc.traits.length) return "";
+    var got = 0, max = 0;
+    sc.traits.forEach(function (t) { got += t.got; max += t.max; });
+    var pct = max ? Math.round(got / max * 100) : 0;
+    return '<section class="ansec anscore"><h2>Estimated score <span class="anbig">' + got + " / " + max +
+      '</span> <span class="hint">(' + pct + "%)</span></h2>" +
+      '<p class="hint">An estimate against PTE\'s published marking criteria, not PTE\'s own score: the real one ' +
+      "comes from a machine marker whose workings are not public." +
+      ((sc.unscored || []).length ? " Not scored: " + sc.unscored.map(esc).join(", ") + "." : "") + "</p>" +
+      '<div class="antraits">' + sc.traits.map(function (t) {
+        var w = t.max ? Math.round(t.got / t.max * 100) : 0;
+        return '<div class="antrait"><div class="h"><b>' + esc(t.trait) + "</b> <span>" + t.got + " / " + t.max + "</span></div>" +
+          '<span class="gbar"><i style="width:' + w + '%"></i></span>' +
+          '<div class="why">' + gtext(t.note) + "</div></div>";
+      }).join("") + "</div>" +
+      (sc.note ? '<p class="hint">' + gtext(sc.note) + "</p>" : "") + "</section>";
+  }
+
+  function answerHtml(a) {
+    var out = '<div class="gcrumb"><button class="linkish" data-anopen="">All answers</button>' +
+      '<span class="sep">/</span><span>#' + a.id + "</span></div>";
+    out += '<article class="anart"><h1>' + esc(ATTEMPT_NAME[a.task] || a.task) +
+      (a.title ? ": " + esc(a.title) : "") + "</h1>" +
+      '<p class="lede">' + ansWhen(a.created) + (ansMetrics(a.metrics) ? " · " + ansMetrics(a.metrics) : "") + "</p>";
+    if (!a.review) {
+      out += '<div class="gmcheck"><b>Waiting for review.</b> In Claude Code, run <code>/review-answers ' + a.id +
+        "</code> (or just <code>/review-answers</code> for everything waiting), then come back here.</div>";
+    }
+    out += '<details class="anprompt"><summary>What you were given</summary><div class="pre">' +
+      esc(a.prompt || "(not stored)") + "</div></details>";
+    if (a.review) out += reviewHtml(a);
+    out += '<section class="ansec"><h2>Your answer, as handed in</h2><div class="pre anbody">' + esc(a.answer) + "</div>" +
+      (a.marked ? '<details class="anprompt"><summary>As spoken, with the pauses</summary><div class="pre">' +
+        esc(a.marked) + "</div></details>" : "") + "</section>";
+    out += '<div class="gfoot"><button class="linkish" data-andel="' + a.id + '">' +
+      (ans.armed === a.id ? "Press again to delete this answer and its review for good" : "Delete this answer") +
+      "</button></div></article>";
+    return out;
+  }
+
+  function renderAnswers() {
+    var host = document.getElementById("answersBody");
+    var id = settings.answers.id;
+    var fail = function (err) {
+      host.innerHTML = '<div class="empty" style="padding:48px 0"><p class="big">Could not load your answers.</p>' +
+        '<p class="hint">' + esc(err.message) + "</p></div>";
+    };
+    if (!ans.list) {
+      host.innerHTML = '<p class="hint" style="padding:24px 0">Loading...</p>';
+      return loadAnswers().then(renderAnswers)["catch"](fail);
+    }
+    if (!id) { host.innerHTML = answersIndexHtml(); return; }
+    // The map is needed to name the stations a review points at.
+    var need = [];
+    if (!gmap) need.push(loadGrammarData());
+    if (!ans.byId[id]) need.push(api("/api/attempts/" + id).then(function (d) { ans.byId[id] = d.attempt; }));
+    if (need.length) {
+      host.innerHTML = '<p class="hint" style="padding:24px 0">Loading...</p>';
+      return Promise.all(need).then(renderAnswers)["catch"](fail);
+    }
+    host.innerHTML = answerHtml(ans.byId[id]);
+  }
+
+  document.getElementById("answersBody").addEventListener("click", function (ev) {
+    var f = ev.target.closest("[data-anf]");
+    if (f) { ans.filter = f.getAttribute("data-anf"); return renderAnswers(); }
+    var o = ev.target.closest("[data-anopen]");
+    if (o) {
+      var oid = o.getAttribute("data-anopen");
+      if (oid) delete ans.byId[oid];          // re-read: a review may have landed since
+      return navigateTo(oid ? "/answers/" + oid : "/answers");
+    }
+    var st = ev.target.closest("[data-gm]");
+    if (st) return navigateTo("/grammar/" + st.getAttribute("data-gm"));
+    var del = ev.target.closest("[data-andel]");
+    if (del) {
+      var did = Number(del.getAttribute("data-andel"));
+      if (ans.armed !== did) { ans.armed = did; return renderAnswers(); }
+      ans.armed = null;
+      return api("/api/attempts/delete", { id: did }).then(function () {
+        delete ans.byId[did];
+        ans.list = null;
+        if (gmap) gmap = null;                 // its fault counts included this one
+        navigateTo("/answers");
+      })["catch"](function (err) { del.textContent = "Could not delete: " + err.message; });
+    }
   });
 
   /* --------------------------------------------------------------- essays
@@ -4643,11 +5453,11 @@
      means a new twenty minutes; a second copy of that rule in one of the
      three handlers is how they would drift apart.
 
-     Nothing here is sent to the server. /api/essays is a GET with no
-     companion POST: the prompts are static content and the essay is a
-     rehearsal, not a document (see src/essays.js). The draft is kept in
-     `settings` beside the other view state so a reload does not cost you the
-     twenty minutes, and that is as far as it goes.
+     The essay goes to the server only when it is HANDED IN - the button, or
+     the clock running out - as an attempt for the review skill to read (see
+     src/attempts.js; until 26 Sep 2026 it was never kept at all). The draft
+     in progress is kept in `settings` beside the other view state so a reload
+     does not cost you the twenty minutes.
 
      The markup for this view is in the page rather than built here.
      renderEssay() refills the prompt panel and the counters and NEVER touches
@@ -4684,7 +5494,10 @@
     return t ? t.split(/\s+/).length : 0;
   }
 
-  function mmss(ms) {
+  /* Milliseconds. Its own name since 26 Sep 2026: it was `mmss` too, and the
+     Speaking tab's mmss(sec), declared later in the same scope, silently
+     replaced it - the essay clock read 20000:00 from 20 Sep until then. */
+  function essayMmss(ms) {
     var t = Math.max(0, Math.ceil(ms / 1000));
     var m = Math.floor(t / 60), sec = t % 60;
     return (m < 10 ? "0" : "") + m + ":" + (sec < 10 ? "0" : "") + sec;
@@ -4714,7 +5527,7 @@
     var state = document.getElementById("essayState");
     var hold = document.getElementById("essayHold");
 
-    clock.textContent = l.state === "idle" ? mmss(essayMs()) : mmss(l.ms);
+    clock.textContent = l.state === "idle" ? essayMmss(essayMs()) : essayMmss(l.ms);
     clock.className = "eclock" +
       (l.state === "run" ? (l.ms <= 120000 ? " is-low" : " is-run") :
        l.state === "hold" ? " is-hold" :
@@ -4739,7 +5552,43 @@
     restart.textContent = l.state === "idle" ? "Start timer" : "Restart timer";
     restart.disabled = false;
 
+    // Time up hands the essay in by itself, once per clock, the way the exam
+    // takes your paper. A few words is not an essay yet and is left alone.
+    if (l.state === "out") essayAutoHandIn();
+
     essayTimerSync();                         // stops itself the tick it runs out
+  }
+
+  /** Which clock an essay was handed in against: one hand-in per twenty minutes, not per tick. */
+  function essayRunKey() { return (settings.essay.id || "free") + "@" + (settings.essay.endsAt || ""); }
+
+  function essayAutoHandIn() {
+    if (settings.essay.handedIn === essayRunKey() || wordCount(eBox.value) < 20) return;
+    essayHandIn(true);
+  }
+
+  /* Save what is in the box as an attempt, with the prompt and the numbers a
+     review will want. The draft is left where it is: handing in is a copy,
+     and taking a new question is still what clears the box. */
+  function essayHandIn(auto) {
+    if (window.PTE_CLOUD) return;             // nowhere to keep it on that host
+    var q = eById[settings.essay.id] || null;
+    var l = essayLeft();
+    var used = l.state === "idle" ? null : Math.round((essayMs() - l.ms) / 60000);
+    settings.essay.handedIn = essayRunKey();
+    saveSettings();
+    var note = document.getElementById("essaySaved");
+    return saveAttempt({
+      task: "essay",
+      itemId: q ? q.id : "",
+      title: q ? (q.subject || q.topic || q.id) : "Own prompt",
+      prompt: q ? ((essays.types && essays.types[q.type]) || q.type) + " (" + q.id + ")\n\n" + q.prompt
+                : "(written without a prompt from the list)",
+      answer: eBox.value,
+      metrics: { words: wordCount(eBox.value), minutes: used, auto: !!auto }
+    }, note).then(function (id) {
+      if (id && auto) note.insertAdjacentHTML("afterbegin", "Time is up, so it was handed in. ");
+    });
   }
 
   /* Counted off the textarea rather than off `settings.essay.text`: the draft
@@ -4780,6 +5629,7 @@
     };
     saveSettings();
     eBox.value = "";
+    document.getElementById("essaySaved").textContent = "";
     renderEssay();
     eBox.focus();
   }
@@ -4902,6 +5752,8 @@
     saveSettings();
     essayClockPaint();
   });
+
+  document.getElementById("essayHandIn").addEventListener("click", function () { essayHandIn(false); });
 
   document.getElementById("essayClear").addEventListener("click", function () {
     if (wordCount(eBox.value) >= 20 &&
@@ -5291,12 +6143,14 @@
     speakEl("speakSay").hidden = mic.mode !== "repeat";
     speakEl("speakPron").hidden = mic.mode !== "pron";
     speakEl("speakImg").hidden = mic.mode !== "image";
+    speakEl("speakSit").hidden = mic.mode !== "situation";
     speakEl("speakNew").hidden = !read;
 
     if (mic.mode === "pron") return renderPronTask();
     if (listening()) return renderLectureTask();
     if (mic.mode === "repeat") return renderSayTask();
     if (mic.mode === "image") return renderImageTask();
+    if (mic.mode === "situation") return renderSitTask();
 
     if (read) {
       if (!mic.script) newScript();
@@ -5855,6 +6709,7 @@
     // between the two, not a chance to prepare.
     if (mic.mode === "repeat") return 1;
     if (mic.mode === "image") return (mic.imgTimes && mic.imgTimes.prepare) || 25;
+    if (mic.mode === "situation") return (mic.sitTimes && mic.sitTimes.prepare) || 20;
     if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].prepare) || 10;
     return Math.max(20, Math.min(40, Math.round(scriptWords() * 0.55)));
   }
@@ -5869,6 +6724,7 @@
     }
     if (listening()) return (mic.times[taskKey()] && mic.times[taskKey()].speak) || 40;
     if (mic.mode === "image") return (mic.imgTimes && mic.imgTimes.speak) || 40;
+    if (mic.mode === "situation") return (mic.sitTimes && mic.sitTimes.speak) || 40;
     return Math.max(25, Math.min(40, Math.round(scriptWords() * 0.70)));
   }
 
@@ -5877,6 +6733,7 @@
     if (listening() && !mic.heard) return;
     if (mic.mode === "repeat" && !mic.sayHeard) return;
     if (mic.mode === "image" && !imgItem()) return;
+    if (mic.mode === "situation" && !sitItem()) return;
     mic.phase = "prep";
     mic.prepEnds = Date.now() + prepSeconds() * 1000;
     clearInterval(mic.tick);
@@ -6023,7 +6880,8 @@
     // One word needs a few seconds, and stopping by itself is what lets
     // you keep your eyes on the word rather than on the button.
     mic.limit = mic.mode === "pron" ? PRON_SECONDS
-      : (mic.mode === "read" || listening() || mic.mode === "repeat" || mic.mode === "image")
+      : (mic.mode === "read" || listening() || mic.mode === "repeat" || mic.mode === "image" ||
+         mic.mode === "situation")
       ? recSeconds() : 0;
     clearInterval(mic.tick);
     mic.tick = setInterval(speakTick, 200);
@@ -6524,6 +7382,7 @@
       noteSession(rep);
       renderSpeakReport();
       renderSpeakBar();
+      saveSpoken(rep);
       // A Read Aloud files the words it came out wrong on. Said here, at the
       // top of the report, so the list growing is never a surprise.
       var added = rep.pronounce && rep.pronounce.added || [];
@@ -6558,7 +7417,7 @@
 
   function renderSpeakBar() {
     var go = speakEl("speakGo");
-    var read = mic.mode === "read" || mic.mode === "image";
+    var read = mic.mode === "read" || mic.mode === "image" || mic.mode === "situation";
     var retell = listening() || mic.mode === "repeat";
     var busyish = mic.recording || mic.phase === "prep" || mic.busy;
 
@@ -6572,6 +7431,7 @@
     go.disabled = mic.busy || (listening() && !mic.heard) ||
       (mic.mode === "repeat" && !mic.sayHeard) ||
       (mic.mode === "image" && !imgItem()) ||
+      (mic.mode === "situation" && !sitItem()) ||
       (mic.mode === "pron" && !pronWord());
     // ...and then there is nothing for it to do. The lecture ending starts
     // the preparation itself, the way the exam does, so a Start button in a
@@ -7006,7 +7866,7 @@
        thresholds when the recording itself was broken. If the speaking found
        inside the clip is a small fraction of the clip, say so first. */
     var thin = rep.clipSeconds > 4 && (p.words < 8 || p.seconds < rep.clipSeconds * 0.25);
-    var html = "";
+    var html = rep.savedNote ? '<div class="ssec"><p class="shint">' + rep.savedNote + "</p></div>" : "";
     if (thin) {
       html += '<div class="ssec"><h2>Something went wrong with that recording</h2>' +
         '<ul class="slist"><li class="bad">The recording is <b>' + rep.clipSeconds +
@@ -7414,6 +8274,114 @@
     L.push("pronunciation entirely - you are reading a transcript and cannot hear me.");
     return L.join("\n");
   }
+
+  /* ------------------------------------------ saving a spoken answer
+
+     The spoken tasks a model has to mark - Free talk, Re-tell Lecture, Group
+     Discussion, Describe Image, Respond to a Situation - save themselves as an
+     attempt the moment their report comes back, for /review-answers to read
+     (26 Sep 2026). TEXT only: the transcript, the transcript with its pauses
+     written in, and a few numbers. The recording is never sent anywhere but
+     the one analyse request, exactly as before.
+
+     Read Aloud, Repeat Sentence and Pronunciation are not saved: they are
+     marked here, word against script, and a review would have nothing to add.
+     A capture that mostly failed is not saved either - it is a broken
+     recording, not an answer. */
+  var SPOKEN_TASK = { free: "free", retell: "retell", discuss: "discussion", image: "image",
+                      situation: "situation" };
+
+  function saveSpoken(rep) {
+    var task = SPOKEN_TASK[mic.mode];
+    if (!task || window.PTE_CLOUD) return;
+    var p = rep.pace;
+    if (rep.clipSeconds > 4 && (p.words < 8 || p.seconds < rep.clipSeconds * 0.25)) return;
+    var prompt = "", itemId = "", title = "";
+    if (task === "image" && imgItem()) {
+      var it = imgItem();
+      prompt = imagePrompt(rep, it); itemId = it.id; title = it.title;
+    } else if ((task === "retell" || task === "discussion") && mic.item) {
+      prompt = retellPrompt(rep, mic.item); itemId = mic.item.id; title = mic.item.title || mic.item.id;
+    } else if (task === "situation" && sitItem()) {
+      var si = sitItem();
+      itemId = si.id; title = si.title;
+      prompt = "Respond to a Situation (" + si.register + ", " + si["function"] + "). " +
+        prepSeconds() + "s to prepare, " + recSeconds() + "s to speak.\n\n" + si.situation +
+        "\n\nWhat a strong answer does:\n" + si.points.map(function (x) { return "- " + x; }).join("\n");
+    } else if (task === "free") {
+      title = "Free talk";
+      prompt = "Free talk: no prompt, speak about anything for 30-60 seconds.";
+    } else return;
+    var fillers = rep.fillers.certain.length + rep.fluency.filled.length;
+    api("/api/attempts", {
+      task: task, itemId: itemId, title: title, prompt: prompt,
+      answer: rep.text || rep.words.map(function (w) { return String(w.text).trim(); }).join(" "),
+      marked: transcriptWithPauses(rep),
+      metrics: { words: p.words, seconds: p.seconds, wpm: p.wpm, fillers: fillers,
+                 hesitations: rep.fluency.hesitations.length }
+    }).then(function (r) {
+      ans.list = null;
+      rep.savedNote = 'Saved for review as <a href="/answers/' + r.id + '" data-nav="/answers/' + r.id +
+        '">answer #' + r.id + "</a> (the words only, never the recording). Run <code>/review-answers</code> " +
+        "in Claude Code for the sentence-by-sentence review.";
+      if (mic.report === rep) renderSpeakReport();
+    })["catch"](function (err) {
+      rep.savedNote = "Could not save this answer for review: " + esc(err.message);
+      if (mic.report === rep) renderSpeakReport();
+    });
+  }
+
+  /* ------------------------------------------- respond to a situation
+
+     A scenario on screen, 20 seconds to prepare, 40 to say what you would say
+     to the person in it - added to PTE Academic in 2025, and here on 26 Sep
+     2026. Nothing is withheld: the exam shows you the situation throughout.
+     It rides the one recorder and the one clock through startPrep(), as
+     Describe Image does. */
+  function loadSituations() {
+    return api("/api/situations").then(function (d) {
+      mic.sits = d.items || [];
+      mic.sitTimes = d.times || null;
+      var at = -1;
+      for (var i = 0; i < mic.sits.length; i++) if (mic.sits[i].id === settings.speaking.situation) at = i;
+      mic.sitAt = at >= 0 ? at : Math.floor(Math.random() * Math.max(1, mic.sits.length));
+    })["catch"](function () { mic.sits = []; });
+  }
+  function sitItem() { return (mic.sits && mic.sits.length) ? mic.sits[mic.sitAt % mic.sits.length] : null; }
+  function sitGo(at) {
+    var n = (mic.sits || []).length;
+    if (!n) return;
+    mic.sitAt = ((at % n) + n) % n;
+    settings.speaking.situation = mic.sits[mic.sitAt].id;
+    saveSettings();
+    freshTask();
+  }
+  function renderSitTask() {
+    var it = sitItem();
+    if (!it) {
+      speakEl("speakSitNum").textContent = "";
+      speakEl("speakSitTitle").textContent = "";
+      speakEl("speakPrompt").textContent = "";
+      speakEl("speakHint").textContent = "No situations are loaded.";
+      return;
+    }
+    speakEl("speakSitNum").textContent = (mic.sitAt % mic.sits.length + 1) + " of " + mic.sits.length +
+      " · " + it.register + " · " + it["function"];
+    speakEl("speakSitTitle").textContent = it.title;
+    speakEl("speakPrompt").textContent = it.situation;
+    speakEl("speakHint").innerHTML =
+      "<b>" + prepSeconds() + " seconds to prepare, then " + recSeconds() + " to respond.</b> " +
+      "Speak TO the person, in the register the situation calls for. Say what you are responding to, " +
+      "do the job it asks (apologise, persuade, decline ...), give a reason or an alternative, and " +
+      "close politely. Your answer saves itself for review when the report comes back.";
+  }
+  speakEl("speakSitNext").addEventListener("click", function () { sitGo(mic.sitAt + 1); });
+  speakEl("speakSitRandom").addEventListener("click", function () {
+    var n = (mic.sits || []).length;
+    if (n < 2) return sitGo(0);
+    var j = Math.floor(Math.random() * (n - 1));
+    sitGo(j >= mic.sitAt % n ? j + 1 : j);
+  });
 
   /* ------------------------------------------------- describe image
 
@@ -7839,7 +8807,7 @@
     // The read aloud gets its reading time first; free talk starts recording
     // on the press, because there is nothing to read.
     if (mic.mode === "read" || listening() || mic.mode === "repeat" ||
-        mic.mode === "image") startPrep();
+        mic.mode === "image" || mic.mode === "situation") startPrep();
     else startRecording();
   });
 
@@ -8222,8 +9190,16 @@
         "The wording is never on screen until you have answered &mdash; you get it " +
         "by ear, the way the exam gives it. Where more than one word honestly fits, " +
         "every one of them is accepted.";
-    quizEl("listenBody").hidden = hiwOn;
+    var sstOn = settings.listening.mode === "sst";
+    if (sstOn) {
+      quizEl("listenLede").innerHTML = "You hear a lecture once and then have ten minutes to write a " +
+        "summary of 50 to 70 words. Take notes while it plays. Handing in saves it for review, and shows " +
+        "you what the lecture said.";
+    }
+    quizEl("listenBody").hidden = hiwOn || sstOn;
     quizEl("hiwBody").hidden = !hiwOn;
+    quizEl("sstBody").hidden = !sstOn;
+    if (sstOn) return renderSumm("sst");
     if (hiwOn) return renderHiw();
 
     var box = quizEl("listenBody");
@@ -8687,6 +9663,7 @@
   var rdq = {
     sets: [], tasks: {}, progress: {}, byId: {},
     at: 0, resp: null, verdict: null, busy: false,
+    endsAt: null, allow: 0, timeUp: false, took: null, timer: null,   // the clock
     held: null,                                // a word picked up from the box
     drag: null,                                // what is being dragged, if anything
     note: ""
@@ -8704,6 +9681,83 @@
 
   function rdqReset(at) {
     rdq.at = at; rdq.resp = null; rdq.verdict = null; rdq.held = null; rdq.note = "";
+    rdq.endsAt = null; rdq.allow = 0; rdq.timeUp = false; rdq.took = null;
+    // A live interval must go with the item, or the next item's clock never
+    // starts: renderReading() only starts one when none is running.
+    clearInterval(rdq.timer); rdq.timer = null;
+    rdq.seq = (rdq.seq || 0) + 1;              // a verdict for an item since left is dropped
+  }
+
+  /* ---- the clock. Every item is timed, from the moment it is ROTATED in -
+     the Essays tab's rule - and when it hits zero the item is locked and
+     marked with whatever is on it. There is no pause and no start button.
+
+     The allowance is deliberately a little UNREASONABLE: read at 240 words a
+     minute, then a few seconds per decision. That is faster than a careful
+     first read, which is the point - it trains reading fast and proof-reading
+     on the way, not reading twice. RDQ_PACE is the one place to tune it. */
+  var RDQ_PACE = {
+    wps: 4,                                     // words per second, for everything on screen
+    per: { "fib-r": 6, "fib-rw": 8, "reorder": 6, "mcq-single": 10, "mcq-multi": 15 },
+    min: 30                                     // no item gets less, however short
+  };
+  function rdqWords(str) { return String(str || "").split(/\s+/).filter(Boolean).length; }
+  /** Seconds allowed for this item: reading time plus a few per decision. */
+  function rdqAllowance(task, item) {
+    var words = 0, decisions = 1;
+    if (task === "fib-r" || task === "fib-rw") {
+      item.parts.forEach(function (p) { if (typeof p === "string") words += rdqWords(p); });
+      decisions = rdqGapCount(item);
+    } else if (task === "reorder") {
+      item.paragraphs.forEach(function (p) { words += rdqWords(p); });
+      decisions = item.paragraphs.length;
+    } else {
+      words = rdqWords(item.passage) + rdqWords(item.question) +
+        item.options.reduce(function (n, o) { return n + rdqWords(o); }, 0);
+    }
+    var secs = words / RDQ_PACE.wps + decisions * (RDQ_PACE.per[task] || 8);
+    return Math.max(RDQ_PACE.min, Math.ceil(secs / 5) * 5);
+  }
+  function rdqClockText(ms) {
+    var s = Math.max(0, Math.ceil(ms / 1000));
+    return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
+  }
+  /** Repaint the clock ONLY - never the item. A repaint of the body would
+      close an open dropdown and drop the focus from under the reader. */
+  function rdqClockPaint() {
+    var c = document.getElementById("rdqClock"), bar = document.getElementById("rdqBar");
+    if (!c) return;
+    if (rdq.verdict || rdq.timeUp) {
+      var used = rdq.took != null ? rdqClockText(rdq.took) : "";
+      c.className = "rclock " + (rdq.timeUp ? "out" : "done");
+      c.textContent = rdq.timeUp ? "Time up" : used + " of " + rdqClockText(rdq.allow * 1000);
+      if (bar) bar.hidden = true;
+      return;
+    }
+    if (rdq.endsAt == null) return;
+    var left = rdq.endsAt - Date.now(), low = left <= 10000;
+    c.className = "rclock" + (low ? " low" : "");
+    c.textContent = rdqClockText(left);
+    if (bar) {
+      bar.className = "rbar" + (low ? " low" : "");
+      bar.firstChild.style.transform = "scaleX(" + Math.max(0, left / (rdq.allow * 1000)) + ")";
+    }
+  }
+  function rdqTick() {
+    if (rdq.endsAt == null || rdq.verdict || rdq.timeUp) {
+      clearInterval(rdq.timer); rdq.timer = null; return;
+    }
+    if (Date.now() >= rdq.endsAt) return rdqExpire();
+    rdqClockPaint();
+  }
+  /** Out of time: lock the item and mark whatever is on it, straight away. */
+  function rdqExpire() {
+    clearInterval(rdq.timer); rdq.timer = null;
+    // A Check already on its way beat the buzzer; its verdict is coming.
+    if (rdq.busy) return;
+    rdq.timeUp = true; rdq.held = null; rdq.drag = null;
+    rdqSubmit(true);
+    renderReading();                            // draws the body inert
   }
   /** The open question type: the saved one, if it has any sets loaded. */
   function rdqTask() {
@@ -8763,7 +9817,18 @@
     if (rdq.at >= st.items.length) rdqReset(0);
     var item = st.items[rdq.at];
     if (!rdq.resp) rdq.resp = rdqFresh(task, item);
+    // The clock starts the first time an item is DRAWN on the Reading tab, not
+    // when it is chosen from elsewhere - a route change on another tab must
+    // not leave a clock running down in the background.
+    if (rdq.endsAt == null && !rdq.verdict && !rdq.timeUp && settings.view === "reading") {
+      rdq.allow = rdqAllowance(task, item);
+      rdq.endsAt = Date.now() + rdq.allow * 1000;
+    }
     var v = rdq.verdict;
+    // Locked from the moment time runs out, not from when the verdict comes
+    // back: `inert` takes the mouse AND the keyboard, so a dropdown cannot be
+    // changed in the round trip after the buzzer.
+    var locked = rdq.timeUp && !v;
     var t = rdqTally(st.id);
 
     var body =
@@ -8796,6 +9861,12 @@
                 esc(x.title) + "</button>";
             }).join("") + "</span>"
           : "") +
+        // Previous / Next move between items without answering. The item you
+        // land on is rotated in, so its clock starts from full.
+        '<span class="rstep">' +
+          '<button class="btn small" data-rstep="-1" aria-label="Previous item">&lsaquo; Prev</button>' +
+          '<button class="btn small" data-rstep="1" aria-label="Next item">Next &rsaquo;</button>' +
+        "</span>" +
         '<span class="qcount">Item ' + (rdq.at + 1) + " of " + st.items.length +
         (t.right + t.wrong ? " &middot; " + t.right + " full marks, " + t.wrong + " not" : "") +
         "</span>" +
@@ -8803,15 +9874,22 @@
       (st.summary ? '<p class="rsum">' + esc(st.summary) + "</p>" : "") +
       '<div class="qcard rcard">' +
         '<p class="rhow">' + esc(info.how || "") + "</p>" +
+        '<div class="rbar"' + (v || rdq.timeUp ? " hidden" : "") + ' id="rdqBar"><i></i></div>' +
         (item.title ? '<h3 class="rtitle">' + esc(item.title) + "</h3>" : "") +
-        body +
+        '<div class="rbody"' + (locked ? " inert" : "") + ">" + body + "</div>" +
         '<div class="qanswer">' +
-          '<button class="btn btn-primary" data-rgo="1">' + (v ? "Next" : "Check") + "</button>" +
-          (v ? "" : '<button class="btn small" data-rclear="1">Clear</button>') +
+          '<button class="btn btn-primary" data-rgo="1"' + (rdq.busy ? " disabled" : "") + ">" +
+            (v ? "Next" : rdq.busy ? "Marking&hellip;" : "Check") + "</button>" +
+          (v || locked ? "" : '<button class="btn small" data-rclear="1">Clear</button>') +
           '<span class="qplaynote">' + esc(rdq.note) + "</span>" +
+          '<span class="rclock" id="rdqClock" role="timer" aria-label="Time left"></span>' +
         "</div>" +
         (v ? rdqVerdictHtml(task, item, v) : "") +
       "</div>";
+    rdqClockPaint();
+    if (rdq.endsAt != null && !v && !rdq.timeUp && !rdq.timer) {
+      rdq.timer = setInterval(rdqTick, 250);
+    }
   }
 
   /* ---- the four bodies. Each draws the same thing before and after the
@@ -8899,6 +9977,7 @@
     var full = v.score === v.max;
     var html = '<div class="qverdict">' +
       '<p class="qmark ' + (full ? "right" : "wrong") + '">' +
+        (rdq.timeUp ? "Time up &mdash; " : "") +
         v.score + " of " + v.max + (full ? " &mdash; full marks" : "") + "</p>";
     if (task === "fib-rw" || task === "fib-r") {
       html += '<ol class="rwhy">' + v.answers.map(function (a, g) {
@@ -8930,9 +10009,11 @@
     return true;                               // an order is always an answer
   }
 
-  function rdqSubmit() {
+  /** `forced` is the clock running out: marked as it stands, blank or not. */
+  function rdqSubmit(forced) {
     var st = rdqSet();
-    if (!st || rdq.busy) return;
+    if (!st) return;
+    if (rdq.busy) return;
     // Second press: move on. One button, two meanings - the Listening tab's rule.
     if (rdq.verdict) {
       rdqReset((rdq.at + 1) % st.items.length);
@@ -8940,19 +10021,25 @@
       window.scrollTo(0, 0);
       return;
     }
-    if (!rdqAnswered()) { rdq.note = "Nothing answered yet."; return renderReading(); }
-    var item = rdqItem();
+    if (rdq.timeUp) forced = true;              // after the buzzer, Check only retries a failed mark
+    if (!forced && !rdqAnswered()) { rdq.note = "Nothing answered yet."; return renderReading(); }
+    var item = rdqItem(), seq = rdq.seq;
     rdq.busy = true;
+    if (!rdq.timeUp && rdq.endsAt != null) rdq.took = rdq.allow * 1000 - (rdq.endsAt - Date.now());
     api("/api/reading/answer", { item: item.id, response: rdq.resp }).then(function (d) {
+      rdq.busy = false;
+      if (seq !== rdq.seq) return;              // skipped past while it was being marked
       rdq.verdict = d;
       rdq.note = "";
       rdq.progress[st.id] = rdq.progress[st.id] || { answers: {} };
       rdq.progress[st.id].answers[item.id] = d.tally;
       renderReading();
     })["catch"](function (err) {
+      rdq.busy = false;                         // before the repaint, or Check stays disabled
+      if (seq !== rdq.seq) return;
       rdq.note = "Could not mark that: " + (err.message || err);
       renderReading();
-    })["finally"](function () { rdq.busy = false; });
+    });
   }
 
   /** Put a word from the box into gap g. Whatever was there goes back. */
@@ -8987,7 +10074,13 @@
         return navigateTo("/reading/" + READ_SLUG[rdqTask()] + "/" + b.dataset.rsetn);
       }
       if (hit(ev, "[data-rgo]")) return rdqSubmit();
-      if (rdq.verdict) return;
+      if ((b = hit(ev, "[data-rstep]"))) {
+        var n = rdqSet().items.length;
+        rdqReset((rdq.at + Number(b.dataset.rstep) + n) % n);
+        renderReading();
+        return window.scrollTo(0, 0);
+      }
+      if (rdq.verdict || rdq.timeUp) return;
       var item = rdqItem();
       if (!item) return;
       if (hit(ev, "[data-rclear]")) {
@@ -9014,7 +10107,7 @@
     });
 
     root.addEventListener("change", function (ev) {
-      if (rdq.verdict || !rdq.resp) return;
+      if (rdq.verdict || rdq.timeUp || !rdq.resp) return;
       var n = ev.target;
       if (n.dataset.rgap != null) { rdq.resp.gaps[Number(n.dataset.rgap)] = n.value; return; }
       if (n.dataset.ropt != null) {
@@ -9031,7 +10124,7 @@
     /* Dragging: a word from the box, a word out of a gap, or a paragraph. */
     root.addEventListener("dragstart", function (ev) {
       var b, item = rdqItem();
-      if (!item || rdq.verdict) return;
+      if (!item || rdq.verdict || rdq.timeUp) return;
       if ((b = hit(ev, "[data-rword]"))) {
         rdq.drag = { word: item.bank[Number(b.dataset.rword)] };
       } else if ((b = hit(ev, "[data-rslot]"))) {
@@ -9059,7 +10152,7 @@
     });
     root.addEventListener("drop", function (ev) {
       var d = rdq.drag, t;
-      if (!d) return;
+      if (!d || rdq.timeUp) return;
       ev.preventDefault();
       rdq.drag = null;
       if (d.word) {
@@ -9116,6 +10209,7 @@
     discuss: "group-discussion",
     repeat: "repeat-sentence",
     image: "describe-image",
+    situation: "respond-to-a-situation",
     pron: "pronunciation"
   };
   function speakSlugOf(mode) { return SPEAK_SLUG[mode] || SPEAK_SLUG.free; }
@@ -9134,9 +10228,10 @@
     return null;                              // bare /reading, or a typo
   }
 
-  var LISTEN_SLUG = { define: "word-from-definition", hiw: "highlight-incorrect-words" };
+  var LISTEN_SLUG = { define: "word-from-definition", hiw: "highlight-incorrect-words",
+                      sst: "summarize-spoken-text" };
 
-  var WRITE_SLUG = { essay: "essay" };
+  var WRITE_SLUG = { essay: "essay", swt: "summarize-written-text" };
   function writeSlugOf(mode) { return WRITE_SLUG[mode] || WRITE_SLUG.essay; }
   function writeModeOf(slug) {
     for (var m in WRITE_SLUG) if (WRITE_SLUG[m] === slug) return m;
@@ -9152,7 +10247,8 @@
     if (!seg.length) return null;                       // "/" - use what is remembered
 
     if (seg[0] === "word_list") return { view: "list" };
-    if (seg[0] === "grammar") return { view: "grammar", module: seg[1] || null };
+    if (seg[0] === "answers") return { view: "answers", answer: Number(seg[1]) || null };
+    if (seg[0] === "grammar") return { view: "grammar", station: seg[1] || null };
     // Same shape as the grammar routes: the index, or one set being drilled.
     // One URL per task, as on Speaking and Reading. The definition drill
     // keeps its set under its own slug; a bare set id is the address that
@@ -9160,6 +10256,7 @@
     if (seg[0] === "listening") {
       if (!seg[1]) return { view: "listening" };
       if (seg[1] === LISTEN_SLUG.hiw) return { view: "listening", lmode: "hiw", n: Number(seg[2]) || null };
+      if (seg[1] === LISTEN_SLUG.sst) return { view: "listening", lmode: "sst" };
       if (seg[1] === LISTEN_SLUG.define) return { view: "listening", lmode: "define", set: seg[2] || null };
       return { view: "listening", lmode: "define", set: seg[1] };
     }
@@ -9214,16 +10311,18 @@
   /** The URL for what is on screen right now. */
   function currentUrl() {
     if (settings.view === "list") return "/word_list";
+    if (settings.view === "answers") return settings.answers.id ? "/answers/" + settings.answers.id : "/answers";
     if (settings.view === "grammar") {
-      // A module id that is not on disk falls back to the index, the same way
-      // a deleted batch number does.
-      var gm = settings.grammar.module;
-      return gm && (!grammar || gById[gm]) ? "/grammar/" + gm : "/grammar";
+      // A station id that is not on the map falls back to the map, the same
+      // way a deleted batch number does.
+      var gm = settings.grammar.station;
+      return gm && (!gmap || gmStation[gm]) ? "/grammar/" + gm : "/grammar";
     }
     if (settings.view === "listening") {
       // A set id that is not on disk falls back to the index, the way a
       // deleted batch number and a missing grammar module already do.
       var qs = settings.listening.set;
+      if (settings.listening.mode === "sst") return "/listening/" + LISTEN_SLUG.sst;
       if (settings.listening.mode === "hiw") {
         var hn = hiwq.sets.indexOf(hiwSet()) + 1;
         return "/listening/" + LISTEN_SLUG.hiw + (hn > 1 ? "/" + hn : "");
@@ -9265,7 +10364,8 @@
         settings.batch.n[r.batch.kind] = r.batch.n;
       }
       if (r.view === "practice") settings.train = r.train || null;
-      if (r.view === "grammar") settings.grammar.module = r.module || null;
+      if (r.view === "grammar") settings.grammar.station = r.station || null;
+      if (r.view === "answers") settings.answers.id = r.answer || null;
       if (r.view === "listening") {
         if (r.lmode) settings.listening.mode = r.lmode;
         // A different set means a fresh start rather than resuming somebody
@@ -9360,9 +10460,11 @@
     // typed /speaking on the cloud build falls through to the drill rather
     // than showing an empty section.
     if (v === "speaking" && !mic.available) v = "practice";
+    // The same for My answers: the cloud build has nowhere to keep them.
+    if (v === "answers" && window.PTE_CLOUD) v = "practice";
     settings.view = (v === "list" || v === "batches" || v === "grammar" ||
                      v === "writing" || v === "speaking" || v === "listening" ||
-                     v === "reading") ? v : "practice";
+                     v === "reading" || v === "answers") ? v : "practice";
     var training = TRAINING[settings.view] === true;
     if (training) settings.trainView = settings.view;
     saveSettings();
@@ -9382,8 +10484,17 @@
     document.getElementById("listView").hidden = settings.view !== "list";
     document.getElementById("batchView").hidden = settings.view !== "batches";
     document.getElementById("grammarView").hidden = settings.view !== "grammar";
+    document.getElementById("answersView").hidden = settings.view !== "answers";
     document.getElementById("essayView").hidden =
       !(settings.view === "writing" && settings.writing.mode === "essay");
+    document.getElementById("swtView").hidden =
+      !(settings.view === "writing" && settings.writing.mode === "swt");
+    document.getElementById("writeTabs").hidden = settings.view !== "writing";
+    [].slice.call(document.querySelectorAll("[data-wmode]")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.wmode === settings.writing.mode));
+    });
+    // Leaving a summary task stops its lecture; the clock itself is a deadline.
+    if (summKind() !== "sst") stopSumAudio();
     document.getElementById("listenView").hidden = settings.view !== "listening";
     document.getElementById("readView").hidden = settings.view !== "reading";
     document.getElementById("speakView").hidden = settings.view !== "speaking";
@@ -9404,7 +10515,10 @@
     if (practice) { renderTrainbar(); renderCard(); }
     else if (settings.view === "list") renderList();
     else if (settings.view === "grammar") renderGrammar();
-    else if (settings.view === "writing") renderEssay();
+    else if (settings.view === "answers") renderAnswers();
+    else if (settings.view === "writing") {
+      if (settings.writing.mode === "swt") renderSumm("swt"); else renderEssay();
+    }
     else if (settings.view === "listening") renderListen();
     else if (settings.view === "reading") renderReading();
     else if (settings.view === "speaking") renderSpeak();
@@ -9412,11 +10526,12 @@
 
     // Leaving the tab stops the repainting; the deadline itself carries on.
     essayTimerSync();
+    summPaint();
   }
 
   var VIEW_PATH = { list: "/word_list", batches: "/batches", grammar: "/grammar",
                     writing: "/writing", speaking: "/speaking", practice: "/practice",
-                    listening: "/listening", reading: "/reading" };
+                    listening: "/listening", reading: "/reading", answers: "/answers" };
 
   // The four views under the Training tab. It is a group of views, not a view
   // of its own, so it has no route: its address is whichever one is open.
@@ -9424,6 +10539,9 @@
 
   document.querySelectorAll("[data-view]").forEach(function (b) {
     b.addEventListener("click", function () { navigateTo(VIEW_PATH[b.dataset.view]); });
+  });
+  [].slice.call(document.querySelectorAll("[data-wmode]")).forEach(function (b) {
+    b.addEventListener("click", function () { navigateTo("/writing/" + writeSlugOf(b.dataset.wmode)); });
   });
   document.querySelector('[data-group="training"]').addEventListener("click", function () {
     navigateTo(VIEW_PATH[TRAINING[settings.trainView] ? settings.trainView : "list"]);
@@ -9714,6 +10832,8 @@
   /* ----------------------------------------------------------------- go */
 
   function boot() {
+    // My answers lives on this machine only; see src/attempts.js.
+    document.getElementById("answersTab").hidden = !!window.PTE_CLOUD;
     // probeSpeech() is IN the gate, unlike loadVoices() below it, and the
     // difference is that the ROUTE depends on it. setView() sends /speaking to
     // the drill on a host that cannot listen, and applyRoute() then rewrites
@@ -9721,7 +10841,8 @@
     // the corrected URL and lands on the drill for ever. It is one small local
     // request, and on the cloud build it is answered from memory.
     return Promise.all([loadDeck(), loadUsage(), probeSpeech(), loadListenItems(),
-                        loadListen(), loadSentences(), loadImages(), loadReading(), loadHiw()]).then(function () {
+                        loadListen(), loadSentences(), loadImages(), loadReading(), loadHiw(),
+                        loadSituations(), loadSwt()]).then(function () {
       applyRoute();
       // After the deck, not with it: the voice bar is a nicety and must not hold
       // up the first card, and a server without TTS simply hides the bar.
